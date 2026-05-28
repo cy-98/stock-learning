@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react';
+import { useEffect, useState, type ReactNode } from 'react';
 import { useNavigate, useParams, useSearchParams } from 'react-router-dom';
 import { getLayerById, type LayerTab } from '../config/layers';
 import { fetchLayerTopStocks, type RankedStock } from '../services/stock';
@@ -19,7 +19,7 @@ function SectionCard({
   children,
 }: {
   title: string;
-  children: React.ReactNode;
+  children: ReactNode;
 }) {
   return (
     <div className="card card-border bg-base-100 shadow-sm">
