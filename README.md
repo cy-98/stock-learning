@@ -1,38 +1,32 @@
 # stock-learning
 
-股票投资学习笔记与案例复盘（Section 1 框架 + Section 2 案例）。
+股票投资学习笔记 + **AI 五层模型** 前端看板。
 
-## 在线站点：AI 五层模型
+## 在线访问
 
-GitHub Pages 部署的移动端页面，按 **算力 → 模型 → 平台 → 应用 → 生态** 五层展示行业分析、趋势研判与近期大事件。
+部署后地址：**https://cy-98.github.io/stock-learning/**
 
-- **访问地址**（部署完成后）：`https://cy-98.github.io/stock-learning/`
-- **本地预览**：
+首次需在仓库 [Settings → Pages](https://github.com/cy-98/stock-learning/settings/pages) 选择 **Deploy from branch → gh-pages → / (root)**。
+
+## 前端工程（`web/`）
+
+- **Vite + React + TypeScript**
+- 行情与 K 线：**[stock-sdk](https://www.npmjs.com/package/stock-sdk)**（浏览器端直连）
+- 图表：**lightweight-charts**
+- 每层展示 **国内 A 股 Top5** 与 **海外 Top5**（按总市值排序），附近 60 日 K 线
 
 ```bash
-cd docs && python3 -m http.server 8080
+cd web
+npm install
+npm run dev      # http://localhost:5173/stock-learning/
+npm run build    # 输出 web/dist
 ```
 
-浏览器打开 `http://localhost:8080`
+## 文档
 
-## 仓库文档
-
-| 文件 | 说明 |
-|------|------|
-| [section-1.md](./section-1.md) | 投资分析框架入门 |
-| [section-2.md](./section-2.md) | 澜起科技、电力板块等案例复盘 |
-| [docs/](./docs/) | AI 五层模型静态站点源码 |
-
-## GitHub Pages 说明
-
-- 站点源码目录：`docs/`
-- 部署工作流：[`.github/workflows/pages.yml`](./.github/workflows/pages.yml)（推送 `main` 后自动更新 `gh-pages` 分支）
-- **首次上线需手动开启一次**（约 30 秒）：
-  1. 打开 [Settings → Pages](https://github.com/cy-98/stock-learning/settings/pages)
-  2. **Build and deployment → Source** 选 **Deploy from a branch**
-  3. **Branch** 选 `gh-pages`，文件夹选 `/ (root)`，保存
-  4. 等待 1～3 分钟，访问 **https://cy-98.github.io/stock-learning/**
+- [section-1.md](./section-1.md) — 投资分析框架
+- [section-2.md](./section-2.md) — 案例复盘
 
 ---
 
-*学习用途，不构成投资建议。*
+*仅供学习，不构成投资建议。*
