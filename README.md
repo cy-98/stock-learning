@@ -26,6 +26,7 @@ npm run build    # 输出 web/dist
 
 - [section-1.md](./section-1.md) — 投资分析框架
 - [section-2.md](./section-2.md) — 案例复盘
+- [section-3.md](./section-3.md) — 五层模型股票分析与合理价格区间
 
 ---
 
