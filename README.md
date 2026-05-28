@@ -25,9 +25,13 @@ cd docs && python3 -m http.server 8080
 
 ## GitHub Pages 说明
 
-- 站点目录：`docs/`
-- 工作流：[`.github/workflows/pages.yml`](./.github/workflows/pages.yml)
-- 首次使用需在仓库 **Settings → Pages** 中将 Source 设为 **GitHub Actions**（若尚未配置）
+- 站点源码目录：`docs/`
+- 部署工作流：[`.github/workflows/pages.yml`](./.github/workflows/pages.yml)（推送 `main` 后自动更新 `gh-pages` 分支）
+- **首次上线需手动开启一次**（约 30 秒）：
+  1. 打开 [Settings → Pages](https://github.com/cy-98/stock-learning/settings/pages)
+  2. **Build and deployment → Source** 选 **Deploy from a branch**
+  3. **Branch** 选 `gh-pages`，文件夹选 `/ (root)`，保存
+  4. 等待 1～3 分钟，访问 **https://cy-98.github.io/stock-learning/**
 
 ---
 
