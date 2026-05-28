@@ -1,4 +1,5 @@
 import { LAYER_ANALYSIS } from './layerAnalysis';
+import type { LayerHeatPeriod } from '../utils/heatProgress';
 
 export type LayerTab = 'industry' | 'trends' | 'events' | 'stocks' | 'analysis';
 
@@ -59,6 +60,8 @@ export interface LayerConfig {
   gradient: string;
   tagline: string;
   summary: string;
+  /** 热度周期：进度 = (今天-开始) / (结束-开始) */
+  heatPeriod: LayerHeatPeriod;
   stocks: LayerStockPool;
   industry: {
     overview: string;
@@ -82,6 +85,7 @@ export const LAYERS: LayerConfig[] = [
     tagline: '芯片 · 数据中心 · 光互联 · 电力能源',
     summary:
       'AI 训练的「电厂与公路」：GPU/ASIC、晶圆代工、服务器、光模块、IDC 与电力是整条链的物理底座。',
+    heatPeriod: { start: '2023-01-01', end: '2027-12-31', label: 'AI 算力资本开支周期' },
     stocks: {
       cn: [
         'sh688981',
@@ -139,6 +143,7 @@ export const LAYERS: LayerConfig[] = [
     gradient: 'linear-gradient(135deg, #5b21b6 0%, #8b5cf6 50%, #a78bfa 100%)',
     tagline: '大模型 · 多模态 · 开源生态 · 对齐与安全',
     summary: '基础模型是 AI 的操作系统：闭源 API 与开源权重并行，监管与对齐成本上升。',
+    heatPeriod: { start: '2022-11-01', end: '2026-12-31', label: '大模型能力迭代周期' },
     stocks: {
       cn: ['sh688111', 'sh688246', 'sh300418', 'sh603533', 'sh002230', 'sh688088'],
       global: ['usMSFT', 'usGOOGL', 'usMETA', 'usAMZN', 'usPLTR', 'usAI'],
@@ -182,6 +187,7 @@ export const LAYERS: LayerConfig[] = [
     gradient: 'linear-gradient(135deg, #0e7490 0%, #06b6d4 50%, #22d3ee 100%)',
     tagline: '云计算 · MLOps · 开发框架 · 数据工程',
     summary: '把模型变成生产力的脚手架：算力、模型 API、向量库与 Agent 编排。',
+    heatPeriod: { start: '2024-01-01', end: '2027-06-30', label: '企业 AI 平台落地周期' },
     stocks: {
       cn: ['sh600588', 'sh688158', 'sh300454', 'sz002410', 'sh601360'],
       global: ['usMSFT', 'usAMZN', 'usGOOGL', 'usSNOW', 'usCRM', 'usORCL'],
@@ -223,6 +229,7 @@ export const LAYERS: LayerConfig[] = [
     gradient: 'linear-gradient(135deg, #047857 0%, #10b981 50%, #34d399 100%)',
     tagline: '行业 Copilot · SaaS · 垂直智能体',
     summary: 'AI 价值兑现主战场：金融、制造、医疗等场景的 ROI 验证。',
+    heatPeriod: { start: '2025-01-01', end: '2028-12-31', label: '行业应用 ROI 验证周期' },
     stocks: {
       cn: ['sh600519', 'sz000858', 'sh601318', 'sh600036', 'sz300750', 'sh688169'],
       global: ['usAAPL', 'usTSLA', 'usNFLX', 'usADBE', 'usNOW', 'usUBER'],
@@ -265,6 +272,7 @@ export const LAYERS: LayerConfig[] = [
     gradient: 'linear-gradient(135deg, #b45309 0%, #f59e0b 50%, #fbbf24 100%)',
     tagline: '机器人 · 智能汽车 · 数据 · 政策与资本',
     summary: 'AI 走向物理世界与社会系统：具身智能、稀土、电力、高股息防御资产联动。',
+    heatPeriod: { start: '2024-06-01', end: '2027-12-31', label: '机器人·资源·主题联动周期' },
     stocks: {
       cn: [
         'sh600111',

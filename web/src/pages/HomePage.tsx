@@ -1,7 +1,6 @@
-import { Link } from 'react-router-dom';
 import { LAYERS } from '../config/layers';
+import { LayerHeatCard } from '../components/LayerHeatCard';
 import { PageShell } from '../components/PageShell';
-import { getLayerAccent } from '../utils/layerTheme';
 
 export function HomePage() {
   const stack = [...LAYERS].reverse();
@@ -17,7 +16,9 @@ export function HomePage() {
           <p className="text-sm leading-relaxed text-base-content/70">
             每层提供 Top5 行情、行业/趋势/事件，以及 Section 1 投资分析框架。
           </p>
-          <p className="text-xs text-base-content/50">行情在浏览器端通过 stock-sdk 拉取</p>
+          <p className="text-xs text-base-content/50">
+            卡片背景填充比例 = 热度周期已过时间 ÷ 周期总时长（至结束日）
+          </p>
         </div>
       </div>
 
@@ -27,33 +28,11 @@ export function HomePage() {
       </div>
 
       <ul className="flex flex-col gap-2">
-        {stack.map((layer) => {
-          const accent = getLayerAccent(layer.id);
-          return (
-            <li key={layer.id}>
-              <Link
-                to={`/layer/${layer.id}`}
-                className={`card card-border bg-base-100 shadow-sm transition hover:border-primary/40 hover:shadow-md ${accent.border} border-l-4`}
-              >
-                <div className="card-body flex-row items-center gap-3 p-4">
-                  <span className="text-2xl" aria-hidden>
-                    {layer.icon}
-                  </span>
-                  <div className="min-w-0 flex-1">
-                    <div className={`badge badge-sm ${accent.badge} badge-outline`}>
-                      L{layer.id} · {layer.short}
-                    </div>
-                    <h3 className="mt-1 truncate font-medium">{layer.name}</h3>
-                    <p className="truncate text-xs text-base-content/60">{layer.tagline}</p>
-                  </div>
-                  <span className="text-base-content/40" aria-hidden>
-                    ›
-                  </span>
-                </div>
-              </Link>
-            </li>
-          );
-        })}
+        {stack.map((layer) => (
+          <li key={layer.id}>
+            <LayerHeatCard layer={layer} />
+          </li>
+        ))}
       </ul>
 
       <p className="px-1 text-center text-xs leading-relaxed text-base-content/50">
