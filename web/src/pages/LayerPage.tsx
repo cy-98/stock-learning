@@ -2,6 +2,7 @@ import { useEffect, useState, type ReactNode } from 'react';
 import { useNavigate, useParams, useSearchParams } from 'react-router-dom';
 import { getLayerById, type LayerTab } from '../config/layers';
 import { fetchLayerTopStocks, type RankedStock } from '../services/stock';
+import { useLayerEventsAndTrends } from '../context/LayerFeedContext';
 import { PageShell } from '../components/PageShell';
 import { StockRankPanel } from '../components/StockRankPanel';
 import { getLayerAccent, trendBadge } from '../utils/layerTheme';
@@ -31,6 +32,33 @@ function SectionCard({
   );
 }
 
+function FeedMeta({
+  isDynamic,
+  updated,
+  source,
+  loading,
+  onRefresh,
+}: {
+  isDynamic: boolean;
+  updated: string | null;
+  source: string | null;
+  loading: boolean;
+  onRefresh: () => void;
+}) {
+  return (
+    <div className="mb-3 flex flex-wrap items-center gap-2">
+      <span className={`badge badge-sm ${isDynamic ? 'badge-primary' : 'badge-ghost'}`}>
+        {isDynamic ? '动态加载' : '内置兜底'}
+      </span>
+      {updated && <span className="text-xs text-base-content/55">更新 {updated}</span>}
+      {source && <span className="text-xs text-base-content/45">来源 {source}</span>}
+      <button type="button" className="btn btn-ghost btn-xs" disabled={loading} onClick={onRefresh}>
+        {loading ? '刷新中…' : '刷新动态数据'}
+      </button>
+    </div>
+  );
+}
+
 export function LayerPage() {
   const { id } = useParams();
   const layerId = Number(id);
@@ -44,6 +72,19 @@ export function LayerPage() {
   const [loading, setLoading] = useState(false);
   const [stockError, setStockError] = useState<string | null>(null);
   const [refreshKey, setRefreshKey] = useState(0);
+
+  const {
+    events,
+    trends,
+    isDynamic,
+    feedUpdated,
+    feedSource,
+    feedStatus,
+    refreshFeed,
+  } = useLayerEventsAndTrends(layerId, {
+    events: layer?.events ?? [],
+    trends: layer?.trends ?? [],
+  });
 
   useEffect(() => {
     if (!layer) navigate('/', { replace: true });
@@ -197,8 +238,15 @@ export function LayerPage() {
 
       {tab === 'trends' && (
         <SectionCard title="趋势研判">
+          <FeedMeta
+            isDynamic={isDynamic}
+            updated={feedUpdated}
+            source={feedSource}
+            loading={feedStatus === 'loading'}
+            onRefresh={refreshFeed}
+          />
           <ul className="flex flex-col gap-3">
-            {layer.trends.map((t) => (
+            {trends.map((t) => (
               <li key={t.title} className="flex gap-3 border-b border-base-200 pb-3 last:border-0">
                 <span className={`badge badge-sm shrink-0 ${trendBadge(t.signal)}`}>
                   {t.signal === 'bullish' ? '利多' : t.signal === 'caution' ? '谨慎' : '中性'}
@@ -215,8 +263,19 @@ export function LayerPage() {
 
       {tab === 'events' && (
         <SectionCard title="时间线">
+          <FeedMeta
+            isDynamic={isDynamic}
+            updated={feedUpdated}
+            source={feedSource}
+            loading={feedStatus === 'loading'}
+            onRefresh={refreshFeed}
+          />
+          <p className="mb-3 text-xs text-base-content/55">
+            大事件数据来自仓库 web/public/data/layer-feed.json，可由 docs/data/layers.json 同步。
+            修改 JSON 后推送并部署即可更新。
+          </p>
           <ul className="timeline timeline-vertical timeline-compact -ml-2">
-            {layer.events.map((e) => (
+            {events.map((e) => (
               <li key={e.title + e.date}>
                 <div className="timeline-start text-xs font-medium text-base-content/55">
                   {e.date}

@@ -2,7 +2,18 @@ import { useEffect, useState } from 'react';
 import { LAYERS } from '../config/layers';
 import { LayerHeatCard } from '../components/LayerHeatCard';
 import { PageShell } from '../components/PageShell';
+import { useLayerFeed } from '../context/LayerFeedContext';
+import type { LayerConfig } from '../config/layers';
 import { fetchLayersCnMomentum } from '../services/stock';
+
+function withFeedLayer(layer: LayerConfig, feed: ReturnType<typeof useLayerFeed>): LayerConfig {
+  const e = feed.getEvents(layer.id);
+  const t = feed.getTrends(layer.id);
+  if (feed.status === 'live' && (e.length > 0 || t.length > 0)) {
+    return { ...layer, events: e, trends: t };
+  }
+  return layer;
+}
 
 export function HomePage() {
   const stack = [...LAYERS].reverse();
@@ -10,6 +21,7 @@ export function HomePage() {
     {},
   );
   const [marketLoading, setMarketLoading] = useState(true);
+  const feed = useLayerFeed();
 
   useEffect(() => {
     let cancelled = false;
@@ -57,7 +69,7 @@ export function HomePage() {
                   实时，反映资金热度）
                 </li>
                 <li>
-                  <strong>事件/趋势 30%</strong>：层内「大事件」按日期时间衰减（越近权重越高）+「趋势研判」利好/谨慎信号
+                  <strong>事件/趋势 30%</strong>：来自 layer-feed.json（可动态更新）：层内「大事件」按日期时间衰减（越近权重越高）+「趋势研判」利好/谨慎信号
                 </li>
                 <li>
                   <strong>周期进度 25%</strong>：配置的热度起止日期，已过天数 ÷ 总天数
@@ -81,7 +93,7 @@ export function HomePage() {
         {stack.map((layer) => (
           <li key={layer.id}>
             <LayerHeatCard
-              layer={layer}
+              layer={withFeedLayer(layer, feed)}
               marketQuotes={momentum[layer.id]}
               marketLoading={marketLoading}
             />
