@@ -1,16 +1,35 @@
 import { useEffect, useState } from 'react';
-import { Link, useNavigate, useParams, useSearchParams } from 'react-router-dom';
+import { useNavigate, useParams, useSearchParams } from 'react-router-dom';
 import { getLayerById, type LayerTab } from '../config/layers';
 import { fetchLayerTopStocks, type RankedStock } from '../services/stock';
+import { PageShell } from '../components/PageShell';
 import { StockRankPanel } from '../components/StockRankPanel';
+import { getLayerAccent, trendBadge } from '../utils/layerTheme';
 
 const TABS: { id: LayerTab; label: string }[] = [
   { id: 'stocks', label: '龙头榜单' },
-  { id: 'industry', label: '行业分析' },
-  { id: 'trends', label: '趋势分析' },
+  { id: 'industry', label: '行业' },
+  { id: 'trends', label: '趋势' },
   { id: 'events', label: '大事件' },
   { id: 'analysis', label: '投资分析' },
 ];
+
+function SectionCard({
+  title,
+  children,
+}: {
+  title: string;
+  children: React.ReactNode;
+}) {
+  return (
+    <div className="card card-border bg-base-100 shadow-sm">
+      <div className="card-body gap-3 p-4">
+        <h3 className="text-sm font-semibold text-base-content/80">{title}</h3>
+        {children}
+      </div>
+    </div>
+  );
+}
 
 export function LayerPage() {
   const { id } = useParams();
@@ -62,47 +81,64 @@ export function LayerPage() {
 
   const setTab = (t: LayerTab) => setSearchParams({ tab: t });
   const analysis = layer.analysis;
+  const accent = getLayerAccent(layer.id);
 
   return (
-    <>
-      <header className="site-header">
-        <Link to="/" className="back-btn visible">
-          ‹ 返回
-        </Link>
-        <h1>
-          L{layer.id} {layer.short}
-        </h1>
-        <span className="meta" />
-      </header>
+    <PageShell
+      title={`L${layer.id} ${layer.short}`}
+      backTo="/"
+      badge={
+        <span className={`badge badge-sm ${accent.badge} badge-outline`}>
+          {layer.icon}
+        </span>
+      }
+    >
+      <div
+        className={`card card-border bg-base-100 shadow-sm ${accent.border} border-l-4`}
+      >
+        <div className="card-body gap-2 p-5">
+          <div className={`badge ${accent.badge} badge-outline w-fit`}>
+            {layer.name}
+          </div>
+          <p className="text-sm leading-relaxed text-base-content/75">{layer.summary}</p>
+          <p className="text-xs text-base-content/50">{layer.tagline}</p>
+        </div>
+      </div>
 
-      <section className="layer-hero" style={{ background: layer.gradient }}>
-        <div className="layer-icon-lg">{layer.icon}</div>
-        <h2>{layer.name}</h2>
-        <p className="summary">{layer.summary}</p>
-      </section>
-
-      <nav className="tabs tabs-scroll" role="tablist">
+      <div
+        role="tablist"
+        className="tabs tabs-boxed tabs-sm w-full flex-nowrap overflow-x-auto bg-base-200/80 p-1"
+      >
         {TABS.map((t) => (
           <button
             key={t.id}
             type="button"
-            className={`tab-btn ${tab === t.id ? 'active' : ''}`}
+            role="tab"
+            aria-selected={tab === t.id}
+            className={`tab shrink-0 ${tab === t.id ? 'tab-active' : ''}`}
             onClick={() => setTab(t.id)}
           >
             {t.label}
           </button>
         ))}
-      </nav>
+      </div>
 
       {tab === 'stocks' && (
-        <div className="tab-panel active stocks-tab">
+        <div className="flex flex-col gap-4">
           <button
             type="button"
-            className="refresh-btn"
+            className="btn btn-outline btn-sm w-full"
             disabled={loading}
             onClick={() => setRefreshKey((k) => k + 1)}
           >
-            {loading ? '刷新中…' : '刷新行情'}
+            {loading ? (
+              <>
+                <span className="loading loading-spinner loading-xs" />
+                刷新中…
+              </>
+            ) : (
+              '刷新行情'
+            )}
           </button>
           <StockRankPanel
             title="国内 A 股 Top5"
@@ -122,168 +158,203 @@ export function LayerPage() {
       )}
 
       {tab === 'industry' && (
-        <div className="tab-panel active">
-          <div className="section-card">
-            <h3>行业概览</h3>
-            <p>{layer.industry.overview}</p>
-          </div>
-          <div className="section-card">
-            <h3>细分赛道</h3>
-            {layer.industry.segments.map((s) => (
-              <div key={s.name} className="segment-item">
-                <strong>{s.name}</strong>
-                <span>{s.desc}</span>
-                {s.players && <span className="players">代表：{s.players}</span>}
-              </div>
-            ))}
-          </div>
-          <div className="section-card">
-            <h3>关键数据</h3>
-            <div className="metric-grid">
+        <div className="flex flex-col gap-3">
+          <SectionCard title="行业概览">
+            <p className="text-sm leading-relaxed text-base-content/75">
+              {layer.industry.overview}
+            </p>
+          </SectionCard>
+
+          <SectionCard title="细分赛道">
+            <ul className="flex flex-col gap-3">
+              {layer.industry.segments.map((s) => (
+                <li
+                  key={s.name}
+                  className="border-b border-base-200 pb-3 last:border-0 last:pb-0"
+                >
+                  <div className="font-medium">{s.name}</div>
+                  <p className="mt-0.5 text-sm text-base-content/70">{s.desc}</p>
+                  {s.players && (
+                    <p className="mt-1 text-xs text-base-content/50">代表：{s.players}</p>
+                  )}
+                </li>
+              ))}
+            </ul>
+          </SectionCard>
+
+          <SectionCard title="关键数据">
+            <div className="stats stats-vertical w-full bg-transparent shadow-none">
               {layer.industry.metrics.map((m) => (
-                <div key={m.label} className="metric-item">
-                  <div className="label">{m.label}</div>
-                  <div className="value">{m.value}</div>
+                <div key={m.label} className="stat px-0 py-2">
+                  <div className="stat-title text-xs">{m.label}</div>
+                  <div className="stat-value text-lg">{m.value}</div>
                 </div>
               ))}
             </div>
-          </div>
+          </SectionCard>
         </div>
       )}
 
       {tab === 'trends' && (
-        <div className="tab-panel active">
-          <div className="section-card">
-            <h3>趋势研判</h3>
+        <SectionCard title="趋势研判">
+          <ul className="flex flex-col gap-3">
             {layer.trends.map((t) => (
-              <div key={t.title} className="trend-item">
-                <span className={`signal-dot ${t.signal}`} />
-                <div className="trend-body">
-                  <h4>{t.title}</h4>
-                  <p>{t.body}</p>
+              <li key={t.title} className="flex gap-3 border-b border-base-200 pb-3 last:border-0">
+                <span className={`badge badge-sm shrink-0 ${trendBadge(t.signal)}`}>
+                  {t.signal === 'bullish' ? '利多' : t.signal === 'caution' ? '谨慎' : '中性'}
+                </span>
+                <div className="min-w-0">
+                  <h4 className="text-sm font-medium">{t.title}</h4>
+                  <p className="mt-0.5 text-sm text-base-content/70">{t.body}</p>
                 </div>
-              </div>
+              </li>
             ))}
-          </div>
-        </div>
+          </ul>
+        </SectionCard>
       )}
 
       {tab === 'events' && (
-        <div className="tab-panel active">
-          <div className="section-card">
-            <h3>时间线</h3>
+        <SectionCard title="时间线">
+          <ul className="timeline timeline-vertical timeline-compact -ml-2">
             {layer.events.map((e) => (
-              <div key={e.title + e.date} className="event-item">
-                <div className="event-date">{e.date}</div>
-                <h4>{e.title}</h4>
-                <p>{e.body}</p>
-              </div>
+              <li key={e.title + e.date}>
+                <div className="timeline-start text-xs font-medium text-base-content/55">
+                  {e.date}
+                </div>
+                <div className="timeline-middle">
+                  <span className="size-2 rounded-full bg-primary" />
+                </div>
+                <div className="timeline-end timeline-box mb-3 text-sm shadow-sm">
+                  <h4 className="font-medium">{e.title}</h4>
+                  <p className="mt-1 text-base-content/70">{e.body}</p>
+                </div>
+              </li>
             ))}
-          </div>
-        </div>
+          </ul>
+        </SectionCard>
       )}
 
       {tab === 'analysis' && (
-        <div className="tab-panel active analysis-tab">
-          <div className="section-card framework-intro">
-            <h3>Section 1 · 本层定位</h3>
-            <p>{analysis.role}</p>
-          </div>
+        <div className="flex flex-col gap-3">
+          <SectionCard title="Section 1 · 本层定位">
+            <p className="text-sm leading-relaxed text-base-content/75">{analysis.role}</p>
+          </SectionCard>
 
-          <div className="section-card">
-            <h3>分析链（自上而下）</h3>
-            <ol className="analysis-chain">
+          <SectionCard title="分析链（自上而下）">
+            <ol className="steps steps-vertical w-full text-sm">
               {analysis.chain.map((c) => (
-                <li key={c.step}>
-                  <span className="chain-step">{c.step}</span>
-                  <span className="chain-q">{c.question}</span>
+                <li key={c.step} className="step step-primary">
+                  <div>
+                    <span className="font-medium">{c.step}</span>
+                    <p className="mt-0.5 text-base-content/65">{c.question}</p>
+                  </div>
                 </li>
               ))}
             </ol>
-          </div>
+          </SectionCard>
 
-          <div className="section-card">
-            <h3>五项核心技能</h3>
-            {analysis.skills.map((s) => (
-              <details key={s.id} className="skill-block" open={s.id === 'market'}>
-                <summary>
-                  <strong>{s.title}</strong>
-                  <span className="skill-intro">{s.intro}</span>
-                </summary>
-                <ul className="checklist">
-                  {s.checklist.map((item) => (
-                    <li key={item}>{item}</li>
-                  ))}
-                </ul>
-              </details>
-            ))}
-          </div>
-
-          <div className="section-card">
-            <h3>估值与持有周期</h3>
-            <div className="val-methods">
-              {analysis.valuation.methods.map((m) => (
-                <div key={m.method} className="val-row">
-                  <strong>{m.method}</strong>
-                  <span className="val-scene">{m.scene}</span>
-                  <p>{m.tip}</p>
+          <SectionCard title="五项核心技能">
+            <div className="flex flex-col gap-2">
+              {analysis.skills.map((s) => (
+                <div
+                  key={s.id}
+                  className="collapse collapse-arrow border border-base-200 bg-base-200/40"
+                >
+                  <input type="checkbox" defaultChecked={s.id === 'market'} />
+                  <div className="collapse-title min-h-0 py-3 text-sm font-medium">
+                    {s.title}
+                    <p className="mt-0.5 text-xs font-normal text-base-content/55">
+                      {s.intro}
+                    </p>
+                  </div>
+                  <div className="collapse-content">
+                    <ul className="list-inside list-disc space-y-1 text-sm text-base-content/75">
+                      {s.checklist.map((item) => (
+                        <li key={item}>{item}</li>
+                      ))}
+                    </ul>
+                  </div>
                 </div>
               ))}
             </div>
-            <div className="hold-box">
-              <div>
-                <h4>长期持有</h4>
-                <p>{analysis.valuation.longHold}</p>
+          </SectionCard>
+
+          <SectionCard title="估值与持有周期">
+            <div className="flex flex-col gap-3">
+              {analysis.valuation.methods.map((m) => (
+                <div key={m.method} className="border-b border-base-200 pb-3 last:border-0">
+                  <div className="flex flex-wrap items-center gap-2">
+                    <span className="font-medium">{m.method}</span>
+                    <span className="badge badge-ghost badge-xs">{m.scene}</span>
+                  </div>
+                  <p className="mt-1 text-sm text-base-content/70">{m.tip}</p>
+                </div>
+              ))}
+            </div>
+            <div className="mt-4 grid gap-3 sm:grid-cols-2">
+              <div className="rounded-lg bg-base-200/60 p-3">
+                <h4 className="text-xs font-semibold uppercase tracking-wide text-base-content/50">
+                  长期持有
+                </h4>
+                <p className="mt-1 text-sm text-base-content/75">
+                  {analysis.valuation.longHold}
+                </p>
               </div>
-              <div>
-                <h4>短期参与</h4>
-                <p>{analysis.valuation.shortHold}</p>
+              <div className="rounded-lg bg-base-200/60 p-3">
+                <h4 className="text-xs font-semibold uppercase tracking-wide text-base-content/50">
+                  短期参与
+                </h4>
+                <p className="mt-1 text-sm text-base-content/75">
+                  {analysis.valuation.shortHold}
+                </p>
               </div>
             </div>
-          </div>
+          </SectionCard>
 
-          <div className="section-card">
-            <h3>投资备忘录清单</h3>
-            <ol className="memo-list">
+          <SectionCard title="投资备忘录清单">
+            <ol className="list-inside list-decimal space-y-1 text-sm text-base-content/75">
               {analysis.memoPrompts.map((item) => (
                 <li key={item}>{item}</li>
               ))}
             </ol>
-          </div>
+          </SectionCard>
 
-          <div className="section-card">
-            <h3>证伪条件（认错信号）</h3>
-            <ul className="falsify-list">
+          <SectionCard title="证伪条件">
+            <ul className="list-inside list-disc space-y-1 text-sm text-base-content/75">
               {analysis.falsification.map((item) => (
                 <li key={item}>{item}</li>
               ))}
             </ul>
-          </div>
+          </SectionCard>
 
-          <div className="section-card">
-            <h3>常见误区</h3>
-            {analysis.pitfalls.map((p) => (
-              <div key={p.wrong} className="pitfall-row">
-                <div className="pitfall-wrong">✗ {p.wrong}</div>
-                <div className="pitfall-right">✓ {p.right}</div>
-              </div>
-            ))}
-          </div>
+          <SectionCard title="常见误区">
+            <div className="flex flex-col gap-2">
+              {analysis.pitfalls.map((p) => (
+                <div key={p.wrong} className="flex flex-col gap-1">
+                  <div className="alert alert-error alert-soft py-2 text-xs">
+                    <span>✗ {p.wrong}</span>
+                  </div>
+                  <div className="alert alert-success alert-soft py-2 text-xs">
+                    <span>✓ {p.right}</span>
+                  </div>
+                </div>
+              ))}
+            </div>
+          </SectionCard>
 
-          <div className="section-card">
-            <h3>信息源（可靠度从高到低）</h3>
-            <ol className="source-list">
+          <SectionCard title="信息源">
+            <ol className="list-inside list-decimal space-y-1 text-sm text-base-content/75">
               {analysis.dataSources.map((s) => (
                 <li key={s}>{s}</li>
               ))}
             </ol>
-          </div>
+          </SectionCard>
         </div>
       )}
 
-      <p className="disclaimer">
-        方法论整理自仓库 section-1.md；行情来自 stock-sdk。仅供学习，不构成投资建议。
+      <p className="text-center text-xs leading-relaxed text-base-content/45">
+        方法论来自 section-1.md；行情来自 stock-sdk。仅供学习，不构成投资建议。
       </p>
-    </>
+    </PageShell>
   );
 }

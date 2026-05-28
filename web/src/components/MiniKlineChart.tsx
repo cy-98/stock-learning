@@ -8,11 +8,16 @@ interface Props {
   height?: number;
 }
 
+const UP = { line: '#059669', fill: 'rgba(5, 150, 105, 0.2)' };
+const DOWN = { line: '#dc2626', fill: 'rgba(220, 38, 38, 0.2)' };
+
 export function MiniKlineChart({ data, positive, height = 72 }: Props) {
   const ref = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
     if (!ref.current || data.length < 2) return;
+
+    const colors = positive !== false ? UP : DOWN;
 
     const chart = createChart(ref.current, {
       width: ref.current.clientWidth,
@@ -35,8 +40,8 @@ export function MiniKlineChart({ data, positive, height = 72 }: Props) {
     });
 
     const series = chart.addSeries(AreaSeries, {
-      lineColor: positive !== false ? '#34d399' : '#f87171',
-      topColor: positive !== false ? 'rgba(52, 211, 153, 0.35)' : 'rgba(248, 113, 113, 0.35)',
+      lineColor: colors.line,
+      topColor: colors.fill,
       bottomColor: 'transparent',
       lineWidth: 2,
     });
@@ -51,7 +56,6 @@ export function MiniKlineChart({ data, positive, height = 72 }: Props) {
     );
 
     series.setData(unique);
-
     chart.timeScale().fitContent();
 
     const ro = new ResizeObserver(() => {
@@ -66,8 +70,12 @@ export function MiniKlineChart({ data, positive, height = 72 }: Props) {
   }, [data, positive, height]);
 
   if (data.length < 2) {
-    return <div className="kline-empty">暂无 K 线</div>;
+    return (
+      <div className="flex h-16 items-center justify-center rounded-lg bg-base-200 text-xs text-base-content/45">
+        暂无 K 线
+      </div>
+    );
   }
 
-  return <div className="kline-wrap" ref={ref} style={{ height }} />;
+  return <div className="mt-1 w-full overflow-hidden rounded-lg" ref={ref} style={{ height }} />;
 }
