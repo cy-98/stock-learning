@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="refresh" content="0; url=./index.html" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>跳转中…</title>
+    <script>
+      window.location.replace(
+        (document.location.pathname.match(/\/$/) ? document.location.pathname : document.location.pathname.replace(/\/[^/]*$/, '/')) + 'index.html'
+      );
+    </script>
+  </head>
+  <body>
+    <p><a href="./index.html">返回 AI 五层模型首页</a></p>
+  </body>
+</html>
