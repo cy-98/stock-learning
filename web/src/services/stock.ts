@@ -178,3 +178,27 @@ export async function fetchLayerTopStocks(
 
   return { cn, global };
 }
+
+/** 首页热度：仅拉 A 股候选池涨跌，不请求 K 线 */
+export async function fetchLayersCnMomentum(
+  layers: { id: number; stocks: { cn: string[] } }[],
+  samplePerLayer = 6,
+): Promise<Record<number, { changePercent: number }[]>> {
+  const codes = [
+    ...new Set(layers.flatMap((l) => l.stocks.cn.slice(0, samplePerLayer))),
+  ];
+  if (!codes.length) return {};
+
+  const quotes = await fetchCnQuotes(codes);
+  const byCode = new Map(quotes.map((q) => [q.code, q]));
+
+  const out: Record<number, { changePercent: number }[]> = {};
+  for (const layer of layers) {
+    out[layer.id] = layer.stocks.cn
+      .slice(0, samplePerLayer)
+      .map((c) => byCode.get(c))
+      .filter((q): q is NonNullable<typeof q> => !!q)
+      .map((q) => ({ changePercent: q.changePercent }));
+  }
+  return out;
+}

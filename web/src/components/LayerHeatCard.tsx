@@ -1,20 +1,23 @@
 import { Link } from 'react-router-dom';
 import type { LayerConfig } from '../config/layers';
-import { formatHeatHint, getHeatProgress } from '../utils/heatProgress';
+import { computeDynamicHeat } from '../utils/dynamicHeat';
 import { getLayerAccent } from '../utils/layerTheme';
 
 interface Props {
   layer: LayerConfig;
+  marketQuotes?: { changePercent: number }[];
+  marketLoading?: boolean;
 }
 
-export function LayerHeatCard({ layer }: Props) {
+export function LayerHeatCard({ layer, marketQuotes, marketLoading }: Props) {
   const accent = getLayerAccent(layer.id);
-  const heat = getHeatProgress(layer.heatPeriod);
+  const heat = computeDynamicHeat(layer, { cycle: layer.heatPeriod, marketQuotes });
 
   return (
     <Link
       to={`/layer/${layer.id}`}
       className={`card card-border relative overflow-hidden bg-base-100 shadow-sm transition hover:border-primary/40 hover:shadow-md ${accent.border} border-l-4`}
+      title={heat.detail}
     >
       <div
         className={`absolute inset-y-0 left-0 ${accent.progress} transition-[width] duration-500`}
@@ -31,15 +34,21 @@ export function LayerHeatCard({ layer }: Props) {
           </div>
           <h3 className="mt-1 truncate font-medium">{layer.name}</h3>
           <p className="truncate text-xs text-base-content/60">{layer.tagline}</p>
-          <p className="mt-1 text-xs text-base-content/50" title={`${layer.heatPeriod.start} → ${layer.heatPeriod.end}`}>
-            {formatHeatHint(heat)}
-            {layer.heatPeriod.label ? ` · ${layer.heatPeriod.label}` : ''}
+          <p
+            className="mt-1 line-clamp-2 text-xs text-base-content/50"
+            title={heat.detail}
+          >
+            {marketLoading ? '正在拉取行情热度…' : heat.hint}
           </p>
         </div>
         <div className="flex shrink-0 flex-col items-end gap-0.5">
-          <span className="font-mono text-sm font-semibold tabular-nums text-base-content/70">
-            {heat.percent}%
-          </span>
+          {marketLoading ? (
+            <span className="loading loading-spinner loading-xs" />
+          ) : (
+            <span className="font-mono text-sm font-semibold tabular-nums text-base-content/70">
+              {heat.percent}%
+            </span>
+          )}
           <span className="text-base-content/40" aria-hidden>
             ›
           </span>

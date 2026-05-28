@@ -1,9 +1,35 @@
+import { useEffect, useState } from 'react';
 import { LAYERS } from '../config/layers';
 import { LayerHeatCard } from '../components/LayerHeatCard';
 import { PageShell } from '../components/PageShell';
+import { fetchLayersCnMomentum } from '../services/stock';
 
 export function HomePage() {
   const stack = [...LAYERS].reverse();
+  const [momentum, setMomentum] = useState<Record<number, { changePercent: number }[]>>(
+    {},
+  );
+  const [marketLoading, setMarketLoading] = useState(true);
+
+  useEffect(() => {
+    let cancelled = false;
+    setMarketLoading(true);
+
+    fetchLayersCnMomentum(LAYERS)
+      .then((data) => {
+        if (!cancelled) setMomentum(data);
+      })
+      .catch(() => {
+        if (!cancelled) setMomentum({});
+      })
+      .finally(() => {
+        if (!cancelled) setMarketLoading(false);
+      });
+
+    return () => {
+      cancelled = true;
+    };
+  }, []);
 
   return (
     <PageShell
@@ -16,9 +42,33 @@ export function HomePage() {
           <p className="text-sm leading-relaxed text-base-content/70">
             每层提供 Top5 行情、行业/趋势/事件，以及 Section 1 投资分析框架。
           </p>
-          <p className="text-xs text-base-content/50">
-            卡片背景填充比例 = 热度周期已过时间 ÷ 周期总时长（至结束日）
-          </p>
+          <div className="collapse collapse-arrow rounded-lg border border-base-200 bg-base-200/40">
+            <input type="checkbox" />
+            <div className="collapse-title min-h-0 py-2 text-xs font-medium">
+              热度如何计算？（含时事动态）
+            </div>
+            <div className="collapse-content text-xs leading-relaxed text-base-content/65">
+              <p className="mb-2">
+                卡片背景比例 = <strong>综合热度</strong>，由三部分加权（有行情时）：
+              </p>
+              <ul className="list-inside list-disc space-y-1">
+                <li>
+                  <strong>行情动能 45%</strong>：该层 A 股候选池今日涨跌均值 + 上涨家数占比（stock-sdk
+                  实时，反映资金热度）
+                </li>
+                <li>
+                  <strong>事件/趋势 30%</strong>：层内「大事件」按日期时间衰减（越近权重越高）+「趋势研判」利好/谨慎信号
+                </li>
+                <li>
+                  <strong>周期进度 25%</strong>：配置的热度起止日期，已过天数 ÷ 总天数
+                </li>
+              </ul>
+              <p className="mt-2">
+                行情拉取失败时，自动改为事件 65% + 周期 35%。大事件日期可在各层「大事件」Tab
+                维护；换日/刷新后行情分会更新。
+              </p>
+            </div>
+          </div>
         </div>
       </div>
 
@@ -30,7 +80,11 @@ export function HomePage() {
       <ul className="flex flex-col gap-2">
         {stack.map((layer) => (
           <li key={layer.id}>
-            <LayerHeatCard layer={layer} />
+            <LayerHeatCard
+              layer={layer}
+              marketQuotes={momentum[layer.id]}
+              marketLoading={marketLoading}
+            />
           </li>
         ))}
       </ul>
