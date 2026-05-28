@@ -4,6 +4,7 @@ import { getLayerById, type LayerTab } from '../config/layers';
 import { fetchLayerTopStocks, type RankedStock } from '../services/stock';
 import { useLayerEventsAndTrends } from '../context/LayerFeedContext';
 import { PageShell } from '../components/PageShell';
+import { GdeltNewsPanel } from '../components/GdeltNewsPanel';
 import { StockRankPanel } from '../components/StockRankPanel';
 import { getLayerAccent, trendBadge } from '../utils/layerTheme';
 
@@ -290,6 +291,9 @@ export function LayerPage() {
               </li>
             ))}
           </ul>
+
+          <div className="divider text-xs text-base-content/40">GDELT 全球新闻</div>
+          <GdeltNewsPanel layerId={layer.id} active={tab === 'events'} />
         </SectionCard>
       )}
 
