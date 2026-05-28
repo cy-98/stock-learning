@@ -586,3 +586,174 @@ a {
     border-right: 1px solid var(--border);
   }
 }
+
+/* Section 1 投资分析 Tab */
+.tabs-scroll {
+  overflow-x: auto;
+  flex-wrap: nowrap;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: none;
+}
+.tabs-scroll::-webkit-scrollbar {
+  display: none;
+}
+
+.analysis-tab .framework-intro p {
+  color: var(--text-secondary);
+  line-height: 1.65;
+  font-size: 0.95rem;
+}
+
+.analysis-chain {
+  margin: 0;
+  padding-left: 1.25rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.analysis-chain li {
+  line-height: 1.5;
+}
+
+.chain-step {
+  display: inline-block;
+  font-weight: 600;
+  color: var(--accent);
+  margin-right: 0.35rem;
+}
+
+.chain-q {
+  color: var(--text-secondary);
+}
+
+.skill-block {
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 0.65rem 0.85rem;
+  margin-bottom: 0.65rem;
+  background: var(--surface);
+}
+
+.skill-block summary {
+  cursor: pointer;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.skill-block summary::-webkit-details-marker {
+  display: none;
+}
+
+.skill-intro {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  font-weight: 400;
+}
+
+.checklist {
+  margin: 0.65rem 0 0;
+  padding-left: 1.1rem;
+  color: var(--text-secondary);
+  font-size: 0.9rem;
+  line-height: 1.55;
+}
+
+.checklist li {
+  margin-bottom: 0.35rem;
+}
+
+.val-methods {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  margin-bottom: 1rem;
+}
+
+.val-row {
+  padding-bottom: 0.75rem;
+  border-bottom: 1px solid var(--border);
+}
+
+.val-row:last-child {
+  border-bottom: none;
+}
+
+.val-scene {
+  display: block;
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  margin: 0.2rem 0;
+}
+
+.val-row p {
+  margin: 0.25rem 0 0;
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+  line-height: 1.5;
+}
+
+.hold-box {
+  display: grid;
+  gap: 0.75rem;
+}
+
+.hold-box h4 {
+  margin: 0 0 0.35rem;
+  font-size: 0.9rem;
+}
+
+.hold-box p {
+  margin: 0;
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+  line-height: 1.55;
+}
+
+.memo-list,
+.falsify-list,
+.source-list {
+  margin: 0;
+  padding-left: 1.25rem;
+  color: var(--text-secondary);
+  font-size: 0.9rem;
+  line-height: 1.6;
+}
+
+.memo-list li,
+.falsify-list li {
+  margin-bottom: 0.4rem;
+}
+
+.pitfall-row {
+  margin-bottom: 0.85rem;
+  padding-bottom: 0.85rem;
+  border-bottom: 1px solid var(--border);
+}
+
+.pitfall-row:last-child {
+  border-bottom: none;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.pitfall-wrong {
+  font-size: 0.88rem;
+  color: #f87171;
+  margin-bottom: 0.35rem;
+  line-height: 1.45;
+}
+
+.pitfall-right {
+  font-size: 0.88rem;
+  color: #4ade80;
+  line-height: 1.45;
+}
+
+@media (min-width: 640px) {
+  .hold-box {
+    grid-template-columns: 1fr 1fr;
+  }
+}

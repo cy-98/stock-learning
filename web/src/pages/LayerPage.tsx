@@ -9,6 +9,7 @@ const TABS: { id: LayerTab; label: string }[] = [
   { id: 'industry', label: '行业分析' },
   { id: 'trends', label: '趋势分析' },
   { id: 'events', label: '大事件' },
+  { id: 'analysis', label: '投资分析' },
 ];
 
 export function LayerPage() {
@@ -60,6 +61,7 @@ export function LayerPage() {
   if (!layer) return null;
 
   const setTab = (t: LayerTab) => setSearchParams({ tab: t });
+  const analysis = layer.analysis;
 
   return (
     <>
@@ -79,7 +81,7 @@ export function LayerPage() {
         <p className="summary">{layer.summary}</p>
       </section>
 
-      <nav className="tabs" role="tablist">
+      <nav className="tabs tabs-scroll" role="tablist">
         {TABS.map((t) => (
           <button
             key={t.id}
@@ -181,7 +183,107 @@ export function LayerPage() {
         </div>
       )}
 
-      <p className="disclaimer">数据为框架整理 + stock-sdk 实时行情，请自行验证。</p>
+      {tab === 'analysis' && (
+        <div className="tab-panel active analysis-tab">
+          <div className="section-card framework-intro">
+            <h3>Section 1 · 本层定位</h3>
+            <p>{analysis.role}</p>
+          </div>
+
+          <div className="section-card">
+            <h3>分析链（自上而下）</h3>
+            <ol className="analysis-chain">
+              {analysis.chain.map((c) => (
+                <li key={c.step}>
+                  <span className="chain-step">{c.step}</span>
+                  <span className="chain-q">{c.question}</span>
+                </li>
+              ))}
+            </ol>
+          </div>
+
+          <div className="section-card">
+            <h3>五项核心技能</h3>
+            {analysis.skills.map((s) => (
+              <details key={s.id} className="skill-block" open={s.id === 'market'}>
+                <summary>
+                  <strong>{s.title}</strong>
+                  <span className="skill-intro">{s.intro}</span>
+                </summary>
+                <ul className="checklist">
+                  {s.checklist.map((item) => (
+                    <li key={item}>{item}</li>
+                  ))}
+                </ul>
+              </details>
+            ))}
+          </div>
+
+          <div className="section-card">
+            <h3>估值与持有周期</h3>
+            <div className="val-methods">
+              {analysis.valuation.methods.map((m) => (
+                <div key={m.method} className="val-row">
+                  <strong>{m.method}</strong>
+                  <span className="val-scene">{m.scene}</span>
+                  <p>{m.tip}</p>
+                </div>
+              ))}
+            </div>
+            <div className="hold-box">
+              <div>
+                <h4>长期持有</h4>
+                <p>{analysis.valuation.longHold}</p>
+              </div>
+              <div>
+                <h4>短期参与</h4>
+                <p>{analysis.valuation.shortHold}</p>
+              </div>
+            </div>
+          </div>
+
+          <div className="section-card">
+            <h3>投资备忘录清单</h3>
+            <ol className="memo-list">
+              {analysis.memoPrompts.map((item) => (
+                <li key={item}>{item}</li>
+              ))}
+            </ol>
+          </div>
+
+          <div className="section-card">
+            <h3>证伪条件（认错信号）</h3>
+            <ul className="falsify-list">
+              {analysis.falsification.map((item) => (
+                <li key={item}>{item}</li>
+              ))}
+            </ul>
+          </div>
+
+          <div className="section-card">
+            <h3>常见误区</h3>
+            {analysis.pitfalls.map((p) => (
+              <div key={p.wrong} className="pitfall-row">
+                <div className="pitfall-wrong">✗ {p.wrong}</div>
+                <div className="pitfall-right">✓ {p.right}</div>
+              </div>
+            ))}
+          </div>
+
+          <div className="section-card">
+            <h3>信息源（可靠度从高到低）</h3>
+            <ol className="source-list">
+              {analysis.dataSources.map((s) => (
+                <li key={s}>{s}</li>
+              ))}
+            </ol>
+          </div>
+        </div>
+      )}
+
+      <p className="disclaimer">
+        方法论整理自仓库 section-1.md；行情来自 stock-sdk。仅供学习，不构成投资建议。
+      </p>
     </>
   );
 }

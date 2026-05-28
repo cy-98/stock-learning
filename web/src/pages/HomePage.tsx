@@ -13,7 +13,7 @@ export function HomePage() {
 
       <section className="hero">
         <h2>AI 五层模型</h2>
-        <p>从算力底座到场景落地 · 每层含国内外 Top5 行情与 K 线</p>
+        <p>从算力底座到场景落地 · Top5 行情 + 行业/趋势/事件 + Section 1 投资分析</p>
         <p className="updated">数据由 stock-sdk 在浏览器端拉取</p>
       </section>
 

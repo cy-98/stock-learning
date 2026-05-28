@@ -1,4 +1,6 @@
-export type LayerTab = 'industry' | 'trends' | 'events' | 'stocks';
+import { LAYER_ANALYSIS } from './layerAnalysis';
+
+export type LayerTab = 'industry' | 'trends' | 'events' | 'stocks' | 'analysis';
 
 export interface LayerSegment {
   name: string;
@@ -26,6 +28,27 @@ export interface LayerStockPool {
   global: string[];
 }
 
+
+export interface LayerAnalysis {
+  role: string;
+  chain: { step: string; question: string }[];
+  skills: {
+    id: 'market' | 'company' | 'trend' | 'valuation' | 'horizon';
+    title: string;
+    intro: string;
+    checklist: string[];
+  }[];
+  valuation: {
+    methods: { method: string; scene: string; tip: string }[];
+    longHold: string;
+    shortHold: string;
+  };
+  memoPrompts: string[];
+  falsification: string[];
+  pitfalls: { wrong: string; right: string }[];
+  dataSources: string[];
+}
+
 export interface LayerConfig {
   id: number;
   slug: string;
@@ -44,6 +67,7 @@ export interface LayerConfig {
   };
   trends: LayerTrend[];
   events: LayerEvent[];
+  analysis: LayerAnalysis;
 }
 
 export const LAYERS: LayerConfig[] = [
@@ -55,9 +79,9 @@ export const LAYERS: LayerConfig[] = [
     icon: '⚡',
     color: '#3b82f6',
     gradient: 'linear-gradient(135deg, #1d4ed8 0%, #3b82f6 50%, #60a5fa 100%)',
-    tagline: '芯片 · 数据中心 · 光互联 · 电力',
+    tagline: '芯片 · 数据中心 · 光互联 · 电力能源',
     summary:
-      'AI 训练的物理底座：GPU/ASIC、晶圆代工、存储互连、光模块与 IDC。景气高度分化，算力链紧缺，消费电子链偏弱。',
+      'AI 训练的「电厂与公路」：GPU/ASIC、晶圆代工、服务器、光模块、IDC 与电力是整条链的物理底座。',
     stocks: {
       cn: [
         'sh688981',
@@ -75,27 +99,35 @@ export const LAYERS: LayerConfig[] = [
     },
     industry: {
       overview:
-        '2026 年全球半导体规模逼近万亿美元，AI 算力（GPU、HBM、先进封装）高景气，成熟制程与设备国产化持续推进。',
+        '2026 年全球半导体规模逼近万亿美元，但呈现明显的 K 型分化：AI 算力链（GPU、HBM、先进封装）高景气，消费电子链弱复苏。中国在成熟制程、封装、部分设备环节份额提升，先进制程仍受管制。',
       segments: [
-        { name: 'AI 芯片', desc: '训练与推理算力核心', players: '英伟达、海光、寒武纪' },
-        { name: '存储互连', desc: 'HBM、DDR5、内存接口', players: '海力士、美光、澜起' },
-        { name: '晶圆制造', desc: '先进制程与成熟制程', players: '台积电、中芯国际' },
-        { name: '电力能源', desc: '算电与火电红利', players: '华能、大唐、浙能' },
+        { name: 'AI 芯片', desc: 'GPU 主导训练与推理；ASIC、国产算力芯片追赶。', players: '英伟达、AMD、海光、寒武纪' },
+        { name: '存储与互连', desc: 'HBM 紧缺、DDR5/MRDIMM 放量；内存接口芯片受益服务器带宽升级。', players: 'SK 海力士、美光、澜起科技' },
+        { name: '晶圆制造', desc: '先进制程集中于台积电；大陆龙头以成熟制程与国产替代为主。', players: '台积电、中芯国际、华虹' },
+        { name: '光模块与 IDC', desc: '数据中心资本开支拉动 800G/1.6T 光互联；IDC 能耗与区位是关键约束。', players: '中际旭创、新易盛、万国数据等' },
+        { name: '能源配套', desc: '算电协同叙事与火电/新能源电力公司估值交织，需区分题材与基本面。', players: '华能、大唐、浙能等' },
       ],
       metrics: [
-        { label: '2026E 全球半导体', value: '~9750 亿美元' },
-        { label: '中国矿产量占比', value: '~69%' },
+        { label: '2026E 全球半导体规模', value: '约 9750 亿美元' },
+        { label: '数据中心占半导体收入', value: '向 50%+ 靠拢' },
+        { label: '中国矿产量全球占比', value: '约 69%' },
       ],
-    },
+        },
     trends: [
-      { title: '推理算力占比上升', body: '推理支出有望超过训练，拉动多样化芯片需求。', signal: 'bullish' },
-      { title: 'HBM 超级周期', body: '产能向 HBM 倾斜，存储价格中枢抬升。', signal: 'bullish' },
-      { title: '估值分化', body: '龙头 PE 极高 vs 周期股，需分环节定价。', signal: 'caution' },
+      { title: '推理算力占比上升', body: '2026 年推理支出有望首次超过训练，拉动边缘与数据中心多样化芯片需求。', signal: 'bullish' },
+      { title: 'HBM 超级周期', body: '内存厂将产能向 HBM 倾斜，通用 DRAM 供给偏紧，价格中枢抬升。', signal: 'bullish' },
+      { title: '先进封装瓶颈', body: 'CoWoS 等产能决定 AI 芯片交付节奏，封测环节价值量提升。', signal: 'neutral' },
+      { title: '国产替代纵深', body: '设备、材料、成熟制程、部分算力芯片持续受政策与资金关注。', signal: 'bullish' },
+      { title: '估值分化加剧', body: '龙头 PE 可达百倍，周期股与价值股同列「半导体」板块，需分环节定价。', signal: 'caution' },
     ],
     events: [
-      { date: '2026-05', title: '半导体板块活跃', body: '设备、封测、设计轮动，注意估值匹配。' },
-      { date: '2026-02', title: '澜起 H 股上市', body: '内存互连龙头估值争议加大。' },
+      { date: '2026-01', title: '全球半导体销售额创新高', body: 'WSTS 上调预测，AI 与数据中心驱动逻辑、存储双旺。' },
+      { date: '2026-02', title: '澜起科技 H 股上市', body: '内存互连龙头登陆港股，AI 服务器叙事进一步升温。' },
+      { date: '2026-03', title: '金价与利率博弈', body: '黄金创历史新高后大幅回调，反映通胀与加息预期对无息资产的影响。' },
+      { date: '2026-05', title: 'A 股半导体板块活跃', body: '科创芯片、设备、封测轮动；需警惕业绩与估值匹配度。' },
+      { date: '2026-05', title: '电力板块题材波动', body: '大唐发电等标的短期暴涨，案例提示：逻辑可对、价格需估值纪律。' },
     ],
+    analysis: LAYER_ANALYSIS[1],
   },
   {
     id: 2,
@@ -105,26 +137,40 @@ export const LAYERS: LayerConfig[] = [
     icon: '🧠',
     color: '#8b5cf6',
     gradient: 'linear-gradient(135deg, #5b21b6 0%, #8b5cf6 50%, #a78bfa 100%)',
-    tagline: '大模型 · 多模态 · 开源生态',
+    tagline: '大模型 · 多模态 · 开源生态 · 对齐与安全',
     summary: '基础模型是 AI 的操作系统：闭源 API 与开源权重并行，监管与对齐成本上升。',
     stocks: {
       cn: ['sh688111', 'sh688246', 'sh300418', 'sh603533', 'sh002230', 'sh688088'],
       global: ['usMSFT', 'usGOOGL', 'usMETA', 'usAMZN', 'usPLTR', 'usAI'],
     },
     industry: {
-      overview: '头部闭源模型领先复杂推理；开源降低部署门槛；中国强调自主可控与行业大模型。',
+      overview:
+        '全球闭源与开源模型并行：头部闭源模型在复杂推理、Agent 上领先；开源模型降低部署门槛。中国强调自主可控与行业大模型，监管框架逐步完善。',
       segments: [
-        { name: '闭源大模型', desc: 'API 按 token 计费', players: 'OpenAI、Anthropic' },
-        { name: '开源生态', desc: '本地部署与微调', players: 'Meta、Qwen 等' },
-        { name: 'AI 安全', desc: '合规与内容安全', players: '云厂商安全团队' },
+        { name: '闭源大模型', desc: '高投入、高壁垒；API 按 token 计费成为主流商业模式。', players: 'OpenAI、Anthropic、Google、国内头部厂商' },
+        { name: '开源模型', desc: 'Llama、Qwen 等生态带动本地部署与垂直微调。', players: 'Meta、阿里、深度求索等' },
+        { name: '多模态', desc: '图文音视频统一理解与生成，拉动算力与数据需求。', players: '各头部 AI 实验室' },
+        { name: 'AI 安全与对齐', desc: '合规、内容安全、红队测试成为落地刚需。', players: '专业安全与云厂商合规团队' },
       ],
-      metrics: [{ label: '全球 AI 支出 2026E', value: '~2.52 万亿美元' }],
-    },
+      metrics: [
+        { label: '全球 AI 支出（Gartner 2026E）', value: '约 2.52 万亿美元' },
+        { label: '生成式 AI 芯片营收', value: '向 5000 亿美元量级' },
+        { label: '推理占比', value: '有望超 70%' },
+      ],
+        },
     trends: [
-      { title: 'Agent 普及', body: '工具调用与工作流自动化成为标配。', signal: 'bullish' },
-      { title: '监管常态化', body: '备案与跨境数据影响产品节奏。', signal: 'caution' },
+      { title: '模型小型化与蒸馏', body: '边缘侧与端侧需要更小、更快、更便宜的模型变体。', signal: 'bullish' },
+      { title: 'Agent 架构普及', body: '从聊天走向工具调用、工作流自动化，提升对可靠性与评测的要求。', signal: 'bullish' },
+      { title: '训练成本仍上升', body: '前沿模型单次训练耗资巨大，头部效应强化。', signal: 'neutral' },
+      { title: '开源 vs 闭源博弈', body: '企业选型在成本、合规、性能之间权衡。', signal: 'neutral' },
+      { title: '监管常态化', body: '算法备案、数据跨境、生成内容标识影响产品节奏。', signal: 'caution' },
     ],
-    events: [{ date: '2026', title: '推理时代叙事', body: '产业焦点从训练算力转向推理成本。' }],
+    events: [
+      { date: '2025-2026', title: '推理时代叙事确立', body: '产业讨论焦点从「训练算力」转向「推理成本与规模」。' },
+      { date: '2026', title: '多模态应用落地', body: '营销、设计、客服、代码助手等场景渗透率提升。' },
+      { date: '2026', title: '开源生态扩张', body: '企业私有化部署需求带动一体机与国产算力适配。' },
+    ],
+    analysis: LAYER_ANALYSIS[2],
   },
   {
     id: 3,
@@ -134,25 +180,38 @@ export const LAYERS: LayerConfig[] = [
     icon: '🔧',
     color: '#06b6d4',
     gradient: 'linear-gradient(135deg, #0e7490 0%, #06b6d4 50%, #22d3ee 100%)',
-    tagline: '云计算 · MLOps · RAG',
+    tagline: '云计算 · MLOps · 开发框架 · 数据工程',
     summary: '把模型变成生产力的脚手架：算力、模型 API、向量库与 Agent 编排。',
     stocks: {
       cn: ['sh600588', 'sh688158', 'sh300454', 'sz002410', 'sh601360'],
       global: ['usMSFT', 'usAMZN', 'usGOOGL', 'usSNOW', 'usCRM', 'usORCL'],
     },
     industry: {
-      overview: '云厂商将 AI 作为增长引擎；企业关注 FinOps 与数据治理。',
+      overview:
+        '云厂商将 AI 作为增长引擎：IaaS 提供算力，PaaS 提供模型 API 与微调，SaaS 嵌入 Copilot。企业上云焦点转向 AI 工作负载成本治理与数据治理。',
       segments: [
-        { name: '公有云 AI', desc: '算力+模型一站式', players: 'Azure、AWS、阿里云' },
-        { name: 'LLMOps', desc: '部署、监控、评测', players: '云原生工具链' },
+        { name: '公有云 AI', desc: '一站式模型、算力、存储；大客户议价与长期合约增加。', players: 'AWS、Azure、GCP、阿里云、腾讯云等' },
+        { name: 'MLOps / LLMOps', desc: '实验跟踪、部署、监控、评测流水线。', players: '云原生与垂直工具厂商' },
+        { name: '开发框架', desc: 'PyTorch 生态、LangChain/LlamaIndex 等 Agent 编排。', players: '开源社区 + 商业支持' },
+        { name: '向量与数据', desc: 'RAG 依赖向量库、数据清洗与知识库建设。', players: '数据库与中间件厂商' },
       ],
-      metrics: [{ label: 'AI 基础设施支出 2026E', value: '~4500 亿美元' }],
-    },
+      metrics: [
+        { label: '全球 AI 基础设施支出 2026E', value: '约 4500 亿美元' },
+        { label: '企业上云渗透率', value: '持续提升' },
+        { label: 'API 调用定价', value: '按 token / 按算力多维计价' },
+      ],
+        },
     trends: [
-      { title: 'RAG 标配化', body: '企业知识库+检索增强成为落地主流。', signal: 'bullish' },
-      { title: '平台捆绑', body: '供应商锁定风险需评估。', signal: 'caution' },
+      { title: 'RAG 成为标配', body: '企业知识库 + 检索增强降低幻觉，拉动数据工程投入。', signal: 'bullish' },
+      { title: 'FinOps for AI', body: '算力账单治理、混合云调度成为 CIO 关注点。', signal: 'bullish' },
+      { title: '平台捆绑加深', body: '云 + 模型 + 应用打包销售，中小企业更易上手。', signal: 'neutral' },
+      { title: '供应商锁定风险', body: '迁移成本与生态依赖需纳入采购评估。', signal: 'caution' },
     ],
-    events: [{ date: '2026', title: 'Agent 开发平台竞争', body: '各云厂推出 Agent 托管与评测。' }],
+    events: [
+      { date: '2026', title: 'Agent 开发平台竞争', body: '各云厂推出 Agent 构建、评测与托管服务。' },
+      { date: '2026', title: '数据合规升级', body: '企业内网部署与私有化模型需求增加。' },
+    ],
+    analysis: LAYER_ANALYSIS[3],
   },
   {
     id: 4,
@@ -162,25 +221,39 @@ export const LAYERS: LayerConfig[] = [
     icon: '📱',
     color: '#10b981',
     gradient: 'linear-gradient(135deg, #047857 0%, #10b981 50%, #34d399 100%)',
-    tagline: '行业 Copilot · 垂直 SaaS',
+    tagline: '行业 Copilot · SaaS · 垂直智能体',
     summary: 'AI 价值兑现主战场：金融、制造、医疗等场景的 ROI 验证。',
     stocks: {
       cn: ['sh600519', 'sz000858', 'sh601318', 'sh600036', 'sz300750', 'sh688169'],
       global: ['usAAPL', 'usTSLA', 'usNFLX', 'usADBE', 'usNOW', 'usUBER'],
     },
     industry: {
-      overview: '竞争从「有没有 AI」转向「能否 measurable ROI」。',
+      overview:
+        '应用层公司竞争焦点从「有没有 AI」转向「能否 measurable ROI」：降本、增收、合规、体验四维度。垂直行业数据与 workflow 嵌入深度构成护城河。',
       segments: [
-        { name: '办公协作', desc: 'Copilot 嵌入', players: '微软、Google' },
-        { name: '制造', desc: '质检与预测性维护', players: '工业软件' },
+        { name: '办公与协作', desc: '文档、表格、会议、邮件的 Copilot 化。', players: '微软、Google、国内办公套件' },
+        { name: '金融', desc: '投研、风控、客服、代码；强监管。', players: '金融机构 + 金融科技' },
+        { name: '制造', desc: '质检、预测性维护、工艺优化。', players: '工业软件 + 设备商' },
+        { name: '医疗与教育', desc: '辅助诊断、科研、个性化学习；伦理与准入关键。', players: '垂直 SaaS' },
+        { name: '出海', desc: '中国供应链、电商、制造全球化带来研究主题。', players: '跨境平台与物流' },
       ],
-      metrics: [{ label: '付费模式', value: 'Seat + Usage 混合' }],
-    },
+      metrics: [
+        { label: '企业 AI 渗透率', value: '快速上升但分化大' },
+        { label: '付费模式', value: 'Seat + Usage 混合' },
+        { label: '项目周期', value: 'PoC 3–6 月，规模化 1–2 年' },
+      ],
+        },
     trends: [
-      { title: '工作流嵌入', body: 'AI 进入 ERP/CRM/MES。', signal: 'bullish' },
-      { title: '同质化价格战', body: '通用助手毛利承压。', signal: 'caution' },
+      { title: '工作流嵌入', body: '从独立聊天窗口进入 ERP/CRM/制造执行系统。', signal: 'bullish' },
+      { title: '行业大模型', body: '金融、能源、电信等建设领域模型与知识库。', signal: 'bullish' },
+      { title: '价格战与同质化', body: '通用助手类应用毛利承压。', signal: 'caution' },
+      { title: '出海逻辑', body: '制造优势全球化需结合汇率、关税与海外收入验证。', signal: 'neutral' },
     ],
-    events: [{ date: '2026', title: '垂直 Agent 融资活跃', body: '法律、财务、客服等场景产品增多。' }],
+    events: [
+      { date: '2026', title: 'Copilot 全面嵌入', body: '主流办公软件完成 AI 功能迭代与商业化定价。' },
+      { date: '2026', title: '垂直 Agent 融资活跃', body: '法律、财务、客服等场景出现专业化智能体产品。' },
+    ],
+    analysis: LAYER_ANALYSIS[4],
   },
   {
     id: 5,
@@ -190,7 +263,7 @@ export const LAYERS: LayerConfig[] = [
     icon: '🌐',
     color: '#f59e0b',
     gradient: 'linear-gradient(135deg, #b45309 0%, #f59e0b 50%, #fbbf24 100%)',
-    tagline: '机器人 · 资源 · 红利资产',
+    tagline: '机器人 · 智能汽车 · 数据 · 政策与资本',
     summary: 'AI 走向物理世界与社会系统：具身智能、稀土、电力、高股息防御资产联动。',
     stocks: {
       cn: [
@@ -207,21 +280,35 @@ export const LAYERS: LayerConfig[] = [
       global: ['usTSLA', 'usF', 'usGM', 'usCAT', 'usLIN', 'usFCX'],
     },
     industry: {
-      overview: '主题叠加常见：机器人、稀土、电力、红利 ETF；需估值纪律。',
+      overview:
+        '生态层连接技术、政策、资本与终端消费：人形机器人、低空经济、智能车构成远期需求叙事；数据要素、网络安全、标准制定决定落地边界。投资上常出现「主题叠加」——需用估值与证伪条件纪律。',
       segments: [
-        { name: '稀土永磁', desc: '机器人与新能源车', players: '北方稀土、金力永磁' },
-        { name: '电力', desc: '高股息与周期', players: '华能、浙能' },
+        { name: '具身智能 / 机器人', desc: '传感器、执行器、永磁电机、AI 控制算法。', players: '特斯拉 Optimus 链、国内零部件与整机' },
+        { name: '智能汽车', desc: '智驾芯片、激光雷达、车端算力与软件定义汽车。', players: '车企 + Tier1 + 芯片厂' },
+        { name: '消费电子', desc: '端侧 AI、手机/PC 换机周期温和。', players: '苹果链、安卓链' },
+        { name: '战略资源', desc: '稀土永磁、电力、黄金等宏观与产业交叉主题。', players: '北方稀土、中国稀土、电力龙头等' },
+        { name: '资本与指数产品', desc: 'ETF、红利低波、行业主题基金成为配置工具。', players: '515450 红利低波 50ETF 等' },
       ],
-      metrics: [{ label: '中国冶炼分离占比', value: '~88%+' }],
-    },
+      metrics: [
+        { label: '稀土全球供给', value: '中国冶炼分离占约 88%+' },
+        { label: '机器人叙事阶段', value: '订单验证期，非全面放量' },
+        { label: '红利策略角色', value: '防御底仓 vs 成长主仓' },
+      ],
+        },
     trends: [
-      { title: '稀土供给刚性', body: '配额收紧、出口管制。', signal: 'bullish' },
-      { title: '红利防御', body: '科技牛市阶段相对承压。', signal: 'neutral' },
+      { title: '人形机器人 2027+', body: '磁材、丝杠、减速器先行，整机放量仍需验证。', signal: 'neutral' },
+      { title: '稀土供给刚性', body: '配额收紧、出口管制，氧化镨钕中长期紧平衡。', signal: 'bullish' },
+      { title: '高股息防御', body: '科技牛市阶段红利风格相对承压，震荡市受关注。', signal: 'neutral' },
+      { title: '政策驱动投资', body: '新质生产力、十五五规划指引产业方向。', signal: 'bullish' },
+      { title: '主题炒作风险', body: '算电、稀土、AI 等需区分逻辑与价格。', signal: 'caution' },
     ],
     events: [
-      { date: '2024-2026', title: '稀土条例体系', body: '总量控制与出口全链条管理。' },
-      { date: '2026', title: '红利低波 ETF 扩容', body: '515450 等资金流入高股息主题。' },
+      { date: '2024-2026', title: '《稀土管理条例》体系落地', body: '总量控制、进口矿纳入指标、出口管制强化。' },
+      { date: '2026-05', title: '红利低波 ETF 规模破百亿', body: '515450 等资金流入，高股息补涨逻辑受讨论。' },
+      { date: '2026', title: '全球备库与地缘', body: '关键矿产战略储备影响稀土与半导体供应链预期。' },
+      { date: '持续', title: '投资方法论沉淀', body: '本仓库 Section 1/2：框架 + 澜起、电力案例复盘。' },
     ],
+    analysis: LAYER_ANALYSIS[5],
   },
 ];
 
