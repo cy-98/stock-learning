@@ -21,7 +21,7 @@ export interface LayerEvent {
   body: string;
 }
 
-/** stock-sdk A 股代码格式：sh600519 / sz000858 */
+/** stock-sdk A 股代码格式：sh688981 / sz002230 */
 export interface LayerStockPool {
   /** 候选池（按市值取 Top5） */
   cn: string[];
@@ -82,22 +82,22 @@ export const LAYERS: LayerConfig[] = [
     icon: '⚡',
     color: '#3b82f6',
     gradient: 'linear-gradient(135deg, #1d4ed8 0%, #3b82f6 50%, #60a5fa 100%)',
-    tagline: '芯片 · 数据中心 · 光互联 · 电力能源',
+    tagline: '芯片 · 数据中心 · 光互联 · 半导体设备',
     summary:
-      'AI 训练的「电厂与公路」：GPU/ASIC、晶圆代工、服务器、光模块、IDC 与电力是整条链的物理底座。',
+      'AI 训练的「电厂与公路」：GPU/ASIC、晶圆代工、服务器、光模块与 IDC 是整条链的物理底座。',
     heatPeriod: { start: '2023-01-01', end: '2027-12-31', label: 'AI 算力资本开支周期' },
     stocks: {
       cn: [
         'sh688981',
         'sh688256',
         'sh688041',
-        'sh002371',
+        'sz002371',
         'sh688008',
         'sh603986',
         'sh688012',
-        'sz300748',
-        'sh600011',
-        'sh601991',
+        'sz300308',
+        'sz300502',
+        'sh601138',
       ],
       global: ['usNVDA', 'usAMD', 'usTSM', 'usAVGO', 'usMU', 'usINTC', 'usQCOM'],
     },
@@ -109,12 +109,12 @@ export const LAYERS: LayerConfig[] = [
         { name: '存储与互连', desc: 'HBM 紧缺、DDR5/MRDIMM 放量；内存接口芯片受益服务器带宽升级。', players: 'SK 海力士、美光、澜起科技' },
         { name: '晶圆制造', desc: '先进制程集中于台积电；大陆龙头以成熟制程与国产替代为主。', players: '台积电、中芯国际、华虹' },
         { name: '光模块与 IDC', desc: '数据中心资本开支拉动 800G/1.6T 光互联；IDC 能耗与区位是关键约束。', players: '中际旭创、新易盛、万国数据等' },
-        { name: '能源配套', desc: '算电协同叙事与火电/新能源电力公司估值交织，需区分题材与基本面。', players: '华能、大唐、浙能等' },
+        { name: '服务器与 IDC', desc: 'AI 服务器、机柜、液冷与数据中心交付能力影响算力落地。', players: '工业富联、浪潮信息、万国数据等' },
       ],
       metrics: [
         { label: '2026E 全球半导体规模', value: '约 9750 亿美元' },
         { label: '数据中心占半导体收入', value: '向 50%+ 靠拢' },
-        { label: '中国矿产量全球占比', value: '约 69%' },
+        { label: 'AI 服务器需求', value: '随推理工作负载持续扩张' },
       ],
         },
     trends: [
@@ -127,9 +127,9 @@ export const LAYERS: LayerConfig[] = [
     events: [
       { date: '2026-01', title: '全球半导体销售额创新高', body: 'WSTS 上调预测，AI 与数据中心驱动逻辑、存储双旺。' },
       { date: '2026-02', title: '澜起科技 H 股上市', body: '内存互连龙头登陆港股，AI 服务器叙事进一步升温。' },
-      { date: '2026-03', title: '金价与利率博弈', body: '黄金创历史新高后大幅回调，反映通胀与加息预期对无息资产的影响。' },
+      { date: '2026-03', title: 'AI 服务器订单扩张', body: '云厂商资本开支向 GPU 服务器、光互联与 IDC 交付倾斜。' },
       { date: '2026-05', title: 'A 股半导体板块活跃', body: '科创芯片、设备、封测轮动；需警惕业绩与估值匹配度。' },
-      { date: '2026-05', title: '电力板块题材波动', body: '大唐发电等标的短期暴涨，案例提示：逻辑可对、价格需估值纪律。' },
+      { date: '2026-05', title: '光模块与服务器链轮动', body: '800G/1.6T 光模块、AI 服务器与 PCB 环节轮动，需跟踪订单与估值匹配。' },
     ],
     analysis: LAYER_ANALYSIS[1],
   },
@@ -145,7 +145,7 @@ export const LAYERS: LayerConfig[] = [
     summary: '基础模型是 AI 的操作系统：闭源 API 与开源权重并行，监管与对齐成本上升。',
     heatPeriod: { start: '2022-11-01', end: '2026-12-31', label: '大模型能力迭代周期' },
     stocks: {
-      cn: ['sh688111', 'sh688246', 'sh300418', 'sh603533', 'sh002230', 'sh688088'],
+      cn: ['sz002230', 'sz300418', 'sh688327', 'sh688207', 'sh688787', 'sh688088'],
       global: ['usMSFT', 'usGOOGL', 'usMETA', 'usAMZN', 'usPLTR', 'usAI'],
     },
     industry: {
@@ -189,7 +189,7 @@ export const LAYERS: LayerConfig[] = [
     summary: '把模型变成生产力的脚手架：算力、模型 API、向量库与 Agent 编排。',
     heatPeriod: { start: '2024-01-01', end: '2027-06-30', label: '企业 AI 平台落地周期' },
     stocks: {
-      cn: ['sh600588', 'sh688158', 'sh300454', 'sz002410', 'sh601360'],
+      cn: ['sh600588', 'sh688158', 'sz300454', 'sh600845', 'sh601360', 'sz002410'],
       global: ['usMSFT', 'usAMZN', 'usGOOGL', 'usSNOW', 'usCRM', 'usORCL'],
     },
     industry: {
@@ -228,15 +228,15 @@ export const LAYERS: LayerConfig[] = [
     color: '#10b981',
     gradient: 'linear-gradient(135deg, #047857 0%, #10b981 50%, #34d399 100%)',
     tagline: '行业 Copilot · SaaS · 垂直智能体',
-    summary: 'AI 价值兑现主战场：金融、制造、医疗等场景的 ROI 验证。',
+    summary: 'AI 价值兑现主战场：办公、创意、投研、企业流程等场景的 ROI 验证。',
     heatPeriod: { start: '2025-01-01', end: '2028-12-31', label: '行业应用 ROI 验证周期' },
     stocks: {
-      cn: ['sh600519', 'sz000858', 'sh601318', 'sh600036', 'sz300750', 'sh688169'],
+      cn: ['sh688111', 'sz300624', 'sh688095', 'sz300033', 'sz300170', 'sz300496'],
       global: ['usAAPL', 'usTSLA', 'usNFLX', 'usADBE', 'usNOW', 'usUBER'],
     },
     industry: {
       overview:
-        '应用层公司竞争焦点从「有没有 AI」转向「能否 measurable ROI」：降本、增收、合规、体验四维度。垂直行业数据与 workflow 嵌入深度构成护城河。',
+        '应用层公司竞争焦点从「有没有 AI」转向「能否 measurable ROI」：降本、增收、合规、体验四维度。只纳入 AI 功能能直接驱动产品付费、效率提升或垂直场景渗透的标的。',
       segments: [
         { name: '办公与协作', desc: '文档、表格、会议、邮件的 Copilot 化。', players: '微软、Google、国内办公套件' },
         { name: '金融', desc: '投研、风控、客服、代码；强监管。', players: '金融机构 + 金融科技' },
@@ -270,49 +270,47 @@ export const LAYERS: LayerConfig[] = [
     icon: '🌐',
     color: '#f59e0b',
     gradient: 'linear-gradient(135deg, #b45309 0%, #f59e0b 50%, #fbbf24 100%)',
-    tagline: '机器人 · 智能汽车 · 数据 · 政策与资本',
-    summary: 'AI 走向物理世界与社会系统：具身智能、稀土、电力、高股息防御资产联动。',
+    tagline: '机器人 · 智能汽车 · 端侧 AI · 核心零部件',
+    summary: 'AI 走向物理世界与终端设备：具身智能、端侧 AI、智能汽车与核心零部件联动。',
     heatPeriod: { start: '2024-06-01', end: '2027-12-31', label: '机器人·资源·主题联动周期' },
     stocks: {
       cn: [
+        'sz002241',
+        'sz002475',
+        'sz300124',
+        'sz002050',
+        'sh688017',
+        'sz300748',
         'sh600111',
-        'sz000831',
-        'sh600392',
-        'sh600259',
-        'sh600011',
-        'sh601991',
-        'sh600023',
-        'sh300748',
-        'sh000970',
       ],
       global: ['usTSLA', 'usF', 'usGM', 'usCAT', 'usLIN', 'usFCX'],
     },
     industry: {
       overview:
-        '生态层连接技术、政策、资本与终端消费：人形机器人、低空经济、智能车构成远期需求叙事；数据要素、网络安全、标准制定决定落地边界。投资上常出现「主题叠加」——需用估值与证伪条件纪律。',
+        '生态层连接 AI 技术与终端设备：人形机器人、智能汽车、XR/AIoT 与端侧 AI 构成远期需求叙事。投资上常出现「主题叠加」——需用订单、毛利率与估值纪律验证。',
       segments: [
         { name: '具身智能 / 机器人', desc: '传感器、执行器、永磁电机、AI 控制算法。', players: '特斯拉 Optimus 链、国内零部件与整机' },
         { name: '智能汽车', desc: '智驾芯片、激光雷达、车端算力与软件定义汽车。', players: '车企 + Tier1 + 芯片厂' },
         { name: '消费电子', desc: '端侧 AI、手机/PC 换机周期温和。', players: '苹果链、安卓链' },
-        { name: '战略资源', desc: '稀土永磁、电力、黄金等宏观与产业交叉主题。', players: '北方稀土、中国稀土、电力龙头等' },
-        { name: '资本与指数产品', desc: 'ETF、红利低波、行业主题基金成为配置工具。', players: '515450 红利低波 50ETF 等' },
+        { name: '核心零部件', desc: '伺服、减速器、热管理、磁材等决定机器人和智能车量产成本。', players: '汇川技术、绿的谐波、三花智控等' },
+        { name: '端侧 AI', desc: '手机、PC、XR 与可穿戴设备把模型能力下沉到终端。', players: '歌尔股份、立讯精密、苹果链等' },
       ],
       metrics: [
         { label: '稀土全球供给', value: '中国冶炼分离占约 88%+' },
         { label: '机器人叙事阶段', value: '订单验证期，非全面放量' },
-        { label: '红利策略角色', value: '防御底仓 vs 成长主仓' },
+        { label: '端侧 AI 阶段', value: '硬件换机与应用体验共同验证' },
       ],
         },
     trends: [
       { title: '人形机器人 2027+', body: '磁材、丝杠、减速器先行，整机放量仍需验证。', signal: 'neutral' },
       { title: '稀土供给刚性', body: '配额收紧、出口管制，氧化镨钕中长期紧平衡。', signal: 'bullish' },
-      { title: '高股息防御', body: '科技牛市阶段红利风格相对承压，震荡市受关注。', signal: 'neutral' },
+      { title: '端侧 AI 换机', body: '手机、PC、XR 与可穿戴设备引入本地推理能力，硬件规格升级。', signal: 'neutral' },
       { title: '政策驱动投资', body: '新质生产力、十五五规划指引产业方向。', signal: 'bullish' },
       { title: '主题炒作风险', body: '算电、稀土、AI 等需区分逻辑与价格。', signal: 'caution' },
     ],
     events: [
       { date: '2024-2026', title: '《稀土管理条例》体系落地', body: '总量控制、进口矿纳入指标、出口管制强化。' },
-      { date: '2026-05', title: '红利低波 ETF 规模破百亿', body: '515450 等资金流入，高股息补涨逻辑受讨论。' },
+      { date: '2026-05', title: '端侧 AI 新品周期', body: '手机、PC、XR 与可穿戴设备围绕本地推理、传感器和交互升级。' },
       { date: '2026', title: '全球备库与地缘', body: '关键矿产战略储备影响稀土与半导体供应链预期。' },
       { date: '持续', title: '投资方法论沉淀', body: '本仓库 Section 1/2：框架 + 澜起、电力案例复盘。' },
     ],

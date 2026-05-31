@@ -1,7 +1,7 @@
 layerId: 3
 slug: platform
 updated: "2026-05-31"
-source: "AI 初稿 · section-3 + layer-feed"
+source: "AI 产业链复核 · 平台/工具直接相关 · 非实时行情"
 summary: |
   平台层企业 AI 上云与 RAG/Agent 工具链是主叙事；关注 FinOps 与供应商锁定风险。
 
@@ -44,7 +44,7 @@ picks:
       - 数据合规升级
     aiSummary: 弹性标的；适合左侧观察，不宜重仓。
 
-  - code: sh300454
+  - code: sz300454
     name: 深信服
     rank: 3
     priceBias: fair
@@ -63,21 +63,40 @@ picks:
       - RAG 成为标配
     aiSummary: 防守型成长；估值合理可持有。
 
-  - code: sz002410
-    name: 广联达
+  - code: sh600845
+    name: 宝信软件
     rank: 4
     priceBias: fair
     shortTerm:
-      bias: cheap
-      label: 偏低
-      note: 建筑信息化景气底部修复
+      bias: fair
+      label: 合理
+      note: 工业软件与数据中心业务稳健
     longTerm:
       bias: fair
       label: 合理
-      note: 若地产链企稳+AI 造价工具渗透
+      note: 工业互联网与企业数据平台可承接 AI 工具链
     holdPeriod: 12 个月以上
-    expectedReturnPct: "10% ~ +22%"
+    expectedReturnPct: "5% ~ +15%"
     horizon: long
     linkedEventTitles:
       - FinOps for AI
-    aiSummary: 周期底部品种；需跟踪回款与订阅续费。
+    aiSummary: 工业平台软件标的；关注数据中心、工业软件订单与利润率。
+
+  - code: sh601360
+    name: 三六零
+    rank: 5
+    priceBias: fair
+    shortTerm:
+      bias: fair
+      label: 合理
+      note: 安全与大模型商业化预期波动
+    longTerm:
+      bias: fair
+      label: 合理
+      note: 企业安全入口若叠加 AI 工具可形成平台价值
+    holdPeriod: 6–12 个月
+    expectedReturnPct: "-5% ~ +18%"
+    horizon: medium
+    linkedEventTitles:
+      - Agent 开发平台竞争
+    aiSummary: 安全+AI 平台型标的；重点看 B 端付费和成本控制。

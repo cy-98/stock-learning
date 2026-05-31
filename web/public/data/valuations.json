@@ -41,7 +41,7 @@
       "assumptions": ["2026E EPS ~0.9", "PE 60–80x"],
       "sectionAnchor": "海光信息"
     },
-    "sh002371": {
+    "sz002371": {
       "name": "北方华创",
       "layerId": 1,
       "profile": "equipment_pe",
@@ -137,7 +137,7 @@
       "assumptions": ["SaaS + AI 增量"],
       "sectionAnchor": "金山办公"
     },
-    "sh300418": {
+    "sz300418": {
       "name": "昆仑万维",
       "layerId": 2,
       "profile": "ps_unprofitable",

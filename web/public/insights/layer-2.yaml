@@ -1,32 +1,33 @@
 layerId: 2
 slug: model
 updated: "2026-05-31"
-source: "AI 初稿 · section-3 + layer-feed"
+source: "AI 产业链复核 · 模型/算法直接相关 · 非实时行情"
 summary: |
-  模型层处于能力迭代与监管常态化并行阶段；闭源 API 与开源权重共存。
+  模型层聚焦大模型、行业 AI、计算机视觉与训练数据公司；
+  办公、阅读等偏应用标的移出本层。
   短期看推理降本与 Agent 落地，长期看生态与合规成本。
 
 picks:
-  - code: sh688111
-    name: 金山办公
+  - code: sz002230
+    name: 科大讯飞
     rank: 1
-    priceBias: rich
+    priceBias: fair
     shortTerm:
-      bias: rich
-      label: 偏高
-      note: Copilot 预期已部分计价
+      bias: fair
+      label: 合理
+      note: 教育/政企大模型订单节奏影响情绪
     longTerm:
       bias: fair
       label: 合理
-      note: SaaS+AI 增量若 ARPU 提升则估值可维持
+      note: 垂直场景数据与渠道是护城河
     holdPeriod: 12–24 个月
-    expectedReturnPct: "0% ~ +18%"
+    expectedReturnPct: "3% ~ +15%"
     horizon: long
     linkedEventTitles:
-      - 推理时代叙事确立
-    aiSummary: 办公赛道 AI 货币化龙头；宜估值回调后配置。
+      - 监管常态化
+    aiSummary: 行业大模型代表；关注毛利率、回款和政企订单兑现。
 
-  - code: sh300418
+  - code: sz300418
     name: 昆仑万维
     rank: 2
     priceBias: rich
@@ -45,40 +46,59 @@ picks:
       - 多模态应用落地
     aiSummary: 高波动品种；仓位宜轻，跟踪收入兑现。
 
-  - code: sh002230
-    name: 科大讯飞
+  - code: sh688327
+    name: 云从科技
     rank: 3
-    priceBias: fair
+    priceBias: rich
     shortTerm:
-      bias: fair
-      label: 合理
-      note: 教育/政企大模型订单节奏影响情绪
+      bias: rich
+      label: 偏高
+      note: AI 算法与行业大模型主题波动大
     longTerm:
       bias: fair
       label: 合理
-      note: 垂直场景数据与渠道是护城河
-    holdPeriod: 12–18 个月
-    expectedReturnPct: "3% ~ +15%"
-    horizon: long
-    linkedEventTitles:
-      - 监管常态化
-    aiSummary: 行业大模型代表；关注毛利率与现金流。
-
-  - code: sh603533
-    name: 掌阅科技
-    rank: 4
-    priceBias: fair
-    shortTerm:
-      bias: cheap
-      label: 偏低
-      note: 内容平台估值承压后修复中
-    longTerm:
-      bias: fair
-      label: 合理
-      note: AI 阅读与版权运营若放量可改善
+      note: 需验证亏损收窄与行业项目规模化
     holdPeriod: 6–12 个月
-    expectedReturnPct: "5% ~ +20%"
+    expectedReturnPct: "-15% ~ +25%"
     horizon: medium
     linkedEventTitles:
+      - 多模态应用落地
+    aiSummary: 计算机视觉与行业 AI 标的；适合小仓位跟踪订单质量。
+
+  - code: sh688207
+    name: 格灵深瞳
+    rank: 4
+    priceBias: rich
+    shortTerm:
+      bias: rich
+      label: 偏高
+      note: 视觉 AI 主题弹性高，业绩兑现压力较大
+    longTerm:
+      bias: fair
+      label: 合理
+      note: 城市、商业与体育场景若放量可支撑估值
+    holdPeriod: 6–12 个月
+    expectedReturnPct: "-12% ~ +22%"
+    horizon: medium
+    linkedEventTitles:
+      - 多模态应用落地
+    aiSummary: 视觉算法公司；重点看收入稳定性和费用控制。
+
+  - code: sh688088
+    name: 虹软科技
+    rank: 5
+    priceBias: fair
+    shortTerm:
+      bias: fair
+      label: 合理
+      note: 端侧视觉算法与智能汽车预期反复
+    longTerm:
+      bias: fair
+      label: 合理
+      note: 手机、IoT 与智能车算法授权可受益端侧 AI
+    holdPeriod: 12–18 个月
+    expectedReturnPct: "5% ~ +18%"
+    horizon: long
+    linkedEventTitles:
       - 开源生态扩张
-    aiSummary: 中小市值，适合事件驱动型跟踪。
+    aiSummary: 视觉算法与端侧 AI 标的；跟踪授权收入和车载业务增速。

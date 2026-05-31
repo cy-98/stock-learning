@@ -1,83 +1,103 @@
 layerId: 4
 slug: application
 updated: "2026-05-31"
-source: "AI 初稿 · section-3 + layer-feed"
+source: "AI 产业链复核 · 直接相关标的 · 非实时行情"
 summary: |
-  应用层进入 ROI 验证期；垂直行业数据与工作流嵌入决定护城河，警惕同质化价格战。
+  应用层只保留 AI 功能能直接驱动产品付费、效率提升或垂直场景渗透的公司；
+  剔除白酒、保险、银行、电池等“组合稳定器/间接受益”标的。
 
 picks:
-  - code: sh600519
-    name: 贵州茅台
+  - code: sh688111
+    name: 金山办公
     rank: 1
-    priceBias: fair
-    shortTerm:
-      bias: fair
-      label: 合理
-      note: 消费龙头波动低于科技赛道
-    longTerm:
-      bias: fair
-      label: 合理偏上
-      note: 品牌与渠道壁垒长期稳固
-    holdPeriod: 24 个月以上
-    expectedReturnPct: "6% ~ +12%"
-    horizon: long
-    linkedEventTitles:
-      - Copilot 全面嵌入
-    aiSummary: 非纯 AI 标的但可作组合稳定器；AI 对营销效率提升有限计价。
-
-  - code: sz300750
-    name: 宁德时代
-    rank: 2
-    priceBias: fair
-    shortTerm:
-      bias: fair
-      label: 合理
-      note: 动力电池与储能订单驱动
-    longTerm:
-      bias: fair
-      label: 合理
-      note: 全球份额+技术迭代支撑中长期
-    holdPeriod: 18–36 个月
-    expectedReturnPct: "5% ~ +20%"
-    horizon: long
-    linkedEventTitles:
-      - 工作流嵌入
-    aiSummary: 制造龙头；AI 用于产能与质检，估值看 PE 与增速匹配。
-
-  - code: sh688169
-    name: 石头科技
-    rank: 3
     priceBias: rich
     shortTerm:
       bias: rich
       label: 偏高
-      note: 出海与新品预期部分反映
+      note: WPS AI 订阅预期已部分计价
     longTerm:
       bias: fair
       label: 合理
-      note: 扫地机器人+具身智能叙事
-    holdPeriod: 12–18 个月
-    expectedReturnPct: "-8% ~ +18%"
+      note: 办公工作流入口清晰，ARPU 提升需持续验证
+    holdPeriod: 12–24 个月
+    expectedReturnPct: "0% ~ +18%"
+    horizon: long
+    linkedEventTitles:
+      - Copilot 全面嵌入
+    aiSummary: 办公 AI 应用龙头；关注订阅转化、企业付费与毛利率。
+
+  - code: sz300624
+    name: 万兴科技
+    rank: 2
+    priceBias: rich
+    shortTerm:
+      bias: rich
+      label: 偏高
+      note: AIGC 创意工具主题弹性高
+    longTerm:
+      bias: fair
+      label: 合理偏上
+      note: 出海订阅与 AI 功能留存决定估值消化
+    holdPeriod: 6–12 个月
+    expectedReturnPct: "-15% ~ +25%"
     horizon: medium
     linkedEventTitles:
       - 垂直 Agent 融资活跃
-    aiSummary: 消费电子成长；关注海外收入与毛利率。
+    aiSummary: 创意生产力应用代表；适合事件驱动跟踪，仓位不宜重。
 
-  - code: sh601318
-    name: 中国平安
-    rank: 4
-    priceBias: cheap
+  - code: sh688095
+    name: 福昕软件
+    rank: 3
+    priceBias: fair
     shortTerm:
-      bias: cheap
-      label: 偏低
-      note: 金融板块估值低位
+      bias: fair
+      label: 合理
+      note: PDF/文档 AI 商业化仍在验证
     longTerm:
       bias: fair
       label: 合理
-      note: 综合金融+科技赋能若见效
+      note: 文档工作流和海外订阅具备 AI 升级空间
     holdPeriod: 12–24 个月
-    expectedReturnPct: "8% ~ +15%"
+    expectedReturnPct: "3% ~ +18%"
+    horizon: medium
+    linkedEventTitles:
+      - Copilot 全面嵌入
+    aiSummary: 文档处理垂直应用；看 AI 功能付费率和海外客户续费。
+
+  - code: sz300033
+    name: 同花顺
+    rank: 4
+    priceBias: fair
+    shortTerm:
+      bias: fair
+      label: 合理
+      note: 金融信息服务与 AI 投顾预期反复
+    longTerm:
+      bias: fair
+      label: 合理
+      note: 投研、客服与数据产品可形成增值服务
+    holdPeriod: 12–24 个月
+    expectedReturnPct: "5% ~ +18%"
     horizon: long
     linkedEventTitles:
       - 行业大模型
-    aiSummary: 金融 AI 落地慢但稳；适合价值型配置。
+    aiSummary: 金融垂直 AI 应用；关注合规边界、付费转化与市场成交活跃度。
+
+  - code: sz300170
+    name: 汉得信息
+    rank: 5
+    priceBias: fair
+    shortTerm:
+      bias: fair
+      label: 合理
+      note: 企业数字化订单节奏影响短期表现
+    longTerm:
+      bias: fair
+      label: 合理
+      note: ERP/供应链场景具备 Agent 与知识库嵌入机会
+    holdPeriod: 12–18 个月
+    expectedReturnPct: "5% ~ +20%"
+    horizon: long
+    linkedEventTitles:
+      - 工作流嵌入
+    aiSummary: 企业应用落地型标的；重点看 AI 项目从 PoC 到规模化收入。

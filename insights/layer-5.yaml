@@ -1,83 +1,103 @@
 layerId: 5
 slug: ecosystem
 updated: "2026-05-31"
-source: "AI 初稿 · section-3 + layer-feed"
+source: "AI 产业链复核 · 终端/机器人生态直接相关 · 非实时行情"
 summary: |
-  生态层主题叠加明显：稀土、机器人、电力、红利资产交织；须区分逻辑与价格。
+  生态层聚焦端侧 AI、智能硬件、机器人和核心零部件；
+  剔除电力、红利等弱关联防御配置。
 
 picks:
-  - code: sh600111
-    name: 北方稀土
+  - code: sz002241
+    name: 歌尔股份
     rank: 1
     priceBias: fair
     shortTerm:
       bias: fair
       label: 合理
-      note: 稀土价格与配额政策敏感
+      note: AI 终端与 XR 订单预期带动情绪
     longTerm:
       bias: fair
       label: 合理偏上
-      note: 供给刚性+新能源与机器人需求
+      note: 声学、光学与智能硬件制造能力受益端侧 AI
+    holdPeriod: 12–24 个月
+    expectedReturnPct: "5% ~ +20%"
+    horizon: long
+    linkedEventTitles:
+      - 人形机器人 2027+
+    aiSummary: AI 终端制造代表；关注大客户新品周期和毛利率修复。
+
+  - code: sz002475
+    name: 立讯精密
+    rank: 2
+    priceBias: fair
+    shortTerm:
+      bias: fair
+      label: 合理
+      note: 消费电子与智能终端链景气修复
+    longTerm:
+      bias: fair
+      label: 合理
+      note: 精密制造平台有望承接端侧 AI 硬件升级
     holdPeriod: 12–24 个月
     expectedReturnPct: "5% ~ +18%"
     horizon: long
     linkedEventTitles:
-      - 《稀土管理条例》体系落地
-    aiSummary: 战略资源龙头；跟踪氧化镨钕价格与配额。
+      - 政策驱动投资
+    aiSummary: 智能硬件生态链核心制造商；看订单结构和利润率。
 
-  - code: sz000831
-    name: 中国稀土
-    rank: 2
-    priceBias: rich
-    shortTerm:
-      bias: rich
-      label: 偏高
-      note: 重组与资源整合预期推高
-    longTerm:
-      bias: fair
-      label: 合理
-      note: 央企整合带来定价权提升
-    holdPeriod: 12–18 个月
-    expectedReturnPct: "0% ~ +15%"
-    horizon: long
-    linkedEventTitles:
-      - 全球备库与地缘
-    aiSummary: 政策驱动品种；不宜追高，等回调布局。
-
-  - code: sz300748
-    name: 金力永磁
+  - code: sz300124
+    name: 汇川技术
     rank: 3
     priceBias: fair
     shortTerm:
       bias: fair
       label: 合理
-      note: 机器人订单预期反复
+      note: 工控景气与机器人预期共同影响
     longTerm:
       bias: fair
       label: 合理偏上
-      note: 磁材龙头受益新能源车与机器人
+      note: 伺服、控制器与工业自动化是机器人核心能力
     holdPeriod: 12–24 个月
-    expectedReturnPct: "8% ~ +22%"
+    expectedReturnPct: "6% ~ +20%"
     horizon: long
     linkedEventTitles:
       - 人形机器人 2027+
-    aiSummary: 成长制造；20–30 元区间锚点参考 section-3。
+    aiSummary: 工业自动化与机器人链核心标的；关注订单回暖与海外拓展。
 
-  - code: sh600023
-    name: 浙能电力
+  - code: sz002050
+    name: 三花智控
     rank: 4
     priceBias: fair
     shortTerm:
       bias: fair
       label: 合理
-      note: 电力板块轮动
+      note: 热管理与机器人执行器主题活跃
     longTerm:
-      bias: cheap
-      label: 偏低
-      note: 高股息防御，估值不高
-    holdPeriod: 12 个月以上
-    expectedReturnPct: "6% ~ +10%（含股息）"
+      bias: fair
+      label: 合理偏上
+      note: 车热管理+机器人零部件提供双主线
+    holdPeriod: 12–24 个月
+    expectedReturnPct: "5% ~ +18%"
     horizon: long
     linkedEventTitles:
-      - 红利低波 ETF 规模破百亿
-    aiSummary: 防御底仓；与算电题材区分基本面。
+      - 人形机器人 2027+
+    aiSummary: 机器人零部件和智能车链标的；关注客户订单验证。
+
+  - code: sh688017
+    name: 绿的谐波
+    rank: 5
+    priceBias: rich
+    shortTerm:
+      bias: rich
+      label: 偏高
+      note: 减速器与人形机器人主题弹性高
+    longTerm:
+      bias: fair
+      label: 合理偏上
+      note: 谐波减速器国产替代与机器人放量决定空间
+    holdPeriod: 12–24 个月
+    expectedReturnPct: "-10% ~ +25%"
+    horizon: long
+    linkedEventTitles:
+      - 人形机器人 2027+
+    aiSummary: 机器人核心零部件标的；需警惕主题涨幅领先订单兑现。
