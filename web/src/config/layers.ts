@@ -231,7 +231,7 @@ export const LAYERS: LayerConfig[] = [
     summary: 'AI 价值兑现主战场：金融、制造、医疗等场景的 ROI 验证。',
     heatPeriod: { start: '2025-01-01', end: '2028-12-31', label: '行业应用 ROI 验证周期' },
     stocks: {
-      cn: ['sh600519', 'sz000858', 'sh601318', 'sh600036', 'sz300750', 'sh688169'],
+      cn: ['sh688169', 'sh601318', 'sh600036', 'sh601360'],
       global: ['usAAPL', 'usTSLA', 'usNFLX', 'usADBE', 'usNOW', 'usUBER'],
     },
     industry: {

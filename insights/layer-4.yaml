@@ -1,52 +1,15 @@
 layerId: 4
 slug: application
 updated: "2026-05-31"
-source: "AI 初稿 · section-3 + layer-feed"
+source: "AI 初稿 · section-3 + layer-feed · 2026-05 剔除非 AI 标的"
 summary: |
   应用层进入 ROI 验证期；垂直行业数据与工作流嵌入决定护城河，警惕同质化价格战。
+  荐股仅保留 AI 功能或垂直 Agent 与主业直接相关的标的（不含消费白马等组合稳定器）。
 
 picks:
-  - code: sh600519
-    name: 贵州茅台
-    rank: 1
-    priceBias: fair
-    shortTerm:
-      bias: fair
-      label: 合理
-      note: 消费龙头波动低于科技赛道
-    longTerm:
-      bias: fair
-      label: 合理偏上
-      note: 品牌与渠道壁垒长期稳固
-    holdPeriod: 24 个月以上
-    expectedReturnPct: "6% ~ +12%"
-    horizon: long
-    linkedEventTitles:
-      - Copilot 全面嵌入
-    aiSummary: 非纯 AI 标的但可作组合稳定器；AI 对营销效率提升有限计价。
-
-  - code: sz300750
-    name: 宁德时代
-    rank: 2
-    priceBias: fair
-    shortTerm:
-      bias: fair
-      label: 合理
-      note: 动力电池与储能订单驱动
-    longTerm:
-      bias: fair
-      label: 合理
-      note: 全球份额+技术迭代支撑中长期
-    holdPeriod: 18–36 个月
-    expectedReturnPct: "5% ~ +20%"
-    horizon: long
-    linkedEventTitles:
-      - 工作流嵌入
-    aiSummary: 制造龙头；AI 用于产能与质检，估值看 PE 与增速匹配。
-
   - code: sh688169
     name: 石头科技
-    rank: 3
+    rank: 1
     priceBias: rich
     shortTerm:
       bias: rich
@@ -61,11 +24,11 @@ picks:
     horizon: medium
     linkedEventTitles:
       - 垂直 Agent 融资活跃
-    aiSummary: 消费电子成长；关注海外收入与毛利率。
+    aiSummary: 端侧 AI 避障与路径规划是产品卖点；关注海外收入与毛利率。
 
   - code: sh601318
     name: 中国平安
-    rank: 4
+    rank: 2
     priceBias: cheap
     shortTerm:
       bias: cheap
@@ -80,4 +43,42 @@ picks:
     horizon: long
     linkedEventTitles:
       - 行业大模型
-    aiSummary: 金融 AI 落地慢但稳；适合价值型配置。
+    aiSummary: 金融大模型与智能核保/客服落地；适合价值型配置。
+
+  - code: sh600036
+    name: 招商银行
+    rank: 3
+    priceBias: fair
+    shortTerm:
+      bias: fair
+      label: 合理
+      note: 银行股估值修复节奏影响短期
+    longTerm:
+      bias: fair
+      label: 合理偏上
+      note: AI 赋能财富管理若提升 ARPU
+    holdPeriod: 12–24 个月
+    expectedReturnPct: "5% ~ +12%"
+    horizon: long
+    linkedEventTitles:
+      - Copilot 全面嵌入
+    aiSummary: 零售银行龙头；AI 用于投顾、风控与运营效率，非题材炒作。
+
+  - code: sh601360
+    name: 三六零
+    rank: 4
+    priceBias: fair
+    shortTerm:
+      bias: fair
+      label: 合理
+      note: 安全主业承压，AI 收入占比仍低
+    longTerm:
+      bias: fair
+      label: 合理
+      note: 360 智脑商业化若验证可再估值
+    holdPeriod: 6–12 个月
+    expectedReturnPct: "0% ~ +20%"
+    horizon: medium
+    linkedEventTitles:
+      - 垂直 Agent 融资活跃
+    aiSummary: 安全+大模型双叙事；跟踪 AI 订阅与政企订单兑现。

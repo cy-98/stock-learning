@@ -63,21 +63,21 @@ picks:
       - 人形机器人 2027+
     aiSummary: 成长制造；20–30 元区间锚点参考 section-3。
 
-  - code: sh600023
-    name: 浙能电力
+  - code: sh000970
+    name: 中科三环
     rank: 4
     priceBias: fair
     shortTerm:
       bias: fair
       label: 合理
-      note: 电力板块轮动
+      note: 磁材价格与下游订单节奏敏感
     longTerm:
-      bias: cheap
-      label: 偏低
-      note: 高股息防御，估值不高
-    holdPeriod: 12 个月以上
-    expectedReturnPct: "6% ~ +10%（含股息）"
+      bias: fair
+      label: 合理偏上
+      note: 机器人+新能源车电机需求拉动
+    holdPeriod: 12–24 个月
+    expectedReturnPct: "8% ~ +20%"
     horizon: long
     linkedEventTitles:
-      - 红利低波 ETF 规模破百亿
-    aiSummary: 防御底仓；与算电题材区分基本面。
+      - 人形机器人 2027+
+    aiSummary: 稀土永磁材料龙头；受益具身智能与智驾电机放量叙事。

@@ -84,21 +84,21 @@ picks:
       - HBM 超级周期
     aiSummary: 优质 Fabless；现价宜观察，135–173 区间更具安全边际。
 
-  - code: sh600011
-    name: 华能国际
+  - code: sh002371
+    name: 北方华创
     rank: 5
     priceBias: fair
     shortTerm:
       bias: fair
       label: 合理
-      note: 电力板块题材波动，股息逻辑仍在
+      note: 设备订单高增，估值随板块轮动
     longTerm:
-      bias: cheap
-      label: 偏低
-      note: 估值低位+分红，防御配置
-    holdPeriod: 12 个月以上
-    expectedReturnPct: "5% ~ +12%（含股息）"
+      bias: fair
+      label: 合理偏上
+      note: 国产设备渗透率提升支撑中长期
+    holdPeriod: 18–36 个月
+    expectedReturnPct: "5% ~ +18%"
     horizon: long
     linkedEventTitles:
-      - 电力板块题材波动
-    aiSummary: 算电协同下的防御底仓；勿追涨题材脉冲。
+      - 国产替代纵深
+    aiSummary: 刻蚀/薄膜等设备直接受益 AI 晶圆扩产；跟踪订单与毛利率。
