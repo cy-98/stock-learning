@@ -95,7 +95,7 @@ export const LAYERS: LayerConfig[] = [
         'sh688008',
         'sh603986',
         'sh688012',
-        'sz300748',
+        'sz300308',
         'sh600011',
         'sh601991',
       ],
@@ -145,7 +145,7 @@ export const LAYERS: LayerConfig[] = [
     summary: '基础模型是 AI 的操作系统：闭源 API 与开源权重并行，监管与对齐成本上升。',
     heatPeriod: { start: '2022-11-01', end: '2026-12-31', label: '大模型能力迭代周期' },
     stocks: {
-      cn: ['sh688111', 'sh688246', 'sh300418', 'sh603533', 'sh002230', 'sh688088'],
+      cn: ['sh688111', 'sz300418', 'sh603533', 'sz002230', 'sh688088', 'sh601360'],
       global: ['usMSFT', 'usGOOGL', 'usMETA', 'usAMZN', 'usPLTR', 'usAI'],
     },
     industry: {
@@ -189,7 +189,7 @@ export const LAYERS: LayerConfig[] = [
     summary: '把模型变成生产力的脚手架：算力、模型 API、向量库与 Agent 编排。',
     heatPeriod: { start: '2024-01-01', end: '2027-06-30', label: '企业 AI 平台落地周期' },
     stocks: {
-      cn: ['sh600588', 'sh688158', 'sh300454', 'sz002410', 'sh601360'],
+      cn: ['sh600588', 'sh688158', 'sz300454', 'sz002410', 'sh601360'],
       global: ['usMSFT', 'usAMZN', 'usGOOGL', 'usSNOW', 'usCRM', 'usORCL'],
     },
     industry: {
@@ -231,8 +231,8 @@ export const LAYERS: LayerConfig[] = [
     summary: 'AI 价值兑现主战场：金融、制造、医疗等场景的 ROI 验证。',
     heatPeriod: { start: '2025-01-01', end: '2028-12-31', label: '行业应用 ROI 验证周期' },
     stocks: {
-      cn: ['sh600519', 'sz000858', 'sh601318', 'sh600036', 'sz300750', 'sh688169'],
-      global: ['usAAPL', 'usTSLA', 'usNFLX', 'usADBE', 'usNOW', 'usUBER'],
+      cn: ['sh688111', 'sz002230', 'sh600570', 'sz300033', 'sh688169', 'sh688246'],
+      global: ['usADBE', 'usNOW', 'usCRM', 'usINTU', 'usDUOL', 'usUBER'],
     },
     industry: {
       overview:
@@ -283,7 +283,7 @@ export const LAYERS: LayerConfig[] = [
         'sh601991',
         'sh600023',
         'sh300748',
-        'sh000970',
+        'sz000970',
       ],
       global: ['usTSLA', 'usF', 'usGM', 'usCAT', 'usLIN', 'usFCX'],
     },

@@ -44,7 +44,7 @@ picks:
       - 数据合规升级
     aiSummary: 弹性标的；适合左侧观察，不宜重仓。
 
-  - code: sh300454
+  - code: sz300454
     name: 深信服
     rank: 3
     priceBias: fair
