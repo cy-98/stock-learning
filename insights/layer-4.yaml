@@ -4,26 +4,27 @@ updated: "2026-05-31"
 source: "AI 初稿 · section-3 + layer-feed"
 summary: |
   应用层进入 ROI 验证期；垂直行业数据与工作流嵌入决定护城河，警惕同质化价格战。
+  候选池聚焦 AI 可验证 ROI 的行业场景（金融、制造、智能消费），不含纯消费配置型标的。
 
 picks:
-  - code: sh600519
-    name: 贵州茅台
+  - code: sh600036
+    name: 招商银行
     rank: 1
     priceBias: fair
     shortTerm:
       bias: fair
       label: 合理
-      note: 消费龙头波动低于科技赛道
+      note: 零售银行龙头，估值随利率与资产质量波动
     longTerm:
       bias: fair
       label: 合理偏上
-      note: 品牌与渠道壁垒长期稳固
-    holdPeriod: 24 个月以上
-    expectedReturnPct: "6% ~ +12%"
+      note: 财富管理+AI 赋能若提升人均 AUM 效率
+    holdPeriod: 12–24 个月
+    expectedReturnPct: "6% ~ +14%"
     horizon: long
     linkedEventTitles:
-      - Copilot 全面嵌入
-    aiSummary: 非纯 AI 标的但可作组合稳定器；AI 对营销效率提升有限计价。
+      - 行业大模型
+    aiSummary: 金融应用层代表；AI 用于风控、投顾与运营，看 ROE 与不良率。
 
   - code: sz300750
     name: 宁德时代
