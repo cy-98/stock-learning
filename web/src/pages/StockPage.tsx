@@ -9,7 +9,10 @@ import { getLayerById } from '../config/layers';
 import { fetchValuations } from '../services/valuation';
 import { fetchStockByCode, type RankedStock } from '../services/stock';
 import type { ValuationRecord } from '../types/valuation';
+import { fetchLayerInsights, horizonLabel } from '../services/insights';
+import type { InsightPick } from '../types/insights';
 import { computeVerdict } from '../utils/computeVerdict';
+import type { InsightBias } from '../types/insights';
 
 const SECTION3_URL =
   'https://github.com/cy-98/stock-learning/blob/main/section-3.md';
@@ -21,6 +24,7 @@ export function StockPage() {
   const [stock, setStock] = useState<RankedStock | null>(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
+  const [insight, setInsight] = useState<InsightPick | null>(null);
 
   useEffect(() => {
     if (!code) {
@@ -33,11 +37,16 @@ export function StockPage() {
     setError(null);
 
     Promise.all([fetchValuations(), fetchStockByCode(code)])
-      .then(([{ stocks }, quote]) => {
+      .then(async ([{ stocks }, quote]) => {
         if (cancelled) return;
         const rec = stocks[code] ?? null;
         setRecord(rec);
         setStock(quote);
+        if (rec) {
+          const doc = await fetchLayerInsights(rec.layerId);
+          const pick = doc?.picks.find((p) => p.code === code) ?? null;
+          if (!cancelled) setInsight(pick);
+        }
         if (!rec) {
           setError('该代码尚未录入合理价区间（见 section-3）');
         } else if (!quote?.price) {
@@ -62,7 +71,10 @@ export function StockPage() {
   const profileMeta = record ? VALUATION_PROFILE_LABELS[record.profile] : null;
 
   return (
-    <PageShell title={record?.name ?? code ?? '个股'} backTo={layer ? `/layer/${layer.id}?tab=stocks` : '/'}>
+    <PageShell
+      title={record?.name ?? code ?? '个股'}
+      backTo={layer ? `/layer/${layer.id}?tab=picks` : '/'}
+    >
       {loading && (
         <div className="flex items-center gap-2 text-sm text-base-content/60">
           <span className="loading loading-spinner loading-sm" />
@@ -129,6 +141,24 @@ export function StockPage() {
               <FairRangeBar price={stock.price} snapshot={snapshot} />
             )}
 
+            {insight && (
+              <div className="rounded-lg border border-primary/20 bg-primary/5 p-4 text-sm">
+                <p className="mb-2 font-medium text-primary">AI 分析（insights YAML）</p>
+                <p className="leading-relaxed text-base-content/75">{insight.aiSummary}</p>
+                <div className="mt-3 flex flex-wrap gap-2 text-xs">
+                  <span className="badge badge-outline">持有 {insight.holdPeriod}</span>
+                  <span className="badge badge-primary badge-outline">
+                    预期 {insight.expectedReturnPct}
+                  </span>
+                  <span className="badge badge-ghost">{horizonLabel(insight.horizon)}</span>
+                </div>
+                <div className="mt-3 grid gap-2 sm:grid-cols-2">
+                  <InsightTermBlock title="短期" view={insight.shortTerm} />
+                  <InsightTermBlock title="长期" view={insight.longTerm} />
+                </div>
+              </div>
+            )}
+
             <dl className="grid gap-2 text-sm">
               <div className="flex justify-between gap-4 border-b border-base-200 py-1">
                 <dt className="text-base-content/55">估值画像</dt>
@@ -176,5 +206,21 @@ export function StockPage() {
         合理区间为人工维护锚点，现价来自 stock-sdk；不构成投资建议。
       </p>
     </PageShell>
+  );
+}
+
+function InsightTermBlock({
+  title,
+  view,
+}: {
+  title: string;
+  view: { bias: InsightBias; label: string; note: string };
+}) {
+  return (
+    <div className="rounded-md border border-base-200 bg-base-100/80 p-2">
+      <div className="text-xs text-base-content/55">{title}</div>
+      <div className="font-medium">{view.label}</div>
+      <p className="text-xs text-base-content/65">{view.note}</p>
+    </div>
   );
 }

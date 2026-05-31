@@ -23,7 +23,7 @@ export function LayerHeatCard({
 
   return (
     <Link
-      to={`/layer/${layer.id}`}
+      to={`/layer/${layer.id}?tab=picks`}
       className={`card card-border relative overflow-hidden bg-base-100 shadow-sm transition hover:border-primary/40 hover:shadow-md ${accent.border} border-l-4`}
       title={heat.detail}
     >

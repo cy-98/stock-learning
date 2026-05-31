@@ -3,6 +3,7 @@ import { Link, Navigate, useParams } from 'react-router-dom';
 import { SPEC_PHASES, DEFAULT_SPEC_SLUG, specPath } from '../config/specPhases';
 import { fetchSpecDocument, isValidSpecSlug } from '../services/spec';
 import type { SpecDocument } from '../types/spec';
+import { DesktopNav } from '../components/DesktopNav';
 import { SpecDocumentView } from '../components/spec/SpecDocumentView';
 import '../styles/spec-prose.css';
 
@@ -47,7 +48,9 @@ export function SpecPage() {
   }
 
   return (
-    <div className="spec-layout">
+    <div className="min-h-dvh lg:pl-52">
+      <DesktopNav />
+      <div className="spec-layout">
       <aside className="spec-aside">
         <Link to="/" className="spec-aside-back">
           ← 返回看板
@@ -75,6 +78,7 @@ export function SpecPage() {
         ) : doc ? (
           <SpecDocumentView doc={doc} />
         ) : null}
+      </div>
       </div>
     </div>
   );

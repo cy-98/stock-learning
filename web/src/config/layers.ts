@@ -1,7 +1,7 @@
 import { LAYER_ANALYSIS } from './layerAnalysis';
 import type { LayerHeatPeriod } from '../utils/heatProgress';
 
-export type LayerTab = 'industry' | 'trends' | 'events' | 'stocks' | 'analysis';
+export type LayerTab = 'picks' | 'stocks' | 'industry' | 'trends' | 'events' | 'analysis';
 
 export interface LayerSegment {
   name: string;

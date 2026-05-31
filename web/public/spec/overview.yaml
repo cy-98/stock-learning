@@ -28,7 +28,7 @@ sections:
       - 日更管道：Cursor Automation → layers.json → sync:feed → build → Pages（见 automation 阶段）
       - 锚点：`valuations.json` + 规则 verdict（L1/L2 首批已上线）
       - AI：RAG 结构化输出（待建）
-      - 展示：个股页、Top5 估值灯、首页偏贵计数（已上线）
+      - 展示：个股页、Top5 估值灯、AI 荐股（insights YAML）、PC 侧栏（已上线）
 
   - title: 阶段索引
     table:

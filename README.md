@@ -48,6 +48,16 @@ docker compose exec web npm run sync:feed
 
 定时云 Agent 更新 `docs/data/layers.json` 并开 PR，合并后自动发布。配置说明与可复制 Prompt 见 **[docs/automation/prompt.md](./docs/automation/prompt.md)**；规格见 `/stock-learning/spec/automation`。
 
+### AI 荐股分析（insights/*.yaml）
+
+各层推荐标的、长短期估值判断、持有周期与预期收益，由 YAML 维护并同步到前端：
+
+```bash
+cd web && npm run sync:insights
+```
+
+层页默认 **AI 荐股** Tab；PC 端（≥1024px）显示左侧导航与双列卡片布局。
+
 ## 文档
 
 - [section-1.md](./section-1.md) — 投资分析框架

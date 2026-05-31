@@ -7,10 +7,12 @@ import type { RankedStockWithValuation } from '../components/StockRankPanel';
 import { useLayerEventsAndTrends } from '../hooks/useLayerFeed';
 import { PageShell } from '../components/PageShell';
 import { GdeltNewsPanel } from '../components/GdeltNewsPanel';
+import { LayerPicksPanel } from '../components/LayerPicksPanel';
 import { StockRankPanel } from '../components/StockRankPanel';
 import { getLayerAccent, trendBadge } from '../utils/layerTheme';
 
 const TABS: { id: LayerTab; label: string }[] = [
+  { id: 'picks', label: 'AI 荐股' },
   { id: 'stocks', label: '龙头榜单' },
   { id: 'industry', label: '行业' },
   { id: 'trends', label: '趋势' },
@@ -68,7 +70,7 @@ export function LayerPage() {
   const layer = getLayerById(layerId);
   const navigate = useNavigate();
   const [searchParams, setSearchParams] = useSearchParams();
-  const tab = (searchParams.get('tab') as LayerTab) || 'stocks';
+  const tab = (searchParams.get('tab') as LayerTab) || 'picks';
 
   const [cnStocks, setCnStocks] = useState<RankedStockWithValuation[]>([]);
   const [globalStocks, setGlobalStocks] = useState<RankedStockWithValuation[]>([]);
@@ -151,7 +153,7 @@ export function LayerPage() {
 
       <div
         role="tablist"
-        className="tabs tabs-boxed tabs-sm w-full flex-nowrap overflow-x-auto bg-base-200/80 p-1"
+        className="layer-tablist tabs tabs-boxed tabs-sm lg:tabs-md"
       >
         {TABS.map((t) => (
           <button
@@ -167,8 +169,16 @@ export function LayerPage() {
         ))}
       </div>
 
+      {tab === 'picks' && (
+        <LayerPicksPanel
+          layerId={layer.id}
+          events={events}
+          feedUpdated={feedUpdated}
+        />
+      )}
+
       {tab === 'stocks' && (
-        <div className="flex flex-col gap-4">
+        <div className="stocks-dual-panel">
           <button
             type="button"
             className="btn btn-outline btn-sm w-full"

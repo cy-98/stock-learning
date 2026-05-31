@@ -52,6 +52,9 @@ tasks:
   - name: 投资分析 Tab ↔ section-3
     status: done
     progress: 85
+  - name: insights YAML · AI 荐股 Tab + PC 布局
+    status: done
+    progress: 100
   - name: Pages / Docker 构建验证
     status: done
     progress: 100

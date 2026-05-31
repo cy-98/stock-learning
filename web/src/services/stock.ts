@@ -73,7 +73,7 @@ export async function fetchCnQuotes(codes: string[]) {
   }
 }
 
-async function fetchGlobalQuotes(codes: string[]) {
+export async function fetchGlobalQuotes(codes: string[]) {
   if (!codes.length) return [];
   const results: Omit<RankedStock, 'kline'>[] = [];
 

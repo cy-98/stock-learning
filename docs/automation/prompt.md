@@ -23,6 +23,7 @@
 ### 允许修改
 
 - `docs/data/layers.json`（仅 `meta.updated`、各层 `events`、必要时 `trends`）
+- `insights/layer-*.yaml`（荐股列表、长/短期偏高偏低、持有期、预期收益%、`linkedEventTitles`）
 - `web/public/data/layer-feed.json`（由脚本生成，勿手改除非脚本失败）
 
 ### 禁止修改
@@ -46,10 +47,12 @@
    - 最多 **新增 2 条** `events`，格式：`{ "date": "YYYY-MM-DD" 或 "YYYY-MM", "title": "…", "body": "…" }`
    - 仅在有明确新研判时微调 `trends`（保留 `signal`: bullish | neutral | caution）
 4. 将 `meta.updated` 设为今日（`YYYY-MM-DD`）。
-5. 在 **`web/`** 目录执行（须全部成功）：
+5. 若更新了 insights：核对 `linkedEventTitles` 与 layers.json 中事件标题一致。
+6. 在 **`web/`** 目录执行（须全部成功）：
    ```bash
    npm ci
    npm run sync:feed
+   npm run sync:insights
    npm run build
    ```
 6. 创建分支并 **Open pull request**：

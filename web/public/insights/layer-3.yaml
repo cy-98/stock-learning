@@ -1,0 +1,83 @@
+layerId: 3
+slug: platform
+updated: "2026-05-31"
+source: "AI 初稿 · section-3 + layer-feed"
+summary: |
+  平台层企业 AI 上云与 RAG/Agent 工具链是主叙事；关注 FinOps 与供应商锁定风险。
+
+picks:
+  - code: sh600588
+    name: 用友网络
+    rank: 1
+    priceBias: fair
+    shortTerm:
+      bias: fair
+      label: 合理
+      note: 企业软件复苏节奏影响短期股价
+    longTerm:
+      bias: fair
+      label: 合理偏上
+      note: ERP+AI 若渗透率提升有再估值空间
+    holdPeriod: 12–24 个月
+    expectedReturnPct: "0% ~ +15%"
+    horizon: long
+    linkedEventTitles:
+      - Agent 开发平台竞争
+    aiSummary: 传统企业软件龙头转型；看订单与订阅占比。
+
+  - code: sh688158
+    name: 优刻得
+    rank: 2
+    priceBias: cheap
+    shortTerm:
+      bias: cheap
+      label: 偏低
+      note: 云厂商价格战压制盈利预期
+    longTerm:
+      bias: fair
+      label: 合理
+      note: 中性云+算力租赁若毛利企稳可修复
+    holdPeriod: 6–12 个月
+    expectedReturnPct: "8% ~ +25%"
+    horizon: medium
+    linkedEventTitles:
+      - 数据合规升级
+    aiSummary: 弹性标的；适合左侧观察，不宜重仓。
+
+  - code: sh300454
+    name: 深信服
+    rank: 3
+    priceBias: fair
+    shortTerm:
+      bias: fair
+      label: 合理
+      note: 安全+云交付周期影响季度波动
+    longTerm:
+      bias: fair
+      label: 合理
+      note: 企业安全刚需，AI 安全增量
+    holdPeriod: 12–18 个月
+    expectedReturnPct: "5% ~ +18%"
+    horizon: long
+    linkedEventTitles:
+      - RAG 成为标配
+    aiSummary: 防守型成长；估值合理可持有。
+
+  - code: sz002410
+    name: 广联达
+    rank: 4
+    priceBias: fair
+    shortTerm:
+      bias: cheap
+      label: 偏低
+      note: 建筑信息化景气底部修复
+    longTerm:
+      bias: fair
+      label: 合理
+      note: 若地产链企稳+AI 造价工具渗透
+    holdPeriod: 12 个月以上
+    expectedReturnPct: "10% ~ +22%"
+    horizon: long
+    linkedEventTitles:
+      - FinOps for AI
+    aiSummary: 周期底部品种；需跟踪回款与订阅续费。

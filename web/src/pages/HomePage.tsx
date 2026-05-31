@@ -99,7 +99,7 @@ export function HomePage() {
         <span>算力基础 ↑</span>
       </div>
 
-      <ul className="flex flex-col gap-2">
+      <ul className="home-layer-grid">
         {stack.map((layer) => (
           <li key={layer.id}>
             <LayerHeatCard

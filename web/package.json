@@ -5,8 +5,9 @@
   "type": "module",
   "scripts": {
     "sync:spec": "node scripts/sync-spec-yaml.mjs",
-    "dev": "npm run sync:spec && vite",
-    "build": "npm run sync:spec && npm run sync:feed && tsc -b && vite build && cp dist/index.html dist/404.html",
+    "sync:insights": "node scripts/sync-insights-yaml.mjs",
+    "dev": "npm run sync:spec && npm run sync:insights && vite",
+    "build": "npm run sync:spec && npm run sync:feed && npm run sync:insights && tsc -b && vite build && cp dist/index.html dist/404.html",
     "lint": "eslint .",
     "preview": "vite preview",
     "sync:feed": "node scripts/sync-layer-feed.mjs",
