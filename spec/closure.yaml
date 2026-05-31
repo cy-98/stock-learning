@@ -34,6 +34,7 @@ sections:
       - "`valuations.json` + 更新脚本"
       - "`docker-compose.yml`"
       - "`spec/*.yaml` 进度定格"
+      - "Cursor Automation 日更 layer-feed + Pages 可复现"
 
   - title: 已知遗留（新规划）
     list:

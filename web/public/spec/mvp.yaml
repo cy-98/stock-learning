@@ -10,7 +10,7 @@ lead: |
   实时现价对比合理区间 + 规则 verdict；层内 Top5 显示贵/合理/便宜，无需 AI。
 
 nav:
-  prev: { slug: foundation, label: 基础准备 }
+  prev: { slug: automation, label: 自动化 }
   next: { slug: test-feedback, label: 测试反馈 }
 
 callouts:
@@ -26,8 +26,11 @@ tasks:
     status: done
     progress: 100
   - name: 层热度、GDELT、layer-feed
-    status: done
-    progress: 90
+    status: wip
+    progress: 75
+  - name: 依赖 automation 日更后 layer-feed 新鲜度展示
+    status: todo
+    progress: 0
   - name: ValuationBadge
     status: todo
     progress: 0

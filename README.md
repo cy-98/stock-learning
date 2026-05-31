@@ -22,6 +22,32 @@ npm run dev      # http://localhost:5173/stock-learning/
 npm run build    # 输出 web/dist
 ```
 
+### Docker 本地开发（无需本机 Node）
+
+```bash
+docker compose up -d --build
+# http://localhost:5173/stock-learning/
+# 规格页：/stock-learning/spec/overview
+```
+
+修改 `spec/*.yaml` 后同步到静态资源：
+
+```bash
+docker compose exec web npm run sync:spec
+```
+
+从 `docs/data/layers.json` 更新层事件数据：
+
+```bash
+docker compose exec web npm run sync:feed
+```
+
+`npm run build` 已包含 `sync:spec` 与 `sync:feed`，合并到 `main` 后 GitHub Actions 会部署 Pages。
+
+### 每日时事（Cursor Automation）
+
+定时云 Agent 更新 `docs/data/layers.json` 并开 PR，合并后自动发布。配置说明与可复制 Prompt 见 **[docs/automation/prompt.md](./docs/automation/prompt.md)**；规格见 `/stock-learning/spec/automation`。
+
 ## 文档
 
 - [section-1.md](./section-1.md) — 投资分析框架

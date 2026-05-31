@@ -3,6 +3,7 @@ export const SPEC_PHASES = [
   { slug: 'overview', file: 'overview.yaml', label: '总览', progress: 12 },
   { slug: 'design', file: 'design.yaml', label: '设计', progress: 30 },
   { slug: 'foundation', file: 'foundation.yaml', label: '基础准备', progress: 15 },
+  { slug: 'automation', file: 'automation.yaml', label: '自动化', progress: 25 },
   { slug: 'mvp', file: 'mvp.yaml', label: 'MVP', progress: 8 },
   { slug: 'test-feedback', file: 'test-feedback.yaml', label: '测试反馈', progress: 0 },
   { slug: 'optimization', file: 'optimization.yaml', label: '优化', progress: 0 },

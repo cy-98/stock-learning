@@ -28,13 +28,16 @@ backlog:
     item: 触发：偏离 >15%、财报/大事件
     progress: 0
   - priority: P2
-    item: Watchlist + 每日摘要
+    item: Watchlist + 每日摘要（层事件基础版见 automation）
     progress: 0
   - priority: P3
     item: 首页热度/估值分离统计
     progress: 0
 
 tasks:
+  - name: 在 automation 稳定后扩展 AI 时事摘要（可选）
+    status: todo
+    progress: 0
   - name: api/ 服务与 compose 编排
     status: todo
     progress: 0

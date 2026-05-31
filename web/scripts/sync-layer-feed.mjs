@@ -6,10 +6,12 @@
 import { readFileSync, writeFileSync, mkdirSync } from 'node:fs';
 import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { getRepoRoot } from './repo-root.mjs';
 
-const root = join(dirname(fileURLToPath(import.meta.url)), '..');
-const src = join(root, '..', 'docs', 'data', 'layers.json');
-const out = join(root, 'public', 'data', 'layer-feed.json');
+const webRoot = join(dirname(fileURLToPath(import.meta.url)), '..');
+const repoRoot = getRepoRoot(webRoot);
+const src = join(repoRoot, 'docs', 'data', 'layers.json');
+const out = join(webRoot, 'public', 'data', 'layer-feed.json');
 
 const data = JSON.parse(readFileSync(src, 'utf8'));
 const feed = {
