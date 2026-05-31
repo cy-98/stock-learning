@@ -26,7 +26,7 @@ picks:
       - 推理时代叙事确立
     aiSummary: 办公赛道 AI 货币化龙头；宜估值回调后配置。
 
-  - code: sh300418
+  - code: sz300418
     name: 昆仑万维
     rank: 2
     priceBias: rich
@@ -45,7 +45,7 @@ picks:
       - 多模态应用落地
     aiSummary: 高波动品种；仓位宜轻，跟踪收入兑现。
 
-  - code: sh002230
+  - code: sz002230
     name: 科大讯飞
     rank: 3
     priceBias: fair

@@ -6,78 +6,97 @@ summary: |
   应用层进入 ROI 验证期；垂直行业数据与工作流嵌入决定护城河，警惕同质化价格战。
 
 picks:
-  - code: sh600519
-    name: 贵州茅台
+  - code: sh688111
+    name: 金山办公
     rank: 1
     priceBias: fair
     shortTerm:
       bias: fair
       label: 合理
-      note: 消费龙头波动低于科技赛道
+      note: Copilot 商业化已被部分计价，短期看订阅与付费渗透
     longTerm:
       bias: fair
       label: 合理偏上
-      note: 品牌与渠道壁垒长期稳固
-    holdPeriod: 24 个月以上
-    expectedReturnPct: "6% ~ +12%"
+      note: 办公工作流嵌入深、付费能力强，仍属应用层核心受益标的
+    holdPeriod: 12–24 个月
+    expectedReturnPct: "0% ~ +18%"
     horizon: long
     linkedEventTitles:
       - Copilot 全面嵌入
-    aiSummary: 非纯 AI 标的但可作组合稳定器；AI 对营销效率提升有限计价。
+    aiSummary: 办公 Copilot 龙头，AI 价值兑现路径最清晰，适合作为应用层核心观察标的。
 
-  - code: sz300750
-    name: 宁德时代
+  - code: sh600570
+    name: 恒生电子
     rank: 2
     priceBias: fair
     shortTerm:
       bias: fair
       label: 合理
-      note: 动力电池与储能订单驱动
+      note: 金融 IT 情绪仍受行业预算与监管节奏影响
     longTerm:
       bias: fair
       label: 合理
-      note: 全球份额+技术迭代支撑中长期
-    holdPeriod: 18–36 个月
-    expectedReturnPct: "5% ~ +20%"
+      note: 金融机构 Copilot、投研与运营智能化若持续落地，AI 增量可逐步兑现
+    holdPeriod: 12–18 个月
+    expectedReturnPct: "3% ~ +15%"
     horizon: long
     linkedEventTitles:
-      - 工作流嵌入
-    aiSummary: 制造龙头；AI 用于产能与质检，估值看 PE 与增速匹配。
+      - 行业大模型
+    aiSummary: 金融垂直应用代表，AI 更贴近真实业务工作流，层内相关性显著高于泛消费白马。
+
+  - code: sz300033
+    name: 同花顺
+    rank: 3
+    priceBias: fair
+    shortTerm:
+      bias: fair
+      label: 合理
+      note: 零售金融终端受市场情绪影响，AI 功能渗透需看活跃度与付费转化
+    longTerm:
+      bias: fair
+      label: 合理
+      note: 金融信息服务与 AI 投顾/问答结合紧密，应用层属性明确
+    holdPeriod: 12–18 个月
+    expectedReturnPct: "0% ~ +16%"
+    horizon: medium
+    linkedEventTitles:
+      - 行业大模型
+    aiSummary: 面向 C 端金融场景的 AI 助手与问答最容易形成可见用户价值，值得跟踪兑现节奏。
 
   - code: sh688169
     name: 石头科技
-    rank: 3
+    rank: 4
     priceBias: rich
     shortTerm:
       bias: rich
       label: 偏高
-      note: 出海与新品预期部分反映
+      note: 出海与新品预期部分反映，短期需防高预期回吐
     longTerm:
       bias: fair
       label: 合理
-      note: 扫地机器人+具身智能叙事
+      note: 家用机器人与 AI 感知/规划深度融合，属消费场景智能化代表
     holdPeriod: 12–18 个月
     expectedReturnPct: "-8% ~ +18%"
     horizon: medium
     linkedEventTitles:
       - 垂直 Agent 融资活跃
-    aiSummary: 消费电子成长；关注海外收入与毛利率。
+    aiSummary: 虽偏硬件，但 AI 能力直接决定产品体验，属于应用层而非泛制造价值股。
 
-  - code: sh601318
-    name: 中国平安
-    rank: 4
+  - code: sh688246
+    name: 嘉和美康
+    rank: 5
     priceBias: cheap
     shortTerm:
       bias: cheap
       label: 偏低
-      note: 金融板块估值低位
+      note: 医疗信息化景气偏弱，市场对医院 AI 落地节奏仍谨慎
     longTerm:
       bias: fair
       label: 合理
-      note: 综合金融+科技赋能若见效
+      note: 医疗数据与院内系统壁垒强，若辅助诊疗/病历 Copilot 放量则弹性更大
     holdPeriod: 12–24 个月
-    expectedReturnPct: "8% ~ +15%"
+    expectedReturnPct: "8% ~ +22%"
     horizon: long
     linkedEventTitles:
-      - 行业大模型
-    aiSummary: 金融 AI 落地慢但稳；适合价值型配置。
+      - 工作流嵌入
+    aiSummary: 医疗垂直软件更符合应用层定义，AI 价值体现在病历、质控与临床工作流嵌入。
