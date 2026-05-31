@@ -95,9 +95,6 @@ export const LAYERS: LayerConfig[] = [
         'sh688008',
         'sh603986',
         'sh688012',
-        'sz300748',
-        'sh600011',
-        'sh601991',
       ],
       global: ['usNVDA', 'usAMD', 'usTSM', 'usAVGO', 'usMU', 'usINTC', 'usQCOM'],
     },
@@ -145,7 +142,7 @@ export const LAYERS: LayerConfig[] = [
     summary: '基础模型是 AI 的操作系统：闭源 API 与开源权重并行，监管与对齐成本上升。',
     heatPeriod: { start: '2022-11-01', end: '2026-12-31', label: '大模型能力迭代周期' },
     stocks: {
-      cn: ['sh688111', 'sh688246', 'sh300418', 'sh603533', 'sh002230', 'sh688088'],
+      cn: ['sh688111', 'sh300418', 'sh603533', 'sh002230', 'sh688088'],
       global: ['usMSFT', 'usGOOGL', 'usMETA', 'usAMZN', 'usPLTR', 'usAI'],
     },
     industry: {
@@ -271,20 +268,10 @@ export const LAYERS: LayerConfig[] = [
     color: '#f59e0b',
     gradient: 'linear-gradient(135deg, #b45309 0%, #f59e0b 50%, #fbbf24 100%)',
     tagline: '机器人 · 智能汽车 · 数据 · 政策与资本',
-    summary: 'AI 走向物理世界与社会系统：具身智能、稀土、电力、高股息防御资产联动。',
+    summary: 'AI 走向物理世界：具身智能、稀土永磁、机器人供应链与智能汽车终端。',
     heatPeriod: { start: '2024-06-01', end: '2027-12-31', label: '机器人·资源·主题联动周期' },
     stocks: {
-      cn: [
-        'sh600111',
-        'sz000831',
-        'sh600392',
-        'sh600259',
-        'sh600011',
-        'sh601991',
-        'sh600023',
-        'sh300748',
-        'sh000970',
-      ],
+      cn: ['sh600111', 'sz000831', 'sh600392', 'sh600259', 'sh300748', 'sh000970'],
       global: ['usTSLA', 'usF', 'usGM', 'usCAT', 'usLIN', 'usFCX'],
     },
     industry: {

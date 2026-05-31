@@ -2,6 +2,7 @@ import { useEffect, useMemo, useState } from 'react';
 import { Link, useSearchParams } from 'react-router-dom';
 import { LAYERS } from '../config/layers';
 import { HomeLayerSection } from '../components/HomeLayerSection';
+import { PortfolioStabilizersBar } from '../components/PortfolioStabilizersBar';
 import { PageShell } from '../components/PageShell';
 import { useLayerFeed } from '../hooks/useLayerFeed';
 import type { LayerConfig } from '../config/layers';
@@ -69,7 +70,8 @@ export function HomePage() {
         <div className="card-body gap-2 p-5">
           <h2 className="card-title text-lg font-semibold">从算力到生态</h2>
           <p className="text-sm leading-relaxed text-muted">
-            点击各层展开，查看 AI 荐股与快捷入口；完整 Tab（龙头、行业、趋势、大事件、投资分析）请进入对应层页。
+            点击各层展开，查看本层最相关的 AI 荐股；完整 Tab（龙头、行业、趋势、大事件、投资分析）请进入对应层页。
+            防御型电力等组合稳定器单独列于下方，不混入任一层。
           </p>
           <div className="collapse collapse-arrow glass-inset">
             <input type="checkbox" />
@@ -126,6 +128,8 @@ export function HomePage() {
           );
         })}
       </ul>
+
+      <PortfolioStabilizersBar />
 
       <div className="glass-card card">
         <div className="card-body gap-2 p-4">

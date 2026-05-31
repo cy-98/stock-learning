@@ -3,8 +3,9 @@ slug: infrastructure
 updated: "2026-05-31"
 source: "AI 初稿 · section-3 + layer-feed · 非实时行情"
 summary: |
-  算力层分化加剧：AI 算力链高景气，成熟制程与电力题材需估值纪律。
+  算力层分化加剧：AI 算力链高景气，设备与芯片设计是核心跟踪对象。
   短期多数龙头 priced-in；中长期关注国产替代兑现节奏。
+  电力等防御型标的见首页「组合稳定器」，不在本层列出。
 
 picks:
   - code: sh688981
@@ -84,21 +85,21 @@ picks:
       - HBM 超级周期
     aiSummary: 优质 Fabless；现价宜观察，135–173 区间更具安全边际。
 
-  - code: sh600011
-    name: 华能国际
+  - code: sh002371
+    name: 北方华创
     rank: 5
     priceBias: fair
     shortTerm:
       bias: fair
       label: 合理
-      note: 电力板块题材波动，股息逻辑仍在
+      note: 设备订单高增，估值随景气波动
     longTerm:
-      bias: cheap
-      label: 偏低
-      note: 估值低位+分红，防御配置
-    holdPeriod: 12 个月以上
-    expectedReturnPct: "5% ~ +12%（含股息）"
+      bias: fair
+      label: 合理偏上
+      note: 国产设备渗透率提升，平台化壁垒
+    holdPeriod: 12–24 个月
+    expectedReturnPct: "0% ~ +18%"
     horizon: long
     linkedEventTitles:
-      - 电力板块题材波动
-    aiSummary: 算电协同下的防御底仓；勿追涨题材脉冲。
+      - 国产替代纵深
+    aiSummary: 半导体设备龙头；刻蚀/薄膜等品类最全，跟踪订单与毛利率。

@@ -5,6 +5,7 @@ source: "AI 初稿 · section-3 + layer-feed"
 summary: |
   模型层处于能力迭代与监管常态化并行阶段；闭源 API 与开源权重共存。
   短期看推理降本与 Agent 落地，长期看生态与合规成本。
+  本层仅列大模型/算法直接相关标的。
 
 picks:
   - code: sh688111

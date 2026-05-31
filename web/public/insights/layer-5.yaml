@@ -3,7 +3,8 @@ slug: ecosystem
 updated: "2026-05-31"
 source: "AI 初稿 · section-3 + layer-feed"
 summary: |
-  生态层主题叠加明显：稀土、机器人、电力、红利资产交织；须区分逻辑与价格。
+  生态层聚焦机器人与稀土永磁供应链：战略资源、磁材与终端需求叙事。
+  须区分逻辑与价格；高股息电力等防御配置见首页「组合稳定器」。
 
 picks:
   - code: sh600111
@@ -63,21 +64,21 @@ picks:
       - 人形机器人 2027+
     aiSummary: 成长制造；20–30 元区间锚点参考 section-3。
 
-  - code: sh600023
-    name: 浙能电力
+  - code: sh600392
+    name: 盛和资源
     rank: 4
     priceBias: fair
     shortTerm:
       bias: fair
       label: 合理
-      note: 电力板块轮动
+      note: 稀土价格与海外矿权进度敏感
     longTerm:
-      bias: cheap
-      label: 偏低
-      note: 高股息防御，估值不高
-    holdPeriod: 12 个月以上
-    expectedReturnPct: "6% ~ +10%（含股息）"
+      bias: fair
+      label: 合理偏上
+      note: 资源+贸易双轨，矿端利润占比提升
+    holdPeriod: 12–18 个月
+    expectedReturnPct: "5% ~ +20%"
     horizon: long
     linkedEventTitles:
-      - 红利低波 ETF 规模破百亿
-    aiSummary: 防御底仓；与算电题材区分基本面。
+      - 全球备库与地缘
+    aiSummary: 海外稀土布局差异化；跟踪矿权兑现与贸易毛利。

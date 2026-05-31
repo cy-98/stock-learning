@@ -4,6 +4,7 @@ updated: "2026-05-31"
 source: "AI 初稿 · section-3 + layer-feed"
 summary: |
   平台层企业 AI 上云与 RAG/Agent 工具链是主叙事；关注 FinOps 与供应商锁定风险。
+  本层仅列云计算、MLOps 与数据工程相关标的。
 
 picks:
   - code: sh600588
