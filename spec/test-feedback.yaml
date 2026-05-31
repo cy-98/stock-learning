@@ -1,0 +1,63 @@
+slug: test-feedback
+order: 4
+navLabel: 测试反馈
+heading: 阶段 4 · 测试反馈
+progress: 0
+progressLabel: 阶段进度 · 第 1 轮
+updated: "2026-05-31"
+round: 1
+
+lead: |
+  用 section-3 人工结论与真实行情对照，收集偏差与数据源问题。
+
+nav:
+  prev: { slug: mvp, label: MVP }
+  next: { slug: optimization, label: 优化 }
+
+callouts:
+  - type: info
+    body: 可与阶段 5 多轮循环；新一轮可增加 `test-feedback-round-2.yaml`。
+
+stats:
+  - label: 正确性
+    value: "≥20 只"
+    hint: vs section-3
+  - label: 实时性
+    value: 刷新
+    hint: 降级文案
+  - label: 边界
+    value: 多市场
+    hint: 停牌 / PS 股
+
+tasks:
+  - name: 测试用例表
+    status: todo
+    progress: 0
+  - name: 对照 L1 样本
+    status: todo
+    progress: 0
+  - name: stock-sdk 限流/错误场景
+    status: todo
+    progress: 0
+  - name: 用户反馈收集
+    status: todo
+    progress: 0
+  - name: 《测试反馈纪要》
+    status: todo
+    progress: 0
+  - name: 优化 backlog 优先级
+    status: todo
+    progress: 0
+
+sections:
+  - title: 验收门槛
+    list:
+      - 抽样正确率 ≥ 90%
+      - 无 P0 崩溃
+      - 反馈纪要已归档
+
+rounds:
+  - round: 1
+    date: —
+    summary: 待 MVP 完成后执行
+    progress: 0

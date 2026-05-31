@@ -5,6 +5,8 @@ import { PageShell } from '../components/PageShell';
 import { useLayerFeed } from '../context/LayerFeedContext';
 import type { LayerConfig } from '../config/layers';
 import { fetchLayersCnMomentum } from '../services/stock';
+import { Link } from 'react-router-dom';
+import { SPEC_OVERVIEW_PATH, SPEC_PAGES } from '../config/spec';
 
 function withFeedLayer(layer: LayerConfig, feed: ReturnType<typeof useLayerFeed>): LayerConfig {
   const e = feed.getEvents(layer.id);
@@ -100,6 +102,31 @@ export function HomePage() {
           </li>
         ))}
       </ul>
+
+      <div className="card card-border bg-base-100 shadow-sm">
+        <div className="card-body gap-2 p-4">
+          <div className="flex flex-wrap items-center justify-between gap-2">
+            <h3 className="text-sm font-semibold text-base-content/80">项目规格（spec/*.yaml）</h3>
+            <Link to={SPEC_OVERVIEW_PATH} className="btn btn-outline btn-xs">
+              打开总览
+            </Link>
+          </div>
+          <p className="text-xs text-base-content/55">
+            分阶段计划写在仓库 <code className="text-xs">spec/</code> 目录的 YAML 中，由前端路由渲染。
+          </p>
+          <div className="flex flex-wrap gap-2">
+            {SPEC_PAGES.map((page) => (
+              <Link
+                key={page.slug}
+                to={page.to}
+                className="badge badge-ghost badge-sm hover:badge-primary"
+              >
+                {page.label}
+              </Link>
+            ))}
+          </div>
+        </div>
+      </div>
 
       <p className="px-1 text-center text-xs leading-relaxed text-base-content/50">
         行情与 K 线来自公开数据源，仅供学习研究，不构成投资建议。

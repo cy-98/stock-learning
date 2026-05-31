@@ -1,0 +1,60 @@
+slug: mvp
+order: 3
+navLabel: MVP
+heading: 阶段 3 · MVP
+progress: 8
+progressLabel: 阶段进度
+updated: "2026-05-31"
+
+lead: |
+  实时现价对比合理区间 + 规则 verdict；层内 Top5 显示贵/合理/便宜，无需 AI。
+
+nav:
+  prev: { slug: foundation, label: 基础准备 }
+  next: { slug: test-feedback, label: 测试反馈 }
+
+callouts:
+  - type: ok
+    body: |
+      **MVP 完成标准**：Top5 展示现价、合理区间、偏离%、估值灯；
+      无数据时显示「待录入」；刷新后 verdict 自动更新。
+  - type: warn
+    body: 强依赖 valuations.json；行情失败时仍展示静态区间。
+
+tasks:
+  - name: 五层看板 + Top5 行情/K 线
+    status: done
+    progress: 100
+  - name: 层热度、GDELT、layer-feed
+    status: done
+    progress: 90
+  - name: ValuationBadge
+    status: todo
+    progress: 0
+  - name: FairRangeBar
+    status: todo
+    progress: 0
+  - name: StockRankPanel 估值展示
+    status: todo
+    progress: 0
+  - name: fetchLayerTopStocks 合并 verdict
+    status: todo
+    progress: 0
+  - name: 首页层内偏贵标的数
+    status: todo
+    progress: 0
+  - name: 个股页 /stock/:code
+    status: todo
+    progress: 0
+  - name: 投资分析 Tab ↔ section-3
+    status: todo
+    progress: 0
+  - name: Pages / Docker 构建验证
+    status: warn
+    progress: 50
+
+sections:
+  - title: UI 要点
+    list:
+      - 偏离度 = (price − 区间中值) / 区间中值
+      - price > expensiveAbove 为极端偏贵

@@ -1,0 +1,73 @@
+slug: optimization
+order: 5
+navLabel: 优化
+heading: 阶段 5 · 优化
+progress: 0
+progressLabel: 阶段进度 · 第 1 轮
+updated: "2026-05-31"
+round: 1
+
+lead: |
+  基本面数据、AI 解读、Watchlist 与可审计快照；可与阶段 4 循环。
+
+nav:
+  prev: { slug: test-feedback, label: 测试反馈 }
+  next: { slug: closure, label: 结束 }
+
+backlog:
+  - priority: P0
+    item: API：PE/PB、历史分位缓存
+    progress: 0
+  - priority: P0
+    item: 动态 fairRange（EPS × PE）
+    progress: 0
+  - priority: P1
+    item: AI RAG → stock-insights/
+    progress: 0
+  - priority: P1
+    item: 触发：偏离 >15%、财报/大事件
+    progress: 0
+  - priority: P2
+    item: Watchlist + 每日摘要
+    progress: 0
+  - priority: P3
+    item: 首页热度/估值分离统计
+    progress: 0
+
+tasks:
+  - name: api/ 服务与 compose 编排
+    status: todo
+    progress: 0
+  - name: PE/PB + 历史分位
+    status: todo
+    progress: 0
+  - name: AI prompt + Schema 校验
+    status: todo
+    progress: 0
+  - name: 个股页 AI 解读区块
+    status: todo
+    progress: 0
+  - name: .env.example 密钥管理
+    status: todo
+    progress: 0
+  - name: 批量行情 + Insights TTL
+    status: todo
+    progress: 0
+
+codeBlocks:
+  - title: AI 输出契约
+    lang: json
+    code: |
+      {
+        "verdict": "rich",
+        "fairRange": [55, 80],
+        "confidence": 0.72,
+        "drivers": ["PE 分位 85%"],
+        "falsification": ["毛利率连续下滑"],
+        "snapshotAt": "ISO-8601",
+        "thesisVersion": "2026-05"
+      }
+
+callouts:
+  - type: info
+    body: AI 输出须通过 JSON Schema 校验；快照时间戳用于可审计追溯。

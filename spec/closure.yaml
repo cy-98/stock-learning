@@ -1,0 +1,57 @@
+slug: closure
+order: 6
+navLabel: 结束
+heading: 阶段 6 · 结束
+progress: 0
+progressLabel: 阶段进度
+updated: "2026-05-31"
+
+lead: |
+  确认交付物、免责声明与遗留项，关闭本规划周期。
+
+nav:
+  prev: { slug: optimization, label: 优化 }
+  next: null
+
+closeConditions:
+  - text: Top5 估值灯 + 区间对比上线
+    progress: 0
+  - text: valuations.json 覆盖 ≥80% 候选池
+    progress: 0
+  - text: 至少 1 轮测试纪要归档
+    progress: 0
+  - text: README / 文档更新
+    progress: 20
+  - text: 免责声明一致
+    progress: 50
+  - text: AI 或 Watchlist（P1 任选）
+    progress: 0
+
+sections:
+  - title: 最终交付物
+    list:
+      - "`web/` 五层看板 + 估值 UI"
+      - "`valuations.json` + 更新脚本"
+      - "`docker-compose.yml`"
+      - "`spec/*.yaml` 进度定格"
+
+  - title: 已知遗留（新规划）
+    list:
+      - 付费/合规财报与一致预期
+      - section-3 → valuations 自动解析
+      - 多用户 Watchlist
+      - verdict 历史回测
+
+tasks:
+  - name: README 截图与说明
+    status: todo
+    progress: 10
+  - name: overview 进度定格
+    status: todo
+    progress: 0
+  - name: 各阶段关闭日期
+    status: todo
+    progress: 0
+  - name: 测试纪要归档
+    status: todo
+    progress: 0

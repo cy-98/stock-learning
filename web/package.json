@@ -4,8 +4,9 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
-    "build": "tsc -b && vite build && cp dist/index.html dist/404.html",
+    "sync:spec": "node scripts/sync-spec-yaml.mjs",
+    "dev": "npm run sync:spec && vite",
+    "build": "npm run sync:spec && tsc -b && vite build && cp dist/index.html dist/404.html",
     "lint": "eslint .",
     "preview": "vite preview",
     "sync:feed": "node scripts/sync-layer-feed.mjs"
@@ -14,8 +15,11 @@
     "lightweight-charts": "^5.2.0",
     "react": "^19.2.6",
     "react-dom": "^19.2.6",
+    "react-markdown": "^10.1.0",
     "react-router-dom": "^7.15.1",
-    "stock-sdk": "^1.10.0"
+    "remark-gfm": "^4.0.1",
+    "stock-sdk": "^1.10.0",
+    "yaml": "^2.9.0"
   },
   "devDependencies": {
     "@eslint/js": "^10.0.1",

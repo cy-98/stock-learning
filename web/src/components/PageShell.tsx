@@ -1,5 +1,6 @@
 import type { ReactNode } from 'react';
 import { Link, useLocation } from 'react-router-dom';
+import { SPEC_OVERVIEW_PATH } from '../config/spec';
 
 interface Props {
   title: string;
@@ -11,6 +12,7 @@ interface Props {
 export function PageShell({ title, backTo, badge, children }: Props) {
   const { pathname } = useLocation();
   const isHome = pathname === '/' || pathname === '';
+  const isSpec = pathname.startsWith('/spec');
 
   return (
     <div className="page-shell">
@@ -39,6 +41,12 @@ export function PageShell({ title, backTo, badge, children }: Props) {
             ☰
           </span>
           <span className="btm-nav-label text-xs">五层模型</span>
+        </Link>
+        <Link to={SPEC_OVERVIEW_PATH} className={isSpec ? 'active border-primary text-primary' : ''}>
+          <span className="text-lg" aria-hidden>
+            📋
+          </span>
+          <span className="btm-nav-label text-xs">规格</span>
         </Link>
         <a
           href="https://github.com/cy-98/stock-learning"

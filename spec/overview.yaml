@@ -1,0 +1,43 @@
+slug: overview
+order: 0
+navLabel: 总览
+heading: 实时观察 + AI 合理估值
+progress: 12
+progressLabel: 项目总进度
+updated: "2026-05-31"
+tags:
+  - spec-yaml-phased-planning
+
+lead: |
+  在「AI 五层模型」看板基础上，打通实时行情与 `section-3` 合理价格区间，
+  用规则锚点 + AI 解读判断个股是否偏贵。
+
+callouts:
+  - type: info
+    body: 进度口径：各阶段工作项**简单平均**；总进度 = 六阶段算术平均。
+
+sections:
+  - title: 目标闭环
+    paragraph: 实时事实 → 结构化估值锚点 → AI 解释「贵不贵」→ 人工复核
+    list:
+      - 观察：行情、新闻、层内事件/趋势（stock-sdk、GDELT、layer-feed）
+      - 锚点：`valuations.json` + 规则 verdict（待建）
+      - AI：RAG 结构化输出（待建）
+      - 展示：个股页、Top5 估值灯、Watchlist（待建）
+
+  - title: 阶段索引
+    table:
+      headers: [阶段, 阶段路由, 进度]
+      rows:
+        - ["1 · 设计", design, 30]
+        - ["2 · 基础准备", foundation, 15]
+        - ["3 · MVP", mvp, 8]
+        - ["4 · 测试反馈", test-feedback, 0]
+        - ["5 · 优化", optimization, 0]
+        - ["6 · 结束", closure, 0]
+
+  - title: 现有资产（基线）
+    list:
+      - "`web/` — 五层看板、Top5 行情/K 线、层热度、GDELT"
+      - "`section-1.md` / `section-3.md` — 方法论与合理价案例"
+      - "`docker-compose.yml` — 本地 Docker 开发"
