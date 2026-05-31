@@ -7,9 +7,17 @@ interface Props {
   layer: LayerConfig;
   marketQuotes?: { changePercent: number }[];
   marketLoading?: boolean;
+  richCount?: number;
+  feedUpdated?: string | null;
 }
 
-export function LayerHeatCard({ layer, marketQuotes, marketLoading }: Props) {
+export function LayerHeatCard({
+  layer,
+  marketQuotes,
+  marketLoading,
+  richCount,
+  feedUpdated,
+}: Props) {
   const accent = getLayerAccent(layer.id);
   const heat = computeDynamicHeat(layer, { cycle: layer.heatPeriod, marketQuotes });
 
@@ -40,6 +48,15 @@ export function LayerHeatCard({ layer, marketQuotes, marketLoading }: Props) {
           >
             {marketLoading ? '正在拉取行情热度…' : heat.hint}
           </p>
+          {(richCount != null && richCount > 0) || feedUpdated ? (
+            <p className="mt-0.5 text-[10px] text-base-content/45">
+              {richCount != null && richCount > 0 && (
+                <span className="text-warning">偏贵 {richCount} 只</span>
+              )}
+              {richCount != null && richCount > 0 && feedUpdated && ' · '}
+              {feedUpdated && <span>时事 {feedUpdated}</span>}
+            </p>
+          ) : null}
         </div>
         <div className="flex shrink-0 flex-col items-end gap-0.5">
           {marketLoading ? (

@@ -2,7 +2,7 @@ slug: automation
 order: 3
 navLabel: 自动化
 heading: 每日时事拉取与发布
-progress: 5
+progress: 72
 progressLabel: 阶段进度
 updated: "2026-05-31"
 tags:
@@ -24,7 +24,7 @@ callouts:
       各层 **GDELT 面板** = 用户打开页面时实时拉新闻，不纳入每日 commit。
   - type: warn
     body: |
-      Automation 须绑定仓库 `cy-98/stock-learning` 并启用 **Open pull request**（推荐）或经你审核后合并；
+      Automation 须绑定仓库 `cy-98/stock-learning` 并启用 **Open pull request**（推荐）；
       禁止在无人工策略时自动改写 `valuations.json` 合理价锚点。
 
 sections:
@@ -46,37 +46,25 @@ sections:
 
   - title: Cursor Automation 配置要点
     list:
-      - "**触发器**：Scheduled cron，建议 `0 0 * * *` UTC（北京时间 08:00）或工作日 cron"
+      - "**触发器**：Scheduled cron，建议 `0 0 * * *` UTC（北京时间 08:00）"
       - "**仓库**：本仓库 `main` 分支；启用 **Open pull request**"
-      - "**模型**：云 Agent（Automation 默认 Max Mode）"
       - "**指令**：见 `docs/automation/prompt.md`（完整可复制 Prompt）"
-      - "**可选**：Memories 记录「上月已写入事件」避免重复；Slack 发送摘要"
-      - "**计费**：按 Cloud Agent 用量；Team Owned 与 Private 账单归属不同（见官方文档）"
+      - "**可选**：Memories / Slack 摘要"
 
   - title: 与现有 CI 的关系
     paragraph: |
-      `.github/workflows/pages.yml` 在 **push main** 时 `npm ci && npm run build` 并发布 gh-pages。
-      每日 Automation 的标准路径是：**开 PR → 合并 main → 由 Actions 部署**。
-      若 Automation 直接 push `main`，也会触发同一 workflow（需约束 commit 范围与消息格式）。
+      `.github/workflows/pages.yml` 在 **push main** 时 build 并发布 gh-pages。
+      每日 Automation 标准路径：**开 PR → 合并 main → Actions 部署**。
     list:
       - 构建前执行 `sync:feed`（已纳入 `npm run build`）
-      - `npm run sync:spec` 已包含在 `build` 中，无需 Automation 单独改 spec YAML，除非同步改计划
-
-  - title: 时事更新范围（Agent 契约）
-    list:
-      - 每层 `events`：新增 0–2 条**有日期、可核实**的条目；同月同标题不重复
-      - 可选微调 `trends`：仅当有明显新研判；须带 `signal`（bullish / neutral / caution）
-      - 更新 `meta.updated` 为运行日（`YYYY-MM-DD`）
-      - **禁止**：编造具体股价、目标价；禁止修改 `fairLow` / `fairHigh`（属 valuations 人工锚点）
-      - 中文为主；海外重大事件可中英并列
 
 tasks:
   - name: 阶段规格（本文件）定稿
-    status: wip
-    progress: 60
+    status: done
+    progress: 100
   - name: design / overview 数据流对齐
-    status: wip
-    progress: 50
+    status: done
+    progress: 100
   - name: build 脚本纳入 sync:feed
     status: done
     progress: 100
@@ -84,10 +72,10 @@ tasks:
     status: done
     progress: 100
   - name: layers.json events 字段约定文档
-    status: todo
-    progress: 0
+    status: done
+    progress: 100
   - name: 创建 Cursor Automation（cron + PR）
-    status: todo
+    status: warn
     progress: 0
   - name: 首次试跑 PR + Pages 验证
     status: todo
@@ -97,27 +85,6 @@ tasks:
     progress: 0
 
 codeBlocks:
-  - title: Automation Prompt 骨架（粘贴到 Cursor）
-    lang: markdown
-    code: |
-      你是 stock-learning 仓库的每日时事维护 Agent。
-
-      ## 范围
-      - 只改：docs/data/layers.json（五层 events/trends/meta.updated）
-      - 不改：web/src/**、valuations、section-*.md，除非我另行说明
-
-      ## 步骤
-      1. 阅读 docs/data/layers.json 与各层 layerGdelt 主题（web/src/config/layerGdelt.ts）
-      2. 用 GDELT / 可信财经来源检索过去 24–72h 与五层相关要闻（勿编造）
-      3. 每层最多新增 2 条 events：{ date, title, body }，date 用 YYYY-MM 或 YYYY-MM-DD
-      4. 更新 meta.updated 为今日
-      5. 在 web/ 目录执行：npm run sync:feed && npm run build（须通过）
-      6. 提交分支，开 PR：标题 `chore(daily): layer feed YYYY-MM-DD`，正文列出新增事件清单
-
-      ## 质量
-      - 重复标题跳过；不确定的条目不写
-      - PR 描述附「数据来源」一句话
-
   - title: event 条目结构（layers.json）
     lang: json
     code: |

@@ -2,7 +2,7 @@ slug: design
 order: 1
 navLabel: 设计
 heading: 阶段 1 · 设计
-progress: 30
+progress: 82
 progressLabel: 阶段进度
 updated: "2026-05-31"
 
@@ -42,23 +42,23 @@ tasks:
     status: ok
     progress: 100
   - name: section-3 估值类型 → valuationProfile
-    status: wip
-    progress: 40
+    status: done
+    progress: 90
   - name: 定义 valuations.json 字段
-    status: wip
-    progress: 50
+    status: done
+    progress: 95
   - name: 规则 verdict：cheap / fair / rich / extreme
-    status: todo
-    progress: 0
+    status: done
+    progress: 100
   - name: AI 层：RAG + memoPrompts + 结构化输出
     status: todo
-    progress: 20
+    progress: 25
   - name: 信息架构：/stock/:code、估值灯、新鲜度
-    status: todo
-    progress: 0
+    status: done
+    progress: 90
   - name: 日更管道与 Cursor Automation 边界
-    status: wip
-    progress: 40
+    status: done
+    progress: 90
 
 subsections:
   - title: 核心设计决策

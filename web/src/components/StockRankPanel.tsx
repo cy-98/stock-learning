@@ -1,10 +1,18 @@
+import { Link } from 'react-router-dom';
 import type { RankedStock } from '../services/stock';
+import type { ValuationSnapshot } from '../types/valuation';
+import { FairRangeBar } from './FairRangeBar';
 import { MiniKlineChart } from './MiniKlineChart';
+import { ValuationBadge } from './ValuationBadge';
+
+export type RankedStockWithValuation = RankedStock & {
+  valuation: ValuationSnapshot | null;
+};
 
 interface Props {
   title: string;
   flag: string;
-  stocks: RankedStock[];
+  stocks: RankedStockWithValuation[];
   loading?: boolean;
   error?: string | null;
 }
@@ -50,12 +58,26 @@ export function StockRankPanel({ title, flag, stocks, loading, error }: Props) {
                   <div className="min-w-0 flex-1">
                     <div className="flex items-start justify-between gap-2">
                       <div className="min-w-0">
-                        <div className="truncate font-medium">{s.name}</div>
+                        <Link
+                          to={`/stock/${s.code}`}
+                          className="truncate font-medium hover:text-primary hover:underline"
+                        >
+                          {s.name}
+                        </Link>
                         <div className="font-mono text-xs text-base-content/50">
                           {s.code}
                         </div>
                       </div>
-                      <div className="text-right">
+                      <div className="flex flex-col items-end gap-1">
+                        {s.valuation ? (
+                          <ValuationBadge
+                            verdict={s.valuation.verdict}
+                            deviationPct={s.valuation.deviationPct}
+                            compact
+                          />
+                        ) : (
+                          <span className="badge badge-ghost badge-sm">待录入</span>
+                        )}
                         <div className="font-mono text-sm font-semibold tabular-nums">
                           {s.market === 'cn' ? '¥' : '$'}
                           {s.price.toFixed(2)}
@@ -73,6 +95,13 @@ export function StockRankPanel({ title, flag, stocks, loading, error }: Props) {
                     <p className="text-xs text-base-content/55">
                       市值约 {formatCap(s.marketCap, s.market)}
                     </p>
+                    {s.valuation && s.price > 0 && (
+                      <FairRangeBar
+                        price={s.price}
+                        snapshot={s.valuation}
+                        currencySymbol={s.market === 'cn' ? '¥' : '$'}
+                      />
+                    )}
                     <MiniKlineChart
                       data={s.kline}
                       positive={s.changePercent >= 0}

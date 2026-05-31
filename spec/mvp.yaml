@@ -1,8 +1,8 @@
 slug: mvp
-order: 3
+order: 4
 navLabel: MVP
-heading: 阶段 3 · MVP
-progress: 8
+heading: 阶段 4 · MVP
+progress: 92
 progressLabel: 阶段进度
 updated: "2026-05-31"
 
@@ -26,35 +26,35 @@ tasks:
     status: done
     progress: 100
   - name: 层热度、GDELT、layer-feed
-    status: wip
-    progress: 75
+    status: done
+    progress: 100
   - name: 依赖 automation 日更后 layer-feed 新鲜度展示
-    status: todo
-    progress: 0
+    status: done
+    progress: 100
   - name: ValuationBadge
-    status: todo
-    progress: 0
+    status: done
+    progress: 100
   - name: FairRangeBar
-    status: todo
-    progress: 0
+    status: done
+    progress: 100
   - name: StockRankPanel 估值展示
-    status: todo
-    progress: 0
+    status: done
+    progress: 100
   - name: fetchLayerTopStocks 合并 verdict
-    status: todo
-    progress: 0
+    status: done
+    progress: 100
   - name: 首页层内偏贵标的数
-    status: todo
-    progress: 0
+    status: done
+    progress: 100
   - name: 个股页 /stock/:code
-    status: todo
-    progress: 0
+    status: done
+    progress: 100
   - name: 投资分析 Tab ↔ section-3
-    status: todo
-    progress: 0
+    status: done
+    progress: 85
   - name: Pages / Docker 构建验证
-    status: warn
-    progress: 50
+    status: done
+    progress: 100
 
 sections:
   - title: UI 要点

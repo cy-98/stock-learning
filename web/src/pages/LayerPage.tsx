@@ -1,8 +1,10 @@
 import { useEffect, useState, type ReactNode } from 'react';
 import { useNavigate, useParams, useSearchParams } from 'react-router-dom';
 import { getLayerById, type LayerTab } from '../config/layers';
-import { fetchLayerTopStocks, type RankedStock } from '../services/stock';
-import { useLayerEventsAndTrends } from '../context/LayerFeedContext';
+import { fetchLayerTopStocks } from '../services/stock';
+import { fetchValuations, enrichRankedStocks } from '../services/valuation';
+import type { RankedStockWithValuation } from '../components/StockRankPanel';
+import { useLayerEventsAndTrends } from '../hooks/useLayerFeed';
 import { PageShell } from '../components/PageShell';
 import { GdeltNewsPanel } from '../components/GdeltNewsPanel';
 import { StockRankPanel } from '../components/StockRankPanel';
@@ -68,8 +70,8 @@ export function LayerPage() {
   const [searchParams, setSearchParams] = useSearchParams();
   const tab = (searchParams.get('tab') as LayerTab) || 'stocks';
 
-  const [cnStocks, setCnStocks] = useState<RankedStock[]>([]);
-  const [globalStocks, setGlobalStocks] = useState<RankedStock[]>([]);
+  const [cnStocks, setCnStocks] = useState<RankedStockWithValuation[]>([]);
+  const [globalStocks, setGlobalStocks] = useState<RankedStockWithValuation[]>([]);
   const [loading, setLoading] = useState(false);
   const [stockError, setStockError] = useState<string | null>(null);
   const [refreshKey, setRefreshKey] = useState(0);
@@ -98,11 +100,11 @@ export function LayerPage() {
     setLoading(true);
     setStockError(null);
 
-    fetchLayerTopStocks(layer.stocks.cn, layer.stocks.global, 5)
-      .then(({ cn, global }) => {
+    Promise.all([fetchLayerTopStocks(layer.stocks.cn, layer.stocks.global, 5), fetchValuations()])
+      .then(([{ cn, global }, { stocks: valMap }]) => {
         if (cancelled) return;
-        setCnStocks(cn);
-        setGlobalStocks(global);
+        setCnStocks(enrichRankedStocks(cn, valMap));
+        setGlobalStocks(enrichRankedStocks(global, valMap));
         if (cn.length === 0 && global.length === 0) {
           setStockError('行情接口暂不可用，请稍后刷新或切换网络后重试');
         }
@@ -299,6 +301,20 @@ export function LayerPage() {
 
       {tab === 'analysis' && (
         <div className="flex flex-col gap-3">
+          <div className="alert alert-info alert-soft text-sm">
+            <span>
+              合理价区间案例见仓库{' '}
+              <a
+                href="https://github.com/cy-98/stock-learning/blob/main/section-3.md"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="link link-primary"
+              >
+                section-3.md
+              </a>
+              ；龙头榜单 Tab 可对比现价与估值灯。
+            </span>
+          </div>
           <SectionCard title="Section 1 · 本层定位">
             <p className="text-sm leading-relaxed text-base-content/75">{analysis.role}</p>
           </SectionCard>

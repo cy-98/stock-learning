@@ -48,12 +48,18 @@ function marketCapOf(item: {
   return num(item.marketCap) || num(item.totalMarketCap);
 }
 
-async function fetchCnQuotes(codes: string[]) {
+export async function fetchCnQuotes(codes: string[]) {
   if (!codes.length) return [];
   try {
     const list = await sdk.getSimpleQuotes(codes);
     return (list ?? []).map((q) => ({
-      code: codes.find((c) => c.includes(String(q.code))) ?? `sh${q.code}`,
+      code:
+        codes.find(
+          (c) =>
+            c === String(q.code) ||
+            c.endsWith(String(q.code)) ||
+            String(q.code).endsWith(c.replace(/^(sh|sz|bj)/i, '')),
+        ) ?? `sh${q.code}`,
       name: q.name ?? String(q.code),
       price: Number(q.price) || 0,
       change: Number(q.change) || 0,
@@ -147,6 +153,20 @@ function delay(ms: number) {
 /** 按总市值排序取 Top N */
 export function rankByMarketCap<T extends { marketCap: number }>(items: T[], top = 5): T[] {
   return [...items].sort((a, b) => b.marketCap - a.marketCap).slice(0, top);
+}
+
+/** 单只股票行情 + 近 60 日 K 线（个股页） */
+export async function fetchStockByCode(code: string): Promise<RankedStock | null> {
+  const market: 'cn' | 'global' = isCnCode(code) ? 'cn' : 'global';
+  const quotes =
+    market === 'cn' ? await fetchCnQuotes([code]) : await fetchGlobalQuotes([code]);
+  const row = quotes.find((q) => q.code === code) ?? quotes[0];
+  if (!row) return null;
+  return {
+    ...row,
+    code,
+    kline: await fetchKline(row.code, market),
+  };
 }
 
 export async function fetchLayerTopStocks(

@@ -1,8 +1,8 @@
 slug: test-feedback
-order: 4
+order: 5
 navLabel: 测试反馈
-heading: 阶段 4 · 测试反馈
-progress: 0
+heading: 阶段 5 · 测试反馈
+progress: 55
 progressLabel: 阶段进度 · 第 1 轮
 updated: "2026-05-31"
 round: 1
@@ -16,7 +16,7 @@ nav:
 
 callouts:
   - type: info
-    body: 可与阶段 5 多轮循环；新一轮可增加 `test-feedback-round-2.yaml`。
+    body: 可与阶段 6 多轮循环；清单见 `docs/testing/mvp-checklist.md`。
 
 stats:
   - label: 正确性
@@ -31,23 +31,23 @@ stats:
 
 tasks:
   - name: 测试用例表
-    status: todo
-    progress: 0
+    status: done
+    progress: 80
   - name: 对照 L1 样本
-    status: todo
-    progress: 0
+    status: wip
+    progress: 40
   - name: stock-sdk 限流/错误场景
     status: todo
-    progress: 0
+    progress: 20
   - name: 用户反馈收集
     status: todo
     progress: 0
   - name: 《测试反馈纪要》
     status: todo
-    progress: 0
+    progress: 10
   - name: 优化 backlog 优先级
-    status: todo
-    progress: 0
+    status: wip
+    progress: 30
 
 sections:
   - title: 验收门槛
@@ -58,6 +58,6 @@ sections:
 
 rounds:
   - round: 1
-    date: —
-    summary: 待 MVP 完成后执行
-    progress: 0
+    date: "2026-05-31"
+    summary: MVP 清单已建立，待人工跑行情对照
+    progress: 55

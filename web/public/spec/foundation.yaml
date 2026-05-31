@@ -2,7 +2,7 @@ slug: foundation
 order: 2
 navLabel: 基础准备
 heading: 阶段 2 · 基础准备
-progress: 15
+progress: 88
 progressLabel: 阶段进度
 updated: "2026-05-31"
 
@@ -18,7 +18,8 @@ sections:
     list:
       - "`web/public/data/valuations.json`"
       - "`web/src/types/valuation.ts`"
-      - "`scripts/section3-to-valuations.mjs`（可选）"
+      - "`web/src/utils/computeVerdict.ts`"
+      - "`docs/valuation-thesis.md`"
       - 候选池映射（`layers.ts`）
       - README：Docker / dev / 数据更新 / 日更 Automation 说明
       - `npm run build` 含 `sync:feed`（与 automation 发布链一致）
@@ -28,32 +29,32 @@ tasks:
     status: done
     progress: 100
   - name: valuations.json Schema 写入仓库
-    status: todo
-    progress: 0
+    status: done
+    progress: 100
   - name: section-3 导入 L1 首批 5–10 只
-    status: todo
-    progress: 0
+    status: done
+    progress: 100
   - name: 扩展至五层候选池
-    status: todo
-    progress: 0
+    status: wip
+    progress: 35
   - name: valuationProfile 配置
-    status: todo
-    progress: 0
+    status: done
+    progress: 100
   - name: valuation.ts 读取与匹配
-    status: todo
-    progress: 0
+    status: done
+    progress: 100
   - name: computeVerdict 规则函数
-    status: todo
-    progress: 0
+    status: done
+    progress: 100
   - name: thesisVersion 变更约定文档
-    status: todo
-    progress: 0
+    status: done
+    progress: 100
   - name: build 纳入 sync:feed（日更后 Pages 可见）
     status: done
     progress: 100
   - name: docs/data/layers.json events 字段约定
-    status: todo
-    progress: 0
+    status: done
+    progress: 100
 
 codeBlocks:
   - title: valuations.json 目标结构

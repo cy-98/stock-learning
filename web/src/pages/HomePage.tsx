@@ -2,9 +2,10 @@ import { useEffect, useState } from 'react';
 import { LAYERS } from '../config/layers';
 import { LayerHeatCard } from '../components/LayerHeatCard';
 import { PageShell } from '../components/PageShell';
-import { useLayerFeed } from '../context/LayerFeedContext';
+import { useLayerFeed } from '../hooks/useLayerFeed';
 import type { LayerConfig } from '../config/layers';
 import { fetchLayersCnMomentum } from '../services/stock';
+import { fetchValuations, fetchLayerRichCounts } from '../services/valuation';
 import { Link } from 'react-router-dom';
 import { SPEC_OVERVIEW_PATH, SPEC_PAGES } from '../config/spec';
 
@@ -23,18 +24,25 @@ export function HomePage() {
     {},
   );
   const [marketLoading, setMarketLoading] = useState(true);
+  const [richCounts, setRichCounts] = useState<Record<number, number>>({});
   const feed = useLayerFeed();
 
   useEffect(() => {
     let cancelled = false;
     setMarketLoading(true);
 
-    fetchLayersCnMomentum(LAYERS)
-      .then((data) => {
-        if (!cancelled) setMomentum(data);
+    Promise.all([fetchLayersCnMomentum(LAYERS), fetchValuations()])
+      .then(async ([mom, { stocks }]) => {
+        if (cancelled) return;
+        setMomentum(mom);
+        const rich = await fetchLayerRichCounts(LAYERS, stocks);
+        if (!cancelled) setRichCounts(rich);
       })
       .catch(() => {
-        if (!cancelled) setMomentum({});
+        if (!cancelled) {
+          setMomentum({});
+          setRichCounts({});
+        }
       })
       .finally(() => {
         if (!cancelled) setMarketLoading(false);
@@ -98,6 +106,8 @@ export function HomePage() {
               layer={withFeedLayer(layer, feed)}
               marketQuotes={momentum[layer.id]}
               marketLoading={marketLoading}
+              richCount={richCounts[layer.id]}
+              feedUpdated={feed.updated}
             />
           </li>
         ))}

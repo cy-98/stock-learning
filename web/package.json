@@ -9,7 +9,8 @@
     "build": "npm run sync:spec && npm run sync:feed && tsc -b && vite build && cp dist/index.html dist/404.html",
     "lint": "eslint .",
     "preview": "vite preview",
-    "sync:feed": "node scripts/sync-layer-feed.mjs"
+    "sync:feed": "node scripts/sync-layer-feed.mjs",
+    "test:verdict": "node scripts/test-compute-verdict.mjs"
   },
   "dependencies": {
     "lightweight-charts": "^5.2.0",
