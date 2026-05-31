@@ -1,0 +1,95 @@
+slug: automation
+order: 3
+navLabel: 自动化
+heading: 每日时事拉取与发布
+progress: 72
+progressLabel: 阶段进度
+updated: "2026-05-31"
+tags:
+  - cursor-automation
+  - daily-pipeline
+
+lead: |
+  用 **Cursor Automations**（定时云 Agent）维护仓库内「可部署的时事」数据，
+  再经 `sync:feed` → `build` → GitHub Pages 对外更新；浏览器内 GDELT 仍作实时补充，不写入仓库。
+
+nav:
+  prev: { slug: foundation, label: 基础准备 }
+  next: { slug: mvp, label: MVP }
+
+callouts:
+  - type: info
+    body: |
+      **职责分界**：`docs/data/layers.json` + `layer-feed.json` = 层内大事件/趋势（进热度、层页卡片）；
+      各层 **GDELT 面板** = 用户打开页面时实时拉新闻，不纳入每日 commit。
+  - type: warn
+    body: |
+      Automation 须绑定仓库 `cy-98/stock-learning` 并启用 **Open pull request**（推荐）；
+      禁止在无人工策略时自动改写 `valuations.json` 合理价锚点。
+
+sections:
+  - title: 目标
+    list:
+      - 每个交易日（或每日固定时刻）拉取与五层模型相关的**宏观/行业时事**
+      - 结构化写入 `docs/data/layers.json` 的 `events` / 必要时 `trends`
+      - 运行 `npm run sync:feed` 与 `npm run build`，通过合并 PR 或 push `main` 触发 Pages 部署
+      - 更新 `meta.updated` 与自动化运行摘要（可选 `docs/automation/last-run.md`）
+
+  - title: 数据流（仓库内）
+    table:
+      headers: [步骤, 产物, 消费者]
+      rows:
+        - ["1 · Agent 调研", "docs/data/layers.json", "人工 diff / PR 审查"]
+        - ["2 · sync:feed", "web/public/data/layer-feed.json", "LayerFeedContext、层热度 30%"]
+        - ["3 · build", "web/dist/", "GitHub Pages"]
+        - ["—", "GDELT API（运行时）", "GdeltNewsPanel，不进 build"]
+
+  - title: Cursor Automation 配置要点
+    list:
+      - "**触发器**：Scheduled cron，建议 `0 0 * * *` UTC（北京时间 08:00）"
+      - "**仓库**：本仓库 `main` 分支；启用 **Open pull request**"
+      - "**指令**：见 `docs/automation/prompt.md`（完整可复制 Prompt）"
+      - "**可选**：Memories / Slack 摘要"
+
+  - title: 与现有 CI 的关系
+    paragraph: |
+      `.github/workflows/pages.yml` 在 **push main** 时 build 并发布 gh-pages。
+      每日 Automation 标准路径：**开 PR → 合并 main → Actions 部署**。
+    list:
+      - 构建前执行 `sync:feed`（已纳入 `npm run build`）
+
+tasks:
+  - name: 阶段规格（本文件）定稿
+    status: done
+    progress: 100
+  - name: design / overview 数据流对齐
+    status: done
+    progress: 100
+  - name: build 脚本纳入 sync:feed
+    status: done
+    progress: 100
+  - name: docs/automation/prompt.md 指令模板
+    status: done
+    progress: 100
+  - name: layers.json events 字段约定文档
+    status: done
+    progress: 100
+  - name: 创建 Cursor Automation（cron + PR）
+    status: warn
+    progress: 0
+  - name: 首次试跑 PR + Pages 验证
+    status: todo
+    progress: 0
+  - name: 运行摘要 / 失败告警（Slack 可选）
+    status: todo
+    progress: 0
+
+codeBlocks:
+  - title: event 条目结构（layers.json）
+    lang: json
+    code: |
+      {
+        "date": "2026-05-31",
+        "title": "简短标题",
+        "body": "一两句事实描述，避免投资建议"
+      }

@@ -1,0 +1,153 @@
+{
+  "meta": {
+    "thesisVersion": "2026-05",
+    "updated": "2026-05-31",
+    "source": "section-3.md（L1 算力层首批 + 部分跨层样本）"
+  },
+  "stocks": {
+    "sh688981": {
+      "name": "中芯国际",
+      "layerId": 1,
+      "profile": "cyclical_pb",
+      "fairLow": 65,
+      "fairHigh": 85,
+      "expensiveAbove": 100,
+      "currency": "CNY",
+      "thesisVersion": "2026-05",
+      "assumptions": ["BPS≈42", "PB 1.5–2.0x"],
+      "sectionAnchor": "中芯国际"
+    },
+    "sh688256": {
+      "name": "寒武纪",
+      "layerId": 1,
+      "profile": "ps_unprofitable",
+      "fairLow": 150,
+      "fairHigh": 250,
+      "expensiveAbove": 320,
+      "currency": "CNY",
+      "thesisVersion": "2026-05",
+      "assumptions": ["PS 30–50x", "盈利路径不确定"],
+      "sectionAnchor": "寒武纪"
+    },
+    "sh688041": {
+      "name": "海光信息",
+      "layerId": 1,
+      "profile": "growth_pe",
+      "fairLow": 55,
+      "fairHigh": 80,
+      "expensiveAbove": 100,
+      "currency": "CNY",
+      "thesisVersion": "2026-05",
+      "assumptions": ["2026E EPS ~0.9", "PE 60–80x"],
+      "sectionAnchor": "海光信息"
+    },
+    "sh002371": {
+      "name": "北方华创",
+      "layerId": 1,
+      "profile": "equipment_pe",
+      "fairLow": 280,
+      "fairHigh": 380,
+      "expensiveAbove": 450,
+      "currency": "CNY",
+      "thesisVersion": "2026-05",
+      "assumptions": ["2026E EPS ~8", "PE 35–45x"],
+      "sectionAnchor": "北方华创"
+    },
+    "sh688008": {
+      "name": "澜起科技",
+      "layerId": 1,
+      "profile": "growth_pe",
+      "fairLow": 135,
+      "fairHigh": 173,
+      "expensiveAbove": 220,
+      "currency": "CNY",
+      "thesisVersion": "2026-05",
+      "assumptions": ["2026E EPS ~2.7", "PE 50–64x"],
+      "sectionAnchor": "澜起科技"
+    },
+    "sh603986": {
+      "name": "兆易创新",
+      "layerId": 1,
+      "profile": "growth_pe",
+      "fairLow": 80,
+      "fairHigh": 120,
+      "expensiveAbove": 150,
+      "currency": "CNY",
+      "thesisVersion": "2026-05",
+      "assumptions": ["周期复苏", "PE 30–40x"],
+      "sectionAnchor": "兆易创新"
+    },
+    "sh688012": {
+      "name": "中微公司",
+      "layerId": 1,
+      "profile": "equipment_pe",
+      "fairLow": 120,
+      "fairHigh": 180,
+      "expensiveAbove": 220,
+      "currency": "CNY",
+      "thesisVersion": "2026-05",
+      "assumptions": ["刻蚀国产化", "PE 40–50x"],
+      "sectionAnchor": "中微公司"
+    },
+    "sz300748": {
+      "name": "金力永磁",
+      "layerId": 1,
+      "profile": "rare_earth_pe",
+      "fairLow": 20,
+      "fairHigh": 30,
+      "expensiveAbove": 38,
+      "currency": "CNY",
+      "thesisVersion": "2026-05",
+      "assumptions": ["2026E EPS ~0.9", "PE 25–30x"],
+      "sectionAnchor": "金力永磁"
+    },
+    "sh600011": {
+      "name": "华能国际",
+      "layerId": 1,
+      "profile": "utility_pe",
+      "fairLow": 6.0,
+      "fairHigh": 7.5,
+      "expensiveAbove": 8.5,
+      "currency": "CNY",
+      "thesisVersion": "2026-05",
+      "assumptions": ["PE 8–10x", "股息 ~5%"],
+      "sectionAnchor": "华能国际"
+    },
+    "sh601991": {
+      "name": "大唐发电",
+      "layerId": 1,
+      "profile": "utility_pe",
+      "fairLow": 4.1,
+      "fairHigh": 4.8,
+      "expensiveAbove": 5.5,
+      "currency": "CNY",
+      "thesisVersion": "2026-05",
+      "assumptions": ["PE 11–13x", "题材波动大"],
+      "sectionAnchor": "大唐发电"
+    },
+    "sh688111": {
+      "name": "金山办公",
+      "layerId": 2,
+      "profile": "growth_pe",
+      "fairLow": 280,
+      "fairHigh": 380,
+      "expensiveAbove": 450,
+      "currency": "CNY",
+      "thesisVersion": "2026-05",
+      "assumptions": ["SaaS + AI 增量"],
+      "sectionAnchor": "金山办公"
+    },
+    "sh300418": {
+      "name": "昆仑万维",
+      "layerId": 2,
+      "profile": "ps_unprofitable",
+      "fairLow": 35,
+      "fairHigh": 55,
+      "expensiveAbove": 70,
+      "currency": "CNY",
+      "thesisVersion": "2026-05",
+      "assumptions": ["AI 应用叙事"],
+      "sectionAnchor": "昆仑万维"
+    }
+  }
+}

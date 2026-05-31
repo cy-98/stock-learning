@@ -1,0 +1,84 @@
+layerId: 5
+slug: ecosystem
+updated: "2026-05-31"
+source: "AI 初稿 · section-3 + layer-feed"
+summary: |
+  生态层聚焦机器人与稀土永磁供应链：战略资源、磁材与终端需求叙事。
+  须区分逻辑与价格；高股息电力等防御配置见首页「组合稳定器」。
+
+picks:
+  - code: sh600111
+    name: 北方稀土
+    rank: 1
+    priceBias: fair
+    shortTerm:
+      bias: fair
+      label: 合理
+      note: 稀土价格与配额政策敏感
+    longTerm:
+      bias: fair
+      label: 合理偏上
+      note: 供给刚性+新能源与机器人需求
+    holdPeriod: 12–24 个月
+    expectedReturnPct: "5% ~ +18%"
+    horizon: long
+    linkedEventTitles:
+      - 《稀土管理条例》体系落地
+    aiSummary: 战略资源龙头；跟踪氧化镨钕价格与配额。
+
+  - code: sz000831
+    name: 中国稀土
+    rank: 2
+    priceBias: rich
+    shortTerm:
+      bias: rich
+      label: 偏高
+      note: 重组与资源整合预期推高
+    longTerm:
+      bias: fair
+      label: 合理
+      note: 央企整合带来定价权提升
+    holdPeriod: 12–18 个月
+    expectedReturnPct: "0% ~ +15%"
+    horizon: long
+    linkedEventTitles:
+      - 全球备库与地缘
+    aiSummary: 政策驱动品种；不宜追高，等回调布局。
+
+  - code: sz300748
+    name: 金力永磁
+    rank: 3
+    priceBias: fair
+    shortTerm:
+      bias: fair
+      label: 合理
+      note: 机器人订单预期反复
+    longTerm:
+      bias: fair
+      label: 合理偏上
+      note: 磁材龙头受益新能源车与机器人
+    holdPeriod: 12–24 个月
+    expectedReturnPct: "8% ~ +22%"
+    horizon: long
+    linkedEventTitles:
+      - 人形机器人 2027+
+    aiSummary: 成长制造；20–30 元区间锚点参考 section-3。
+
+  - code: sh600392
+    name: 盛和资源
+    rank: 4
+    priceBias: fair
+    shortTerm:
+      bias: fair
+      label: 合理
+      note: 稀土价格与海外矿权进度敏感
+    longTerm:
+      bias: fair
+      label: 合理偏上
+      note: 资源+贸易双轨，矿端利润占比提升
+    holdPeriod: 12–18 个月
+    expectedReturnPct: "5% ~ +20%"
+    horizon: long
+    linkedEventTitles:
+      - 全球备库与地缘
+    aiSummary: 海外稀土布局差异化；跟踪矿权兑现与贸易毛利。
