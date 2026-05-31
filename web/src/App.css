@@ -1,4 +1,6 @@
 @import 'tailwindcss';
+@import './styles/typography-theme.css';
+
 @plugin 'daisyui' {
   themes:
     corporate --default,
@@ -11,36 +13,206 @@
   }
 
   body {
-    @apply min-h-dvh bg-base-200 text-base-content antialiased;
+    min-height: 100dvh;
+    font-family: var(--app-serif);
+    font-size: var(--app-prose-size);
+    line-height: var(--app-prose-leading);
+    color: var(--app-fg);
+    background:
+      radial-gradient(ellipse 120% 80% at 50% -20%, rgba(255, 255, 255, 0.9), transparent),
+      linear-gradient(165deg, var(--app-bg) 0%, var(--app-bg-accent) 100%);
+    -webkit-font-smoothing: antialiased;
+  }
+
+  #root {
+    min-height: 100dvh;
   }
 }
 
 @layer components {
+  /* —— 玻璃卡片 —— */
+  .glass-card {
+    background: var(--app-glass);
+    backdrop-filter: blur(14px);
+    -webkit-backdrop-filter: blur(14px);
+    border: 1px solid var(--app-glass-border);
+    border-radius: var(--app-radius);
+    box-shadow: var(--app-shadow);
+    transition:
+      box-shadow 0.2s ease,
+      border-color 0.2s ease,
+      transform 0.2s ease;
+  }
+
+  .glass-card:hover {
+    box-shadow: var(--app-shadow-hover);
+  }
+
+  .glass-card-strong {
+    background: var(--app-glass-strong);
+  }
+
+  .glass-inset {
+    background: rgba(255, 255, 255, 0.42);
+    border: 1px solid var(--app-border);
+    border-radius: var(--app-radius-sm);
+    backdrop-filter: blur(8px);
+  }
+
+  .glass-chrome {
+    background: rgba(255, 255, 255, 0.72);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    border-color: var(--app-border);
+  }
+
+  /* 页面内 daisy card 统一为玻璃风格 */
+  .page-main .card {
+    background: var(--app-glass);
+    backdrop-filter: blur(14px);
+    -webkit-backdrop-filter: blur(14px);
+    border: 1px solid var(--app-glass-border);
+    border-radius: var(--app-radius);
+    box-shadow: var(--app-shadow);
+  }
+
+  .page-main .card:hover {
+    box-shadow: var(--app-shadow-hover);
+  }
+
   .page-shell {
     @apply mx-auto flex min-h-dvh w-full max-w-lg flex-col pb-20 lg:max-w-none lg:pb-6 lg:pl-52;
   }
 
   .desktop-nav {
-    @apply fixed top-0 left-0 z-40 h-dvh w-52 flex-col border-r border-base-300 bg-base-100/95 p-5 backdrop-blur-sm;
+    @apply fixed top-0 left-0 z-40 h-dvh w-52 flex-col p-5;
+    font-family: var(--app-sans);
+    font-size: 14px;
+    background: rgba(255, 255, 255, 0.68);
+    backdrop-filter: blur(18px);
+    -webkit-backdrop-filter: blur(18px);
+    border-right: 1px solid var(--app-border);
+    box-shadow: 4px 0 24px rgba(15, 23, 42, 0.04);
+  }
+
+  .desktop-nav a.rounded-lg:hover {
+    background: rgba(255, 255, 255, 0.55);
+  }
+
+  .desktop-nav a.bg-primary\/10 {
+    background: var(--app-accent-soft) !important;
+    color: var(--app-accent) !important;
   }
 
   .page-main {
     @apply flex flex-1 flex-col gap-4 px-4 pt-2 lg:px-8 lg:pt-4 lg:gap-5;
+    font-family: var(--app-serif);
+    font-size: var(--app-prose-size);
+    line-height: var(--app-prose-leading);
+    color: var(--app-fg);
   }
 
   .page-main-wide {
     @apply lg:max-w-none;
   }
 
+  /* 标题：衬线；UI 控件：无衬线 */
+  .page-main h1,
+  .page-main h2,
+  .page-main h3,
+  .page-main .card-title {
+    font-family: var(--app-serif);
+    font-weight: 600;
+    color: var(--app-fg);
+    letter-spacing: 0.01em;
+  }
+
+  .page-main p,
+  .page-main li {
+    color: var(--app-fg);
+  }
+
+  .text-muted {
+    color: var(--app-muted);
+  }
+
+  .text-faint {
+    color: var(--app-faint);
+  }
+
+  .ui-sans {
+    font-family: var(--app-sans);
+  }
+
+  .font-mono,
+  .tabular-nums {
+    font-family: var(--app-mono);
+    font-variant-numeric: tabular-nums;
+  }
+
   .layer-tablist {
-    @apply w-full flex-nowrap overflow-x-auto bg-base-200/80 p-1;
+    @apply w-full flex-nowrap overflow-x-auto p-1.5;
+    font-family: var(--app-sans);
+    font-size: 13px;
+    background: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(10px);
+    border: 1px solid var(--app-border);
+    border-radius: var(--app-radius);
+    box-shadow: var(--app-shadow);
+  }
+
+  .layer-tablist .tab {
+    border-radius: 8px;
+    color: var(--app-muted);
+  }
+
+  .layer-tablist .tab-active {
+    background: var(--app-glass-strong) !important;
+    color: var(--app-accent) !important;
+    box-shadow: 0 1px 4px rgba(15, 23, 42, 0.06);
   }
 
   .home-layer-grid {
-    @apply flex flex-col gap-2 lg:grid lg:grid-cols-2 lg:gap-4 xl:grid-cols-3;
+    @apply flex flex-col gap-3 lg:grid lg:grid-cols-2 lg:gap-4 xl:grid-cols-3;
   }
 
   .stocks-dual-panel {
     @apply flex flex-col gap-4 lg:grid lg:grid-cols-2 lg:items-start lg:gap-6;
+  }
+
+  .page-shell .navbar {
+    font-family: var(--app-sans);
+    background: rgba(255, 255, 255, 0.72);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    border-bottom: 1px solid var(--app-border);
+    box-shadow: 0 1px 12px rgba(15, 23, 42, 0.04);
+  }
+
+  .page-shell .navbar h1 {
+    font-family: var(--app-serif);
+    font-weight: 600;
+  }
+
+  .page-shell .btm-nav {
+    font-family: var(--app-sans);
+    background: rgba(255, 255, 255, 0.82);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    border-top: 1px solid var(--app-border);
+    box-shadow: 0 -4px 20px rgba(15, 23, 42, 0.05);
+  }
+
+  .collapse.rounded-lg {
+    background: rgba(255, 255, 255, 0.45);
+    border: 1px solid var(--app-border);
+    border-radius: var(--app-radius-sm);
+  }
+
+  .alert {
+    font-family: var(--app-sans);
+    font-size: 14px;
+    border-radius: var(--app-radius-sm);
+    backdrop-filter: blur(8px);
   }
 }

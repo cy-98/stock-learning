@@ -1,0 +1,26 @@
+/**
+ * Typora 风格排版 + 白色半透明玻璃卡片
+ * 字体见 index.html；与 spec-prose.css 共用色板
+ */
+:root {
+  --app-bg: #f0efe9;
+  --app-bg-accent: #e8e6df;
+  --app-fg: #2f2f2f;
+  --app-muted: #6b6b6b;
+  --app-faint: #9a9a9a;
+  --app-border: rgba(230, 228, 223, 0.85);
+  --app-accent: #0969da;
+  --app-accent-soft: rgba(221, 244, 255, 0.65);
+  --app-glass: rgba(255, 255, 255, 0.78);
+  --app-glass-strong: rgba(255, 255, 255, 0.92);
+  --app-glass-border: rgba(255, 255, 255, 0.65);
+  --app-shadow: 0 4px 24px rgba(15, 23, 42, 0.06), 0 1px 3px rgba(15, 23, 42, 0.04);
+  --app-shadow-hover: 0 8px 32px rgba(15, 23, 42, 0.09), 0 2px 8px rgba(15, 23, 42, 0.05);
+  --app-radius: 14px;
+  --app-radius-sm: 10px;
+  --app-serif: 'Noto Serif SC', 'Songti SC', 'STSong', serif;
+  --app-sans: 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif;
+  --app-mono: 'JetBrains Mono', 'Consolas', monospace;
+  --app-prose-size: 17px;
+  --app-prose-leading: 1.75;
+}

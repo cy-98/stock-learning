@@ -71,7 +71,7 @@ export function MiniKlineChart({ data, positive, height = 72 }: Props) {
 
   if (data.length < 2) {
     return (
-      <div className="flex h-16 items-center justify-center rounded-lg bg-base-200 text-xs text-base-content/45">
+      <div className="flex h-16 items-center justify-center rounded-lg glass-inset text-xs text-faint">
         暂无 K 线
       </div>
     );

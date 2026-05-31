@@ -17,9 +17,9 @@ export function FairRangeBar({ price, snapshot, currencySymbol = '¥' }: Props) 
 
   return (
     <div className="mt-2 space-y-1">
-      <div className="relative h-2 overflow-hidden rounded-full bg-base-300">
+      <div className="relative h-2 overflow-hidden rounded-full bg-[rgba(0,0,0,0.06)]">
         <div
-          className="absolute inset-y-0 rounded-full bg-info/35"
+          className="absolute inset-y-0 rounded-full bg-[rgba(9,105,218,0.22)]"
           style={{ left: `${bandLeft}%`, right: `${100 - bandRight}%` }}
           title={`合理区间 ${fairLow}–${fairHigh}`}
         />

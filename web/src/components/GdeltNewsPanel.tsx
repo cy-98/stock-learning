@@ -85,7 +85,7 @@ export function GdeltNewsPanel({ layerId, active }: Props) {
 
       <details className="text-xs text-base-content/45">
         <summary className="cursor-pointer">当前检索式</summary>
-        <code className="mt-1 block break-all rounded bg-base-200 p-2">{cfg.query}</code>
+        <code className="mt-1 block break-all rounded-lg glass-inset p-2 font-mono text-xs">{cfg.query}</code>
       </details>
 
       {error && (
@@ -107,7 +107,7 @@ export function GdeltNewsPanel({ layerId, active }: Props) {
               href={a.url}
               target="_blank"
               rel="noreferrer noopener"
-              className="card card-border bg-base-100 shadow-sm transition hover:border-primary/30"
+              className="glass-card card transition hover:border-primary/30"
             >
               <div className="card-body flex-row gap-3 p-3">
                 {a.socialimage ? (

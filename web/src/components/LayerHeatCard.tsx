@@ -24,7 +24,7 @@ export function LayerHeatCard({
   return (
     <Link
       to={`/layer/${layer.id}?tab=picks`}
-      className={`card card-border relative overflow-hidden bg-base-100 shadow-sm transition hover:border-primary/40 hover:shadow-md ${accent.border} border-l-4`}
+      className={`glass-card card relative block overflow-hidden transition hover:-translate-y-0.5 ${accent.border} border-l-4`}
       title={heat.detail}
     >
       <div
@@ -40,10 +40,10 @@ export function LayerHeatCard({
           <div className={`badge badge-sm ${accent.badge} badge-outline`}>
             L{layer.id} · {layer.short}
           </div>
-          <h3 className="mt-1 truncate font-medium">{layer.name}</h3>
-          <p className="truncate text-xs text-base-content/60">{layer.tagline}</p>
+          <h3 className="mt-1 truncate text-base font-semibold">{layer.name}</h3>
+          <p className="truncate text-xs text-muted">{layer.tagline}</p>
           <p
-            className="mt-1 line-clamp-2 text-xs text-base-content/50"
+            className="mt-1 line-clamp-2 text-xs text-faint"
             title={heat.detail}
           >
             {marketLoading ? '正在拉取行情热度…' : heat.hint}

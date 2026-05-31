@@ -72,7 +72,7 @@ export function LayerPicksPanel({ layerId, events, feedUpdated }: Props) {
 
   return (
     <div className="flex flex-col gap-4">
-      <div className="card card-border bg-base-100 shadow-sm">
+      <div className="glass-card card">
         <div className="card-body gap-2 p-4 lg:p-5">
           <div className="flex flex-wrap items-center gap-2 text-xs text-base-content/55">
             <span className="badge badge-primary badge-sm">AI 分析</span>

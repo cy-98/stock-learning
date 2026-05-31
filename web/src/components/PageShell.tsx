@@ -1,6 +1,6 @@
 import type { ReactNode } from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import { SPEC_OVERVIEW_PATH } from '../config/spec';
+import { MAIN_NAV, isMainNavPath } from '../config/nav';
 import { DesktopNav } from './DesktopNav';
 
 interface Props {
@@ -13,13 +13,12 @@ interface Props {
 
 export function PageShell({ title, backTo, badge, children, wide }: Props) {
   const { pathname } = useLocation();
-  const isHome = pathname === '/' || pathname === '';
-  const isSpec = pathname.startsWith('/spec');
+  const activeMain = isMainNavPath(pathname);
 
   return (
     <div className="page-shell">
       <DesktopNav />
-      <header className="navbar sticky top-0 z-30 min-h-14 border-b border-base-300 bg-base-100/95 px-2 backdrop-blur-sm lg:px-6">
+      <header className="navbar sticky top-0 z-30 min-h-14 px-2 lg:px-6">
         <div className="navbar-start w-20 lg:w-28">
           {backTo ? (
             <Link to={backTo} className="btn btn-ghost btn-sm">
@@ -38,31 +37,21 @@ export function PageShell({ title, backTo, badge, children, wide }: Props) {
       <main className={`page-main ${wide ? 'page-main-wide' : ''}`}>{children}</main>
 
       <nav
-        className="btm-nav btm-nav-md fixed bottom-0 left-0 right-0 z-30 border-t border-base-300 bg-base-100 lg:hidden"
+        className="btm-nav btm-nav-md fixed bottom-0 left-0 right-0 z-30 lg:hidden"
         aria-label="主导航"
       >
-        <Link to="/" className={isHome ? 'active border-primary text-primary' : ''}>
-          <span className="text-lg" aria-hidden>
-            ☰
-          </span>
-          <span className="btm-nav-label text-xs">五层模型</span>
-        </Link>
-        <Link to={SPEC_OVERVIEW_PATH} className={isSpec ? 'active border-primary text-primary' : ''}>
-          <span className="text-lg" aria-hidden>
-            📋
-          </span>
-          <span className="btm-nav-label text-xs">规格</span>
-        </Link>
-        <a
-          href="https://github.com/cy-98/stock-learning"
-          target="_blank"
-          rel="noreferrer"
-        >
-          <span className="text-lg" aria-hidden>
-            ⌘
-          </span>
-          <span className="btm-nav-label text-xs">仓库</span>
-        </a>
+        {MAIN_NAV.map((item) => (
+          <Link
+            key={item.path}
+            to={item.path}
+            className={activeMain === item.path ? 'active border-primary text-primary' : ''}
+          >
+            <span className="text-lg" aria-hidden>
+              {item.icon}
+            </span>
+            <span className="btm-nav-label text-xs">{item.label}</span>
+          </Link>
+        ))}
       </nav>
     </div>
   );

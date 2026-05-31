@@ -31,7 +31,7 @@ export function RecommendedPickCard({ pick }: Props) {
   const { quote, valuation, linkedEvents } = pick;
 
   return (
-    <article className="card card-border bg-base-100 shadow-sm">
+    <article className="glass-card card">
       <div className="card-body gap-3 p-4 lg:p-5">
         <div className="flex flex-wrap items-start justify-between gap-2">
           <div className="min-w-0">
@@ -75,13 +75,13 @@ export function RecommendedPickCard({ pick }: Props) {
         <p className="text-sm leading-relaxed text-base-content/75">{pick.aiSummary}</p>
 
         <div className="grid gap-2 sm:grid-cols-2">
-          <div className="rounded-lg border border-base-200 bg-base-200/30 p-3">
+          <div className="glass-inset p-3">
             <div className="mb-1 text-xs font-medium text-base-content/55">短期 · 股价判断</div>
             {biasBadge(pick.shortTerm.bias, pick.shortTerm.label)}
             <p className="mt-1 text-xs text-base-content/70">{pick.shortTerm.note}</p>
           </div>
-          <div className="rounded-lg border border-base-200 bg-base-200/30 p-3">
-            <div className="mb-1 text-xs font-medium text-base-content/55">长期 · 股价判断</div>
+          <div className="glass-inset p-3">
+            <div className="ui-sans mb-1 text-xs font-medium text-muted">长期 · 股价判断</div>
             {biasBadge(pick.longTerm.bias, pick.longTerm.label)}
             <p className="mt-1 text-xs text-base-content/70">{pick.longTerm.note}</p>
           </div>

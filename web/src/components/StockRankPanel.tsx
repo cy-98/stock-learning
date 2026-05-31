@@ -49,7 +49,7 @@ export function StockRankPanel({ title, flag, stocks, loading, error }: Props) {
       <ol className="flex flex-col gap-2">
         {stocks.map((s, i) => (
           <li key={s.code}>
-            <div className="card card-border bg-base-100 shadow-sm">
+            <div className="glass-card card">
               <div className="card-body gap-2 p-4">
                 <div className="flex gap-3">
                   <div className="badge badge-neutral badge-outline font-mono">

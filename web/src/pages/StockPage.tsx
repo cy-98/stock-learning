@@ -98,7 +98,7 @@ export function StockPage() {
       )}
 
       {record && (
-        <div className="card card-border bg-base-100 shadow-sm">
+        <div className="glass-card card">
           <div className="card-body gap-3 p-5">
             <div className="flex flex-wrap items-start justify-between gap-2">
               <div>
@@ -142,7 +142,7 @@ export function StockPage() {
             )}
 
             {insight && (
-              <div className="rounded-lg border border-primary/20 bg-primary/5 p-4 text-sm">
+              <div className="glass-inset border border-primary/15 p-4 text-sm">
                 <p className="mb-2 font-medium text-primary">AI 分析（insights YAML）</p>
                 <p className="leading-relaxed text-base-content/75">{insight.aiSummary}</p>
                 <div className="mt-3 flex flex-wrap gap-2 text-xs">
@@ -217,7 +217,7 @@ function InsightTermBlock({
   view: { bias: InsightBias; label: string; note: string };
 }) {
   return (
-    <div className="rounded-md border border-base-200 bg-base-100/80 p-2">
+    <div className="glass-inset p-2">
       <div className="text-xs text-base-content/55">{title}</div>
       <div className="font-medium">{view.label}</div>
       <p className="text-xs text-base-content/65">{view.note}</p>

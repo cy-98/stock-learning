@@ -28,7 +28,7 @@ function SectionCard({
   children: ReactNode;
 }) {
   return (
-    <div className="card card-border bg-base-100 shadow-sm">
+    <div className="glass-card card">
       <div className="card-body gap-3 p-4">
         <h3 className="text-sm font-semibold text-base-content/80">{title}</h3>
         {children}
@@ -140,7 +140,7 @@ export function LayerPage() {
       }
     >
       <div
-        className={`card card-border bg-base-100 shadow-sm ${accent.border} border-l-4`}
+        className={`glass-card card ${accent.border} border-l-4`}
       >
         <div className="card-body gap-2 p-5">
           <div className={`badge ${accent.badge} badge-outline w-fit`}>
@@ -311,7 +311,7 @@ export function LayerPage() {
 
       {tab === 'analysis' && (
         <div className="flex flex-col gap-3">
-          <div className="alert alert-info alert-soft text-sm">
+          <div className="glass-card alert alert-info alert-soft text-sm">
             <span>
               合理价区间案例见仓库{' '}
               <a
@@ -347,7 +347,7 @@ export function LayerPage() {
               {analysis.skills.map((s) => (
                 <div
                   key={s.id}
-                  className="collapse collapse-arrow border border-base-200 bg-base-200/40"
+                  className="collapse collapse-arrow glass-inset"
                 >
                   <input type="checkbox" defaultChecked={s.id === 'market'} />
                   <div className="collapse-title min-h-0 py-3 text-sm font-medium">
@@ -381,7 +381,7 @@ export function LayerPage() {
               ))}
             </div>
             <div className="mt-4 grid gap-3 sm:grid-cols-2">
-              <div className="rounded-lg bg-base-200/60 p-3">
+              <div className="glass-inset p-3">
                 <h4 className="text-xs font-semibold uppercase tracking-wide text-base-content/50">
                   长期持有
                 </h4>
@@ -389,7 +389,7 @@ export function LayerPage() {
                   {analysis.valuation.longHold}
                 </p>
               </div>
-              <div className="rounded-lg bg-base-200/60 p-3">
+              <div className="glass-inset p-3">
                 <h4 className="text-xs font-semibold uppercase tracking-wide text-base-content/50">
                   短期参与
                 </h4>
