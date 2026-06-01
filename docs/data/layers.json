@@ -2,7 +2,7 @@
   "meta": {
     "title": "AI 五层模型",
     "subtitle": "从算力底座到场景落地 · 行业 · 趋势 · 事件 · Section 1 投资分析",
-    "updated": "2026-05-28"
+    "updated": "2026-06-01"
   },
   "layers": [
     {
@@ -111,6 +111,11 @@
           "date": "2026-05",
           "title": "电力板块题材波动",
           "body": "大唐发电等标的短期暴涨，案例提示：逻辑可对、价格需估值纪律。"
+        },
+        {
+          "date": "2026-05-31",
+          "title": "软银规划法国 AI 数据中心",
+          "body": "Nikkei 报道软银拟在法国投资建设约 5GW AI 数据中心，显示算力竞争继续转向电力与区位资源。"
         }
       ]
     },
@@ -205,6 +210,11 @@
           "date": "2026",
           "title": "开源生态扩张",
           "body": "企业私有化部署需求带动一体机与国产算力适配。"
+        },
+        {
+          "date": "2026-05-28",
+          "title": "Claude Opus 4.8 发布",
+          "body": "Anthropic 发布 Opus 4.8，并为 Claude Code 引入动态工作流，突出长任务与多子代理协同能力。"
         }
       ]
     },
@@ -289,6 +299,11 @@
           "date": "2026",
           "title": "数据合规升级",
           "body": "企业内网部署与私有化模型需求增加。"
+        },
+        {
+          "date": "2026-05-29",
+          "title": "Work IQ API 推进企业智能体集成",
+          "body": "Microsoft 文档更新 Work IQ API 预览，强调 A2A、MCP 与 REST 入口下的权限治理和组织上下文。"
         }
       ]
     },
@@ -378,6 +393,11 @@
           "date": "2026",
           "title": "垂直 Agent 融资活跃",
           "body": "法律、财务、客服等场景出现专业化智能体产品。"
+        },
+        {
+          "date": "2026-05",
+          "title": "Copilot Studio 强化计算机使用智能体",
+          "body": "Microsoft 公布 Copilot Studio 5 月更新，计算机使用智能体、工作流画布与实时语音能力面向企业流程扩展。"
         }
       ]
     },
@@ -482,6 +502,11 @@
           "date": "持续",
           "title": "投资方法论沉淀",
           "body": "本仓库 Section 1/2：框架 + 澜起、电力案例复盘。"
+        },
+        {
+          "date": "2026-05",
+          "title": "Apple Intelligence 扩展端侧无障碍能力",
+          "body": "Apple 预告以 Apple Intelligence 支持 VoiceOver、Magnifier 与端侧字幕，端侧 AI 继续向设备生态渗透。"
         }
       ]
     }
