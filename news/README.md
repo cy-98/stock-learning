@@ -2,6 +2,9 @@
 
 Automation 每日写入 `new-YYYY-MM-DD.json`（同一天可有多个文件，如 `new-2026-06-02-extra.json`）。
 
+**Cursor Automation 完整指令（可复制）**：[`docs/automation/prompt-daily-news.md`](../docs/automation/prompt-daily-news.md)
+
+
 构建前执行：
 
 ```bash
