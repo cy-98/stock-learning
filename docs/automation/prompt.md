@@ -55,7 +55,7 @@
    npm run sync:insights
    npm run build
    ```
-6. 创建分支并 **Open pull request**：
+8. 创建分支并 **Open pull request**：
    - 标题：`chore(daily): layer feed YYYY-MM-DD`
    - 正文须包含：
      - 各层新增事件清单（层名 + 标题）
