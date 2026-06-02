@@ -2,6 +2,8 @@
 
 将下文整段复制到 [Cursor Automations](https://cursor.com/automations) 的 **Instructions** 字段。
 
+> **首页 Daily News**（`news/new-YYYY-MM-DD*.json`）请使用独立 Automation，指令见 **`docs/automation/prompt-daily-news.md`**。
+
 ## 推荐 Automation 设置
 
 | 项 | 值 |

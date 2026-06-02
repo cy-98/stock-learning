@@ -1,6 +1,7 @@
 import { BrowserRouter, Navigate, Route, Routes } from 'react-router-dom';
 import { LayerFeedProvider } from './context/LayerFeedProvider';
 import { HomePage } from './pages/HomePage';
+import { DailyNewsDetailPage } from './pages/DailyNewsDetailPage';
 import { LayerPage } from './pages/LayerPage';
 import { NewsPage } from './pages/NewsPage';
 import { SpecPage } from './pages/SpecPage';
@@ -16,6 +17,7 @@ export default function App() {
           <Route path="/" element={<HomePage />} />
           <Route path="/board" element={<StocksBoardPage />} />
           <Route path="/news" element={<NewsPage />} />
+          <Route path="/news/daily/:id" element={<DailyNewsDetailPage />} />
           <Route path="/layer/:id" element={<LayerPage />} />
           <Route path="/stock/:code" element={<StockPage />} />
           <Route path="/spec" element={<SpecPage />} />

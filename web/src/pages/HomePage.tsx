@@ -1,6 +1,7 @@
 import { useEffect, useMemo, useState } from 'react';
 import { Link, useSearchParams } from 'react-router-dom';
 import { LAYERS } from '../config/layers';
+import { DailyNewsSection } from '../components/DailyNewsSection';
 import { HomeLayerSection } from '../components/HomeLayerSection';
 import { PortfolioStabilizersBar } from '../components/PortfolioStabilizersBar';
 import { PageShell } from '../components/PageShell';
@@ -73,8 +74,8 @@ export function HomePage() {
             点击各层展开，查看本层最相关的 AI 荐股；完整 Tab（龙头、行业、趋势、大事件、投资分析）请进入对应层页。
             防御型电力等组合稳定器单独列于下方，不混入任一层。
           </p>
-          <div className="collapse collapse-arrow glass-inset">
-            <input type="checkbox" />
+          <div className="collapse collapse-arrow collapse-close glass-inset">
+            <input type="checkbox" aria-label="展开热度计算说明" />
             <div className="collapse-title min-h-0 py-2 text-xs font-medium">
               热度如何计算？（含时事动态）
             </div>
@@ -104,6 +105,8 @@ export function HomePage() {
           </div>
         </div>
       </div>
+
+      <DailyNewsSection />
 
       <div className="flex items-center justify-between px-1 text-xs text-faint">
         <span>终端与生态</span>

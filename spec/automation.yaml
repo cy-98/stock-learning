@@ -48,7 +48,8 @@ sections:
     list:
       - "**触发器**：Scheduled cron，建议 `0 0 * * *` UTC（北京时间 08:00）"
       - "**仓库**：本仓库 `main` 分支；启用 **Open pull request**"
-      - "**指令**：见 `docs/automation/prompt.md`（完整可复制 Prompt）"
+      - "**指令（layer-feed）**：`docs/automation/prompt.md`"
+      - "**指令（Daily News）**：`docs/automation/prompt-daily-news.md`"
       - "**可选**：Memories / Slack 摘要"
 
   - title: 与现有 CI 的关系

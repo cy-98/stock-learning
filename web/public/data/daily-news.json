@@ -1,0 +1,176 @@
+{
+  "updated": "2026-06-02",
+  "today": "2026-06-02",
+  "days": {
+    "2026-06-02": {
+      "date": "2026-06-02",
+      "sourceFiles": [
+        "news/new-2026-06-02.json"
+      ],
+      "items": [
+        {
+          "id": "mrdimm-ai-server-2026-06",
+          "title": "AI 服务器内存带宽升级推动 MRDIMM 接口需求",
+          "summary": "多家存储与服务器厂商在财报与行业活动中强调，AI 训练与推理集群对内存带宽的需求持续上升，DDR5 向 MRDIMM 等高密度互连方案迁移的节奏加快。该变化主要落在算力基础设施与内存接口环节，尚处于产业验证向规模放量过渡阶段。",
+          "sourceUrl": "https://example.com/ai-server-memory-bandwidth",
+          "publishedAt": "2026-06-02",
+          "layerIds": [
+            1
+          ],
+          "industries": [
+            "半导体",
+            "AI 算力",
+            "服务器"
+          ],
+          "beneficiaries": {
+            "industries": [
+              "内存接口芯片",
+              "服务器 OEM",
+              "先进封装"
+            ],
+            "companies": [
+              "澜起科技",
+              "美光",
+              "SK 海力士"
+            ],
+            "stocks": [
+              {
+                "code": "sh688008",
+                "name": "澜起科技",
+                "reason": "内存接口与 MRDIMM 相关芯片价值量提升"
+              },
+              {
+                "code": "MU",
+                "name": "美光",
+                "reason": "HBM 与高端 DRAM 供给受益 AI 集群建设"
+              }
+            ]
+          }
+        },
+        {
+          "id": "enterprise-ai-platform-2026-06",
+          "title": "企业级 AI 平台采购从 PoC 转向规模化合同",
+          "summary": "云与软件厂商在近期渠道反馈中称，企业客户对 RAG、Agent 工作流等能力的采购正由试点项目转向多年期平台合同，MLOps 与数据治理成为招标常见条款。",
+          "sourceUrl": "https://example.com/enterprise-ai-platform-contracts",
+          "publishedAt": "2026-06-02",
+          "layerIds": [
+            3,
+            4
+          ],
+          "industries": [
+            "企业软件",
+            "云计算",
+            "MLOps"
+          ],
+          "beneficiaries": {
+            "industries": [
+              "ERP/协同 SaaS",
+              "网络安全",
+              "行业 Copilot"
+            ],
+            "companies": [
+              "微软",
+              "用友网络",
+              "深信服"
+            ],
+            "stocks": [
+              {
+                "code": "sh600588",
+                "name": "用友网络",
+                "reason": "信创 + AI ERP 平台落地叙事"
+              },
+              {
+                "code": "sh300454",
+                "name": "深信服",
+                "reason": "AI 安全与私有云一体化需求"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "byId": {
+    "mrdimm-ai-server-2026-06": {
+      "id": "mrdimm-ai-server-2026-06",
+      "title": "AI 服务器内存带宽升级推动 MRDIMM 接口需求",
+      "summary": "多家存储与服务器厂商在财报与行业活动中强调，AI 训练与推理集群对内存带宽的需求持续上升，DDR5 向 MRDIMM 等高密度互连方案迁移的节奏加快。该变化主要落在算力基础设施与内存接口环节，尚处于产业验证向规模放量过渡阶段。",
+      "sourceUrl": "https://example.com/ai-server-memory-bandwidth",
+      "publishedAt": "2026-06-02",
+      "layerIds": [
+        1
+      ],
+      "industries": [
+        "半导体",
+        "AI 算力",
+        "服务器"
+      ],
+      "beneficiaries": {
+        "industries": [
+          "内存接口芯片",
+          "服务器 OEM",
+          "先进封装"
+        ],
+        "companies": [
+          "澜起科技",
+          "美光",
+          "SK 海力士"
+        ],
+        "stocks": [
+          {
+            "code": "sh688008",
+            "name": "澜起科技",
+            "reason": "内存接口与 MRDIMM 相关芯片价值量提升"
+          },
+          {
+            "code": "MU",
+            "name": "美光",
+            "reason": "HBM 与高端 DRAM 供给受益 AI 集群建设"
+          }
+        ]
+      },
+      "date": "2026-06-02"
+    },
+    "enterprise-ai-platform-2026-06": {
+      "id": "enterprise-ai-platform-2026-06",
+      "title": "企业级 AI 平台采购从 PoC 转向规模化合同",
+      "summary": "云与软件厂商在近期渠道反馈中称，企业客户对 RAG、Agent 工作流等能力的采购正由试点项目转向多年期平台合同，MLOps 与数据治理成为招标常见条款。",
+      "sourceUrl": "https://example.com/enterprise-ai-platform-contracts",
+      "publishedAt": "2026-06-02",
+      "layerIds": [
+        3,
+        4
+      ],
+      "industries": [
+        "企业软件",
+        "云计算",
+        "MLOps"
+      ],
+      "beneficiaries": {
+        "industries": [
+          "ERP/协同 SaaS",
+          "网络安全",
+          "行业 Copilot"
+        ],
+        "companies": [
+          "微软",
+          "用友网络",
+          "深信服"
+        ],
+        "stocks": [
+          {
+            "code": "sh600588",
+            "name": "用友网络",
+            "reason": "信创 + AI ERP 平台落地叙事"
+          },
+          {
+            "code": "sh300454",
+            "name": "深信服",
+            "reason": "AI 安全与私有云一体化需求"
+          }
+        ]
+      },
+      "date": "2026-06-02"
+    }
+  }
+}
