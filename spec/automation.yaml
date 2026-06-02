@@ -41,7 +41,8 @@ sections:
       rows:
         - ["1 · Agent 调研", "docs/data/layers.json", "人工 diff / PR 审查"]
         - ["2 · sync:feed", "web/public/data/layer-feed.json", "LayerFeedContext、层热度 30%"]
-        - ["3 · build", "web/dist/", "GitHub Pages"]
+        - ["2b · sync:news", "web/public/data/daily-news.json", "首页 Daily News、/news/daily/:id"]
+        - ["3 · build", "web/dist/", "GitHub Pages（含全部 sync）"]
         - ["—", "GDELT API（运行时）", "GdeltNewsPanel，不进 build"]
 
   - title: Cursor Automation 配置要点
@@ -57,7 +58,7 @@ sections:
       `.github/workflows/pages.yml` 在 **push main** 时 build 并发布 gh-pages。
       每日 Automation 标准路径：**开 PR → 合并 main → Actions 部署**。
     list:
-      - 构建前执行 `sync:feed`（已纳入 `npm run build`）
+      - 构建前执行 `sync:feed`、`sync:news`、`sync:insights`（均已纳入 `npm run build`）
 
 tasks:
   - name: 阶段规格（本文件）定稿

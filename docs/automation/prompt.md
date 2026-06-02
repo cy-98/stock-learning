@@ -38,7 +38,9 @@
 ### 参考文件
 
 - 五层 GDELT 检索主题：`web/src/config/layerGdelt.ts`
+- 各层候选股池（勿跨层挪动代码）：`web/src/config/layers.ts` → `stocks.cn`
 - 现有事件与趋势：`docs/data/layers.json`
+- 字段约定：`docs/data/layers-events-schema.md`
 - 阶段契约：`spec/automation.yaml`
 
 ### 执行步骤
@@ -49,7 +51,7 @@
    - 最多 **新增 2 条** `events`，格式：`{ "date": "YYYY-MM-DD" 或 "YYYY-MM", "title": "…", "body": "…" }`
    - 仅在有明确新研判时微调 `trends`（保留 `signal`: bullish | neutral | caution）
 4. 将 `meta.updated` 设为今日（`YYYY-MM-DD`）。
-5. 若更新了 insights：核对 `linkedEventTitles` 与 layers.json 中事件标题一致。
+5. 若更新了 insights：仅改文案/偏高偏低/持有期等；**勿**把荐股改到其他 `layer-*.yaml`（层级以 `layers.ts` 为准）。核对 `linkedEventTitles` 与 `layers.json` 中事件标题一致。
 6. 在 **`web/`** 目录执行（须全部成功）：
    ```bash
    npm ci
@@ -57,7 +59,8 @@
    npm run sync:insights
    npm run build
    ```
-6. 创建分支并 **Open pull request**：
+   （**不要**执行 `sync:news`；Daily News 由另一 Automation 维护。）
+7. 创建分支并 **Open pull request**：
    - 标题：`chore(daily): layer feed YYYY-MM-DD`
    - 正文须包含：
      - 各层新增事件清单（层名 + 标题）
@@ -83,12 +86,12 @@
 ```bash
 cd web
 npm run sync:feed
+npm run sync:insights
 npm run build
 ```
 
 Docker：
 
 ```bash
-docker compose exec web npm run sync:feed
-docker compose exec web npm run build
+docker compose run --rm web sh -c "npm run sync:feed && npm run sync:insights && npm run build"
 ```

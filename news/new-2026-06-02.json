@@ -19,7 +19,7 @@
             "reason": "内存接口与 MRDIMM 相关芯片价值量提升"
           },
           {
-            "code": "MU",
+            "code": "usMU",
             "name": "美光",
             "reason": "HBM 与高端 DRAM 供给受益 AI 集群建设"
           }
