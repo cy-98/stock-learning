@@ -139,10 +139,11 @@ export const LAYERS: LayerConfig[] = [
     color: '#8b5cf6',
     gradient: 'linear-gradient(135deg, #5b21b6 0%, #8b5cf6 50%, #a78bfa 100%)',
     tagline: '大模型 · 多模态 · 开源生态 · 对齐与安全',
-    summary: '基础模型是 AI 的操作系统：闭源 API 与开源权重并行，监管与对齐成本上升。',
+    summary:
+      '基础模型与核心算法能力：语音/NLP、计算机视觉等；不含办公、内容与垂直行业应用（见 L4）。',
     heatPeriod: { start: '2022-11-01', end: '2026-12-31', label: '大模型能力迭代周期' },
     stocks: {
-      cn: ['sh688111', 'sh300418', 'sh603533', 'sh002230', 'sh688088'],
+      cn: ['sh002230', 'sh688088'],
       global: ['usMSFT', 'usGOOGL', 'usMETA', 'usAMZN', 'usPLTR', 'usAI'],
     },
     industry: {
@@ -186,7 +187,7 @@ export const LAYERS: LayerConfig[] = [
     summary: '把模型变成生产力的脚手架：算力、模型 API、向量库与 Agent 编排。',
     heatPeriod: { start: '2024-01-01', end: '2027-06-30', label: '企业 AI 平台落地周期' },
     stocks: {
-      cn: ['sh600588', 'sh688158', 'sh300454', 'sz002410', 'sh601360'],
+      cn: ['sh600588', 'sh688158', 'sh300454', 'sh601360'],
       global: ['usMSFT', 'usAMZN', 'usGOOGL', 'usSNOW', 'usCRM', 'usORCL'],
     },
     industry: {
@@ -225,11 +226,12 @@ export const LAYERS: LayerConfig[] = [
     color: '#10b981',
     gradient: 'linear-gradient(135deg, #047857 0%, #10b981 50%, #34d399 100%)',
     tagline: '行业 Copilot · SaaS · 垂直智能体',
-    summary: 'AI 价值兑现主战场：金融、制造、医疗等场景的 ROI 验证。',
+    summary:
+      'AI 价值兑现主战场：办公 Copilot、垂直 SaaS、金融与建筑等行业场景 ROI 验证；含「应用+自研模型」双主线标的。',
     heatPeriod: { start: '2025-01-01', end: '2028-12-31', label: '行业应用 ROI 验证周期' },
     stocks: {
-      cn: ['sh600036', 'sh601318', 'sz300750', 'sh688169'],
-      global: ['usAAPL', 'usTSLA', 'usNFLX', 'usADBE', 'usNOW', 'usUBER'],
+      cn: ['sh600036', 'sh601318', 'sh688111', 'sh300418', 'sh603533', 'sz002410'],
+      global: ['usAAPL', 'usNFLX', 'usADBE', 'usNOW', 'usUBER'],
     },
     industry: {
       overview:
@@ -271,7 +273,16 @@ export const LAYERS: LayerConfig[] = [
     summary: 'AI 走向物理世界：具身智能、稀土永磁、机器人供应链与智能汽车终端。',
     heatPeriod: { start: '2024-06-01', end: '2027-12-31', label: '机器人·资源·主题联动周期' },
     stocks: {
-      cn: ['sh600111', 'sz000831', 'sh600392', 'sh600259', 'sh300748', 'sh000970'],
+      cn: [
+        'sh600111',
+        'sz000831',
+        'sh600392',
+        'sh600259',
+        'sh300748',
+        'sz000970',
+        'sz300750',
+        'sh688169',
+      ],
       global: ['usTSLA', 'usF', 'usGM', 'usCAT', 'usLIN', 'usFCX'],
     },
     industry: {

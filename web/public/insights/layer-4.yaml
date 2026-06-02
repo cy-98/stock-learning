@@ -1,10 +1,10 @@
 layerId: 4
 slug: application
-updated: "2026-05-31"
-source: "AI 初稿 · section-3 + layer-feed"
+updated: "2026-06-02"
+source: "AI 初稿 · section-3 + layer-feed · 五层语义对齐"
 summary: |
-  应用层进入 ROI 验证期；垂直行业数据与工作流嵌入决定护城河，警惕同质化价格战。
-  候选池聚焦 AI 可验证 ROI 的行业场景（金融、制造、智能消费），不含纯消费配置型标的。
+  应用层：办公 Copilot、垂直 SaaS、金融与建筑等行业 AI 落地与 ROI 验证。
+  含「应用+自研模型」双主线标的；智能硬件与动力电池龙头见 L5。
 
 picks:
   - code: sh600036
@@ -26,43 +26,43 @@ picks:
       - 行业大模型
     aiSummary: 金融应用层代表；AI 用于风控、投顾与运营，看 ROE 与不良率。
 
-  - code: sz300750
-    name: 宁德时代
+  - code: sh688111
+    name: 金山办公
     rank: 2
-    priceBias: fair
+    priceBias: rich
     shortTerm:
-      bias: fair
-      label: 合理
-      note: 动力电池与储能订单驱动
+      bias: rich
+      label: 偏高
+      note: Copilot 预期已部分计价
     longTerm:
       bias: fair
       label: 合理
-      note: 全球份额+技术迭代支撑中长期
-    holdPeriod: 18–36 个月
-    expectedReturnPct: "5% ~ +20%"
+      note: SaaS+AI 增量若 ARPU 提升则估值可维持
+    holdPeriod: 12–24 个月
+    expectedReturnPct: "0% ~ +18%"
     horizon: long
     linkedEventTitles:
-      - 工作流嵌入
-    aiSummary: 制造龙头；AI 用于产能与质检，估值看 PE 与增速匹配。
+      - Copilot 全面嵌入
+    aiSummary: 办公 Copilot 应用龙头；宜估值回调后配置，规则锚点 280–380 元。
 
-  - code: sh688169
-    name: 石头科技
+  - code: sh300418
+    name: 昆仑万维
     rank: 3
     priceBias: rich
     shortTerm:
       bias: rich
       label: 偏高
-      note: 出海与新品预期部分反映
+      note: 应用与模型叙事波动大
     longTerm:
       bias: fair
-      label: 合理
-      note: 扫地机器人+具身智能叙事
-    holdPeriod: 12–18 个月
-    expectedReturnPct: "-8% ~ +18%"
+      label: 合理偏上
+      note: 互联网应用+自研大模型（天工）双主线，期权价值高
+    holdPeriod: 6–12 个月
+    expectedReturnPct: "-15% ~ +25%"
     horizon: medium
     linkedEventTitles:
-      - 垂直 Agent 融资活跃
-    aiSummary: 消费电子成长；关注海外收入与毛利率。
+      - 多模态应用落地
+    aiSummary: 应用+自研模型双主线；仓位宜轻，跟踪 AI 收入分部兑现。
 
   - code: sh601318
     name: 中国平安
@@ -82,3 +82,41 @@ picks:
     linkedEventTitles:
       - 行业大模型
     aiSummary: 金融 AI 落地慢但稳；适合价值型配置。
+
+  - code: sh603533
+    name: 掌阅科技
+    rank: 5
+    priceBias: fair
+    shortTerm:
+      bias: cheap
+      label: 偏低
+      note: 内容平台估值承压后修复中
+    longTerm:
+      bias: fair
+      label: 合理
+      note: AI 阅读与版权运营若放量可改善
+    holdPeriod: 6–12 个月
+    expectedReturnPct: "5% ~ +20%"
+    horizon: medium
+    linkedEventTitles:
+      - 开源生态扩张
+    aiSummary: 数字阅读与内容应用；适合事件驱动型跟踪。
+
+  - code: sz002410
+    name: 广联达
+    rank: 6
+    priceBias: fair
+    shortTerm:
+      bias: cheap
+      label: 偏低
+      note: 建筑信息化景气底部修复
+    longTerm:
+      bias: fair
+      label: 合理
+      note: 若地产链企稳+AI 造价工具渗透
+    holdPeriod: 12 个月以上
+    expectedReturnPct: "10% ~ +22%"
+    horizon: long
+    linkedEventTitles:
+      - 工作流嵌入
+    aiSummary: 建筑垂直 SaaS 应用；需跟踪回款与订阅续费。

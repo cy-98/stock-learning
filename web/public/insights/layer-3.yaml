@@ -1,10 +1,10 @@
 layerId: 3
 slug: platform
-updated: "2026-05-31"
-source: "AI 初稿 · section-3 + layer-feed"
+updated: "2026-06-02"
+source: "AI 初稿 · section-3 + layer-feed · 五层语义对齐"
 summary: |
-  平台层企业 AI 上云与 RAG/Agent 工具链是主叙事；关注 FinOps 与供应商锁定风险。
-  本层仅列云计算、MLOps 与数据工程相关标的。
+  平台层：公有云、企业软件平台、安全与算力租赁等 AI 基础设施。
+  垂直行业 SaaS（如建筑信息化）已迁至 L4。
 
 picks:
   - code: sh600588
@@ -64,21 +64,21 @@ picks:
       - RAG 成为标配
     aiSummary: 防守型成长；估值合理可持有。
 
-  - code: sz002410
-    name: 广联达
+  - code: sh601360
+    name: 三六零
     rank: 4
     priceBias: fair
     shortTerm:
-      bias: cheap
-      label: 偏低
-      note: 建筑信息化景气底部修复
+      bias: fair
+      label: 合理
+      note: AI 搜索与安全商业化验证期
     longTerm:
       bias: fair
       label: 合理
-      note: 若地产链企稳+AI 造价工具渗透
-    holdPeriod: 12 个月以上
-    expectedReturnPct: "10% ~ +22%"
-    horizon: long
+      note: 安全+大模型入口若放量可改善预期
+    holdPeriod: 6–12 个月
+    expectedReturnPct: "0% ~ +20%"
+    horizon: medium
     linkedEventTitles:
-      - FinOps for AI
-    aiSummary: 周期底部品种；需跟踪回款与订阅续费。
+      - Agent 开发平台竞争
+    aiSummary: 安全与大模型入口叙事；跟踪 AI 收入披露与分部估值。

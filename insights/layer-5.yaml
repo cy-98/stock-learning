@@ -1,10 +1,10 @@
 layerId: 5
 slug: ecosystem
-updated: "2026-05-31"
-source: "AI 初稿 · section-3 + layer-feed"
+updated: "2026-06-02"
+source: "AI 初稿 · section-3 + layer-feed · 五层语义对齐"
 summary: |
-  生态层聚焦机器人与稀土永磁供应链：战略资源、磁材与终端需求叙事。
-  须区分逻辑与价格；高股息电力等防御配置见首页「组合稳定器」。
+  生态层：稀土永磁、智能汽车供应链、消费级机器人等物理世界终端。
+  高股息电力等防御配置见首页「组合稳定器」。
 
 picks:
   - code: sh600111
@@ -45,7 +45,7 @@ picks:
       - 全球备库与地缘
     aiSummary: 政策驱动品种；不宜追高，等回调布局。
 
-  - code: sz300748
+  - code: sh300748
     name: 金力永磁
     rank: 3
     priceBias: fair
@@ -62,7 +62,7 @@ picks:
     horizon: long
     linkedEventTitles:
       - 人形机器人 2027+
-    aiSummary: 成长制造；20–30 元区间锚点参考 section-3。
+    aiSummary: 稀土永磁制造龙头；20–30 元区间锚点参考 section-3。
 
   - code: sh600392
     name: 盛和资源
@@ -82,3 +82,60 @@ picks:
     linkedEventTitles:
       - 全球备库与地缘
     aiSummary: 海外稀土布局差异化；跟踪矿权兑现与贸易毛利。
+
+  - code: sz300750
+    name: 宁德时代
+    rank: 5
+    priceBias: fair
+    shortTerm:
+      bias: fair
+      label: 合理
+      note: 动力电池与储能订单驱动
+    longTerm:
+      bias: fair
+      label: 合理
+      note: 全球份额+技术迭代支撑中长期
+    holdPeriod: 18–36 个月
+    expectedReturnPct: "5% ~ +20%"
+    horizon: long
+    linkedEventTitles:
+      - 人形机器人 2027+
+    aiSummary: 智能车/储能供应链龙头；AI 用于制造与研发，非纯软件应用。
+
+  - code: sh688169
+    name: 石头科技
+    rank: 6
+    priceBias: rich
+    shortTerm:
+      bias: rich
+      label: 偏高
+      note: 出海与新品预期部分反映
+    longTerm:
+      bias: fair
+      label: 合理
+      note: 扫地机器人+具身智能叙事
+    holdPeriod: 12–18 个月
+    expectedReturnPct: "-8% ~ +18%"
+    horizon: medium
+    linkedEventTitles:
+      - 垂直 Agent 融资活跃
+    aiSummary: 消费级机器人硬件；关注海外收入与毛利率。
+
+  - code: sz000970
+    name: 中科三环
+    rank: 7
+    priceBias: fair
+    shortTerm:
+      bias: fair
+      label: 合理
+      note: 稀土价格与下游电机需求联动
+    longTerm:
+      bias: fair
+      label: 合理偏上
+      note: 烧结钕铁硼老牌龙头，机器人/车电机拉动
+    holdPeriod: 12–24 个月
+    expectedReturnPct: "5% ~ +18%"
+    horizon: long
+    linkedEventTitles:
+      - 人形机器人 2027+
+    aiSummary: 烧结钕铁硼老牌龙头；跟踪机器人/新能源车电机订单。

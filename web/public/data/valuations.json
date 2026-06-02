@@ -91,7 +91,7 @@
     },
     "sz300748": {
       "name": "金力永磁",
-      "layerId": 1,
+      "layerId": 5,
       "profile": "rare_earth_pe",
       "fairLow": 20,
       "fairHigh": 30,
@@ -127,7 +127,7 @@
     },
     "sh688111": {
       "name": "金山办公",
-      "layerId": 2,
+      "layerId": 4,
       "profile": "growth_pe",
       "fairLow": 280,
       "fairHigh": 380,
@@ -139,7 +139,7 @@
     },
     "sh300418": {
       "name": "昆仑万维",
-      "layerId": 2,
+      "layerId": 4,
       "profile": "ps_unprofitable",
       "fairLow": 35,
       "fairHigh": 55,
