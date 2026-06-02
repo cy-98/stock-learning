@@ -3,14 +3,19 @@
  * 字体见 index.html；与 spec-prose.css 共用色板
  */
 :root {
+  --z-base: 0;
+  --z-nav: 30;
+  --z-overlay: 40;
+  --z-toast: 50;
+
   --app-bg: #f0efe9;
   --app-bg-accent: #e8e6df;
   --app-fg: #2f2f2f;
   --app-muted: #6b6b6b;
   --app-faint: #9a9a9a;
   --app-border: rgba(230, 228, 223, 0.85);
-  --app-accent: #0969da;
-  --app-accent-soft: rgba(221, 244, 255, 0.65);
+  --app-accent: var(--color-primary, #0969da);
+  --app-accent-soft: color-mix(in oklch, var(--color-primary, #0969da) 14%, transparent);
   --app-glass: rgba(255, 255, 255, 0.78);
   --app-glass-strong: rgba(255, 255, 255, 0.92);
   --app-glass-border: rgba(255, 255, 255, 0.65);

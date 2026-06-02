@@ -2,6 +2,7 @@ import { useMemo } from 'react';
 import { Link } from 'react-router-dom';
 import { LAYERS } from '../config/layers';
 import { PageShell } from '../components/PageShell';
+import { FeedEventCard, FeedEventList } from '../components/FeedEventList';
 import { useLayerFeed } from '../hooks/useLayerFeed';
 import { getLayerAccent } from '../utils/layerTheme';
 
@@ -49,17 +50,18 @@ export function NewsPage() {
   }, [feed]);
 
   return (
-    <PageShell title="最近时事" wide>
-      <div className="glass-card card">
-        <div className="card-body gap-2 p-5">
+    <PageShell title="最近时事">
+      <div className="glass-card card box-border w-full min-w-0 max-w-full">
+        <div className="card-body gap-2 p-4 lg:p-5">
           <h2 className="text-lg font-semibold">五层大事件时间线</h2>
           <p className="text-sm leading-relaxed text-muted">
             来自 <code className="font-mono text-xs">layer-feed.json</code>
-            {feed.updated ? `，更新 ${feed.updated}` : ''}。按日期倒序展示，可跳转对应层查看 GDELT 实时新闻。
+            {feed.updated ? `，更新 ${feed.updated}` : ''}。按日期倒序展示，可跳转对应层查看 GDELT
+            实时新闻。
           </p>
           <button
             type="button"
-            className="btn btn-outline btn-xs ui-sans w-fit"
+            className="btn btn-outline btn-sm ui-sans w-full sm:w-fit"
             onClick={() => feed.refresh()}
           >
             刷新动态数据
@@ -67,36 +69,31 @@ export function NewsPage() {
         </div>
       </div>
 
-      <ul className="timeline timeline-vertical mx-0 max-w-4xl">
-        {items.map((item) => {
-          const accent = getLayerAccent(item.layerId);
-          return (
-            <li key={`${item.layerId}-${item.title}`}>
-              <div className="timeline-start ui-sans text-xs font-medium text-muted">
-                {item.date}
-              </div>
-              <div className="timeline-middle">
-                <span className={`size-2.5 rounded-full ${accent.progress}`} />
-              </div>
-              <div className="timeline-end timeline-box glass-card mb-4 w-full max-w-none p-4 shadow-sm">
-                <div className="mb-2 flex flex-wrap items-center gap-2">
-                  <Link
-                    to={`/layer/${item.layerId}?tab=events`}
-                    className={`badge badge-sm ${accent.badge} badge-outline`}
-                  >
-                    {item.icon} L{item.layerId} {item.layerShort}
-                  </Link>
-                </div>
-                <h3 className="text-base font-semibold">{item.title}</h3>
-                <p className="mt-1 text-sm leading-relaxed text-muted">{item.body}</p>
-              </div>
-            </li>
-          );
-        })}
-      </ul>
-
-      {items.length === 0 && (
+      {items.length === 0 ? (
         <p className="text-center text-sm text-muted">暂无时事数据。</p>
+      ) : (
+        <FeedEventList>
+          {items.map((item) => {
+            const accent = getLayerAccent(item.layerId);
+            return (
+              <li key={`${item.layerId}-${item.date}-${item.title}`}>
+                <FeedEventCard
+                  date={item.date}
+                  title={item.title}
+                  body={item.body}
+                  headerExtra={
+                    <Link
+                      to={`/layer/${item.layerId}?tab=events`}
+                      className={`badge badge-sm ${accent.badge} badge-outline`}
+                    >
+                      {item.icon} L{item.layerId} {item.layerShort}
+                    </Link>
+                  }
+                />
+              </li>
+            );
+          })}
+        </FeedEventList>
       )}
     </PageShell>
   );

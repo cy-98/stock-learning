@@ -31,7 +31,7 @@ export function FairRangeBar({ price, snapshot, currencySymbol = '¥' }: Props) 
           />
         )}
       </div>
-      <div className="flex justify-between font-mono text-[10px] text-base-content/50">
+      <div className="flex justify-between font-mono text-xs text-base-content/50">
         <span>
           {currencySymbol}
           {fairLow}–{fairHigh}

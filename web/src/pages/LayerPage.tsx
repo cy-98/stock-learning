@@ -1,24 +1,17 @@
 import { useEffect, useState, type ReactNode } from 'react';
 import { useNavigate, useParams, useSearchParams } from 'react-router-dom';
 import { getLayerById, type LayerTab } from '../config/layers';
+import { LAYER_PAGE_TABS } from '../config/layerTabs';
 import { fetchLayerTopStocks } from '../services/stock';
 import { fetchValuations, enrichRankedStocks } from '../services/valuation';
 import type { RankedStockWithValuation } from '../components/StockRankPanel';
 import { useLayerEventsAndTrends } from '../hooks/useLayerFeed';
 import { PageShell } from '../components/PageShell';
+import { FeedEventCard, FeedEventList } from '../components/FeedEventList';
 import { GdeltNewsPanel } from '../components/GdeltNewsPanel';
 import { LayerPicksPanel } from '../components/LayerPicksPanel';
 import { StockRankPanel } from '../components/StockRankPanel';
 import { getLayerAccent, trendBadge } from '../utils/layerTheme';
-
-const TABS: { id: LayerTab; label: string }[] = [
-  { id: 'picks', label: 'AI 荐股' },
-  { id: 'stocks', label: '龙头榜单' },
-  { id: 'industry', label: '行业' },
-  { id: 'trends', label: '趋势' },
-  { id: 'events', label: '大事件' },
-  { id: 'analysis', label: '投资分析' },
-];
 
 function SectionCard({
   title,
@@ -151,22 +144,25 @@ export function LayerPage() {
         </div>
       </div>
 
-      <div
-        role="tablist"
-        className="layer-tablist tabs tabs-boxed tabs-sm lg:tabs-md"
-      >
-        {TABS.map((t) => (
-          <button
-            key={t.id}
-            type="button"
-            role="tab"
-            aria-selected={tab === t.id}
-            className={`tab shrink-0 ${tab === t.id ? 'tab-active' : ''}`}
-            onClick={() => setTab(t.id)}
-          >
-            {t.label}
-          </button>
-        ))}
+      <div className="layer-tablist-sticky">
+        <p className="ui-sans mb-1.5 text-[11px] text-faint lg:hidden">左右滑动切换栏目</p>
+        <div
+          role="tablist"
+          className="layer-tablist tabs tabs-boxed tabs-sm lg:tabs-md"
+        >
+          {LAYER_PAGE_TABS.map((t) => (
+            <button
+              key={t.id}
+              type="button"
+              role="tab"
+              aria-selected={tab === t.id}
+              className={`tab shrink-0 ${tab === t.id ? 'tab-active' : ''}`}
+              onClick={() => setTab(t.id)}
+            >
+              {t.label}
+            </button>
+          ))}
+        </div>
       </div>
 
       {tab === 'picks' && (
@@ -287,22 +283,13 @@ export function LayerPage() {
             大事件数据来自仓库 web/public/data/layer-feed.json，可由 docs/data/layers.json 同步。
             修改 JSON 后推送并部署即可更新。
           </p>
-          <ul className="timeline timeline-vertical timeline-compact -ml-2">
+          <FeedEventList>
             {events.map((e) => (
               <li key={e.title + e.date}>
-                <div className="timeline-start text-xs font-medium text-base-content/55">
-                  {e.date}
-                </div>
-                <div className="timeline-middle">
-                  <span className="size-2 rounded-full bg-primary" />
-                </div>
-                <div className="timeline-end timeline-box mb-3 text-sm shadow-sm">
-                  <h4 className="font-medium">{e.title}</h4>
-                  <p className="mt-1 text-base-content/70">{e.body}</p>
-                </div>
+                <FeedEventCard date={e.date} title={e.title} body={e.body} />
               </li>
             ))}
-          </ul>
+          </FeedEventList>
 
           <div className="divider text-xs text-base-content/40">GDELT 全球新闻</div>
           <GdeltNewsPanel layerId={layer.id} active={tab === 'events'} />

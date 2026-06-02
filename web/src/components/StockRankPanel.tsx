@@ -102,11 +102,25 @@ export function StockRankPanel({ title, flag, stocks, loading, error }: Props) {
                         currencySymbol={s.market === 'cn' ? '¥' : '$'}
                       />
                     )}
-                    <MiniKlineChart
-                      data={s.kline}
-                      positive={s.changePercent >= 0}
-                      height={64}
-                    />
+                    <div className="hidden lg:block">
+                      <MiniKlineChart
+                        data={s.kline}
+                        positive={s.changePercent >= 0}
+                        height={64}
+                      />
+                    </div>
+                    <details className="glass-inset rounded-lg lg:hidden">
+                      <summary className="cursor-pointer px-2 py-2.5 text-xs font-medium text-primary min-h-10 list-none [&::-webkit-details-marker]:hidden">
+                        查看 K 线 ▾
+                      </summary>
+                      <div className="px-2 pb-2">
+                        <MiniKlineChart
+                          data={s.kline}
+                          positive={s.changePercent >= 0}
+                          height={72}
+                        />
+                      </div>
+                    </details>
                   </div>
                 </div>
               </div>

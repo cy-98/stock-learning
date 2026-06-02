@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import { Link, useNavigate, useParams } from 'react-router-dom';
+import { Link, useLocation, useNavigate, useParams } from 'react-router-dom';
 import { VALUATION_PROFILE_LABELS } from '../config/valuationProfiles';
 import { PageShell } from '../components/PageShell';
 import { FairRangeBar } from '../components/FairRangeBar';
@@ -20,6 +20,8 @@ const SECTION3_URL =
 export function StockPage() {
   const { code } = useParams();
   const navigate = useNavigate();
+  const location = useLocation();
+  const backFromState = (location.state as { backTo?: string } | null)?.backTo;
   const [record, setRecord] = useState<ValuationRecord | null>(null);
   const [stock, setStock] = useState<RankedStock | null>(null);
   const [loading, setLoading] = useState(true);
@@ -69,11 +71,13 @@ export function StockPage() {
   const snapshot =
     record && stock && stock.price > 0 ? computeVerdict(stock.price, record) : null;
   const profileMeta = record ? VALUATION_PROFILE_LABELS[record.profile] : null;
+  const backTo =
+    backFromState ?? (layer ? `/layer/${layer.id}?tab=picks` : '/');
 
   return (
     <PageShell
       title={record?.name ?? code ?? '个股'}
-      backTo={layer ? `/layer/${layer.id}?tab=picks` : '/'}
+      backTo={backTo}
     >
       {loading && (
         <div className="flex items-center gap-2 text-sm text-base-content/60">

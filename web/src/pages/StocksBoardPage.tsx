@@ -56,8 +56,8 @@ export function StocksBoardPage() {
         <div className="card-body gap-2 p-5">
           <h2 className="text-lg font-semibold">五层 AI 荐股一览</h2>
           <p className="text-sm leading-relaxed text-muted">
-            数据来自 <code className="font-mono text-xs">insights/layer-*.yaml</code>，
-            对照实时行情与合理价锚点。点击个股进入详情。
+            五层荐股并排对照，便于跨层比较估值与叙事；数据来自{' '}
+            <code className="font-mono text-xs">insights/layer-*.yaml</code>，结合实时行情与合理价锚点。
           </p>
         </div>
       </div>

@@ -8,9 +8,9 @@ export function DesktopNav() {
   const isSpec = pathname.startsWith('/spec');
 
   return (
-    <aside className="desktop-nav hidden lg:flex" aria-label="主导航">
+    <aside className="desktop-nav" aria-label="主导航">
       <div className="mb-8">
-        <Link to="/" className="font-serif text-lg font-semibold hover:text-[var(--app-accent)]">
+        <Link to="/" className="font-serif text-lg font-semibold hover:text-primary">
           AI 五层模型
         </Link>
         <p className="ui-sans mt-1 text-xs text-muted">投资学习 · stock-sdk</p>
@@ -23,8 +23,8 @@ export function DesktopNav() {
             to={item.path}
             className={`flex items-center gap-2 rounded-lg px-3 py-2.5 ${
               active === item.path
-                ? 'bg-[var(--app-accent-soft)] font-medium text-[var(--app-accent)]'
-                : 'text-muted hover:bg-white/50 hover:text-[var(--app-fg)]'
+                ? 'bg-primary/10 font-medium text-primary'
+                : 'text-muted hover:bg-base-200/80 hover:text-base-content'
             }`}
           >
             <span aria-hidden>{item.icon}</span>
@@ -33,11 +33,11 @@ export function DesktopNav() {
         ))}
       </nav>
 
-      <div className="ui-sans mt-auto border-t border-[var(--app-border)] pt-4 text-xs">
+      <div className="ui-sans mt-auto flex flex-col gap-1 border-t border-base-300 pt-4 text-xs">
         <Link
           to={SPEC_OVERVIEW_PATH}
           className={`block rounded-lg px-3 py-2 ${
-            isSpec ? 'font-medium text-[var(--app-accent)]' : 'text-faint hover:text-muted'
+            isSpec ? 'font-medium text-primary' : 'text-faint hover:text-muted'
           }`}
         >
           项目规格

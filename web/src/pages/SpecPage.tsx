@@ -48,7 +48,7 @@ export function SpecPage() {
   }
 
   return (
-    <div className="min-h-dvh lg:pl-52">
+    <div className="min-h-dvh max-lg:pl-0 lg:pl-52">
       <DesktopNav />
       <div className="spec-layout">
       <aside className="spec-aside">

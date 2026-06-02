@@ -3,6 +3,7 @@ import { Link, useSearchParams } from 'react-router-dom';
 import { LAYERS } from '../config/layers';
 import { DailyNewsSection } from '../components/DailyNewsSection';
 import { HomeLayerSection } from '../components/HomeLayerSection';
+import { LayerHeatCard } from '../components/LayerHeatCard';
 import { PortfolioStabilizersBar } from '../components/PortfolioStabilizersBar';
 import { PageShell } from '../components/PageShell';
 import { useLayerFeed } from '../hooks/useLayerFeed';
@@ -68,11 +69,14 @@ export function HomePage() {
       badge={<span className="badge badge-ghost badge-sm">五层模型</span>}
     >
       <div className="glass-card card">
-        <div className="card-body gap-2 p-5">
-          <h2 className="card-title text-lg font-semibold">从算力到生态</h2>
+        <div className="card-body gap-2 p-4 lg:p-5">
+          <h2 className="card-title text-base font-semibold lg:text-lg">从算力到生态</h2>
           <p className="text-sm leading-relaxed text-muted">
-            点击各层展开，查看本层最相关的 AI 荐股；完整 Tab（龙头、行业、趋势、大事件、投资分析）请进入对应层页。
-            防御型电力等组合稳定器单独列于下方，不混入任一层。
+            <span className="lg:hidden">展开各层可预览荐股；完整分析请进入层页。</span>
+            <span className="hidden lg:inline">
+              点击各层展开，查看本层最相关的 AI 荐股；完整 Tab（龙头、行业、趋势、大事件、投资分析）请进入对应层页。
+              防御型电力等组合稳定器单独列于下方，不混入任一层。
+            </span>
           </p>
           <div className="collapse collapse-arrow collapse-close glass-inset">
             <input type="checkbox" aria-label="展开热度计算说明" />
@@ -95,11 +99,11 @@ export function HomePage() {
                 </li>
               </ul>
               <p className="mt-2">
-                行情失败时改为事件 65% + 周期 35%。可在
+                行情失败时改为事件 65% + 周期 35%。上方「今日要闻」为日更摘要；可在
                 <Link to="/news" className="link link-primary mx-1">
                   最近时事
                 </Link>
-                浏览全部大事件。
+                浏览五层大事件时间线。
               </p>
             </div>
           </div>
@@ -113,7 +117,23 @@ export function HomePage() {
         <span>算力基础 ↑</span>
       </div>
 
-      <ul className="home-layer-accordion flex flex-col gap-3">
+      <div className="home-layer-grid">
+        {stack.map((layer) => {
+          const merged = withFeedLayer(layer, feed);
+          return (
+            <LayerHeatCard
+              key={layer.id}
+              layer={merged}
+              marketQuotes={momentum[layer.id]}
+              marketLoading={marketLoading}
+              richCount={richCounts[layer.id]}
+              feedUpdated={feed.updated}
+            />
+          );
+        })}
+      </div>
+
+      <ul className="home-layer-accordion">
         {stack.map((layer) => {
           const merged = withFeedLayer(layer, feed);
           return (
@@ -134,7 +154,29 @@ export function HomePage() {
 
       <PortfolioStabilizersBar />
 
-      <div className="glass-card card">
+      <details className="glass-card card collapse collapse-arrow lg:hidden">
+        <summary className="collapse-title min-h-11 text-sm font-semibold text-muted">
+          项目规格
+        </summary>
+        <div className="collapse-content px-4 pb-4">
+          <Link to={SPEC_OVERVIEW_PATH} className="btn btn-outline btn-sm mb-3 w-full">
+            打开总览
+          </Link>
+          <div className="flex flex-wrap gap-2">
+            {SPEC_PAGES.map((page) => (
+              <Link
+                key={page.slug}
+                to={page.to}
+                className="badge badge-ghost badge-sm hover:badge-primary"
+              >
+                {page.label}
+              </Link>
+            ))}
+          </div>
+        </div>
+      </details>
+
+      <div className="glass-card card hidden lg:block">
         <div className="card-body gap-2 p-4">
           <div className="flex flex-wrap items-center justify-between gap-2">
             <h3 className="text-sm font-semibold text-muted">项目规格（spec/*.yaml）</h3>

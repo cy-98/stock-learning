@@ -53,7 +53,7 @@ export function DailyNewsSection() {
         <div className="flex flex-wrap items-center justify-between gap-2">
           <div>
             <h2 id="daily-news-heading" className="card-title text-lg font-semibold">
-              Daily News
+              今日要闻
             </h2>
             <p className="text-xs text-muted">
               五层模型相关时事 · {today}

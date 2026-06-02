@@ -13,12 +13,12 @@ export function PortfolioStabilizersBar() {
           <span className="badge badge-ghost badge-xs">非层内标的</span>
         </div>
         <p className="text-xs leading-relaxed text-faint">{STABILIZERS_INTRO}</p>
-        <ul className="flex flex-col gap-2 sm:flex-row sm:flex-wrap">
+        <ul className="flex snap-x snap-mandatory gap-2 overflow-x-auto pb-1 sm:flex-wrap sm:overflow-visible sm:snap-none">
           {PORTFOLIO_STABILIZERS.map((item) => (
-            <li key={item.code}>
+            <li key={item.code} className="min-w-[min(100%,14rem)] shrink-0 snap-start sm:min-w-0">
               <Link
                 to={`/stock/${item.code}`}
-                className="glass-inset flex flex-col gap-0.5 rounded-lg px-3 py-2 transition hover:ring-1 hover:ring-primary/30"
+                className="glass-inset btn btn-ghost h-auto min-h-12 w-full flex-col items-start gap-0.5 border border-base-300/80 px-3 py-2 font-normal hover:border-primary/40"
               >
                 <span className="flex flex-wrap items-center gap-2">
                   <span className="text-sm font-medium">{item.name}</span>

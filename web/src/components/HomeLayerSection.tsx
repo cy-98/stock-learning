@@ -1,5 +1,7 @@
+import { useEffect, useRef, useState } from 'react';
 import { Link } from 'react-router-dom';
 import type { LayerConfig } from '../config/layers';
+import { HOME_LAYER_QUICK_TABS } from '../config/layerTabs';
 import { computeDynamicHeat } from '../utils/dynamicHeat';
 import { getLayerAccent } from '../utils/layerTheme';
 import { LayerPicksPanel } from './LayerPicksPanel';
@@ -15,13 +17,6 @@ interface Props {
   defaultOpen?: boolean;
 }
 
-const LAYER_TABS = [
-  { tab: 'picks', label: 'AI 荐股' },
-  { tab: 'stocks', label: '龙头榜单' },
-  { tab: 'events', label: '大事件' },
-  { tab: 'analysis', label: '投资分析' },
-] as const;
-
 export function HomeLayerSection({
   layer,
   events,
@@ -33,13 +28,23 @@ export function HomeLayerSection({
 }: Props) {
   const accent = getLayerAccent(layer.id);
   const heat = computeDynamicHeat(layer, { cycle: layer.heatPeriod, marketQuotes });
+  const detailsRef = useRef<HTMLDetailsElement>(null);
+  const [open, setOpen] = useState(defaultOpen);
+
+  useEffect(() => {
+    const el = detailsRef.current;
+    if (!el) return;
+    el.open = defaultOpen;
+    setOpen(defaultOpen);
+  }, [defaultOpen]);
 
   return (
     <details
+      ref={detailsRef}
       className={`glass-card group overflow-hidden ${accent.border} border-l-4`}
-      open={defaultOpen}
+      onToggle={(e) => setOpen(e.currentTarget.open)}
     >
-      <summary className="cursor-pointer list-none [&::-webkit-details-marker]:hidden">
+      <summary className="cursor-pointer list-none [&::-webkit-details-marker]:hidden min-h-[3.25rem]">
         <div className="relative flex items-center gap-3 p-4 lg:p-5">
           <div
             className={`absolute inset-y-0 left-0 ${accent.progress} opacity-40 transition-[width] duration-500`}
@@ -64,7 +69,7 @@ export function HomeLayerSection({
                 热度 {heat.percent}%
               </span>
             )}
-            <span className="ui-sans text-[10px] text-faint group-open:rotate-180 transition-transform">
+            <span className="ui-sans text-xs text-faint group-open:rotate-180 transition-transform">
               展开 ▾
             </span>
           </div>
@@ -72,7 +77,7 @@ export function HomeLayerSection({
       </summary>
 
       <div className="border-t border-[var(--app-border)] px-4 pb-5 pt-2 lg:px-5">
-        <p className="mb-3 text-sm leading-relaxed text-muted">{layer.summary}</p>
+        <p className="mb-3 line-clamp-2 text-sm leading-relaxed text-muted">{layer.summary}</p>
         {(richCount != null && richCount > 0) || feedUpdated ? (
           <p className="ui-sans mb-3 text-xs text-faint">
             {richCount != null && richCount > 0 && (
@@ -83,19 +88,34 @@ export function HomeLayerSection({
           </p>
         ) : null}
 
-        <div className="ui-sans mb-4 flex flex-wrap gap-2">
-          {LAYER_TABS.map((t) => (
+        <Link
+          to={`/layer/${layer.id}?tab=picks`}
+          className="btn btn-primary btn-md mb-4 w-full lg:btn-sm"
+        >
+          查看本层完整分析
+        </Link>
+
+        {open && (
+          <LayerPicksPanel
+            layerId={layer.id}
+            events={events}
+            feedUpdated={feedUpdated ?? null}
+            enabled={open}
+            variant="preview"
+          />
+        )}
+
+        <div className="ui-sans mobile-chip-scroll mt-4 lg:flex lg:flex-wrap lg:gap-2">
+          {HOME_LAYER_QUICK_TABS.map((t) => (
             <Link
               key={t.tab}
               to={`/layer/${layer.id}?tab=${t.tab}`}
-              className="btn btn-outline btn-xs"
+              className="btn btn-outline btn-sm min-h-11 lg:min-h-0"
             >
               {t.label}
             </Link>
           ))}
         </div>
-
-        <LayerPicksPanel layerId={layer.id} events={events} feedUpdated={feedUpdated ?? null} />
       </div>
     </details>
   );
