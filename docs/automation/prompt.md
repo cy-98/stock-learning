@@ -2,6 +2,8 @@
 
 将下文整段复制到 [Cursor Automations](https://cursor.com/automations) 的 **Instructions** 字段。
 
+> **首页 Daily News**（`news/new-YYYY-MM-DD*.json`）请使用独立 Automation，指令见 **`docs/automation/prompt-daily-news.md`**。
+
 ## 推荐 Automation 设置
 
 | 项 | 值 |
@@ -55,7 +57,7 @@
    npm run sync:insights
    npm run build
    ```
-8. 创建分支并 **Open pull request**：
+6. 创建分支并 **Open pull request**：
    - 标题：`chore(daily): layer feed YYYY-MM-DD`
    - 正文须包含：
      - 各层新增事件清单（层名 + 标题）
