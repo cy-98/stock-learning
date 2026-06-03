@@ -1,0 +1,88 @@
+{
+  "date": "2026-06-03",
+  "items": [
+    {
+      "id": "nvidia-vera-rubin-production-2026-06",
+      "title": "英伟达 Vera Rubin 平台进入量产并导入 CPO 网络",
+      "summary": "英伟达在 GTC Taipei 宣布 Vera Rubin AI 工厂平台进入全面量产，台湾服务器厂商与全球供应链伙伴正在按规模制造相关系统，量产出货预计从今年秋季开始。该平台把 Vera CPU、Rubin GPU、BlueField-4、Spectrum-X Ethernet Photonics 等组合为面向 Agentic AI 的机架级系统，主要对应算力基础设施层，事件阶段已从发布走向供应链爬坡。",
+      "sourceUrl": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Vera-Rubin-Ramps-Into-Full-Production-to-Power-Agentic-AI-Factories-Worldwide/default.aspx",
+      "publishedAt": "2026-05-31",
+      "layerIds": [1],
+      "industries": ["AI 算力", "AI 服务器", "CPO 光互连", "数据中心网络"],
+      "beneficiaries": {
+        "industries": ["AI 加速器", "先进封装", "服务器 ODM", "光互连与数据中心交换"],
+        "companies": ["英伟达", "台积电", "戴尔科技", "惠普企业", "联想", "Supermicro", "广达"],
+        "stocks": [
+          {
+            "code": "usNVDA",
+            "name": "英伟达",
+            "reason": "Vera Rubin 是其新一代 AI 工厂平台，量产推进扩大 CPU、GPU 与网络系统的交付基础"
+          },
+          {
+            "code": "usTSM",
+            "name": "台积电",
+            "reason": "先进制程与封装产能是高端 AI 加速器放量的重要制造环节"
+          }
+        ]
+      }
+    },
+    {
+      "id": "nvidia-tsmc-ai-fab-2026-06",
+      "title": "台积电将 NVIDIA AI 引入光刻、制程控制与缺陷检测",
+      "summary": "英伟达宣布台积电正在使用 CUDA-X 库与 AI 模型推进半导体设计制造流程，覆盖计算光刻、晶体管与制程仿真、先进制程控制和晶圆厂排程优化。台积电还使用 NVIDIA Metropolis 与 TAO Toolkit 改进纳米级缺陷检测，体现 AI 算法和加速计算正在进入晶圆制造核心工序，主要对应算力基础设施层与模型算法层。",
+      "sourceUrl": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-and-TSMC-Bring-AI-Into-Fabs-to-Advance-Semiconductor-Design-and-Manufacturing/default.aspx",
+      "publishedAt": "2026-06-01",
+      "layerIds": [1, 2],
+      "industries": ["晶圆代工", "计算光刻", "工业视觉", "半导体制造"],
+      "beneficiaries": {
+        "industries": ["先进制程制造", "EDA 与计算光刻", "工业机器视觉", "GPU 加速计算"],
+        "companies": ["台积电", "英伟达"],
+        "stocks": [
+          {
+            "code": "usTSM",
+            "name": "台积电",
+            "reason": "AI 加速的制程控制、缺陷检测和排程优化有助于提升先进晶圆厂效率与良率"
+          },
+          {
+            "code": "usNVDA",
+            "name": "英伟达",
+            "reason": "CUDA-X、Metropolis 与相关 AI 工具进入晶圆厂流程，扩大其加速计算在半导体制造场景的应用"
+          }
+        ]
+      }
+    },
+    {
+      "id": "gmdc-cambridge-rare-earth-observatory-2026-06",
+      "title": "GMDC 与剑桥大学建设 AI 稀土供应链观测平台",
+      "summary": "Gujarat Mineral Development Corporation 与剑桥大学合作建设印度首个 AI 驱动的稀土供应链观测平台，项目为期两年、投资 60 万英镑。平台计划实时跟踪从矿山到磁材的稀土价值链，包括价格、加工产能、供应中断和地缘风险，事件同时关联稀土永磁终端生态与企业级数据平台能力。",
+      "sourceUrl": "https://economictimes.indiatimes.com/industry/indl-goods/svs/metals-mining/gmdc-to-develop-indias-first-ai-powered-rare-earth-supply-chain-observatory-with-600000-investment/articleshow/131456910.cms",
+      "publishedAt": "2026-06-02",
+      "layerIds": [5, 3],
+      "industries": ["稀土永磁", "关键矿产", "供应链数据平台", "智能汽车供应链"],
+      "beneficiaries": {
+        "industries": ["稀土供应链情报", "永磁材料", "关键矿产风控", "新能源汽车与机器人上游材料"],
+        "companies": ["Gujarat Mineral Development Corporation", "University of Cambridge"]
+      }
+    },
+    {
+      "id": "usa-rare-earth-sc-magnet-2026-06",
+      "title": "USA Rare Earth 选址南卡新建稀土金属与磁材工厂",
+      "summary": "USA Rare Earth 宣布将南卡罗来纳州 Cherokee County 作为新稀土金属与磁材工厂选址，项目预计创造约 490 个制造岗位，并扩充美国本土钕铁硼永磁和精炼稀土金属产能。公告称 Blacksburg 工厂目标产能为每年 6400 吨钕铁硼磁体及 5000 吨带材、金属和合金，预计 2028 年开始调试，相关需求覆盖国防、半导体、AI、能源和先进制造。",
+      "sourceUrl": "https://www.manilatimes.net/2026/06/02/tmt-newswire/globenewswire/usa-rare-earth-selects-cherokee-county-south-carolina-for-new-rare-earth-metal-and-magnet-manufacturing-operation/2356933",
+      "publishedAt": "2026-06-02",
+      "layerIds": [5, 1],
+      "industries": ["稀土永磁", "关键矿产", "AI 硬件供应链", "先进制造"],
+      "beneficiaries": {
+        "industries": ["钕铁硼永磁", "电机与机器人零部件", "半导体和数据中心关键材料", "本土化关键矿产供应链"],
+        "companies": ["USA Rare Earth", "Duke Energy", "Cherokee County"],
+        "stocks": [
+          {
+            "code": "usUSAR",
+            "name": "USA Rare Earth",
+            "reason": "公司公告的新工厂将扩充其美国本土 mine-to-magnet 稀土磁材与精炼金属产能"
+          }
+        ]
+      }
+    }
+  ]
+}
