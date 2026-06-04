@@ -1,0 +1,105 @@
+{
+  "date": "2026-06-04",
+  "items": [
+    {
+      "id": "sk-hynix-hbm-wafer-expansion-2026-06",
+      "title": "SK hynix 称五年内将晶圆产能翻倍以应对 AI 内存瓶颈",
+      "summary": "Korea JoongAng Daily 报道，SK 集团董事长崔泰源在 Computex 2026 表示，SK hynix 计划在未来五年内将晶圆产能翻倍，并称 AI 驱动的内存短缺可能延续到 2030 年。报道还提到 NVIDIA CEO 黄仁勋在 SK hynix 展台参观 HBM4E 晶圆并写下“Please make more”，显示高带宽内存仍是 AI 数据中心和 AI 工厂扩张的关键瓶颈。该事件主要对应算力与基础设施层中的 HBM、先进封装和服务器内存供给。",
+      "sourceUrl": "https://koreajoongangdaily.joins.com/news/2026-06-03/business/industry/SK-hynix-to-double-wafer-production-within-five-years-chief-says/2607675",
+      "publishedAt": "2026-06-03",
+      "layerIds": [1],
+      "industries": ["HBM", "DRAM", "AI 算力", "半导体制造"],
+      "beneficiaries": {
+        "industries": ["高带宽内存", "先进封装", "AI 服务器内存接口", "半导体设备与材料"],
+        "companies": ["SK hynix", "英伟达", "美光", "澜起科技"],
+        "stocks": [
+          {
+            "code": "usMU",
+            "name": "美光",
+            "reason": "HBM 与服务器 DRAM 供需紧张对全球高端内存供应商的订单和定价环境具有映射意义"
+          },
+          {
+            "code": "sh688008",
+            "name": "澜起科技",
+            "reason": "AI 服务器内存带宽升级会带动内存接口与相关互连芯片需求，逻辑上与其产品线相关"
+          }
+        ]
+      }
+    },
+    {
+      "id": "nvidia-enterprise-agent-toolkit-2026-06",
+      "title": "NVIDIA 发布企业 Agent Toolkit 与 Nemotron 3 Ultra",
+      "summary": "NVIDIA 在 GTC Taipei 发布 Agent Toolkit、NemoClaw 蓝图、OpenShell 安全运行时和 Nemotron 3 Ultra 开放模型，面向企业长周期自主 Agent 开发与部署。公告称 Cadence、Dassault Systèmes、Siemens、Synopsys 等软件平台正在用相关组件构建仿真、验证和工程流程中的自主 AI 工程师，CrowdStrike 与 Palantir 也在安全和运营决策场景接入 Nemotron 模型。该事件同时覆盖模型与算法层、平台与工具层以及应用落地层。",
+      "sourceUrl": "https://investor.nvidia.com/news/press-release-details/2026/Enterprise-Software-Leaders-Build-AI-Agents-With-NVIDIA/default.aspx",
+      "publishedAt": "2026-06-01",
+      "layerIds": [2, 3, 4],
+      "industries": ["AI Agent", "企业软件", "AI 安全", "EDA"],
+      "beneficiaries": {
+        "industries": ["Agent 开发平台", "企业级模型部署", "AI 安全运行时", "工程仿真与 EDA 软件"],
+        "companies": ["英伟达", "微软", "Palantir", "CrowdStrike", "Synopsys", "Cadence"],
+        "stocks": [
+          {
+            "code": "usNVDA",
+            "name": "英伟达",
+            "reason": "Agent Toolkit、Nemotron 与 OpenShell 扩展了其从 GPU 到模型和企业 Agent 软件栈的覆盖范围"
+          },
+          {
+            "code": "usMSFT",
+            "name": "微软",
+            "reason": "公告中的 Windows 安全原语与 OpenShell 协作强化了本地与企业 Agent 运行环境"
+          },
+          {
+            "code": "usPLTR",
+            "name": "Palantir",
+            "reason": "Palantir 将 Nemotron 模型接入 AI FDE 平台，事件与其企业级任务自动化能力相关"
+          }
+        ]
+      }
+    },
+    {
+      "id": "meta-business-agent-platform-2026-06",
+      "title": "Meta 推出面向商家的 Business Agent 与 Agent 平台",
+      "summary": "Meta Newsroom 宣布推出 Meta Business Agent，并把该能力扩展到 WhatsApp、Messenger 和 Instagram 等业务触点，官方称已有超过 100 万家企业使用相关 Agent 回复客户。Meta 同时推出 Business Agent Platform，让企业连接 Shopify、Zendesk、Shopee 等系统，并提供企业级控制、护栏和测量能力。该事件主要体现 AI Agent 从平台能力进入客户服务、电商转化和中小企业运营应用。",
+      "sourceUrl": "https://about.fb.com/news/2026/06/meta-business-agent/",
+      "publishedAt": "2026-06-03",
+      "layerIds": [3, 4],
+      "industries": ["AI 客服", "社交电商", "企业 Agent 平台", "营销自动化"],
+      "beneficiaries": {
+        "industries": ["客户服务自动化", "对话式电商", "营销 SaaS", "企业 Agent 集成"],
+        "companies": ["Meta", "Shopify", "Zendesk", "Shopee"],
+        "stocks": [
+          {
+            "code": "usMETA",
+            "name": "Meta",
+            "reason": "Business Agent 将生成式 AI 嵌入其消息和社交业务场景，可能提升商家工具粘性"
+          },
+          {
+            "code": "usSHOP",
+            "name": "Shopify",
+            "reason": "Meta 平台支持连接 Shopify 等系统，可能扩大对话式电商场景的数据和交易入口"
+          }
+        ]
+      }
+    },
+    {
+      "id": "lovable-google-cloud-gemini-2026-06",
+      "title": "Lovable 扩大与 Google Cloud 合作以规模化 AI 软件开发",
+      "summary": "Google Cloud Press Corner 披露，Lovable 与 Google Cloud 扩大多年合作，将 Gemini 模型、AI 优化基础设施和企业级安全治理能力用于 AI 生成全栈应用的平台扩张。公告称 Lovable 用户每周处理超过 100 万个新项目，Lovable Agent 将进入 Gemini Enterprise Agent Gallery，并通过 Wiz 集成提供 AI 生成代码的漏洞识别与修复。该事件对应平台与工具层中的 Agent 开发基础设施，也连接到应用层的软件工程自动化。",
+      "sourceUrl": "https://www.googlecloudpresscorner.com/2026-06-03-Lovable-Expands-Collaboration-With-Google-Cloud-to-Scale-AI-Powered-Software-Creation",
+      "publishedAt": "2026-06-03",
+      "layerIds": [3, 4],
+      "industries": ["AI 编程", "云计算", "Agent 开发平台", "代码安全"],
+      "beneficiaries": {
+        "industries": ["AI 原生软件开发", "云端模型服务", "代码安全扫描", "企业开发者平台"],
+        "companies": ["Google Cloud", "Lovable", "Wiz"],
+        "stocks": [
+          {
+            "code": "usGOOGL",
+            "name": "Alphabet",
+            "reason": "Gemini 模型和 Google Cloud 基础设施成为 Lovable 扩张的核心技术底座，增强云端 Agent 生态入口"
+          }
+        ]
+      }
+    }
+  ]
+}
