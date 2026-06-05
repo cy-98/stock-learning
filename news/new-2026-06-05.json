@@ -1,0 +1,115 @@
+{
+  "date": "2026-06-05",
+  "items": [
+    {
+      "id": "ciq-fuzzball-multicloud-ai-hpc-2026-06",
+      "title": "CIQ 将 Fuzzball AI/HPC 编排扩展到五大云与本地集群",
+      "summary": "CIQ 宣布 Fuzzball AI 与 HPC 编排平台已支持 CoreWeave、AWS、Google Cloud、Oracle Cloud、Microsoft Azure 以及本地基础设施。企业团队可用同一工作流定义运行训练、推理或 HPC 任务，并由平台按成本、性能和数据位置选择执行环境，事件对应平台与工具层，也反映 AI 算力资源调度从单云走向多云生产化。",
+      "sourceUrl": "https://www.prnewswire.com/news-releases/ciq-expands-fuzzball-to-full-multi-cloud-so-ai-and-hpc-teams-ship-faster-and-spend-less-with-absolute-workflow-reproducibility-and-portability-302791320.html",
+      "publishedAt": "2026-06-04",
+      "layerIds": [3, 1],
+      "industries": ["MLOps", "云计算", "AI 算力调度", "HPC"],
+      "beneficiaries": {
+        "industries": ["多云 AI 编排", "GPU 云服务", "企业级 MLOps", "混合云基础设施"],
+        "companies": ["CIQ", "CoreWeave", "Amazon Web Services", "Google Cloud", "Oracle Cloud", "Microsoft Azure"],
+        "stocks": [
+          {
+            "code": "usMSFT",
+            "name": "微软",
+            "reason": "Azure 被纳入 Fuzzball 多云 AI/HPC 执行环境，企业多云编排需求可能带动云平台 AI 工作负载使用"
+          },
+          {
+            "code": "usAMZN",
+            "name": "亚马逊",
+            "reason": "AWS 作为支持云之一，可能受益于可迁移 AI 训练和推理工作流带来的云资源调度需求"
+          },
+          {
+            "code": "usORCL",
+            "name": "甲骨文",
+            "reason": "OCI 被列入同一控制平面，说明 AI/HPC 工作负载正在扩大对多云 GPU 与数据基础设施的选择范围"
+          }
+        ]
+      }
+    },
+    {
+      "id": "microsoft-copilot-india-it-majors-2026-06",
+      "title": "Infosys、TCS 与 Wipro 的 Microsoft 365 Copilot 部署超过 30 万席",
+      "summary": "微软宣布 Infosys、TCS 和 Wipro 各自将 Microsoft 365 Copilot 许可扩展到超过 10 万名员工，合计承诺超过 30 万席。公告称这些 IT 服务企业已从工具级部署转向在协作、工程、交付和业务流程中嵌入智能体，事件主要对应应用与解决方案层，并关联企业平台的安全、合规和数据上下文能力。",
+      "sourceUrl": "https://news.microsoft.com/source/asia/2026/06/03/infosys-tcs-and-wipro-scale-microsoft-365-copilot-to-over-300000-employees/",
+      "publishedAt": "2026-06-03",
+      "layerIds": [4, 3],
+      "industries": ["办公 Copilot", "企业软件", "IT 服务", "Agent 工作流"],
+      "beneficiaries": {
+        "industries": ["企业协作软件", "Copilot 集成服务", "AI 咨询与交付", "身份与合规治理"],
+        "companies": ["微软", "Infosys", "TCS", "Wipro"],
+        "stocks": [
+          {
+            "code": "usMSFT",
+            "name": "微软",
+            "reason": "Microsoft 365 Copilot 大规模席位扩展验证企业办公 AI 从试点走向生产使用，可能强化其应用与云平台组合"
+          },
+          {
+            "code": "usINFY",
+            "name": "Infosys",
+            "reason": "公司是本次超过 10 万席 Copilot 部署方之一，其 AI 交付经验可能反哺客户项目与内部效率"
+          },
+          {
+            "code": "usWIT",
+            "name": "Wipro",
+            "reason": "公司公告中披露高月活与大量员工自建智能体，说明 IT 服务流程对企业级 Copilot 生态较敏感"
+          }
+        ]
+      }
+    },
+    {
+      "id": "xpeng-physical-ai-vla2-cvpr-2026-06",
+      "title": "小鹏在 CVPR 展示 Physical AI，称 VLA2.0 已进入正式量产",
+      "summary": "小鹏汽车在 CVPR 2026 期间介绍其 Physical AI 技术体系，称自研 VLA2.0 基座模型已进入正式量产，并与世界模型共同支撑自动驾驶、Robotaxi 和人形机器人等应用。公司还表示 IRON 人形机器人正推进至 2026 年底量产目标，事件同时对应模型算法层和终端生态层，体现多模态/世界模型向智能汽车和机器人端部署。",
+      "sourceUrl": "https://www.prnewswire.com/news-releases/xpeng-invited-to-cvpr-for-the-third-time-showcasing-chinas-advances-in-physical-ai-to-the-world-302791744.html",
+      "publishedAt": "2026-06-04",
+      "layerIds": [2, 5],
+      "industries": ["Physical AI", "智能汽车", "Robotaxi", "人形机器人"],
+      "beneficiaries": {
+        "industries": ["自动驾驶算法", "车端 AI", "机器人整机", "传感器与执行器供应链"],
+        "companies": ["小鹏汽车", "Tesla", "NVIDIA", "Waymo"],
+        "stocks": [
+          {
+            "code": "usXPEV",
+            "name": "小鹏汽车",
+            "reason": "VLA2.0 量产与机器人量产计划直接关联其智能汽车、Robotaxi 和 Physical AI 应用路线"
+          },
+          {
+            "code": "usNVDA",
+            "name": "英伟达",
+            "reason": "Physical AI 的训练和部署通常依赖高性能计算与车端算力生态，相关应用扩展可能提升 AI 芯片与软件平台需求"
+          }
+        ]
+      }
+    },
+    {
+      "id": "usa-rare-earth-commerce-funding-2026-06",
+      "title": "USA Rare Earth 与美国商务部签署协议，解锁最高 16 亿美元资金",
+      "summary": "USA Rare Earth 公告称已与美国商务部签署最终协议，可在 CHIPS Program 下获得最高 2.77 亿美元联邦资金和最高 13 亿美元 CHIPS 高级担保贷款额度，拨付取决于项目里程碑。资金将支持从德州 Round Top 重稀土矿到金属、合金和钕铁硼磁体制造的一体化价值链，事件对应终端生态层的稀土永磁供应链，也关联半导体、数据中心和 Physical AI 等基础设施需求。",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1970622/000121390026064453/ea029340201ex99-1.htm",
+      "publishedAt": "2026-06-03",
+      "layerIds": [5, 1],
+      "industries": ["稀土永磁", "关键矿产", "半导体材料", "AI 硬件供应链"],
+      "beneficiaries": {
+        "industries": ["重稀土开采与分离", "钕铁硼磁体", "半导体关键材料", "机器人与智能车电机供应链"],
+        "companies": ["USA Rare Earth", "U.S. Department of Commerce", "Less Common Metals"],
+        "stocks": [
+          {
+            "code": "usUSAR",
+            "name": "USA Rare Earth",
+            "reason": "最终协议为其 mine-to-magnet 稀土和磁材产能建设提供里程碑式资金支持，直接对应公司价值链扩张"
+          },
+          {
+            "code": "sz000970",
+            "name": "中科三环",
+            "reason": "全球稀土磁材本土化建设强化钕铁硼供应链关注度，同类磁材企业对终端需求与供给格局变化逻辑上敏感"
+          }
+        ]
+      }
+    }
+  ]
+}
