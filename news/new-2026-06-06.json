@@ -1,0 +1,100 @@
+{
+  "date": "2026-06-06",
+  "items": [
+    {
+      "id": "openai-dreaming-memory-2026-06",
+      "title": "OpenAI 开始推出基于 Dreaming 的新版 ChatGPT 记忆系统",
+      "summary": "OpenAI 宣布开始向美国 Plus 和 Pro 用户推出更强、更可扩展的 ChatGPT 记忆合成系统，并将在未来数周扩展到更多国家和 Free、Go 用户。该架构基于 Dreaming 后台记忆合成，重点解决长期使用中的记忆陈旧、正确性和规模化问题，属于模型能力与应用体验结合的更新。公告称近期改进将服务 Free 用户所需计算量降低约 5 倍，使记忆能力具备更广泛的规模化基础。",
+      "sourceUrl": "https://openai.com/index/chatgpt-memory-dreaming/",
+      "publishedAt": "2026-06-04",
+      "layerIds": [2, 4],
+      "industries": ["大模型", "AI 应用", "个性化助手"],
+      "beneficiaries": {
+        "industries": ["对话式 AI", "个人生产力工具", "企业知识助手"],
+        "companies": ["OpenAI"],
+        "stocks": [
+          {
+            "code": "usMSFT",
+            "name": "微软",
+            "reason": "微软与 OpenAI 的产品和云生态绑定较深，ChatGPT 记忆能力提升逻辑上有助于增强 Copilot 类应用的长期个性化体验"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ibm-google-cloud-ai-practice-2026-06",
+      "title": "IBM 与 Google Cloud 建立新实践以推进企业级 AI Agent 落地",
+      "summary": "IBM 和 Google Cloud 宣布推出新的 Google Cloud Practice，结合 IBM Consulting Advantage、行业工作流 Agent 与 Google Cloud 的 Gemini Enterprise Agent Platform、网络安全和数据能力。双方称该实践将由数千名 Google Cloud 认证 IBM 顾问支持客户把 AI 方案推进到生产环境，并覆盖金融、政府、零售、电信、能源、安全、保险和生命科学等行业。该事件主要对应平台与工具层，也延伸到行业应用层的规模化交付。",
+      "sourceUrl": "https://www.prnewswire.com/news-releases/ibm-and-google-cloud-announce-strategic-partnership-to-scale-ai-with-human-expertise-and-aipowered-delivery-302790899.html",
+      "publishedAt": "2026-06-04",
+      "layerIds": [3, 4],
+      "industries": ["云计算", "企业软件", "Agent 平台", "咨询服务"],
+      "beneficiaries": {
+        "industries": ["企业 AI 平台", "混合云现代化", "行业 Agent", "数据治理"],
+        "companies": ["IBM", "Google Cloud"],
+        "stocks": [
+          {
+            "code": "usIBM",
+            "name": "IBM",
+            "reason": "新实践强化 IBM Consulting Advantage 与行业 Agent 交付能力，可能受益于企业 AI 从试点走向生产部署"
+          },
+          {
+            "code": "usGOOGL",
+            "name": "Alphabet",
+            "reason": "Gemini Enterprise Agent Platform、BigQuery 与 Google Cloud 安全数据能力被纳入联合交付体系，扩大云上企业 AI 工作负载入口"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cognizant-physical-ai-spine-2026-06",
+      "title": "Cognizant 推出面向物理 AI 的主权平台即服务",
+      "summary": "Cognizant 发布 Sovereign Physical AI Platform-as-a-Service，基于 Cognizant Intelligence Spine，把工业传感器、IoT、工厂自动化、能源基础设施、机器人和数字孪生接入统一智能织体。公司称该平台面向公用事业、油气、制造、物流、交通、航天防务、医疗生命科学和零售消费品八个垂直领域，目标是把自治系统从实验推进到企业核心基础设施。该事件连接平台与工具层、行业应用层和机器人等终端生态层。",
+      "sourceUrl": "https://www.prnewswire.com/news-releases/cognizant-launches-sovereign-physical-ai-platform-as-a-service-302793025.html",
+      "publishedAt": "2026-06-05",
+      "layerIds": [3, 4, 5],
+      "industries": ["Physical AI", "工业 AI", "机器人", "数字孪生"],
+      "beneficiaries": {
+        "industries": ["工业软件平台", "机器人系统集成", "智能制造", "能源与公用事业 AI"],
+        "companies": ["Cognizant"],
+        "stocks": [
+          {
+            "code": "usCTSH",
+            "name": "Cognizant",
+            "reason": "平台将其工程、AI 与行业服务打包为 Physical AI 交付能力，可能受益于制造、物流和能源客户的生产级 AI 项目需求"
+          }
+        ]
+      }
+    },
+    {
+      "id": "usa-rare-earth-chips-funding-2026-06",
+      "title": "USA Rare Earth 与美国商务部敲定最高 16 亿美元 CHIPS 资金安排",
+      "summary": "USA Rare Earth 披露与美国商务部签署最终协议，解锁最高 16 亿美元资金安排，其中包括最高 2.77 亿美元联邦资金和最高 13 亿美元 CHIPS Act 优先担保贷款能力，拨付将与项目里程碑挂钩。公司称资金将支持 Round Top 重稀土与关键矿产、加工分离、金属与合金制造，以及 Stillwater 和 South Carolina 磁材产能扩张。稀土永磁是机器人、电动车、半导体和数据中心等 AI 硬件生态的上游约束之一，事件主要对应终端生态层与算力供应链安全。",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1970622/000121390026064453/ea029340201ex99-1.htm",
+      "publishedAt": "2026-06-03",
+      "layerIds": [5, 1],
+      "industries": ["稀土永磁", "关键矿产", "半导体供应链", "机器人供应链"],
+      "beneficiaries": {
+        "industries": ["钕铁硼磁材", "稀土分离与冶炼", "智能汽车电机", "机器人执行器"],
+        "companies": ["USA Rare Earth", "U.S. Department of Commerce"],
+        "stocks": [
+          {
+            "code": "usUSAR",
+            "name": "USA Rare Earth",
+            "reason": "最终协议为其美国本土 mine-to-magnet 稀土价值链扩产提供里程碑式资金支持"
+          },
+          {
+            "code": "sh600111",
+            "name": "北方稀土",
+            "reason": "海外政策加码凸显稀土永磁供应链战略属性，国内稀土龙头对行业景气与供给安全议题逻辑上敏感"
+          },
+          {
+            "code": "sz000970",
+            "name": "中科三环",
+            "reason": "钕铁硼永磁是机器人、智能汽车和工业电机的重要材料，全球扩产与本土化建设会影响磁材产业链关注度"
+          }
+        ]
+      }
+    }
+  ]
+}
