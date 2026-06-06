@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-28",
+  "updated": "2026-06-06",
   "source": "docs/data/layers.json",
   "layers": {
     "1": {
@@ -28,6 +28,11 @@
           "date": "2026-05",
           "title": "电力板块题材波动",
           "body": "大唐发电等标的短期暴涨，案例提示：逻辑可对、价格需估值纪律。"
+        },
+        {
+          "date": "2026-06-05",
+          "title": "英伟达确认 Rubin HBM4 供应商",
+          "body": "黄仁勋在首尔表示三星、SK 海力士、美光均已通过 HBM4 认证并投入生产，Vera Rubin 平台计划 Q3 交付，HBM 供给仍是算力链关键约束。"
         }
       ],
       "trends": [
@@ -74,6 +79,16 @@
           "date": "2026",
           "title": "开源生态扩张",
           "body": "企业私有化部署需求带动一体机与国产算力适配。"
+        },
+        {
+          "date": "2026-06-04",
+          "title": "OpenAI 推出 Dreaming V3 记忆架构",
+          "body": "OpenAI 开始向 ChatGPT 推出更可扩展的 dreaming 记忆系统，称其可降低计算成本并提升长期上下文的新鲜度与正确性。"
+        },
+        {
+          "date": "2026-06",
+          "title": "Google 预告 Gemini 3.5 Pro 六月发布",
+          "body": "Alphabet 投资者材料称 Gemini 3.5 Flash 已可用，Gemini 3.5 Pro 预计 6 月推出，重点面向 agentic coding 与长周期任务。"
         }
       ],
       "trends": [
@@ -115,6 +130,11 @@
           "date": "2026",
           "title": "数据合规升级",
           "body": "企业内网部署与私有化模型需求增加。"
+        },
+        {
+          "date": "2026-06-05",
+          "title": "腾讯云 ADP 4.0 升级 AgentOps",
+          "body": "腾讯云智能体开发平台 ADP 4.0 发布，新增 Claw 模式、MCP 接入、权限治理与多部署形态，面向企业级 Agent 全生命周期运营。"
         }
       ],
       "trends": [
@@ -151,6 +171,16 @@
           "date": "2026",
           "title": "垂直 Agent 融资活跃",
           "body": "法律、财务、客服等场景出现专业化智能体产品。"
+        },
+        {
+          "date": "2026-06-02",
+          "title": "Microsoft Scout 进入 Frontier 预览",
+          "body": "微软在 Build 期间推出首个 Autopilot 智能体 Scout，可在 Microsoft 365 中跨 Teams、Outlook、OneDrive 等应用常驻执行任务。"
+        },
+        {
+          "date": "2026-06-02",
+          "title": "Windows 推出 AI Agent 安全容器",
+          "body": "微软发布 Microsoft Execution Containers SDK 预览，用策略化沙箱限制 Agent 访问文件、网络与会话，突出企业应用落地的治理要求。"
         }
       ],
       "trends": [
@@ -197,6 +227,11 @@
           "date": "持续",
           "title": "投资方法论沉淀",
           "body": "本仓库 Section 1/2：框架 + 澜起、电力案例复盘。"
+        },
+        {
+          "date": "2026-06-03",
+          "title": "比亚迪确认布局人形机器人",
+          "body": "比亚迪高管确认公司正在开发人形机器人，并考虑未来通过汽车经销网络进入家庭场景，车企制造与 AI 能力向具身智能延伸。"
         }
       ],
       "trends": [
