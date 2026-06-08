@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import { LAYERS } from '../config/layers';
 import {
   fetchDailyNewsCatalog,
-  getTodayBundle,
+  resolveTodayBundle,
   type DailyNewsStatus,
 } from '../services/dailyNews';
 import type { DailyNewsCatalog, DailyNewsItem } from '../types/dailyNews';
@@ -33,18 +33,27 @@ export function DailyNewsSection() {
 
   useEffect(() => {
     let cancelled = false;
-    fetchDailyNewsCatalog().then(({ catalog: c, status: s }) => {
-      if (cancelled) return;
-      setCatalog(c);
-      setStatus(s);
-    });
+    fetchDailyNewsCatalog()
+      .then(({ catalog: c, status: s }) => {
+        if (cancelled) return;
+        setCatalog(c);
+        setStatus(s);
+      })
+      .catch(() => {
+        if (!cancelled) {
+          setCatalog(null);
+          setStatus('empty');
+        }
+      });
     return () => {
       cancelled = true;
     };
   }, []);
 
-  const bundle = getTodayBundle(catalog);
+  const resolved = resolveTodayBundle(catalog);
+  const bundle = resolved?.bundle ?? null;
   const today = catalog?.today ?? new Date().toISOString().slice(0, 10);
+  const displayDate = resolved?.displayDate ?? today;
   const hasNews = (bundle?.items.length ?? 0) > 0;
 
   return (
@@ -56,7 +65,8 @@ export function DailyNewsSection() {
               今日要闻
             </h2>
             <p className="text-xs text-muted">
-              五层模型相关时事 · {today}
+              五层模型相关时事 · {displayDate}
+              {resolved?.isFallback ? `（今日暂无，展示最近一期 · ${today}）` : null}
               {bundle?.sourceFiles.length
                 ? ` · ${bundle.sourceFiles.length} 个来源文件`
                 : null}
