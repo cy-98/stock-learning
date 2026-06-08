@@ -1,0 +1,50 @@
+{
+  "date": "2026-06-08",
+  "items": [
+    {
+      "id": "nvidia-ai-supply-capacity-2026-06",
+      "title": "英伟达称下半年 AI 供应链产能已上调至两倍",
+      "summary": "据 Taipei Times 6 月 6 日报道，英伟达 CEO 黄仁勋在结束台湾行程前表示，公司已安排将今年下半年产能提高至两倍，以应对强劲的 AI 计算需求。报道同时提到 Grace Blackwell 已进入商业生产，下一代 Vera Rubin 平台开始量产，且内存等供应链环节仍然紧张。该事件主要对应算力与基础设施层，反映 AI 服务器、先进封装、HBM 与台湾服务器供应链仍处于扩产爬坡阶段。",
+      "sourceUrl": "https://www.taipeitimes.com/News/biz/archives/2026/06/06/2003858596",
+      "publishedAt": "2026-06-06",
+      "layerIds": [1],
+      "industries": ["AI 算力", "AI 服务器", "HBM", "先进封装"],
+      "beneficiaries": {
+        "industries": ["GPU 与 AI 加速器", "HBM 与高端内存", "晶圆代工与先进封装", "AI 服务器 ODM"],
+        "companies": ["英伟达", "台积电", "鸿海精密", "SK 海力士"],
+        "stocks": [
+          {
+            "code": "usNVDA",
+            "name": "英伟达",
+            "reason": "公司表示已为 AI CPU/GPU 系统扩产做准备，产能爬坡直接对应其数据中心平台交付能力"
+          },
+          {
+            "code": "usTSM",
+            "name": "台积电",
+            "reason": "先进制程与封装产能是英伟达 Grace Blackwell、Vera Rubin 等 AI 平台放量的重要制造环节"
+          }
+        ]
+      }
+    },
+    {
+      "id": "foxconn-intel-ai-rack-2026-06",
+      "title": "鸿海与 Intel 合作开发下一代 AI 机架与边缘智能平台",
+      "summary": "Taipei Times 6 月 5 日援引 Reuters 报道称，鸿海将与 Intel 共同开发和部署下一代 AI 基础设施与智能计算平台，覆盖使用 Intel Xeon 处理器和 AI 加速器的服务器机架。双方还计划推进高速互连、散热设计、能效优化以及面向工厂、智慧城市和机器人的边缘 AI 系统。该合作同时连接算力基础设施层和终端生态层，阶段上仍是战略合作与系统方案定义。",
+      "sourceUrl": "https://www.taipeitimes.com/News/biz/archives/2026/06/05/2003858542",
+      "publishedAt": "2026-06-05",
+      "layerIds": [1, 5],
+      "industries": ["AI 服务器", "边缘 AI", "具身智能", "高速互连"],
+      "beneficiaries": {
+        "industries": ["AI rack 系统集成", "CPU 推理服务器", "液冷与高速互连", "机器人与智能制造平台"],
+        "companies": ["鸿海精密", "Intel"],
+        "stocks": [
+          {
+            "code": "usINTC",
+            "name": "Intel",
+            "reason": "合作方案以 Xeon 处理器、AI 加速器和软件生态为基础，逻辑上有助于其进入更多 AI 推理与边缘计算系统"
+          }
+        ]
+      }
+    }
+  ]
+}
