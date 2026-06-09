@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-28",
+  "updated": "2026-06-09",
   "source": "docs/data/layers.json",
   "layers": {
     "1": {
@@ -28,6 +28,11 @@
           "date": "2026-05",
           "title": "电力板块题材波动",
           "body": "大唐发电等标的短期暴涨，案例提示：逻辑可对、价格需估值纪律。"
+        },
+        {
+          "date": "2026-06-08",
+          "title": "英伟达与 SK 海力士深化 HBM4 合作",
+          "body": "英伟达与 SK 海力士签署多年协议，共同开发面向 Vera Rubin 与 AI factory 的下一代存储；三星、SK 海力士、美光均获 HBM4 供货认证，显示高带宽存储仍是算力瓶颈。"
         }
       ],
       "trends": [
@@ -74,6 +79,11 @@
           "date": "2026",
           "title": "开源生态扩张",
           "body": "企业私有化部署需求带动一体机与国产算力适配。"
+        },
+        {
+          "date": "2026-06-08",
+          "title": "OpenAI 递交美国 IPO 保密申请",
+          "body": "Reuters 报道 OpenAI 已递交美国 IPO 保密申请，未披露发行规模与时间表；前沿模型公司的资本开支与融资能力继续成为产业竞争变量。"
         }
       ],
       "trends": [
@@ -115,6 +125,11 @@
           "date": "2026",
           "title": "数据合规升级",
           "body": "企业内网部署与私有化模型需求增加。"
+        },
+        {
+          "date": "2026-06-08",
+          "title": "Google Agentic RAG 进入公测",
+          "body": "Google Research 与 Google Cloud 推出 Gemini Enterprise Agent Platform 的跨语料 Agentic RAG 公测，通过 sufficient context 检查提升多源检索回答的可追溯性。"
         }
       ],
       "trends": [
@@ -151,6 +166,11 @@
           "date": "2026",
           "title": "垂直 Agent 融资活跃",
           "body": "法律、财务、客服等场景出现专业化智能体产品。"
+        },
+        {
+          "date": "2026-06-08",
+          "title": "S&P Global 与 Cohere 推金融智能体工作流",
+          "body": "S&P Global 宣布将其金融数据接入 Cohere North 企业 AI 平台，面向金融机构提供带引用、可验证的研究分析与报告工作流。"
         }
       ],
       "trends": [
@@ -197,6 +217,11 @@
           "date": "持续",
           "title": "投资方法论沉淀",
           "body": "本仓库 Section 1/2：框架 + 澜起、电力案例复盘。"
+        },
+        {
+          "date": "2026-06",
+          "title": "IEA 提示稀土供应链集中风险",
+          "body": "IEA 稀土报告指出，高性能永磁相关稀土需求到 2030 年预计增长逾 30%，电动车、AI 数据中心、机器人与国防等场景推动供应链多元化议题升温。"
         }
       ],
       "trends": [
