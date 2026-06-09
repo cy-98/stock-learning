@@ -1,0 +1,105 @@
+{
+  "date": "2026-06-09",
+  "items": [
+    {
+      "id": "nvidia-sk-hynix-memory-ai-factory-2026-06",
+      "title": "英伟达与 SK hynix 建立 AI 工厂内存多年技术合作",
+      "summary": "英伟达和 SK hynix 宣布建立多年技术合作，共同推进面向 AI 工厂的下一代内存，并使先进内存供应与英伟达 AI 基础设施路线图匹配。公告称合作覆盖 Vera Rubin AI 超级计算机、Vera CPU、RTX Spark PC 和 Jetson Thor 机器人计算平台，同时会把 CUDA-X、PhysicsNeMo、Omniverse 与 cuOpt 用于半导体仿真和晶圆厂数字孪生。该事件主要对应算力与基础设施层，也体现 AI 平台工具进入半导体制造流程。",
+      "sourceUrl": "https://nvidianews.nvidia.com/news/sk-hynix-ai-factory",
+      "publishedAt": "2026-06-07",
+      "layerIds": [1, 3],
+      "industries": ["HBM", "AI 算力", "半导体制造", "晶圆厂数字孪生"],
+      "beneficiaries": {
+        "industries": ["高带宽内存", "AI 加速器", "半导体仿真", "先进晶圆厂自动化"],
+        "companies": ["英伟达", "SK hynix"],
+        "stocks": [
+          {
+            "code": "usNVDA",
+            "name": "英伟达",
+            "reason": "下一代内存共研与供应协同有助于支撑其 Vera Rubin 等 AI 基础设施平台交付"
+          }
+        ]
+      }
+    },
+    {
+      "id": "microsoft-nhs-copilot-healthcare-2026-06",
+      "title": "NHS England 将向 50.5 万名员工部署 Microsoft 365 Copilot",
+      "summary": "NHS England 宣布向 50.5 万名临床和支持人员提供 Microsoft 365 Copilot，以减少行政工作并提升医疗服务效率。协议还包括 Copilot Studio，允许 NHS 组织构建用于研究、数据分析、HR 咨询、投诉处理和财务分析等流程的 AI agents，并由 Agent 365 提供治理。该事件处于医疗行业 AI 应用从试点走向大规模部署阶段，关联应用层和企业平台层。",
+      "sourceUrl": "https://news.microsoft.com/source/2026/06/08/nhs-england-accelerates-ai-adoption-with-microsoft-365-copilot-to-improve-service-delivery-reduce-costs-and-create-more-time-for-care/",
+      "publishedAt": "2026-06-07",
+      "layerIds": [4, 3],
+      "industries": ["医疗信息化", "办公 Copilot", "企业 Agent", "AI 治理"],
+      "beneficiaries": {
+        "industries": ["医疗办公自动化", "行业 Copilot", "Agent 治理平台", "企业协同软件"],
+        "companies": ["Microsoft", "NHS England"],
+        "stocks": [
+          {
+            "code": "usMSFT",
+            "name": "微软",
+            "reason": "Microsoft 365 Copilot、Copilot Studio 与 Agent 365 被纳入大型公共医疗机构部署，验证企业级 AI 应用和治理能力"
+          }
+        ]
+      }
+    },
+    {
+      "id": "pega-infinity-studio-agentic-dev-2026-06",
+      "title": "Pega 发布面向关键业务应用的 AI 开发环境 Infinity Studio",
+      "summary": "Pegasystems 在 PegaWorld 发布 Pega Infinity Studio，这是面向关键业务应用构建的 AI 驱动开发环境，计划随 Pega Infinity 26 于第三季度推出。该产品把 Pega Blueprint AI 工作流设计 agent 嵌入开发体验，并支持 GitHub Copilot、Claude Code、OpenAI Codex 等外部编码 agent，通过 MCP、CLI 工具和 agent skills 帮助构建、评审、测试和更新 Pega 应用。事件对应企业 AI 平台与行业应用落地，重点在低代码/流程平台把 agentic 开发纳入受治理的软件交付链。",
+      "sourceUrl": "https://www.businesswire.com/news/home/20260608265253/en/",
+      "publishedAt": "2026-06-08",
+      "layerIds": [3, 4],
+      "industries": ["企业软件", "低代码平台", "AI 编程", "流程自动化"],
+      "beneficiaries": {
+        "industries": ["企业应用开发平台", "MCP 工具生态", "流程自动化 SaaS", "AI 代码治理"],
+        "companies": ["Pegasystems", "Cognizant", "Tech Mahindra"],
+        "stocks": [
+          {
+            "code": "usPEGA",
+            "name": "Pegasystems",
+            "reason": "Infinity Studio 将 AI agent 与 Pega 工作流平台结合，可能增强其关键业务应用开发与治理场景的产品竞争力"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ares-agent-governance-marketplace-2026-06",
+      "title": "Ares Networks Agent 治理平台上线 Microsoft Marketplace",
+      "summary": "Ares Networks 宣布其 Agent Governance Platform 已在 Microsoft Marketplace 上架，Azure 客户可通过市场发现和部署该平台。公告称平台提供可信 agent 注册、凭证会话、跨组织治理、实时监控和不可篡改审计记录，并与 Microsoft Entra ID、AKS 等 Azure 能力集成。该事件聚焦企业部署 AI agents 后的安全、合规和可审计需求，主要对应平台与工具层。",
+      "sourceUrl": "https://www.prnewswire.com/news-releases/agent-governance-platform-from-ares-networks-now-available-in-the-microsoft-marketplace-302793334.html",
+      "publishedAt": "2026-06-08",
+      "layerIds": [3],
+      "industries": ["AI 安全", "Agent 治理", "云市场", "身份与权限管理"],
+      "beneficiaries": {
+        "industries": ["AI 安全治理", "企业合规软件", "云市场分发", "多 Agent 审计基础设施"],
+        "companies": ["Ares Networks", "Microsoft"],
+        "stocks": [
+          {
+            "code": "usMSFT",
+            "name": "微软",
+            "reason": "第三方 Agent 治理方案进入 Microsoft Marketplace，强化 Azure 面向企业 agent 部署的生态配套"
+          }
+        ]
+      }
+    },
+    {
+      "id": "unisound-u2-agentic-model-2026-06",
+      "title": "云知声发布面向长流程执行的 U2 原生 Agentic 大模型",
+      "summary": "云知声发布新一代通用大模型 U2，定位为面向个人、开发者和组织的原生 agentic 大模型。公司称 U2 更强调连续任务执行，可在办公、软件工程、深度研究和多工具协作等场景中自主拆解并推进 100 步以上复杂工作流，并引入 Hybrid Thinking 与 Agent-Harness 协同训练。该事件对应模型与算法层，也映射到应用层对可交付任务型 agent 的需求。",
+      "sourceUrl": "https://www.prnewswire.com/news-releases/unisound-releases-u2-a-native-agentic-large-model-built-for-execution-capable-of-autonomously-decomposing-and-completing-100-steps-in-complex-real-world-workflows-302793573.html",
+      "publishedAt": "2026-06-08",
+      "layerIds": [2, 4],
+      "industries": ["大模型", "Agent", "AI 编程", "办公自动化"],
+      "beneficiaries": {
+        "industries": ["原生 Agentic 大模型", "模型即服务", "多工具工作流", "智能办公与软件工程自动化"],
+        "companies": ["云知声"],
+        "stocks": [
+          {
+            "code": "hk09678",
+            "name": "云知声",
+            "reason": "U2 是公司面向长流程任务执行的大模型产品，可能提升其 MaaS 与行业智能体业务的关注度"
+          }
+        ]
+      }
+    }
+  ]
+}
