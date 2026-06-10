@@ -1,0 +1,110 @@
+{
+  "date": "2026-06-10",
+  "items": [
+    {
+      "id": "sk-hynix-nvidia-ai-memory-2026-06",
+      "title": "SK hynix 与 NVIDIA 签署 AI Factory 内存多年合作",
+      "summary": "SK hynix 与 NVIDIA 6 月 8 日宣布多年技术合作，围绕全球 AI factory 建设共同推进下一代内存，并让供应节奏匹配 NVIDIA AI 基础设施路线图。公告称 SK hynix 将为 Vera Rubin AI 超算、Vera CPU、RTX Spark PC 与 Jetson Thor 机器人平台共同开发内存，同时使用 CUDA-X、PhysicsNeMo、Omniverse 与 cuOpt 改进半导体仿真和晶圆厂数字孪生。该事件主要落在算力与基础设施层，并延伸到半导体制造工具链和物理 AI 生态。",
+      "sourceUrl": "https://news.skhynix.com/multi-year-tech-partnership-with-nvidia/",
+      "publishedAt": "2026-06-08",
+      "layerIds": [1, 3],
+      "industries": ["HBM", "AI 算力", "半导体制造", "数字孪生"],
+      "beneficiaries": {
+        "industries": ["高带宽内存", "AI 服务器内存", "半导体仿真与工厂数字孪生"],
+        "companies": ["SK hynix", "NVIDIA"],
+        "stocks": [
+          {
+            "code": "usNVDA",
+            "name": "英伟达",
+            "reason": "合作把下一代内存共同开发绑定到 NVIDIA AI factory 路线图，有助于其 AI 基础设施平台交付"
+          },
+          {
+            "code": "usMU",
+            "name": "美光",
+            "reason": "AI factory 对 HBM 与高端 DRAM 的长期需求强化，逻辑上利好先进内存供应链景气"
+          }
+        ]
+      }
+    },
+    {
+      "id": "nvidia-sk-telecom-ai-cloud-2026-06",
+      "title": "SK Telecom 计划用 NVIDIA DSX 建设韩国 GW 级 AI Cloud",
+      "summary": "NVIDIA 与 SK Telecom 6 月 7 日宣布，SK Telecom 计划在韩国建设基于 NVIDIA DSX 平台的 GW 级 AI Cloud，首个 AI factory 计划于 2027 年上线。公告称该 AI Cloud 将服务韩国企业和产业的主权 AI、物理 AI 与 Agentic AI 需求，DSX 提供从芯片、系统、软件到设施运营的 AI factory 参考架构。事件对应算力基础设施层与平台工具层，也体现电信网络向国家级 AI 基础设施延伸。",
+      "sourceUrl": "https://investor.nvidia.com/news/press-release-details/2026/SK-Telecom-and-NVIDIA-Build-AI-Infrastructure-to-Power-Koreas-AI-Innovation/default.aspx",
+      "publishedAt": "2026-06-07",
+      "layerIds": [1, 3],
+      "industries": ["AI 数据中心", "GPU 云", "电信基础设施", "主权 AI"],
+      "beneficiaries": {
+        "industries": ["AI 云服务", "数据中心运营", "GPU 服务器与网络系统", "电信运营商 AI 基础设施"],
+        "companies": ["SK Telecom", "NVIDIA", "SK Group"],
+        "stocks": [
+          {
+            "code": "usNVDA",
+            "name": "英伟达",
+            "reason": "DSX 被用作 GW 级 AI Cloud 的参考架构，扩大其 GPU、网络与 AI factory 软件栈的部署场景"
+          }
+        ]
+      }
+    },
+    {
+      "id": "google-gemini-live-translate-2026-06",
+      "title": "Google 发布 Gemini 3.5 Live Translate 实时语音翻译模型",
+      "summary": "Google 6 月 9 日发布 Gemini 3.5 Live Translate，称其可在 70 多种语言中进行近实时语音到语音翻译，并尽量保留说话者语调、节奏和音高。该模型面向开发者通过 Gemini Live API 和 Google AI Studio 公测，面向企业将在 Google Meet 中私测，并已向 Android 与 iOS 的 Google Translate 用户推出。事件同时对应模型与算法层，以及会议、出行、客服等应用层落地。",
+      "sourceUrl": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-live-3-5-translate/",
+      "publishedAt": "2026-06-09",
+      "layerIds": [2, 4],
+      "industries": ["语音 AI", "实时翻译", "办公协作", "移动应用"],
+      "beneficiaries": {
+        "industries": ["多模态模型 API", "会议协作软件", "跨境出行与本地生活平台"],
+        "companies": ["Google", "Grab", "Google Workspace 生态"],
+        "stocks": [
+          {
+            "code": "usGOOGL",
+            "name": "Alphabet",
+            "reason": "Gemini 语音模型进入 API、Google Meet 和 Translate 等产品，扩大其模型能力到消费与企业应用场景"
+          }
+        ]
+      }
+    },
+    {
+      "id": "google-notebooklm-agentic-research-2026-06",
+      "title": "Google 为 NotebookLM 增加 Agentic 研究与代码执行能力",
+      "summary": "Google 6 月 8 日宣布升级 NotebookLM，引入基于 Gemini 3.5 和 Antigravity 的更强推理能力，并为每个 notebook 配备可运行代码的安全云计算环境。新版本可从松散问题出发协助查找网页来源、生成报告、图表、电子表格和幻灯片等多种产物，面向 Google AI Ultra 和部分 Workspace 商业客户推出。该事件主要对应平台工具层和应用解决方案层，说明知识工作助手正在从问答走向可执行研究工作流。",
+      "sourceUrl": "https://blog.google/innovation-and-ai/products/notebooklm/better-research-notebooklm/",
+      "publishedAt": "2026-06-08",
+      "layerIds": [3, 4],
+      "industries": ["AI 办公", "知识管理", "Agent 工作流", "企业 SaaS"],
+      "beneficiaries": {
+        "industries": ["办公 Copilot", "企业知识库", "研究与数据分析工具"],
+        "companies": ["Google", "Google Workspace"],
+        "stocks": [
+          {
+            "code": "usGOOGL",
+            "name": "Alphabet",
+            "reason": "NotebookLM 把 Gemini、搜索、代码执行和多格式输出整合到知识工作流程，增强 Workspace 与 AI 订阅的应用粘性"
+          }
+        ]
+      }
+    },
+    {
+      "id": "nice-agentic-cx-platform-2026-06",
+      "title": "NiCE 将 Agentic AI 原生嵌入客户体验平台",
+      "summary": "NiCE 6 月 9 日宣布其客户体验平台以 Agentic AI 为核心，支持企业在同一操作模型中运行 AI agents、人类团队、工作流、数据和系统。公告列出 NiCE AI Agents、Agentic Engagement Plane、Guardian AI 和 Agentic Analytics 等能力，用于自主客户问题解决、跨系统编排、治理和持续改进。事件属于应用与解决方案层，并与平台治理、合规和企业级 AI 编排工具相关。",
+      "sourceUrl": "https://www.businesswire.com/news/home/20260609594222/en/NiCE-Announces-the-Future-of-AI-Powered-CX",
+      "publishedAt": "2026-06-09",
+      "layerIds": [4, 3],
+      "industries": ["客户体验 SaaS", "企业 Agent", "AI 治理", "工作流自动化"],
+      "beneficiaries": {
+        "industries": ["客服自动化", "联络中心云平台", "企业级 Agent 编排与治理"],
+        "companies": ["NiCE", "Citi", "Fabletics", "Arizona State University"],
+        "stocks": [
+          {
+            "code": "usNICE",
+            "name": "NiCE",
+            "reason": "Agentic AI 被原生嵌入其 CX 平台，可能提升联络中心客户对自动化、治理和工作流编排能力的需求"
+          }
+        ]
+      }
+    }
+  ]
+}
