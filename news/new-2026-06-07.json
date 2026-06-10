@@ -47,26 +47,6 @@
       }
     },
     {
-      "id": "meta-business-agent-platform-2026-06",
-      "title": "Meta 推出 Business Agent 与企业级 agent 平台",
-      "summary": "Meta 宣布推出 Meta Business Agent，面向 WhatsApp、Messenger 和 Instagram 上的商家提供自动回复、商品推荐、预约、线索筛选和销售闭环等能力。公司同时推出 Meta Business Agent Platform，让大型企业连接 Shopify、Zendesk、Shopee 等系统，并配置企业级控制、护栏和衡量指标。该事件主要对应平台与工具层，以及面向商家运营的应用与解决方案层。",
-      "sourceUrl": "https://about.fb.com/news/2026/06/meta-business-agent/",
-      "publishedAt": "2026-06-03",
-      "layerIds": [3, 4],
-      "industries": ["企业 AI Agent", "社交商务", "客户服务 SaaS"],
-      "beneficiaries": {
-        "industries": ["商业消息平台", "CRM 与客服自动化", "电商运营工具"],
-        "companies": ["Meta", "Shopify", "Zendesk", "Shopee"],
-        "stocks": [
-          {
-            "code": "usMETA",
-            "name": "Meta",
-            "reason": "Business Agent 将其社交和消息入口延伸到企业运营自动化，可能提升商业消息和广告生态黏性"
-          }
-        ]
-      }
-    },
-    {
       "id": "pinterest-aws-ai-discovery-2026-06",
       "title": "Pinterest 与 AWS 签订 40 亿美元 AI 云服务承诺",
       "summary": "Amazon 6 月 4 日披露，Pinterest 计划到 2031 年向 AWS 承诺 40 亿美元云服务支出，这是 Pinterest 史上最大基础设施投入。Pinterest 将使用 AWS Trainium 和 Graviton 训练与运行大语言模型、视觉语言模型，用于个性化视觉搜索、AI 辅助发现和 Pinterest Assistant，同时把部分基础设施迁移到 Amazon EKS。该事件横跨平台与工具层、算力基础设施层和应用层。",
