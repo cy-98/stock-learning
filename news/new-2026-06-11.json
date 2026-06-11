@@ -1,0 +1,115 @@
+{
+  "date": "2026-06-11",
+  "items": [
+    {
+      "id": "diffusiongemma-open-model-2026-06",
+      "title": "Google DeepMind 发布基于扩散生成的开放模型 DiffusionGemma",
+      "summary": "Google DeepMind 6 月 10 日发布实验性开放模型 DiffusionGemma，采用文本扩散方式一次生成并迭代修正整块文本，而不是传统自回归模型逐 token 输出。官方称该 26B MoE 模型在专用 GPU 上可实现最高 4 倍文本生成速度，并已面向 Hugging Face、vLLM、MLX、Unsloth、NVIDIA NeMo 等开发工具开放。该事件主要对应模型与算法层，也延伸到本地推理平台和 GPU 算力生态。",
+      "sourceUrl": "https://deepmind.google/blog/diffusiongemma-4x-faster-text-generation",
+      "publishedAt": "2026-06-10",
+      "layerIds": [2, 3, 1],
+      "industries": ["开放模型", "文本扩散", "本地 AI 推理", "GPU 算力"],
+      "beneficiaries": {
+        "industries": ["开放权重模型生态", "本地低延迟推理", "模型服务框架", "高端 GPU 与工作站"],
+        "companies": ["Google DeepMind", "NVIDIA", "Hugging Face", "Red Hat"],
+        "stocks": [
+          {
+            "code": "usGOOGL",
+            "name": "Alphabet",
+            "reason": "DiffusionGemma 扩展了 Google 开放模型组合，并把高速本地推理作为开发者生态的新切入点"
+          },
+          {
+            "code": "usNVDA",
+            "name": "英伟达",
+            "reason": "官方说明该模型针对 NVIDIA H100、RTX 5090、DGX Spark 等硬件优化，逻辑上强化其本地与企业推理平台适配价值"
+          }
+        ]
+      }
+    },
+    {
+      "id": "apple-intelligence-gemini-foundation-models-2026-06",
+      "title": "Apple Intelligence 新架构引入与 Google Gemini 协作的基础模型",
+      "summary": "Apple 6 月 10 日介绍下一代 Apple Intelligence，称新一代 Apple Foundation Models 与 Google 及 Gemini 模型协作定制，并在设备端和 Private Cloud Compute 服务器上运行。更新覆盖 Siri AI、Safari 标签整理与网页监控、Passwords 自动升级弱密码、Image Playground 写实图像生成、Home 摄像头视频描述等系统级功能，开发者测试已开始，用户版本计划今年秋季随新系统推出。该事件同时对应应用与解决方案层、终端生态层和模型层，重点在端侧与隐私云结合的消费级 AI 落地。",
+      "sourceUrl": "https://www.apple.com/newsroom/2026/06/apple-intelligence-brings-powerful-ai-capabilities-into-everyday-experiences/",
+      "publishedAt": "2026-06-10",
+      "layerIds": [4, 5, 2],
+      "industries": ["端侧 AI", "消费电子", "隐私计算", "智能助手"],
+      "beneficiaries": {
+        "industries": ["智能手机与 PC 生态", "端云协同 AI", "系统级智能助手", "AI 图像与浏览器工具"],
+        "companies": ["Apple", "Google"],
+        "stocks": [
+          {
+            "code": "usAAPL",
+            "name": "苹果",
+            "reason": "Apple Intelligence 被深度嵌入 iPhone、iPad、Mac、Watch 与 Vision Pro 等终端，可能提升设备生态的 AI 功能粘性"
+          },
+          {
+            "code": "usGOOGL",
+            "name": "Alphabet",
+            "reason": "公告披露 Apple Foundation Models 与 Google 及 Gemini 模型协作定制，体现 Gemini 能力进入大型消费终端生态"
+          }
+        ]
+      }
+    },
+    {
+      "id": "adobe-cx-enterprise-coworker-ga-2026-06",
+      "title": "Adobe CX Enterprise Coworker 正式可用，主打营销与客户体验 Agent 工作流",
+      "summary": "Adobe 6 月 10 日宣布 CX Enterprise Coworker 正式可用，定位为面向客户体验编排的成果导向型 agentic AI 方案。该产品可跨 Adobe 与第三方应用协调 analytics、内容创建、旅程编排等工作流，并支持 MCP、A2A 等开放标准以及 AWS、Anthropic、Google Cloud、Microsoft、OpenAI 等外部 AI 平台。事件对应应用与解决方案层，也反映企业 SaaS 厂商把 AI 从单点工具推进到可度量的业务流程编排。",
+      "sourceUrl": "https://news.adobe.com/news/2026/06/adobe-announces-general-availability-of-cx-enterprise-coworker",
+      "publishedAt": "2026-06-10",
+      "layerIds": [4, 3],
+      "industries": ["营销科技", "客户体验 SaaS", "企业 Agent", "MCP"],
+      "beneficiaries": {
+        "industries": ["客户体验编排", "营销自动化", "企业级 Agent 工作流", "内容生成与品牌治理"],
+        "companies": ["Adobe", "Amazon Web Services", "Anthropic", "Google Cloud", "Microsoft", "OpenAI"],
+        "stocks": [
+          {
+            "code": "usADBE",
+            "name": "Adobe",
+            "reason": "CX Enterprise Coworker 可作为 Adobe 既有客户体验产品的独立方案或附加组件，逻辑上有助于提升企业客户的 AI 工作流采用"
+          }
+        ]
+      }
+    },
+    {
+      "id": "boomi-snowflake-cortex-agentstudio-2026-06",
+      "title": "Boomi Agentstudio 接入 Snowflake Cortex Agents 做统一 Agent 治理",
+      "summary": "Boomi 6 月 10 日宣布在 Agentstudio 中支持 Snowflake Cortex Agents，联合客户可在一个厂商中立的控制台中监控、管理和治理 Cortex Agents。公告称该集成将 Snowflake AI Data Cloud 的实时数据管道与 Boomi Agent Control Tower 结合，使分散的聊天式助手转为可治理、可编排的业务流程。该事件主要对应平台与工具层，关注数据云、Agent 治理和企业自动化进入生产阶段后的控制面需求。",
+      "sourceUrl": "https://www.businesswirechina.com/en/news/63172.html",
+      "publishedAt": "2026-06-10",
+      "layerIds": [3, 4],
+      "industries": ["AI Data Cloud", "Agent 治理", "数据集成", "企业自动化"],
+      "beneficiaries": {
+        "industries": ["企业 Agent 控制台", "实时数据管道", "数据云原生应用", "业务流程自动化"],
+        "companies": ["Boomi", "Snowflake"],
+        "stocks": [
+          {
+            "code": "usSNOW",
+            "name": "Snowflake",
+            "reason": "Cortex Agents 获得 Boomi Agentstudio 治理支持，可能增强 Snowflake AI Data Cloud 在企业 agentic workflow 中的数据与控制面地位"
+          }
+        ]
+      }
+    },
+    {
+      "id": "kyndryl-ai-orchestration-business-2026-06",
+      "title": "Kyndryl 推出面向零售与供应链的 AI Orchestration for Business",
+      "summary": "Kyndryl 6 月 10 日发布 Kyndryl AI Orchestration for Business，基于其 Agentic AI Framework，面向零售、消费品、旅行交通等行业协调供应链、商务、财务、IT 和客户运营中的 AI agents。该能力强调云和大模型中立，可与既有企业平台集成，并用 policy-as-code、审计和人工监督支持受控执行。事件对应平台与工具层及行业应用层，体现企业服务商把 Agent 从试点推向跨部门运营编排。",
+      "sourceUrl": "https://www.kyndryl.com/in/en/about-us/news/2026/06/ai-orchestration-for-business-launch",
+      "publishedAt": "2026-06-10",
+      "layerIds": [3, 4],
+      "industries": ["IT 服务", "Agent 编排", "供应链 AI", "行业解决方案"],
+      "beneficiaries": {
+        "industries": ["混合云 AI 服务", "供应链风险管理", "零售与消费品运营自动化", "企业 Agent 治理与审计"],
+        "companies": ["Kyndryl"],
+        "stocks": [
+          {
+            "code": "usKD",
+            "name": "Kyndryl",
+            "reason": "新能力依托 Kyndryl 咨询、托管服务和混合云经验，可能提升其在行业级 agentic transformation 项目中的服务机会"
+          }
+        ]
+      }
+    }
+  ]
+}
