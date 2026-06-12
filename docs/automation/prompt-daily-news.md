@@ -13,10 +13,10 @@
 | 名称 | `stock-learning daily news` |
 | 触发器 | Scheduled · `30 0 * * *`（UTC 0:30，约北京时间 08:30；可与 layer-feed 错开半小时） |
 | 仓库 | `cy-98/stock-learning`，分支 `main` |
-| 工具 | **Open pull request**（必开）；可选 Send to Slack |
+| 工具 | 不启用 **Open pull request**；确保 Automation 对 `main` 有直接 `git push` 权限；可选 Send to Slack |
 | 模型 | 默认云 Agent 即可 |
 
-合并 PR 到 `main` 后，CI 会执行 `npm run build`（含 `sync:news`）并发布 GitHub Pages。
+本 Automation 采用 **direct-to-main** 模式：Agent 必须在本地 `npm run build` 成功后，自己提交并推送到 `main`。推送后 CI 会再次执行 `npm run build`（含 `sync:news`）并发布 GitHub Pages。若仓库开启分支保护，需要允许 Cursor Automation 使用的账号/Token 直接推送到 `main`。
 
 ---
 
@@ -40,7 +40,7 @@
 
 - `news/new-YYYY-MM-DD.json`（主文件，**优先**）
 - `news/new-YYYY-MM-DD-<后缀>.json`（同日条目过多时拆分，如 `-02`、`-us-markets`）
-- 若需修正历史笔误：可改 `news/` 下已有 JSON，须在 PR 说明原因
+- 若需修正历史笔误：可改 `news/` 下已有 JSON，须在提交说明或 Automation 备注中说明原因
 
 ### 禁止修改
 
@@ -51,8 +51,8 @@
 
 ### 输出文件规则
 
-1. **文件名**：`news/new-YYYY-MM-DD.json`，`YYYY-MM-DD` = 运行日（UTC 或 Asia/Shanghai 均可，但 PR 内注明所用时区）。
-2. **同日多文件**：若已有 `new-YYYY-MM-DD.json` 且需追加，可新建 `new-YYYY-MM-DD-02.json` 等；**禁止**覆盖他人当日 PR 未合并内容（先 `git pull`）。
+1. **文件名**：`news/new-YYYY-MM-DD.json`，`YYYY-MM-DD` = 运行日（UTC 或 Asia/Shanghai 均可，但提交说明或 Automation 备注中注明所用时区）。
+2. **同日多文件**：若已有 `new-YYYY-MM-DD.json` 且需追加，可新建 `new-YYYY-MM-DD-02.json` 等；**禁止**覆盖当日已有内容（先 `git pull origin main`）。
 3. **条数**：有可靠来源时每日 **2–6 条**；无可靠要闻则**不创建/不修改** news 文件（见「无新闻日」）。
 4. **全局唯一 `id`**：slug 格式 `英文小写-连字符`，如 `mrdimm-ai-server-2026-06`；合并前检查 `news/` 与 `web/public/data/daily-news.json` 中 `byId` 不重复。
 
@@ -100,7 +100,7 @@
 
 ### 执行步骤
 
-1. `git pull` 后列出 `news/new-*.json`，读取最近 3 日已有 `id` 与 `title`，避免重复。
+1. 确认在 `main` 分支工作；如果运行环境自动创建了临时分支，切回 `main`。执行 `git fetch origin main && git pull origin main` 后列出 `news/new-*.json`，读取最近 3 日已有 `id` 与 `title`，避免重复。
 2. 用 GDELT、交易所公告、公司 IR、路透社/彭博/财新/证券时报等检索 **24–72 小时**要闻；**禁止编造**数据、报价、未发生的政策。
 3. 每条新闻必须能对应至少一个 `layerId`；在 `beneficiaries` 中推演**可能受益**的行业、公司、股票（逻辑链写在 `reason`，避免「推荐买入」措辞）。
 4. 写入或追加 `news/new-YYYY-MM-DD.json`（及必要时 `-02` 等拆分文件）。
@@ -110,13 +110,16 @@
    npm run sync:news
    npm run build
    ```
-6. 创建分支并 **Open pull request**：
-   - 标题：`chore(daily): daily news YYYY-MM-DD`（无新闻见下）
-   - 正文须包含：
-     - 新增条目表：`id` · 标题 · 层 · 原文域名
-     - 数据来源与时区说明
-     - `npm run build` 已通过
-     - 若 `sync:news` 输出条数与预期不符，贴命令行日志
+6. 若 `sync:news` 或 `build` 生成了 `web/public/data/daily-news.json` 等派生文件，验证后用 `git checkout -- web/public/data/daily-news.json` 回滚，最终只提交允许修改的 `news/` JSON。
+7. 直接提交并推送到 `main`，**不要创建 PR**：
+   ```bash
+   git add news/new-YYYY-MM-DD*.json
+   git commit -m "chore(daily): daily news YYYY-MM-DD"
+   git push origin main
+   ```
+   - 提交前确认 `git status --short` 只包含允许修改的 `news/` JSON。
+   - 提交/Automation 备注须包含：新增条目表（`id` · 标题 · 层 · 原文域名）、数据来源与时区说明、`npm run build` 已通过。
+   - 若 `sync:news` 输出条数与预期不符，贴命令行日志。
 
 ### 质量规则
 
@@ -131,8 +134,8 @@
 若检索后**没有**达到质量栏的可靠要闻：
 
 - **不要**创建空的 `news/new-YYYY-MM-DD.json`
-- 仍开 PR，标题：`chore(daily): no daily news YYYY-MM-DD`
-- 正文说明：检索范围、源是否不可用、明日再试
+- 不提交、不推送
+- 在 Automation 备注说明：检索范围、源是否不可用、明日再试
 
 （首页会显示 **no news today**。）
 
@@ -147,7 +150,7 @@
 
 ### 失败时
 
-- `npm run build` 失败：**不要**开 PR，在 Automation 备注贴错误日志
+- `npm run build` 失败：**不要提交、不要推送**，在 Automation 备注贴错误日志
 - JSON 校验失败：检查 `id` 重复、缺 `beneficiaries`、非法 `layerIds`
 - 无法访问外网：走「无新闻日」流程
 
