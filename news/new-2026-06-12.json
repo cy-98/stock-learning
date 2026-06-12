@@ -1,0 +1,101 @@
+{
+  "date": "2026-06-12",
+  "items": [
+    {
+      "id": "meta-reliance-india-ai-dc-2026-06",
+      "title": "Meta 与 Reliance 在印度建设 168MW AI 数据中心",
+      "summary": "TechCrunch 报道，Meta 与 Reliance Industries 达成印度首个 AI 数据中心合作，Meta 将租用 Reliance 在古吉拉特邦 Jamnagar 建设的 168MW AI-enabled 数据中心容量。该设施计划两年内就绪，可使用可再生能源和淡化海水冷却，并支持 Meta 全球 AI 计算需求。事件主要对应算力与基础设施层，也反映印度成为全球 AI 云与数据中心选址的重要增量市场。",
+      "sourceUrl": "https://techcrunch.com/2026/06/10/meta-signs-first-ai-data-center-deal-in-india-with-reliance/",
+      "publishedAt": "2026-06-10",
+      "layerIds": [1, 3],
+      "industries": ["AI 数据中心", "云基础设施", "可再生能源", "主权与本地算力"],
+      "beneficiaries": {
+        "industries": ["高密度数据中心", "GPU 云基础设施", "数据中心电力与冷却", "印度数字基础设施"],
+        "companies": ["Meta", "Reliance Industries", "Jio Platforms", "CleanMax", "Fourth Partner Energy"],
+        "stocks": [
+          {
+            "code": "usMETA",
+            "name": "Meta",
+            "reason": "Meta 通过租用印度本地 AI 数据中心容量扩展全球 AI 基础设施，可能缓解训练与推理算力供给约束"
+          }
+        ]
+      }
+    },
+    {
+      "id": "openai-ona-codex-cloud-agents-2026-06",
+      "title": "OpenAI 拟收购 Ona，扩展 Codex 长时运行云 Agent 能力",
+      "summary": "OpenAI 6 月 11 日宣布拟收购 Ona，将其安全、客户可控的云执行与编排技术纳入 Codex 生态。OpenAI 称 Ona 可让 agents 在组织自己的云环境中持续访问工具、系统和上下文，即使用户设备离线也能推进长时任务。该事件主要对应平台与工具层，并延伸到软件工程和知识工作 Agent 的生产化部署。",
+      "sourceUrl": "https://openai.com/index/openai-to-acquire-ona/",
+      "publishedAt": "2026-06-11",
+      "layerIds": [3, 4],
+      "industries": ["AI 编程", "云开发环境", "Agent 编排", "企业安全"],
+      "beneficiaries": {
+        "industries": ["长时运行 Agent", "云端开发环境", "软件工程自动化", "企业 Agent 治理"],
+        "companies": ["OpenAI", "Ona"],
+        "stocks": []
+      }
+    },
+    {
+      "id": "openai-oracle-oci-models-codex-2026-06",
+      "title": "OpenAI 与 Oracle 让 OCI 客户用云承诺采购模型与 Codex",
+      "summary": "OpenAI 6 月 10 日宣布与 Oracle 合作，未来数周内 OCI 客户可把符合条件的 Oracle Universal Credits 用于 OpenAI frontier models 和 Codex。该安排把模型与编码 Agent 采购纳入既有云承诺和治理流程，降低企业从实验转向生产应用时的采购摩擦。事件对应平台与工具层，也关联企业应用层的 AI 工作流部署。",
+      "sourceUrl": "https://openai.com/index/openai-on-oracle-cloud/",
+      "publishedAt": "2026-06-10",
+      "layerIds": [3, 4],
+      "industries": ["云计算", "模型 API", "AI 编程", "企业采购"],
+      "beneficiaries": {
+        "industries": ["公有云 AI 服务", "模型 API 分发", "企业 AI 采购与治理", "AI 应用开发"],
+        "companies": ["OpenAI", "Oracle"],
+        "stocks": [
+          {
+            "code": "usORCL",
+            "name": "Oracle",
+            "reason": "OpenAI 模型和 Codex 可通过 OCI 既有云承诺访问，可能提升 Oracle Cloud 在企业 AI 工作负载中的平台吸引力"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ivalua-iva-studio-procurement-agent-2026-06",
+      "title": "Ivalua 推出 IVA Studio，把采购流程统一到 Agent 控制塔",
+      "summary": "Ivalua 6 月 11 日发布 IVA Studio，定位为采购 Source-to-Pay 流程的 AI control tower，用于管理 IVA 的技能、权限、工具和 MCP 集成。公司称 IVA 可在同一平台数据和权限边界内执行合同检索、RFx 启动、发票核验、供应风险响应等采购任务，并保留审计日志和 human-in-the-loop 控制。事件主要对应应用与解决方案层，同时体现企业 SaaS 把 Agent 能力嵌入垂直工作流。",
+      "sourceUrl": "https://www.ivalua.com/press-releases/ivalua-launches-iva-studio-redefining-how-procurement-works-with-ai/",
+      "publishedAt": "2026-06-11",
+      "layerIds": [4, 3],
+      "industries": ["采购 SaaS", "企业 Agent", "MCP", "供应链管理"],
+      "beneficiaries": {
+        "industries": ["Source-to-Pay 自动化", "供应商风险管理", "垂直 SaaS Agent", "企业工作流审计"],
+        "companies": ["Ivalua"],
+        "stocks": []
+      }
+    },
+    {
+      "id": "tidb-agent-state-stack-2026-06",
+      "title": "TiDB 发布 Agent State Stack，面向生产级 Agent 记忆与状态",
+      "summary": "TiDB 6 月 11 日在新加坡 SuperAI Summit 发布 Agent State Stack，称其为 AI agents 提供持久记忆、状态和连续上下文的数据基础。该组合包含 TiDB Cloud Zero、mem9 和 drive9，用于存储会话历史、任务记录、工具输出、检索元数据、文件与 Agent 生成内容。事件对应平台与工具层，关注 Agent 从原型走向生产时对可治理状态层和数据库底座的需求。",
+      "sourceUrl": "https://www.prnewswire.com/apac/news-releases/tidb-launches-agent-state-stack-at-superai-summit-singapore-gives-ai-agents-production-grade-memory-302797985.html",
+      "publishedAt": "2026-06-11",
+      "layerIds": [3],
+      "industries": ["数据库", "Agent 记忆", "向量检索", "企业数据基础设施"],
+      "beneficiaries": {
+        "industries": ["分布式 SQL 数据库", "Agent 状态管理", "持久记忆服务", "AI 应用数据层"],
+        "companies": ["TiDB", "PingCAP", "Dify", "Atlassian", "Pinterest"],
+        "stocks": []
+      }
+    },
+    {
+      "id": "cresta-conductor-agent-development-2026-06",
+      "title": "Cresta 发布 Conductor，用自然语言开发和优化客服 AI Agents",
+      "summary": "Cresta 6 月 11 日发布 Conductor，定位为面向 Cresta 平台的 developer-first agentic engine，可用自然语言完成客服 AI agent 的发现、蓝图、构建、测试、部署和上线后优化。公告称 Conductor 会基于真实客户对话、平台洞察、知识库和部署最佳实践生成 prompt logic、subagent 编排、配置与确定性动作所需代码，并接入 Testing Suite 与 Synthetic Customers 做迭代验证。事件属于应用与解决方案层，并与企业 Agent 开发工具和客户体验 SaaS 平台相关。",
+      "sourceUrl": "https://cresta.com/press/cresta-launches-conductor-the-agent-for-ai-agent-development",
+      "publishedAt": "2026-06-11",
+      "layerIds": [4, 3],
+      "industries": ["客户体验 SaaS", "客服自动化", "Agent 开发", "AI 测试"],
+      "beneficiaries": {
+        "industries": ["联络中心 AI", "客服 Agent 开发平台", "合成客户测试", "企业工作流自动化"],
+        "companies": ["Cresta", "United Airlines", "Cox Communications", "Marriott"],
+        "stocks": []
+      }
+    }
+  ]
+}
