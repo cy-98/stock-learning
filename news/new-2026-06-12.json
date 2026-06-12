@@ -1,0 +1,87 @@
+{
+  "date": "2026-06-12",
+  "items": [
+    {
+      "id": "meta-reliance-ai-data-center-2026-06",
+      "title": "Meta 将租用 Reliance 在印度建设的 168MW AI 数据中心",
+      "summary": "Meta 和 Reliance Industries 6 月 10 日宣布在印度古吉拉特邦 Jamnagar 建设 AI-enabled 数据中心，Reliance 将建设首期 168MW 容量并由 Meta 租用，且保留扩容选项。Meta 同时披露与 CleanMax、Fourth Partner Energy 合作支持近 1GW 印度可再生能源项目，用于匹配其基础设施扩张。该事件主要对应算力与基础设施层，体现大型模型与消费 AI 产品继续推动区域数据中心、电力和网络连接投资。",
+      "sourceUrl": "https://about.fb.com/news/2026/06/meta-partners-with-reliance-on-ai-enabled-data-center-in-india/",
+      "publishedAt": "2026-06-10",
+      "layerIds": [1],
+      "industries": ["AI 数据中心", "云基础设施", "可再生能源", "网络连接"],
+      "beneficiaries": {
+        "industries": ["超大规模数据中心建设", "可再生能源配套", "数据中心网络与运营服务"],
+        "companies": ["Meta", "Reliance Industries", "CleanMax", "Fourth Partner Energy"],
+        "stocks": [
+          {
+            "code": "usMETA",
+            "name": "Meta Platforms",
+            "reason": "租用印度首个 built-to-suit AI 数据中心容量，有助于其在当地和全球扩展 AI 产品与推理基础设施"
+          }
+        ]
+      }
+    },
+    {
+      "id": "openai-ona-codex-cloud-agents-2026-06",
+      "title": "OpenAI 拟收购 Ona，为 Codex 增加持久云端执行环境",
+      "summary": "OpenAI 6 月 11 日宣布将收购 Ona，把其安全云端执行与编排技术纳入 Codex 生态，交易仍需完成常规交割条件和监管审批。OpenAI 表示 Ona 可让 agent 在客户控制的云环境中访问工具、系统和上下文，使 Codex 从单次设备会话扩展到可持续数小时或数天的生产工作流。该事件连接模型与算法层、平台与工具层，重点在代码代理从交互式助手走向可治理的长任务执行基础设施。",
+      "sourceUrl": "https://openai.com/index/openai-to-acquire-ona/",
+      "publishedAt": "2026-06-11",
+      "layerIds": [2, 3],
+      "industries": ["AI 编程", "Agent 执行环境", "云开发平台", "企业治理"],
+      "beneficiaries": {
+        "industries": ["AI 编程代理", "安全云沙箱", "开发者工具链", "Agent 编排平台"],
+        "companies": ["OpenAI", "Ona"],
+        "stocks": []
+      }
+    },
+    {
+      "id": "openai-oracle-cloud-commitment-2026-06",
+      "title": "OpenAI 与 Oracle 将支持 OCI 客户用云承诺采购模型和 Codex",
+      "summary": "OpenAI 6 月 10 日宣布与 Oracle 合作，未来数周内 Oracle Cloud Infrastructure 客户可用符合条件的 Oracle Universal Credits 访问 OpenAI frontier models 和 Codex。该安排主要改变企业采购和治理路径，让已有 Oracle 云承诺的团队不必另建采购通道即可引入 OpenAI 模型与编程工具。事件对应模型与算法层、平台与工具层，说明主流云厂商正在把模型 API 和 Agent 工具纳入既有企业云消费体系。",
+      "sourceUrl": "https://openai.com/index/openai-on-oracle-cloud/",
+      "publishedAt": "2026-06-10",
+      "layerIds": [2, 3],
+      "industries": ["模型 API", "企业云", "AI 编程", "云采购"],
+      "beneficiaries": {
+        "industries": ["公有云 AI 服务", "模型分发渠道", "企业 AI 采购与治理", "AI 编程工具"],
+        "companies": ["OpenAI", "Oracle"],
+        "stocks": [
+          {
+            "code": "usORCL",
+            "name": "Oracle",
+            "reason": "OCI 客户可通过既有 Universal Credits 采购 OpenAI 模型和 Codex，逻辑上增强 Oracle 云作为企业 AI 入口的生态黏性"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ivalua-iva-studio-procurement-agent-2026-06",
+      "title": "Ivalua 发布 IVA Studio，面向采购流程推出可治理 S2P Agent",
+      "summary": "Ivalua 6 月 11 日发布 IVA Studio，称其智能虚拟代理 IVA 可在 Source-to-Pay 采购流程中调用平台数据、工具、权限和 MCP 集成来执行任务，并支持技能、记忆和审计日志。公告称 IVA Studio 当前为 Beta，计划夏季正式可用，治理由平台权限边界执行，agent 不能超过调用用户权限。该事件属于应用与解决方案层，并延伸到平台工具层，反映垂直 SaaS 正把 Agent 从单点问答嵌入到可审计业务流程。",
+      "sourceUrl": "https://www.prnewswire.com/news-releases/ivalua-launches-iva-studio-redefining-how-procurement-works-with-ai-302797337.html",
+      "publishedAt": "2026-06-11",
+      "layerIds": [4, 3],
+      "industries": ["采购 SaaS", "企业 Agent", "MCP", "AI 治理"],
+      "beneficiaries": {
+        "industries": ["Source-to-Pay 软件", "采购自动化", "企业 Agent 治理", "MCP 集成服务"],
+        "companies": ["Ivalua"],
+        "stocks": []
+      }
+    },
+    {
+      "id": "tidb-agent-state-stack-2026-06",
+      "title": "TiDB 推出 Agent State Stack，为生产级 Agent 提供持久状态",
+      "summary": "TiDB 6 月 11 日在 SuperAI Summit Singapore 发布 Agent State Stack，将 TiDB Cloud Zero、mem9 和 drive9 组合为 AI agent 的统一数据底座。公告称该方案面向持久记忆、运行状态、文件与执行历史管理，帮助企业把试验性 agent 推向可持续的生产部署，并避免把记忆和状态锁定在单一模型或框架中。该事件主要对应平台与工具层，显示数据库和数据基础设施厂商正在围绕 Agent 长期上下文与可治理状态形成新产品线。",
+      "sourceUrl": "https://www.prnewswire.com/apac/news-releases/tidb-launches-agent-state-stack-at-superai-summit-singapore-gives-ai-agents-production-grade-memory-302797985.html",
+      "publishedAt": "2026-06-11",
+      "layerIds": [3],
+      "industries": ["数据库", "Agent 记忆", "向量检索", "数据基础设施"],
+      "beneficiaries": {
+        "industries": ["分布式数据库", "Agent 状态管理", "企业数据平台", "LLMOps 基础设施"],
+        "companies": ["TiDB", "PingCAP"],
+        "stocks": []
+      }
+    }
+  ]
+}
