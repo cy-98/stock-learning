@@ -1,10 +1,39 @@
 layerId: 5
 slug: ecosystem
-updated: "2026-06-02"
-source: "AI 初稿 · section-3 + layer-feed · 五层语义对齐"
+updated: "2026-06-16"
+source: "AI 初稿 · section-3 + layer-feed + 紫苏叶理论"
 summary: |
   生态层：稀土永磁、智能汽车供应链、消费级机器人等物理世界终端。
   高股息电力等防御配置见首页「组合稳定器」。
+  本层紫苏叶：高性能烧结钕铁硼 — 机器人与电车的「电机心脏材料」。
+
+shisoLeaf:
+  title: 高性能烧结钕铁硼永磁
+  tunaContrast: 特斯拉、宁德时代、人形机器人整机厂 — 人人盯着的「金枪鱼」
+  description: |
+    人形机器人、新能源车驱动电机都依赖高性能钕铁硼永磁体 — 没有它，电机功率密度上不去，具身智能只是空壳。
+    中国掌控稀土冶炼分离 85%+ 产能，但高端烧结磁材的晶粒取向工艺、一致性控制才是瓶颈，全球合格供应商有限。
+    机器人叙事爆发时，磁材往往比整机更早出现供需缺口 — 典型的生态层紫苏叶。
+  scarcity:
+    suppliers: 全球高端烧结钕铁硼 CR5 约 60%，中国龙头占主导
+    leadTime: 新产能建设 2–3 年，高性能牌号认证周期 12–18 个月
+    replaceability: 低 — 稀土永磁尚无同等性能替代材料（铁氧体性能差距大）
+  picks:
+    - code: sh300748
+      name: 金力永磁
+      market: A股
+      tier: primary
+      note: 烧结钕铁硼龙头；特斯拉磁材供应商，机器人/新能源车电机的紫苏叶
+    - code: sh688017
+      name: 绿的谐波
+      market: A股
+      tier: alternate
+      note: 谐波减速器 — 机器人关节的另一片紫苏叶，与磁材共同构成执行器瓶颈
+    - code: sh600111
+      name: 北方稀土
+      market: A股
+      tier: alternate
+      note: 稀土氧化物原料端；冶炼分离配额控制构成供给刚性，磁材上游资源紫苏叶
 
 picks:
   - code: sh600111

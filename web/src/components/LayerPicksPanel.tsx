@@ -3,9 +3,12 @@ import { Link } from 'react-router-dom';
 import type { LayerEvent } from '../config/layers';
 import {
   enrichInsightPicks,
+  enrichShisoLeaf,
   fetchLayerInsights,
   type EnrichedInsightPick,
+  type EnrichedShisoLeaf,
 } from '../services/insights';
+import { ShisoLeafPanel } from './ShisoLeafPanel';
 import { fetchValuations } from '../services/valuation';
 import { RecommendedPickCard } from './RecommendedPickCard';
 
@@ -29,6 +32,7 @@ export function LayerPicksPanel({
   const [source, setSource] = useState<string>('');
   const [updated, setUpdated] = useState<string>('');
   const [picks, setPicks] = useState<EnrichedInsightPick[]>([]);
+  const [shisoLeaf, setShisoLeaf] = useState<EnrichedShisoLeaf | null>(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
 
@@ -50,8 +54,14 @@ export function LayerPicksPanel({
         setSummary(doc.summary.trim());
         setSource(doc.source);
         setUpdated(doc.updated);
-        const enriched = await enrichInsightPicks(doc.picks, events, stocks);
-        if (!cancelled) setPicks(enriched);
+        const [enriched, shiso] = await Promise.all([
+          enrichInsightPicks(doc.picks, events, stocks),
+          enrichShisoLeaf(doc.shisoLeaf),
+        ]);
+        if (!cancelled) {
+          setPicks(enriched);
+          setShisoLeaf(shiso);
+        }
       })
       .catch(() => {
         if (!cancelled) setError('加载荐股分析失败');
@@ -106,6 +116,12 @@ export function LayerPicksPanel({
             </p>
           </div>
         </div>
+      )}
+
+      {shisoLeaf && <ShisoLeafPanel shiso={shisoLeaf} compact={isPreview} />}
+
+      {!isPreview && picks.length > 0 && (
+        <h3 className="text-sm font-semibold text-base-content/70">金枪鱼 · 层内荐股</h3>
       )}
 
       <div className={`grid gap-4 ${isPreview ? '' : 'lg:grid-cols-2'}`}>

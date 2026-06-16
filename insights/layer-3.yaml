@@ -1,10 +1,39 @@
 layerId: 3
 slug: platform
-updated: "2026-06-02"
-source: "AI 初稿 · section-3 + layer-feed · 五层语义对齐"
+updated: "2026-06-16"
+source: "AI 初稿 · section-3 + layer-feed + 紫苏叶理论"
 summary: |
   平台层：公有云、企业软件平台、安全与算力租赁等 AI 基础设施。
   垂直行业 SaaS（如建筑信息化）已迁至 L4。
+  本层紫苏叶：AI 集群高速网络交换 — GPU 再多，东西向流量堵死也白搭。
+
+shisoLeaf:
+  title: AI 数据中心高速交换芯片
+  tunaContrast: 微软 Azure、AWS、阿里云 — 人人盯着的「金枪鱼」
+  description: |
+    万卡 GPU 集群的训练与推理，瓶颈往往不在单卡算力，而在机架间东西向网络带宽。
+    400G/800G 以太网交换芯片决定 AI 集群能否高效扩展；高端交换芯片设计门槛极高，客户认证周期长。
+    云厂商可以自研 AI 芯片，但交换网络仍依赖少数芯片供应商 — 这是平台层的隐形咽喉。
+  scarcity:
+    suppliers: 全球高端交换芯片寡头格局（Broadcom 主导，国产盛科等追赶）
+    leadTime: 芯片流片到数据中心认证 2–3 年
+    replaceability: 低 — 集群规模越大，网络拓扑越依赖特定交换芯片生态
+  picks:
+    - code: sh688702
+      name: 盛科通信
+      market: A股
+      tier: primary
+      note: 国内以太网交换芯片龙头；AI 集群国产化网络的紫苏叶候选，跟踪 400G 产品放量
+    - code: usAVGO
+      name: Broadcom
+      market: 美股
+      tier: alternate
+      note: 全球交换芯片 + 定制 AI ASIC 双寡头；市值大但网络咽喉地位稳固
+    - code: usANET
+      name: Arista Networks
+      market: 美股
+      tier: alternate
+      note: 数据中心高速交换机系统龙头；受益于 AI 集群网络升级，是交换瓶颈的「系统集成紫苏叶」
 
 picks:
   - code: sh600588

@@ -1,11 +1,40 @@
 layerId: 1
 slug: infrastructure
-updated: "2026-05-31"
-source: "AI 初稿 · section-3 + layer-feed · 非实时行情"
+updated: "2026-06-16"
+source: "AI 初稿 · section-3 + layer-feed + 紫苏叶理论"
 summary: |
   算力层分化加剧：AI 算力链高景气，设备与芯片设计是核心跟踪对象。
   短期多数龙头 priced-in；中长期关注国产替代兑现节奏。
   电力等防御型标的见首页「组合稳定器」，不在本层列出。
+  本层紫苏叶聚焦光互连上游：磷化铟衬底与激光器芯片。
+
+shisoLeaf:
+  title: 磷化铟（InP）衬底 · CPO 光链路
+  tunaContrast: 英伟达 GPU、台积电代工、中际旭创光模块 — 人人盯着的「金枪鱼」
+  description: |
+    当 AI 集群规模上万张 GPU，铜缆互连先撞功耗与带宽物理墙，产业走向 800G/1.6T 光模块乃至 CPO（光电共封装）。
+    激光器外延生长离不开磷化铟单晶衬底——没有它，高速光芯片做不出来，整条光互连链路停摆。
+    这是典型的「紫苏叶」：不起眼的小众材料，却是光子时代的咽喉。
+  scarcity:
+    suppliers: 全球有效供应商仅 2–3 家（西方产能高度集中）
+    leadTime: 新产线扩产 3–5 年，短期无法靠资本开支快速释放
+    replaceability: 化合物半导体无硅基替代路径，InP 是 1310/1550nm 激光器刚需
+  picks:
+    - code: usAXTI
+      name: AXT Inc.
+      market: 美股
+      tier: primary
+      note: 西方 InP/GaAs 衬底垂直整合龙头；光子供应链「霍尔木兹海峡」式瓶颈，机构覆盖极低时弹性大
+    - code: sh688498
+      name: 源杰科技
+      market: A股
+      tier: alternate
+      note: 国内高速激光器芯片（DFB/EML）；衬底短缺时上游议价力向器件端传导
+    - code: sh688126
+      name: 沪硅产业
+      market: A股
+      tier: alternate
+      note: 12 英寸大硅片国产替代；占晶圆材料成本 30%+，先进制程扩产的基础紫苏叶
 
 picks:
   - code: sh688981

@@ -1,6 +1,11 @@
 import yaml from 'yaml';
 import type { LayerEvent } from '../config/layers';
-import type { InsightPick, LayerInsightsDocument } from '../types/insights';
+import type {
+  InsightPick,
+  LayerInsightsDocument,
+  ShisoLeafPick,
+  ShisoLeafSection,
+} from '../types/insights';
 import type { ValuationSnapshot } from '../types/valuation';
 import { computeVerdict } from '../utils/computeVerdict';
 import type { ValuationRecord } from '../types/valuation';
@@ -76,6 +81,43 @@ export async function enrichInsightPicks(
       linkedEvents: resolveLinkedEvents(pick.linkedEventTitles, events),
     };
   });
+}
+
+export interface EnrichedShisoPick extends ShisoLeafPick {
+  quote: RankedStock | null;
+}
+
+export interface EnrichedShisoLeaf extends ShisoLeafSection {
+  picks: EnrichedShisoPick[];
+}
+
+export async function enrichShisoLeaf(
+  shiso: ShisoLeafSection | undefined,
+): Promise<EnrichedShisoLeaf | null> {
+  if (!shiso?.picks?.length) return null;
+
+  const cnCodes = shiso.picks
+    .filter((p) => /^(sh|sz|bj)/i.test(p.code))
+    .map((p) => p.code);
+  const globalCodes = shiso.picks
+    .filter((p) => !/^(sh|sz|bj)/i.test(p.code))
+    .map((p) => p.code);
+
+  const [cnQ, globalQ] = await Promise.all([
+    fetchCnQuotes(cnCodes),
+    fetchGlobalQuotes(globalCodes),
+  ]);
+  const byCode = new Map(
+    [...cnQ, ...globalQ].map((q) => [q.code, { ...q, kline: [] as RankedStock['kline'] }]),
+  );
+
+  return {
+    ...shiso,
+    picks: shiso.picks.map((pick) => ({
+      ...pick,
+      quote: byCode.get(pick.code) ?? null,
+    })),
+  };
 }
 
 export function horizonLabel(h: InsightPick['horizon']): string {

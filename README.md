@@ -50,7 +50,7 @@ docker compose exec web npm run sync:feed
 
 ### AI 荐股分析（insights/*.yaml）
 
-各层推荐标的、长短期估值判断、持有周期与预期收益，由 YAML 维护并同步到前端：
+各层推荐标的、**紫苏叶瓶颈标的**、长短期估值判断、持有周期与预期收益，由 YAML 维护并同步到前端：
 
 ```bash
 cd web && npm run sync:insights

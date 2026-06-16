@@ -1,10 +1,39 @@
 layerId: 4
 slug: application
-updated: "2026-06-02"
-source: "AI 初稿 · section-3 + layer-feed · 五层语义对齐"
+updated: "2026-06-16"
+source: "AI 初稿 · section-3 + layer-feed + 紫苏叶理论"
 summary: |
   应用层：办公 Copilot、垂直 SaaS、金融与建筑等行业 AI 落地与 ROI 验证。
   含「应用+自研模型」双主线标的；智能硬件与动力电池龙头见 L5。
+  本层紫苏叶：垂直行业 Workflow 数据入口 — 没有行业数据，Copilot 只是空壳。
+
+shisoLeaf:
+  title: 建筑造价 Workflow 数据入口
+  tunaContrast: 金山办公 Copilot、微软 365 — 人人盯着的「金枪鱼」
+  description: |
+    通用大模型可以写文案，但无法替代建筑行业几十年的造价定额、清单规范与项目历史数据。
+    广联达深耕建筑信息化 20 余年，造价软件嵌入招投标、施工、结算全流程 — 这是 AI 造价助手不可替代的数据与工作流入口。
+    行业 Copilot 的紫苏叶不是模型本身，而是「模型够不到的私有知识库」。
+  scarcity:
+    suppliers: 国内建筑造价软件市占率超 50%，全球同赛道玩家极少
+    leadTime: 行业数据积累需 10 年+，新进入者无法靠融资快速复制
+    replaceability: 极低 — 切换造价平台意味着重建全部项目历史与合规体系
+  picks:
+    - code: sz002410
+      name: 广联达
+      market: A股
+      tier: primary
+      note: 建筑造价 + BIM 数据入口；AI 造价/施工 Copilot 的紫苏叶，跟踪订阅续费与 AI 功能 ARPU
+    - code: sh600570
+      name: 恒生电子
+      market: A股
+      tier: alternate
+      note: 金融机构核心交易系统入口；金融 AI 落地的紫苏叶，合规与切换成本构成壁垒
+    - code: sh688111
+      name: 金山办公
+      market: A股
+      tier: alternate
+      note: 办公文档数据入口；通用 Copilot 金枪鱼，但私有文档库使其兼具紫苏叶属性
 
 picks:
   - code: sh600036

@@ -1,6 +1,6 @@
 {
-  "updated": "2026-06-02",
-  "today": "2026-06-02",
+  "updated": "2026-06-16",
+  "today": "2026-06-16",
   "days": {
     "2026-06-02": {
       "date": "2026-06-02",
@@ -88,6 +88,1739 @@
           }
         }
       ]
+    },
+    "2026-06-03": {
+      "date": "2026-06-03",
+      "sourceFiles": [
+        "news/new-2026-06-03.json"
+      ],
+      "items": [
+        {
+          "id": "nvidia-vera-rubin-production-2026-06",
+          "title": "英伟达 Vera Rubin 平台进入量产并导入 CPO 网络",
+          "summary": "英伟达在 GTC Taipei 宣布 Vera Rubin AI 工厂平台进入全面量产，台湾服务器厂商与全球供应链伙伴正在按规模制造相关系统，量产出货预计从今年秋季开始。该平台把 Vera CPU、Rubin GPU、BlueField-4、Spectrum-X Ethernet Photonics 等组合为面向 Agentic AI 的机架级系统，主要对应算力基础设施层，事件阶段已从发布走向供应链爬坡。",
+          "sourceUrl": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Vera-Rubin-Ramps-Into-Full-Production-to-Power-Agentic-AI-Factories-Worldwide/default.aspx",
+          "publishedAt": "2026-05-31",
+          "layerIds": [
+            1
+          ],
+          "industries": [
+            "AI 算力",
+            "AI 服务器",
+            "CPO 光互连",
+            "数据中心网络"
+          ],
+          "beneficiaries": {
+            "industries": [
+              "AI 加速器",
+              "先进封装",
+              "服务器 ODM",
+              "光互连与数据中心交换"
+            ],
+            "companies": [
+              "英伟达",
+              "台积电",
+              "戴尔科技",
+              "惠普企业",
+              "联想",
+              "Supermicro",
+              "广达"
+            ],
+            "stocks": [
+              {
+                "code": "usNVDA",
+                "name": "英伟达",
+                "reason": "Vera Rubin 是其新一代 AI 工厂平台，量产推进扩大 CPU、GPU 与网络系统的交付基础"
+              },
+              {
+                "code": "usTSM",
+                "name": "台积电",
+                "reason": "先进制程与封装产能是高端 AI 加速器放量的重要制造环节"
+              }
+            ]
+          }
+        },
+        {
+          "id": "nvidia-tsmc-ai-fab-2026-06",
+          "title": "台积电将 NVIDIA AI 引入光刻、制程控制与缺陷检测",
+          "summary": "英伟达宣布台积电正在使用 CUDA-X 库与 AI 模型推进半导体设计制造流程，覆盖计算光刻、晶体管与制程仿真、先进制程控制和晶圆厂排程优化。台积电还使用 NVIDIA Metropolis 与 TAO Toolkit 改进纳米级缺陷检测，体现 AI 算法和加速计算正在进入晶圆制造核心工序，主要对应算力基础设施层与模型算法层。",
+          "sourceUrl": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-and-TSMC-Bring-AI-Into-Fabs-to-Advance-Semiconductor-Design-and-Manufacturing/default.aspx",
+          "publishedAt": "2026-06-01",
+          "layerIds": [
+            1,
+            2
+          ],
+          "industries": [
+            "晶圆代工",
+            "计算光刻",
+            "工业视觉",
+            "半导体制造"
+          ],
+          "beneficiaries": {
+            "industries": [
+              "先进制程制造",
+              "EDA 与计算光刻",
+              "工业机器视觉",
+              "GPU 加速计算"
+            ],
+            "companies": [
+              "台积电",
+              "英伟达"
+            ],
+            "stocks": [
+              {
+                "code": "usTSM",
+                "name": "台积电",
+                "reason": "AI 加速的制程控制、缺陷检测和排程优化有助于提升先进晶圆厂效率与良率"
+              },
+              {
+                "code": "usNVDA",
+                "name": "英伟达",
+                "reason": "CUDA-X、Metropolis 与相关 AI 工具进入晶圆厂流程，扩大其加速计算在半导体制造场景的应用"
+              }
+            ]
+          }
+        },
+        {
+          "id": "gmdc-cambridge-rare-earth-observatory-2026-06",
+          "title": "GMDC 与剑桥大学建设 AI 稀土供应链观测平台",
+          "summary": "Gujarat Mineral Development Corporation 与剑桥大学合作建设印度首个 AI 驱动的稀土供应链观测平台，项目为期两年、投资 60 万英镑。平台计划实时跟踪从矿山到磁材的稀土价值链，包括价格、加工产能、供应中断和地缘风险，事件同时关联稀土永磁终端生态与企业级数据平台能力。",
+          "sourceUrl": "https://economictimes.indiatimes.com/industry/indl-goods/svs/metals-mining/gmdc-to-develop-indias-first-ai-powered-rare-earth-supply-chain-observatory-with-600000-investment/articleshow/131456910.cms",
+          "publishedAt": "2026-06-02",
+          "layerIds": [
+            5,
+            3
+          ],
+          "industries": [
+            "稀土永磁",
+            "关键矿产",
+            "供应链数据平台",
+            "智能汽车供应链"
+          ],
+          "beneficiaries": {
+            "industries": [
+              "稀土供应链情报",
+              "永磁材料",
+              "关键矿产风控",
+              "新能源汽车与机器人上游材料"
+            ],
+            "companies": [
+              "Gujarat Mineral Development Corporation",
+              "University of Cambridge"
+            ]
+          }
+        },
+        {
+          "id": "usa-rare-earth-sc-magnet-2026-06",
+          "title": "USA Rare Earth 选址南卡新建稀土金属与磁材工厂",
+          "summary": "USA Rare Earth 宣布将南卡罗来纳州 Cherokee County 作为新稀土金属与磁材工厂选址，项目预计创造约 490 个制造岗位，并扩充美国本土钕铁硼永磁和精炼稀土金属产能。公告称 Blacksburg 工厂目标产能为每年 6400 吨钕铁硼磁体及 5000 吨带材、金属和合金，预计 2028 年开始调试，相关需求覆盖国防、半导体、AI、能源和先进制造。",
+          "sourceUrl": "https://www.manilatimes.net/2026/06/02/tmt-newswire/globenewswire/usa-rare-earth-selects-cherokee-county-south-carolina-for-new-rare-earth-metal-and-magnet-manufacturing-operation/2356933",
+          "publishedAt": "2026-06-02",
+          "layerIds": [
+            5,
+            1
+          ],
+          "industries": [
+            "稀土永磁",
+            "关键矿产",
+            "AI 硬件供应链",
+            "先进制造"
+          ],
+          "beneficiaries": {
+            "industries": [
+              "钕铁硼永磁",
+              "电机与机器人零部件",
+              "半导体和数据中心关键材料",
+              "本土化关键矿产供应链"
+            ],
+            "companies": [
+              "USA Rare Earth",
+              "Duke Energy",
+              "Cherokee County"
+            ],
+            "stocks": [
+              {
+                "code": "usUSAR",
+                "name": "USA Rare Earth",
+                "reason": "公司公告的新工厂将扩充其美国本土 mine-to-magnet 稀土磁材与精炼金属产能"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "2026-06-04": {
+      "date": "2026-06-04",
+      "sourceFiles": [
+        "news/new-2026-06-04.json"
+      ],
+      "items": [
+        {
+          "id": "sk-hynix-hbm-wafer-expansion-2026-06",
+          "title": "SK hynix 称五年内将晶圆产能翻倍以应对 AI 内存瓶颈",
+          "summary": "Korea JoongAng Daily 报道，SK 集团董事长崔泰源在 Computex 2026 表示，SK hynix 计划在未来五年内将晶圆产能翻倍，并称 AI 驱动的内存短缺可能延续到 2030 年。报道还提到 NVIDIA CEO 黄仁勋在 SK hynix 展台参观 HBM4E 晶圆并写下“Please make more”，显示高带宽内存仍是 AI 数据中心和 AI 工厂扩张的关键瓶颈。该事件主要对应算力与基础设施层中的 HBM、先进封装和服务器内存供给。",
+          "sourceUrl": "https://koreajoongangdaily.joins.com/news/2026-06-03/business/industry/SK-hynix-to-double-wafer-production-within-five-years-chief-says/2607675",
+          "publishedAt": "2026-06-03",
+          "layerIds": [
+            1
+          ],
+          "industries": [
+            "HBM",
+            "DRAM",
+            "AI 算力",
+            "半导体制造"
+          ],
+          "beneficiaries": {
+            "industries": [
+              "高带宽内存",
+              "先进封装",
+              "AI 服务器内存接口",
+              "半导体设备与材料"
+            ],
+            "companies": [
+              "SK hynix",
+              "英伟达",
+              "美光",
+              "澜起科技"
+            ],
+            "stocks": [
+              {
+                "code": "usMU",
+                "name": "美光",
+                "reason": "HBM 与服务器 DRAM 供需紧张对全球高端内存供应商的订单和定价环境具有映射意义"
+              },
+              {
+                "code": "sh688008",
+                "name": "澜起科技",
+                "reason": "AI 服务器内存带宽升级会带动内存接口与相关互连芯片需求，逻辑上与其产品线相关"
+              }
+            ]
+          }
+        },
+        {
+          "id": "nvidia-enterprise-agent-toolkit-2026-06",
+          "title": "NVIDIA 发布企业 Agent Toolkit 与 Nemotron 3 Ultra",
+          "summary": "NVIDIA 在 GTC Taipei 发布 Agent Toolkit、NemoClaw 蓝图、OpenShell 安全运行时和 Nemotron 3 Ultra 开放模型，面向企业长周期自主 Agent 开发与部署。公告称 Cadence、Dassault Systèmes、Siemens、Synopsys 等软件平台正在用相关组件构建仿真、验证和工程流程中的自主 AI 工程师，CrowdStrike 与 Palantir 也在安全和运营决策场景接入 Nemotron 模型。该事件同时覆盖模型与算法层、平台与工具层以及应用落地层。",
+          "sourceUrl": "https://investor.nvidia.com/news/press-release-details/2026/Enterprise-Software-Leaders-Build-AI-Agents-With-NVIDIA/default.aspx",
+          "publishedAt": "2026-06-01",
+          "layerIds": [
+            2,
+            3,
+            4
+          ],
+          "industries": [
+            "AI Agent",
+            "企业软件",
+            "AI 安全",
+            "EDA"
+          ],
+          "beneficiaries": {
+            "industries": [
+              "Agent 开发平台",
+              "企业级模型部署",
+              "AI 安全运行时",
+              "工程仿真与 EDA 软件"
+            ],
+            "companies": [
+              "英伟达",
+              "微软",
+              "Palantir",
+              "CrowdStrike",
+              "Synopsys",
+              "Cadence"
+            ],
+            "stocks": [
+              {
+                "code": "usNVDA",
+                "name": "英伟达",
+                "reason": "Agent Toolkit、Nemotron 与 OpenShell 扩展了其从 GPU 到模型和企业 Agent 软件栈的覆盖范围"
+              },
+              {
+                "code": "usMSFT",
+                "name": "微软",
+                "reason": "公告中的 Windows 安全原语与 OpenShell 协作强化了本地与企业 Agent 运行环境"
+              },
+              {
+                "code": "usPLTR",
+                "name": "Palantir",
+                "reason": "Palantir 将 Nemotron 模型接入 AI FDE 平台，事件与其企业级任务自动化能力相关"
+              }
+            ]
+          }
+        },
+        {
+          "id": "meta-business-agent-platform-2026-06",
+          "title": "Meta 推出面向商家的 Business Agent 与 Agent 平台",
+          "summary": "Meta Newsroom 宣布推出 Meta Business Agent，并把该能力扩展到 WhatsApp、Messenger 和 Instagram 等业务触点，官方称已有超过 100 万家企业使用相关 Agent 回复客户。Meta 同时推出 Business Agent Platform，让企业连接 Shopify、Zendesk、Shopee 等系统，并提供企业级控制、护栏和测量能力。该事件主要体现 AI Agent 从平台能力进入客户服务、电商转化和中小企业运营应用。",
+          "sourceUrl": "https://about.fb.com/news/2026/06/meta-business-agent/",
+          "publishedAt": "2026-06-03",
+          "layerIds": [
+            3,
+            4
+          ],
+          "industries": [
+            "AI 客服",
+            "社交电商",
+            "企业 Agent 平台",
+            "营销自动化"
+          ],
+          "beneficiaries": {
+            "industries": [
+              "客户服务自动化",
+              "对话式电商",
+              "营销 SaaS",
+              "企业 Agent 集成"
+            ],
+            "companies": [
+              "Meta",
+              "Shopify",
+              "Zendesk",
+              "Shopee"
+            ],
+            "stocks": [
+              {
+                "code": "usMETA",
+                "name": "Meta",
+                "reason": "Business Agent 将生成式 AI 嵌入其消息和社交业务场景，可能提升商家工具粘性"
+              },
+              {
+                "code": "usSHOP",
+                "name": "Shopify",
+                "reason": "Meta 平台支持连接 Shopify 等系统，可能扩大对话式电商场景的数据和交易入口"
+              }
+            ]
+          }
+        },
+        {
+          "id": "lovable-google-cloud-gemini-2026-06",
+          "title": "Lovable 扩大与 Google Cloud 合作以规模化 AI 软件开发",
+          "summary": "Google Cloud Press Corner 披露，Lovable 与 Google Cloud 扩大多年合作，将 Gemini 模型、AI 优化基础设施和企业级安全治理能力用于 AI 生成全栈应用的平台扩张。公告称 Lovable 用户每周处理超过 100 万个新项目，Lovable Agent 将进入 Gemini Enterprise Agent Gallery，并通过 Wiz 集成提供 AI 生成代码的漏洞识别与修复。该事件对应平台与工具层中的 Agent 开发基础设施，也连接到应用层的软件工程自动化。",
+          "sourceUrl": "https://www.googlecloudpresscorner.com/2026-06-03-Lovable-Expands-Collaboration-With-Google-Cloud-to-Scale-AI-Powered-Software-Creation",
+          "publishedAt": "2026-06-03",
+          "layerIds": [
+            3,
+            4
+          ],
+          "industries": [
+            "AI 编程",
+            "云计算",
+            "Agent 开发平台",
+            "代码安全"
+          ],
+          "beneficiaries": {
+            "industries": [
+              "AI 原生软件开发",
+              "云端模型服务",
+              "代码安全扫描",
+              "企业开发者平台"
+            ],
+            "companies": [
+              "Google Cloud",
+              "Lovable",
+              "Wiz"
+            ],
+            "stocks": [
+              {
+                "code": "usGOOGL",
+                "name": "Alphabet",
+                "reason": "Gemini 模型和 Google Cloud 基础设施成为 Lovable 扩张的核心技术底座，增强云端 Agent 生态入口"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "2026-06-05": {
+      "date": "2026-06-05",
+      "sourceFiles": [
+        "news/new-2026-06-05.json"
+      ],
+      "items": [
+        {
+          "id": "ciq-fuzzball-multicloud-ai-hpc-2026-06",
+          "title": "CIQ 将 Fuzzball AI/HPC 编排扩展到五大云与本地集群",
+          "summary": "CIQ 宣布 Fuzzball AI 与 HPC 编排平台已支持 CoreWeave、AWS、Google Cloud、Oracle Cloud、Microsoft Azure 以及本地基础设施。企业团队可用同一工作流定义运行训练、推理或 HPC 任务，并由平台按成本、性能和数据位置选择执行环境，事件对应平台与工具层，也反映 AI 算力资源调度从单云走向多云生产化。",
+          "sourceUrl": "https://www.prnewswire.com/news-releases/ciq-expands-fuzzball-to-full-multi-cloud-so-ai-and-hpc-teams-ship-faster-and-spend-less-with-absolute-workflow-reproducibility-and-portability-302791320.html",
+          "publishedAt": "2026-06-04",
+          "layerIds": [
+            3,
+            1
+          ],
+          "industries": [
+            "MLOps",
+            "云计算",
+            "AI 算力调度",
+            "HPC"
+          ],
+          "beneficiaries": {
+            "industries": [
+              "多云 AI 编排",
+              "GPU 云服务",
+              "企业级 MLOps",
+              "混合云基础设施"
+            ],
+            "companies": [
+              "CIQ",
+              "CoreWeave",
+              "Amazon Web Services",
+              "Google Cloud",
+              "Oracle Cloud",
+              "Microsoft Azure"
+            ],
+            "stocks": [
+              {
+                "code": "usMSFT",
+                "name": "微软",
+                "reason": "Azure 被纳入 Fuzzball 多云 AI/HPC 执行环境，企业多云编排需求可能带动云平台 AI 工作负载使用"
+              },
+              {
+                "code": "usAMZN",
+                "name": "亚马逊",
+                "reason": "AWS 作为支持云之一，可能受益于可迁移 AI 训练和推理工作流带来的云资源调度需求"
+              },
+              {
+                "code": "usORCL",
+                "name": "甲骨文",
+                "reason": "OCI 被列入同一控制平面，说明 AI/HPC 工作负载正在扩大对多云 GPU 与数据基础设施的选择范围"
+              }
+            ]
+          }
+        },
+        {
+          "id": "microsoft-copilot-india-it-majors-2026-06",
+          "title": "Infosys、TCS 与 Wipro 的 Microsoft 365 Copilot 部署超过 30 万席",
+          "summary": "微软宣布 Infosys、TCS 和 Wipro 各自将 Microsoft 365 Copilot 许可扩展到超过 10 万名员工，合计承诺超过 30 万席。公告称这些 IT 服务企业已从工具级部署转向在协作、工程、交付和业务流程中嵌入智能体，事件主要对应应用与解决方案层，并关联企业平台的安全、合规和数据上下文能力。",
+          "sourceUrl": "https://news.microsoft.com/source/asia/2026/06/03/infosys-tcs-and-wipro-scale-microsoft-365-copilot-to-over-300000-employees/",
+          "publishedAt": "2026-06-03",
+          "layerIds": [
+            4,
+            3
+          ],
+          "industries": [
+            "办公 Copilot",
+            "企业软件",
+            "IT 服务",
+            "Agent 工作流"
+          ],
+          "beneficiaries": {
+            "industries": [
+              "企业协作软件",
+              "Copilot 集成服务",
+              "AI 咨询与交付",
+              "身份与合规治理"
+            ],
+            "companies": [
+              "微软",
+              "Infosys",
+              "TCS",
+              "Wipro"
+            ],
+            "stocks": [
+              {
+                "code": "usMSFT",
+                "name": "微软",
+                "reason": "Microsoft 365 Copilot 大规模席位扩展验证企业办公 AI 从试点走向生产使用，可能强化其应用与云平台组合"
+              },
+              {
+                "code": "usINFY",
+                "name": "Infosys",
+                "reason": "公司是本次超过 10 万席 Copilot 部署方之一，其 AI 交付经验可能反哺客户项目与内部效率"
+              },
+              {
+                "code": "usWIT",
+                "name": "Wipro",
+                "reason": "公司公告中披露高月活与大量员工自建智能体，说明 IT 服务流程对企业级 Copilot 生态较敏感"
+              }
+            ]
+          }
+        },
+        {
+          "id": "xpeng-physical-ai-vla2-cvpr-2026-06",
+          "title": "小鹏在 CVPR 展示 Physical AI，称 VLA2.0 已进入正式量产",
+          "summary": "小鹏汽车在 CVPR 2026 期间介绍其 Physical AI 技术体系，称自研 VLA2.0 基座模型已进入正式量产，并与世界模型共同支撑自动驾驶、Robotaxi 和人形机器人等应用。公司还表示 IRON 人形机器人正推进至 2026 年底量产目标，事件同时对应模型算法层和终端生态层，体现多模态/世界模型向智能汽车和机器人端部署。",
+          "sourceUrl": "https://www.prnewswire.com/news-releases/xpeng-invited-to-cvpr-for-the-third-time-showcasing-chinas-advances-in-physical-ai-to-the-world-302791744.html",
+          "publishedAt": "2026-06-04",
+          "layerIds": [
+            2,
+            5
+          ],
+          "industries": [
+            "Physical AI",
+            "智能汽车",
+            "Robotaxi",
+            "人形机器人"
+          ],
+          "beneficiaries": {
+            "industries": [
+              "自动驾驶算法",
+              "车端 AI",
+              "机器人整机",
+              "传感器与执行器供应链"
+            ],
+            "companies": [
+              "小鹏汽车",
+              "Tesla",
+              "NVIDIA",
+              "Waymo"
+            ],
+            "stocks": [
+              {
+                "code": "usXPEV",
+                "name": "小鹏汽车",
+                "reason": "VLA2.0 量产与机器人量产计划直接关联其智能汽车、Robotaxi 和 Physical AI 应用路线"
+              },
+              {
+                "code": "usNVDA",
+                "name": "英伟达",
+                "reason": "Physical AI 的训练和部署通常依赖高性能计算与车端算力生态，相关应用扩展可能提升 AI 芯片与软件平台需求"
+              }
+            ]
+          }
+        },
+        {
+          "id": "usa-rare-earth-commerce-funding-2026-06",
+          "title": "USA Rare Earth 与美国商务部签署协议，解锁最高 16 亿美元资金",
+          "summary": "USA Rare Earth 公告称已与美国商务部签署最终协议，可在 CHIPS Program 下获得最高 2.77 亿美元联邦资金和最高 13 亿美元 CHIPS 高级担保贷款额度，拨付取决于项目里程碑。资金将支持从德州 Round Top 重稀土矿到金属、合金和钕铁硼磁体制造的一体化价值链，事件对应终端生态层的稀土永磁供应链，也关联半导体、数据中心和 Physical AI 等基础设施需求。",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1970622/000121390026064453/ea029340201ex99-1.htm",
+          "publishedAt": "2026-06-03",
+          "layerIds": [
+            5,
+            1
+          ],
+          "industries": [
+            "稀土永磁",
+            "关键矿产",
+            "半导体材料",
+            "AI 硬件供应链"
+          ],
+          "beneficiaries": {
+            "industries": [
+              "重稀土开采与分离",
+              "钕铁硼磁体",
+              "半导体关键材料",
+              "机器人与智能车电机供应链"
+            ],
+            "companies": [
+              "USA Rare Earth",
+              "U.S. Department of Commerce",
+              "Less Common Metals"
+            ],
+            "stocks": [
+              {
+                "code": "usUSAR",
+                "name": "USA Rare Earth",
+                "reason": "最终协议为其 mine-to-magnet 稀土和磁材产能建设提供里程碑式资金支持，直接对应公司价值链扩张"
+              },
+              {
+                "code": "sz000970",
+                "name": "中科三环",
+                "reason": "全球稀土磁材本土化建设强化钕铁硼供应链关注度，同类磁材企业对终端需求与供给格局变化逻辑上敏感"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "2026-06-06": {
+      "date": "2026-06-06",
+      "sourceFiles": [
+        "news/new-2026-06-06.json"
+      ],
+      "items": [
+        {
+          "id": "openai-dreaming-memory-2026-06",
+          "title": "OpenAI 开始推出基于 Dreaming 的新版 ChatGPT 记忆系统",
+          "summary": "OpenAI 宣布开始向美国 Plus 和 Pro 用户推出更强、更可扩展的 ChatGPT 记忆合成系统，并将在未来数周扩展到更多国家和 Free、Go 用户。该架构基于 Dreaming 后台记忆合成，重点解决长期使用中的记忆陈旧、正确性和规模化问题，属于模型能力与应用体验结合的更新。公告称近期改进将服务 Free 用户所需计算量降低约 5 倍，使记忆能力具备更广泛的规模化基础。",
+          "sourceUrl": "https://openai.com/index/chatgpt-memory-dreaming/",
+          "publishedAt": "2026-06-04",
+          "layerIds": [
+            2,
+            4
+          ],
+          "industries": [
+            "大模型",
+            "AI 应用",
+            "个性化助手"
+          ],
+          "beneficiaries": {
+            "industries": [
+              "对话式 AI",
+              "个人生产力工具",
+              "企业知识助手"
+            ],
+            "companies": [
+              "OpenAI"
+            ],
+            "stocks": [
+              {
+                "code": "usMSFT",
+                "name": "微软",
+                "reason": "微软与 OpenAI 的产品和云生态绑定较深，ChatGPT 记忆能力提升逻辑上有助于增强 Copilot 类应用的长期个性化体验"
+              }
+            ]
+          }
+        },
+        {
+          "id": "ibm-google-cloud-ai-practice-2026-06",
+          "title": "IBM 与 Google Cloud 建立新实践以推进企业级 AI Agent 落地",
+          "summary": "IBM 和 Google Cloud 宣布推出新的 Google Cloud Practice，结合 IBM Consulting Advantage、行业工作流 Agent 与 Google Cloud 的 Gemini Enterprise Agent Platform、网络安全和数据能力。双方称该实践将由数千名 Google Cloud 认证 IBM 顾问支持客户把 AI 方案推进到生产环境，并覆盖金融、政府、零售、电信、能源、安全、保险和生命科学等行业。该事件主要对应平台与工具层，也延伸到行业应用层的规模化交付。",
+          "sourceUrl": "https://www.prnewswire.com/news-releases/ibm-and-google-cloud-announce-strategic-partnership-to-scale-ai-with-human-expertise-and-aipowered-delivery-302790899.html",
+          "publishedAt": "2026-06-04",
+          "layerIds": [
+            3,
+            4
+          ],
+          "industries": [
+            "云计算",
+            "企业软件",
+            "Agent 平台",
+            "咨询服务"
+          ],
+          "beneficiaries": {
+            "industries": [
+              "企业 AI 平台",
+              "混合云现代化",
+              "行业 Agent",
+              "数据治理"
+            ],
+            "companies": [
+              "IBM",
+              "Google Cloud"
+            ],
+            "stocks": [
+              {
+                "code": "usIBM",
+                "name": "IBM",
+                "reason": "新实践强化 IBM Consulting Advantage 与行业 Agent 交付能力，可能受益于企业 AI 从试点走向生产部署"
+              },
+              {
+                "code": "usGOOGL",
+                "name": "Alphabet",
+                "reason": "Gemini Enterprise Agent Platform、BigQuery 与 Google Cloud 安全数据能力被纳入联合交付体系，扩大云上企业 AI 工作负载入口"
+              }
+            ]
+          }
+        },
+        {
+          "id": "cognizant-physical-ai-spine-2026-06",
+          "title": "Cognizant 推出面向物理 AI 的主权平台即服务",
+          "summary": "Cognizant 发布 Sovereign Physical AI Platform-as-a-Service，基于 Cognizant Intelligence Spine，把工业传感器、IoT、工厂自动化、能源基础设施、机器人和数字孪生接入统一智能织体。公司称该平台面向公用事业、油气、制造、物流、交通、航天防务、医疗生命科学和零售消费品八个垂直领域，目标是把自治系统从实验推进到企业核心基础设施。该事件连接平台与工具层、行业应用层和机器人等终端生态层。",
+          "sourceUrl": "https://www.prnewswire.com/news-releases/cognizant-launches-sovereign-physical-ai-platform-as-a-service-302793025.html",
+          "publishedAt": "2026-06-05",
+          "layerIds": [
+            3,
+            4,
+            5
+          ],
+          "industries": [
+            "Physical AI",
+            "工业 AI",
+            "机器人",
+            "数字孪生"
+          ],
+          "beneficiaries": {
+            "industries": [
+              "工业软件平台",
+              "机器人系统集成",
+              "智能制造",
+              "能源与公用事业 AI"
+            ],
+            "companies": [
+              "Cognizant"
+            ],
+            "stocks": [
+              {
+                "code": "usCTSH",
+                "name": "Cognizant",
+                "reason": "平台将其工程、AI 与行业服务打包为 Physical AI 交付能力，可能受益于制造、物流和能源客户的生产级 AI 项目需求"
+              }
+            ]
+          }
+        },
+        {
+          "id": "usa-rare-earth-chips-funding-2026-06",
+          "title": "USA Rare Earth 与美国商务部敲定最高 16 亿美元 CHIPS 资金安排",
+          "summary": "USA Rare Earth 披露与美国商务部签署最终协议，解锁最高 16 亿美元资金安排，其中包括最高 2.77 亿美元联邦资金和最高 13 亿美元 CHIPS Act 优先担保贷款能力，拨付将与项目里程碑挂钩。公司称资金将支持 Round Top 重稀土与关键矿产、加工分离、金属与合金制造，以及 Stillwater 和 South Carolina 磁材产能扩张。稀土永磁是机器人、电动车、半导体和数据中心等 AI 硬件生态的上游约束之一，事件主要对应终端生态层与算力供应链安全。",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1970622/000121390026064453/ea029340201ex99-1.htm",
+          "publishedAt": "2026-06-03",
+          "layerIds": [
+            5,
+            1
+          ],
+          "industries": [
+            "稀土永磁",
+            "关键矿产",
+            "半导体供应链",
+            "机器人供应链"
+          ],
+          "beneficiaries": {
+            "industries": [
+              "钕铁硼磁材",
+              "稀土分离与冶炼",
+              "智能汽车电机",
+              "机器人执行器"
+            ],
+            "companies": [
+              "USA Rare Earth",
+              "U.S. Department of Commerce"
+            ],
+            "stocks": [
+              {
+                "code": "usUSAR",
+                "name": "USA Rare Earth",
+                "reason": "最终协议为其美国本土 mine-to-magnet 稀土价值链扩产提供里程碑式资金支持"
+              },
+              {
+                "code": "sh600111",
+                "name": "北方稀土",
+                "reason": "海外政策加码凸显稀土永磁供应链战略属性，国内稀土龙头对行业景气与供给安全议题逻辑上敏感"
+              },
+              {
+                "code": "sz000970",
+                "name": "中科三环",
+                "reason": "钕铁硼永磁是机器人、智能汽车和工业电机的重要材料，全球扩产与本土化建设会影响磁材产业链关注度"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "2026-06-07": {
+      "date": "2026-06-07",
+      "sourceFiles": [
+        "news/new-2026-06-07.json"
+      ],
+      "items": [
+        {
+          "id": "tsmc-ai-demand-bottleneck-2026-06",
+          "title": "台积电称 AI 芯片需求仍高于供应链承载能力",
+          "summary": "Reuters 6 月 4 日报道称，台积电董事长兼 CEO 魏哲家在股东会上表示，公司正努力避免成为 AI 芯片全球供应链瓶颈，但客户需求很高、上游供应商也面临约束。报道还提到台积电持续看到消费、企业与主权 AI 应用推动更大算力需求，并在美国亚利桑那扩建产能。该事件主要对应先进制程、先进封装和 AI 加速器供应链的算力基础设施层。",
+          "sourceUrl": "https://srnnews.com/tsmc-boss-upbeat-on-outlook-as-ai-boom-shows-no-sign-of-easing/",
+          "publishedAt": "2026-06-04",
+          "layerIds": [
+            1
+          ],
+          "industries": [
+            "晶圆代工",
+            "AI 算力",
+            "先进封装"
+          ],
+          "beneficiaries": {
+            "industries": [
+              "先进制程制造",
+              "AI 加速器",
+              "半导体设备与材料"
+            ],
+            "companies": [
+              "台积电",
+              "英伟达",
+              "苹果",
+              "ASML"
+            ],
+            "stocks": [
+              {
+                "code": "usTSM",
+                "name": "台积电",
+                "reason": "AI 芯片需求持续高于供给，使先进制程与封装产能利用率和议价能力对业绩更敏感"
+              },
+              {
+                "code": "usNVDA",
+                "name": "英伟达",
+                "reason": "其 AI 加速器交付依赖台积电先进制程和封装扩产，供应链约束缓解有助于平台放量"
+              }
+            ]
+          }
+        },
+        {
+          "id": "foxconn-intel-ai-infrastructure-2026-06",
+          "title": "富士康与英特尔合作开发下一代 AI 基础设施",
+          "summary": "富士康 6 月 4 日宣布与英特尔建立战略合作，联合推进下一代 AI 基础设施和智能计算平台，覆盖硅片、机架、系统和应用层。双方计划探索 Intel Xeon CPU 机架、AI 加速器架构、高速互连、液冷与系统遥测，并把边缘 AI、物理 AI、机器人和智能制造作为目标场景。该合作同时连接算力基础设施层与终端生态层。",
+          "sourceUrl": "https://businessjournaldaily.com/foxconn-announces-collaboration-with-intel-to-advance-ai-platforms/",
+          "publishedAt": "2026-06-04",
+          "layerIds": [
+            1,
+            5
+          ],
+          "industries": [
+            "AI 服务器",
+            "边缘 AI",
+            "机器人供应链",
+            "液冷"
+          ],
+          "beneficiaries": {
+            "industries": [
+              "服务器 ODM",
+              "CPU 与 AI 加速器",
+              "数据中心液冷",
+              "工业机器人平台"
+            ],
+            "companies": [
+              "富士康",
+              "英特尔"
+            ],
+            "stocks": [
+              {
+                "code": "usINTC",
+                "name": "英特尔",
+                "reason": "合作把其 CPU、AI 加速器和软件生态嵌入富士康的机架级系统集成与制造能力"
+              }
+            ]
+          }
+        },
+        {
+          "id": "pinterest-aws-ai-discovery-2026-06",
+          "title": "Pinterest 与 AWS 签订 40 亿美元 AI 云服务承诺",
+          "summary": "Amazon 6 月 4 日披露，Pinterest 计划到 2031 年向 AWS 承诺 40 亿美元云服务支出，这是 Pinterest 史上最大基础设施投入。Pinterest 将使用 AWS Trainium 和 Graviton 训练与运行大语言模型、视觉语言模型，用于个性化视觉搜索、AI 辅助发现和 Pinterest Assistant，同时把部分基础设施迁移到 Amazon EKS。该事件横跨平台与工具层、算力基础设施层和应用层。",
+          "sourceUrl": "https://www.aboutamazon.com/news/aws/pinterest-aws-4-billion-ai-infrastructure-deal",
+          "publishedAt": "2026-06-04",
+          "layerIds": [
+            1,
+            3,
+            4
+          ],
+          "industries": [
+            "云计算",
+            "AI 推理",
+            "视觉搜索",
+            "社交电商"
+          ],
+          "beneficiaries": {
+            "industries": [
+              "云基础设施",
+              "自研 AI 加速器",
+              "视觉语言模型应用",
+              "Kubernetes 平台服务"
+            ],
+            "companies": [
+              "Amazon Web Services",
+              "Pinterest"
+            ],
+            "stocks": [
+              {
+                "code": "usAMZN",
+                "name": "亚马逊",
+                "reason": "AWS 获得长期 AI 工作负载承诺，Trainium、Graviton 和 EKS 的平台价值被大型应用客户验证"
+              },
+              {
+                "code": "usPINS",
+                "name": "Pinterest",
+                "reason": "长期云资源承诺为其视觉搜索、推荐和对话式发现模型训练与推理提供基础设施弹性"
+              }
+            ]
+          }
+        },
+        {
+          "id": "googlecloud-mwm-mobile-ai-squad-2026-06",
+          "title": "Google Cloud 与 MWM 推出移动应用多 agent 团队",
+          "summary": "Google Cloud Press Corner 6 月 4 日发布消息称，MWM 使用 Gemini Enterprise 推出 AI Mobile Squad，由产品经理、设计师和开发者三个专门 agent 顺序协作，把提示词转化为原生 iOS 和 Android 应用。该方案运行在 Google Cloud 的模型、agent 编排和云基础设施上，Cloud Run、Cloud Spanner 和 Cloud Storage 支撑实时编排与构建流程。该事件对应平台与工具层，并体现 AI 在移动应用开发场景的应用层落地。",
+          "sourceUrl": "https://www.googlecloudpresscorner.com/2026-06-04-MWM-AI-Partners-with-Google-Cloud-to-Launch-New-Mobile-Agents-for-App-Creators-and-Entrepreneurs",
+          "publishedAt": "2026-06-04",
+          "layerIds": [
+            3,
+            4
+          ],
+          "industries": [
+            "Agent 平台",
+            "移动应用开发",
+            "云原生"
+          ],
+          "beneficiaries": {
+            "industries": [
+              "AI 应用开发工具",
+              "云端 agent 编排",
+              "移动 SaaS"
+            ],
+            "companies": [
+              "Google Cloud",
+              "MWM"
+            ],
+            "stocks": [
+              {
+                "code": "usGOOGL",
+                "name": "Alphabet",
+                "reason": "Gemini Enterprise、Cloud Run、Spanner 等能力被用于多 agent 应用构建流程，有助于展示 Google Cloud 的平台粘性"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "2026-06-08": {
+      "date": "2026-06-08",
+      "sourceFiles": [
+        "news/new-2026-06-08.json"
+      ],
+      "items": [
+        {
+          "id": "nvidia-ai-supply-capacity-2026-06",
+          "title": "英伟达称下半年 AI 供应链产能已上调至两倍",
+          "summary": "据 Taipei Times 6 月 6 日报道，英伟达 CEO 黄仁勋在结束台湾行程前表示，公司已安排将今年下半年产能提高至两倍，以应对强劲的 AI 计算需求。报道同时提到 Grace Blackwell 已进入商业生产，下一代 Vera Rubin 平台开始量产，且内存等供应链环节仍然紧张。该事件主要对应算力与基础设施层，反映 AI 服务器、先进封装、HBM 与台湾服务器供应链仍处于扩产爬坡阶段。",
+          "sourceUrl": "https://www.taipeitimes.com/News/biz/archives/2026/06/06/2003858596",
+          "publishedAt": "2026-06-06",
+          "layerIds": [
+            1
+          ],
+          "industries": [
+            "AI 算力",
+            "AI 服务器",
+            "HBM",
+            "先进封装"
+          ],
+          "beneficiaries": {
+            "industries": [
+              "GPU 与 AI 加速器",
+              "HBM 与高端内存",
+              "晶圆代工与先进封装",
+              "AI 服务器 ODM"
+            ],
+            "companies": [
+              "英伟达",
+              "台积电",
+              "鸿海精密",
+              "SK 海力士"
+            ],
+            "stocks": [
+              {
+                "code": "usNVDA",
+                "name": "英伟达",
+                "reason": "公司表示已为 AI CPU/GPU 系统扩产做准备，产能爬坡直接对应其数据中心平台交付能力"
+              },
+              {
+                "code": "usTSM",
+                "name": "台积电",
+                "reason": "先进制程与封装产能是英伟达 Grace Blackwell、Vera Rubin 等 AI 平台放量的重要制造环节"
+              }
+            ]
+          }
+        },
+        {
+          "id": "foxconn-intel-ai-rack-2026-06",
+          "title": "鸿海与 Intel 合作开发下一代 AI 机架与边缘智能平台",
+          "summary": "Taipei Times 6 月 5 日援引 Reuters 报道称，鸿海将与 Intel 共同开发和部署下一代 AI 基础设施与智能计算平台，覆盖使用 Intel Xeon 处理器和 AI 加速器的服务器机架。双方还计划推进高速互连、散热设计、能效优化以及面向工厂、智慧城市和机器人的边缘 AI 系统。该合作同时连接算力基础设施层和终端生态层，阶段上仍是战略合作与系统方案定义。",
+          "sourceUrl": "https://www.taipeitimes.com/News/biz/archives/2026/06/05/2003858542",
+          "publishedAt": "2026-06-05",
+          "layerIds": [
+            1,
+            5
+          ],
+          "industries": [
+            "AI 服务器",
+            "边缘 AI",
+            "具身智能",
+            "高速互连"
+          ],
+          "beneficiaries": {
+            "industries": [
+              "AI rack 系统集成",
+              "CPU 推理服务器",
+              "液冷与高速互连",
+              "机器人与智能制造平台"
+            ],
+            "companies": [
+              "鸿海精密",
+              "Intel"
+            ],
+            "stocks": [
+              {
+                "code": "usINTC",
+                "name": "Intel",
+                "reason": "合作方案以 Xeon 处理器、AI 加速器和软件生态为基础，逻辑上有助于其进入更多 AI 推理与边缘计算系统"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "2026-06-09": {
+      "date": "2026-06-09",
+      "sourceFiles": [
+        "news/new-2026-06-09.json"
+      ],
+      "items": [
+        {
+          "id": "nvidia-sk-hynix-memory-ai-factory-2026-06",
+          "title": "英伟达与 SK hynix 建立 AI 工厂内存多年技术合作",
+          "summary": "英伟达和 SK hynix 宣布建立多年技术合作，共同推进面向 AI 工厂的下一代内存，并使先进内存供应与英伟达 AI 基础设施路线图匹配。公告称合作覆盖 Vera Rubin AI 超级计算机、Vera CPU、RTX Spark PC 和 Jetson Thor 机器人计算平台，同时会把 CUDA-X、PhysicsNeMo、Omniverse 与 cuOpt 用于半导体仿真和晶圆厂数字孪生。该事件主要对应算力与基础设施层，也体现 AI 平台工具进入半导体制造流程。",
+          "sourceUrl": "https://nvidianews.nvidia.com/news/sk-hynix-ai-factory",
+          "publishedAt": "2026-06-07",
+          "layerIds": [
+            1,
+            3
+          ],
+          "industries": [
+            "HBM",
+            "AI 算力",
+            "半导体制造",
+            "晶圆厂数字孪生"
+          ],
+          "beneficiaries": {
+            "industries": [
+              "高带宽内存",
+              "AI 加速器",
+              "半导体仿真",
+              "先进晶圆厂自动化"
+            ],
+            "companies": [
+              "英伟达",
+              "SK hynix"
+            ],
+            "stocks": [
+              {
+                "code": "usNVDA",
+                "name": "英伟达",
+                "reason": "下一代内存共研与供应协同有助于支撑其 Vera Rubin 等 AI 基础设施平台交付"
+              }
+            ]
+          }
+        },
+        {
+          "id": "microsoft-nhs-copilot-healthcare-2026-06",
+          "title": "NHS England 将向 50.5 万名员工部署 Microsoft 365 Copilot",
+          "summary": "NHS England 宣布向 50.5 万名临床和支持人员提供 Microsoft 365 Copilot，以减少行政工作并提升医疗服务效率。协议还包括 Copilot Studio，允许 NHS 组织构建用于研究、数据分析、HR 咨询、投诉处理和财务分析等流程的 AI agents，并由 Agent 365 提供治理。该事件处于医疗行业 AI 应用从试点走向大规模部署阶段，关联应用层和企业平台层。",
+          "sourceUrl": "https://news.microsoft.com/source/2026/06/08/nhs-england-accelerates-ai-adoption-with-microsoft-365-copilot-to-improve-service-delivery-reduce-costs-and-create-more-time-for-care/",
+          "publishedAt": "2026-06-07",
+          "layerIds": [
+            4,
+            3
+          ],
+          "industries": [
+            "医疗信息化",
+            "办公 Copilot",
+            "企业 Agent",
+            "AI 治理"
+          ],
+          "beneficiaries": {
+            "industries": [
+              "医疗办公自动化",
+              "行业 Copilot",
+              "Agent 治理平台",
+              "企业协同软件"
+            ],
+            "companies": [
+              "Microsoft",
+              "NHS England"
+            ],
+            "stocks": [
+              {
+                "code": "usMSFT",
+                "name": "微软",
+                "reason": "Microsoft 365 Copilot、Copilot Studio 与 Agent 365 被纳入大型公共医疗机构部署，验证企业级 AI 应用和治理能力"
+              }
+            ]
+          }
+        },
+        {
+          "id": "pega-infinity-studio-agentic-dev-2026-06",
+          "title": "Pega 发布面向关键业务应用的 AI 开发环境 Infinity Studio",
+          "summary": "Pegasystems 在 PegaWorld 发布 Pega Infinity Studio，这是面向关键业务应用构建的 AI 驱动开发环境，计划随 Pega Infinity 26 于第三季度推出。该产品把 Pega Blueprint AI 工作流设计 agent 嵌入开发体验，并支持 GitHub Copilot、Claude Code、OpenAI Codex 等外部编码 agent，通过 MCP、CLI 工具和 agent skills 帮助构建、评审、测试和更新 Pega 应用。事件对应企业 AI 平台与行业应用落地，重点在低代码/流程平台把 agentic 开发纳入受治理的软件交付链。",
+          "sourceUrl": "https://www.businesswire.com/news/home/20260608265253/en/",
+          "publishedAt": "2026-06-08",
+          "layerIds": [
+            3,
+            4
+          ],
+          "industries": [
+            "企业软件",
+            "低代码平台",
+            "AI 编程",
+            "流程自动化"
+          ],
+          "beneficiaries": {
+            "industries": [
+              "企业应用开发平台",
+              "MCP 工具生态",
+              "流程自动化 SaaS",
+              "AI 代码治理"
+            ],
+            "companies": [
+              "Pegasystems",
+              "Cognizant",
+              "Tech Mahindra"
+            ],
+            "stocks": [
+              {
+                "code": "usPEGA",
+                "name": "Pegasystems",
+                "reason": "Infinity Studio 将 AI agent 与 Pega 工作流平台结合，可能增强其关键业务应用开发与治理场景的产品竞争力"
+              }
+            ]
+          }
+        },
+        {
+          "id": "ares-agent-governance-marketplace-2026-06",
+          "title": "Ares Networks Agent 治理平台上线 Microsoft Marketplace",
+          "summary": "Ares Networks 宣布其 Agent Governance Platform 已在 Microsoft Marketplace 上架，Azure 客户可通过市场发现和部署该平台。公告称平台提供可信 agent 注册、凭证会话、跨组织治理、实时监控和不可篡改审计记录，并与 Microsoft Entra ID、AKS 等 Azure 能力集成。该事件聚焦企业部署 AI agents 后的安全、合规和可审计需求，主要对应平台与工具层。",
+          "sourceUrl": "https://www.prnewswire.com/news-releases/agent-governance-platform-from-ares-networks-now-available-in-the-microsoft-marketplace-302793334.html",
+          "publishedAt": "2026-06-08",
+          "layerIds": [
+            3
+          ],
+          "industries": [
+            "AI 安全",
+            "Agent 治理",
+            "云市场",
+            "身份与权限管理"
+          ],
+          "beneficiaries": {
+            "industries": [
+              "AI 安全治理",
+              "企业合规软件",
+              "云市场分发",
+              "多 Agent 审计基础设施"
+            ],
+            "companies": [
+              "Ares Networks",
+              "Microsoft"
+            ],
+            "stocks": [
+              {
+                "code": "usMSFT",
+                "name": "微软",
+                "reason": "第三方 Agent 治理方案进入 Microsoft Marketplace，强化 Azure 面向企业 agent 部署的生态配套"
+              }
+            ]
+          }
+        },
+        {
+          "id": "unisound-u2-agentic-model-2026-06",
+          "title": "云知声发布面向长流程执行的 U2 原生 Agentic 大模型",
+          "summary": "云知声发布新一代通用大模型 U2，定位为面向个人、开发者和组织的原生 agentic 大模型。公司称 U2 更强调连续任务执行，可在办公、软件工程、深度研究和多工具协作等场景中自主拆解并推进 100 步以上复杂工作流，并引入 Hybrid Thinking 与 Agent-Harness 协同训练。该事件对应模型与算法层，也映射到应用层对可交付任务型 agent 的需求。",
+          "sourceUrl": "https://www.prnewswire.com/news-releases/unisound-releases-u2-a-native-agentic-large-model-built-for-execution-capable-of-autonomously-decomposing-and-completing-100-steps-in-complex-real-world-workflows-302793573.html",
+          "publishedAt": "2026-06-08",
+          "layerIds": [
+            2,
+            4
+          ],
+          "industries": [
+            "大模型",
+            "Agent",
+            "AI 编程",
+            "办公自动化"
+          ],
+          "beneficiaries": {
+            "industries": [
+              "原生 Agentic 大模型",
+              "模型即服务",
+              "多工具工作流",
+              "智能办公与软件工程自动化"
+            ],
+            "companies": [
+              "云知声"
+            ],
+            "stocks": [
+              {
+                "code": "hk09678",
+                "name": "云知声",
+                "reason": "U2 是公司面向长流程任务执行的大模型产品，可能提升其 MaaS 与行业智能体业务的关注度"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "2026-06-10": {
+      "date": "2026-06-10",
+      "sourceFiles": [
+        "news/new-2026-06-10.json"
+      ],
+      "items": [
+        {
+          "id": "sk-hynix-nvidia-ai-memory-2026-06",
+          "title": "SK hynix 与 NVIDIA 签署 AI Factory 内存多年合作",
+          "summary": "SK hynix 与 NVIDIA 6 月 8 日宣布多年技术合作，围绕全球 AI factory 建设共同推进下一代内存，并让供应节奏匹配 NVIDIA AI 基础设施路线图。公告称 SK hynix 将为 Vera Rubin AI 超算、Vera CPU、RTX Spark PC 与 Jetson Thor 机器人平台共同开发内存，同时使用 CUDA-X、PhysicsNeMo、Omniverse 与 cuOpt 改进半导体仿真和晶圆厂数字孪生。该事件主要落在算力与基础设施层，并延伸到半导体制造工具链和物理 AI 生态。",
+          "sourceUrl": "https://news.skhynix.com/multi-year-tech-partnership-with-nvidia/",
+          "publishedAt": "2026-06-08",
+          "layerIds": [
+            1,
+            3
+          ],
+          "industries": [
+            "HBM",
+            "AI 算力",
+            "半导体制造",
+            "数字孪生"
+          ],
+          "beneficiaries": {
+            "industries": [
+              "高带宽内存",
+              "AI 服务器内存",
+              "半导体仿真与工厂数字孪生"
+            ],
+            "companies": [
+              "SK hynix",
+              "NVIDIA"
+            ],
+            "stocks": [
+              {
+                "code": "usNVDA",
+                "name": "英伟达",
+                "reason": "合作把下一代内存共同开发绑定到 NVIDIA AI factory 路线图，有助于其 AI 基础设施平台交付"
+              },
+              {
+                "code": "usMU",
+                "name": "美光",
+                "reason": "AI factory 对 HBM 与高端 DRAM 的长期需求强化，逻辑上利好先进内存供应链景气"
+              }
+            ]
+          }
+        },
+        {
+          "id": "nvidia-sk-telecom-ai-cloud-2026-06",
+          "title": "SK Telecom 计划用 NVIDIA DSX 建设韩国 GW 级 AI Cloud",
+          "summary": "NVIDIA 与 SK Telecom 6 月 7 日宣布，SK Telecom 计划在韩国建设基于 NVIDIA DSX 平台的 GW 级 AI Cloud，首个 AI factory 计划于 2027 年上线。公告称该 AI Cloud 将服务韩国企业和产业的主权 AI、物理 AI 与 Agentic AI 需求，DSX 提供从芯片、系统、软件到设施运营的 AI factory 参考架构。事件对应算力基础设施层与平台工具层，也体现电信网络向国家级 AI 基础设施延伸。",
+          "sourceUrl": "https://investor.nvidia.com/news/press-release-details/2026/SK-Telecom-and-NVIDIA-Build-AI-Infrastructure-to-Power-Koreas-AI-Innovation/default.aspx",
+          "publishedAt": "2026-06-07",
+          "layerIds": [
+            1,
+            3
+          ],
+          "industries": [
+            "AI 数据中心",
+            "GPU 云",
+            "电信基础设施",
+            "主权 AI"
+          ],
+          "beneficiaries": {
+            "industries": [
+              "AI 云服务",
+              "数据中心运营",
+              "GPU 服务器与网络系统",
+              "电信运营商 AI 基础设施"
+            ],
+            "companies": [
+              "SK Telecom",
+              "NVIDIA",
+              "SK Group"
+            ],
+            "stocks": [
+              {
+                "code": "usNVDA",
+                "name": "英伟达",
+                "reason": "DSX 被用作 GW 级 AI Cloud 的参考架构，扩大其 GPU、网络与 AI factory 软件栈的部署场景"
+              }
+            ]
+          }
+        },
+        {
+          "id": "google-gemini-live-translate-2026-06",
+          "title": "Google 发布 Gemini 3.5 Live Translate 实时语音翻译模型",
+          "summary": "Google 6 月 9 日发布 Gemini 3.5 Live Translate，称其可在 70 多种语言中进行近实时语音到语音翻译，并尽量保留说话者语调、节奏和音高。该模型面向开发者通过 Gemini Live API 和 Google AI Studio 公测，面向企业将在 Google Meet 中私测，并已向 Android 与 iOS 的 Google Translate 用户推出。事件同时对应模型与算法层，以及会议、出行、客服等应用层落地。",
+          "sourceUrl": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-live-3-5-translate/",
+          "publishedAt": "2026-06-09",
+          "layerIds": [
+            2,
+            4
+          ],
+          "industries": [
+            "语音 AI",
+            "实时翻译",
+            "办公协作",
+            "移动应用"
+          ],
+          "beneficiaries": {
+            "industries": [
+              "多模态模型 API",
+              "会议协作软件",
+              "跨境出行与本地生活平台"
+            ],
+            "companies": [
+              "Google",
+              "Grab",
+              "Google Workspace 生态"
+            ],
+            "stocks": [
+              {
+                "code": "usGOOGL",
+                "name": "Alphabet",
+                "reason": "Gemini 语音模型进入 API、Google Meet 和 Translate 等产品，扩大其模型能力到消费与企业应用场景"
+              }
+            ]
+          }
+        },
+        {
+          "id": "google-notebooklm-agentic-research-2026-06",
+          "title": "Google 为 NotebookLM 增加 Agentic 研究与代码执行能力",
+          "summary": "Google 6 月 8 日宣布升级 NotebookLM，引入基于 Gemini 3.5 和 Antigravity 的更强推理能力，并为每个 notebook 配备可运行代码的安全云计算环境。新版本可从松散问题出发协助查找网页来源、生成报告、图表、电子表格和幻灯片等多种产物，面向 Google AI Ultra 和部分 Workspace 商业客户推出。该事件主要对应平台工具层和应用解决方案层，说明知识工作助手正在从问答走向可执行研究工作流。",
+          "sourceUrl": "https://blog.google/innovation-and-ai/products/notebooklm/better-research-notebooklm/",
+          "publishedAt": "2026-06-08",
+          "layerIds": [
+            3,
+            4
+          ],
+          "industries": [
+            "AI 办公",
+            "知识管理",
+            "Agent 工作流",
+            "企业 SaaS"
+          ],
+          "beneficiaries": {
+            "industries": [
+              "办公 Copilot",
+              "企业知识库",
+              "研究与数据分析工具"
+            ],
+            "companies": [
+              "Google",
+              "Google Workspace"
+            ],
+            "stocks": [
+              {
+                "code": "usGOOGL",
+                "name": "Alphabet",
+                "reason": "NotebookLM 把 Gemini、搜索、代码执行和多格式输出整合到知识工作流程，增强 Workspace 与 AI 订阅的应用粘性"
+              }
+            ]
+          }
+        },
+        {
+          "id": "nice-agentic-cx-platform-2026-06",
+          "title": "NiCE 将 Agentic AI 原生嵌入客户体验平台",
+          "summary": "NiCE 6 月 9 日宣布其客户体验平台以 Agentic AI 为核心，支持企业在同一操作模型中运行 AI agents、人类团队、工作流、数据和系统。公告列出 NiCE AI Agents、Agentic Engagement Plane、Guardian AI 和 Agentic Analytics 等能力，用于自主客户问题解决、跨系统编排、治理和持续改进。事件属于应用与解决方案层，并与平台治理、合规和企业级 AI 编排工具相关。",
+          "sourceUrl": "https://www.businesswire.com/news/home/20260609594222/en/NiCE-Announces-the-Future-of-AI-Powered-CX",
+          "publishedAt": "2026-06-09",
+          "layerIds": [
+            4,
+            3
+          ],
+          "industries": [
+            "客户体验 SaaS",
+            "企业 Agent",
+            "AI 治理",
+            "工作流自动化"
+          ],
+          "beneficiaries": {
+            "industries": [
+              "客服自动化",
+              "联络中心云平台",
+              "企业级 Agent 编排与治理"
+            ],
+            "companies": [
+              "NiCE",
+              "Citi",
+              "Fabletics",
+              "Arizona State University"
+            ],
+            "stocks": [
+              {
+                "code": "usNICE",
+                "name": "NiCE",
+                "reason": "Agentic AI 被原生嵌入其 CX 平台，可能提升联络中心客户对自动化、治理和工作流编排能力的需求"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "2026-06-11": {
+      "date": "2026-06-11",
+      "sourceFiles": [
+        "news/new-2026-06-11.json"
+      ],
+      "items": [
+        {
+          "id": "diffusiongemma-open-model-2026-06",
+          "title": "Google DeepMind 发布基于扩散生成的开放模型 DiffusionGemma",
+          "summary": "Google DeepMind 6 月 10 日发布实验性开放模型 DiffusionGemma，采用文本扩散方式一次生成并迭代修正整块文本，而不是传统自回归模型逐 token 输出。官方称该 26B MoE 模型在专用 GPU 上可实现最高 4 倍文本生成速度，并已面向 Hugging Face、vLLM、MLX、Unsloth、NVIDIA NeMo 等开发工具开放。该事件主要对应模型与算法层，也延伸到本地推理平台和 GPU 算力生态。",
+          "sourceUrl": "https://deepmind.google/blog/diffusiongemma-4x-faster-text-generation",
+          "publishedAt": "2026-06-10",
+          "layerIds": [
+            2,
+            3,
+            1
+          ],
+          "industries": [
+            "开放模型",
+            "文本扩散",
+            "本地 AI 推理",
+            "GPU 算力"
+          ],
+          "beneficiaries": {
+            "industries": [
+              "开放权重模型生态",
+              "本地低延迟推理",
+              "模型服务框架",
+              "高端 GPU 与工作站"
+            ],
+            "companies": [
+              "Google DeepMind",
+              "NVIDIA",
+              "Hugging Face",
+              "Red Hat"
+            ],
+            "stocks": [
+              {
+                "code": "usGOOGL",
+                "name": "Alphabet",
+                "reason": "DiffusionGemma 扩展了 Google 开放模型组合，并把高速本地推理作为开发者生态的新切入点"
+              },
+              {
+                "code": "usNVDA",
+                "name": "英伟达",
+                "reason": "官方说明该模型针对 NVIDIA H100、RTX 5090、DGX Spark 等硬件优化，逻辑上强化其本地与企业推理平台适配价值"
+              }
+            ]
+          }
+        },
+        {
+          "id": "apple-intelligence-gemini-foundation-models-2026-06",
+          "title": "Apple Intelligence 新架构引入与 Google Gemini 协作的基础模型",
+          "summary": "Apple 6 月 10 日介绍下一代 Apple Intelligence，称新一代 Apple Foundation Models 与 Google 及 Gemini 模型协作定制，并在设备端和 Private Cloud Compute 服务器上运行。更新覆盖 Siri AI、Safari 标签整理与网页监控、Passwords 自动升级弱密码、Image Playground 写实图像生成、Home 摄像头视频描述等系统级功能，开发者测试已开始，用户版本计划今年秋季随新系统推出。该事件同时对应应用与解决方案层、终端生态层和模型层，重点在端侧与隐私云结合的消费级 AI 落地。",
+          "sourceUrl": "https://www.apple.com/newsroom/2026/06/apple-intelligence-brings-powerful-ai-capabilities-into-everyday-experiences/",
+          "publishedAt": "2026-06-10",
+          "layerIds": [
+            4,
+            5,
+            2
+          ],
+          "industries": [
+            "端侧 AI",
+            "消费电子",
+            "隐私计算",
+            "智能助手"
+          ],
+          "beneficiaries": {
+            "industries": [
+              "智能手机与 PC 生态",
+              "端云协同 AI",
+              "系统级智能助手",
+              "AI 图像与浏览器工具"
+            ],
+            "companies": [
+              "Apple",
+              "Google"
+            ],
+            "stocks": [
+              {
+                "code": "usAAPL",
+                "name": "苹果",
+                "reason": "Apple Intelligence 被深度嵌入 iPhone、iPad、Mac、Watch 与 Vision Pro 等终端，可能提升设备生态的 AI 功能粘性"
+              },
+              {
+                "code": "usGOOGL",
+                "name": "Alphabet",
+                "reason": "公告披露 Apple Foundation Models 与 Google 及 Gemini 模型协作定制，体现 Gemini 能力进入大型消费终端生态"
+              }
+            ]
+          }
+        },
+        {
+          "id": "adobe-cx-enterprise-coworker-ga-2026-06",
+          "title": "Adobe CX Enterprise Coworker 正式可用，主打营销与客户体验 Agent 工作流",
+          "summary": "Adobe 6 月 10 日宣布 CX Enterprise Coworker 正式可用，定位为面向客户体验编排的成果导向型 agentic AI 方案。该产品可跨 Adobe 与第三方应用协调 analytics、内容创建、旅程编排等工作流，并支持 MCP、A2A 等开放标准以及 AWS、Anthropic、Google Cloud、Microsoft、OpenAI 等外部 AI 平台。事件对应应用与解决方案层，也反映企业 SaaS 厂商把 AI 从单点工具推进到可度量的业务流程编排。",
+          "sourceUrl": "https://news.adobe.com/news/2026/06/adobe-announces-general-availability-of-cx-enterprise-coworker",
+          "publishedAt": "2026-06-10",
+          "layerIds": [
+            4,
+            3
+          ],
+          "industries": [
+            "营销科技",
+            "客户体验 SaaS",
+            "企业 Agent",
+            "MCP"
+          ],
+          "beneficiaries": {
+            "industries": [
+              "客户体验编排",
+              "营销自动化",
+              "企业级 Agent 工作流",
+              "内容生成与品牌治理"
+            ],
+            "companies": [
+              "Adobe",
+              "Amazon Web Services",
+              "Anthropic",
+              "Google Cloud",
+              "Microsoft",
+              "OpenAI"
+            ],
+            "stocks": [
+              {
+                "code": "usADBE",
+                "name": "Adobe",
+                "reason": "CX Enterprise Coworker 可作为 Adobe 既有客户体验产品的独立方案或附加组件，逻辑上有助于提升企业客户的 AI 工作流采用"
+              }
+            ]
+          }
+        },
+        {
+          "id": "boomi-snowflake-cortex-agentstudio-2026-06",
+          "title": "Boomi Agentstudio 接入 Snowflake Cortex Agents 做统一 Agent 治理",
+          "summary": "Boomi 6 月 10 日宣布在 Agentstudio 中支持 Snowflake Cortex Agents，联合客户可在一个厂商中立的控制台中监控、管理和治理 Cortex Agents。公告称该集成将 Snowflake AI Data Cloud 的实时数据管道与 Boomi Agent Control Tower 结合，使分散的聊天式助手转为可治理、可编排的业务流程。该事件主要对应平台与工具层，关注数据云、Agent 治理和企业自动化进入生产阶段后的控制面需求。",
+          "sourceUrl": "https://www.businesswirechina.com/en/news/63172.html",
+          "publishedAt": "2026-06-10",
+          "layerIds": [
+            3,
+            4
+          ],
+          "industries": [
+            "AI Data Cloud",
+            "Agent 治理",
+            "数据集成",
+            "企业自动化"
+          ],
+          "beneficiaries": {
+            "industries": [
+              "企业 Agent 控制台",
+              "实时数据管道",
+              "数据云原生应用",
+              "业务流程自动化"
+            ],
+            "companies": [
+              "Boomi",
+              "Snowflake"
+            ],
+            "stocks": [
+              {
+                "code": "usSNOW",
+                "name": "Snowflake",
+                "reason": "Cortex Agents 获得 Boomi Agentstudio 治理支持，可能增强 Snowflake AI Data Cloud 在企业 agentic workflow 中的数据与控制面地位"
+              }
+            ]
+          }
+        },
+        {
+          "id": "kyndryl-ai-orchestration-business-2026-06",
+          "title": "Kyndryl 推出面向零售与供应链的 AI Orchestration for Business",
+          "summary": "Kyndryl 6 月 10 日发布 Kyndryl AI Orchestration for Business，基于其 Agentic AI Framework，面向零售、消费品、旅行交通等行业协调供应链、商务、财务、IT 和客户运营中的 AI agents。该能力强调云和大模型中立，可与既有企业平台集成，并用 policy-as-code、审计和人工监督支持受控执行。事件对应平台与工具层及行业应用层，体现企业服务商把 Agent 从试点推向跨部门运营编排。",
+          "sourceUrl": "https://www.kyndryl.com/in/en/about-us/news/2026/06/ai-orchestration-for-business-launch",
+          "publishedAt": "2026-06-10",
+          "layerIds": [
+            3,
+            4
+          ],
+          "industries": [
+            "IT 服务",
+            "Agent 编排",
+            "供应链 AI",
+            "行业解决方案"
+          ],
+          "beneficiaries": {
+            "industries": [
+              "混合云 AI 服务",
+              "供应链风险管理",
+              "零售与消费品运营自动化",
+              "企业 Agent 治理与审计"
+            ],
+            "companies": [
+              "Kyndryl"
+            ],
+            "stocks": [
+              {
+                "code": "usKD",
+                "name": "Kyndryl",
+                "reason": "新能力依托 Kyndryl 咨询、托管服务和混合云经验，可能提升其在行业级 agentic transformation 项目中的服务机会"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "2026-06-12": {
+      "date": "2026-06-12",
+      "sourceFiles": [
+        "news/new-2026-06-12.json"
+      ],
+      "items": [
+        {
+          "id": "meta-reliance-india-ai-dc-2026-06",
+          "title": "Meta 与 Reliance 在印度建设 168MW AI 数据中心",
+          "summary": "TechCrunch 报道，Meta 与 Reliance Industries 达成印度首个 AI 数据中心合作，Meta 将租用 Reliance 在古吉拉特邦 Jamnagar 建设的 168MW AI-enabled 数据中心容量。该设施计划两年内就绪，可使用可再生能源和淡化海水冷却，并支持 Meta 全球 AI 计算需求。事件主要对应算力与基础设施层，也反映印度成为全球 AI 云与数据中心选址的重要增量市场。",
+          "sourceUrl": "https://techcrunch.com/2026/06/10/meta-signs-first-ai-data-center-deal-in-india-with-reliance/",
+          "publishedAt": "2026-06-10",
+          "layerIds": [
+            1,
+            3
+          ],
+          "industries": [
+            "AI 数据中心",
+            "云基础设施",
+            "可再生能源",
+            "主权与本地算力"
+          ],
+          "beneficiaries": {
+            "industries": [
+              "高密度数据中心",
+              "GPU 云基础设施",
+              "数据中心电力与冷却",
+              "印度数字基础设施"
+            ],
+            "companies": [
+              "Meta",
+              "Reliance Industries",
+              "Jio Platforms",
+              "CleanMax",
+              "Fourth Partner Energy"
+            ],
+            "stocks": [
+              {
+                "code": "usMETA",
+                "name": "Meta",
+                "reason": "Meta 通过租用印度本地 AI 数据中心容量扩展全球 AI 基础设施，可能缓解训练与推理算力供给约束"
+              }
+            ]
+          }
+        },
+        {
+          "id": "openai-ona-codex-cloud-agents-2026-06",
+          "title": "OpenAI 拟收购 Ona，扩展 Codex 长时运行云 Agent 能力",
+          "summary": "OpenAI 6 月 11 日宣布拟收购 Ona，将其安全、客户可控的云执行与编排技术纳入 Codex 生态。OpenAI 称 Ona 可让 agents 在组织自己的云环境中持续访问工具、系统和上下文，即使用户设备离线也能推进长时任务。该事件主要对应平台与工具层，并延伸到软件工程和知识工作 Agent 的生产化部署。",
+          "sourceUrl": "https://openai.com/index/openai-to-acquire-ona/",
+          "publishedAt": "2026-06-11",
+          "layerIds": [
+            3,
+            4
+          ],
+          "industries": [
+            "AI 编程",
+            "云开发环境",
+            "Agent 编排",
+            "企业安全"
+          ],
+          "beneficiaries": {
+            "industries": [
+              "长时运行 Agent",
+              "云端开发环境",
+              "软件工程自动化",
+              "企业 Agent 治理"
+            ],
+            "companies": [
+              "OpenAI",
+              "Ona"
+            ],
+            "stocks": []
+          }
+        },
+        {
+          "id": "openai-oracle-oci-models-codex-2026-06",
+          "title": "OpenAI 与 Oracle 让 OCI 客户用云承诺采购模型与 Codex",
+          "summary": "OpenAI 6 月 10 日宣布与 Oracle 合作，未来数周内 OCI 客户可把符合条件的 Oracle Universal Credits 用于 OpenAI frontier models 和 Codex。该安排把模型与编码 Agent 采购纳入既有云承诺和治理流程，降低企业从实验转向生产应用时的采购摩擦。事件对应平台与工具层，也关联企业应用层的 AI 工作流部署。",
+          "sourceUrl": "https://openai.com/index/openai-on-oracle-cloud/",
+          "publishedAt": "2026-06-10",
+          "layerIds": [
+            3,
+            4
+          ],
+          "industries": [
+            "云计算",
+            "模型 API",
+            "AI 编程",
+            "企业采购"
+          ],
+          "beneficiaries": {
+            "industries": [
+              "公有云 AI 服务",
+              "模型 API 分发",
+              "企业 AI 采购与治理",
+              "AI 应用开发"
+            ],
+            "companies": [
+              "OpenAI",
+              "Oracle"
+            ],
+            "stocks": [
+              {
+                "code": "usORCL",
+                "name": "Oracle",
+                "reason": "OpenAI 模型和 Codex 可通过 OCI 既有云承诺访问，可能提升 Oracle Cloud 在企业 AI 工作负载中的平台吸引力"
+              }
+            ]
+          }
+        },
+        {
+          "id": "ivalua-iva-studio-procurement-agent-2026-06",
+          "title": "Ivalua 推出 IVA Studio，把采购流程统一到 Agent 控制塔",
+          "summary": "Ivalua 6 月 11 日发布 IVA Studio，定位为采购 Source-to-Pay 流程的 AI control tower，用于管理 IVA 的技能、权限、工具和 MCP 集成。公司称 IVA 可在同一平台数据和权限边界内执行合同检索、RFx 启动、发票核验、供应风险响应等采购任务，并保留审计日志和 human-in-the-loop 控制。事件主要对应应用与解决方案层，同时体现企业 SaaS 把 Agent 能力嵌入垂直工作流。",
+          "sourceUrl": "https://www.ivalua.com/press-releases/ivalua-launches-iva-studio-redefining-how-procurement-works-with-ai/",
+          "publishedAt": "2026-06-11",
+          "layerIds": [
+            4,
+            3
+          ],
+          "industries": [
+            "采购 SaaS",
+            "企业 Agent",
+            "MCP",
+            "供应链管理"
+          ],
+          "beneficiaries": {
+            "industries": [
+              "Source-to-Pay 自动化",
+              "供应商风险管理",
+              "垂直 SaaS Agent",
+              "企业工作流审计"
+            ],
+            "companies": [
+              "Ivalua"
+            ],
+            "stocks": []
+          }
+        },
+        {
+          "id": "tidb-agent-state-stack-2026-06",
+          "title": "TiDB 发布 Agent State Stack，面向生产级 Agent 记忆与状态",
+          "summary": "TiDB 6 月 11 日在新加坡 SuperAI Summit 发布 Agent State Stack，称其为 AI agents 提供持久记忆、状态和连续上下文的数据基础。该组合包含 TiDB Cloud Zero、mem9 和 drive9，用于存储会话历史、任务记录、工具输出、检索元数据、文件与 Agent 生成内容。事件对应平台与工具层，关注 Agent 从原型走向生产时对可治理状态层和数据库底座的需求。",
+          "sourceUrl": "https://www.prnewswire.com/apac/news-releases/tidb-launches-agent-state-stack-at-superai-summit-singapore-gives-ai-agents-production-grade-memory-302797985.html",
+          "publishedAt": "2026-06-11",
+          "layerIds": [
+            3
+          ],
+          "industries": [
+            "数据库",
+            "Agent 记忆",
+            "向量检索",
+            "企业数据基础设施"
+          ],
+          "beneficiaries": {
+            "industries": [
+              "分布式 SQL 数据库",
+              "Agent 状态管理",
+              "持久记忆服务",
+              "AI 应用数据层"
+            ],
+            "companies": [
+              "TiDB",
+              "PingCAP",
+              "Dify",
+              "Atlassian",
+              "Pinterest"
+            ],
+            "stocks": []
+          }
+        },
+        {
+          "id": "cresta-conductor-agent-development-2026-06",
+          "title": "Cresta 发布 Conductor，用自然语言开发和优化客服 AI Agents",
+          "summary": "Cresta 6 月 11 日发布 Conductor，定位为面向 Cresta 平台的 developer-first agentic engine，可用自然语言完成客服 AI agent 的发现、蓝图、构建、测试、部署和上线后优化。公告称 Conductor 会基于真实客户对话、平台洞察、知识库和部署最佳实践生成 prompt logic、subagent 编排、配置与确定性动作所需代码，并接入 Testing Suite 与 Synthetic Customers 做迭代验证。事件属于应用与解决方案层，并与企业 Agent 开发工具和客户体验 SaaS 平台相关。",
+          "sourceUrl": "https://cresta.com/press/cresta-launches-conductor-the-agent-for-ai-agent-development",
+          "publishedAt": "2026-06-11",
+          "layerIds": [
+            4,
+            3
+          ],
+          "industries": [
+            "客户体验 SaaS",
+            "客服自动化",
+            "Agent 开发",
+            "AI 测试"
+          ],
+          "beneficiaries": {
+            "industries": [
+              "联络中心 AI",
+              "客服 Agent 开发平台",
+              "合成客户测试",
+              "企业工作流自动化"
+            ],
+            "companies": [
+              "Cresta",
+              "United Airlines",
+              "Cox Communications",
+              "Marriott"
+            ],
+            "stocks": []
+          }
+        }
+      ]
     }
   },
   "byId": {
@@ -171,6 +1904,1702 @@
         ]
       },
       "date": "2026-06-02"
+    },
+    "nvidia-vera-rubin-production-2026-06": {
+      "id": "nvidia-vera-rubin-production-2026-06",
+      "title": "英伟达 Vera Rubin 平台进入量产并导入 CPO 网络",
+      "summary": "英伟达在 GTC Taipei 宣布 Vera Rubin AI 工厂平台进入全面量产，台湾服务器厂商与全球供应链伙伴正在按规模制造相关系统，量产出货预计从今年秋季开始。该平台把 Vera CPU、Rubin GPU、BlueField-4、Spectrum-X Ethernet Photonics 等组合为面向 Agentic AI 的机架级系统，主要对应算力基础设施层，事件阶段已从发布走向供应链爬坡。",
+      "sourceUrl": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Vera-Rubin-Ramps-Into-Full-Production-to-Power-Agentic-AI-Factories-Worldwide/default.aspx",
+      "publishedAt": "2026-05-31",
+      "layerIds": [
+        1
+      ],
+      "industries": [
+        "AI 算力",
+        "AI 服务器",
+        "CPO 光互连",
+        "数据中心网络"
+      ],
+      "beneficiaries": {
+        "industries": [
+          "AI 加速器",
+          "先进封装",
+          "服务器 ODM",
+          "光互连与数据中心交换"
+        ],
+        "companies": [
+          "英伟达",
+          "台积电",
+          "戴尔科技",
+          "惠普企业",
+          "联想",
+          "Supermicro",
+          "广达"
+        ],
+        "stocks": [
+          {
+            "code": "usNVDA",
+            "name": "英伟达",
+            "reason": "Vera Rubin 是其新一代 AI 工厂平台，量产推进扩大 CPU、GPU 与网络系统的交付基础"
+          },
+          {
+            "code": "usTSM",
+            "name": "台积电",
+            "reason": "先进制程与封装产能是高端 AI 加速器放量的重要制造环节"
+          }
+        ]
+      },
+      "date": "2026-06-03"
+    },
+    "nvidia-tsmc-ai-fab-2026-06": {
+      "id": "nvidia-tsmc-ai-fab-2026-06",
+      "title": "台积电将 NVIDIA AI 引入光刻、制程控制与缺陷检测",
+      "summary": "英伟达宣布台积电正在使用 CUDA-X 库与 AI 模型推进半导体设计制造流程，覆盖计算光刻、晶体管与制程仿真、先进制程控制和晶圆厂排程优化。台积电还使用 NVIDIA Metropolis 与 TAO Toolkit 改进纳米级缺陷检测，体现 AI 算法和加速计算正在进入晶圆制造核心工序，主要对应算力基础设施层与模型算法层。",
+      "sourceUrl": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-and-TSMC-Bring-AI-Into-Fabs-to-Advance-Semiconductor-Design-and-Manufacturing/default.aspx",
+      "publishedAt": "2026-06-01",
+      "layerIds": [
+        1,
+        2
+      ],
+      "industries": [
+        "晶圆代工",
+        "计算光刻",
+        "工业视觉",
+        "半导体制造"
+      ],
+      "beneficiaries": {
+        "industries": [
+          "先进制程制造",
+          "EDA 与计算光刻",
+          "工业机器视觉",
+          "GPU 加速计算"
+        ],
+        "companies": [
+          "台积电",
+          "英伟达"
+        ],
+        "stocks": [
+          {
+            "code": "usTSM",
+            "name": "台积电",
+            "reason": "AI 加速的制程控制、缺陷检测和排程优化有助于提升先进晶圆厂效率与良率"
+          },
+          {
+            "code": "usNVDA",
+            "name": "英伟达",
+            "reason": "CUDA-X、Metropolis 与相关 AI 工具进入晶圆厂流程，扩大其加速计算在半导体制造场景的应用"
+          }
+        ]
+      },
+      "date": "2026-06-03"
+    },
+    "gmdc-cambridge-rare-earth-observatory-2026-06": {
+      "id": "gmdc-cambridge-rare-earth-observatory-2026-06",
+      "title": "GMDC 与剑桥大学建设 AI 稀土供应链观测平台",
+      "summary": "Gujarat Mineral Development Corporation 与剑桥大学合作建设印度首个 AI 驱动的稀土供应链观测平台，项目为期两年、投资 60 万英镑。平台计划实时跟踪从矿山到磁材的稀土价值链，包括价格、加工产能、供应中断和地缘风险，事件同时关联稀土永磁终端生态与企业级数据平台能力。",
+      "sourceUrl": "https://economictimes.indiatimes.com/industry/indl-goods/svs/metals-mining/gmdc-to-develop-indias-first-ai-powered-rare-earth-supply-chain-observatory-with-600000-investment/articleshow/131456910.cms",
+      "publishedAt": "2026-06-02",
+      "layerIds": [
+        5,
+        3
+      ],
+      "industries": [
+        "稀土永磁",
+        "关键矿产",
+        "供应链数据平台",
+        "智能汽车供应链"
+      ],
+      "beneficiaries": {
+        "industries": [
+          "稀土供应链情报",
+          "永磁材料",
+          "关键矿产风控",
+          "新能源汽车与机器人上游材料"
+        ],
+        "companies": [
+          "Gujarat Mineral Development Corporation",
+          "University of Cambridge"
+        ]
+      },
+      "date": "2026-06-03"
+    },
+    "usa-rare-earth-sc-magnet-2026-06": {
+      "id": "usa-rare-earth-sc-magnet-2026-06",
+      "title": "USA Rare Earth 选址南卡新建稀土金属与磁材工厂",
+      "summary": "USA Rare Earth 宣布将南卡罗来纳州 Cherokee County 作为新稀土金属与磁材工厂选址，项目预计创造约 490 个制造岗位，并扩充美国本土钕铁硼永磁和精炼稀土金属产能。公告称 Blacksburg 工厂目标产能为每年 6400 吨钕铁硼磁体及 5000 吨带材、金属和合金，预计 2028 年开始调试，相关需求覆盖国防、半导体、AI、能源和先进制造。",
+      "sourceUrl": "https://www.manilatimes.net/2026/06/02/tmt-newswire/globenewswire/usa-rare-earth-selects-cherokee-county-south-carolina-for-new-rare-earth-metal-and-magnet-manufacturing-operation/2356933",
+      "publishedAt": "2026-06-02",
+      "layerIds": [
+        5,
+        1
+      ],
+      "industries": [
+        "稀土永磁",
+        "关键矿产",
+        "AI 硬件供应链",
+        "先进制造"
+      ],
+      "beneficiaries": {
+        "industries": [
+          "钕铁硼永磁",
+          "电机与机器人零部件",
+          "半导体和数据中心关键材料",
+          "本土化关键矿产供应链"
+        ],
+        "companies": [
+          "USA Rare Earth",
+          "Duke Energy",
+          "Cherokee County"
+        ],
+        "stocks": [
+          {
+            "code": "usUSAR",
+            "name": "USA Rare Earth",
+            "reason": "公司公告的新工厂将扩充其美国本土 mine-to-magnet 稀土磁材与精炼金属产能"
+          }
+        ]
+      },
+      "date": "2026-06-03"
+    },
+    "sk-hynix-hbm-wafer-expansion-2026-06": {
+      "id": "sk-hynix-hbm-wafer-expansion-2026-06",
+      "title": "SK hynix 称五年内将晶圆产能翻倍以应对 AI 内存瓶颈",
+      "summary": "Korea JoongAng Daily 报道，SK 集团董事长崔泰源在 Computex 2026 表示，SK hynix 计划在未来五年内将晶圆产能翻倍，并称 AI 驱动的内存短缺可能延续到 2030 年。报道还提到 NVIDIA CEO 黄仁勋在 SK hynix 展台参观 HBM4E 晶圆并写下“Please make more”，显示高带宽内存仍是 AI 数据中心和 AI 工厂扩张的关键瓶颈。该事件主要对应算力与基础设施层中的 HBM、先进封装和服务器内存供给。",
+      "sourceUrl": "https://koreajoongangdaily.joins.com/news/2026-06-03/business/industry/SK-hynix-to-double-wafer-production-within-five-years-chief-says/2607675",
+      "publishedAt": "2026-06-03",
+      "layerIds": [
+        1
+      ],
+      "industries": [
+        "HBM",
+        "DRAM",
+        "AI 算力",
+        "半导体制造"
+      ],
+      "beneficiaries": {
+        "industries": [
+          "高带宽内存",
+          "先进封装",
+          "AI 服务器内存接口",
+          "半导体设备与材料"
+        ],
+        "companies": [
+          "SK hynix",
+          "英伟达",
+          "美光",
+          "澜起科技"
+        ],
+        "stocks": [
+          {
+            "code": "usMU",
+            "name": "美光",
+            "reason": "HBM 与服务器 DRAM 供需紧张对全球高端内存供应商的订单和定价环境具有映射意义"
+          },
+          {
+            "code": "sh688008",
+            "name": "澜起科技",
+            "reason": "AI 服务器内存带宽升级会带动内存接口与相关互连芯片需求，逻辑上与其产品线相关"
+          }
+        ]
+      },
+      "date": "2026-06-04"
+    },
+    "nvidia-enterprise-agent-toolkit-2026-06": {
+      "id": "nvidia-enterprise-agent-toolkit-2026-06",
+      "title": "NVIDIA 发布企业 Agent Toolkit 与 Nemotron 3 Ultra",
+      "summary": "NVIDIA 在 GTC Taipei 发布 Agent Toolkit、NemoClaw 蓝图、OpenShell 安全运行时和 Nemotron 3 Ultra 开放模型，面向企业长周期自主 Agent 开发与部署。公告称 Cadence、Dassault Systèmes、Siemens、Synopsys 等软件平台正在用相关组件构建仿真、验证和工程流程中的自主 AI 工程师，CrowdStrike 与 Palantir 也在安全和运营决策场景接入 Nemotron 模型。该事件同时覆盖模型与算法层、平台与工具层以及应用落地层。",
+      "sourceUrl": "https://investor.nvidia.com/news/press-release-details/2026/Enterprise-Software-Leaders-Build-AI-Agents-With-NVIDIA/default.aspx",
+      "publishedAt": "2026-06-01",
+      "layerIds": [
+        2,
+        3,
+        4
+      ],
+      "industries": [
+        "AI Agent",
+        "企业软件",
+        "AI 安全",
+        "EDA"
+      ],
+      "beneficiaries": {
+        "industries": [
+          "Agent 开发平台",
+          "企业级模型部署",
+          "AI 安全运行时",
+          "工程仿真与 EDA 软件"
+        ],
+        "companies": [
+          "英伟达",
+          "微软",
+          "Palantir",
+          "CrowdStrike",
+          "Synopsys",
+          "Cadence"
+        ],
+        "stocks": [
+          {
+            "code": "usNVDA",
+            "name": "英伟达",
+            "reason": "Agent Toolkit、Nemotron 与 OpenShell 扩展了其从 GPU 到模型和企业 Agent 软件栈的覆盖范围"
+          },
+          {
+            "code": "usMSFT",
+            "name": "微软",
+            "reason": "公告中的 Windows 安全原语与 OpenShell 协作强化了本地与企业 Agent 运行环境"
+          },
+          {
+            "code": "usPLTR",
+            "name": "Palantir",
+            "reason": "Palantir 将 Nemotron 模型接入 AI FDE 平台，事件与其企业级任务自动化能力相关"
+          }
+        ]
+      },
+      "date": "2026-06-04"
+    },
+    "meta-business-agent-platform-2026-06": {
+      "id": "meta-business-agent-platform-2026-06",
+      "title": "Meta 推出面向商家的 Business Agent 与 Agent 平台",
+      "summary": "Meta Newsroom 宣布推出 Meta Business Agent，并把该能力扩展到 WhatsApp、Messenger 和 Instagram 等业务触点，官方称已有超过 100 万家企业使用相关 Agent 回复客户。Meta 同时推出 Business Agent Platform，让企业连接 Shopify、Zendesk、Shopee 等系统，并提供企业级控制、护栏和测量能力。该事件主要体现 AI Agent 从平台能力进入客户服务、电商转化和中小企业运营应用。",
+      "sourceUrl": "https://about.fb.com/news/2026/06/meta-business-agent/",
+      "publishedAt": "2026-06-03",
+      "layerIds": [
+        3,
+        4
+      ],
+      "industries": [
+        "AI 客服",
+        "社交电商",
+        "企业 Agent 平台",
+        "营销自动化"
+      ],
+      "beneficiaries": {
+        "industries": [
+          "客户服务自动化",
+          "对话式电商",
+          "营销 SaaS",
+          "企业 Agent 集成"
+        ],
+        "companies": [
+          "Meta",
+          "Shopify",
+          "Zendesk",
+          "Shopee"
+        ],
+        "stocks": [
+          {
+            "code": "usMETA",
+            "name": "Meta",
+            "reason": "Business Agent 将生成式 AI 嵌入其消息和社交业务场景，可能提升商家工具粘性"
+          },
+          {
+            "code": "usSHOP",
+            "name": "Shopify",
+            "reason": "Meta 平台支持连接 Shopify 等系统，可能扩大对话式电商场景的数据和交易入口"
+          }
+        ]
+      },
+      "date": "2026-06-04"
+    },
+    "lovable-google-cloud-gemini-2026-06": {
+      "id": "lovable-google-cloud-gemini-2026-06",
+      "title": "Lovable 扩大与 Google Cloud 合作以规模化 AI 软件开发",
+      "summary": "Google Cloud Press Corner 披露，Lovable 与 Google Cloud 扩大多年合作，将 Gemini 模型、AI 优化基础设施和企业级安全治理能力用于 AI 生成全栈应用的平台扩张。公告称 Lovable 用户每周处理超过 100 万个新项目，Lovable Agent 将进入 Gemini Enterprise Agent Gallery，并通过 Wiz 集成提供 AI 生成代码的漏洞识别与修复。该事件对应平台与工具层中的 Agent 开发基础设施，也连接到应用层的软件工程自动化。",
+      "sourceUrl": "https://www.googlecloudpresscorner.com/2026-06-03-Lovable-Expands-Collaboration-With-Google-Cloud-to-Scale-AI-Powered-Software-Creation",
+      "publishedAt": "2026-06-03",
+      "layerIds": [
+        3,
+        4
+      ],
+      "industries": [
+        "AI 编程",
+        "云计算",
+        "Agent 开发平台",
+        "代码安全"
+      ],
+      "beneficiaries": {
+        "industries": [
+          "AI 原生软件开发",
+          "云端模型服务",
+          "代码安全扫描",
+          "企业开发者平台"
+        ],
+        "companies": [
+          "Google Cloud",
+          "Lovable",
+          "Wiz"
+        ],
+        "stocks": [
+          {
+            "code": "usGOOGL",
+            "name": "Alphabet",
+            "reason": "Gemini 模型和 Google Cloud 基础设施成为 Lovable 扩张的核心技术底座，增强云端 Agent 生态入口"
+          }
+        ]
+      },
+      "date": "2026-06-04"
+    },
+    "ciq-fuzzball-multicloud-ai-hpc-2026-06": {
+      "id": "ciq-fuzzball-multicloud-ai-hpc-2026-06",
+      "title": "CIQ 将 Fuzzball AI/HPC 编排扩展到五大云与本地集群",
+      "summary": "CIQ 宣布 Fuzzball AI 与 HPC 编排平台已支持 CoreWeave、AWS、Google Cloud、Oracle Cloud、Microsoft Azure 以及本地基础设施。企业团队可用同一工作流定义运行训练、推理或 HPC 任务，并由平台按成本、性能和数据位置选择执行环境，事件对应平台与工具层，也反映 AI 算力资源调度从单云走向多云生产化。",
+      "sourceUrl": "https://www.prnewswire.com/news-releases/ciq-expands-fuzzball-to-full-multi-cloud-so-ai-and-hpc-teams-ship-faster-and-spend-less-with-absolute-workflow-reproducibility-and-portability-302791320.html",
+      "publishedAt": "2026-06-04",
+      "layerIds": [
+        3,
+        1
+      ],
+      "industries": [
+        "MLOps",
+        "云计算",
+        "AI 算力调度",
+        "HPC"
+      ],
+      "beneficiaries": {
+        "industries": [
+          "多云 AI 编排",
+          "GPU 云服务",
+          "企业级 MLOps",
+          "混合云基础设施"
+        ],
+        "companies": [
+          "CIQ",
+          "CoreWeave",
+          "Amazon Web Services",
+          "Google Cloud",
+          "Oracle Cloud",
+          "Microsoft Azure"
+        ],
+        "stocks": [
+          {
+            "code": "usMSFT",
+            "name": "微软",
+            "reason": "Azure 被纳入 Fuzzball 多云 AI/HPC 执行环境，企业多云编排需求可能带动云平台 AI 工作负载使用"
+          },
+          {
+            "code": "usAMZN",
+            "name": "亚马逊",
+            "reason": "AWS 作为支持云之一，可能受益于可迁移 AI 训练和推理工作流带来的云资源调度需求"
+          },
+          {
+            "code": "usORCL",
+            "name": "甲骨文",
+            "reason": "OCI 被列入同一控制平面，说明 AI/HPC 工作负载正在扩大对多云 GPU 与数据基础设施的选择范围"
+          }
+        ]
+      },
+      "date": "2026-06-05"
+    },
+    "microsoft-copilot-india-it-majors-2026-06": {
+      "id": "microsoft-copilot-india-it-majors-2026-06",
+      "title": "Infosys、TCS 与 Wipro 的 Microsoft 365 Copilot 部署超过 30 万席",
+      "summary": "微软宣布 Infosys、TCS 和 Wipro 各自将 Microsoft 365 Copilot 许可扩展到超过 10 万名员工，合计承诺超过 30 万席。公告称这些 IT 服务企业已从工具级部署转向在协作、工程、交付和业务流程中嵌入智能体，事件主要对应应用与解决方案层，并关联企业平台的安全、合规和数据上下文能力。",
+      "sourceUrl": "https://news.microsoft.com/source/asia/2026/06/03/infosys-tcs-and-wipro-scale-microsoft-365-copilot-to-over-300000-employees/",
+      "publishedAt": "2026-06-03",
+      "layerIds": [
+        4,
+        3
+      ],
+      "industries": [
+        "办公 Copilot",
+        "企业软件",
+        "IT 服务",
+        "Agent 工作流"
+      ],
+      "beneficiaries": {
+        "industries": [
+          "企业协作软件",
+          "Copilot 集成服务",
+          "AI 咨询与交付",
+          "身份与合规治理"
+        ],
+        "companies": [
+          "微软",
+          "Infosys",
+          "TCS",
+          "Wipro"
+        ],
+        "stocks": [
+          {
+            "code": "usMSFT",
+            "name": "微软",
+            "reason": "Microsoft 365 Copilot 大规模席位扩展验证企业办公 AI 从试点走向生产使用，可能强化其应用与云平台组合"
+          },
+          {
+            "code": "usINFY",
+            "name": "Infosys",
+            "reason": "公司是本次超过 10 万席 Copilot 部署方之一，其 AI 交付经验可能反哺客户项目与内部效率"
+          },
+          {
+            "code": "usWIT",
+            "name": "Wipro",
+            "reason": "公司公告中披露高月活与大量员工自建智能体，说明 IT 服务流程对企业级 Copilot 生态较敏感"
+          }
+        ]
+      },
+      "date": "2026-06-05"
+    },
+    "xpeng-physical-ai-vla2-cvpr-2026-06": {
+      "id": "xpeng-physical-ai-vla2-cvpr-2026-06",
+      "title": "小鹏在 CVPR 展示 Physical AI，称 VLA2.0 已进入正式量产",
+      "summary": "小鹏汽车在 CVPR 2026 期间介绍其 Physical AI 技术体系，称自研 VLA2.0 基座模型已进入正式量产，并与世界模型共同支撑自动驾驶、Robotaxi 和人形机器人等应用。公司还表示 IRON 人形机器人正推进至 2026 年底量产目标，事件同时对应模型算法层和终端生态层，体现多模态/世界模型向智能汽车和机器人端部署。",
+      "sourceUrl": "https://www.prnewswire.com/news-releases/xpeng-invited-to-cvpr-for-the-third-time-showcasing-chinas-advances-in-physical-ai-to-the-world-302791744.html",
+      "publishedAt": "2026-06-04",
+      "layerIds": [
+        2,
+        5
+      ],
+      "industries": [
+        "Physical AI",
+        "智能汽车",
+        "Robotaxi",
+        "人形机器人"
+      ],
+      "beneficiaries": {
+        "industries": [
+          "自动驾驶算法",
+          "车端 AI",
+          "机器人整机",
+          "传感器与执行器供应链"
+        ],
+        "companies": [
+          "小鹏汽车",
+          "Tesla",
+          "NVIDIA",
+          "Waymo"
+        ],
+        "stocks": [
+          {
+            "code": "usXPEV",
+            "name": "小鹏汽车",
+            "reason": "VLA2.0 量产与机器人量产计划直接关联其智能汽车、Robotaxi 和 Physical AI 应用路线"
+          },
+          {
+            "code": "usNVDA",
+            "name": "英伟达",
+            "reason": "Physical AI 的训练和部署通常依赖高性能计算与车端算力生态，相关应用扩展可能提升 AI 芯片与软件平台需求"
+          }
+        ]
+      },
+      "date": "2026-06-05"
+    },
+    "usa-rare-earth-commerce-funding-2026-06": {
+      "id": "usa-rare-earth-commerce-funding-2026-06",
+      "title": "USA Rare Earth 与美国商务部签署协议，解锁最高 16 亿美元资金",
+      "summary": "USA Rare Earth 公告称已与美国商务部签署最终协议，可在 CHIPS Program 下获得最高 2.77 亿美元联邦资金和最高 13 亿美元 CHIPS 高级担保贷款额度，拨付取决于项目里程碑。资金将支持从德州 Round Top 重稀土矿到金属、合金和钕铁硼磁体制造的一体化价值链，事件对应终端生态层的稀土永磁供应链，也关联半导体、数据中心和 Physical AI 等基础设施需求。",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1970622/000121390026064453/ea029340201ex99-1.htm",
+      "publishedAt": "2026-06-03",
+      "layerIds": [
+        5,
+        1
+      ],
+      "industries": [
+        "稀土永磁",
+        "关键矿产",
+        "半导体材料",
+        "AI 硬件供应链"
+      ],
+      "beneficiaries": {
+        "industries": [
+          "重稀土开采与分离",
+          "钕铁硼磁体",
+          "半导体关键材料",
+          "机器人与智能车电机供应链"
+        ],
+        "companies": [
+          "USA Rare Earth",
+          "U.S. Department of Commerce",
+          "Less Common Metals"
+        ],
+        "stocks": [
+          {
+            "code": "usUSAR",
+            "name": "USA Rare Earth",
+            "reason": "最终协议为其 mine-to-magnet 稀土和磁材产能建设提供里程碑式资金支持，直接对应公司价值链扩张"
+          },
+          {
+            "code": "sz000970",
+            "name": "中科三环",
+            "reason": "全球稀土磁材本土化建设强化钕铁硼供应链关注度，同类磁材企业对终端需求与供给格局变化逻辑上敏感"
+          }
+        ]
+      },
+      "date": "2026-06-05"
+    },
+    "openai-dreaming-memory-2026-06": {
+      "id": "openai-dreaming-memory-2026-06",
+      "title": "OpenAI 开始推出基于 Dreaming 的新版 ChatGPT 记忆系统",
+      "summary": "OpenAI 宣布开始向美国 Plus 和 Pro 用户推出更强、更可扩展的 ChatGPT 记忆合成系统，并将在未来数周扩展到更多国家和 Free、Go 用户。该架构基于 Dreaming 后台记忆合成，重点解决长期使用中的记忆陈旧、正确性和规模化问题，属于模型能力与应用体验结合的更新。公告称近期改进将服务 Free 用户所需计算量降低约 5 倍，使记忆能力具备更广泛的规模化基础。",
+      "sourceUrl": "https://openai.com/index/chatgpt-memory-dreaming/",
+      "publishedAt": "2026-06-04",
+      "layerIds": [
+        2,
+        4
+      ],
+      "industries": [
+        "大模型",
+        "AI 应用",
+        "个性化助手"
+      ],
+      "beneficiaries": {
+        "industries": [
+          "对话式 AI",
+          "个人生产力工具",
+          "企业知识助手"
+        ],
+        "companies": [
+          "OpenAI"
+        ],
+        "stocks": [
+          {
+            "code": "usMSFT",
+            "name": "微软",
+            "reason": "微软与 OpenAI 的产品和云生态绑定较深，ChatGPT 记忆能力提升逻辑上有助于增强 Copilot 类应用的长期个性化体验"
+          }
+        ]
+      },
+      "date": "2026-06-06"
+    },
+    "ibm-google-cloud-ai-practice-2026-06": {
+      "id": "ibm-google-cloud-ai-practice-2026-06",
+      "title": "IBM 与 Google Cloud 建立新实践以推进企业级 AI Agent 落地",
+      "summary": "IBM 和 Google Cloud 宣布推出新的 Google Cloud Practice，结合 IBM Consulting Advantage、行业工作流 Agent 与 Google Cloud 的 Gemini Enterprise Agent Platform、网络安全和数据能力。双方称该实践将由数千名 Google Cloud 认证 IBM 顾问支持客户把 AI 方案推进到生产环境，并覆盖金融、政府、零售、电信、能源、安全、保险和生命科学等行业。该事件主要对应平台与工具层，也延伸到行业应用层的规模化交付。",
+      "sourceUrl": "https://www.prnewswire.com/news-releases/ibm-and-google-cloud-announce-strategic-partnership-to-scale-ai-with-human-expertise-and-aipowered-delivery-302790899.html",
+      "publishedAt": "2026-06-04",
+      "layerIds": [
+        3,
+        4
+      ],
+      "industries": [
+        "云计算",
+        "企业软件",
+        "Agent 平台",
+        "咨询服务"
+      ],
+      "beneficiaries": {
+        "industries": [
+          "企业 AI 平台",
+          "混合云现代化",
+          "行业 Agent",
+          "数据治理"
+        ],
+        "companies": [
+          "IBM",
+          "Google Cloud"
+        ],
+        "stocks": [
+          {
+            "code": "usIBM",
+            "name": "IBM",
+            "reason": "新实践强化 IBM Consulting Advantage 与行业 Agent 交付能力，可能受益于企业 AI 从试点走向生产部署"
+          },
+          {
+            "code": "usGOOGL",
+            "name": "Alphabet",
+            "reason": "Gemini Enterprise Agent Platform、BigQuery 与 Google Cloud 安全数据能力被纳入联合交付体系，扩大云上企业 AI 工作负载入口"
+          }
+        ]
+      },
+      "date": "2026-06-06"
+    },
+    "cognizant-physical-ai-spine-2026-06": {
+      "id": "cognizant-physical-ai-spine-2026-06",
+      "title": "Cognizant 推出面向物理 AI 的主权平台即服务",
+      "summary": "Cognizant 发布 Sovereign Physical AI Platform-as-a-Service，基于 Cognizant Intelligence Spine，把工业传感器、IoT、工厂自动化、能源基础设施、机器人和数字孪生接入统一智能织体。公司称该平台面向公用事业、油气、制造、物流、交通、航天防务、医疗生命科学和零售消费品八个垂直领域，目标是把自治系统从实验推进到企业核心基础设施。该事件连接平台与工具层、行业应用层和机器人等终端生态层。",
+      "sourceUrl": "https://www.prnewswire.com/news-releases/cognizant-launches-sovereign-physical-ai-platform-as-a-service-302793025.html",
+      "publishedAt": "2026-06-05",
+      "layerIds": [
+        3,
+        4,
+        5
+      ],
+      "industries": [
+        "Physical AI",
+        "工业 AI",
+        "机器人",
+        "数字孪生"
+      ],
+      "beneficiaries": {
+        "industries": [
+          "工业软件平台",
+          "机器人系统集成",
+          "智能制造",
+          "能源与公用事业 AI"
+        ],
+        "companies": [
+          "Cognizant"
+        ],
+        "stocks": [
+          {
+            "code": "usCTSH",
+            "name": "Cognizant",
+            "reason": "平台将其工程、AI 与行业服务打包为 Physical AI 交付能力，可能受益于制造、物流和能源客户的生产级 AI 项目需求"
+          }
+        ]
+      },
+      "date": "2026-06-06"
+    },
+    "usa-rare-earth-chips-funding-2026-06": {
+      "id": "usa-rare-earth-chips-funding-2026-06",
+      "title": "USA Rare Earth 与美国商务部敲定最高 16 亿美元 CHIPS 资金安排",
+      "summary": "USA Rare Earth 披露与美国商务部签署最终协议，解锁最高 16 亿美元资金安排，其中包括最高 2.77 亿美元联邦资金和最高 13 亿美元 CHIPS Act 优先担保贷款能力，拨付将与项目里程碑挂钩。公司称资金将支持 Round Top 重稀土与关键矿产、加工分离、金属与合金制造，以及 Stillwater 和 South Carolina 磁材产能扩张。稀土永磁是机器人、电动车、半导体和数据中心等 AI 硬件生态的上游约束之一，事件主要对应终端生态层与算力供应链安全。",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1970622/000121390026064453/ea029340201ex99-1.htm",
+      "publishedAt": "2026-06-03",
+      "layerIds": [
+        5,
+        1
+      ],
+      "industries": [
+        "稀土永磁",
+        "关键矿产",
+        "半导体供应链",
+        "机器人供应链"
+      ],
+      "beneficiaries": {
+        "industries": [
+          "钕铁硼磁材",
+          "稀土分离与冶炼",
+          "智能汽车电机",
+          "机器人执行器"
+        ],
+        "companies": [
+          "USA Rare Earth",
+          "U.S. Department of Commerce"
+        ],
+        "stocks": [
+          {
+            "code": "usUSAR",
+            "name": "USA Rare Earth",
+            "reason": "最终协议为其美国本土 mine-to-magnet 稀土价值链扩产提供里程碑式资金支持"
+          },
+          {
+            "code": "sh600111",
+            "name": "北方稀土",
+            "reason": "海外政策加码凸显稀土永磁供应链战略属性，国内稀土龙头对行业景气与供给安全议题逻辑上敏感"
+          },
+          {
+            "code": "sz000970",
+            "name": "中科三环",
+            "reason": "钕铁硼永磁是机器人、智能汽车和工业电机的重要材料，全球扩产与本土化建设会影响磁材产业链关注度"
+          }
+        ]
+      },
+      "date": "2026-06-06"
+    },
+    "tsmc-ai-demand-bottleneck-2026-06": {
+      "id": "tsmc-ai-demand-bottleneck-2026-06",
+      "title": "台积电称 AI 芯片需求仍高于供应链承载能力",
+      "summary": "Reuters 6 月 4 日报道称，台积电董事长兼 CEO 魏哲家在股东会上表示，公司正努力避免成为 AI 芯片全球供应链瓶颈，但客户需求很高、上游供应商也面临约束。报道还提到台积电持续看到消费、企业与主权 AI 应用推动更大算力需求，并在美国亚利桑那扩建产能。该事件主要对应先进制程、先进封装和 AI 加速器供应链的算力基础设施层。",
+      "sourceUrl": "https://srnnews.com/tsmc-boss-upbeat-on-outlook-as-ai-boom-shows-no-sign-of-easing/",
+      "publishedAt": "2026-06-04",
+      "layerIds": [
+        1
+      ],
+      "industries": [
+        "晶圆代工",
+        "AI 算力",
+        "先进封装"
+      ],
+      "beneficiaries": {
+        "industries": [
+          "先进制程制造",
+          "AI 加速器",
+          "半导体设备与材料"
+        ],
+        "companies": [
+          "台积电",
+          "英伟达",
+          "苹果",
+          "ASML"
+        ],
+        "stocks": [
+          {
+            "code": "usTSM",
+            "name": "台积电",
+            "reason": "AI 芯片需求持续高于供给，使先进制程与封装产能利用率和议价能力对业绩更敏感"
+          },
+          {
+            "code": "usNVDA",
+            "name": "英伟达",
+            "reason": "其 AI 加速器交付依赖台积电先进制程和封装扩产，供应链约束缓解有助于平台放量"
+          }
+        ]
+      },
+      "date": "2026-06-07"
+    },
+    "foxconn-intel-ai-infrastructure-2026-06": {
+      "id": "foxconn-intel-ai-infrastructure-2026-06",
+      "title": "富士康与英特尔合作开发下一代 AI 基础设施",
+      "summary": "富士康 6 月 4 日宣布与英特尔建立战略合作，联合推进下一代 AI 基础设施和智能计算平台，覆盖硅片、机架、系统和应用层。双方计划探索 Intel Xeon CPU 机架、AI 加速器架构、高速互连、液冷与系统遥测，并把边缘 AI、物理 AI、机器人和智能制造作为目标场景。该合作同时连接算力基础设施层与终端生态层。",
+      "sourceUrl": "https://businessjournaldaily.com/foxconn-announces-collaboration-with-intel-to-advance-ai-platforms/",
+      "publishedAt": "2026-06-04",
+      "layerIds": [
+        1,
+        5
+      ],
+      "industries": [
+        "AI 服务器",
+        "边缘 AI",
+        "机器人供应链",
+        "液冷"
+      ],
+      "beneficiaries": {
+        "industries": [
+          "服务器 ODM",
+          "CPU 与 AI 加速器",
+          "数据中心液冷",
+          "工业机器人平台"
+        ],
+        "companies": [
+          "富士康",
+          "英特尔"
+        ],
+        "stocks": [
+          {
+            "code": "usINTC",
+            "name": "英特尔",
+            "reason": "合作把其 CPU、AI 加速器和软件生态嵌入富士康的机架级系统集成与制造能力"
+          }
+        ]
+      },
+      "date": "2026-06-07"
+    },
+    "pinterest-aws-ai-discovery-2026-06": {
+      "id": "pinterest-aws-ai-discovery-2026-06",
+      "title": "Pinterest 与 AWS 签订 40 亿美元 AI 云服务承诺",
+      "summary": "Amazon 6 月 4 日披露，Pinterest 计划到 2031 年向 AWS 承诺 40 亿美元云服务支出，这是 Pinterest 史上最大基础设施投入。Pinterest 将使用 AWS Trainium 和 Graviton 训练与运行大语言模型、视觉语言模型，用于个性化视觉搜索、AI 辅助发现和 Pinterest Assistant，同时把部分基础设施迁移到 Amazon EKS。该事件横跨平台与工具层、算力基础设施层和应用层。",
+      "sourceUrl": "https://www.aboutamazon.com/news/aws/pinterest-aws-4-billion-ai-infrastructure-deal",
+      "publishedAt": "2026-06-04",
+      "layerIds": [
+        1,
+        3,
+        4
+      ],
+      "industries": [
+        "云计算",
+        "AI 推理",
+        "视觉搜索",
+        "社交电商"
+      ],
+      "beneficiaries": {
+        "industries": [
+          "云基础设施",
+          "自研 AI 加速器",
+          "视觉语言模型应用",
+          "Kubernetes 平台服务"
+        ],
+        "companies": [
+          "Amazon Web Services",
+          "Pinterest"
+        ],
+        "stocks": [
+          {
+            "code": "usAMZN",
+            "name": "亚马逊",
+            "reason": "AWS 获得长期 AI 工作负载承诺，Trainium、Graviton 和 EKS 的平台价值被大型应用客户验证"
+          },
+          {
+            "code": "usPINS",
+            "name": "Pinterest",
+            "reason": "长期云资源承诺为其视觉搜索、推荐和对话式发现模型训练与推理提供基础设施弹性"
+          }
+        ]
+      },
+      "date": "2026-06-07"
+    },
+    "googlecloud-mwm-mobile-ai-squad-2026-06": {
+      "id": "googlecloud-mwm-mobile-ai-squad-2026-06",
+      "title": "Google Cloud 与 MWM 推出移动应用多 agent 团队",
+      "summary": "Google Cloud Press Corner 6 月 4 日发布消息称，MWM 使用 Gemini Enterprise 推出 AI Mobile Squad，由产品经理、设计师和开发者三个专门 agent 顺序协作，把提示词转化为原生 iOS 和 Android 应用。该方案运行在 Google Cloud 的模型、agent 编排和云基础设施上，Cloud Run、Cloud Spanner 和 Cloud Storage 支撑实时编排与构建流程。该事件对应平台与工具层，并体现 AI 在移动应用开发场景的应用层落地。",
+      "sourceUrl": "https://www.googlecloudpresscorner.com/2026-06-04-MWM-AI-Partners-with-Google-Cloud-to-Launch-New-Mobile-Agents-for-App-Creators-and-Entrepreneurs",
+      "publishedAt": "2026-06-04",
+      "layerIds": [
+        3,
+        4
+      ],
+      "industries": [
+        "Agent 平台",
+        "移动应用开发",
+        "云原生"
+      ],
+      "beneficiaries": {
+        "industries": [
+          "AI 应用开发工具",
+          "云端 agent 编排",
+          "移动 SaaS"
+        ],
+        "companies": [
+          "Google Cloud",
+          "MWM"
+        ],
+        "stocks": [
+          {
+            "code": "usGOOGL",
+            "name": "Alphabet",
+            "reason": "Gemini Enterprise、Cloud Run、Spanner 等能力被用于多 agent 应用构建流程，有助于展示 Google Cloud 的平台粘性"
+          }
+        ]
+      },
+      "date": "2026-06-07"
+    },
+    "nvidia-ai-supply-capacity-2026-06": {
+      "id": "nvidia-ai-supply-capacity-2026-06",
+      "title": "英伟达称下半年 AI 供应链产能已上调至两倍",
+      "summary": "据 Taipei Times 6 月 6 日报道，英伟达 CEO 黄仁勋在结束台湾行程前表示，公司已安排将今年下半年产能提高至两倍，以应对强劲的 AI 计算需求。报道同时提到 Grace Blackwell 已进入商业生产，下一代 Vera Rubin 平台开始量产，且内存等供应链环节仍然紧张。该事件主要对应算力与基础设施层，反映 AI 服务器、先进封装、HBM 与台湾服务器供应链仍处于扩产爬坡阶段。",
+      "sourceUrl": "https://www.taipeitimes.com/News/biz/archives/2026/06/06/2003858596",
+      "publishedAt": "2026-06-06",
+      "layerIds": [
+        1
+      ],
+      "industries": [
+        "AI 算力",
+        "AI 服务器",
+        "HBM",
+        "先进封装"
+      ],
+      "beneficiaries": {
+        "industries": [
+          "GPU 与 AI 加速器",
+          "HBM 与高端内存",
+          "晶圆代工与先进封装",
+          "AI 服务器 ODM"
+        ],
+        "companies": [
+          "英伟达",
+          "台积电",
+          "鸿海精密",
+          "SK 海力士"
+        ],
+        "stocks": [
+          {
+            "code": "usNVDA",
+            "name": "英伟达",
+            "reason": "公司表示已为 AI CPU/GPU 系统扩产做准备，产能爬坡直接对应其数据中心平台交付能力"
+          },
+          {
+            "code": "usTSM",
+            "name": "台积电",
+            "reason": "先进制程与封装产能是英伟达 Grace Blackwell、Vera Rubin 等 AI 平台放量的重要制造环节"
+          }
+        ]
+      },
+      "date": "2026-06-08"
+    },
+    "foxconn-intel-ai-rack-2026-06": {
+      "id": "foxconn-intel-ai-rack-2026-06",
+      "title": "鸿海与 Intel 合作开发下一代 AI 机架与边缘智能平台",
+      "summary": "Taipei Times 6 月 5 日援引 Reuters 报道称，鸿海将与 Intel 共同开发和部署下一代 AI 基础设施与智能计算平台，覆盖使用 Intel Xeon 处理器和 AI 加速器的服务器机架。双方还计划推进高速互连、散热设计、能效优化以及面向工厂、智慧城市和机器人的边缘 AI 系统。该合作同时连接算力基础设施层和终端生态层，阶段上仍是战略合作与系统方案定义。",
+      "sourceUrl": "https://www.taipeitimes.com/News/biz/archives/2026/06/05/2003858542",
+      "publishedAt": "2026-06-05",
+      "layerIds": [
+        1,
+        5
+      ],
+      "industries": [
+        "AI 服务器",
+        "边缘 AI",
+        "具身智能",
+        "高速互连"
+      ],
+      "beneficiaries": {
+        "industries": [
+          "AI rack 系统集成",
+          "CPU 推理服务器",
+          "液冷与高速互连",
+          "机器人与智能制造平台"
+        ],
+        "companies": [
+          "鸿海精密",
+          "Intel"
+        ],
+        "stocks": [
+          {
+            "code": "usINTC",
+            "name": "Intel",
+            "reason": "合作方案以 Xeon 处理器、AI 加速器和软件生态为基础，逻辑上有助于其进入更多 AI 推理与边缘计算系统"
+          }
+        ]
+      },
+      "date": "2026-06-08"
+    },
+    "nvidia-sk-hynix-memory-ai-factory-2026-06": {
+      "id": "nvidia-sk-hynix-memory-ai-factory-2026-06",
+      "title": "英伟达与 SK hynix 建立 AI 工厂内存多年技术合作",
+      "summary": "英伟达和 SK hynix 宣布建立多年技术合作，共同推进面向 AI 工厂的下一代内存，并使先进内存供应与英伟达 AI 基础设施路线图匹配。公告称合作覆盖 Vera Rubin AI 超级计算机、Vera CPU、RTX Spark PC 和 Jetson Thor 机器人计算平台，同时会把 CUDA-X、PhysicsNeMo、Omniverse 与 cuOpt 用于半导体仿真和晶圆厂数字孪生。该事件主要对应算力与基础设施层，也体现 AI 平台工具进入半导体制造流程。",
+      "sourceUrl": "https://nvidianews.nvidia.com/news/sk-hynix-ai-factory",
+      "publishedAt": "2026-06-07",
+      "layerIds": [
+        1,
+        3
+      ],
+      "industries": [
+        "HBM",
+        "AI 算力",
+        "半导体制造",
+        "晶圆厂数字孪生"
+      ],
+      "beneficiaries": {
+        "industries": [
+          "高带宽内存",
+          "AI 加速器",
+          "半导体仿真",
+          "先进晶圆厂自动化"
+        ],
+        "companies": [
+          "英伟达",
+          "SK hynix"
+        ],
+        "stocks": [
+          {
+            "code": "usNVDA",
+            "name": "英伟达",
+            "reason": "下一代内存共研与供应协同有助于支撑其 Vera Rubin 等 AI 基础设施平台交付"
+          }
+        ]
+      },
+      "date": "2026-06-09"
+    },
+    "microsoft-nhs-copilot-healthcare-2026-06": {
+      "id": "microsoft-nhs-copilot-healthcare-2026-06",
+      "title": "NHS England 将向 50.5 万名员工部署 Microsoft 365 Copilot",
+      "summary": "NHS England 宣布向 50.5 万名临床和支持人员提供 Microsoft 365 Copilot，以减少行政工作并提升医疗服务效率。协议还包括 Copilot Studio，允许 NHS 组织构建用于研究、数据分析、HR 咨询、投诉处理和财务分析等流程的 AI agents，并由 Agent 365 提供治理。该事件处于医疗行业 AI 应用从试点走向大规模部署阶段，关联应用层和企业平台层。",
+      "sourceUrl": "https://news.microsoft.com/source/2026/06/08/nhs-england-accelerates-ai-adoption-with-microsoft-365-copilot-to-improve-service-delivery-reduce-costs-and-create-more-time-for-care/",
+      "publishedAt": "2026-06-07",
+      "layerIds": [
+        4,
+        3
+      ],
+      "industries": [
+        "医疗信息化",
+        "办公 Copilot",
+        "企业 Agent",
+        "AI 治理"
+      ],
+      "beneficiaries": {
+        "industries": [
+          "医疗办公自动化",
+          "行业 Copilot",
+          "Agent 治理平台",
+          "企业协同软件"
+        ],
+        "companies": [
+          "Microsoft",
+          "NHS England"
+        ],
+        "stocks": [
+          {
+            "code": "usMSFT",
+            "name": "微软",
+            "reason": "Microsoft 365 Copilot、Copilot Studio 与 Agent 365 被纳入大型公共医疗机构部署，验证企业级 AI 应用和治理能力"
+          }
+        ]
+      },
+      "date": "2026-06-09"
+    },
+    "pega-infinity-studio-agentic-dev-2026-06": {
+      "id": "pega-infinity-studio-agentic-dev-2026-06",
+      "title": "Pega 发布面向关键业务应用的 AI 开发环境 Infinity Studio",
+      "summary": "Pegasystems 在 PegaWorld 发布 Pega Infinity Studio，这是面向关键业务应用构建的 AI 驱动开发环境，计划随 Pega Infinity 26 于第三季度推出。该产品把 Pega Blueprint AI 工作流设计 agent 嵌入开发体验，并支持 GitHub Copilot、Claude Code、OpenAI Codex 等外部编码 agent，通过 MCP、CLI 工具和 agent skills 帮助构建、评审、测试和更新 Pega 应用。事件对应企业 AI 平台与行业应用落地，重点在低代码/流程平台把 agentic 开发纳入受治理的软件交付链。",
+      "sourceUrl": "https://www.businesswire.com/news/home/20260608265253/en/",
+      "publishedAt": "2026-06-08",
+      "layerIds": [
+        3,
+        4
+      ],
+      "industries": [
+        "企业软件",
+        "低代码平台",
+        "AI 编程",
+        "流程自动化"
+      ],
+      "beneficiaries": {
+        "industries": [
+          "企业应用开发平台",
+          "MCP 工具生态",
+          "流程自动化 SaaS",
+          "AI 代码治理"
+        ],
+        "companies": [
+          "Pegasystems",
+          "Cognizant",
+          "Tech Mahindra"
+        ],
+        "stocks": [
+          {
+            "code": "usPEGA",
+            "name": "Pegasystems",
+            "reason": "Infinity Studio 将 AI agent 与 Pega 工作流平台结合，可能增强其关键业务应用开发与治理场景的产品竞争力"
+          }
+        ]
+      },
+      "date": "2026-06-09"
+    },
+    "ares-agent-governance-marketplace-2026-06": {
+      "id": "ares-agent-governance-marketplace-2026-06",
+      "title": "Ares Networks Agent 治理平台上线 Microsoft Marketplace",
+      "summary": "Ares Networks 宣布其 Agent Governance Platform 已在 Microsoft Marketplace 上架，Azure 客户可通过市场发现和部署该平台。公告称平台提供可信 agent 注册、凭证会话、跨组织治理、实时监控和不可篡改审计记录，并与 Microsoft Entra ID、AKS 等 Azure 能力集成。该事件聚焦企业部署 AI agents 后的安全、合规和可审计需求，主要对应平台与工具层。",
+      "sourceUrl": "https://www.prnewswire.com/news-releases/agent-governance-platform-from-ares-networks-now-available-in-the-microsoft-marketplace-302793334.html",
+      "publishedAt": "2026-06-08",
+      "layerIds": [
+        3
+      ],
+      "industries": [
+        "AI 安全",
+        "Agent 治理",
+        "云市场",
+        "身份与权限管理"
+      ],
+      "beneficiaries": {
+        "industries": [
+          "AI 安全治理",
+          "企业合规软件",
+          "云市场分发",
+          "多 Agent 审计基础设施"
+        ],
+        "companies": [
+          "Ares Networks",
+          "Microsoft"
+        ],
+        "stocks": [
+          {
+            "code": "usMSFT",
+            "name": "微软",
+            "reason": "第三方 Agent 治理方案进入 Microsoft Marketplace，强化 Azure 面向企业 agent 部署的生态配套"
+          }
+        ]
+      },
+      "date": "2026-06-09"
+    },
+    "unisound-u2-agentic-model-2026-06": {
+      "id": "unisound-u2-agentic-model-2026-06",
+      "title": "云知声发布面向长流程执行的 U2 原生 Agentic 大模型",
+      "summary": "云知声发布新一代通用大模型 U2，定位为面向个人、开发者和组织的原生 agentic 大模型。公司称 U2 更强调连续任务执行，可在办公、软件工程、深度研究和多工具协作等场景中自主拆解并推进 100 步以上复杂工作流，并引入 Hybrid Thinking 与 Agent-Harness 协同训练。该事件对应模型与算法层，也映射到应用层对可交付任务型 agent 的需求。",
+      "sourceUrl": "https://www.prnewswire.com/news-releases/unisound-releases-u2-a-native-agentic-large-model-built-for-execution-capable-of-autonomously-decomposing-and-completing-100-steps-in-complex-real-world-workflows-302793573.html",
+      "publishedAt": "2026-06-08",
+      "layerIds": [
+        2,
+        4
+      ],
+      "industries": [
+        "大模型",
+        "Agent",
+        "AI 编程",
+        "办公自动化"
+      ],
+      "beneficiaries": {
+        "industries": [
+          "原生 Agentic 大模型",
+          "模型即服务",
+          "多工具工作流",
+          "智能办公与软件工程自动化"
+        ],
+        "companies": [
+          "云知声"
+        ],
+        "stocks": [
+          {
+            "code": "hk09678",
+            "name": "云知声",
+            "reason": "U2 是公司面向长流程任务执行的大模型产品，可能提升其 MaaS 与行业智能体业务的关注度"
+          }
+        ]
+      },
+      "date": "2026-06-09"
+    },
+    "sk-hynix-nvidia-ai-memory-2026-06": {
+      "id": "sk-hynix-nvidia-ai-memory-2026-06",
+      "title": "SK hynix 与 NVIDIA 签署 AI Factory 内存多年合作",
+      "summary": "SK hynix 与 NVIDIA 6 月 8 日宣布多年技术合作，围绕全球 AI factory 建设共同推进下一代内存，并让供应节奏匹配 NVIDIA AI 基础设施路线图。公告称 SK hynix 将为 Vera Rubin AI 超算、Vera CPU、RTX Spark PC 与 Jetson Thor 机器人平台共同开发内存，同时使用 CUDA-X、PhysicsNeMo、Omniverse 与 cuOpt 改进半导体仿真和晶圆厂数字孪生。该事件主要落在算力与基础设施层，并延伸到半导体制造工具链和物理 AI 生态。",
+      "sourceUrl": "https://news.skhynix.com/multi-year-tech-partnership-with-nvidia/",
+      "publishedAt": "2026-06-08",
+      "layerIds": [
+        1,
+        3
+      ],
+      "industries": [
+        "HBM",
+        "AI 算力",
+        "半导体制造",
+        "数字孪生"
+      ],
+      "beneficiaries": {
+        "industries": [
+          "高带宽内存",
+          "AI 服务器内存",
+          "半导体仿真与工厂数字孪生"
+        ],
+        "companies": [
+          "SK hynix",
+          "NVIDIA"
+        ],
+        "stocks": [
+          {
+            "code": "usNVDA",
+            "name": "英伟达",
+            "reason": "合作把下一代内存共同开发绑定到 NVIDIA AI factory 路线图，有助于其 AI 基础设施平台交付"
+          },
+          {
+            "code": "usMU",
+            "name": "美光",
+            "reason": "AI factory 对 HBM 与高端 DRAM 的长期需求强化，逻辑上利好先进内存供应链景气"
+          }
+        ]
+      },
+      "date": "2026-06-10"
+    },
+    "nvidia-sk-telecom-ai-cloud-2026-06": {
+      "id": "nvidia-sk-telecom-ai-cloud-2026-06",
+      "title": "SK Telecom 计划用 NVIDIA DSX 建设韩国 GW 级 AI Cloud",
+      "summary": "NVIDIA 与 SK Telecom 6 月 7 日宣布，SK Telecom 计划在韩国建设基于 NVIDIA DSX 平台的 GW 级 AI Cloud，首个 AI factory 计划于 2027 年上线。公告称该 AI Cloud 将服务韩国企业和产业的主权 AI、物理 AI 与 Agentic AI 需求，DSX 提供从芯片、系统、软件到设施运营的 AI factory 参考架构。事件对应算力基础设施层与平台工具层，也体现电信网络向国家级 AI 基础设施延伸。",
+      "sourceUrl": "https://investor.nvidia.com/news/press-release-details/2026/SK-Telecom-and-NVIDIA-Build-AI-Infrastructure-to-Power-Koreas-AI-Innovation/default.aspx",
+      "publishedAt": "2026-06-07",
+      "layerIds": [
+        1,
+        3
+      ],
+      "industries": [
+        "AI 数据中心",
+        "GPU 云",
+        "电信基础设施",
+        "主权 AI"
+      ],
+      "beneficiaries": {
+        "industries": [
+          "AI 云服务",
+          "数据中心运营",
+          "GPU 服务器与网络系统",
+          "电信运营商 AI 基础设施"
+        ],
+        "companies": [
+          "SK Telecom",
+          "NVIDIA",
+          "SK Group"
+        ],
+        "stocks": [
+          {
+            "code": "usNVDA",
+            "name": "英伟达",
+            "reason": "DSX 被用作 GW 级 AI Cloud 的参考架构，扩大其 GPU、网络与 AI factory 软件栈的部署场景"
+          }
+        ]
+      },
+      "date": "2026-06-10"
+    },
+    "google-gemini-live-translate-2026-06": {
+      "id": "google-gemini-live-translate-2026-06",
+      "title": "Google 发布 Gemini 3.5 Live Translate 实时语音翻译模型",
+      "summary": "Google 6 月 9 日发布 Gemini 3.5 Live Translate，称其可在 70 多种语言中进行近实时语音到语音翻译，并尽量保留说话者语调、节奏和音高。该模型面向开发者通过 Gemini Live API 和 Google AI Studio 公测，面向企业将在 Google Meet 中私测，并已向 Android 与 iOS 的 Google Translate 用户推出。事件同时对应模型与算法层，以及会议、出行、客服等应用层落地。",
+      "sourceUrl": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-live-3-5-translate/",
+      "publishedAt": "2026-06-09",
+      "layerIds": [
+        2,
+        4
+      ],
+      "industries": [
+        "语音 AI",
+        "实时翻译",
+        "办公协作",
+        "移动应用"
+      ],
+      "beneficiaries": {
+        "industries": [
+          "多模态模型 API",
+          "会议协作软件",
+          "跨境出行与本地生活平台"
+        ],
+        "companies": [
+          "Google",
+          "Grab",
+          "Google Workspace 生态"
+        ],
+        "stocks": [
+          {
+            "code": "usGOOGL",
+            "name": "Alphabet",
+            "reason": "Gemini 语音模型进入 API、Google Meet 和 Translate 等产品，扩大其模型能力到消费与企业应用场景"
+          }
+        ]
+      },
+      "date": "2026-06-10"
+    },
+    "google-notebooklm-agentic-research-2026-06": {
+      "id": "google-notebooklm-agentic-research-2026-06",
+      "title": "Google 为 NotebookLM 增加 Agentic 研究与代码执行能力",
+      "summary": "Google 6 月 8 日宣布升级 NotebookLM，引入基于 Gemini 3.5 和 Antigravity 的更强推理能力，并为每个 notebook 配备可运行代码的安全云计算环境。新版本可从松散问题出发协助查找网页来源、生成报告、图表、电子表格和幻灯片等多种产物，面向 Google AI Ultra 和部分 Workspace 商业客户推出。该事件主要对应平台工具层和应用解决方案层，说明知识工作助手正在从问答走向可执行研究工作流。",
+      "sourceUrl": "https://blog.google/innovation-and-ai/products/notebooklm/better-research-notebooklm/",
+      "publishedAt": "2026-06-08",
+      "layerIds": [
+        3,
+        4
+      ],
+      "industries": [
+        "AI 办公",
+        "知识管理",
+        "Agent 工作流",
+        "企业 SaaS"
+      ],
+      "beneficiaries": {
+        "industries": [
+          "办公 Copilot",
+          "企业知识库",
+          "研究与数据分析工具"
+        ],
+        "companies": [
+          "Google",
+          "Google Workspace"
+        ],
+        "stocks": [
+          {
+            "code": "usGOOGL",
+            "name": "Alphabet",
+            "reason": "NotebookLM 把 Gemini、搜索、代码执行和多格式输出整合到知识工作流程，增强 Workspace 与 AI 订阅的应用粘性"
+          }
+        ]
+      },
+      "date": "2026-06-10"
+    },
+    "nice-agentic-cx-platform-2026-06": {
+      "id": "nice-agentic-cx-platform-2026-06",
+      "title": "NiCE 将 Agentic AI 原生嵌入客户体验平台",
+      "summary": "NiCE 6 月 9 日宣布其客户体验平台以 Agentic AI 为核心，支持企业在同一操作模型中运行 AI agents、人类团队、工作流、数据和系统。公告列出 NiCE AI Agents、Agentic Engagement Plane、Guardian AI 和 Agentic Analytics 等能力，用于自主客户问题解决、跨系统编排、治理和持续改进。事件属于应用与解决方案层，并与平台治理、合规和企业级 AI 编排工具相关。",
+      "sourceUrl": "https://www.businesswire.com/news/home/20260609594222/en/NiCE-Announces-the-Future-of-AI-Powered-CX",
+      "publishedAt": "2026-06-09",
+      "layerIds": [
+        4,
+        3
+      ],
+      "industries": [
+        "客户体验 SaaS",
+        "企业 Agent",
+        "AI 治理",
+        "工作流自动化"
+      ],
+      "beneficiaries": {
+        "industries": [
+          "客服自动化",
+          "联络中心云平台",
+          "企业级 Agent 编排与治理"
+        ],
+        "companies": [
+          "NiCE",
+          "Citi",
+          "Fabletics",
+          "Arizona State University"
+        ],
+        "stocks": [
+          {
+            "code": "usNICE",
+            "name": "NiCE",
+            "reason": "Agentic AI 被原生嵌入其 CX 平台，可能提升联络中心客户对自动化、治理和工作流编排能力的需求"
+          }
+        ]
+      },
+      "date": "2026-06-10"
+    },
+    "diffusiongemma-open-model-2026-06": {
+      "id": "diffusiongemma-open-model-2026-06",
+      "title": "Google DeepMind 发布基于扩散生成的开放模型 DiffusionGemma",
+      "summary": "Google DeepMind 6 月 10 日发布实验性开放模型 DiffusionGemma，采用文本扩散方式一次生成并迭代修正整块文本，而不是传统自回归模型逐 token 输出。官方称该 26B MoE 模型在专用 GPU 上可实现最高 4 倍文本生成速度，并已面向 Hugging Face、vLLM、MLX、Unsloth、NVIDIA NeMo 等开发工具开放。该事件主要对应模型与算法层，也延伸到本地推理平台和 GPU 算力生态。",
+      "sourceUrl": "https://deepmind.google/blog/diffusiongemma-4x-faster-text-generation",
+      "publishedAt": "2026-06-10",
+      "layerIds": [
+        2,
+        3,
+        1
+      ],
+      "industries": [
+        "开放模型",
+        "文本扩散",
+        "本地 AI 推理",
+        "GPU 算力"
+      ],
+      "beneficiaries": {
+        "industries": [
+          "开放权重模型生态",
+          "本地低延迟推理",
+          "模型服务框架",
+          "高端 GPU 与工作站"
+        ],
+        "companies": [
+          "Google DeepMind",
+          "NVIDIA",
+          "Hugging Face",
+          "Red Hat"
+        ],
+        "stocks": [
+          {
+            "code": "usGOOGL",
+            "name": "Alphabet",
+            "reason": "DiffusionGemma 扩展了 Google 开放模型组合，并把高速本地推理作为开发者生态的新切入点"
+          },
+          {
+            "code": "usNVDA",
+            "name": "英伟达",
+            "reason": "官方说明该模型针对 NVIDIA H100、RTX 5090、DGX Spark 等硬件优化，逻辑上强化其本地与企业推理平台适配价值"
+          }
+        ]
+      },
+      "date": "2026-06-11"
+    },
+    "apple-intelligence-gemini-foundation-models-2026-06": {
+      "id": "apple-intelligence-gemini-foundation-models-2026-06",
+      "title": "Apple Intelligence 新架构引入与 Google Gemini 协作的基础模型",
+      "summary": "Apple 6 月 10 日介绍下一代 Apple Intelligence，称新一代 Apple Foundation Models 与 Google 及 Gemini 模型协作定制，并在设备端和 Private Cloud Compute 服务器上运行。更新覆盖 Siri AI、Safari 标签整理与网页监控、Passwords 自动升级弱密码、Image Playground 写实图像生成、Home 摄像头视频描述等系统级功能，开发者测试已开始，用户版本计划今年秋季随新系统推出。该事件同时对应应用与解决方案层、终端生态层和模型层，重点在端侧与隐私云结合的消费级 AI 落地。",
+      "sourceUrl": "https://www.apple.com/newsroom/2026/06/apple-intelligence-brings-powerful-ai-capabilities-into-everyday-experiences/",
+      "publishedAt": "2026-06-10",
+      "layerIds": [
+        4,
+        5,
+        2
+      ],
+      "industries": [
+        "端侧 AI",
+        "消费电子",
+        "隐私计算",
+        "智能助手"
+      ],
+      "beneficiaries": {
+        "industries": [
+          "智能手机与 PC 生态",
+          "端云协同 AI",
+          "系统级智能助手",
+          "AI 图像与浏览器工具"
+        ],
+        "companies": [
+          "Apple",
+          "Google"
+        ],
+        "stocks": [
+          {
+            "code": "usAAPL",
+            "name": "苹果",
+            "reason": "Apple Intelligence 被深度嵌入 iPhone、iPad、Mac、Watch 与 Vision Pro 等终端，可能提升设备生态的 AI 功能粘性"
+          },
+          {
+            "code": "usGOOGL",
+            "name": "Alphabet",
+            "reason": "公告披露 Apple Foundation Models 与 Google 及 Gemini 模型协作定制，体现 Gemini 能力进入大型消费终端生态"
+          }
+        ]
+      },
+      "date": "2026-06-11"
+    },
+    "adobe-cx-enterprise-coworker-ga-2026-06": {
+      "id": "adobe-cx-enterprise-coworker-ga-2026-06",
+      "title": "Adobe CX Enterprise Coworker 正式可用，主打营销与客户体验 Agent 工作流",
+      "summary": "Adobe 6 月 10 日宣布 CX Enterprise Coworker 正式可用，定位为面向客户体验编排的成果导向型 agentic AI 方案。该产品可跨 Adobe 与第三方应用协调 analytics、内容创建、旅程编排等工作流，并支持 MCP、A2A 等开放标准以及 AWS、Anthropic、Google Cloud、Microsoft、OpenAI 等外部 AI 平台。事件对应应用与解决方案层，也反映企业 SaaS 厂商把 AI 从单点工具推进到可度量的业务流程编排。",
+      "sourceUrl": "https://news.adobe.com/news/2026/06/adobe-announces-general-availability-of-cx-enterprise-coworker",
+      "publishedAt": "2026-06-10",
+      "layerIds": [
+        4,
+        3
+      ],
+      "industries": [
+        "营销科技",
+        "客户体验 SaaS",
+        "企业 Agent",
+        "MCP"
+      ],
+      "beneficiaries": {
+        "industries": [
+          "客户体验编排",
+          "营销自动化",
+          "企业级 Agent 工作流",
+          "内容生成与品牌治理"
+        ],
+        "companies": [
+          "Adobe",
+          "Amazon Web Services",
+          "Anthropic",
+          "Google Cloud",
+          "Microsoft",
+          "OpenAI"
+        ],
+        "stocks": [
+          {
+            "code": "usADBE",
+            "name": "Adobe",
+            "reason": "CX Enterprise Coworker 可作为 Adobe 既有客户体验产品的独立方案或附加组件，逻辑上有助于提升企业客户的 AI 工作流采用"
+          }
+        ]
+      },
+      "date": "2026-06-11"
+    },
+    "boomi-snowflake-cortex-agentstudio-2026-06": {
+      "id": "boomi-snowflake-cortex-agentstudio-2026-06",
+      "title": "Boomi Agentstudio 接入 Snowflake Cortex Agents 做统一 Agent 治理",
+      "summary": "Boomi 6 月 10 日宣布在 Agentstudio 中支持 Snowflake Cortex Agents，联合客户可在一个厂商中立的控制台中监控、管理和治理 Cortex Agents。公告称该集成将 Snowflake AI Data Cloud 的实时数据管道与 Boomi Agent Control Tower 结合，使分散的聊天式助手转为可治理、可编排的业务流程。该事件主要对应平台与工具层，关注数据云、Agent 治理和企业自动化进入生产阶段后的控制面需求。",
+      "sourceUrl": "https://www.businesswirechina.com/en/news/63172.html",
+      "publishedAt": "2026-06-10",
+      "layerIds": [
+        3,
+        4
+      ],
+      "industries": [
+        "AI Data Cloud",
+        "Agent 治理",
+        "数据集成",
+        "企业自动化"
+      ],
+      "beneficiaries": {
+        "industries": [
+          "企业 Agent 控制台",
+          "实时数据管道",
+          "数据云原生应用",
+          "业务流程自动化"
+        ],
+        "companies": [
+          "Boomi",
+          "Snowflake"
+        ],
+        "stocks": [
+          {
+            "code": "usSNOW",
+            "name": "Snowflake",
+            "reason": "Cortex Agents 获得 Boomi Agentstudio 治理支持，可能增强 Snowflake AI Data Cloud 在企业 agentic workflow 中的数据与控制面地位"
+          }
+        ]
+      },
+      "date": "2026-06-11"
+    },
+    "kyndryl-ai-orchestration-business-2026-06": {
+      "id": "kyndryl-ai-orchestration-business-2026-06",
+      "title": "Kyndryl 推出面向零售与供应链的 AI Orchestration for Business",
+      "summary": "Kyndryl 6 月 10 日发布 Kyndryl AI Orchestration for Business，基于其 Agentic AI Framework，面向零售、消费品、旅行交通等行业协调供应链、商务、财务、IT 和客户运营中的 AI agents。该能力强调云和大模型中立，可与既有企业平台集成，并用 policy-as-code、审计和人工监督支持受控执行。事件对应平台与工具层及行业应用层，体现企业服务商把 Agent 从试点推向跨部门运营编排。",
+      "sourceUrl": "https://www.kyndryl.com/in/en/about-us/news/2026/06/ai-orchestration-for-business-launch",
+      "publishedAt": "2026-06-10",
+      "layerIds": [
+        3,
+        4
+      ],
+      "industries": [
+        "IT 服务",
+        "Agent 编排",
+        "供应链 AI",
+        "行业解决方案"
+      ],
+      "beneficiaries": {
+        "industries": [
+          "混合云 AI 服务",
+          "供应链风险管理",
+          "零售与消费品运营自动化",
+          "企业 Agent 治理与审计"
+        ],
+        "companies": [
+          "Kyndryl"
+        ],
+        "stocks": [
+          {
+            "code": "usKD",
+            "name": "Kyndryl",
+            "reason": "新能力依托 Kyndryl 咨询、托管服务和混合云经验，可能提升其在行业级 agentic transformation 项目中的服务机会"
+          }
+        ]
+      },
+      "date": "2026-06-11"
+    },
+    "meta-reliance-india-ai-dc-2026-06": {
+      "id": "meta-reliance-india-ai-dc-2026-06",
+      "title": "Meta 与 Reliance 在印度建设 168MW AI 数据中心",
+      "summary": "TechCrunch 报道，Meta 与 Reliance Industries 达成印度首个 AI 数据中心合作，Meta 将租用 Reliance 在古吉拉特邦 Jamnagar 建设的 168MW AI-enabled 数据中心容量。该设施计划两年内就绪，可使用可再生能源和淡化海水冷却，并支持 Meta 全球 AI 计算需求。事件主要对应算力与基础设施层，也反映印度成为全球 AI 云与数据中心选址的重要增量市场。",
+      "sourceUrl": "https://techcrunch.com/2026/06/10/meta-signs-first-ai-data-center-deal-in-india-with-reliance/",
+      "publishedAt": "2026-06-10",
+      "layerIds": [
+        1,
+        3
+      ],
+      "industries": [
+        "AI 数据中心",
+        "云基础设施",
+        "可再生能源",
+        "主权与本地算力"
+      ],
+      "beneficiaries": {
+        "industries": [
+          "高密度数据中心",
+          "GPU 云基础设施",
+          "数据中心电力与冷却",
+          "印度数字基础设施"
+        ],
+        "companies": [
+          "Meta",
+          "Reliance Industries",
+          "Jio Platforms",
+          "CleanMax",
+          "Fourth Partner Energy"
+        ],
+        "stocks": [
+          {
+            "code": "usMETA",
+            "name": "Meta",
+            "reason": "Meta 通过租用印度本地 AI 数据中心容量扩展全球 AI 基础设施，可能缓解训练与推理算力供给约束"
+          }
+        ]
+      },
+      "date": "2026-06-12"
+    },
+    "openai-ona-codex-cloud-agents-2026-06": {
+      "id": "openai-ona-codex-cloud-agents-2026-06",
+      "title": "OpenAI 拟收购 Ona，扩展 Codex 长时运行云 Agent 能力",
+      "summary": "OpenAI 6 月 11 日宣布拟收购 Ona，将其安全、客户可控的云执行与编排技术纳入 Codex 生态。OpenAI 称 Ona 可让 agents 在组织自己的云环境中持续访问工具、系统和上下文，即使用户设备离线也能推进长时任务。该事件主要对应平台与工具层，并延伸到软件工程和知识工作 Agent 的生产化部署。",
+      "sourceUrl": "https://openai.com/index/openai-to-acquire-ona/",
+      "publishedAt": "2026-06-11",
+      "layerIds": [
+        3,
+        4
+      ],
+      "industries": [
+        "AI 编程",
+        "云开发环境",
+        "Agent 编排",
+        "企业安全"
+      ],
+      "beneficiaries": {
+        "industries": [
+          "长时运行 Agent",
+          "云端开发环境",
+          "软件工程自动化",
+          "企业 Agent 治理"
+        ],
+        "companies": [
+          "OpenAI",
+          "Ona"
+        ],
+        "stocks": []
+      },
+      "date": "2026-06-12"
+    },
+    "openai-oracle-oci-models-codex-2026-06": {
+      "id": "openai-oracle-oci-models-codex-2026-06",
+      "title": "OpenAI 与 Oracle 让 OCI 客户用云承诺采购模型与 Codex",
+      "summary": "OpenAI 6 月 10 日宣布与 Oracle 合作，未来数周内 OCI 客户可把符合条件的 Oracle Universal Credits 用于 OpenAI frontier models 和 Codex。该安排把模型与编码 Agent 采购纳入既有云承诺和治理流程，降低企业从实验转向生产应用时的采购摩擦。事件对应平台与工具层，也关联企业应用层的 AI 工作流部署。",
+      "sourceUrl": "https://openai.com/index/openai-on-oracle-cloud/",
+      "publishedAt": "2026-06-10",
+      "layerIds": [
+        3,
+        4
+      ],
+      "industries": [
+        "云计算",
+        "模型 API",
+        "AI 编程",
+        "企业采购"
+      ],
+      "beneficiaries": {
+        "industries": [
+          "公有云 AI 服务",
+          "模型 API 分发",
+          "企业 AI 采购与治理",
+          "AI 应用开发"
+        ],
+        "companies": [
+          "OpenAI",
+          "Oracle"
+        ],
+        "stocks": [
+          {
+            "code": "usORCL",
+            "name": "Oracle",
+            "reason": "OpenAI 模型和 Codex 可通过 OCI 既有云承诺访问，可能提升 Oracle Cloud 在企业 AI 工作负载中的平台吸引力"
+          }
+        ]
+      },
+      "date": "2026-06-12"
+    },
+    "ivalua-iva-studio-procurement-agent-2026-06": {
+      "id": "ivalua-iva-studio-procurement-agent-2026-06",
+      "title": "Ivalua 推出 IVA Studio，把采购流程统一到 Agent 控制塔",
+      "summary": "Ivalua 6 月 11 日发布 IVA Studio，定位为采购 Source-to-Pay 流程的 AI control tower，用于管理 IVA 的技能、权限、工具和 MCP 集成。公司称 IVA 可在同一平台数据和权限边界内执行合同检索、RFx 启动、发票核验、供应风险响应等采购任务，并保留审计日志和 human-in-the-loop 控制。事件主要对应应用与解决方案层，同时体现企业 SaaS 把 Agent 能力嵌入垂直工作流。",
+      "sourceUrl": "https://www.ivalua.com/press-releases/ivalua-launches-iva-studio-redefining-how-procurement-works-with-ai/",
+      "publishedAt": "2026-06-11",
+      "layerIds": [
+        4,
+        3
+      ],
+      "industries": [
+        "采购 SaaS",
+        "企业 Agent",
+        "MCP",
+        "供应链管理"
+      ],
+      "beneficiaries": {
+        "industries": [
+          "Source-to-Pay 自动化",
+          "供应商风险管理",
+          "垂直 SaaS Agent",
+          "企业工作流审计"
+        ],
+        "companies": [
+          "Ivalua"
+        ],
+        "stocks": []
+      },
+      "date": "2026-06-12"
+    },
+    "tidb-agent-state-stack-2026-06": {
+      "id": "tidb-agent-state-stack-2026-06",
+      "title": "TiDB 发布 Agent State Stack，面向生产级 Agent 记忆与状态",
+      "summary": "TiDB 6 月 11 日在新加坡 SuperAI Summit 发布 Agent State Stack，称其为 AI agents 提供持久记忆、状态和连续上下文的数据基础。该组合包含 TiDB Cloud Zero、mem9 和 drive9，用于存储会话历史、任务记录、工具输出、检索元数据、文件与 Agent 生成内容。事件对应平台与工具层，关注 Agent 从原型走向生产时对可治理状态层和数据库底座的需求。",
+      "sourceUrl": "https://www.prnewswire.com/apac/news-releases/tidb-launches-agent-state-stack-at-superai-summit-singapore-gives-ai-agents-production-grade-memory-302797985.html",
+      "publishedAt": "2026-06-11",
+      "layerIds": [
+        3
+      ],
+      "industries": [
+        "数据库",
+        "Agent 记忆",
+        "向量检索",
+        "企业数据基础设施"
+      ],
+      "beneficiaries": {
+        "industries": [
+          "分布式 SQL 数据库",
+          "Agent 状态管理",
+          "持久记忆服务",
+          "AI 应用数据层"
+        ],
+        "companies": [
+          "TiDB",
+          "PingCAP",
+          "Dify",
+          "Atlassian",
+          "Pinterest"
+        ],
+        "stocks": []
+      },
+      "date": "2026-06-12"
+    },
+    "cresta-conductor-agent-development-2026-06": {
+      "id": "cresta-conductor-agent-development-2026-06",
+      "title": "Cresta 发布 Conductor，用自然语言开发和优化客服 AI Agents",
+      "summary": "Cresta 6 月 11 日发布 Conductor，定位为面向 Cresta 平台的 developer-first agentic engine，可用自然语言完成客服 AI agent 的发现、蓝图、构建、测试、部署和上线后优化。公告称 Conductor 会基于真实客户对话、平台洞察、知识库和部署最佳实践生成 prompt logic、subagent 编排、配置与确定性动作所需代码，并接入 Testing Suite 与 Synthetic Customers 做迭代验证。事件属于应用与解决方案层，并与企业 Agent 开发工具和客户体验 SaaS 平台相关。",
+      "sourceUrl": "https://cresta.com/press/cresta-launches-conductor-the-agent-for-ai-agent-development",
+      "publishedAt": "2026-06-11",
+      "layerIds": [
+        4,
+        3
+      ],
+      "industries": [
+        "客户体验 SaaS",
+        "客服自动化",
+        "Agent 开发",
+        "AI 测试"
+      ],
+      "beneficiaries": {
+        "industries": [
+          "联络中心 AI",
+          "客服 Agent 开发平台",
+          "合成客户测试",
+          "企业工作流自动化"
+        ],
+        "companies": [
+          "Cresta",
+          "United Airlines",
+          "Cox Communications",
+          "Marriott"
+        ],
+        "stocks": []
+      },
+      "date": "2026-06-12"
     }
   }
 }
