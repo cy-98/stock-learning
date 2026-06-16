@@ -1,0 +1,75 @@
+slug: design
+order: 1
+navLabel: 设计
+heading: 阶段 1 · 设计
+progress: 82
+progressLabel: 阶段进度
+updated: "2026-05-31"
+
+lead: |
+  明确数据流、估值模型分类、AI 输入输出契约与前端信息架构，避免「AI 直接编合理价」。
+
+nav:
+  prev: { slug: overview, label: 总览 }
+  next: { slug: foundation, label: 基础准备 }
+
+sections:
+  - title: 本阶段范围
+    list:
+      - 产品目标：实时观察 + 判断是否偏贵 + 合理价格**区间**
+      - 技术边界：浏览器 stock-sdk + 可选后端（财报/分位/AI）
+      - 与五层模型、层热度、投资分析 Tab 的关系
+
+  - title: 交付物
+    list:
+      - 数据模型（`ValuationProfile`、`ValuationVerdict`、`StockInsight`）
+      - 架构图（实时层 / 锚点层 / AI 层 / UI）
+      - **时事管道**：持久化 layer-feed vs 运行时 GDELT（见 automation 阶段）
+      - AI 输出 JSON Schema 与刷新策略
+      - 线框：层内 Top5、个股详情、Watchlist
+
+  - title: 时事数据分层
+    table:
+      headers: [层级, 存储, 刷新, 用途]
+      rows:
+        - ["持久化", "docs/data/layers.json", "Cursor Automation 日更", "层页大事件/趋势、热度 30%"]
+        - ["构建产物", "web/public/data/layer-feed.json", "npm run sync:feed", "前端静态 fetch"]
+        - ["实时", "GDELT API", "用户打开层页", "新闻列表，不写仓库"]
+        - ["实时", "stock-sdk", "浏览器轮询", "Top5 现价/K 线"]
+
+tasks:
+  - name: 对齐 section-1 分析链
+    status: ok
+    progress: 100
+  - name: section-3 估值类型 → valuationProfile
+    status: done
+    progress: 90
+  - name: 定义 valuations.json 字段
+    status: done
+    progress: 95
+  - name: 规则 verdict：cheap / fair / rich / extreme
+    status: done
+    progress: 100
+  - name: AI 层：RAG + memoPrompts + 结构化输出
+    status: todo
+    progress: 25
+  - name: 信息架构：/stock/:code、估值灯、新鲜度
+    status: done
+    progress: 90
+  - name: 日更管道与 Cursor Automation 边界
+    status: done
+    progress: 90
+
+subsections:
+  - title: 核心设计决策
+    items:
+      - heading: 数字锚点
+        body: 合理区间由规则 + section-3 维护；AI 只解释假设，不单独「发明」价格。
+      - heading: 热度 vs 估值
+        body: 层热度与个股估值灯分离，避免「涨得多 = 值得买」。
+      - heading: 未盈利股
+        body: PS 法须低置信度与证伪条件（参考寒武纪等）。
+
+callouts:
+  - type: warn
+    body: stock-sdk 延迟/限流需标注新鲜度；财报缺失时降级为仅区间对比现价。

@@ -1,0 +1,75 @@
+layerId: 2
+slug: model
+updated: "2026-06-16"
+source: "AI 初稿 · section-3 + layer-feed + 紫苏叶理论"
+summary: |
+  模型与算法层：语音/NLP、计算机视觉等底层能力；监管与推理降本并行。
+  办公、内容与纯应用标的已迁至 L4。
+  本层紫苏叶：高质量训练语料 — 没有数据，再强的算法也训不出模型。
+
+shisoLeaf:
+  title: AI 训练语料与标注数据
+  tunaContrast: OpenAI、Google Gemini、科大讯飞大模型 — 人人盯着的「金枪鱼」
+  description: |
+    大模型的能力上限由训练数据的质量与规模决定。GPT 类模型的竞争，表面是算力与参数，底层是语料版权、标注精度与多语种覆盖。
+    高质量语音、文本、多模态标注数据供应商全球稀少，认证周期长，一旦成为头部模型厂的核心供应商，切换成本极高。
+    这是模型层的紫苏叶：没有金枪鱼（大模型）也能活，但没有紫苏叶（数据），寿司卷不起来。
+  scarcity:
+    suppliers: 全球合格供应商分散，但各垂直语种/场景仅 1–2 家头部
+    leadTime: 语料授权与合规审查 6–18 个月，难以快速复制
+    replaceability: 低 — 低质量数据无法通过算力弥补，Garbage In Garbage Out
+  picks:
+    - code: sh688787
+      name: 海天瑞声
+      market: A股
+      tier: primary
+      note: 国内 AI 训练数据与标注龙头；语音/NLP 语料是国产大模型合规训练的刚需紫苏叶
+    - code: sh002230
+      name: 科大讯飞
+      market: A股
+      tier: alternate
+      note: 自有语音语料库 + 行业数据积累，兼具金枪鱼与紫苏叶双重属性
+    - code: usGOOGL
+      name: Alphabet
+      market: 美股
+      tier: alternate
+      note: 搜索索引 + YouTube 构成全球最大语料池之一；市值大但数据护城河是模型层核心资产
+
+picks:
+  - code: sh002230
+    name: 科大讯飞
+    rank: 1
+    priceBias: fair
+    shortTerm:
+      bias: fair
+      label: 合理
+      note: 教育/政企大模型订单节奏影响情绪
+    longTerm:
+      bias: fair
+      label: 合理
+      note: 垂直场景数据与渠道是护城河
+    holdPeriod: 12–18 个月
+    expectedReturnPct: "3% ~ +15%"
+    horizon: long
+    linkedEventTitles:
+      - 监管常态化
+    aiSummary: 行业大模型与语音算法代表；关注毛利率与现金流。
+
+  - code: sh688088
+    name: 虹软科技
+    rank: 2
+    priceBias: fair
+    shortTerm:
+      bias: fair
+      label: 合理
+      note: 手机视觉增速放缓，智驾视觉订单节奏关键
+    longTerm:
+      bias: fair
+      label: 合理偏上
+      note: 高毛利纯算法授权，端侧 AI 与车载视觉是增量
+    holdPeriod: 12–18 个月
+    expectedReturnPct: "5% ~ +18%"
+    horizon: long
+    linkedEventTitles:
+      - 多模态应用落地
+    aiSummary: 计算机视觉算法龙头；跟踪智驾/IoT 新客户突破与授权收入。

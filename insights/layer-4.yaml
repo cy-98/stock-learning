@@ -1,0 +1,151 @@
+layerId: 4
+slug: application
+updated: "2026-06-16"
+source: "AI 初稿 · section-3 + layer-feed + 紫苏叶理论"
+summary: |
+  应用层：办公 Copilot、垂直 SaaS、金融与建筑等行业 AI 落地与 ROI 验证。
+  含「应用+自研模型」双主线标的；智能硬件与动力电池龙头见 L5。
+  本层紫苏叶：垂直行业 Workflow 数据入口 — 没有行业数据，Copilot 只是空壳。
+
+shisoLeaf:
+  title: 建筑造价 Workflow 数据入口
+  tunaContrast: 金山办公 Copilot、微软 365 — 人人盯着的「金枪鱼」
+  description: |
+    通用大模型可以写文案，但无法替代建筑行业几十年的造价定额、清单规范与项目历史数据。
+    广联达深耕建筑信息化 20 余年，造价软件嵌入招投标、施工、结算全流程 — 这是 AI 造价助手不可替代的数据与工作流入口。
+    行业 Copilot 的紫苏叶不是模型本身，而是「模型够不到的私有知识库」。
+  scarcity:
+    suppliers: 国内建筑造价软件市占率超 50%，全球同赛道玩家极少
+    leadTime: 行业数据积累需 10 年+，新进入者无法靠融资快速复制
+    replaceability: 极低 — 切换造价平台意味着重建全部项目历史与合规体系
+  picks:
+    - code: sz002410
+      name: 广联达
+      market: A股
+      tier: primary
+      note: 建筑造价 + BIM 数据入口；AI 造价/施工 Copilot 的紫苏叶，跟踪订阅续费与 AI 功能 ARPU
+    - code: sh600570
+      name: 恒生电子
+      market: A股
+      tier: alternate
+      note: 金融机构核心交易系统入口；金融 AI 落地的紫苏叶，合规与切换成本构成壁垒
+    - code: sh688111
+      name: 金山办公
+      market: A股
+      tier: alternate
+      note: 办公文档数据入口；通用 Copilot 金枪鱼，但私有文档库使其兼具紫苏叶属性
+
+picks:
+  - code: sh600036
+    name: 招商银行
+    rank: 1
+    priceBias: fair
+    shortTerm:
+      bias: fair
+      label: 合理
+      note: 零售银行龙头，估值随利率与资产质量波动
+    longTerm:
+      bias: fair
+      label: 合理偏上
+      note: 财富管理+AI 赋能若提升人均 AUM 效率
+    holdPeriod: 12–24 个月
+    expectedReturnPct: "6% ~ +14%"
+    horizon: long
+    linkedEventTitles:
+      - 行业大模型
+    aiSummary: 金融应用层代表；AI 用于风控、投顾与运营，看 ROE 与不良率。
+
+  - code: sh688111
+    name: 金山办公
+    rank: 2
+    priceBias: rich
+    shortTerm:
+      bias: rich
+      label: 偏高
+      note: Copilot 预期已部分计价
+    longTerm:
+      bias: fair
+      label: 合理
+      note: SaaS+AI 增量若 ARPU 提升则估值可维持
+    holdPeriod: 12–24 个月
+    expectedReturnPct: "0% ~ +18%"
+    horizon: long
+    linkedEventTitles:
+      - Copilot 全面嵌入
+    aiSummary: 办公 Copilot 应用龙头；宜估值回调后配置，规则锚点 280–380 元。
+
+  - code: sh300418
+    name: 昆仑万维
+    rank: 3
+    priceBias: rich
+    shortTerm:
+      bias: rich
+      label: 偏高
+      note: 应用与模型叙事波动大
+    longTerm:
+      bias: fair
+      label: 合理偏上
+      note: 互联网应用+自研大模型（天工）双主线，期权价值高
+    holdPeriod: 6–12 个月
+    expectedReturnPct: "-15% ~ +25%"
+    horizon: medium
+    linkedEventTitles:
+      - 多模态应用落地
+    aiSummary: 应用+自研模型双主线；仓位宜轻，跟踪 AI 收入分部兑现。
+
+  - code: sh601318
+    name: 中国平安
+    rank: 4
+    priceBias: cheap
+    shortTerm:
+      bias: cheap
+      label: 偏低
+      note: 金融板块估值低位
+    longTerm:
+      bias: fair
+      label: 合理
+      note: 综合金融+科技赋能若见效
+    holdPeriod: 12–24 个月
+    expectedReturnPct: "8% ~ +15%"
+    horizon: long
+    linkedEventTitles:
+      - 行业大模型
+    aiSummary: 金融 AI 落地慢但稳；适合价值型配置。
+
+  - code: sh603533
+    name: 掌阅科技
+    rank: 5
+    priceBias: fair
+    shortTerm:
+      bias: cheap
+      label: 偏低
+      note: 内容平台估值承压后修复中
+    longTerm:
+      bias: fair
+      label: 合理
+      note: AI 阅读与版权运营若放量可改善
+    holdPeriod: 6–12 个月
+    expectedReturnPct: "5% ~ +20%"
+    horizon: medium
+    linkedEventTitles:
+      - 开源生态扩张
+    aiSummary: 数字阅读与内容应用；适合事件驱动型跟踪。
+
+  - code: sz002410
+    name: 广联达
+    rank: 6
+    priceBias: fair
+    shortTerm:
+      bias: cheap
+      label: 偏低
+      note: 建筑信息化景气底部修复
+    longTerm:
+      bias: fair
+      label: 合理
+      note: 若地产链企稳+AI 造价工具渗透
+    holdPeriod: 12 个月以上
+    expectedReturnPct: "10% ~ +22%"
+    horizon: long
+    linkedEventTitles:
+      - 工作流嵌入
+    aiSummary: 建筑垂直 SaaS 应用；需跟踪回款与订阅续费。

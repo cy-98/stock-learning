@@ -1,0 +1,113 @@
+layerId: 3
+slug: platform
+updated: "2026-06-16"
+source: "AI 初稿 · section-3 + layer-feed + 紫苏叶理论"
+summary: |
+  平台层：公有云、企业软件平台、安全与算力租赁等 AI 基础设施。
+  垂直行业 SaaS（如建筑信息化）已迁至 L4。
+  本层紫苏叶：AI 集群高速网络交换 — GPU 再多，东西向流量堵死也白搭。
+
+shisoLeaf:
+  title: AI 数据中心高速交换芯片
+  tunaContrast: 微软 Azure、AWS、阿里云 — 人人盯着的「金枪鱼」
+  description: |
+    万卡 GPU 集群的训练与推理，瓶颈往往不在单卡算力，而在机架间东西向网络带宽。
+    400G/800G 以太网交换芯片决定 AI 集群能否高效扩展；高端交换芯片设计门槛极高，客户认证周期长。
+    云厂商可以自研 AI 芯片，但交换网络仍依赖少数芯片供应商 — 这是平台层的隐形咽喉。
+  scarcity:
+    suppliers: 全球高端交换芯片寡头格局（Broadcom 主导，国产盛科等追赶）
+    leadTime: 芯片流片到数据中心认证 2–3 年
+    replaceability: 低 — 集群规模越大，网络拓扑越依赖特定交换芯片生态
+  picks:
+    - code: sh688702
+      name: 盛科通信
+      market: A股
+      tier: primary
+      note: 国内以太网交换芯片龙头；AI 集群国产化网络的紫苏叶候选，跟踪 400G 产品放量
+    - code: usAVGO
+      name: Broadcom
+      market: 美股
+      tier: alternate
+      note: 全球交换芯片 + 定制 AI ASIC 双寡头；市值大但网络咽喉地位稳固
+    - code: usANET
+      name: Arista Networks
+      market: 美股
+      tier: alternate
+      note: 数据中心高速交换机系统龙头；受益于 AI 集群网络升级，是交换瓶颈的「系统集成紫苏叶」
+
+picks:
+  - code: sh600588
+    name: 用友网络
+    rank: 1
+    priceBias: fair
+    shortTerm:
+      bias: fair
+      label: 合理
+      note: 企业软件复苏节奏影响短期股价
+    longTerm:
+      bias: fair
+      label: 合理偏上
+      note: ERP+AI 若渗透率提升有再估值空间
+    holdPeriod: 12–24 个月
+    expectedReturnPct: "0% ~ +15%"
+    horizon: long
+    linkedEventTitles:
+      - Agent 开发平台竞争
+    aiSummary: 传统企业软件龙头转型；看订单与订阅占比。
+
+  - code: sh688158
+    name: 优刻得
+    rank: 2
+    priceBias: cheap
+    shortTerm:
+      bias: cheap
+      label: 偏低
+      note: 云厂商价格战压制盈利预期
+    longTerm:
+      bias: fair
+      label: 合理
+      note: 中性云+算力租赁若毛利企稳可修复
+    holdPeriod: 6–12 个月
+    expectedReturnPct: "8% ~ +25%"
+    horizon: medium
+    linkedEventTitles:
+      - 数据合规升级
+    aiSummary: 弹性标的；适合左侧观察，不宜重仓。
+
+  - code: sh300454
+    name: 深信服
+    rank: 3
+    priceBias: fair
+    shortTerm:
+      bias: fair
+      label: 合理
+      note: 安全+云交付周期影响季度波动
+    longTerm:
+      bias: fair
+      label: 合理
+      note: 企业安全刚需，AI 安全增量
+    holdPeriod: 12–18 个月
+    expectedReturnPct: "5% ~ +18%"
+    horizon: long
+    linkedEventTitles:
+      - RAG 成为标配
+    aiSummary: 防守型成长；估值合理可持有。
+
+  - code: sh601360
+    name: 三六零
+    rank: 4
+    priceBias: fair
+    shortTerm:
+      bias: fair
+      label: 合理
+      note: AI 搜索与安全商业化验证期
+    longTerm:
+      bias: fair
+      label: 合理
+      note: 安全+大模型入口若放量可改善预期
+    holdPeriod: 6–12 个月
+    expectedReturnPct: "0% ~ +20%"
+    horizon: medium
+    linkedEventTitles:
+      - Agent 开发平台竞争
+    aiSummary: 安全与大模型入口叙事；跟踪 AI 收入披露与分部估值。
