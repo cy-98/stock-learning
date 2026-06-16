@@ -1,0 +1,50 @@
+{
+  "date": "2026-06-13",
+  "items": [
+    {
+      "id": "google-icefish-tpu-multi-foundry-2026-06",
+      "title": "Google Icefish TPU 拟拆分代工：台积电算力芯 + 三星 2nm I/O 芯",
+      "summary": "The Information 6 月 11 日报道，Google 正与三星洽谈，让三星代工生产第 10 代 TPU「Icefish」的 memory I/O die（2nm），主算力 die 仍由台积电以 1.4nm 制造。报道同时提及 Google 与 Intel 洽谈 2028 年前生产逾 300 万颗 TPU，以分散对台积电先进产能的依赖。Icefish 与联发科合作设计，最早 2028 年量产，用于 Gemini 训练推理及对外云客户。事件对应算力与基础设施层，反映先进制程产能已成为 AI 芯片扩产瓶颈。",
+      "sourceUrl": "https://www.thelec.net/news/articleView.html?idxno=11285",
+      "publishedAt": "2026-06-11",
+      "layerIds": [1],
+      "industries": ["AI 芯片", "晶圆代工", "TPU", "先进制程"],
+      "beneficiaries": {
+        "industries": ["晶圆代工", "先进封装", "AI 加速器"],
+        "companies": ["Google", "TSMC", "Samsung", "MediaTek", "Intel"],
+        "stocks": [
+          {
+            "code": "usTSM",
+            "name": "台积电",
+            "reason": "Icefish 主算力 die 仍锁定台积电 1.4nm，先进产能紧缺支撑代工龙头定价权"
+          },
+          {
+            "code": "usGOOGL",
+            "name": "Alphabet",
+            "reason": "自研 TPU 对外销售放量，多代工布局降低供应链单点风险"
+          }
+        ]
+      }
+    },
+    {
+      "id": "tsmc-advanced-capacity-constrained-2026-06",
+      "title": "台积电先进制程产能持续紧张，大客户被迫多源代工",
+      "summary": "台积电 CEO 魏哲家在 6 月股东会上表示领先制程节点在可预见未来仍将产能受限。Nvidia、Apple、Google、AMD 等同时争抢 sub-3nm 产能，促使 Google 首次考虑将 TPU 部分工序交给三星，并洽谈 Intel 作为第二来源。该趋势对应算力层「紫苏叶」逻辑：瓶颈从芯片设计转向先进代工与封装产能。",
+      "sourceUrl": "https://www.thevideshi.com/articles/google-icefish-tpu-samsung-tsmc-intel-foundry-20260613",
+      "publishedAt": "2026-06-13",
+      "layerIds": [1],
+      "industries": ["半导体", "晶圆代工", "AI 算力"],
+      "beneficiaries": {
+        "industries": ["先进制程代工", "CoWoS 先进封装", "设备材料"],
+        "companies": ["TSMC", "Samsung", "ASML"],
+        "stocks": [
+          {
+            "code": "sh002371",
+            "name": "北方华创",
+            "reason": "全球扩产周期下国产半导体设备订单受益，与代工产能瓶颈形成对照"
+          }
+        ]
+      }
+    }
+  ]
+}

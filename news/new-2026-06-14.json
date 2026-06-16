@@ -1,0 +1,45 @@
+{
+  "date": "2026-06-14",
+  "items": [
+    {
+      "id": "samsung-google-icefish-io-die-2026-06",
+      "title": "三星有望拿下 Google Icefish TPU 的 I/O die 订单",
+      "summary": "TechTimes 等媒体报道，Google 与三星洽谈让三星代工生产 Icefish TPU 的 input/output die，采用 2nm 工艺，主算力 die 仍由台积电 1.4nm 制造。对三星而言，即便只拿到 I/O 组件，也是其在先进逻辑代工上的一次重要验证。超大规模云厂商开始主动拆分芯片、多源代工，以降低对台积电单一节点的依赖。",
+      "sourceUrl": "https://www.techtimes.com/articles/318307/20260614/samsung-could-make-part-google-icefish-tpu-hyperscalers-hedge-against-tsmc.htm",
+      "publishedAt": "2026-06-14",
+      "layerIds": [1],
+      "industries": ["晶圆代工", "AI 芯片", "2nm 制程"],
+      "beneficiaries": {
+        "industries": ["Foundry", "HBM 互连", "AI 加速器"],
+        "companies": ["Samsung", "Google", "TSMC"],
+        "stocks": [
+          {
+            "code": "usTSM",
+            "name": "台积电",
+            "reason": "主算力 die 仍由台积电制造，先进节点稀缺性未减"
+          }
+        ]
+      }
+    },
+    {
+      "id": "hyperscaler-foundry-diversification-2026-06",
+      "title": "超大规模云厂商加速「三厂代工」策略分散 AI 芯片风险",
+      "summary": "Google Icefish 拟拆分台积电、三星、Intel 三家代工的消息持续发酵。分析师指出，AI 芯片需求爆发使 TSMC 先进产能成为全行业咽喉，Apple 等厂商亦被报道考察三星产能。对投资者而言，代工格局从「台积电独家」走向「多源备份」，但性能关键节点仍高度集中。",
+      "sourceUrl": "https://finance.biggo.com/news/92q3t54BjNmBQNsN14-L",
+      "publishedAt": "2026-06-14",
+      "layerIds": [1, 3],
+      "industries": ["半导体供应链", "云计算", "AI 基础设施"],
+      "beneficiaries": {
+        "industries": ["晶圆代工", "云 AI 基础设施", "先进封装"],
+        "companies": ["Google", "Intel", "Samsung", "TSMC"],
+        "stocks": [
+          {
+            "code": "usINTC",
+            "name": "Intel",
+            "reason": "报道称 Google 洽谈 Intel 生产逾 300 万颗 TPU，代工复苏叙事获新催化"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -57,11 +57,37 @@ export async function fetchDailyNewsCatalog(): Promise<{
 }
 
 export function getTodayBundle(catalog: DailyNewsCatalog | null): DailyNewsDayBundle | null {
-  if (!catalog) return null;
-  const date = catalog.today;
-  const bundle = catalog.days[date];
-  if (!bundle?.items?.length) return null;
-  return bundle;
+  return getDisplayBundle(catalog).bundle;
+}
+
+/** 今日无数据时回退到最近一日，避免 Automation 空档导致首页空白 */
+export function getDisplayBundle(catalog: DailyNewsCatalog | null): {
+  bundle: DailyNewsDayBundle | null;
+  displayDate: string;
+  isFallback: boolean;
+} {
+  if (!catalog) return { bundle: null, displayDate: '', isFallback: false };
+
+  const today = catalog.today;
+  const todayBundle = catalog.days[today];
+  if (todayBundle?.items?.length) {
+    return { bundle: todayBundle, displayDate: today, isFallback: false };
+  }
+
+  const latestDate = Object.keys(catalog.days)
+    .sort()
+    .reverse()
+    .find((d) => (catalog.days[d]?.items?.length ?? 0) > 0);
+
+  if (latestDate) {
+    return {
+      bundle: catalog.days[latestDate],
+      displayDate: latestDate,
+      isFallback: true,
+    };
+  }
+
+  return { bundle: null, displayDate: today, isFallback: false };
 }
 
 export function getNewsItemById(

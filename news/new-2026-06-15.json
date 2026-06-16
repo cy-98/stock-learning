@@ -1,0 +1,50 @@
+{
+  "date": "2026-06-15",
+  "items": [
+    {
+      "id": "nvidia-moe-kernels-93pct-2026-06",
+      "title": "Nvidia 发布 MoE 融合训练内核，GPT 预训练吞吐最高提升 93%",
+      "summary": "Nvidia 6 月 15 日通过 cuDNN Frontend、Transformer Engine 与 Megatron Core 发布面向 Mixture-of-Experts 模型的融合训练内核。官方内测显示内核级加速 1.3–2.1 倍，GPT-OSS 预训练端到端最高提升 93%，DeepSeek-V3 预训练提升 8%。MoE 是前沿大模型扩规模的主流架构，训练效率优化直接降低算力成本，对应模型层与算力层交叉。",
+      "sourceUrl": "https://blockchain.news/news/nvidia-moe-kernels-ai-training-efficiency",
+      "publishedAt": "2026-06-15",
+      "layerIds": [1, 2],
+      "industries": ["AI 训练", "MoE 模型", "GPU 软件栈"],
+      "beneficiaries": {
+        "industries": ["GPU 算力", "大模型训练", "AI 框架"],
+        "companies": ["NVIDIA", "OpenAI", "DeepSeek"],
+        "stocks": [
+          {
+            "code": "usNVDA",
+            "name": "英伟达",
+            "reason": "软硬件协同优化巩固 GPU 在大模型训练中的首选地位"
+          }
+        ]
+      }
+    },
+    {
+      "id": "openai-nvidia-vera-rubin-gw-2026-06",
+      "title": "OpenAI 与 Nvidia 5GW 算力承诺进入落地验证期",
+      "summary": "2 月 OpenAI 完成 1220 亿美元融资后，与 Nvidia 签订 5GW Vera Rubin 推理与训练算力绑定承诺，取代原 1000 亿美元非约束投资意向。Nvidia 在 GTC 2026 确认 Vera Rubin 平台已于 2026 年初量产，AWS、Azure、GCP、OCI 等于下半年开始部署。第一 GW 落地将检验「算力绑定 + 股权融资」新合作模式，对应算力层资本开支周期。",
+      "sourceUrl": "https://www.investing.com/analysis/nvidia-and-openais-100-billion-deal-is-dead-what-replaced-it-matters-more-200680620",
+      "publishedAt": "2026-06-15",
+      "layerIds": [1, 3],
+      "industries": ["AI 算力", "云计算", "GPU 基础设施"],
+      "beneficiaries": {
+        "industries": ["AI 数据中心", "液冷与电力", "高速互连"],
+        "companies": ["NVIDIA", "OpenAI", "Oracle", "Microsoft"],
+        "stocks": [
+          {
+            "code": "usNVDA",
+            "name": "英伟达",
+            "reason": "5GW 绑定承诺提供 2027 年前硬件需求能见度"
+          },
+          {
+            "code": "usORCL",
+            "name": "Oracle",
+            "reason": "OCI 为下半年 Vera Rubin 部署合作伙伴之一"
+          }
+        ]
+      }
+    }
+  ]
+}

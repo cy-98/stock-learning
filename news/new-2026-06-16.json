@@ -1,0 +1,80 @@
+{
+  "date": "2026-06-16",
+  "items": [
+    {
+      "id": "huang-openai-investment-taipei-2026-06",
+      "title": "黄仁勋台北回应：Nvidia 仍将大幅参与 OpenAI 新一轮融资",
+      "summary": "Nvidia CEO 黄仁勋在台北访问期间回应媒体称，有关公司缩减对 OpenAI 1000 亿美元投资的报道是「nonsense」，Nvidia 仍将在 OpenAI 新一轮融资中大幅参与。OpenAI 发言人称双方正积极推进合作细节。此前 Nvidia 已通过 300 亿美元股权投资参与 OpenAI 1220 亿美元融资，并绑定 5GW Vera Rubin 算力承诺。事件对应算力层与平台层，反映 AI 基础设施投资的持续高强度。",
+      "sourceUrl": "https://mlq.ai/news/nvidia-ceo-huang-affirms-openai-investment-plans-despite-rumors/",
+      "publishedAt": "2026-06-16",
+      "layerIds": [1, 2],
+      "industries": ["AI 算力", "GPU", "大模型融资"],
+      "beneficiaries": {
+        "industries": ["AI 芯片", "数据中心建设", "云算力租赁"],
+        "companies": ["NVIDIA", "OpenAI", "TSMC"],
+        "stocks": [
+          {
+            "code": "usNVDA",
+            "name": "英伟达",
+            "reason": "与 OpenAI 深度绑定巩固 GPU 需求，抵消市场对合作生变的担忧"
+          },
+          {
+            "code": "usTSM",
+            "name": "台积电",
+            "reason": "Vera Rubin 及 AI 芯片放量仍依赖台积电先进制程产能"
+          }
+        ]
+      }
+    },
+    {
+      "id": "inp-substrate-photonics-bottleneck-2026-06",
+      "title": "磷化铟衬底短缺持续，AI 光互连上游成供应链新瓶颈",
+      "summary": "随着 800G/1.6T 光模块与 CPO（光电共封装）需求上升，磷化铟（InP）衬底供应紧张成为 AI 基础设施的新瓶颈。IntelliEPI 等衬底厂商 CEO 在 2026 年初业绩会公开警告 InP 短缺制约整个 AI 光子产业链。西方有效 InP 衬底产能高度集中于少数供应商，扩产周期长达数年 — 这正是「紫苏叶理论」在算力层的典型卡脖子环节。",
+      "sourceUrl": "https://semiconstocks.com/",
+      "publishedAt": "2026-06-16",
+      "layerIds": [1],
+      "industries": ["光互连", "磷化铟衬底", "CPO", "800G 光模块"],
+      "beneficiaries": {
+        "industries": ["化合物半导体衬底", "激光器芯片", "硅光子"],
+        "companies": ["AXT", "Lumentum", "Coherent", "源杰科技"],
+        "stocks": [
+          {
+            "code": "usAXTI",
+            "name": "AXT Inc.",
+            "reason": "西方 InP/GaAs 衬底龙头，光子供应链隐形瓶颈"
+          },
+          {
+            "code": "sh688498",
+            "name": "源杰科技",
+            "reason": "国内高速激光器芯片，衬底短缺时上游议价力向器件端传导"
+          }
+        ]
+      }
+    },
+    {
+      "id": "shiso-leaf-theory-stock-learning-2026-06",
+      "title": "stock-learning 五层模型嵌入「紫苏叶理论」瓶颈投资框架",
+      "summary": "本仓库完成紫苏叶理论改造：五层 AI 投资模型每层新增「紫苏叶」卡片，对照金枪鱼龙头，标注不可替代的上游瓶颈环节与推荐标的。L1 聚焦磷化铟衬底与 CPO 光链路，L2 训练语料，L3 交换芯片，L4 垂直 Workflow 数据，L5 烧结钕铁硼永磁。层页 AI 荐股 Tab 可查看完整描述与稀缺性分析。",
+      "sourceUrl": "https://github.com/cy-98/stock-learning",
+      "publishedAt": "2026-06-16",
+      "layerIds": [1, 2, 3, 4, 5],
+      "industries": ["投资方法论", "供应链分析", "AI 五层模型"],
+      "beneficiaries": {
+        "industries": ["半导体材料", "训练数据", "企业 SaaS", "稀土永磁"],
+        "companies": ["AXT", "海天瑞声", "盛科通信", "广联达", "金力永磁"],
+        "stocks": [
+          {
+            "code": "usAXTI",
+            "name": "AXT Inc.",
+            "reason": "L1 紫苏叶首选：InP 衬底瓶颈"
+          },
+          {
+            "code": "sh300748",
+            "name": "金力永磁",
+            "reason": "L5 紫苏叶首选：机器人电机永磁材料"
+          }
+        ]
+      }
+    }
+  ]
+}

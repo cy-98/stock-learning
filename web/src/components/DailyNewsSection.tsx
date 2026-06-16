@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import { LAYERS } from '../config/layers';
 import {
   fetchDailyNewsCatalog,
-  getTodayBundle,
+  getDisplayBundle,
   type DailyNewsStatus,
 } from '../services/dailyNews';
 import type { DailyNewsCatalog, DailyNewsItem } from '../types/dailyNews';
@@ -43,7 +43,7 @@ export function DailyNewsSection() {
     };
   }, []);
 
-  const bundle = getTodayBundle(catalog);
+  const { bundle, displayDate, isFallback } = getDisplayBundle(catalog);
   const today = catalog?.today ?? new Date().toISOString().slice(0, 10);
   const hasNews = (bundle?.items.length ?? 0) > 0;
 
@@ -53,10 +53,13 @@ export function DailyNewsSection() {
         <div className="flex flex-wrap items-center justify-between gap-2">
           <div>
             <h2 id="daily-news-heading" className="card-title text-lg font-semibold">
-              今日要闻
+              {isFallback ? '最近要闻' : '今日要闻'}
             </h2>
             <p className="text-xs text-muted">
-              五层模型相关时事 · {today}
+              五层模型相关时事 · {displayDate || today}
+              {isFallback && (
+                <span className="text-warning"> · 今日尚未更新，展示最近一日</span>
+              )}
               {bundle?.sourceFiles.length
                 ? ` · ${bundle.sourceFiles.length} 个来源文件`
                 : null}
