@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-28",
+  "updated": "2026-06-17",
   "source": "docs/data/layers.json",
   "layers": {
     "1": {
@@ -28,6 +28,16 @@
           "date": "2026-05",
           "title": "电力板块题材波动",
           "body": "大唐发电等标的短期暴涨，案例提示：逻辑可对、价格需估值纪律。"
+        },
+        {
+          "date": "2026-06-15",
+          "title": "CoWoS 供需缺口仍待收窄",
+          "body": "TrendForce 称台积电与封测伙伴扩充先进封装产能，CoWoS 缺口有望由约 20% 收窄至年底约 10%。"
+        },
+        {
+          "date": "2026-06-16",
+          "title": "AI 数据中心自建电力加速",
+          "body": "Reuters 统计美国至少 57 个面向单一数据中心的离网电厂项目在推进，总容量约 73GW，凸显算力扩张的电力约束。"
         }
       ],
       "trends": [
@@ -74,6 +84,11 @@
           "date": "2026",
           "title": "开源生态扩张",
           "body": "企业私有化部署需求带动一体机与国产算力适配。"
+        },
+        {
+          "date": "2026-06-15",
+          "title": "Anthropic 顶级模型出口管制争议",
+          "body": "Reuters 报道美国商务部要求 Anthropic 暂停 Fable 5 与 Mythos 5 对全球及外籍用户的访问，AI 模型合规边界继续前移。"
         }
       ],
       "trends": [
@@ -115,6 +130,11 @@
           "date": "2026",
           "title": "数据合规升级",
           "body": "企业内网部署与私有化模型需求增加。"
+        },
+        {
+          "date": "2026-06-16",
+          "title": "GitHub 以多云扩容承接 Agent 流量",
+          "body": "Cloud Computing News 援引 Business Insider 称，Microsoft 为 GitHub 增补 AWS 容量，以应对 AI 编程活动激增带来的平台压力。"
         }
       ],
       "trends": [
@@ -151,6 +171,11 @@
           "date": "2026",
           "title": "垂直 Agent 融资活跃",
           "body": "法律、财务、客服等场景出现专业化智能体产品。"
+        },
+        {
+          "date": "2026-06-16",
+          "title": "Copilot Cowork 全球可用",
+          "body": "Microsoft 宣布 Copilot Cowork 面向 Microsoft 365 Copilot 客户全球 GA，采用按任务消耗 Copilot Credits 的用量计费。"
         }
       ],
       "trends": [
@@ -197,6 +222,16 @@
           "date": "持续",
           "title": "投资方法论沉淀",
           "body": "本仓库 Section 1/2：框架 + 澜起、电力案例复盘。"
+        },
+        {
+          "date": "2026-06-16",
+          "title": "阿里发布机器人 AI 模型套件",
+          "body": "Reuters 报道阿里巴巴推出首套面向机器人的 AI 模型，显示中国科技公司从聊天机器人转向可执行复杂任务的 Agent 与具身智能。"
+        },
+        {
+          "date": "2026-06-16",
+          "title": "美国稀土加工项目获国防融资承诺",
+          "body": "Reuters 报道 Pentagon Office of Strategic Capital 条件性承诺向 Phoenix Tailings 提供 5 亿美元长期贷款，用于美国稀土中游加工设施。"
         }
       ],
       "trends": [
