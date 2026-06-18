@@ -1,0 +1,115 @@
+{
+  "date": "2026-06-18",
+  "items": [
+    {
+      "id": "sk-hynix-hbm4e-samples-2026-06",
+      "title": "SK hynix 向主要客户交付 12 层 HBM4E 样品",
+      "summary": "SK hynix 6 月 18 日宣布，已向主要客户交付面向 AI 的 12 层 HBM4E 样品。该产品最高速度为每针 16Gbps，功耗效率较上一代提升 20% 以上，并采用 Advanced MR-MUF 将热阻降低 17%。事件对应算力层的高带宽内存瓶颈，说明 AI 训练与推理集群对 HBM 代际升级的需求仍在前移到客户验证阶段。",
+      "sourceUrl": "https://news.skhynix.com/12-layer-hbm4e-sample/",
+      "publishedAt": "2026-06-18",
+      "layerIds": [1],
+      "industries": ["HBM", "AI 内存", "半导体封装", "AI 算力"],
+      "beneficiaries": {
+        "industries": ["高带宽内存", "先进封装", "AI 加速器"],
+        "companies": ["SK hynix", "NVIDIA", "AMD", "Google"],
+        "stocks": [
+          {
+            "code": "usNVDA",
+            "name": "英伟达",
+            "reason": "下一代 AI 加速器平台对 HBM 供给与功耗效率高度敏感，样品验证推进有助于供应链准备"
+          },
+          {
+            "code": "usAMD",
+            "name": "AMD",
+            "reason": "AMD 等 AI 芯片客户需要多代 HBM 供给支撑训练与推理平台放量"
+          }
+        ]
+      }
+    },
+    {
+      "id": "microsoft-copilot-cowork-agent365-2026-06",
+      "title": "Microsoft 宣布 Copilot Cowork 全球可用，并把 Agent 365 扩展到成本治理",
+      "summary": "Microsoft 6 月 16 日称 Copilot Cowork 已在全球正式可用，采用 Microsoft 365 Copilot 订阅叠加用量计费。公司同时强调 Agent 365 作为统一控制平面，可观察、治理、管理和保护企业内的 AI agents，并扩展到 agent 花费管理。该事件横跨平台层与应用层，反映办公 Copilot 正从助手功能进入可治理的长流程 agent 工作模式。",
+      "sourceUrl": "https://blogs.microsoft.com/blog/2026/06/16/achieving-success-with-ai/",
+      "publishedAt": "2026-06-16",
+      "layerIds": [3, 4],
+      "industries": ["办公 Copilot", "AI Agent 治理", "企业软件", "FinOps"],
+      "beneficiaries": {
+        "industries": ["协同办公 SaaS", "AI Agent 管理平台", "企业安全与合规"],
+        "companies": ["Microsoft", "GitHub"],
+        "stocks": [
+          {
+            "code": "usMSFT",
+            "name": "微软",
+            "reason": "Copilot Cowork 与 Agent 365 将席位订阅和用量计费结合，可能提升企业 AI 工作流商业化弹性"
+          }
+        ]
+      }
+    },
+    {
+      "id": "meta-facebook-ai-mode-2026-06",
+      "title": "Meta 在 Facebook 推出 AI Mode 搜索与 AI 创作工具",
+      "summary": "Meta 6 月中旬在 Facebook 推出 AI Mode 搜索页签，使用 Meta AI 给出基于 Groups、Reels 等公开内容的答案，而不是只展示网页链接。公司还上线 AI 剪辑模板、视频转场与照片换装等创作功能，并说明相机胶卷分享建议保持 opt-in。该事件属于模型能力嵌入消费应用，连接模型层与应用层。",
+      "sourceUrl": "https://about.fb.com/news/2026/06/new-ai-tools-to-help-you-make-things-happen-on-facebook/",
+      "publishedAt": "2026-06-17",
+      "layerIds": [2, 4],
+      "industries": ["AI 搜索", "社交平台", "内容创作", "多模态应用"],
+      "beneficiaries": {
+        "industries": ["社交内容分发", "生成式创作工具", "广告与推荐系统"],
+        "companies": ["Meta"],
+        "stocks": [
+          {
+            "code": "usMETA",
+            "name": "Meta Platforms",
+            "reason": "AI Mode 和创作工具增加 Meta AI 在核心社交产品中的触点，可能提升用户互动与广告数据闭环"
+          }
+        ]
+      }
+    },
+    {
+      "id": "salesforce-databricks-agent-data-governance-2026-06",
+      "title": "Salesforce 与 Databricks 扩展 Zero Copy 合作，补齐企业 agents 数据治理",
+      "summary": "Salesforce 6 月 16 日宣布与 Databricks 扩大合作，在 Data 360 与 Unity Catalog 的 Zero Copy 基础上加入联邦认证、身份映射、治理互操作和元数据感知访问控制。双方还计划通过双向 Federated Search、MuleSoft Agent Scanners、Agent Fabric 与 Databricks Unity AI Gateway，让 Agentforce agents 能在受控权限下检索 Databricks 数据并触发业务流程。事件对应平台层与应用层，核心是把企业数据权限、上下文与 agent 行动闭环打通。",
+      "sourceUrl": "https://www.salesforce.com/news/stories/salesforce-databricks-shared-foundation-of-human-agent-work-announcement/",
+      "publishedAt": "2026-06-16",
+      "layerIds": [3, 4],
+      "industries": ["数据云", "Agentic CRM", "企业数据治理", "MCP"],
+      "beneficiaries": {
+        "industries": ["CRM SaaS", "Lakehouse", "数据治理", "企业 Agent 平台"],
+        "companies": ["Salesforce", "Databricks", "MuleSoft", "Slack"],
+        "stocks": [
+          {
+            "code": "usCRM",
+            "name": "Salesforce",
+            "reason": "Agentforce 若能安全调用外部湖仓数据，将增强 CRM 工作流 agent 的上下文与可执行性"
+          }
+        ]
+      }
+    },
+    {
+      "id": "dataiku-cobuild-ga-governed-ai-projects-2026-06",
+      "title": "Dataiku Cobuild 正式可用，把业务意图生成可审计 AI 项目",
+      "summary": "Dataiku 6 月 16 日宣布 Cobuild 发布，并称 6 月 18 日起向客户正式可用。Cobuild 可将自然语言业务目标转化为 Dataiku 项目，生成数据流水线、机器学习模型、agents 与应用，并以可视化流程供业务、治理和 IT 团队审查。该产品落在平台层与应用层交界，反映企业 AI 从原型生成转向受权限、数据驻留和多模型治理约束的生产化工具。",
+      "sourceUrl": "https://www.prnewswire.com/apac/news-releases/dataiku-announces-cobuild-general-availability-the-ai-building-agent-that-closes-the-build-govern-gap-302801300.html",
+      "publishedAt": "2026-06-16",
+      "layerIds": [3, 4],
+      "industries": ["MLOps", "AI Agent 开发", "企业数据平台", "AI 治理"],
+      "beneficiaries": {
+        "industries": ["企业 AI 平台", "数据治理", "多模型编排"],
+        "companies": ["Dataiku", "Snowflake", "OpenAI", "Anthropic", "AWS", "Google Cloud", "Microsoft", "Databricks"],
+        "stocks": [
+          {
+            "code": "usSNOW",
+            "name": "Snowflake",
+            "reason": "Cobuild 支持 Snowflake Cortex AI 等企业模型与数据平台，生态型工具普及可能带动平台侧用量"
+          },
+          {
+            "code": "usAMZN",
+            "name": "亚马逊",
+            "reason": "Cobuild 可接入 AWS Bedrock，企业 AI 项目生产化会增加云模型服务与算力消耗"
+          }
+        ]
+      }
+    }
+  ]
+}
