@@ -1,6 +1,6 @@
 layerId: 5
 slug: ecosystem
-updated: "2026-06-16"
+updated: "2026-06-19"
 source: "AI 初稿 · section-3 + layer-feed + 紫苏叶理论"
 summary: |
   生态层：稀土永磁、智能汽车供应链、消费级机器人等物理世界终端。
@@ -91,6 +91,7 @@ picks:
     horizon: long
     linkedEventTitles:
       - 人形机器人 2027+
+      - 稀土磁材对接人形机器人
     aiSummary: 稀土永磁制造龙头；20–30 元区间锚点参考 section-3。
 
   - code: sh600392
@@ -129,6 +130,7 @@ picks:
     horizon: long
     linkedEventTitles:
       - 人形机器人 2027+
+      - 稀土磁材对接人形机器人
     aiSummary: 智能车/储能供应链龙头；AI 用于制造与研发，非纯软件应用。
 
   - code: sh688169

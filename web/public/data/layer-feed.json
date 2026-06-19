@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-28",
+  "updated": "2026-06-19",
   "source": "docs/data/layers.json",
   "layers": {
     "1": {
@@ -28,6 +28,11 @@
           "date": "2026-05",
           "title": "电力板块题材波动",
           "body": "大唐发电等标的短期暴涨，案例提示：逻辑可对、价格需估值纪律。"
+        },
+        {
+          "date": "2026-06-18",
+          "title": "SK 海力士发出 HBM4E 样品",
+          "body": "韩联社报道，SK 海力士已向主要全球客户交付 12 层 HBM4E 样品，称功耗效率较上一代提升 20% 以上；量产仍需客户验证与先进封装配套。"
         }
       ],
       "trends": [
@@ -74,6 +79,11 @@
           "date": "2026",
           "title": "开源生态扩张",
           "body": "企业私有化部署需求带动一体机与国产算力适配。"
+        },
+        {
+          "date": "2026-06-18",
+          "title": "Gemini 联合负责人转投 OpenAI",
+          "body": "Reuters 等报道，Google Gemini 模型联合负责人 Noam Shazeer 宣布离开 Google 加入 OpenAI，前沿模型架构人才竞争继续升温。"
         }
       ],
       "trends": [
@@ -115,6 +125,11 @@
           "date": "2026",
           "title": "数据合规升级",
           "body": "企业内网部署与私有化模型需求增加。"
+        },
+        {
+          "date": "2026-06-18",
+          "title": "Bedrock 托管知识库强化 RAG",
+          "body": "AWS 宣布 Amazon Bedrock Managed Knowledge Base，将企业数据连接、智能解析、多跳检索与 AgentCore Gateway/MCP 集成封装为托管能力。"
         }
       ],
       "trends": [
@@ -151,6 +166,11 @@
           "date": "2026",
           "title": "垂直 Agent 融资活跃",
           "body": "法律、财务、客服等场景出现专业化智能体产品。"
+        },
+        {
+          "date": "2026-06-16",
+          "title": "Copilot Cowork 全球 GA",
+          "body": "Microsoft 宣布 Copilot Cowork 面向 Microsoft 365 Copilot 客户全球可用，可执行长时多工具任务，并采用 Copilot Credits 按用量计费。"
         }
       ],
       "trends": [
@@ -197,6 +217,11 @@
           "date": "持续",
           "title": "投资方法论沉淀",
           "body": "本仓库 Section 1/2：框架 + 澜起、电力案例复盘。"
+        },
+        {
+          "date": "2026-06-16",
+          "title": "稀土磁材对接人形机器人",
+          "body": "行业媒体报道，深圳举行稀土磁材与机器人供应链对接活动，50 多家企业参与，显示钕铁硼磁材仍是人形机器人执行器的重要约束。"
         }
       ],
       "trends": [
