@@ -1,0 +1,105 @@
+{
+  "date": "2026-06-19",
+  "items": [
+    {
+      "id": "sk-hynix-hbm4e-samples-2026-06",
+      "title": "SK hynix 开始向主要客户送样 12 层 HBM4E",
+      "summary": "SK hynix 6 月 18 日宣布，已向主要客户交付 12 层 HBM4E 样品，单 pin 最高速率 16Gbps，功耗效率较上一代提升超过 20%。该产品面向 AI 数据中心与大规模计算系统，仍处于客户验证和量产准备阶段。HBM 是 GPU/AI 加速器的关键配套，事件对应算力与基础设施层的存储带宽瓶颈。",
+      "sourceUrl": "https://news.skhynix.com/12-layer-hbm4e-sample/",
+      "publishedAt": "2026-06-18",
+      "layerIds": [1],
+      "industries": ["HBM", "AI 存储", "半导体"],
+      "beneficiaries": {
+        "industries": ["高带宽内存", "AI 加速器", "先进封装"],
+        "companies": ["SK hynix", "NVIDIA", "AMD", "Google"],
+        "stocks": [
+          {
+            "code": "usNVDA",
+            "name": "英伟达",
+            "reason": "HBM4E 进入客户验证有助于支撑下一代 AI 加速器的带宽与能效路线图"
+          },
+          {
+            "code": "usAMD",
+            "name": "AMD",
+            "reason": "AI 加速器同样依赖高带宽内存，多供应商送样可提升后续平台供给弹性"
+          }
+        ]
+      }
+    },
+    {
+      "id": "coherent-texas-inp-optics-expansion-2026-06",
+      "title": "Coherent 德州 InP 扩产动工，AI 光互连上游继续加码",
+      "summary": "Coherent 在德州 Sherman 为扩建制造楼举行奠基，计划扩大激光器、光器件和化合物半导体产能，并获得 5000 万美元 CHIPS Act 补助。NVIDIA 披露双方已有多年合作，Coherent 的 InP 激光器与光模块用于 AI 数据中心跨机架互连和光子交换相关方案。事件说明 AI 集群扩张正把瓶颈推向光互连与 InP 产能，对应算力基础设施层。",
+      "sourceUrl": "https://blogs.nvidia.com/blog/coherent-texas-ai-optical/",
+      "publishedAt": "2026-06-16",
+      "layerIds": [1],
+      "industries": ["光互连", "磷化铟", "AI 数据中心"],
+      "beneficiaries": {
+        "industries": ["光模块", "化合物半导体", "硅光子"],
+        "companies": ["Coherent", "NVIDIA"],
+        "stocks": [
+          {
+            "code": "usCOHR",
+            "name": "Coherent",
+            "reason": "扩建 InP 与光器件产能，直接对应 AI 数据中心高速互连需求"
+          },
+          {
+            "code": "usNVDA",
+            "name": "英伟达",
+            "reason": "AI 集群规模扩大时，光互连供给改善有助于缓解跨机架通信瓶颈"
+          }
+        ]
+      }
+    },
+    {
+      "id": "apple-pcc-nvidia-google-confidential-2026-06",
+      "title": "Apple Private Cloud Compute 扩展到 Google Cloud 并采用 NVIDIA 机密计算",
+      "summary": "NVIDIA 披露，带 Confidential Computing 的 Blackwell GPU 将用于 Apple Private Cloud Compute 在 Google Cloud 上的服务器端推理，支持下一代 Apple Intelligence 功能。该方案把 Apple Foundation Models、Google Cloud 与 NVIDIA 硬件级可信执行环境结合，用于在云端处理隐私敏感推理任务。事件横跨算力层、平台层与应用层，显示端侧 AI 正通过受控云推理补足能力。",
+      "sourceUrl": "https://blogs.nvidia.com/blog/nvidia-confidential-computing-apple-private-cloud-compute/",
+      "publishedAt": "2026-06-18",
+      "layerIds": [1, 3, 4],
+      "industries": ["机密计算", "云推理", "端侧 AI"],
+      "beneficiaries": {
+        "industries": ["AI 云服务", "隐私计算", "消费电子 AI"],
+        "companies": ["Apple", "NVIDIA", "Google Cloud"],
+        "stocks": [
+          {
+            "code": "usAAPL",
+            "name": "苹果",
+            "reason": "通过受控云推理扩展 Apple Intelligence 能力，同时维持隐私承诺"
+          },
+          {
+            "code": "usGOOGL",
+            "name": "Alphabet",
+            "reason": "Google Cloud 承接 PCC 推理工作负载，体现云平台在端侧 AI 生态中的基础设施角色"
+          },
+          {
+            "code": "usNVDA",
+            "name": "英伟达",
+            "reason": "Blackwell 机密计算进入消费级 AI 云推理场景，扩大高性能 GPU 的安全工作负载边界"
+          }
+        ]
+      }
+    },
+    {
+      "id": "anthropic-seoul-ai-safety-korea-2026-06",
+      "title": "Anthropic 开设首尔办公室并与韩国科技部签署 AI 安全 MOU",
+      "summary": "Anthropic 6 月 17 日宣布开设首尔办公室，并与韩国科学技术信息通信部签署 MOU，合作方向包括公共部门负责任采用 AI、韩语模型安全评估和 AI 网络威胁信息交流。公司同时披露 NAVER、Nexon、LG CNS、Samsung SDS、Hanwha Solutions 等韩国企业使用或部署 Claude/Claude Code 的案例。事件对应模型层、平台层与应用层，重点在企业 AI 工具、治理与本地生态扩展。",
+      "sourceUrl": "https://www.anthropic.com/news/seoul-office-partnerships-korean-ai-ecosystem?s=",
+      "publishedAt": "2026-06-17",
+      "layerIds": [2, 3, 4],
+      "industries": ["大模型", "AI 安全", "企业软件"],
+      "beneficiaries": {
+        "industries": ["AI 安全评测", "企业智能体", "云模型服务"],
+        "companies": ["Anthropic", "NAVER", "LG CNS", "Samsung SDS", "AWS"],
+        "stocks": [
+          {
+            "code": "usAMZN",
+            "name": "亚马逊",
+            "reason": "官方披露 Hanwha Solutions 通过 AWS Bedrock 使用 Claude，显示云模型平台仍是企业部署的重要入口"
+          }
+        ]
+      }
+    }
+  ]
+}
