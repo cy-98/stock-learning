@@ -1,6 +1,6 @@
 layerId: 4
 slug: application
-updated: "2026-06-16"
+updated: "2026-06-19"
 source: "AI 初稿 · section-3 + layer-feed + 紫苏叶理论"
 summary: |
   应用层：办公 Copilot、垂直 SaaS、金融与建筑等行业 AI 落地与 ROI 验证。
@@ -72,6 +72,7 @@ picks:
     horizon: long
     linkedEventTitles:
       - Copilot 全面嵌入
+      - Copilot Cowork 全球 GA
     aiSummary: 办公 Copilot 应用龙头；宜估值回调后配置，规则锚点 280–380 元。
 
   - code: sh300418

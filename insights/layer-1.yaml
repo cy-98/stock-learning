@@ -1,6 +1,6 @@
 layerId: 1
 slug: infrastructure
-updated: "2026-06-16"
+updated: "2026-06-19"
 source: "AI 初稿 · section-3 + layer-feed + 紫苏叶理论"
 summary: |
   算力层分化加剧：AI 算力链高景气，设备与芯片设计是核心跟踪对象。
@@ -112,6 +112,7 @@ picks:
     linkedEventTitles:
       - 澜起科技 H 股上市
       - HBM 超级周期
+      - SK 海力士发出 HBM4E 样品
     aiSummary: 优质 Fabless；现价宜观察，135–173 区间更具安全边际。
 
   - code: sh002371
