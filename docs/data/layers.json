@@ -2,7 +2,7 @@
   "meta": {
     "title": "AI 五层模型",
     "subtitle": "从算力底座到场景落地 · 行业 · 趋势 · 事件 · Section 1 投资分析",
-    "updated": "2026-05-28"
+    "updated": "2026-06-21"
   },
   "layers": [
     {
@@ -111,6 +111,11 @@
           "date": "2026-05",
           "title": "电力板块题材波动",
           "body": "大唐发电等标的短期暴涨，案例提示：逻辑可对、价格需估值纪律。"
+        },
+        {
+          "date": "2026-06-17",
+          "title": "SK hynix 送样 12 层 HBM4E",
+          "body": "SK hynix 宣布向主要客户送样 12 层 HBM4E，单堆 48GB、最高 16Gbps/pin，并称能效较前代提升逾 20%，AI 加速器内存竞争进入客户验证阶段。"
         }
       ]
     },
@@ -205,6 +210,11 @@
           "date": "2026",
           "title": "开源生态扩张",
           "body": "企业私有化部署需求带动一体机与国产算力适配。"
+        },
+        {
+          "date": "2026-06-18",
+          "title": "Gemini 共同负责人转投 OpenAI",
+          "body": "CNBC 与 Bloomberg 报道，Transformer 论文合作者、Google Gemini 共同负责人 Noam Shazeer 宣布加入 OpenAI，前沿模型竞争继续围绕顶尖研究人才与架构能力展开。"
         }
       ]
     },
@@ -289,6 +299,11 @@
           "date": "2026",
           "title": "数据合规升级",
           "body": "企业内网部署与私有化模型需求增加。"
+        },
+        {
+          "date": "2026-06-17",
+          "title": "Google 发布 ARD 智能体发现规范",
+          "body": "Google Developers Blog 宣布 Agentic Resource Discovery 开放规范，用于跨 Web 发布、发现并验证工具、技能与智能体，Microsoft、Hugging Face 等参与，补齐 Agent 平台互操作基础设施。"
         }
       ]
     },
@@ -378,6 +393,11 @@
           "date": "2026",
           "title": "垂直 Agent 融资活跃",
           "body": "法律、财务、客服等场景出现专业化智能体产品。"
+        },
+        {
+          "date": "2026-06-16",
+          "title": "Copilot Cowork 接入 Dynamics 365 ERP",
+          "body": "Microsoft Learn 与行业媒体显示，Dynamics 365 ERP apps plugin 已面向 Copilot Cowork 可用，可通过 MCP server 让员工在对话式工作区处理财务、运营与跨系统流程。"
         }
       ]
     },
@@ -482,6 +502,11 @@
           "date": "持续",
           "title": "投资方法论沉淀",
           "body": "本仓库 Section 1/2：框架 + 澜起、电力案例复盘。"
+        },
+        {
+          "date": "2026-06-19",
+          "title": "现代拟全资控股 Boston Dynamics",
+          "body": "Reuters 转述韩国媒体报道称，现代汽车集团计划以 3.25 亿美元收购 SoftBank 持有的 Boston Dynamics 剩余 9.65% 股权，强化对人形机器人 Atlas 商业化路径的控制。"
         }
       ]
     }
