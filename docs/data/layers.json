@@ -2,7 +2,7 @@
   "meta": {
     "title": "AI 五层模型",
     "subtitle": "从算力底座到场景落地 · 行业 · 趋势 · 事件 · Section 1 投资分析",
-    "updated": "2026-05-28"
+    "updated": "2026-06-22"
   },
   "layers": [
     {
@@ -111,6 +111,11 @@
           "date": "2026-05",
           "title": "电力板块题材波动",
           "body": "大唐发电等标的短期暴涨，案例提示：逻辑可对、价格需估值纪律。"
+        },
+        {
+          "date": "2026-06-20",
+          "title": "SK 海力士送样 12 层 HBM4E",
+          "body": "SK 海力士宣布向主要客户交付 48GB HBM4E 样品，16Gbps/pin 与能效改善凸显 AI 加速器对 HBM 与先进封装的持续需求。"
         }
       ]
     },
@@ -205,6 +210,11 @@
           "date": "2026",
           "title": "开源生态扩张",
           "body": "企业私有化部署需求带动一体机与国产算力适配。"
+        },
+        {
+          "date": "2026-06-20",
+          "title": "AlphaFold 核心科学家转投 Anthropic",
+          "body": "TechCrunch 报道，诺奖得主、AlphaFold 关键成员 John Jumper 将离开 Google DeepMind 加入 Anthropic，前沿模型竞争继续体现顶级人才稀缺。"
         }
       ]
     },
@@ -289,6 +299,11 @@
           "date": "2026",
           "title": "数据合规升级",
           "body": "企业内网部署与私有化模型需求增加。"
+        },
+        {
+          "date": "2026-06-19",
+          "title": "AWS 推出 Bedrock 托管知识库",
+          "body": "AWS 推出 Bedrock Managed Knowledge Base，自动化嵌入、索引与企业数据连接，显示 RAG 运维正被云平台进一步托管化。"
         }
       ]
     },
@@ -378,6 +393,11 @@
           "date": "2026",
           "title": "垂直 Agent 融资活跃",
           "body": "法律、财务、客服等场景出现专业化智能体产品。"
+        },
+        {
+          "date": "2026-06-20",
+          "title": "Adobe 扩展 Creative Agent",
+          "body": "Adobe 将 Creative Agent 公测扩展到 Photoshop、Premiere、Illustrator、InDesign 与 Frame.io，应用层 AI 从内容生成走向多步骤生产工作流编排。"
         }
       ]
     },
@@ -482,6 +502,11 @@
           "date": "持续",
           "title": "投资方法论沉淀",
           "body": "本仓库 Section 1/2：框架 + 澜起、电力案例复盘。"
+        },
+        {
+          "date": "2026-06-22",
+          "title": "Tesla Austin robotaxi 小规模试运营",
+          "body": "Reuters 报道 Tesla 在 Austin 以约 10 辆 Model Y 开启受限 robotaxi 试运营，并配备安全监控员，智能车落地仍伴随监管与安全验证。"
         }
       ]
     }
