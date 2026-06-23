@@ -1,0 +1,135 @@
+{
+  "date": "2026-06-23",
+  "items": [
+    {
+      "id": "nvidia-rubin-liquid-cooling-2026-06",
+      "title": "NVIDIA 详解 Rubin AI 工厂 45°C 全液冷架构",
+      "summary": "NVIDIA 6 月 22 日介绍 Rubin 世代 AI 基础设施的全液冷设计：每颗芯片与网络组件都在闭环液冷系统中运行，冷却液入口温度最高可达 45°C。公司称 DSX AI factory 参考设计可在合适气候下采用干冷器、接近零冷却用水，并提升机架密度。该事件对应算力与基础设施层，重点从 GPU 本身延伸到数据中心能耗、液冷与空间效率。",
+      "sourceUrl": "https://blogs.nvidia.com/blog/liquid-cooling-ai-factories/",
+      "publishedAt": "2026-06-22",
+      "layerIds": [1],
+      "industries": ["AI 算力", "液冷", "数据中心基础设施"],
+      "beneficiaries": {
+        "industries": ["数据中心液冷", "AI 服务器", "冷却与电力基础设施"],
+        "companies": ["NVIDIA", "Schneider Electric", "Motivair"],
+        "stocks": [
+          {
+            "code": "usNVDA",
+            "name": "英伟达",
+            "reason": "Rubin 平台把液冷、供电和机架级设计绑定到下一代 AI 工厂交付，强化其全栈基础设施议价能力"
+          }
+        ]
+      }
+    },
+    {
+      "id": "eco-wave-nvidia-ai-energy-2026-06",
+      "title": "Eco Wave Power 借助 NVIDIA 数字孪生探索波浪能 AI 数据中心",
+      "summary": "NVIDIA 官方博客披露，Inception 成员 Eco Wave Power 正使用 NVIDIA Omniverse 与加速计算建设波浪能系统数字孪生，用于模拟海况、设备结构与部署方案。公司在洛杉矶港的试点希望展示波浪能可作为数据中心独立电源，AI 软件则根据可再生能源供给安排计算任务。事件对应算力基础设施层，反映 AI 工厂建设正在把能源调度与数字孪生纳入系统设计。",
+      "sourceUrl": "https://blogs.nvidia.com/blog/eco-wave-power-ai-digital-twins/",
+      "publishedAt": "2026-06-22",
+      "layerIds": [1, 3],
+      "industries": ["AI 数据中心", "可再生能源", "数字孪生"],
+      "beneficiaries": {
+        "industries": ["数据中心能源", "数字孪生平台", "边缘能源调度"],
+        "companies": ["Eco Wave Power", "NVIDIA", "AltaSea", "Shell"],
+        "stocks": [
+          {
+            "code": "usNVDA",
+            "name": "英伟达",
+            "reason": "Omniverse 与加速计算进入能源侧仿真和调度场景，扩大 AI 工厂软件栈的使用边界"
+          },
+          {
+            "code": "usWAVE",
+            "name": "Eco Wave Power",
+            "reason": "波浪能项目若被验证可服务近海数据中心，其设备与运维方案对 AI 基础设施用能更敏感"
+          }
+        ]
+      }
+    },
+    {
+      "id": "nokia-google-gemini-network-agents-2026-06",
+      "title": "Nokia 与 Google Cloud 将 Gemini Agent 嵌入电信网络运维套件",
+      "summary": "Google Cloud 与 Nokia 6 月 22 日宣布扩展合作，在 Nokia Assurance Center 中开发 6 个基于 Gemini 的专业 AI Agent，覆盖路由编排、告警分诊、KPI 解读、异常原因分析、修复建议和仪表盘生成。公告称路由与事件分诊 Agent 已可用，SaaS 版本计划 2026 年 9 月登陆 Google Cloud Marketplace，并在 DTW Ignite 展示。该事件横跨模型、平台与行业应用层，体现企业 Agent 从通用助手进入电信自运营流程。",
+      "sourceUrl": "https://www.prnewswire.com/news-releases/nokia-and-google-cloud-partner-to-embed-ai-agents-built-with-googles-gemini-models-into-nokias-autonomous-network-product-suite-302805095.html",
+      "publishedAt": "2026-06-22",
+      "layerIds": [2, 3, 4],
+      "industries": ["电信运维", "企业 Agent", "云计算"],
+      "beneficiaries": {
+        "industries": ["通信网络自动化", "企业 Agent 平台", "云市场 SaaS"],
+        "companies": ["Nokia", "Google Cloud"],
+        "stocks": [
+          {
+            "code": "usGOOGL",
+            "name": "Alphabet",
+            "reason": "Gemini Enterprise Agent Platform 进入电信运维核心场景，有助于强化 Google Cloud 行业 Agent 生态"
+          },
+          {
+            "code": "usNOK",
+            "name": "Nokia",
+            "reason": "Nokia Assurance Center 增加 AI Agent 能力，可能提升其网络软件套件在运营商自动化项目中的竞争力"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cheche-abao-agent-underwriting-2026-06",
+      "title": "车车科技发布 ABAO Agent，面向车险续保与核保自动化",
+      "summary": "车车科技 6 月 22 日宣布正式推出 ABAO Agent，这是一款基于公司自研大模型、深度嵌入保险工作流的智能核保 Agent。公告称该产品已在车险续保场景规模化商用，可自动执行客户触达、需求识别、保单跟进和转化等流程。事件对应应用与解决方案层，展示金融/保险垂直数据和业务流程对 Agent 落地的支撑作用。",
+      "sourceUrl": "https://www.prnewswire.com/news-releases/cheche-group-launches-abao-agent-an-ai-powered-intelligent-underwriting-solution-302806191.html",
+      "publishedAt": "2026-06-22",
+      "layerIds": [4],
+      "industries": ["保险科技", "车险", "垂直 Agent"],
+      "beneficiaries": {
+        "industries": ["保险 SaaS", "车险运营自动化", "金融 AI 应用"],
+        "companies": ["Cheche Group"],
+        "stocks": [
+          {
+            "code": "usCCG",
+            "name": "车车科技",
+            "reason": "ABAO Agent 商业部署强化其从保险交易平台向 AI 驱动保险科技平台转型的产品线"
+          }
+        ]
+      }
+    },
+    {
+      "id": "salesforce-agentforce-wem-2026-06",
+      "title": "Salesforce 推出 Agentforce Contact Center Workforce Engagement Management",
+      "summary": "Salesforce 6 月 22 日发布 Agentforce Contact Center Workforce Engagement Management，将排班、质量管理、Command Center 洞察、CRM 数据和 AI Agent 监控整合到客服平台。新功能让主管在同一视图中管理人工坐席与数字劳动力，预测需求、优化排班并评估 AI 与人工互动质量。事件对应平台与应用层，说明客服 SaaS 正从单点 Agent 转向混合劳动力运营管理。",
+      "sourceUrl": "https://www.salesforce.com/blog/workforce-engagement-management-agentforce-contact-center/",
+      "publishedAt": "2026-06-22",
+      "layerIds": [3, 4],
+      "industries": ["CRM", "客服 SaaS", "Agentic AI"],
+      "beneficiaries": {
+        "industries": ["客户服务软件", "CRM 平台", "AI 运营管理"],
+        "companies": ["Salesforce"],
+        "stocks": [
+          {
+            "code": "usCRM",
+            "name": "Salesforce",
+            "reason": "Agentforce WEM 把 AI Agent 管理嵌入客服工作流，可能提升其服务云与 Agentforce 的粘性"
+          }
+        ]
+      }
+    },
+    {
+      "id": "davinci-agentic-brandstore-2026-06",
+      "title": "DaVinci Commerce 发布面向 ChatGPT、Gemini 等入口的 Agentic BrandStore Enterprise",
+      "summary": "DaVinci Commerce 6 月 22 日宣布 Agentic BrandStore Enterprise 全面可用，用内容增强引擎把商品目录转化为适合 LLM 对话发现的上下文数据，并支持 ACP、UCP、GEO、品牌站聊天和 MCP 集成。平台还加入合规检查、多 Agent 内容整合、评价与评论等企业功能。事件对应应用层与平台层，反映电商发现与购买链路正在从搜索 SEO 迁移到 AI 对话入口。",
+      "sourceUrl": "https://www.prnewswire.com/news-releases/davinci-commerce-announces-agentic-brandstore-enterprise-end-to-end-agentic-commerce-from-discovery-to-purchase-across-ai-platforms-302805842.html",
+      "publishedAt": "2026-06-22",
+      "layerIds": [3, 4],
+      "industries": ["电商 SaaS", "Agentic commerce", "内容生成"],
+      "beneficiaries": {
+        "industries": ["AI 电商入口", "品牌内容治理", "营销技术"],
+        "companies": ["DaVinci Commerce", "Accenture", "Nestle", "Nordstrom"],
+        "stocks": [
+          {
+            "code": "usACN",
+            "name": "埃森哲",
+            "reason": "DaVinci 披露其由 Accenture 支持，品牌 AI 商务落地可能带来咨询、集成与运营服务需求"
+          }
+        ]
+      }
+    }
+  ]
+}
