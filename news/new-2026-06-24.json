@@ -1,0 +1,119 @@
+{
+  "date": "2026-06-24",
+  "items": [
+    {
+      "id": "micron-anthropic-ai-memory-2026-06",
+      "title": "Micron 与 Anthropic 达成 AI 内存和存储基础设施战略合作",
+      "summary": "Micron 6 月 22 日宣布与 Anthropic 签署战略协议，覆盖内存与存储架构协同设计、数据中心产品供应、Claude 在 Micron 内部采用以及 Micron 对 Anthropic Series H 的战略投资。双方称将围绕 HBM、DRAM 与 SSD 在 Claude 训练和推理工作负载中的性能、能效和 token economics 展开优化。该事件对应算力层与模型层，说明前沿模型扩张正在把瓶颈从 GPU 延伸到内存带宽、存储和整机能效。",
+      "sourceUrl": "https://www.globenewswire.com/news-release/2026/06/22/3315307/14450/en/Micron-and-Anthropic-Announce-Strategic-Agreement-to-Scale-Next-Generation-AI-Infrastructure.html",
+      "publishedAt": "2026-06-22",
+      "layerIds": [1, 2],
+      "industries": ["HBM", "AI 存储", "大模型基础设施"],
+      "beneficiaries": {
+        "industries": ["高带宽内存", "企业级 SSD", "AI 数据中心供应链"],
+        "companies": ["Micron", "Anthropic"],
+        "stocks": [
+          {
+            "code": "usMU",
+            "name": "Micron",
+            "reason": "其 HBM、DRAM 与 SSD 组合直接参与 Anthropic 下一代 AI 基础设施设计和供应"
+          }
+        ]
+      }
+    },
+    {
+      "id": "viavi-uet-ai-fabric-validation-2026-06",
+      "title": "VIAVI 推出 Ultra Ethernet Transport 验证方案，面向大规模 AI Fabric",
+      "summary": "VIAVI 6 月 23 日发布面向 AI Fabric 的 Ultra Ethernet Transport（UET）验证方案，可在不部署实际 GPU 集群的情况下模拟大规模 AI 流量。方案覆盖 UET 传输层、拥塞控制、动态多路径、collective communications 和 LLM 流量等测试场景。该事件对应算力层与平台层，反映 AI 集群从单机算力竞争走向网络 Fabric、可验证性和多厂商互通能力竞争。",
+      "sourceUrl": "https://www.prnewswire.com/news-releases/viavi-launches-industrys-first-validation-solution-for-ultra-ethernet-transport-accelerating-ai-data-center-deployments-302806300.html",
+      "publishedAt": "2026-06-23",
+      "layerIds": [1, 3],
+      "industries": ["AI 网络", "Ultra Ethernet", "测试测量"],
+      "beneficiaries": {
+        "industries": ["高速交换网络", "AI 数据中心测试", "以太网互连"],
+        "companies": ["VIAVI", "HPE", "Juniper Networks", "Ultra Ethernet Consortium"],
+        "stocks": [
+          {
+            "code": "usVIAV",
+            "name": "VIAVI Solutions",
+            "reason": "其测试测量产品切入 AI 后端网络验证环节，对 Ultra Ethernet 部署节奏逻辑上敏感"
+          }
+        ]
+      }
+    },
+    {
+      "id": "exabeam-praxen-agent-verification-2026-06",
+      "title": "Exabeam 开源 Praxen，用于 AI Agent 上线前行为验证",
+      "summary": "Exabeam 6 月 23 日推出 Agent Behavior Verification（ABV）方法，并开源 Praxen 作为参考实现，用于检查 AI Agent 的权限、工具、集成、记忆和运行边界是否符合授权角色。公司称 Praxen 可在部署前发现行为风险，给出修复建议和安全成熟度评分。该事件对应平台与工具层，说明企业 Agent 落地进入权限治理、预部署验证和生命周期安全阶段。",
+      "sourceUrl": "https://www.businesswire.com/news/home/20260623496656/en/Exabeam-Launches-Open-Source-Praxen-to-Bring-Agent-Behavior-Verification-to-AI-Agents-and-Digital-Workers",
+      "publishedAt": "2026-06-23",
+      "layerIds": [3],
+      "industries": ["AI 安全", "Agent 治理", "开源工具"],
+      "beneficiaries": {
+        "industries": ["AI 安全治理", "企业 Agent 平台", "身份与权限管理"],
+        "companies": ["Exabeam", "OWASP Gen AI Security Project"],
+        "stocks": []
+      }
+    },
+    {
+      "id": "verint-agent-factory-cx-2026-06",
+      "title": "Verint 发布 Agent Factory，编排客服场景的人类与 AI Agent 混合团队",
+      "summary": "Verint 6 月 23 日在 Engage 2026 发布 Agent Factory，定位为用于构建、配置和管理人类与 AI Agent 混合劳动力的 CX Automation 编排环境。其能力包括预置客服 Agent、自定义 Agent、工作流连接、人类交接、提示词管理、模型灵活接入和数据治理。该事件对应应用与解决方案层，显示客服 SaaS 正从单点机器人走向可治理的多 Agent 工作流。",
+      "sourceUrl": "https://www.verint.com/press-room/2026-press-releases/agent-factory-orchestrates-humans-and-ai-workforces/",
+      "publishedAt": "2026-06-23",
+      "layerIds": [4],
+      "industries": ["客户体验", "垂直 SaaS", "Agent 编排"],
+      "beneficiaries": {
+        "industries": ["客服自动化", "联络中心软件", "企业 AI 工作流"],
+        "companies": ["Verint"],
+        "stocks": [
+          {
+            "code": "usVRNT",
+            "name": "Verint",
+            "reason": "Agent Factory 将其 CX Automation 平台扩展到多 Agent 编排和治理场景"
+          }
+        ]
+      }
+    },
+    {
+      "id": "zoom-agent-architect-cx-2026-06",
+      "title": "Zoom 为 Virtual Agent 增加 Agent Architect 和性能评估套件",
+      "summary": "Zoom 6 月 22 日发布 Zoom Virtual Agent 新能力，包括可从简单提示生成生产级语音或数字 AI Agent 的 Agent Architect，以及用于测试、验证和优化 Agent 的 Agent Performance Suite。新功能还包含跨 Zoom CX 的客户上下文层、质量管理和按结果计费选项。该事件对应应用层，突出企业客服 AI 从部署效率转向效果评估、持续优化和业务结果定价。",
+      "sourceUrl": "https://news.zoom.com/introducing-agent-architect-and-agent-performance-suite-for-zoom-virtual-agent/",
+      "publishedAt": "2026-06-22",
+      "layerIds": [4],
+      "industries": ["客服 AI", "协作软件", "生成式 Agent"],
+      "beneficiaries": {
+        "industries": ["联络中心 SaaS", "办公协作 AI", "客户服务自动化"],
+        "companies": ["Zoom"],
+        "stocks": [
+          {
+            "code": "usZM",
+            "name": "Zoom",
+            "reason": "Virtual Agent 新能力强化其 Zoom CX 在客服 AI 构建、评估和计费闭环中的产品覆盖"
+          }
+        ]
+      }
+    },
+    {
+      "id": "asus-dgx-station-gb300-2026-06",
+      "title": "ASUS 推出基于 NVIDIA DGX Station GB300 架构的桌边 AI 超算",
+      "summary": "ASUS 6 月 23 日宣布 ExpertCenter Pro ET900N G3 全球可用，系统基于 NVIDIA DGX Station GB300 架构，搭载 GB300 Grace Blackwell Ultra Desktop Superchip 和 748GB coherent CPU-GPU 内存。公司称该设备面向企业、开发者和研究人员，可在本地支持 LLM 微调、生成式 AI、自治 Agent、仿真和深度学习工作负载。该事件对应算力层与终端生态层，说明企业 AI 基础设施正在从云端数据中心向本地高性能工作站延伸。",
+      "sourceUrl": "https://www.prnewswire.com/news-releases/asus-launches-expertcenter-pro-et900n-g3-built-on-nvidia-dgx-station-architecture-302808405.html",
+      "publishedAt": "2026-06-23",
+      "layerIds": [1, 5],
+      "industries": ["AI 工作站", "端侧算力", "NVIDIA DGX"],
+      "beneficiaries": {
+        "industries": ["本地 AI 算力", "AI PC/工作站", "企业私有化部署"],
+        "companies": ["ASUS", "NVIDIA"],
+        "stocks": [
+          {
+            "code": "usNVDA",
+            "name": "NVIDIA",
+            "reason": "DGX Station GB300 架构进入 OEM 桌边系统，有助于扩展 Grace Blackwell 生态应用范围"
+          }
+        ]
+      }
+    }
+  ]
+}
