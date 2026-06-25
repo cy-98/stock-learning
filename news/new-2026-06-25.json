@@ -1,0 +1,123 @@
+{
+  "date": "2026-06-25",
+  "items": [
+    {
+      "id": "openai-broadcom-jalapeno-inference-chip-2026-06",
+      "title": "OpenAI 与 Broadcom 发布面向 LLM 推理的 Jalapeno 定制加速器",
+      "summary": "OpenAI 6 月 24 日宣布与 Broadcom 推出首款 Intelligence Processor「Jalapeno」，面向 ChatGPT、Codex、API 与未来 Agent 产品的 LLM 推理负载优化。官方称工程样片已在实验室以目标频率和功耗运行 ML 工作负载，OpenAI 仍在测量最终性能，计划在后续发布技术报告。Broadcom 负责硅实现与网络连接，Celestica 参与板卡、机架和系统集成，该平台计划自 2026 年底开始在数据中心伙伴中部署，直接对应 AI 算力层的自研 ASIC 与推理效率竞争。",
+      "sourceUrl": "https://openai.com/index/openai-broadcom-jalapeno-inference-chip/",
+      "publishedAt": "2026-06-24",
+      "layerIds": [1, 2, 3],
+      "industries": ["AI 芯片", "ASIC", "LLM 推理", "数据中心"],
+      "beneficiaries": {
+        "industries": ["定制 AI 加速器", "高速网络芯片", "AI 服务器代工与系统集成"],
+        "companies": ["OpenAI", "Broadcom", "Celestica", "Microsoft"],
+        "stocks": [
+          {
+            "code": "usAVGO",
+            "name": "Broadcom",
+            "reason": "Broadcom 提供硅实现与 Tomahawk 等网络技术，可能受益于大模型客户自研推理芯片平台化"
+          },
+          {
+            "code": "usCLS",
+            "name": "Celestica",
+            "reason": "Celestica 参与板卡、机架和系统集成，逻辑上对 AI 服务器 ODM 与系统交付需求敏感"
+          }
+        ]
+      }
+    },
+    {
+      "id": "microsoft-ai-education-copilot-tools-2026-06",
+      "title": "Microsoft 发布 2026 AI in Education 报告并扩展教育版 Copilot 工具",
+      "summary": "Microsoft 6 月 24 日发布第三版 AI in Education 报告，并宣布面向 Microsoft 365 Education 的新一批教学与学习 AI 功能。新增能力包括 Teach 中的 Unit Plans、Assignments 中的学生 AI 指南与学习分组、Copilot Notebooks 以及 Study and Learn Agent。该事件对应应用层教育场景，也体现办公 Copilot 生态向垂直工作流延伸。",
+      "sourceUrl": "https://news.microsoft.com/source/2026/06/24/microsofts-new-ai-in-education-report-highlights-widespread-adoption-and-increasing-demand-for-support/",
+      "publishedAt": "2026-06-24",
+      "layerIds": [3, 4],
+      "industries": ["教育科技", "办公 Copilot", "生成式 AI 应用"],
+      "beneficiaries": {
+        "industries": ["教育 SaaS", "办公协作软件", "AI 素养培训"],
+        "companies": ["Microsoft", "ISTE + ASCD", "Microsoft 365 Education 生态伙伴"],
+        "stocks": [
+          {
+            "code": "usMSFT",
+            "name": "Microsoft",
+            "reason": "Microsoft 将 Copilot 能力嵌入教育工作流，可能提升 Microsoft 365 Education 的平台粘性"
+          }
+        ]
+      }
+    },
+    {
+      "id": "edb-postgres-ai-agentic-database-2026-06",
+      "title": "EDB 推出 Postgres AI 的 Agentic Database 与数据层治理能力",
+      "summary": "EnterpriseDB 6 月 23 日宣布 EDB Postgres AI 新增 agentic database、converged analytics 与治理能力，把关系型、分析型、向量和 Agent 工作负载统一在 Postgres 基础上。官方称 agentic database 可持续监控 200 多项运行和性能指标，并在企业策略允许时自动调优、扩容或修复问题；治理能力处于预览阶段，通过数据库角色和行级安全约束 Agent 访问。该事件对应平台与工具层，突出企业 Agent 落地时的数据主权、实时检索和权限治理需求。",
+      "sourceUrl": "https://www.prnewswire.com/news-releases/edb-launches-agentic-database-converged-analytics-and-governance-bringing-sovereign-ai-where-enterprise-data-already-lives-302807516.html",
+      "publishedAt": "2026-06-23",
+      "layerIds": [3],
+      "industries": ["数据库", "RAG", "数据治理", "企业 AI 平台"],
+      "beneficiaries": {
+        "industries": ["开源数据库服务", "向量检索", "混合云数据平台"],
+        "companies": ["EnterpriseDB", "PostgreSQL 社区", "IBM", "Red Hat", "NVIDIA"],
+        "stocks": [
+          {
+            "code": "usIBM",
+            "name": "IBM",
+            "reason": "IBM 被列为 EDB 伙伴生态成员之一，企业私有化与主权数据平台需求可能带来相关集成机会"
+          },
+          {
+            "code": "usNVDA",
+            "name": "NVIDIA",
+            "reason": "EDB 提到 GPU 加速 Spark 等重载分析路径，AI 数据层工作负载扩张对加速计算生态敏感"
+          }
+        ]
+      }
+    },
+    {
+      "id": "zafin-aios-regulated-agent-orchestration-2026-06",
+      "title": "Zafin 发布 AIOS，面向受监管机构编排与治理 Agent 工作",
+      "summary": "Zafin 6 月 23 日推出 AIOS，定位为受监管机构的端到端 Agent 编排平台和控制平面。AIOS 可登记机构自有与获批第三方 Agent，统一管理模型、工具、工作流、人类审批、成本控制和 proof of work 记录。该事件对应平台层与金融等应用层，反映 Agent 从试点走向高控制生产流程时，对审计证据、权限边界和成本治理的需求上升。",
+      "sourceUrl": "https://www.prnewswire.com/news-releases/zafin-launches-aios-an-end-to-end-platform-to-orchestrate-and-govern-agentic-work-302806892.html",
+      "publishedAt": "2026-06-23",
+      "layerIds": [3, 4],
+      "industries": ["Agent 编排", "金融科技", "AI 治理", "企业软件"],
+      "beneficiaries": {
+        "industries": ["金融机构 AI 平台", "合规科技", "工作流自动化"],
+        "companies": ["Zafin", "受监管金融机构", "企业 Agent 工具供应商"],
+        "stocks": []
+      }
+    },
+    {
+      "id": "moka-eva-recruiting-agent-apac-2026-06",
+      "title": "Moka AI 在亚太推出 Moka Eva 招聘 Agent",
+      "summary": "Moka AI 6 月 24 日宣布在亚太推出 Moka Eva，面向企业招聘团队覆盖寻源、筛选、面试与候选人沟通等流程。新闻稿称该系统已筛选超过 500 万份简历、辅助超过 60 万场面试，并支持自动化首轮 AI Interview 与人类面试官 Interview Coach。该事件对应应用层的人力资源 SaaS，体现垂直工作流 Agent 正从单点助手转向端到端流程自动化。",
+      "sourceUrl": "https://www.prnewswire.com/apac/news-releases/moka-ai-launches-moka-eva-ai-recruiting-agent-for-enterprise-hiring-teams-across-asia-pacific-302808436.html",
+      "publishedAt": "2026-06-24",
+      "layerIds": [4],
+      "industries": ["HR SaaS", "招聘自动化", "AI Agent"],
+      "beneficiaries": {
+        "industries": ["人才管理软件", "企业流程自动化", "AI 面试工具"],
+        "companies": ["Moka AI", "亚太企业招聘团队", "企业 ATS 生态伙伴"],
+        "stocks": []
+      }
+    },
+    {
+      "id": "conduent-nextgen-cx-ai-platform-2026-06",
+      "title": "Conduent 发布 AI 驱动的下一代客户体验平台能力",
+      "summary": "Conduent 6 月 24 日宣布在 Next Generation CX Platform 中加入实时翻译、AI 驱动培训模拟、口音平滑和降噪等能力。该平台面向客户服务场景，帮助企业用现有坐席团队覆盖更多语言、提升新人准备效率并优化客户交互质量。该事件对应应用层客服与 BPO 场景，显示 AI 正嵌入联络中心的训练、质检和跨语言服务工作流。",
+      "sourceUrl": "https://www.businesswire.com/news/home/20260624481298/en/Conduent-Introduces-AI-Powered-Next-Generation-CX-Platform-to-Expand-Global-Customer-Reach-and-Accelerate-Agent-Performance",
+      "publishedAt": "2026-06-24",
+      "layerIds": [4],
+      "industries": ["客户体验", "BPO", "AI 语音", "客服自动化"],
+      "beneficiaries": {
+        "industries": ["联络中心软件", "客服外包数字化", "实时语音 AI"],
+        "companies": ["Conduent", "企业客户服务团队"],
+        "stocks": [
+          {
+            "code": "usCNDT",
+            "name": "Conduent",
+            "reason": "Conduent 将 AI 功能嵌入自身 CX 平台，可能提升客服与 BPO 解决方案的差异化能力"
+          }
+        ]
+      }
+    }
+  ]
+}
