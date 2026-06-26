@@ -2,7 +2,7 @@
   "meta": {
     "title": "AI 五层模型",
     "subtitle": "从算力底座到场景落地 · 行业 · 趋势 · 事件 · Section 1 投资分析",
-    "updated": "2026-05-28"
+    "updated": "2026-06-26"
   },
   "layers": [
     {
@@ -111,6 +111,16 @@
           "date": "2026-05",
           "title": "电力板块题材波动",
           "body": "大唐发电等标的短期暴涨，案例提示：逻辑可对、价格需估值纪律。"
+        },
+        {
+          "date": "2026-06-24",
+          "title": "SK 海力士拟赴美融资扩产 HBM",
+          "body": "Reuters 报道，SK 海力士计划通过纳斯达克 ADR 融资，资金投向韩国晶圆厂、先进封装与 EUV 设备，显示 AI 内存产能仍是基础设施瓶颈。"
+        },
+        {
+          "date": "2026-06-24",
+          "title": "OpenAI 展示自研推理芯片",
+          "body": "Reuters 报道，OpenAI 与 Broadcom 合作的推理芯片样品已在实验室运行，计划用于降低大模型服务对通用 GPU 的依赖。"
         }
       ]
     },
@@ -205,6 +215,11 @@
           "date": "2026",
           "title": "开源生态扩张",
           "body": "企业私有化部署需求带动一体机与国产算力适配。"
+        },
+        {
+          "date": "2026-06-25",
+          "title": "GPT-5.6 拟先行有限预览",
+          "body": "The Verge 援引 The Information 称，OpenAI 下一代模型拟先面向少量企业客户预览，前沿模型发布节奏继续受到安全与合规审查影响。"
         }
       ]
     },
@@ -289,6 +304,16 @@
           "date": "2026",
           "title": "数据合规升级",
           "body": "企业内网部署与私有化模型需求增加。"
+        },
+        {
+          "date": "2026-06-25",
+          "title": "欧盟拟将 AWS 与 Azure 纳入 DMA",
+          "body": "Reuters 报道，欧盟监管机构认为 AWS 与 Microsoft Azure 云服务应被认定为 DMA 守门人，互操作与数据可携要求可能影响 AI 云采购。"
+        },
+        {
+          "date": "2026-06-24",
+          "title": "AWS 向量检索引入 GPU 加速",
+          "body": "AWS 与 NVIDIA 披露，Amazon OpenSearch Service 支持基于 cuVS 的 GPU 向量索引，RAG 与 Agent 应用的数据检索底座进一步产品化。"
         }
       ]
     },
@@ -378,6 +403,16 @@
           "date": "2026",
           "title": "垂直 Agent 融资活跃",
           "body": "法律、财务、客服等场景出现专业化智能体产品。"
+        },
+        {
+          "date": "2026-06-24",
+          "title": "Copilot 扩展金融数据连接器",
+          "body": "Microsoft 与 Morningstar 等伙伴披露，Microsoft 365 Copilot 正把更多投资研究与金融数据连接到 Excel、Copilot Chat 等工作流，强化可追溯的行业应用落地。"
+        },
+        {
+          "date": "2026-06-24",
+          "title": "Morningstar 推出顾问工作流 AI 助手",
+          "body": "Morningstar 发布嵌入 Direct Advisory Suite 的 AI 助手，覆盖投研、组合分析和客户材料生成等任务，显示垂直 SaaS 正把 AI 直接嵌入专业流程。"
         }
       ]
     },
@@ -482,6 +517,16 @@
           "date": "持续",
           "title": "投资方法论沉淀",
           "body": "本仓库 Section 1/2：框架 + 澜起、电力案例复盘。"
+        },
+        {
+          "date": "2026-06-23",
+          "title": "中国将美国稀土企业列入出口管制清单",
+          "body": "Reuters 与 Bloomberg 报道，MP Materials、USA Rare Earth 等被纳入中国出口管制清单，稀土与磁材供应链的地缘属性继续升温。"
+        },
+        {
+          "date": "2026-06-25",
+          "title": "自动驾驶系统全球技术法规获批",
+          "body": "China Daily 援引工信部消息称，联合国 WP.29 通过首个自动驾驶系统全球技术法规 ADS GTR，为 L3/L4 智能车安全验证提供统一框架。"
         }
       ]
     }
