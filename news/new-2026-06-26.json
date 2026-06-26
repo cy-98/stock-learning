@@ -1,0 +1,106 @@
+{
+  "date": "2026-06-26",
+  "items": [
+    {
+      "id": "qualcomm-dragonfly-ai-datacenter-2026-06",
+      "title": "Qualcomm 发布 Dragonfly 数据中心路线图并与 Meta 达成 CPU 合作",
+      "summary": "Qualcomm Technologies 6 月 24 日在投资者日发布 Dragonfly 数据中心组合，包含 C1000 CPU、High Bandwidth Compute、AI300 推理加速器、连接与定制硅方案，定位于面向 Agentic AI 的低功耗推理基础设施。公告称 Dragonfly AI300 将加入 AI200、AI250 的年度节奏路线图，HBC 用 3D 近存计算缓解内存墙，并披露与 Meta 的多年度、多代数据中心 CPU 合作。该事件对应算力与平台层，反映手机 SoC 厂商正向云端 AI 推理基础设施扩展。",
+      "sourceUrl": "https://www.businesswire.com/news/home/20260624731900/en/Qualcomm-Unveils-Comprehensive-Data-Center-Roadmap-for-the-Agentic-AI-Era-with-New-Qualcomm-Dragonfly-Portfolio",
+      "publishedAt": "2026-06-24",
+      "layerIds": [1, 3],
+      "industries": ["AI 推理", "数据中心 CPU", "AI 加速器", "高带宽内存"],
+      "beneficiaries": {
+        "industries": ["低功耗 AI 推理芯片", "服务器 CPU", "先进封装", "数据中心互连"],
+        "companies": ["Qualcomm", "Meta", "SK hynix", "Micron", "Foxconn"],
+        "stocks": [
+          {
+            "code": "usQCOM",
+            "name": "高通",
+            "reason": "Dragonfly 路线图把公司从终端芯片延伸到数据中心 AI 推理，若客户落地可扩大非手机业务暴露"
+          },
+          {
+            "code": "usMETA",
+            "name": "Meta",
+            "reason": "Meta 计划采用 Dragonfly C1000 支撑下一代服务器 fleet，可能获得更高能效的 AI 推理基础设施选项"
+          }
+        ]
+      }
+    },
+    {
+      "id": "sail-research-long-horizon-agent-infra-2026-06",
+      "title": "Sail Research 融资 8000 万美元，建设长时运行 AI Agent 基础设施",
+      "summary": "Sail Research 6 月 25 日宣布完成种子轮与 A 轮合计 8000 万美元融资，估值 4.5 亿美元，投资方包括 Kleiner Perkins、Sequoia、Redpoint 与 Theory Ventures 等。公司称其平台面向长时运行 Agent，核心包括重构吞吐与效率的推理栈，以及可运行数小时到数日、按实际工作时间计费的 Sailboxes 沙盒环境。该事件对应平台与工具层，也说明 Agent 从短对话走向后台长任务后，推理成本、上下文和运行时管理成为新的基础设施需求。",
+      "sourceUrl": "https://www.prnewswire.com/news-releases/sail-research-raises-80-million-to-build-max-efficiency-infrastructure-for-ai-agents-302810497.html",
+      "publishedAt": "2026-06-25",
+      "layerIds": [3],
+      "industries": ["Agent 基础设施", "AI 推理", "云端沙盒", "开发者工具"],
+      "beneficiaries": {
+        "industries": ["长时运行 Agent 平台", "推理成本优化", "云端沙盒环境", "AI 软件工程工具"],
+        "companies": ["Sail Research", "Parallel Web Systems", "Detail.dev"],
+        "stocks": []
+      }
+    },
+    {
+      "id": "salesforce-agentforce-help-agent-2026-06",
+      "title": "Salesforce 推出预封装 Agentforce Help Agent，采用按解决结果付费",
+      "summary": "Salesforce 6 月 25 日宣布推出 Agentforce Help Agent，定位为可通过引导式设置在语音、网页、门户和消息渠道部署的自主服务 Agent。公司称该 Agent 基于 Salesforce Knowledge、预封装动作和 Agentforce 360 Platform，可处理客户问题、管理 case、预约和订单等流程；定价上仅在 Agent 自主完成端到端问题解决时收费。该事件对应平台与应用层，显示客服 Agent 商业化正从按席位或按对话转向结果计费。",
+      "sourceUrl": "https://www.salesforce.com/news/stories/agentforce-help-agent-announcement/",
+      "publishedAt": "2026-06-25",
+      "layerIds": [3, 4],
+      "industries": ["客户服务 SaaS", "企业 Agent", "CRM", "结果计费"],
+      "beneficiaries": {
+        "industries": ["客服自动化", "CRM 工作流", "企业知识库", "AI 结果计费"],
+        "companies": ["Salesforce", "PenFed Credit Union", "Fisher & Paykel", "PowerSchool"],
+        "stocks": [
+          {
+            "code": "usCRM",
+            "name": "Salesforce",
+            "reason": "Agentforce Help Agent 将自主客服能力打包进既有 CRM 与服务云工作流，可能提升企业客户 AI 应用渗透率"
+          }
+        ]
+      }
+    },
+    {
+      "id": "archetype-newton-physical-ai-agents-2026-06",
+      "title": "Archetype AI 发布 Newton Agents，面向工业现场部署 Physical AI",
+      "summary": "Archetype AI 6 月 25 日发布 Newton Agents，称其为基于 Newton 物理世界基础模型的即用型 Physical AI Agent 组合，可理解多模态传感器数据、视频和运营上下文。首批五类 Agent 覆盖稀有事件检测、运营状态监测、异常发现、任务验证和培训手册生成，并支持云端、边缘或本地部署。该事件对应应用与终端生态层，体现 AI 从文本工作流继续进入制造、能源和基础设施等物理场景。",
+      "sourceUrl": "https://apnews.com/press-release/business-wire/press-release-b55e9aaf4cf6443d9840e8ef05c07b1d",
+      "publishedAt": "2026-06-25",
+      "layerIds": [4, 5],
+      "industries": ["Physical AI", "工业智能", "传感器数据", "边缘 AI"],
+      "beneficiaries": {
+        "industries": ["工业预测性维护", "制造质检", "边缘智能", "能源与基础设施运维"],
+        "companies": ["Archetype AI", "Hitachi Ventures", "Amazon Industrial Innovation Fund", "Samsung Ventures"],
+        "stocks": []
+      }
+    },
+    {
+      "id": "threatmodeler-nexus-agentic-security-2026-06",
+      "title": "ThreatModeler Nexus 上线，用多 Agent 体系做架构级威胁建模",
+      "summary": "ThreatModeler 6 月 25 日宣布 ThreatModeler Nexus 正式可用，定位为建立在 Secure Design Graph 上的 governed agentic threat modeling 平台。公告称 Nexus 将系统映射 Agent、Graph Agent 和报告 Agent 与确定性框架结合，用于从架构文档或代码推断系统图、关联威胁和控制项，并生成审计证据。该事件对应平台与工具层中的 AI 安全方向，反映 AI 编码普及后，企业需要更可治理、可审计的安全设计控制面。",
+      "sourceUrl": "https://apnews.com/press-release/business-wire/press-release-e79ad907cc424015bdbca52c7f7848bd",
+      "publishedAt": "2026-06-25",
+      "layerIds": [3],
+      "industries": ["AI 安全", "DevSecOps", "威胁建模", "软件架构治理"],
+      "beneficiaries": {
+        "industries": ["应用安全", "安全设计自动化", "合规审计", "AI 编码治理"],
+        "companies": ["ThreatModeler", "IriusRisk"],
+        "stocks": []
+      }
+    },
+    {
+      "id": "trintech-finance-agents-2026-06",
+      "title": "Trintech 发布 Flux 与 Variance Analysis 财务 Agent",
+      "summary": "Trintech 6 月 25 日宣布推出 Trintech Flux Agent 和 Trintech Variance Analysis Agent，分别面向财务关账中的账户波动分析，以及关账后的预算与实际差异分析。公司称两类 Agent 在受治理的财务工作流中运行，输出需要连接底层财务数据、保留审阅审批控制并支持审计证据。该事件对应应用与解决方案层，显示垂直 SaaS 的 Agent 落地重点正从通用问答转向可追溯、可复核的财务流程自动化。",
+      "sourceUrl": "https://www.trintech.com/news/trintech-introduces-flux-and-variance-analysis-agents-giving-finance-teams-trusted-ai-coworkers-for-financial-close-and-performance-review/",
+      "publishedAt": "2026-06-25",
+      "layerIds": [4],
+      "industries": ["财务 SaaS", "企业 Agent", "FP&A", "审计与合规"],
+      "beneficiaries": {
+        "industries": ["财务关账自动化", "预算差异分析", "CFO 软件", "垂直工作流 Agent"],
+        "companies": ["Trintech"],
+        "stocks": []
+      }
+    }
+  ]
+}
