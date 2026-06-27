@@ -1,0 +1,110 @@
+{
+  "date": "2026-06-27",
+  "items": [
+    {
+      "id": "micron-hbm-supply-sold-out-2026-06",
+      "title": "Micron 称 2026 年 HBM 供应已完成价格与产量协议",
+      "summary": "Micron 投资者材料显示，公司已完成整个 2026 日历年 HBM 供应的价格与产量协议，并将 2026 财年资本开支计划上调至约 200 亿美元，主要支持 HBM 与 1-gamma 产能。公司同时表示，AI 数据中心建设带来的内存与存储需求显著上修，DRAM 与 NAND 供应紧张预计延续至 2026 年以后。该事件对应算力与基础设施层，说明 HBM 仍是 AI 加速器交付节奏中的关键约束。",
+      "sourceUrl": "https://investors.micron.com/static-files/530bd7ed-a8c8-4687-af4a-8c129f740e09",
+      "publishedAt": "2026-06-24",
+      "layerIds": [1],
+      "industries": ["HBM", "DRAM", "AI 算力", "半导体存储"],
+      "beneficiaries": {
+        "industries": ["高带宽内存", "先进封装", "AI 服务器"],
+        "companies": ["Micron", "SK Hynix", "Samsung Electronics", "NVIDIA"],
+        "stocks": [
+          {
+            "code": "usMU",
+            "name": "美光科技",
+            "reason": "HBM 供应锁定与资本开支上调提升 AI 存储需求能见度"
+          },
+          {
+            "code": "usNVDA",
+            "name": "英伟达",
+            "reason": "Vera Rubin 等 AI 平台需要稳定 HBM 供给，内存瓶颈改善有利于整机交付"
+          }
+        ]
+      }
+    },
+    {
+      "id": "hcltech-gemini-servicenow-agentic-ai-2026-06",
+      "title": "HCLTech 扩大与 Google Cloud、ServiceNow 合作部署企业 AI Agent",
+      "summary": "Business Standard 报道，HCLTech 扩大与 Google Cloud 和 ServiceNow 的合作，计划在 Gemini Enterprise 平台上交付企业 AI Agent。首批方案覆盖制造现场助手、现场服务、客户体验与 ITOps，并引入 ServiceNow AI Control Tower 做 Agent 可视化与治理。该事件对应平台层与应用层，反映大型 IT 服务商正把模型能力、工作流平台和行业实施经验打包为生产级 Agent 方案。",
+      "sourceUrl": "https://www.business-standard.com/markets/capital-market-news/hcl-technologies-expands-partnership-with-google-cloud-and-servicenow-126062500211_1.html",
+      "publishedAt": "2026-06-25",
+      "layerIds": [3, 4],
+      "industries": ["云计算", "企业软件", "Agentic AI", "IT 服务"],
+      "beneficiaries": {
+        "industries": ["企业 AI 平台", "IT 运维自动化", "制造业 AI 应用"],
+        "companies": ["HCLTech", "Google Cloud", "ServiceNow"],
+        "stocks": [
+          {
+            "code": "usGOOGL",
+            "name": "Alphabet",
+            "reason": "Gemini Enterprise 通过服务商与工作流平台进入行业部署场景"
+          },
+          {
+            "code": "usNOW",
+            "name": "ServiceNow",
+            "reason": "AI Control Tower 与工作流平台成为企业 Agent 治理和编排入口"
+          }
+        ]
+      }
+    },
+    {
+      "id": "proof-x401-agent-identity-protocol-2026-06",
+      "title": "Proof 发布 x401 协议，为 AI Agent 行动绑定授权身份",
+      "summary": "Proof 官方博客称，公司发布开放、发行方中立的 x401 协议，让网站或 API 能请求并验证 AI Agent 背后授权人的身份。Proof 表示将把 x401 提交给 FIDO Alliance 的 Agentic Authentication 标准工作组，并提供公开规范、文档和示例应用。该事件对应平台与工具层，突出 Agent 经济中身份、授权、支付和审计基础设施的重要性。",
+      "sourceUrl": "https://www.proof.com/blog/identity-infrastructure-agentic-internet-x401",
+      "publishedAt": "2026-06-25",
+      "layerIds": [3],
+      "industries": ["AI 安全", "身份认证", "Agent 协议", "企业治理"],
+      "beneficiaries": {
+        "industries": ["身份与访问管理", "Agent 安全网关", "合规审计"],
+        "companies": ["Proof", "FIDO Alliance", "Okta", "Google", "OpenAI"],
+        "stocks": [
+          {
+            "code": "usOKTA",
+            "name": "Okta",
+            "reason": "Agent 授权与身份标准化会提高企业 IAM 平台对机器身份治理的敏感度"
+          },
+          {
+            "code": "usGOOGL",
+            "name": "Alphabet",
+            "reason": "FIDO Agentic 标准工作与 AP2 等协议共同推动 Agent 可信交互生态"
+          }
+        ]
+      }
+    },
+    {
+      "id": "us-army-realloys-heavy-rare-earth-2026-06",
+      "title": "美国陆军有条件授予 REalloys 重稀土处理设施租赁项目",
+      "summary": "美国陆军公告称，已向四家公司有条件授予长期租赁项目，以便在陆军设施上建设关键矿产处理能力，其中 REalloys 对应 Tooele Army Depot 的镝、铽重稀土项目。公告称镝和铽用于高温永磁体，服务精确制导、电机、声纳和雷达等防务电子场景，项目仍需最终协议与监管审批。该事件对应终端与生态层，稀土永磁供应链对机器人、智能汽车和国防高性能电机都有外溢意义。",
+      "sourceUrl": "https://www.army.mil/article/293503/army_announces_conditional_lease_awards_for_domestic_critical_mineral_processing_facilities_to_secure_defense_supply_chains",
+      "publishedAt": "2026-06-25",
+      "layerIds": [5],
+      "industries": ["稀土永磁", "关键矿产", "机器人供应链", "国防电子"],
+      "beneficiaries": {
+        "industries": ["重稀土分离", "高性能永磁材料", "电机与执行器"],
+        "companies": ["REalloys", "Ioneer", "北方稀土", "金力永磁", "中科三环"],
+        "stocks": [
+          {
+            "code": "usALOY",
+            "name": "REalloys",
+            "reason": "获选进入重稀土处理设施独家谈判，强化北美 mine-to-magnet 叙事"
+          },
+          {
+            "code": "sz300748",
+            "name": "金力永磁",
+            "reason": "稀土永磁供给安全成为机器人与高性能电机产业链关注点"
+          },
+          {
+            "code": "sz000970",
+            "name": "中科三环",
+            "reason": "高性能钕铁硼磁材需求与重稀土供应约束具有逻辑关联"
+          }
+        ]
+      }
+    }
+  ]
+}
