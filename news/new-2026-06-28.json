@@ -1,0 +1,98 @@
+{
+  "date": "2026-06-28",
+  "items": [
+    {
+      "id": "ibm-sub-1nm-nanostack-chip-2026-06",
+      "title": "IBM 发布 sub-1nm Nanostack 晶体管技术，指向下一代 AI 芯片能效提升",
+      "summary": "IBM 6 月 25 日宣布 0.7nm（7 埃）级 sub-1nm 芯片技术，采用三维 Nanostack 晶体管架构，称相较 2nm 节点可带来最高 50% 性能提升或 70% 能效提升。IBM 表示该结构已通过 CMOS 集成与功能验证，并在 VLSI 2026 展示 SRAM 缩放结果，目标是在约 5 年内进入生产路径。事件对应算力与基础设施层，重点在先进逻辑制程、SRAM 与高能效 AI 计算的长期研发路线。",
+      "sourceUrl": "https://newsroom.ibm.com/2026-06-25-ibm-debuts-worlds-first-sub-1-nanometer-chip-technology",
+      "publishedAt": "2026-06-25",
+      "layerIds": [1],
+      "industries": ["半导体", "先进制程", "AI 芯片"],
+      "beneficiaries": {
+        "industries": ["半导体研发", "先进逻辑制程", "AI 硬件能效"],
+        "companies": ["IBM", "ASML", "Lam Research", "Tokyo Electron"],
+        "stocks": [
+          {
+            "code": "usIBM",
+            "name": "IBM",
+            "reason": "Nanostack 属于 IBM 半导体研发成果，若后续授权或生态合作推进，将增强其先进制程 IP 与 AI 硬件研发影响力"
+          },
+          {
+            "code": "usLRCX",
+            "name": "Lam Research",
+            "reason": "IBM 公告提及其与设备伙伴推进 High NA EUV 相关流程，先进节点研发对关键设备与工艺协同更敏感"
+          }
+        ]
+      }
+    },
+    {
+      "id": "elea-amazon-ai-data-center-2026-06",
+      "title": "Elea 与 AXIA Energia 将在巴西贝伦建设亚马逊区域 AI 数据中心",
+      "summary": "Elea Data Centers 与 AXIA Energia 6 月 26 日宣布，将在巴西帕拉州贝伦建设亚马逊区域首个 AI-neutral 数据中心 BEL1，计划 2027 年二季度投运，初始容量 7.5MW，未来阶段可扩展至 100MW。项目将由 AXIA 供应 100% 可再生能源，并靠近 Miramar 高压变电站以提高供电可靠性。事件对应算力与基础设施层，体现 AI 数据中心扩张开始与区域电力、可再生能源和网络路由深度绑定。",
+      "sourceUrl": "https://finance.yahoo.com/technology/ai/articles/elea-announces-amazon-regions-first-140700638.html",
+      "publishedAt": "2026-06-26",
+      "layerIds": [1],
+      "industries": ["AI 数据中心", "可再生能源", "云基础设施"],
+      "beneficiaries": {
+        "industries": ["绿色数据中心", "电力基础设施", "区域云算力"],
+        "companies": ["Elea Data Centers", "AXIA Energia"],
+        "stocks": []
+      }
+    },
+    {
+      "id": "waton-mota-alpha-finance-agents-2026-06",
+      "title": "Waton Financial 发布 MoTA Alpha，将多 Agent 工作流推向专业投研场景",
+      "summary": "Waton Financial 6 月 27 日宣布发布 MoTA Alpha，对其 AI 投资平台进行重大升级，新增第三方 AI 交易 Agent 生态 Agent Talents Market、重构多 Agent 协作流程并强化审计轨迹。公司称 MoTA 面向专业投资者和组合管理人，覆盖研究、分析、风险与执行等角色，并在每一阶段保留人工复核与最终签署。事件对应应用与解决方案层，属于金融行业 AI Agent 从工具演示走向受控工作流平台的案例。",
+      "sourceUrl": "https://www.prnewswire.com/news-releases/waton-financial-launches-mota-alpha-marking-full-strategic-pivot-to-ai-native-finance-302812548.html",
+      "publishedAt": "2026-06-27",
+      "layerIds": [4],
+      "industries": ["金融科技", "AI Agent", "投研工作流"],
+      "beneficiaries": {
+        "industries": ["AI 金融应用", "券商 SaaS", "Agent 生态平台"],
+        "companies": ["Waton Financial"],
+        "stocks": [
+          {
+            "code": "usWTF",
+            "name": "Waton Financial",
+            "reason": "MoTA Alpha 是公司从传统券商与 Broker Cloud SaaS 向 AI-native 金融产品转型的核心产品进展"
+          }
+        ]
+      }
+    },
+    {
+      "id": "streamline-leo-ai-property-agents-2026-06",
+      "title": "Streamline 扩展 Leo AI Agent，把度假租赁运营接入多 Agent 工作流",
+      "summary": "Streamline by Inhabit 6 月 26 日宣布扩展 Leo AI Agent，将 AI 能力贯穿物业管理系统、网站、数字营销、对话搜索、预订与运营支持。公司称 Leo AI 不是单点助手，而是连接房源、客人、业主和运营数据的智能操作层，并通过 Partner X API 支持客户在 Streamline 数据之上构建自定义 Agent。事件对应应用与解决方案层，展示垂直 SaaS 将行业数据与工作流封装为 Agent 网络的落地路径。",
+      "sourceUrl": "https://www.prnewswire.com/news-releases/streamline-expands-leo-ai-agent-bringing-agentic-ai-across-its-property-management-website-and-digital-marketing-platform-302812374.html",
+      "publishedAt": "2026-06-26",
+      "layerIds": [4],
+      "industries": ["垂直 SaaS", "PropTech", "AI Agent"],
+      "beneficiaries": {
+        "industries": ["物业管理软件", "旅游住宿 SaaS", "行业 Agent 平台"],
+        "companies": ["Streamline", "Inhabit"],
+        "stocks": []
+      }
+    },
+    {
+      "id": "lg-nvidia-physical-ai-followup-2026-06",
+      "title": "LG Electronics 披露与 NVIDIA Physical AI 后续合作，聚焦机器人形态与 AI 数据中心冷却",
+      "summary": "Asia Business Daily 6 月 26 日报道，LG Electronics CEO Ryu Jae-cheol 在 LinkedIn 披露了与 NVIDIA 的后续合作细节，双方将围绕下一代机器人形态、基于 NVIDIA 平台的 LG Data Factory、AI 数据中心冷却方案和机器人量产体系推进合作。报道还提到 LG 将结合空间、设备、工业基础设施和制造执行能力，为 Physical AI 训练与部署提供真实世界数据与硬件能力。事件横跨算力基础设施层与终端生态层，反映机器人、数据工厂和 AI 数据中心热管理正在融合。",
+      "sourceUrl": "https://www.asiae.co.kr/en/article/2026062614050002153",
+      "publishedAt": "2026-06-26",
+      "layerIds": [1, 5],
+      "industries": ["Physical AI", "机器人", "AI 数据中心冷却"],
+      "beneficiaries": {
+        "industries": ["具身智能", "机器人零部件", "液冷与数据中心热管理"],
+        "companies": ["LG Electronics", "NVIDIA", "LG Energy Solution", "LG Innotek"],
+        "stocks": [
+          {
+            "code": "usNVDA",
+            "name": "英伟达",
+            "reason": "LG 后续合作继续围绕 NVIDIA 平台、Physical AI 与 AI 数据中心基础设施展开，增强其机器人与 AI factory 生态黏性"
+          }
+        ]
+      }
+    }
+  ]
+}
