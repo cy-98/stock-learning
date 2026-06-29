@@ -1,0 +1,90 @@
+{
+  "date": "2026-06-29",
+  "items": [
+    {
+      "id": "hp-openai-frontier-enterprise-agents-2026-06",
+      "title": "HP 与 OpenAI 启动 Frontier 战略合作，推动企业 Agent 从试点走向规模部署",
+      "summary": "HP 6 月 28 日宣布与 OpenAI 启动 Frontier 战略合作，将把 OpenAI Frontier 用于客户与伙伴体验、设备遥测洞察、员工生产力和软件开发等场景。OpenAI 同日说明，Frontier 将作为 HP 从试点扩展到多类 Agent 与 AI 工作流的统一平台，覆盖上下文、权限、部署和评估。该事件对应平台与应用层，重点在企业级 Agent 治理、端点设备管理和工作流落地。",
+      "sourceUrl": "https://www.hp.com/us-en/newsroom/press-releases/2026/open-ai-partnership.html",
+      "publishedAt": "2026-06-28",
+      "layerIds": [3, 4],
+      "industries": ["企业 AI Agent", "AI PC", "IT 运维", "客户体验"],
+      "beneficiaries": {
+        "industries": ["企业 Agent 平台", "端点设备管理", "AI PC 与工作站", "客户服务自动化"],
+        "companies": ["HP Inc.", "OpenAI"],
+        "stocks": [
+          {
+            "code": "usHPQ",
+            "name": "HP Inc.",
+            "reason": "HP 将 Frontier 接入客户、伙伴、WXP 设备遥测和软件开发流程，硬件与企业服务组合对 AI 工作流采用更敏感"
+          }
+        ]
+      }
+    },
+    {
+      "id": "agibot-15000th-robot-production-2026-06",
+      "title": "智元机器人第 15000 台机器人下线，具身智能进入规模交付验证阶段",
+      "summary": "AGIBOT（智元机器人）6 月 28 日宣布第 15000 台机器人正式下线，里程碑机型为面向工业和真实作业场景的 G2 具身任务机器人。公司称其从 5000 台到 10000 台只用了约三个月，6 月下旬还完成了约 100 小时工厂直播作业，G2 在平板量产质检环节与产线工人协同运行。事件对应终端与生态层，说明具身智能竞争正在从单机演示转向供应链、制造一致性和现场交付能力。",
+      "sourceUrl": "https://www.agibot.com/article/231/detail/82.html",
+      "publishedAt": "2026-06-28",
+      "layerIds": [5],
+      "industries": ["具身智能", "工业机器人", "消费电子制造", "机器人供应链"],
+      "beneficiaries": {
+        "industries": ["机器人本体制造", "精密减速器与执行器", "机器视觉", "工业质检自动化"],
+        "companies": ["AGIBOT", "Longcheer Technology"]
+      }
+    },
+    {
+      "id": "wirobotics-allex-sim2real-ecosystem-2026-06",
+      "title": "WIRobotics 发布 ALLEX 仿真模型，开放 Physical AI 开发生态第一步",
+      "summary": "WIRobotics 6 月 28 日宣布启动 Physical AI 技术披露路线图，首个发布内容为其人形机器人 ALLEX 的仿真模型及 Sim-to-Real 验证结果。公司表示将提供 MJCF、USD、URDF 等格式，让研究者在无需获得实体机器人前开展控制和仿真研究。该事件对应终端与生态层，也与平台工具层相关，反映具身智能开发正在向开放仿真、数据闭环和开发者生态扩展。",
+      "sourceUrl": "https://www.prnewswire.com/news-releases/wirobotics-begins-building-a-physical-ai-development-ecosystem-the-first-technology-release-features-the-allex-simulation-model-302812541.html",
+      "publishedAt": "2026-06-28",
+      "layerIds": [3, 5],
+      "industries": ["Physical AI", "人形机器人", "Sim-to-Real", "机器人开发工具"],
+      "beneficiaries": {
+        "industries": ["机器人仿真软件", "具身智能算法", "人形机器人开发平台", "边缘 AI 计算"],
+        "companies": ["WIRobotics", "NVIDIA", "Amazon Web Services"]
+      }
+    },
+    {
+      "id": "versprite-fork-knife-ai-secops-2026-06",
+      "title": "VerSprite 推出 Fork 与 Knife，把 AI 驱动威胁建模接入软件交付流程",
+      "summary": "VerSprite 6 月 26 日通过 Business Wire 宣布 Fork 连续应用威胁建模平台和 Knife AI 辅助对抗测试平台正式可用。Fork 基于 PASTA 方法论，可在约两个小时内生成风险优先级威胁模型，并结合实时威胁情报、漏洞数据和 MITRE/OWASP 映射；Knife 则把高优先级攻击路径交给 AI 辅助、人类在环的测试流程验证。事件对应平台与工具层，说明 AI 安全从静态合规清单转向与开发节奏同步的持续验证。",
+      "sourceUrl": "https://www.businesswire.com/news/home/20260626289581/en/VerSprite-Launches-Fork-and-Knife-AI-Driven-Threat-Modeling-and-Adversarial-Testing-Built-for-the-Speed-of-Modern-Software",
+      "publishedAt": "2026-06-26",
+      "layerIds": [3],
+      "industries": ["AI 安全", "AppSec", "威胁建模", "对抗测试"],
+      "beneficiaries": {
+        "industries": ["AI SecOps", "软件供应链安全", "安全测试平台", "企业风险管理"],
+        "companies": ["VerSprite", "ServiceNow", "Veracode", "Snyk", "Checkmarx"]
+      }
+    },
+    {
+      "id": "clarity-ai-agent-qa-customer-service-2026-06",
+      "title": "Clarity 发布 AI Agent QA，用企业自有评分表覆盖全部客服对话质检",
+      "summary": "Clarity 6 月 26 日发布 AI Agent QA，面向客服、客户体验和外包团队，对语音和文本互动按企业自有评分矩阵进行自动质检。公开资料显示，该产品可覆盖电话、聊天、邮件和 WhatsApp 等渠道，并把每项评分关联到具体时间戳证据，方便复核、申诉和合规审计。事件对应应用与解决方案层，体现垂直客服场景中 AI Agent 正从问答扩展到质量管理和运营治理。",
+      "sourceUrl": "https://markets.businessinsider.com/news/stocks/clarity-launches-ai-agent-qa-to-score-every-customer-service-conversation-automatically-1036279174",
+      "publishedAt": "2026-06-26",
+      "layerIds": [4],
+      "industries": ["客户体验", "客服质检", "BPO", "合规运营"],
+      "beneficiaries": {
+        "industries": ["客服自动化", "质量管理软件", "对话智能", "合规审计工具"],
+        "companies": ["Clarity"]
+      }
+    },
+    {
+      "id": "akemona-capmark-ai-investment-banker-2026-06",
+      "title": "Akemona 推出 CapMark AI Agent，自动化数字资产发行与投行业务流程",
+      "summary": "Akemona 6 月 26 日发布 CapMark AI Agent，作为其 AI Investment Banker for Digital Assets 平台的一部分，帮助投行、资管、券商和企业创建与组织代币化产品发行。该 Agent 覆盖发行人尽调、结构分析、监管文件准备、簿记建档和流程协调，并与 Akemona Tokenization Cloud、Issuer Hub、Investor Portal 等模块集成。事件对应应用层，聚焦金融行业中合规工作流、代币化基础设施和 AI 自动化投行业务的结合。",
+      "sourceUrl": "https://www.prnewswire.com/news-releases/akemona-launches-capmark-ai-agent-as-part-of-its-ai-investment-banker-platform-302811143.html",
+      "publishedAt": "2026-06-26",
+      "layerIds": [4],
+      "industries": ["金融科技", "数字资产", "投行业务自动化", "RWA"],
+      "beneficiaries": {
+        "industries": ["代币化发行平台", "合规工作流软件", "金融 AI Agent", "数字资产基础设施"],
+        "companies": ["Akemona"]
+      }
+    }
+  ]
+}
