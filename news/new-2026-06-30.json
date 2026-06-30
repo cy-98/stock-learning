@@ -1,0 +1,119 @@
+{
+  "date": "2026-06-30",
+  "items": [
+    {
+      "id": "korea-ai-megaprojects-memory-dc-physical-ai-2026-06",
+      "title": "韩国公布半导体、Physical AI 与 AI 数据中心三大 megaproject",
+      "summary": "韩国政府与三星电子、SK 集团等企业在 6 月 29 日公布面向 AI 产业的三大 megaproject，覆盖半导体、Physical AI 与 AI 数据中心。The Korea Times 报道称，三星电子和 SK hynix 将投入 800 万亿韩元建设西南部半导体生产基地，SK、GS 与 Naver 还计划投入 550 万亿韩元把 AI 数据中心容量提升至 18.4GW。该事件对应算力基础设施层，并延伸到终端与生态层的机器人/Physical AI 量产能力。",
+      "sourceUrl": "https://www.koreatimes.co.kr/southkorea/politics/20260629/samsung-sk-hynix-to-invest-585-bil-to-build-semiconductor-complex-in-southwestern-region",
+      "publishedAt": "2026-06-29",
+      "layerIds": [1, 5, 3],
+      "industries": ["半导体", "HBM", "AI 数据中心", "Physical AI"],
+      "beneficiaries": {
+        "industries": ["HBM 与先进封装", "AI 数据中心电力与冷却", "机器人零部件", "AI 服务器内存互连"],
+        "companies": ["Samsung Electronics", "SK hynix", "SK Group", "GS Group", "Naver"],
+        "stocks": [
+          {
+            "code": "sh688008",
+            "name": "澜起科技",
+            "reason": "AI 服务器与高带宽内存扩产周期中，内存接口与互连芯片需求逻辑上更敏感"
+          }
+        ]
+      }
+    },
+    {
+      "id": "workato-aws-agentic-mcp-sca-2026-06",
+      "title": "Workato 与 AWS 扩大战略合作，用 Enterprise MCP 推进企业 Agent 落地",
+      "summary": "Workato 6 月 29 日宣布与 AWS 签署第二份战略合作协议，并获得 AWS AI Competency 的 Agentic AI Tools 类别认证。双方将把 WorkatoONE 与 Amazon Bedrock 等 AWS AI 服务结合，帮助企业以受治理的方式部署跨应用、数据源和业务流程的 AI agents。该事件主要对应平台与工具层，反映企业 Agent 从试点转向生产控制面的需求。",
+      "sourceUrl": "https://www.businesswire.com/news/home/20260629741962/en/Workato-Signs-Strategic-Collaboration-Agreement-with-AWS-to-Scale-Agentic-Success-with-Enterprise-MCP",
+      "publishedAt": "2026-06-29",
+      "layerIds": [3, 4],
+      "industries": ["MCP", "企业 Agent", "云计算", "流程自动化"],
+      "beneficiaries": {
+        "industries": ["Agent 编排平台", "云 AI 服务", "iPaaS", "企业流程自动化"],
+        "companies": ["Workato", "Amazon Web Services"],
+        "stocks": [
+          {
+            "code": "usAMZN",
+            "name": "Amazon",
+            "reason": "Workato 将 Amazon Bedrock 等 AWS AI 服务纳入企业 Agent 生产化方案，可能增强 AWS 在企业 AI 工作负载中的渠道和平台粘性"
+          }
+        ]
+      }
+    },
+    {
+      "id": "groundcover-agent-mode-devtoolchain-2026-06",
+      "title": "groundcover 扩展 Agent Mode，让可治理 AI Agent 连接观测数据与开发工具链",
+      "summary": "groundcover 6 月 29 日发布 Agent Mode 扩展，新增连接器、自定义技能和管理员级 guardrails，使 AI agents 能基于客户云内的 eBPF/OTel 观测数据在 Slack、Linear、GitHub、Cursor 等工具中执行建议代码、开 PR 和管理任务等动作。公告强调 agent 推理与执行留在客户环境内，并通过用户级权限与 MCP 授权审计每次操作。该事件对应平台与工具层，聚焦可观测性数据成为 AI 运维和软件工程 Agent 的上下文底座。",
+      "sourceUrl": "https://www.businesswire.com/news/home/20260629643494/en/groundcover-Expands-Agent-Mode-Allowing-AI-Agents-to-Act-Across-the-Developer-Toolchain",
+      "publishedAt": "2026-06-29",
+      "layerIds": [3],
+      "industries": ["可观测性", "DevOps", "MCP", "AI 编程"],
+      "beneficiaries": {
+        "industries": ["可观测性平台", "软件工程 Agent", "云原生运维", "企业 AI 治理"],
+        "companies": ["groundcover", "GitHub", "Slack", "Linear", "Cursor"],
+        "stocks": []
+      }
+    },
+    {
+      "id": "dynamics-commerce-mcp-public-preview-2026-06",
+      "title": "Microsoft Dynamics 365 Commerce MCP Server 进入公开预览",
+      "summary": "Microsoft 6 月 29 日宣布 Dynamics 365 Commerce MCP server 进入 Public Preview，把商品发现、库存、定价、折扣、购物车、结账和订单查询等零售能力暴露为 AI tools。该 MCP server 由 Microsoft 托管在 Commerce Scale Unit 上，支持 Copilot Studio、ChatGPT 等 MCP-aware agent host 通过 Entra ID 连接。事件对应应用与解决方案层，也体现企业 SaaS 将行业业务逻辑标准化供 Agent 调用。",
+      "sourceUrl": "https://www.microsoft.com/en-us/dynamics-365/blog/it-professional/2026/06/29/dynamics-365-commerce-introduces-agentic-capabilities-with-model-context-protocol-mcp/",
+      "publishedAt": "2026-06-29",
+      "layerIds": [4, 3],
+      "industries": ["零售 SaaS", "MCP", "Agentic Commerce", "企业软件"],
+      "beneficiaries": {
+        "industries": ["零售数字化", "行业 Copilot", "POS 与电商系统", "企业身份与治理"],
+        "companies": ["Microsoft", "Amicis Solutions", "Michael Hill"],
+        "stocks": [
+          {
+            "code": "usMSFT",
+            "name": "Microsoft",
+            "reason": "Dynamics 365 Commerce 将零售业务工具开放给 AI agents，可能提升 Microsoft 企业应用与 Copilot Studio 的行业落地深度"
+          }
+        ]
+      }
+    },
+    {
+      "id": "microvision-movia-ai-hyperscaler-robotics-2026-06",
+      "title": "MicroVision 向 AI 公司与 hyperscaler 交付 MOVIA 激光雷达传感器用于机器人评估",
+      "summary": "MicroVision 6 月 29 日宣布，已向一家领先 AI 公司与 hyperscaler 交付 MOVIA S 激光雷达传感器，用于机器人、自主系统和下一代 AI 应用评估。公司称 MOVIA 将支持机器感知、环境理解、目标检测和空间智能等测试，强调物理世界感知是 AI 从屏幕走向机器人和自动化系统的基础能力。该事件对应终端与生态层，并与 Physical AI 感知硬件供应链相关。",
+      "sourceUrl": "https://ir.microvision.com/news/press-releases/detail/455/microvision-delivers-moviatm-sensors-to-leading",
+      "publishedAt": "2026-06-29",
+      "layerIds": [5],
+      "industries": ["激光雷达", "机器人", "Physical AI", "机器感知"],
+      "beneficiaries": {
+        "industries": ["短距激光雷达", "机器人感知模组", "工业自动化", "自主移动系统"],
+        "companies": ["MicroVision"],
+        "stocks": [
+          {
+            "code": "usMVIS",
+            "name": "MicroVision",
+            "reason": "MOVIA 传感器进入 AI 公司与 hyperscaler 评估环节，可能提升其在机器人与自主系统感知方案中的验证机会"
+          }
+        ]
+      }
+    },
+    {
+      "id": "palladyne-guidetech-brain-counter-uas-2026-06",
+      "title": "Palladyne AI 子公司 GuideTech 获 BRAIN 反无人机系统合同",
+      "summary": "Palladyne AI 6 月 29 日宣布，其 GuideTech 子公司获得一份 230 万美元合同，为某防务主承包商的低成本动能反无人机拦截系统部署 BRAIN flight computer 与 FLEX flight software framework。公告称该合同是 BRAIN 硬件和相关软件能力的直接产品销售，并可能带来后续量产订单。事件对应终端与生态层，体现 embodied AI、自主系统与边缘计算在防务场景中的商业化验证。",
+      "sourceUrl": "https://www.businesswire.com/news/home/20260629290910/en/",
+      "publishedAt": "2026-06-29",
+      "layerIds": [5],
+      "industries": ["防务 AI", "自主系统", "无人机反制", "边缘计算"],
+      "beneficiaries": {
+        "industries": ["自主飞控计算", "反无人机系统", "边缘 AI 软件", "防务机器人"],
+        "companies": ["Palladyne AI", "GuideTech"],
+        "stocks": [
+          {
+            "code": "usPDYN",
+            "name": "Palladyne AI",
+            "reason": "BRAIN 与 FLEX 获得防务客户合同验证，可能提升其 embodied AI 和自主系统产品在后续部署中的机会"
+          }
+        ]
+      }
+    }
+  ]
+}
