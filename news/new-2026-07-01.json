@@ -1,0 +1,98 @@
+{
+  "date": "2026-07-01",
+  "items": [
+    {
+      "id": "etched-inference-chip-stealth-2026-06",
+      "title": "Etched 携工作芯片出隐身，称已获超 10 亿美元客户合同",
+      "summary": "Etched 6 月 30 日宣布退出隐身状态，披露已有可工作的 AI 推理芯片、累计融资 8 亿美元，并取得超过 10 亿美元签约客户合同。公司称其 rack-scale 推理系统已在验证 DeepSeek、Qwen、Mamba、Llama 等模型，并正推进量产。该事件对应算力层与模型层，反映推理成本和专用 ASIC 正成为 AI 基础设施竞争的新焦点。",
+      "sourceUrl": "https://www.globenewswire.com/news-release/2026/06/30/3319922/0/en/Etched-Emerges-From-Stealth-With-Working-Chip-800M-Raised-and-Over-1B-in-Customer-Contracts.html",
+      "publishedAt": "2026-06-30",
+      "layerIds": [1, 2],
+      "industries": ["AI 推理芯片", "ASIC", "AI 算力"],
+      "beneficiaries": {
+        "industries": ["先进制程代工", "推理算力集群", "AI 芯片验证服务"],
+        "companies": ["Etched", "TSMC", "Broadcom", "Google TPU"],
+        "stocks": [
+          {
+            "code": "usTSM",
+            "name": "台积电",
+            "reason": "Etched 称融资信号包含与领先半导体制造商的深度代工合作，专用 AI ASIC 放量逻辑上增加先进制程需求"
+          }
+        ]
+      }
+    },
+    {
+      "id": "factset-google-cloud-financial-agents-2026-06",
+      "title": "FactSet 与 Google Cloud 合作，将 Gemini Agent 引入金融工作流",
+      "summary": "FactSet 6 月 30 日宣布与 Google Cloud 建立战略合作，把 Google 企业搜索、Gemini 模型和 Gemini Enterprise Agent Platform 嵌入 FactSet Workstation。双方计划共同开发面向组合运营、交易顾问和公司金融的 Agentic workflows，并强调可溯源、可审计、适合受监管金融环境。该事件对应平台层与应用层，说明金融数据平台正在从信息检索升级为可执行工作流。",
+      "sourceUrl": "https://www.googlecloudpresscorner.com/2026-06-30-FactSet-Announces-Strategic-Partnership-with-Google-Cloud-to-Bring-Advanced-AI-to-Financial-Intelligence",
+      "publishedAt": "2026-06-30",
+      "layerIds": [3, 4],
+      "industries": ["金融科技", "云计算", "Agent 平台"],
+      "beneficiaries": {
+        "industries": ["金融数据终端", "云 AI 平台", "投研工作流自动化"],
+        "companies": ["FactSet", "Google Cloud"],
+        "stocks": [
+          {
+            "code": "usFDS",
+            "name": "FactSet",
+            "reason": "将自有金融数据和工作站入口与 Gemini Agent 结合，可能提升金融客户的工作流粘性"
+          },
+          {
+            "code": "usGOOGL",
+            "name": "Alphabet",
+            "reason": "Gemini Enterprise Agent Platform 获得金融数据和投研场景落地，有助于云 AI 平台拓展受监管行业"
+          }
+        ]
+      }
+    },
+    {
+      "id": "harness-worker-agents-ga-2026-06",
+      "title": "Harness 发布软件交付 Autonomous Worker Agents 与 Agent Marketplace",
+      "summary": "Harness 6 月 30 日推出面向软件交付的 Autonomous Worker Agents，可在构建、测试、安全、部署和运维等流水线步骤中以受治理 Agent 方式执行任务。产品包含 LLM Gateway、沙箱、独立身份、策略执行、审计轨迹和成本追踪，并提供 Agent Marketplace 供企业复用或定制。该事件对应平台层，说明 DevOps 工具链正把 Agent 从代码生成延伸到发布后的全生命周期。",
+      "sourceUrl": "https://www.prnewswire.com/news-releases/harness-launches-autonomous-worker-agents-for-software-delivery-302814180.html",
+      "publishedAt": "2026-06-30",
+      "layerIds": [3],
+      "industries": ["DevOps", "MLOps", "Agent 编排"],
+      "beneficiaries": {
+        "industries": ["软件交付平台", "企业 AI 治理", "云模型服务"],
+        "companies": ["Harness", "Anthropic", "OpenAI", "AWS"],
+        "stocks": [
+          {
+            "code": "usAMZN",
+            "name": "Amazon",
+            "reason": "Harness 支持通过 AWS Bedrock 调用 Anthropic 等模型，企业 Agent 流水线扩张可能带动云端模型调用需求"
+          }
+        ]
+      }
+    },
+    {
+      "id": "sonar-vortex-remediation-agent-2026-06",
+      "title": "Sonar 推出 Vortex 与 SonarQube Remediation Agent，聚焦 AI 代码验证",
+      "summary": "Sonar 6 月 30 日发布 Sonar Vortex 和 SonarQube Remediation Agent，用于在 Agentic development loop 内约束和验证 AI 生成代码。公司称 Vortex 可在生成前注入项目标准并实时校验质量和安全规则，基准测试中部分重构任务 token 消耗最高降低 36%；Remediation Agent 则异步修复历史技术债并生成待合并 PR。该事件对应平台层，凸显 AI 编程普及后代码验证、治理和成本控制的重要性。",
+      "sourceUrl": "https://www.prnewswire.com/news-releases/sonar-launches-sonar-vortex-and-sonarqube-remediation-agent-to-improve-agentic-effectiveness-302814173.html",
+      "publishedAt": "2026-06-30",
+      "layerIds": [3],
+      "industries": ["AI 编程", "代码质量", "企业 AI 治理"],
+      "beneficiaries": {
+        "industries": ["代码验证工具", "DevSecOps", "AI 成本治理"],
+        "companies": ["Sonar", "Gitar", "ServiceNow", "NVIDIA"],
+        "stocks": []
+      }
+    },
+    {
+      "id": "stathera-ai-datacenter-timing-2026-06",
+      "title": "Stathera 完成 5500 万美元 B 轮融资，切入 AI 数据中心时序芯片",
+      "summary": "Stathera 6 月 30 日宣布完成 5500 万美元超额认购 B 轮融资，用于扩大 GEN2 硅时序产品量产，并开发面向 AI、通信、企业和数据中心市场的 GEN3 平台。公司称 AI 数据中心中 GPU 集群、网络和光互连对同步、抖动和可靠性的要求提升，使精密时序成为关键基础设施。该事件对应算力层，补充了 AI 数据中心除 GPU、HBM、光模块之外的底层器件瓶颈线索。",
+      "sourceUrl": "https://www.prnewswire.com/news-releases/stathera-announces-us55-million-series-b-to-scale-silicon-timing-and-accelerate-next-generation-ai-data-center-solutions-302813712.html",
+      "publishedAt": "2026-06-30",
+      "layerIds": [1],
+      "industries": ["AI 数据中心", "半导体器件", "时钟与同步"],
+      "beneficiaries": {
+        "industries": ["精密时序芯片", "数据中心网络", "光互连"],
+        "companies": ["Stathera", "MediaTek Innovation Fund", "TXC Corporation", "Celesta Capital"],
+        "stocks": []
+      }
+    }
+  ]
+}
