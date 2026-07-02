@@ -1,0 +1,104 @@
+{
+  "date": "2026-07-02",
+  "items": [
+    {
+      "id": "netzilo-bedrock-agent-governance-2026-07",
+      "title": "Netzilo 将 AI Agent 运行时治理扩展到 Amazon Bedrock AgentCore",
+      "summary": "Netzilo 7 月 1 日宣布，其 AI Detection & Response 平台已扩展到 Amazon Bedrock AgentCore，并覆盖 Microsoft Foundry、Copilot Studio、CrewAI、LangGraph、Google Vertex AI 等主要 Agent 运行环境。公司称平台可对工具调用、文件读取、网络请求等行为建立运行时图谱，并通过 Governance-as-Code、隔离或终止能力处理提示注入、工具投毒、权限升级等风险。该事件对应平台与工具层，说明企业 Agent 从试点走向生产后，统一观测、策略执行和安全控制正在成为基础设施。",
+      "sourceUrl": "https://www.prnewswire.com/news-releases/netzilo-brings-ai-agent-governance-to-amazon-bedrock-agentcore-302813062.html",
+      "publishedAt": "2026-07-01",
+      "layerIds": [3],
+      "industries": ["AI 安全", "Agent 治理", "云计算"],
+      "beneficiaries": {
+        "industries": ["AI 运行时安全", "云 Agent 平台", "企业安全治理"],
+        "companies": ["Netzilo", "Amazon Web Services", "Microsoft", "Google Cloud"],
+        "stocks": [
+          {
+            "code": "usAMZN",
+            "name": "Amazon",
+            "reason": "Bedrock AgentCore 获得第三方治理生态支持，逻辑上有利于 AWS 承接受监管企业的 Agent 工作负载"
+          },
+          {
+            "code": "usMSFT",
+            "name": "微软",
+            "reason": "Netzilo 覆盖 Microsoft Foundry 与 Copilot Studio，企业 Agent 治理需求可能提升微软 Agent 平台生态粘性"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cognizant-neuro-ai-trust-2026-07",
+      "title": "Cognizant 发布 Neuro AI Trust，面向多模型与多 Agent 提供实时治理",
+      "summary": "Cognizant 7 月 1 日发布 Neuro AI Trust 平台，定位为企业 AI 的控制与智能层，用 Guardian Agents 持续监测模型、Agent 交互和工作流表现。平台支持运行时策略判定、风险预警、人工升级和可审计回放，并已在 Cognizant 面向 35 万员工的内部 Agent 化内网上部署。该事件对应平台层与应用层，反映大型 IT 服务商正把 AI 治理、审计和行业实施能力打包为生产级解决方案。",
+      "sourceUrl": "https://www.prnewswire.com/news-releases/cognizant-neuro-ai-trust-delivers-real-time-assurance-for-enterprises-scaling-ai-at-speed-302815540.html",
+      "publishedAt": "2026-07-01",
+      "layerIds": [3, 4],
+      "industries": ["AI 治理", "企业软件", "IT 服务"],
+      "beneficiaries": {
+        "industries": ["AI 咨询与实施", "企业风控软件", "Agent 观测平台"],
+        "companies": ["Cognizant", "IDC"],
+        "stocks": [
+          {
+            "code": "usCTSH",
+            "name": "Cognizant",
+            "reason": "Neuro AI Trust 将治理能力纳入其 AI Builder 服务组合，可能提升大型企业 AI 项目的实施与托管收入敏感度"
+          }
+        ]
+      }
+    },
+    {
+      "id": "twelvelabs-video-superintelligence-series-b-2026-07",
+      "title": "TwelveLabs 完成 1 亿美元 B 轮融资，推进视频智能 Agent 全栈系统",
+      "summary": "TwelveLabs 7 月 1 日宣布完成 1 亿美元 B 轮融资，由 NEA 与 NAVER Ventures 共同领投，Amazon、Radical Ventures 等参投。公司称将从视频理解模型扩展到融合感知、知识和推理的全栈 Agentic video intelligence system，并继续通过 Amazon Bedrock 与自有 API 分发 Marengo、Pegasus 等模型；AWS 也被列为其首选云服务商，双方将优化视频推理工作负载在 Trainium 芯片上的运行。该事件对应模型层与应用层，说明多模态视频理解正从检索能力走向可持续记忆和行业工作流。",
+      "sourceUrl": "https://www.globenewswire.com/news-release/2026/07/01/3320545/0/en/TwelveLabs-Raises-100-Million-in-Series-B-Funding-to-Build-Video-Superintelligence.html",
+      "publishedAt": "2026-07-01",
+      "layerIds": [2, 4],
+      "industries": ["多模态 AI", "视频智能", "Agent 应用"],
+      "beneficiaries": {
+        "industries": ["视频基础模型", "媒体内容检索", "云端 AI 推理"],
+        "companies": ["TwelveLabs", "Amazon Web Services", "NAVER Ventures", "NEA"],
+        "stocks": [
+          {
+            "code": "usAMZN",
+            "name": "Amazon",
+            "reason": "TwelveLabs 模型通过 Amazon Bedrock 分发并计划在 Trainium 上优化，可能提升 AWS 在视频 AI 推理场景的工作负载粘性"
+          }
+        ]
+      }
+    },
+    {
+      "id": "kandi-schneider-aidc-power-2026-07",
+      "title": "Kandi 拟控股子公司获施耐德电气授权，切入 AI 数据中心电力配套",
+      "summary": "Kandi Technologies 7 月 1 日宣布，其已签约拟收购 51% 股权的杭州新储新能源成为 Schneider Electric IT（中国）2026 财年授权分销商，可分销和支持 APC、MGE、UPS、冷却基础设施、机柜和相关技术服务。公司称该授权将增强其在 AI 数据中心备份电源和储能市场的供应链能力，并与新储自有储能电池和 BMS 技术形成组合方案。该事件对应算力与基础设施层，反映 AI 数据中心扩张正在把 UPS、冷却、储能等配套硬件推到供应链前台。",
+      "sourceUrl": "https://www.globenewswire.com/news-release/2026/07/01/3320437/0/en/Kandi-Technologies-Subsidiary-Xinchu-New-Energy-Named-Authorized-Distributor-of-Schneider-Electric.html",
+      "publishedAt": "2026-07-01",
+      "layerIds": [1],
+      "industries": ["AI 数据中心", "电力基础设施", "储能"],
+      "beneficiaries": {
+        "industries": ["UPS 与备电系统", "数据中心冷却", "储能与 BMS"],
+        "companies": ["Kandi Technologies", "Xinchu New Energy", "Schneider Electric"],
+        "stocks": [
+          {
+            "code": "usKNDI",
+            "name": "Kandi Technologies",
+            "reason": "授权分销关系增强其 AI 数据中心备电与储能业务的产品供给能力，对相关硬件订单具有逻辑敏感性"
+          }
+        ]
+      }
+    },
+    {
+      "id": "hellocare-saint-peters-ai-hospital-room-2026-07",
+      "title": "Saint Peter's 扩大 hellocare.ai 智能病房部署，AI 辅助跌倒预防已上线",
+      "summary": "hellocare.ai 7 月 1 日宣布，Saint Peter's Healthcare System 正继续扩大智能病房项目，已部署 AI 辅助虚拟护士查房、远程医疗、虚拟看护，并上线用于跌倒预防的 AI 模型。项目还将部署智能数字门牌，让医护人员在病房外实时查看患者注意事项、护理状态和工作流信息。该事件对应应用与解决方案层，显示医疗 AI 正从后台行政自动化延伸到住院场景的患者安全、虚拟护理和临床沟通工作流。",
+      "sourceUrl": "https://www.prnewswire.com/news-releases/saint-peters-healthcare-system-expands-intelligent-hospital-room-initiative-with-hellocareai-to-advance-ai-assisted-patient-safety-and-virtual-care-302813094.html",
+      "publishedAt": "2026-07-01",
+      "layerIds": [4],
+      "industries": ["医疗 AI", "虚拟护理", "计算机视觉"],
+      "beneficiaries": {
+        "industries": ["智能病房", "医院虚拟护理", "AI 辅助患者安全"],
+        "companies": ["hellocare.ai", "Saint Peter's Healthcare System"],
+        "stocks": []
+      }
+    }
+  ]
+}
