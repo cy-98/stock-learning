@@ -1,0 +1,139 @@
+{
+  "date": "2026-07-17",
+  "items": [
+    {
+      "id": "crusoe-lancium-childress-ai-dc-2026-07",
+      "title": "Crusoe 与 Lancium 宣布在德州建设 1GW AI 数据中心园区",
+      "summary": "Crusoe 与 Lancium 7 月 15 日宣布将在德州 Childress 建设 1.0GW 并网 AI 数据中心园区，Lancium 负责土地、电力接入和能源编排，Crusoe 负责设计、建设和运营。园区定位服务一家领先 hyperscale 科技公司的高级 AI 计算需求，规划数十万颗先进 AI 加速器，并配置表后太阳能、储能和闭环非蒸发液冷。该事件对应算力与基础设施层，说明 AI 数据中心竞争正从 GPU 采购延伸到电力接入、液冷和能源调度能力。",
+      "sourceUrl": "https://www.globenewswire.com/news-release/2026/07/15/3327869/0/en/Crusoe-and-Lancium-Announce-1-0-Gigawatt-AI-Data-Center-Campus-in-Childress-Texas.html",
+      "publishedAt": "2026-07-15",
+      "layerIds": [1],
+      "industries": ["AI 数据中心", "电力基础设施", "液冷", "GPU 算力"],
+      "beneficiaries": {
+        "industries": ["AI 加速器", "数据中心液冷", "储能与电力调度", "AI 云算力"],
+        "companies": ["Crusoe", "Lancium", "NVIDIA", "Vertiv"],
+        "stocks": [
+          {
+            "code": "usNVDA",
+            "name": "英伟达",
+            "reason": "1GW 级 AI 园区满载后需要部署大量先进 AI 加速器，逻辑上提升高端 GPU 与网络平台需求敏感度"
+          },
+          {
+            "code": "usVRT",
+            "name": "Vertiv",
+            "reason": "园区强调液冷和高密度电力基础设施，可能受益于 AI 数据中心热管理与电源系统需求扩张"
+          }
+        ]
+      }
+    },
+    {
+      "id": "nvidia-japan-national-physical-ai-infra-2026-07",
+      "title": "NVIDIA 与 Noetra 将为日本 FRONTia 建设 140MW Physical AI 工厂",
+      "summary": "NVIDIA 7 月 16 日宣布将与 Noetra Corp. 合作建设基于 Vera Rubin DSX 架构的 AI 工厂，配置 13,750 颗 Vera CPU、27,500 颗 Rubin GPU，提供 140MW 数据中心容量。该设施将支撑日本经产省 FRONTia 项目，用于开发面向机器人、数字孪生和工业场景的开放多模态基础模型，并向日本国内开发者和企业共享预训练权重。该事件横跨算力层、模型层与终端生态层，体现国家级 Physical AI 基础设施开始把算力、工业数据和机器人应用绑定在一起。",
+      "sourceUrl": "https://nvidianews.nvidia.com/news/japan-government-industrial-leaders-and-nvidia-launch-the-worlds-first-national-ai-infrastructure",
+      "publishedAt": "2026-07-16",
+      "layerIds": [1, 2, 5],
+      "industries": ["AI 工厂", "Physical AI", "机器人", "多模态模型"],
+      "beneficiaries": {
+        "industries": ["GPU 服务器", "AI 网络互连", "工业机器人", "数字孪生"],
+        "companies": ["NVIDIA", "Noetra", "SoftBank", "Sony", "NEC", "Honda"],
+        "stocks": [
+          {
+            "code": "usNVDA",
+            "name": "英伟达",
+            "reason": "项目直接采用 Vera Rubin、Spectrum-X 和 BlueField 等全栈平台，增强其在国家级 AI 工厂中的标准化地位"
+          },
+          {
+            "code": "usSONY",
+            "name": "索尼",
+            "reason": "索尼参与 Noetra 生态，Physical AI 模型和机器人应用可能与其传感、娱乐和机器人业务形成协同"
+          }
+        ]
+      }
+    },
+    {
+      "id": "parallel-google-cloud-agentic-search-2026-07",
+      "title": "Parallel 接入 Google Cloud Gemini Enterprise Agent Platform",
+      "summary": "Parallel 7 月 16 日宣布与 Google Cloud 达成产品集成，把其面向 AI Agent 的 web search 基础设施接入 Gemini Enterprise Agent Platform。企业可在 Gemini Enterprise API、Studio 和 Google Cloud Marketplace 中调用 Parallel 作为 grounding 数据源，用实时网页数据、结构化搜索结果和引用标注增强生产级 Agent。该事件对应平台与工具层，说明 Agent 从原型走向部署时，实时检索、可引用来源和云市场统一计费正在成为基础能力。",
+      "sourceUrl": "https://www.prnewswire.com/news-releases/parallel-announces-partnership-with-google-cloud-for-agentic-web-search-on-gemini-enterprise-agent-platform-302827075.html",
+      "publishedAt": "2026-07-16",
+      "layerIds": [3],
+      "industries": ["Agent 平台", "云计算", "企业搜索", "RAG"],
+      "beneficiaries": {
+        "industries": ["AI 搜索基础设施", "企业 Agent 平台", "云市场生态", "RAG 工具链"],
+        "companies": ["Parallel", "Google Cloud"],
+        "stocks": [
+          {
+            "code": "usGOOGL",
+            "name": "Alphabet",
+            "reason": "Parallel 成为 Gemini Enterprise Agent Platform 的原生 grounding 选项，可能提升 Google Cloud 在企业 Agent 开发中的工具生态粘性"
+          }
+        ]
+      }
+    },
+    {
+      "id": "fabrix-aws-msp-agentops-2026-07",
+      "title": "Fabrix.ai 入选 AWS MSP Recommended Toolkit，主打 AgentOps 运维控制面",
+      "summary": "Fabrix.ai 7 月 15 日宣布入选 Amazon Web Services Managed Service Provider Recommended Toolkit，成为该工具包中少数获批工具之一，并称其是唯一面向自主运维的 Agentic AI Platform。AWS MSP 认证伙伴可通过 Tooling Development Funds 采购 Fabrix.ai，用于在混合多云环境中部署、治理和扩展运维 Agent，并把观测、ITSM、CMDB 和安全遥测联成实时上下文。该事件对应平台与工具层，反映托管服务商正在把 AIOps 从告警降噪推进到可治理的 AgentOps。",
+      "sourceUrl": "https://www.prnewswire.com/news-releases/fabrixai-selected-as-the-agentic-operational-intelligence-platform-for-the-aws-managed-service-provider-recommended-toolkit-302826399.html",
+      "publishedAt": "2026-07-15",
+      "layerIds": [3],
+      "industries": ["AIOps", "AgentOps", "云托管服务", "企业 AI 治理"],
+      "beneficiaries": {
+        "industries": ["云 MSP", "可观测性平台", "IT 运维自动化", "企业 AI 安全治理"],
+        "companies": ["Fabrix.ai", "Amazon Web Services", "Cisco", "Splunk", "IBM", "NVIDIA"],
+        "stocks": [
+          {
+            "code": "usAMZN",
+            "name": "Amazon",
+            "reason": "AWS MSP 体系把 Fabrix.ai 纳入推荐工具链，可能帮助 AWS 合作伙伴把托管服务升级为 AI Agent 驱动的运维方案"
+          },
+          {
+            "code": "usNVDA",
+            "name": "英伟达",
+            "reason": "Fabrix.ai 公告提到与 NVIDIA NIM 推理栈集成，AgentOps 场景扩大可能增加企业侧推理基础设施使用"
+          }
+        ]
+      }
+    },
+    {
+      "id": "aqurio-healthcare-agentic-ai-2026-07",
+      "title": "IntelePeer 推出 Aqurio，面向医疗等高风险行业部署合规 Agent",
+      "summary": "IntelePeer 7 月 15 日宣布成立 Aqurio，定位为面向医疗和其他高风险行业的 Agentic AI 公司，负责部署、编排和治理可自主执行工作流的智能 Agent。Aqurio 平台强调 HIPAA-native、HITRUST、SOC 2 Type II、PCI DSS 与 ISO/IEC 42001 认证，并兼容 70 多种电子健康记录、诊所管理和其他源系统；在医疗场景覆盖预约、预授权支持、护理缺口闭环、收入恢复和临床分诊辅助。该事件对应应用与解决方案层，显示垂直行业 AI 正从对话客服转向受监管的端到端流程执行。",
+      "sourceUrl": "https://www.prnewswire.com/news-releases/intelepeer-launches-aqurio-an-agentic-ai-company-for-healthcare-and-other-high-stakes-industries-302825752.html",
+      "publishedAt": "2026-07-15",
+      "layerIds": [4],
+      "industries": ["医疗 AI", "Agentic AI", "合规自动化", "行业 SaaS"],
+      "beneficiaries": {
+        "industries": ["医疗流程自动化", "患者访问管理", "保险与政府服务自动化", "合规 AI 平台"],
+        "companies": ["IntelePeer", "Aqurio"],
+        "stocks": []
+      }
+    },
+    {
+      "id": "veeaone-physical-ai-edge-grid-2026-07",
+      "title": "Veea 发布 VeeaONE 分布式智能平台，支持 Physical AI 边缘网格",
+      "summary": "Veea 7 月 16 日宣布 VeeaONE 平台关键组件商业可用，包括可运行在 NVIDIA Jetson、x86 和 Arm Linux 服务器上的 VeeaWare 中间件、VeeaHub Toolkit 与开发者门户。公司称 VeeaONE 可把门店、医院、仓库和园区等物理位置变成微型 AI 工厂，在本地完成数据采集、推理、身份策略、审计和联邦学习，主权数据不离开原始场景。该事件对应平台层与终端生态层，反映 Physical AI 的基础设施不只集中在云端数据中心，也在向低延迟、隐私敏感的边缘节点扩散。",
+      "sourceUrl": "https://www.globenewswire.com/news-release/2026/07/16/3328208/0/en/Veea-Announces-the-VeeaONE-Distributed-Intelligence-Platform-Enabling-Cybersecure-Sovereign-Data-Fabrics-and-Enterprise-AI-Grids-for-Physical-AI.html",
+      "publishedAt": "2026-07-16",
+      "layerIds": [3, 5],
+      "industries": ["边缘 AI", "Physical AI", "分布式智能", "网络安全"],
+      "beneficiaries": {
+        "industries": ["边缘计算", "AI 网关", "机器人与机器视觉", "主权数据基础设施"],
+        "companies": ["Veea", "NVIDIA"],
+        "stocks": [
+          {
+            "code": "usVEEA",
+            "name": "Veea",
+            "reason": "VeeaONE 商业可用扩大其在边缘 AI 网格和 Physical AI 基础设施中的产品化机会"
+          },
+          {
+            "code": "usNVDA",
+            "name": "英伟达",
+            "reason": "VeeaWare 支持 NVIDIA Jetson，边缘 Physical AI 部署扩张可能提升 Jetson 生态需求"
+          }
+        ]
+      }
+    }
+  ]
+}
