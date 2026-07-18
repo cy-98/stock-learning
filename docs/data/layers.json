@@ -2,7 +2,7 @@
   "meta": {
     "title": "AI 五层模型",
     "subtitle": "从算力底座到场景落地 · 行业 · 趋势 · 事件 · Section 1 投资分析",
-    "updated": "2026-05-28"
+    "updated": "2026-07-18"
   },
   "layers": [
     {
@@ -111,6 +111,16 @@
           "date": "2026-05",
           "title": "电力板块题材波动",
           "body": "大唐发电等标的短期暴涨，案例提示：逻辑可对、价格需估值纪律。"
+        },
+        {
+          "date": "2026-07-17",
+          "title": "芯片股回调检验 AI 算力交易",
+          "body": "Reuters 报道，费城半导体指数本周下跌约 10%，较 6 月高点回落逾 20%；市场重新评估 AI 基建资本开支的持续性。"
+        },
+        {
+          "date": "2026-07-15",
+          "title": "三星 HBM4 量产订单仍待确认",
+          "body": "DigiTimes 援引 Dealsite 称，三星尚未获得英伟达 HBM4 量产订单，相关收入仍以付费评估样品为主，显示 HBM 供应链验证仍是交付变量。"
         }
       ]
     },
@@ -205,6 +215,16 @@
           "date": "2026",
           "title": "开源生态扩张",
           "body": "企业私有化部署需求带动一体机与国产算力适配。"
+        },
+        {
+          "date": "2026-07-17",
+          "title": "Gemini 3.5 Pro 据报延后",
+          "body": "Bloomberg 报道称，Google 将 Gemini 3.5 Pro 更广泛发布推迟数月，原因包括编码与复杂推理表现未达内部预期。"
+        },
+        {
+          "date": "2026-07-16",
+          "title": "Nemotron 3 Embed 开源发布",
+          "body": "NVIDIA 在 Hugging Face 发布 Nemotron 3 Embed 嵌入模型集合，8B 版本位列 RTEB 榜首，并提供 1B 与 NVFP4 变体服务 RAG 与 Agent 检索。"
         }
       ]
     },
@@ -289,6 +309,16 @@
           "date": "2026",
           "title": "数据合规升级",
           "body": "企业内网部署与私有化模型需求增加。"
+        },
+        {
+          "date": "2026-07-16",
+          "title": "Milvus 3.0 推出向量 Lakebase",
+          "body": "Zilliz 发布 Milvus 3.0，支持在对象存储开放格式上构建向量、全文与标量索引，减少生产 RAG 数据复制与同步成本。"
+        },
+        {
+          "date": "2026-07-17",
+          "title": "General Compute 融资扩张推理云",
+          "body": "SiliconANGLE 报道，General Compute 获 4 亿美元债务融资，计划扩展基于 AMD 与 SambaNova 芯片的开放模型推理云。"
         }
       ]
     },
@@ -378,6 +408,11 @@
           "date": "2026",
           "title": "垂直 Agent 融资活跃",
           "body": "法律、财务、客服等场景出现专业化智能体产品。"
+        },
+        {
+          "date": "2026-07-17",
+          "title": "Copilot 强化模型路由降本",
+          "body": "Bloomberg 相关报道显示，Microsoft 正将部分 Excel、Outlook Copilot 请求路由至自研 MAI 模型，同时强调治理、安全与成本控制的一体化企业 AI 平台。"
         }
       ]
     },
@@ -482,6 +517,16 @@
           "date": "持续",
           "title": "投资方法论沉淀",
           "body": "本仓库 Section 1/2：框架 + 澜起、电力案例复盘。"
+        },
+        {
+          "date": "2026-07-15",
+          "title": "小鹏推进 Iron 人形机器人量产",
+          "body": "CnEVPost 援引报道称，小鹏计划年底前将 Iron 人形机器人月产能提升至 1000 台以上，并在 2027 年先从门店销售助理场景推广。"
+        },
+        {
+          "date": "2026-07-17",
+          "title": "AI 扩大稀土需求叙事",
+          "body": "Mining.com 报道 Sprott 观点称，AI 数据中心、机器人与通信设备正成为稀土磁材新增需求线索，供给安全仍受冶炼分离能力约束。"
         }
       ]
     }
