@@ -1,0 +1,84 @@
+{
+  "date": "2026-07-18",
+  "items": [
+    {
+      "id": "nvidia-vera-rubin-post-training-2026-07",
+      "title": "NVIDIA 强调 Vera Rubin 面向 Agent 后训练提升 intelligence per dollar",
+      "summary": "NVIDIA 7 月 17 日发布文章称，Agentic AI 让后训练从一次性微调变成持续循环，推高强化学习 rollout、沙箱环境和训练-推理切换的算力需求。公司称 Vera Rubin 平台面向这类后训练负载进行端到端协同设计，可用更少 GPU 训练最大模型，并扩大并行环境与 rollout 数量。该事件对应算力层与模型层，反映 AI 工厂竞争指标从单纯吞吐延伸到 token 成本与模型能力产出效率。",
+      "sourceUrl": "https://blogs.nvidia.com/blog/nvidia-vera-rubin-post-training-intelligence-per-dollar/",
+      "publishedAt": "2026-07-17",
+      "layerIds": [1, 2],
+      "industries": ["AI 算力", "后训练", "Agentic AI", "GPU"],
+      "beneficiaries": {
+        "industries": ["AI 加速器", "强化学习后训练", "AI 云算力"],
+        "companies": ["NVIDIA", "Prime Intellect", "Perplexity", "Together AI"],
+        "stocks": [
+          {
+            "code": "usNVDA",
+            "name": "英伟达",
+            "reason": "Vera Rubin 被定位为持续后训练与低 token 成本的 AI 工厂平台，逻辑上受益于 Agent 工作负载扩张"
+          }
+        ]
+      }
+    },
+    {
+      "id": "scaleflux-nvidia-ai-memory-tier-2026-07",
+      "title": "ScaleFlux 与 NVIDIA 将在 FMS 讨论 AI 推理中的 Flash 新内存层",
+      "summary": "ScaleFlux 7 月 16 日宣布，其 CEO 将与 NVIDIA 存储技术副总裁在 FMS 2026 发表主题演讲，讨论 AI 数据管线、CXL 内存、SSD 架构与 Flash 在 AI 系统中的新角色。公告称，随着模型规模扩大，内存容量成为大规模 AI 部署瓶颈，Flash 正作为 AI 推理的新内存层被用于扩大模型、提高 GPU 利用率并降低基础设施成本。该事件对应算力层，显示 HBM 之外的存储/内存层级正在参与 AI 推理成本优化。",
+      "sourceUrl": "https://www.prnewswire.com/news-releases/scaleflux-ceo-to-deliver-fms-2026-keynote-with-nvidia-on-memory-solutions-to-scale-ai-data-pipeline-302827713.html",
+      "publishedAt": "2026-07-16",
+      "layerIds": [1],
+      "industries": ["AI 存储", "CXL 内存", "SSD", "推理基础设施"],
+      "beneficiaries": {
+        "industries": ["数据中心存储", "内存扩展", "AI 推理基础设施"],
+        "companies": ["ScaleFlux", "NVIDIA"],
+        "stocks": [
+          {
+            "code": "usNVDA",
+            "name": "英伟达",
+            "reason": "NVIDIA 参与 AI 存储层级讨论，说明 GPU 平台生态需要更高效的内存与数据管线配套"
+          }
+        ]
+      }
+    },
+    {
+      "id": "intel-google-cloud-gemini-enterprise-2026-07",
+      "title": "Intel 扩大与 Google Cloud 合作，用 Gemini Enterprise 推进内部 Agent 工作流",
+      "summary": "Intel 与 Google Cloud 7 月 16 日宣布扩大多年战略合作，Intel 将在全球员工、工程、供应链和企业运营中部署 Gemini Enterprise 与 Google Cloud。公告称，双方将引入 agentic coding assistance、工程自动化和定制化业务 Agent，并用 Google Cloud C4/N4 实例补充 Intel 片上开发仿真与核心开发负载。该事件对应平台层与应用层，也与半导体研发流程相关，体现企业 Agent 从试点走向核心业务流程。",
+      "sourceUrl": "https://newsroom.intel.com/artificial-intelligence/intel-google-cloud-announce-collaboration-to-accelerate-intel-ai-enabled-enterprise-transformation",
+      "publishedAt": "2026-07-16",
+      "layerIds": [3, 4],
+      "industries": ["云计算", "企业 Agent", "半导体研发", "AI 应用"],
+      "beneficiaries": {
+        "industries": ["企业 AI 平台", "云计算", "半导体设计自动化"],
+        "companies": ["Intel", "Google Cloud"],
+        "stocks": [
+          {
+            "code": "usINTC",
+            "name": "英特尔",
+            "reason": "Intel 将 Agent 工作流用于工程与供应链等核心流程，可能提升内部研发与运营效率"
+          },
+          {
+            "code": "usGOOGL",
+            "name": "Alphabet",
+            "reason": "Gemini Enterprise Agent Platform 获大型半导体客户部署，有助于验证 Google Cloud 企业 AI 平台落地"
+          }
+        ]
+      }
+    },
+    {
+      "id": "alterion-draco-agent-runtime-control-2026-07",
+      "title": "Alterion 推出 Draco，为企业 AI Agent 提供运行时控制平面",
+      "summary": "Alterion 7 月 16 日宣布 Draco 上线，定位为企业 AI Agent 的运行时控制平台，可在不改写 Agent 代码的情况下观察 prompt、动作和 payload，并在高风险操作前执行策略护栏。公告称 Draco 覆盖公有云、SaaS、本地环境与影子 Agent，并映射 SOC 2、ISO 42001、EU AI Act 等治理框架。该事件对应平台层与 AI 安全，说明 Agent 进入生产后，运行时可观测、合规和实时干预成为企业采购重点。",
+      "sourceUrl": "https://www.prnewswire.com/news-releases/alterion-launches-draco-a-runtime-control-plane-for-enterprise-ai-agents-302827818.html",
+      "publishedAt": "2026-07-16",
+      "layerIds": [3],
+      "industries": ["AI 安全", "Agent 治理", "企业软件", "合规科技"],
+      "beneficiaries": {
+        "industries": ["AI 安全治理", "LLMOps", "企业合规软件"],
+        "companies": ["Alterion"],
+        "stocks": []
+      }
+    }
+  ]
+}
