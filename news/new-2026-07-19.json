@@ -1,0 +1,96 @@
+{
+  "date": "2026-07-19",
+  "items": [
+    {
+      "id": "google-gemini-enterprise-agent-demos-2026-07",
+      "title": "Google Cloud 发布 13 个 Gemini Enterprise Agent Platform 实战示例",
+      "summary": "Google Cloud 7 月 18 日发布 13 个 Gemini Enterprise Agent Platform hands-on demos，覆盖 ADK 构建、Agent Runtime 部署、Agent Gateway 治理、A2A 跨语言多智能体管线以及跨 CrewAI/LangGraph/ADK 的编排。该更新把企业智能体从原型推进到可部署、可观测、可治理的工程流程，主要对应平台与工具层。对投资框架而言，重点在云厂商把 LLMOps、MCP/A2A、运行时与安全治理整合为企业 AI 平台。",
+      "sourceUrl": "https://cloud.google.com/blog/products/ai-machine-learning/13-demos-on-gemini-enterprise-agent-platform",
+      "publishedAt": "2026-07-18",
+      "layerIds": [3],
+      "industries": ["云计算", "MLOps", "企业 AI Agent", "Agent 治理"],
+      "beneficiaries": {
+        "industries": ["企业 AI 平台", "Agent 开发工具", "云原生安全治理"],
+        "companies": ["Google Cloud", "Alphabet"],
+        "stocks": [
+          {
+            "code": "usGOOGL",
+            "name": "Alphabet",
+            "reason": "Gemini Enterprise Agent Platform 将模型、运行时与治理工具打包进 Google Cloud，增强企业 AI 平台粘性"
+          }
+        ]
+      }
+    },
+    {
+      "id": "workato-enterprise-mcp-registry-2026-07",
+      "title": "Workato 推出 Enterprise MCP Registry，面向企业 AI Agent 做统一治理",
+      "summary": "Workato 7 月 16 日宣布 Enterprise MCP Registry，作为企业 MCP 服务器的统一记录系统，帮助组织发现、发布、版本管理和下线经过批准的 AI 能力。该产品与 MCP Composer、MCP Gateway、MCP Proxy 以及 60 多个生产级 MCP 服务器配套，强调以用户身份执行、集中审计与策略控制。事件对应平台与工具层，显示 MCP 从协议接口走向企业级控制面与可审计执行层。",
+      "sourceUrl": "https://www.morningstar.com/news/business-wire/20260716488768/workato-launches-enterprise-mcp-registry-advancing-the-enterprise-ai-control-and-execution-platform",
+      "publishedAt": "2026-07-16",
+      "layerIds": [3],
+      "industries": ["MCP", "企业自动化", "AI 治理", "iPaaS"],
+      "beneficiaries": {
+        "industries": ["企业集成平台", "AI Agent 安全治理", "业务流程自动化"],
+        "companies": ["Workato", "SAP", "Oracle Fusion Cloud", "Workday", "ServiceNow", "Salesforce"]
+      }
+    },
+    {
+      "id": "iflytek-guidex-waic-public-service-agent-2026-07",
+      "title": "科大讯飞在 WAIC 推出 GuideX，将公共服务数字人升级为任务型 Agent",
+      "summary": "科大讯飞 7 月 18 日在 WAIC 2026 推出 GuideX，定位为公共服务环境的智能交互 Agent。GuideX 结合全模态感知、自调节任务执行与情绪交互能力，并基于 SkillHub 支持 10000 多项可扩展技能，目标是从回答问题扩展到办理事项。该事件横跨模型与算法层、应用与解决方案层，体现语音多模态能力在交通、政务、酒店和智慧商业等场景的落地。",
+      "sourceUrl": "https://www.itnewsonline.com/GlobeNewswire/iFLYTEK-Launches-GuideX-Taking-Public-Services-from-Answering-Questions-to-Completing-Tasks/126701",
+      "publishedAt": "2026-07-18",
+      "layerIds": [2, 4],
+      "industries": ["语音 AI", "多模态交互", "公共服务 AI", "数字人"],
+      "beneficiaries": {
+        "industries": ["公共服务智能终端", "多模态语音交互", "行业 AI Agent"],
+        "companies": ["iFLYTEK"],
+        "stocks": [
+          {
+            "code": "sz002230",
+            "name": "科大讯飞",
+            "reason": "GuideX 将讯飞语音、多模态与行业技能库能力组合进公共服务 Agent，强化应用落地叙事"
+          }
+        ]
+      }
+    },
+    {
+      "id": "pudu-physical-agent-waic-2026-07",
+      "title": "普渡机器人在 WAIC 展示 One Brain, Multiple Embodiments 具身智能架构",
+      "summary": "Pudu Robotics 7 月 17 日在 WAIC 开幕日举办技术发布，展示 One Brain, Multiple Embodiments 架构，并首次线下公开展示半人形机器人 PUDU D7。公司称其三层 Physical Agent 架构覆盖机器人本体、PuduAgent OS 与 PuduFM 技能层，使不同机器人形态共享统一智能底座。事件对应终端与生态层，表明服务机器人厂商正在从单机产品走向统一模型、操作系统与场景数据闭环。",
+      "sourceUrl": "https://www.prnewswire.com/news-releases/pudu-robotics-highlights-its-one-brain-multiple-embodiments-physical-agent-at-waic-2026-302828470.html",
+      "publishedAt": "2026-07-17",
+      "layerIds": [5],
+      "industries": ["具身智能", "商用服务机器人", "机器人操作系统", "机器人供应链"],
+      "beneficiaries": {
+        "industries": ["服务机器人整机", "机器人执行器", "高性能永磁材料"],
+        "companies": ["Pudu Robotics"],
+        "stocks": [
+          {
+            "code": "sz300748",
+            "name": "金力永磁",
+            "reason": "服务与半人形机器人商业化推进，逻辑上提升高性能永磁电机材料链的需求敏感度"
+          },
+          {
+            "code": "sz000970",
+            "name": "中科三环",
+            "reason": "具身智能终端扩展到更多场景时，永磁材料与电机供应链是潜在受益环节之一"
+          }
+        ]
+      }
+    },
+    {
+      "id": "bunkerhill-carebricks-series-b-2026-07",
+      "title": "Bunkerhill Health 完成融资，扩展医疗系统 Agentic AI 平台 Carebricks",
+      "summary": "Bunkerhill Health 7 月 16 日宣布完成由 Khosla Ventures 领投的 B 轮融资，使公司累计融资达到 5500 万美元。公司平台 Carebricks 面向医院和健康系统，帮助客户把临床、运营和行政想法部署为生产级 AI Agent，并补强治理、监控与安全护栏。事件对应应用与解决方案层，说明医疗 AI 正从单点辅助诊断走向跨流程、可治理的院内智能体平台。",
+      "sourceUrl": "https://www.bunkerhillhealth.com/resources/series-b-announcement",
+      "publishedAt": "2026-07-16",
+      "layerIds": [4],
+      "industries": ["医疗 AI", "Agentic AI", "医院运营", "临床工作流"],
+      "beneficiaries": {
+        "industries": ["医疗 AI 平台", "医院流程自动化", "临床运营智能体"],
+        "companies": ["Bunkerhill Health", "Cleveland Clinic", "University of Texas Medical Branch", "Intermountain Health", "Khosla Ventures"]
+      }
+    }
+  ]
+}
