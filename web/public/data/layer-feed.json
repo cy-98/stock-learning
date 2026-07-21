@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-28",
+  "updated": "2026-07-21",
   "source": "docs/data/layers.json",
   "layers": {
     "1": {
@@ -28,6 +28,11 @@
           "date": "2026-05",
           "title": "电力板块题材波动",
           "body": "大唐发电等标的短期暴涨，案例提示：逻辑可对、价格需估值纪律。"
+        },
+        {
+          "date": "2026-07-20",
+          "title": "微软将在 Azure 部署 AMD Helios",
+          "body": "AMD 宣布微软将在 Azure 部署 Helios 机架级 AI 系统，覆盖 Instinct GPU、EPYC CPU、Pensando 网络与 ROCm 软件，用于前沿模型推理与云端 AI 服务。"
         }
       ],
       "trends": [
@@ -74,6 +79,11 @@
           "date": "2026",
           "title": "开源生态扩张",
           "body": "企业私有化部署需求带动一体机与国产算力适配。"
+        },
+        {
+          "date": "2026-07-20",
+          "title": "OpenAI 公布长任务模型安全经验",
+          "body": "OpenAI 披露长时间自主运行模型在内部使用中暴露新型失配风险，并通过暂停访问、事件衍生评测、轨迹级监控和用户可见性改进后恢复有限访问。"
         }
       ],
       "trends": [
@@ -115,6 +125,11 @@
           "date": "2026",
           "title": "数据合规升级",
           "body": "企业内网部署与私有化模型需求增加。"
+        },
+        {
+          "date": "2026-07-20",
+          "title": "Samsung SDS 推出 NPUaaS",
+          "body": "韩国时报报道 Samsung SDS 在 Samsung Cloud Platform 推出基于 FuriosaAI RNGD 芯片的 NPUaaS，主打企业推理工作负载的功耗与成本优化。"
         }
       ],
       "trends": [
@@ -151,6 +166,11 @@
           "date": "2026",
           "title": "垂直 Agent 融资活跃",
           "body": "法律、财务、客服等场景出现专业化智能体产品。"
+        },
+        {
+          "date": "2026-07-20",
+          "title": "Construct 365 Copilot 面向建筑项目数据",
+          "body": "Engineering.com 报道 SIS 推出 Construct 365 Copilot，用十余个只读 AI Agent 连接 Dynamics 365 与项目成本数据，服务建筑企业财务、WIP 与利润率查询。"
         }
       ],
       "trends": [
@@ -197,6 +217,11 @@
           "date": "持续",
           "title": "投资方法论沉淀",
           "body": "本仓库 Section 1/2：框架 + 澜起、电力案例复盘。"
+        },
+        {
+          "date": "2026-07-20",
+          "title": "人形机器人进入汽车产线验证",
+          "body": "Gasgoo 报道小米、银河通用、智元等人形机器人已在汽车与电池产线承担分拣、搬运等任务，产业从演示转向真实工厂协作验证。"
         }
       ],
       "trends": [
