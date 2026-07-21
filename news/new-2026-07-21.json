@@ -1,0 +1,83 @@
+{
+  "date": "2026-07-21",
+  "items": [
+    {
+      "id": "bms-nvidia-vera-rubin-ai-factory-2026-07",
+      "title": "Bristol Myers Squibb 将部署基于 NVIDIA Vera Rubin 的生命科学 AI Factory",
+      "summary": "NVIDIA 7 月 20 日披露，Bristol Myers Squibb 将部署第二套 DGX SuperPOD，采用 8 套 DGX Vera Rubin NVL72 系统，面向药物发现全流程的预测、训练模型和 agentic workflows。NVIDIA 称该系统较替代基础设施可提供最高 10 倍每兆瓦性能，并通过 Mission Control 和 BioNeMo Agent Toolkit 降低研究人员使用门槛。事件横跨算力层与应用层，说明 AI 基础设施正从通用云训练扩展到制药研发等高价值行业工作流。",
+      "sourceUrl": "https://blogs.nvidia.com/blog/bristol-myers-squibb-building-life-science-industrys-most-advanced-ai-factory-on-nvidia-vera-rubin/",
+      "publishedAt": "2026-07-20",
+      "layerIds": [1, 4],
+      "industries": ["AI 算力", "生命科学 AI", "药物发现", "AI Factory"],
+      "beneficiaries": {
+        "industries": ["AI 加速器", "生命科学研发平台", "高密度数据中心"],
+        "companies": ["NVIDIA", "Bristol Myers Squibb"],
+        "stocks": [
+          {
+            "code": "usNVDA",
+            "name": "英伟达",
+            "reason": "Vera Rubin 被用于制药研发 AI 工厂，强化高端 GPU、AI 网络和 BioNeMo 软件栈在行业 AI 中的配套需求"
+          },
+          {
+            "code": "usBMY",
+            "name": "Bristol Myers Squibb",
+            "reason": "公司把 AI 算力接入药物发现流程，可能改善研发效率和候选分子筛选速度"
+          }
+        ]
+      }
+    },
+    {
+      "id": "squirro-agent-catalog-ga-2026-07",
+      "title": "Squirro 推出 Agent Catalog，用复用型基础层加速企业 AI Agent 投产",
+      "summary": "Squirro 7 月 20 日宣布 Agent Catalog 正式可用，包含 13 个面向金融、人力、法务、销售、运营和 IT 的预构建 AI Agent。公司称目录中的 Agent 共享企业系统连接、权限审批、知识层和引用追踪，第二个 Agent 可继承第一个项目的合规与数据基础，减少每个用例从零开始建设。事件对应平台与工具层、应用层，反映企业 Agent 商业化重点从单点 PoC 转向可复用的生产级模板和治理底座。",
+      "sourceUrl": "https://www.prnewswire.co.uk/news-releases/squirro-launches-ai-agent-catalog-to-end-the-start-from-zero-problem-stalling-enterprise-ai-302829146.html",
+      "publishedAt": "2026-07-20",
+      "layerIds": [3, 4],
+      "industries": ["企业 AI Agent", "企业搜索", "流程自动化", "合规 AI"],
+      "beneficiaries": {
+        "industries": ["企业 AI 平台", "行业知识库", "业务流程自动化"],
+        "companies": ["Squirro", "Deutsche Bundesbank", "Henkel", "SAP"],
+        "stocks": []
+      }
+    },
+    {
+      "id": "salt-agentic-security-policy-hub-2026-07",
+      "title": "Salt Security Policy Hub 扩至 100 项策略，覆盖 MCP 与 Agentic AI 治理",
+      "summary": "Salt Security 7 月 20 日宣布 Salt Policy Hub 已达到 100 项预构建策略，其中 12 项以上专门面向 AI 与 Agentic Security，覆盖 MCP 服务器配置、Agent 授权和自主行为治理。公告称该策略库映射 PCI DSS、FedRAMP、SOC 2、GDPR、HIPAA、ISO 27001 等 8 个合规框架，并把 API、MCP、身份和企业应用视为 Agent 执行动作的统一安全图谱。事件对应平台与工具层，说明 AI Agent 进入生产后，安全采购正在从模型防护扩展到工具调用、API 权限和运行时行为。",
+      "sourceUrl": "https://www.prnewswire.com/news-releases/salt-security-introduces-the-industrys-largest-policy-library-for-agentic-ai-governance-302829570.html",
+      "publishedAt": "2026-07-20",
+      "layerIds": [3],
+      "industries": ["AI 安全", "Agent 治理", "MCP", "API 安全"],
+      "beneficiaries": {
+        "industries": ["Agentic Security", "API 安全", "企业合规软件"],
+        "companies": ["Salt Security", "Sequoia Capital", "Salesforce Ventures"],
+        "stocks": []
+      }
+    },
+    {
+      "id": "waic-embodied-intelligence-industrialization-2026-07",
+      "title": "新华社：WAIC 展示具身智能从演示走向工厂、家庭与商用场景",
+      "summary": "新华社 7 月 20 日报道，2026 WAIC 上机器人在工厂线、家庭客厅和商业门店中展示感知、规划与执行闭环，体现具身智能从研究展示向产业化应用推进。报道援引官方数据称，2026 年 1-5 月具身智能行业收入同比增长 22.4%，工业端采购具身智能机器人超过三倍增长；上海提出到 2030 年前在工厂部署 10 万台人形机器人，大型工业企业 AI Agent 采用率超过 80%。该事件对应终端与生态层，也与模型和平台能力外溢相关，重点是硬件终端、执行器、永磁材料和工业场景数据的需求链条。",
+      "sourceUrl": "https://english.news.cn/20260720/259b6cab5c81472eb47418a81ce9ebef/c.html",
+      "publishedAt": "2026-07-20",
+      "layerIds": [5],
+      "industries": ["具身智能", "人形机器人", "工业自动化", "稀土永磁"],
+      "beneficiaries": {
+        "industries": ["机器人整机", "执行器与电机", "高性能永磁材料", "机器视觉"],
+        "companies": ["Fourier Intelligence", "Unitree Robotics", "Shanghai TARS Robotics"],
+        "stocks": [
+          {
+            "code": "sz300748",
+            "name": "金力永磁",
+            "reason": "具身智能在工业和家庭场景扩张时，高性能永磁电机材料是机器人执行器的潜在受益环节之一"
+          },
+          {
+            "code": "sz000970",
+            "name": "中科三环",
+            "reason": "人形机器人部署目标提升了对钕铁硼永磁材料需求的产业敏感度"
+          }
+        ]
+      }
+    }
+  ]
+}
