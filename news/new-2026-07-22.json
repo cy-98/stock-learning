@@ -1,0 +1,90 @@
+{
+  "date": "2026-07-22",
+  "items": [
+    {
+      "id": "amd-microsoft-helios-azure-2026-07",
+      "title": "Microsoft 将在 Azure 规模部署 AMD Helios 机架级 AI 基础设施",
+      "summary": "AMD 7 月 20 日宣布扩大与 Microsoft Azure 的战略合作，Microsoft 将部署 AMD Helios Rackscale Solution，用于前沿模型推理、Azure AI 服务和客户应用。Helios 集成 Instinct MI455X GPU、EPYC Venice CPU、Pensando 网络和 ROCm 软件栈，AMD 计划在 2026 年下半年开始向包括 Microsoft 在内的客户出货。该事件对应算力层与云平台层，显示 hyperscaler 在 NVIDIA 之外增加机架级 AI 基础设施选择。",
+      "sourceUrl": "https://ir.amd.com/news-events/press-releases/detail/1291/microsoft-to-deploy-next-gen-amd-instinct-and-amd-epyc-processors-as-the-companies-expand-their-long-term-strategic-partnership",
+      "publishedAt": "2026-07-20",
+      "layerIds": [1, 3],
+      "industries": ["AI 算力", "云计算", "GPU 基础设施"],
+      "beneficiaries": {
+        "industries": ["AI 数据中心", "GPU 加速卡", "云基础设施"],
+        "companies": ["AMD", "Microsoft Azure"],
+        "stocks": [
+          {
+            "code": "usAMD",
+            "name": "AMD",
+            "reason": "Helios 获 Azure 规模部署承诺，提升其 AI 加速器与机架级方案在云端的验证度"
+          },
+          {
+            "code": "usMSFT",
+            "name": "Microsoft",
+            "reason": "Azure 可通过引入 AMD Helios 扩大 AI 基础设施供给与客户选择"
+          }
+        ]
+      }
+    },
+    {
+      "id": "tencent-cloud-adp4-agentops-2026-07",
+      "title": "腾讯云在 WAIC 发布 ADP 4.0，将 Agent 开发平台升级为 AgentOps 平台",
+      "summary": "腾讯云 7 月 21 日宣布 Agent Development Platform 国际版升级到 ADP 4.0，并定位为企业级 AgentOps 平台，已在全球可用。新版本加入 Smart Desk、Claw Mode、Connector、Skills、Knowledge Base、MCP 与 Agent Portal 等能力，覆盖构建、连接、分发、治理和可观测。该事件对应平台层与应用层，反映企业 Agent 从试点转向可控生产环境的趋势。",
+      "sourceUrl": "https://www.prnewswire.com/apac/news-releases/tencent-cloud-unveils-a-major-upgrade-to-its-agent-development-platform-launching-an-enterprise-grade-agentops-platform-to-bring-ai-agents-into-production-at-scale-302830352.html",
+      "publishedAt": "2026-07-21",
+      "layerIds": [3, 4],
+      "industries": ["AgentOps", "云计算", "企业软件"],
+      "beneficiaries": {
+        "industries": ["AI Agent 平台", "企业软件集成", "云服务"],
+        "companies": ["Tencent Cloud", "Tencent"],
+        "stocks": [
+          {
+            "code": "hk0700",
+            "name": "腾讯控股",
+            "reason": "ADP 4.0 强化腾讯云在企业 Agent 开发、治理与行业落地中的平台入口"
+          }
+        ]
+      }
+    },
+    {
+      "id": "spglobal-adaptive-retrieval-ai-data-2026-07",
+      "title": "S&P Global 推出 Adaptive Retrieval，面向 AI Agent 开放可信金融数据检索",
+      "summary": "S&P Global 7 月 21 日推出 Adaptive Retrieval，让客户的 AI Agent 和大模型可用自然语言访问并组合其授权数据。该服务与已有 Deterministic Retrieval 一起纳入 S&P Global AI Data Portal，覆盖从受控 API 查询到自主多 Agent 工作流的不同形态。该事件对应平台层与金融应用层，强调金融数据供应商正在把可引用、可审计的数据能力嵌入 AI 原生工作流。",
+      "sourceUrl": "https://press.spglobal.com/2026-07-21-S-P-Global-Launches-Adaptive-Retrieval,-Giving-Customers-a-New-Way-to-Access-Data-Across-AI-and-Agentic-Workflows",
+      "publishedAt": "2026-07-21",
+      "layerIds": [3, 4],
+      "industries": ["金融数据", "RAG", "AI Agent"],
+      "beneficiaries": {
+        "industries": ["金融数据服务", "投研工作流", "企业 RAG 平台"],
+        "companies": ["S&P Global", "Kensho"],
+        "stocks": [
+          {
+            "code": "usSPGI",
+            "name": "S&P Global",
+            "reason": "Adaptive Retrieval 将其授权金融数据接入 AI Agent 工作流，可能提升数据产品粘性"
+          }
+        ]
+      }
+    },
+    {
+      "id": "alibaba-agent-native-cloud-waic-2026-07",
+      "title": "阿里云在 WAIC 推出 Agent-Native Cloud 套件，补齐多 Agent 观测与治理",
+      "summary": "Alibaba Cloud Community 7 月 20 日披露，阿里云在 WAIC 2026 推出 Agent-Native Cloud 相关技术，包括 AgentLoop、AgentTeams 和 TokenWorks。AgentLoop 面向企业 Agent 的实时追踪、评估和优化，AgentTeams 用于多 Agent 协同与治理，TokenWorks 则在 PAI 中整合请求路由、推理执行、算力复用和调度。该事件对应平台层，并与模型推理成本治理和企业 Agent 生产化密切相关。",
+      "sourceUrl": "https://www.alibabacloud.com/blog/alibaba-cloud-unveils-agent-native-innovations-at-waic-2026_603377",
+      "publishedAt": "2026-07-20",
+      "layerIds": [3],
+      "industries": ["云计算", "AgentOps", "推理服务"],
+      "beneficiaries": {
+        "industries": ["企业 Agent 平台", "云上推理服务", "AI 可观测性"],
+        "companies": ["Alibaba Cloud", "Alibaba"],
+        "stocks": [
+          {
+            "code": "usBABA",
+            "name": "阿里巴巴",
+            "reason": "Agent-Native Cloud 扩展阿里云在 Agent 生命周期管理和推理调度中的平台能力"
+          }
+        ]
+      }
+    }
+  ]
+}
