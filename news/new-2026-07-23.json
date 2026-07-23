@@ -1,0 +1,106 @@
+{
+  "date": "2026-07-23",
+  "items": [
+    {
+      "id": "manulife-microsoft-agent365-governance-2026-07",
+      "title": "宏利扩大与 Microsoft 合作，部署 Agent 365 管理企业 AI 代理",
+      "summary": "宏利与 Microsoft 7 月 22 日宣布续签并扩大五年合作，宏利将采用 Microsoft 365 E7 Frontier Suite，并把 Microsoft 365 Copilot 扩展至 3 万多名员工。公告称宏利还将部署 Microsoft Agent 365，作为企业 AI agents 的注册表与治理、监控、安全控制平面。该事件对应平台与工具层、应用层，显示大型金融机构从 Copilot 使用走向代理治理和规模化落地。",
+      "sourceUrl": "https://news.microsoft.com/source/canada/2026/07/22/manulife-expands-partnership-with-microsoft-to-accelerate-enterprise-ai-governance-and-innovation/",
+      "publishedAt": "2026-07-22",
+      "layerIds": [3, 4],
+      "industries": ["企业 AI 治理", "金融科技", "办公 Copilot", "Agent 平台"],
+      "beneficiaries": {
+        "industries": ["企业 Agent 治理", "金融 AI 应用", "云安全与可观测性", "AI 办公套件"],
+        "companies": ["Microsoft", "Manulife"],
+        "stocks": [
+          {
+            "code": "usMSFT",
+            "name": "Microsoft",
+            "reason": "Agent 365 与 Microsoft 365 Copilot 被纳入大型金融机构五年合作，强化其企业 AI 平台与应用分发位置"
+          },
+          {
+            "code": "usMFC",
+            "name": "Manulife",
+            "reason": "宏利把 Copilot、Agent 365 与 Azure/Foundry 纳入全球 AI 平台，可能提升内部开发与运营效率"
+          }
+        ]
+      }
+    },
+    {
+      "id": "applied-intuition-dana-physical-ai-2026-07",
+      "title": "Applied Intuition 发布 Dana，面向物理 AI 的 Agentic 平台",
+      "summary": "Applied Intuition 7 月 22 日发布 Dana，定位为用于构建、测试、部署和运营物理 AI 系统的 agentic 平台。公告称 Dana 覆盖自动驾驶、软件定义汽车、ADAS、矿山、建筑、车队运营、机器人和车载体验等场景，并已在内部和部分客户中把车辆开发关键阶段从数月缩短至数日。该事件对应平台与工具层、终端与生态层，反映具身智能和智能机器开发正向可治理的工程平台迁移。",
+      "sourceUrl": "https://www.prnewswire.com/apac/news-releases/applied-intuition-launches-dana-the-agentic-platform-for-physical-ai-302831516.html",
+      "publishedAt": "2026-07-22",
+      "layerIds": [3, 5],
+      "industries": ["物理 AI", "自动驾驶", "机器人", "仿真测试"],
+      "beneficiaries": {
+        "industries": ["自动驾驶开发工具", "机器人仿真与验证", "车队运营软件", "工业智能机器"],
+        "companies": ["Applied Intuition", "Komatsu", "Isuzu Motors"],
+        "stocks": []
+      }
+    },
+    {
+      "id": "guideline-ad-intelligence-mcp-2026-07",
+      "title": "Guideline 推出 Ad Intelligence MCP Server，向 AI agents 开放广告数据",
+      "summary": "Guideline 7 月 22 日发布 Ad Intelligence MCP Server，允许客户在 ChatGPT、Claude、Gemini、Microsoft Copilot 及自有 agents 等 MCP 兼容环境中访问其广告支出、定价和市场情报数据。公告称该能力用统一权限把订阅数据接入企业已治理的 AI 工作流，减少反复导出报表或为每个 AI 应用单独集成。该事件对应平台层与应用层，体现 MCP 正成为企业数据接入 agentic workflow 的标准化接口之一。",
+      "sourceUrl": "https://www.prnewswire.com/news-releases/guideline-launches-its-ad-intelligence-mcp-server-to-power-ai-agents-with-its-leading-global-advertising-data-302832328.html",
+      "publishedAt": "2026-07-22",
+      "layerIds": [3, 4],
+      "industries": ["MCP", "广告数据", "企业数据平台", "营销科技"],
+      "beneficiaries": {
+        "industries": ["企业数据连接器", "营销数据分析", "Agent 工具调用协议", "广告情报 SaaS"],
+        "companies": ["Guideline", "Anthropic", "Microsoft", "Google"],
+        "stocks": []
+      }
+    },
+    {
+      "id": "blackbaud-agents-for-good-expansion-2026-07",
+      "title": "Blackbaud 扩展 Agents for Good，增加社交影响领域垂直 AI 代理",
+      "summary": "Blackbaud 7 月 22 日宣布在 Agents for Good 套件中新增 Data Health、Admissions、Digital Marketing 和 Accounts Payable 等多个 agents，并计划把这些能力纳入面向社会公益领域的云原生 AI-first 平台。公告称早期 Development Agent 可在人类监督下执行捐赠者触达工作流，新 agents 将扩展到数据清洗、招生、营销和财务流程。该事件对应应用与解决方案层，说明垂直 SaaS 正把 agent 能力嵌入行业工作流而非作为外部助手存在。",
+      "sourceUrl": "https://www.prnewswire.com/news-releases/blackbaud-announces-new-agents-for-good-embedded-ai-capabilities-for-a-reimagined-cloud-native-ai-first-connected-platform-302831624.html",
+      "publishedAt": "2026-07-22",
+      "layerIds": [4],
+      "industries": ["垂直 SaaS", "公益科技", "财务自动化", "营销自动化"],
+      "beneficiaries": {
+        "industries": ["非营利组织 SaaS", "教育招生自动化", "财务与应付账款 Agent", "行业数据图谱"],
+        "companies": ["Blackbaud"],
+        "stocks": [
+          {
+            "code": "usBLKB",
+            "name": "Blackbaud",
+            "reason": "公司把多类垂直 AI agents 嵌入既有社会影响平台，可能增强客户工作流粘性与 AI 产品化能力"
+          }
+        ]
+      }
+    },
+    {
+      "id": "doe-genesis-ai-science-awards-2026-07",
+      "title": "美国 DOE Genesis Mission 首批选择 278 个 AI 科学项目",
+      "summary": "美国能源部 7 月 22 日宣布 Genesis Mission RFA 首批项目，选择 278 个研究项目，覆盖国家实验室、高校、企业与非营利机构。DOE 称项目将用 AI-enabled scientific workflows 加速能源、发现科学和国家安全突破，方向包括核能、关键矿物提取、智能芯片设计和商业聚变；获选团队还可使用 AI agent frameworks、先进模型软件和 DOE 高性能计算资源。该事件横跨模型层、平台层、算力层和终端生态层，体现政府科研体系把 AI agents 与 HPC 结合用于科学发现。",
+      "sourceUrl": "https://www.energy.gov/articles/secretary-energy-chris-wright-announces-first-genesis-mission-projects-selected-accelerate",
+      "publishedAt": "2026-07-22",
+      "layerIds": [1, 2, 3, 5],
+      "industries": ["AI for Science", "高性能计算", "关键矿物", "智能芯片设计"],
+      "beneficiaries": {
+        "industries": ["国家实验室 HPC", "AI 科研工作流", "关键矿物提取技术", "智能芯片设计工具"],
+        "companies": ["U.S. Department of Energy", "DOE National Laboratories", "University of Texas at Austin", "Sandia National Laboratories"],
+        "stocks": []
+      }
+    },
+    {
+      "id": "ambiq-chipagents-semiconductor-agent-2026-07",
+      "title": "Ambiq 扩大部署 ChipAgents，用 AI agents 辅助半导体工程",
+      "summary": "ChipAgents 7 月 22 日宣布，低功耗 Edge AI 芯片公司 Ambiq 在初步评估后扩大部署其面向半导体工程的 agentic AI 平台。公告称该平台可理解规格、RTL、仿真数据、波形等工程材料，帮助设计和验证团队自动化重复任务、加速 debug 和根因分析。该事件对应算力层和平台层，显示 AI-native 工程工具开始进入芯片设计与验证生产流程。",
+      "sourceUrl": "https://www.hpcwire.com/off-the-wire/ambiq-and-chipagents-collaborate-to-advance-agentic-ai-for-semiconductor-engineering/",
+      "publishedAt": "2026-07-22",
+      "layerIds": [1, 3],
+      "industries": ["半导体设计", "EDA", "Edge AI 芯片", "Agentic AI"],
+      "beneficiaries": {
+        "industries": ["芯片设计自动化", "验证与调试工具", "低功耗边缘 AI 芯片", "半导体工程软件"],
+        "companies": ["Ambiq", "ChipAgents"],
+        "stocks": []
+      }
+    }
+  ]
+}
