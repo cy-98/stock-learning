@@ -2,7 +2,7 @@
   "meta": {
     "title": "AI 五层模型",
     "subtitle": "从算力底座到场景落地 · 行业 · 趋势 · 事件 · Section 1 投资分析",
-    "updated": "2026-05-28"
+    "updated": "2026-07-23"
   },
   "layers": [
     {
@@ -111,6 +111,16 @@
           "date": "2026-05",
           "title": "电力板块题材波动",
           "body": "大唐发电等标的短期暴涨，案例提示：逻辑可对、价格需估值纪律。"
+        },
+        {
+          "date": "2026-07-20",
+          "title": "Azure 将部署 AMD Helios",
+          "body": "AMD 宣布微软将在 Azure 中规模部署 Helios 机架级 AI 基础设施，用于前沿模型推理、Azure AI 服务和客户应用。"
+        },
+        {
+          "date": "2026-07-22",
+          "title": "Anthropic 采购 AMD Helios GPU 容量",
+          "body": "AMD 与 Anthropic 宣布最多 2GW 的 MI450 系列 GPU 部署计划，首批 1GW 预计 2027 年上半年开始。"
         }
       ]
     },
@@ -205,6 +215,11 @@
           "date": "2026",
           "title": "开源生态扩张",
           "body": "企业私有化部署需求带动一体机与国产算力适配。"
+        },
+        {
+          "date": "2026-07-21",
+          "title": "Google 发布 Gemini Flash 新模型",
+          "body": "Google 推出 Gemini 3.6 Flash、3.5 Flash-Lite 与 3.5 Flash Cyber，强调更低延迟、成本效率和代理工作流能力。"
         }
       ]
     },
@@ -289,6 +304,11 @@
           "date": "2026",
           "title": "数据合规升级",
           "body": "企业内网部署与私有化模型需求增加。"
+        },
+        {
+          "date": "2026-07-21",
+          "title": "微软与 Mistral 扩大主权 AI 平台合作",
+          "body": "双方宣布扩大战略合作，Mistral 模型接入 Microsoft Foundry，并支持 Azure Local 等云端、边缘和断连部署。"
         }
       ]
     },
@@ -378,6 +398,11 @@
           "date": "2026",
           "title": "垂直 Agent 融资活跃",
           "body": "法律、财务、客服等场景出现专业化智能体产品。"
+        },
+        {
+          "date": "2026-07-21",
+          "title": "Mistral 模型进入 Copilot Studio",
+          "body": "Microsoft 宣布 Mistral Medium 3.5 接入 Copilot Studio，面向受监管行业提供可控的企业级 AI 应用构建选项。"
         }
       ]
     },
@@ -482,6 +507,11 @@
           "date": "持续",
           "title": "投资方法论沉淀",
           "body": "本仓库 Section 1/2：框架 + 澜起、电力案例复盘。"
+        },
+        {
+          "date": "2026-07-21",
+          "title": "稀土管制风险牵动 EV 供应链",
+          "body": "媒体援引 IEA 观点称，若稀土与石墨出口限制全面实施，汽车、高科技、防务和能源等下游制造或面临供应扰动。"
         }
       ]
     }
