@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-28",
+  "updated": "2026-07-24",
   "source": "docs/data/layers.json",
   "layers": {
     "1": {
@@ -28,6 +28,11 @@
           "date": "2026-05",
           "title": "电力板块题材波动",
           "body": "大唐发电等标的短期暴涨，案例提示：逻辑可对、价格需估值纪律。"
+        },
+        {
+          "date": "2026-07-22",
+          "title": "AMD 与 Anthropic 达成千兆瓦级算力合作",
+          "body": "AMD 公布将向 Anthropic 部署至多 2 吉瓦 Instinct MI450 系列 GPU，并计划进行战略投资，凸显前沿模型公司对多元算力供给的需求。"
         }
       ],
       "trends": [
@@ -74,6 +79,11 @@
           "date": "2026",
           "title": "开源生态扩张",
           "body": "企业私有化部署需求带动一体机与国产算力适配。"
+        },
+        {
+          "date": "2026-07-21",
+          "title": "Google 更新 Gemini Flash 并启动 Gemini 4 预训练",
+          "body": "Google 发布 Gemini 3.6 Flash、3.5 Flash-Lite 与安全专项 Flash Cyber，同时称 Gemini 4 已进入预训练，模型竞争继续围绕效率、编码与 Agent 能力展开。"
         }
       ],
       "trends": [
@@ -115,6 +125,11 @@
           "date": "2026",
           "title": "数据合规升级",
           "body": "企业内网部署与私有化模型需求增加。"
+        },
+        {
+          "date": "2026-07-23",
+          "title": "Databricks 与 Microsoft 延长 Azure 合作",
+          "body": "Databricks 与 Microsoft 将 Azure 战略合作延伸至 2030 年代，重点面向企业私有数据、湖仓与 Agentic AI 工作负载。"
         }
       ],
       "trends": [
@@ -151,6 +166,11 @@
           "date": "2026",
           "title": "垂直 Agent 融资活跃",
           "body": "法律、财务、客服等场景出现专业化智能体产品。"
+        },
+        {
+          "date": "2026-07-22",
+          "title": "OpenAI 推出 Presence 企业智能体产品",
+          "body": "OpenAI 发布 Presence，面向企业部署连接内部系统的语音与聊天智能体，强调策略护栏、人工升级和工作流执行。"
         }
       ],
       "trends": [
@@ -197,6 +217,11 @@
           "date": "持续",
           "title": "投资方法论沉淀",
           "body": "本仓库 Section 1/2：框架 + 澜起、电力案例复盘。"
+        },
+        {
+          "date": "2026-07-23",
+          "title": "AMD 芯片进入工业人形机器人方案",
+          "body": "Foundation Future Industries 宣布与 AMD 合作，使用 Ryzen AI Embedded 等芯片开发 Phantom 人形机器人，机器人算力与工业场景绑定加深。"
         }
       ],
       "trends": [
