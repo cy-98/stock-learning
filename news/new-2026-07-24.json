@@ -1,0 +1,108 @@
+{
+  "date": "2026-07-24",
+  "items": [
+    {
+      "id": "microsoft-mistral-sovereign-foundry-2026-07",
+      "title": "Microsoft 与 Mistral 扩大合作，将欧洲模型接入 Foundry 与 Copilot Studio",
+      "summary": "Microsoft 与 Mistral 于 7 月 21 日宣布扩大战略合作，把 Mistral Medium 3.5 与 OCR 4 接入 Microsoft Foundry，并将 Medium 3.5 接入 Copilot Studio。双方还通过一项面向欧洲 AI 基础设施的多年协议扩大 GPU 算力供给，Mistral 将引入数千颗 NVIDIA Vera Rubin GPU，为训练、推理和大规模部署提供共享平台。事件同时对应模型层、平台层与算力层，重点在主权云、受监管行业和可断连部署的企业 AI 落地。",
+      "sourceUrl": "https://news.microsoft.com/source/2026/07/21/microsoft-and-mistral-expand-strategic-partnership-to-give-enterprises-and-regulated-industries-frontier-ai-they-can-control/",
+      "publishedAt": "2026-07-21",
+      "layerIds": [1, 2, 3],
+      "industries": ["大模型", "主权云", "AI 算力", "企业 AI 平台"],
+      "beneficiaries": {
+        "industries": ["主权 AI 云", "模型 API 平台", "GPU 数据中心"],
+        "companies": ["Microsoft", "Mistral", "NVIDIA"],
+        "stocks": [
+          {
+            "code": "usMSFT",
+            "name": "微软",
+            "reason": "Mistral 模型进入 Foundry 与 Copilot Studio，有助于强化 Azure 在受监管行业的模型与部署选择"
+          },
+          {
+            "code": "usNVDA",
+            "name": "英伟达",
+            "reason": "合作明确提到数千颗 Vera Rubin GPU，将欧洲主权 AI 需求传导至新一代加速器与网络平台"
+          }
+        ]
+      }
+    },
+    {
+      "id": "nvidia-vera-rubin-gigascale-production-2026-07",
+      "title": "NVIDIA 称 Vera Rubin 进入规模化生产，CoreWeave、Google Cloud 等已运行新机架",
+      "summary": "NVIDIA 7 月 21 日在官方博客称，Vera Rubin NVL72 正在扩大生产，CoreWeave、Google Cloud、Microsoft Azure 与 Oracle Cloud Infrastructure 等伙伴已有机架运行或部署计划。公司披露 CoreWeave 在 DeepSeek-R1 基准上看到较 Grace Blackwell NVL72 高 10 倍的每兆瓦 token 吞吐，并强调 Spectrum-6、NVLink 6、ConnectX-9 与 45 摄氏度液冷共同构成 AI factory 的系统级升级。事件对应算力层与平台层，显示 AI 基础设施竞争从单颗 GPU 扩展到整机架、网络和冷却效率。",
+      "sourceUrl": "https://blogs.nvidia.com/blog/vera-rubin/",
+      "publishedAt": "2026-07-21",
+      "layerIds": [1, 3],
+      "industries": ["GPU", "AI 数据中心", "高速网络", "液冷"],
+      "beneficiaries": {
+        "industries": ["AI 加速器", "数据中心网络", "液冷基础设施", "云算力租赁"],
+        "companies": ["NVIDIA", "CoreWeave", "Google Cloud", "Microsoft Azure", "Oracle Cloud Infrastructure"],
+        "stocks": [
+          {
+            "code": "usNVDA",
+            "name": "英伟达",
+            "reason": "Vera Rubin 从芯片、网络到液冷的整机架方案提升新一代 AI factory 的算力和能效粘性"
+          },
+          {
+            "code": "usGOOGL",
+            "name": "Alphabet",
+            "reason": "Google Cloud A5X 使用 Vera Rubin NVL72，可增强其面向强化学习和 agentic AI 工作负载的云算力供给"
+          },
+          {
+            "code": "usORCL",
+            "name": "Oracle",
+            "reason": "OCI 被列为早期采用 NVIDIA Photonics 和 Vera Rubin 生态的云伙伴，可能受益于高端 AI 云需求"
+          }
+        ]
+      }
+    },
+    {
+      "id": "harness-agent-dlc-governance-2026-07",
+      "title": "Harness 推出 Agent DLC，把测试、发布与安全治理扩展到 AI Agent 生命周期",
+      "summary": "Harness 7 月 21 日宣布 Agent Development Lifecycle（Agent DLC）能力，将企业已有的软件交付流水线扩展到 AI agents 的构建、测试、部署、运行和治理。新能力包括 AI Evals、Agent Deployments、AI Configs、AI Asset Catalog、AgentTrace，以及面向提示注入、工具误用和数据外泄的 AI Firewall。事件对应平台与工具层，反映 Agent 从试点走向生产后，评测、可观测、审批与运行时安全成为企业 AI 工具链的核心需求。",
+      "sourceUrl": "https://www.prnewswire.com/news-releases/introducing-harness-agent-dlc-new-capabilities-for-the-ai-agent-development-lifecycle-302830967.html",
+      "publishedAt": "2026-07-21",
+      "layerIds": [3],
+      "industries": ["AgentOps", "DevSecOps", "MLOps", "AI 安全"],
+      "beneficiaries": {
+        "industries": ["企业 AI 治理", "软件交付平台", "AI 安全与可观测"],
+        "companies": ["Harness", "Amazon Web Services", "Google Cloud"],
+        "stocks": []
+      }
+    },
+    {
+      "id": "tracelink-opus-agentic-supply-chain-2026-07",
+      "title": "TraceLink 升级 OPUS 平台，用无代码 Agent 编排生命科学供应链流程",
+      "summary": "TraceLink 7 月 23 日发布 OPUS Platform 里程碑版本，允许企业用自然语言创建 OPUS Agents 与 Agentic Business Processes，面向生命科学和医疗供应链编排交易、控制塔和跨企业流程。公司称其网络连接超过 31.5 万个认证业务实体，并将人工审批、规则与审计纳入 Agent 执行过程。事件对应应用层与平台层，体现垂直行业 SaaS 正从单点助手走向带业务上下文的多 Agent 工作流。",
+      "sourceUrl": "https://www.prnewswire.com/news-releases/tracelink-unveils-a-breakthrough-release-of-the-opus-ai-platform-302833348.html",
+      "publishedAt": "2026-07-23",
+      "layerIds": [3, 4],
+      "industries": ["生命科学供应链", "垂直 SaaS", "Agentic Workflow"],
+      "beneficiaries": {
+        "industries": ["医疗供应链软件", "供应链可视化", "企业流程自动化"],
+        "companies": ["TraceLink"],
+        "stocks": []
+      }
+    },
+    {
+      "id": "workday-sana-learning-ga-2026-07",
+      "title": "Workday Learning powered by Sana 全球 GA，将 AI 导师嵌入企业学习场景",
+      "summary": "Workday 7 月 22 日宣布 Workday Learning powered by Sana 全球正式可用，把 Sana 的 AI-native 学习体验与 Workday 的人员、技能和组织数据结合。方案面向学习者提供个人 AI 导师、智能搜索和个性化路径，面向内容团队提供课程生成、翻译和运营自动化。事件对应应用与解决方案层，显示企业软件厂商正把 AI 从通用助手嵌入到 HR、培训和合规等具体工作流。",
+      "sourceUrl": "https://www.prnewswire.com/news-releases/workday-learning-powered-by-sana-now-generally-available-as-an-ai-native-learning-experience-built-on-workdays-trusted-data-302831592.html",
+      "publishedAt": "2026-07-22",
+      "layerIds": [4],
+      "industries": ["HR SaaS", "企业学习", "AI 助手", "工作流自动化"],
+      "beneficiaries": {
+        "industries": ["人力资源软件", "企业培训平台", "AI 内容生成"],
+        "companies": ["Workday", "Sana", "Accenture"],
+        "stocks": [
+          {
+            "code": "usWDAY",
+            "name": "Workday",
+            "reason": "Sana 学习体验进入 Workday HCM 客户场景，有助于提升其 HR SaaS 的 AI 功能深度和客户粘性"
+          }
+        ]
+      }
+    }
+  ]
+}
