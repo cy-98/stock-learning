@@ -1,0 +1,99 @@
+{
+  "date": "2026-07-25",
+  "items": [
+    {
+      "id": "flyio-agent-computers-series-d-2026-07",
+      "title": "Fly.io 获 2500 万美元融资，转向为 AI Agent 提供持久计算基础设施",
+      "summary": "Fly.io 7 月 24 日宣布完成 2500 万美元 D 轮融资，由 Dell Technologies Capital 与 Intel Capital 共同领投，并将产品定位进一步聚焦于“computers for agents”。公司称其平台为 AI Agent 与其构建的应用提供持久磁盘、安全连接与可扩展实例，而不是一次性沙箱。该事件对应算力基础设施与 Agent 运行平台，反映 Agent 工作负载开始带动云原生 PaaS 形态变化。",
+      "sourceUrl": "https://www.globenewswire.com/news-release/2026/07/24/3332949/0/en/Fly-io-Doubles-Down-on-Computers-for-Agents-with-25M-to-Deliver-the-Next-Generation-of-AI-Infrastructure.html",
+      "publishedAt": "2026-07-24",
+      "layerIds": [1, 3],
+      "industries": ["Agent 基础设施", "云原生 PaaS", "AI 应用托管"],
+      "beneficiaries": {
+        "industries": ["Agent 运行时基础设施", "边缘云计算", "开发者平台"],
+        "companies": ["Fly.io", "Dell Technologies Capital", "Intel Capital"],
+        "stocks": [
+          {
+            "code": "usDELL",
+            "name": "戴尔科技",
+            "reason": "旗下投资机构参与领投，逻辑上对 Agent 基础设施生态扩张更敏感"
+          },
+          {
+            "code": "usINTC",
+            "name": "英特尔",
+            "reason": "Intel Capital 共同领投，反映其围绕 AI 应用运行基础设施布局"
+          }
+        ]
+      }
+    },
+    {
+      "id": "devrev-voice-ai-organizational-memory-2026-07",
+      "title": "DevRev 推出带组织记忆的 Voice AI，将客服 Agent 扩展到实时通话",
+      "summary": "DevRev 7 月 23 日宣布在其 agentic AI 产品 Computer 中推出 Voice AI，让 Customer Agent 在实时客服通话中调用跨工单、订单、代码、文档与业务系统的共享组织记忆。公司称该能力通过 SIP 接入企业电话系统，并继承已有权限、审计与工作流。事件对应平台层与应用层，重点在企业知识图谱驱动的客服自动化从文字渠道延伸到语音渠道。",
+      "sourceUrl": "https://www.globenewswire.com/news-release/2026/07/23/3332209/0/en/DevRev-Launches-Voice-AI-with-Shared-Organizational-Memory-Across-Agents.html",
+      "publishedAt": "2026-07-23",
+      "layerIds": [3, 4],
+      "industries": ["客服 SaaS", "语音 AI", "企业知识图谱"],
+      "beneficiaries": {
+        "industries": ["客户服务自动化", "企业知识管理", "联络中心软件"],
+        "companies": ["DevRev", "企业客服与服务台软件供应商"]
+      }
+    },
+    {
+      "id": "ushur-agentic-platform-regulated-cx-2026-07",
+      "title": "Ushur 发布 Agentic Platform，面向保险、医疗与金融完成端到端客户旅程",
+      "summary": "Ushur 7 月 22 日发布 Ushur Agentic Platform，允许企业用自然语言描述客户体验并部署 AI Agent，覆盖意图理解、资料收集、文档检索与跨系统操作。公司强调平台内置治理、安全、合规、审计与人工监督，并已列出医保服务、Medicaid 资格复核、会员交通请求等初始用例。该事件对应平台层与应用层，体现受监管行业对可治理端到端 Agent 工作流的需求。",
+      "sourceUrl": "https://www.globenewswire.com/news-release/2026/07/22/3331397/0/en/Ushur-launches-the-Ushur-Agentic-Platform-AI-agents-that-finish-the-job.html",
+      "publishedAt": "2026-07-22",
+      "layerIds": [3, 4],
+      "industries": ["企业 Agent 平台", "保险科技", "医疗服务自动化"],
+      "beneficiaries": {
+        "industries": ["受监管行业自动化", "无代码 Agent 构建器", "客户体验软件"],
+        "companies": ["Ushur", "保险与医疗客户体验平台供应商"]
+      }
+    },
+    {
+      "id": "flux3-multimodal-world-model-2026-07",
+      "title": "Black Forest Labs 发布 FLUX 3，统一视频、音频与动作预测的多模态模型",
+      "summary": "Black Forest Labs 7 月 23 日发布 FLUX 3 Early Access，称其为新的多模态基础模型，可在统一架构中联合学习图像、视频与音频，并可扩展到动作预测。公司同时披露与 mimic robotics 合作的 FLUX-mimic，把 FLUX 3 骨干用于工业机器人视频-动作模型，并在 Audi 生产场景测试。事件对应模型层与终端生态层，说明视觉生成模型正向物理 AI 与机器人控制延伸。",
+      "sourceUrl": "https://bfl.ai/blog/flux-3",
+      "publishedAt": "2026-07-23",
+      "layerIds": [2, 5],
+      "industries": ["多模态模型", "视频生成", "机器人基础模型"],
+      "beneficiaries": {
+        "industries": ["视觉基础模型", "工业机器人软件", "创意工具 AI"],
+        "companies": ["Black Forest Labs", "mimic robotics", "Audi", "Canva", "Picsart"]
+      }
+    },
+    {
+      "id": "nvidia-medical-physics-simulation-2026-07",
+      "title": "NVIDIA 开源医疗物理仿真框架，加速手术机器人训练与评估",
+      "summary": "NVIDIA 7 月 22 日宣布开源 Medical Physics Simulation framework，作为 Isaac for Healthcare 的 GPU 加速能力，帮助医疗机器人开发者模拟解剖结构、器械接触、摩擦和传感输入。该框架结合 CUDA、Warp、Newton 与 Cosmos 仿真/生成式 AI 技术，用于在硬件测试前生成场景、测试机器人策略并发现失效模式。事件对应算力层、模型层与终端生态层，反映 Physical AI 在医疗机器人中的工具链建设进入更具体的工程阶段。",
+      "sourceUrl": "https://blogs.nvidia.com/blog/medical-physics-simulation-open-source/",
+      "publishedAt": "2026-07-22",
+      "layerIds": [1, 2, 5],
+      "industries": ["医疗机器人", "Physical AI", "GPU 仿真"],
+      "beneficiaries": {
+        "industries": ["机器人仿真", "医疗器械研发", "GPU 加速软件栈"],
+        "companies": ["NVIDIA", "CMR Surgical", "Johnson & Johnson MedTech", "Medtronic", "XCath"],
+        "stocks": [
+          {
+            "code": "usNVDA",
+            "name": "英伟达",
+            "reason": "Isaac、CUDA 与 Cosmos 进入医疗机器人开发流程，增强其 Physical AI 软件栈黏性"
+          },
+          {
+            "code": "usJNJ",
+            "name": "强生",
+            "reason": "其 MedTech 业务被列为医疗机器人仿真生态相关方，可能受益于更高效的开发与验证工具"
+          },
+          {
+            "code": "usMDT",
+            "name": "美敦力",
+            "reason": "医疗器械与手术机器人研发对仿真测试工具敏感，相关生态进展有助于缩短验证周期"
+          }
+        ]
+      }
+    }
+  ]
+}
