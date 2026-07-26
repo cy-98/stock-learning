@@ -1,0 +1,115 @@
+{
+  "date": "2026-07-26",
+  "items": [
+    {
+      "id": "naver-nvidia-brookfield-korea-ai-factory-2026-07",
+      "title": "NAVER、NVIDIA 与 Brookfield 拟把韩国 AI Factory 扩至 200MW",
+      "summary": "NVIDIA 新闻稿显示，NAVER、NVIDIA 与 Brookfield 计划扩大韩国主权 AI Factory 基础设施，把 GAK Sejong 数据中心的 NVIDIA DSX 部署从 55MW 提升至 2028 年的 200MW，并保留通向 1GW 的长期路径。项目拟由 Brookfield 提供最高 90 亿美元融资、NVIDIA 向 NAVER 投资 10 亿美元，目标是向韩国和美国 AI 创业公司、企业与政府提供多租户生产级算力。事件主要对应算力基础设施层，并延伸到云平台与主权 AI 服务。",
+      "sourceUrl": "https://nvidianews.nvidia.com/news/naver-nvidia-and-brookfield-to-expand-koreas-national-ai-factory-infrastructure-buildout",
+      "publishedAt": "2026-07-24",
+      "layerIds": [1, 3],
+      "industries": ["AI 算力", "主权 AI", "数据中心", "云计算"],
+      "beneficiaries": {
+        "industries": ["AI 数据中心", "GPU 加速计算", "数据中心电力与运维", "云算力租赁"],
+        "companies": ["NAVER", "NVIDIA", "Brookfield"],
+        "stocks": [
+          {
+            "code": "usNVDA",
+            "name": "英伟达",
+            "reason": "DSX 平台进入国家级 AI Factory 扩容项目，提升 Vera Rubin/Blackwell 机架与配套软件的需求能见度"
+          }
+        ]
+      }
+    },
+    {
+      "id": "skgroup-nvidia-2gw-hbm4-ai-factory-2026-07",
+      "title": "SK Group 与 NVIDIA 扩大战略合作，覆盖 2GW AI Factory 与 HBM4",
+      "summary": "SK hynix 新闻稿称，SK Group 与 NVIDIA 签署意向书，计划推进总额 5000 亿美元以上的 AI 基础设施与下一代内存合作。SK Telecom 拟建设 2GW 级 NVIDIA Vera Rubin DSX AI Factory，首个 AI Factory 计划 2027 年上线；SK hynix 同时与 NVIDIA 建立长期 AI 内存合作，共同开发和优化包含 HBM 在内的下一代内存方案。该事件落在算力基础设施层，重点是 AI Factory、HBM4 与大规模推理/训练基础设施供给。",
+      "sourceUrl": "https://news.skhynix.com/en/skhynix-nvidia-partnership-2026/",
+      "publishedAt": "2026-07-25",
+      "layerIds": [1],
+      "industries": ["HBM", "AI Factory", "GPU", "数据中心"],
+      "beneficiaries": {
+        "industries": ["高带宽内存", "AI 加速器", "先进封装", "数据中心网络"],
+        "companies": ["SK Group", "SK Telecom", "SK hynix", "NVIDIA"],
+        "stocks": [
+          {
+            "code": "usNVDA",
+            "name": "英伟达",
+            "reason": "与 SK Telecom 的 2GW AI Factory 计划和 SK hynix HBM 合作强化其 AI 基础设施生态绑定"
+          },
+          {
+            "code": "usMU",
+            "name": "美光",
+            "reason": "HBM4 被明确为 AI Factory 关键供给环节，逻辑上提升全球 HBM 产能与替代供应商的关注度"
+          }
+        ]
+      }
+    },
+    {
+      "id": "anthropic-claude-opus5-agentic-work-2026-07",
+      "title": "Anthropic 发布 Claude Opus 5，强调编码、自动化与知识工作效率",
+      "summary": "Anthropic 7 月 24 日发布 Claude Opus 5，称其在编码、知识工作、自动化与部分科学研究评测上较 Opus 4.8 提升，并以 Opus 4.8 相同的 API 基础价格提供。公司同步推出对话中工具变更与 API 自动 fallback 测试版，开发者可通过 Claude API 使用 claude-opus-5。该新闻对应模型与算法层，也影响企业 AI 平台和开发工具的模型选型。",
+      "sourceUrl": "https://www.anthropic.com/news/claude-opus-5",
+      "publishedAt": "2026-07-24",
+      "layerIds": [2, 3],
+      "industries": ["大模型", "AI 编程", "Agent", "企业自动化"],
+      "beneficiaries": {
+        "industries": ["基础模型 API", "AI 编程工具", "企业自动化平台"],
+        "companies": ["Anthropic", "Amazon Web Services", "Google Cloud", "Cursor"],
+        "stocks": [
+          {
+            "code": "usAMZN",
+            "name": "亚马逊",
+            "reason": "Anthropic 模型能力提升有助于增强 AWS Bedrock 等模型分发与企业云平台吸引力"
+          },
+          {
+            "code": "usGOOGL",
+            "name": "Alphabet",
+            "reason": "作为 Anthropic 生态相关云合作方，Vertex AI 等平台对高性能第三方模型的分发价值更受关注"
+          }
+        ]
+      }
+    },
+    {
+      "id": "aws-bedrock-agentic-retrieval-2026-07",
+      "title": "AWS Bedrock Managed Knowledge Bases 增加 Agentic Retrieval",
+      "summary": "AWS Machine Learning Blog 介绍了 Amazon Bedrock Managed Knowledge Bases 的 AgenticRetrieveStream API，用模型规划循环分解多意图问题、跨最多 5 个知识库迭代检索，并以 trace event 暴露规划与检索过程。AWS 称该模式适合多步、比较型和探索型企业查询，代替团队自行搭建检索 Agent 编排代码。该功能对应平台与工具层，直接指向 RAG、企业知识库和 Agent 可观测性。",
+      "sourceUrl": "https://aws.amazon.com/blogs/machine-learning/agentic-retrieval-for-amazon-bedrock-managed-knowledge-base/",
+      "publishedAt": "2026-07-23",
+      "layerIds": [3],
+      "industries": ["RAG", "云计算", "MLOps", "企业知识库"],
+      "beneficiaries": {
+        "industries": ["云 AI 平台", "企业搜索", "知识库治理", "Agent 可观测性"],
+        "companies": ["Amazon Web Services"],
+        "stocks": [
+          {
+            "code": "usAMZN",
+            "name": "亚马逊",
+            "reason": "Bedrock 将多步检索编排产品化，有助于提升 AWS 在企业 RAG 与 Agent 平台中的粘性"
+          }
+        ]
+      }
+    },
+    {
+      "id": "hubspot-agent-hub-builder-beta-2026-07",
+      "title": "HubSpot 推出 Agent Hub 与 Agent Builder 公测，统一 GTM Agent 管理",
+      "summary": "HubSpot 7 月 23 日宣布 Agent Hub 与 Agent Builder 面向 Professional 和 Enterprise 客户公测。Agent Hub 用于集中查看和管理营销、销售、服务场景中的 AI Agent 状态与绩效；Agent Builder 则让团队基于 CRM 数据、通话记录和购买信号，用自然语言创建自定义 Agent 与自动化流程。该事件主要落在应用与解决方案层，并体现企业 SaaS 从单点 Copilot 走向多 Agent 工作流治理。",
+      "sourceUrl": "https://www.hubspot.com/company-news/meet-agent-hub-and-agent-builder",
+      "publishedAt": "2026-07-23",
+      "layerIds": [4],
+      "industries": ["CRM", "营销科技", "企业 SaaS", "Agent 工作流"],
+      "beneficiaries": {
+        "industries": ["CRM SaaS", "客户运营自动化", "营销与销售科技"],
+        "companies": ["HubSpot"],
+        "stocks": [
+          {
+            "code": "usHUBS",
+            "name": "HubSpot",
+            "reason": "Agent Hub 与 Agent Builder 将 AI Agent 管理嵌入 CRM 工作流，可能提升高阶订阅客户的产品粘性"
+          }
+        ]
+      }
+    }
+  ]
+}
