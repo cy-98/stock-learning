@@ -1,0 +1,85 @@
+{
+  "date": "2026-07-27",
+  "items": [
+    {
+      "id": "nvidia-physicsnemo-cudax-agent-toolkit-2026-07",
+      "title": "NVIDIA 将 PhysicsNeMo 与 CUDA-X 接入 Agent Toolkit，面向工程设计智能体",
+      "summary": "NVIDIA 7 月 26 日宣布扩展 NVIDIA Agent Toolkit，把重构后的 PhysicsNeMo 库和更新后的 CUDA-X 库作为可被智能体调用的工程工具。新能力面向芯片、系统与工业设计流程，让工程 AI 助手使用 AI 物理、加速求解器和量子化学能力完成仿真与验证任务。该事件连接算力基础设施、模型工具链和具身/工业 AI 应用，仍处于开发者与行业软件伙伴导入阶段。",
+      "sourceUrl": "https://nvidianews.nvidia.com/news/nvidia-expands-nvidia-agent-toolkit-with-nvidia-physicsnemo-and-cuda-x-libraries-to-transform-how-the-world-engineers-designs-and-builds",
+      "publishedAt": "2026-07-26",
+      "layerIds": [1, 3, 5],
+      "industries": ["AI 算力", "工程仿真", "工业 AI", "智能体工具链"],
+      "beneficiaries": {
+        "industries": ["GPU 加速计算", "EDA 与工程软件", "工业数字孪生"],
+        "companies": ["NVIDIA", "Cadence", "Synopsys", "Siemens"],
+        "stocks": [
+          {
+            "code": "usNVDA",
+            "name": "英伟达",
+            "reason": "Agent Toolkit 将 GPU 加速库包装为工程智能体工具，可能提高 CUDA 与数据中心 GPU 在工业仿真中的粘性"
+          }
+        ]
+      }
+    },
+    {
+      "id": "aws-bedrock-agentcore-harness-ga-2026-07",
+      "title": "AWS Bedrock AgentCore Harness 正式可用，降低生产级智能体部署门槛",
+      "summary": "AWS 宣布 Amazon Bedrock AgentCore Harness 正式可用，将智能体运行所需的沙箱计算、记忆、身份、工具连接和 CloudWatch 可观测性封装到托管抽象中。开发者可通过 CreateHarness 和 InvokeHarness 等接口配置并运行生产级智能体，并在同一会话中切换 Bedrock、OpenAI、Gemini 或 LiteLLM 支持的模型而保留上下文。该事件属于平台与工具层，反映云厂商围绕 AgentOps 和托管运行时的竞争继续升温。",
+      "sourceUrl": "https://aws.amazon.com/blogs/machine-learning/amazon-bedrock-agentcore-harness-is-now-generally-available-go-from-idea-to-production-grade-agent-in-minutes/",
+      "publishedAt": "2026-07-26",
+      "layerIds": [3],
+      "industries": ["云计算", "AgentOps", "MLOps", "企业 AI 平台"],
+      "beneficiaries": {
+        "industries": ["公有云 AI 平台", "企业智能体开发工具", "云原生可观测性"],
+        "companies": ["Amazon Web Services", "Anthropic", "OpenAI", "Google"],
+        "stocks": [
+          {
+            "code": "usAMZN",
+            "name": "亚马逊",
+            "reason": "AgentCore Harness 扩展 Bedrock 的生产级智能体托管能力，可能增强 AWS 在企业 AI 工作负载中的平台黏性"
+          }
+        ]
+      }
+    },
+    {
+      "id": "meta-ai-muse-spark-action-agent-2026-07",
+      "title": "Meta AI 基于 Muse Spark 1.1 推出任务规划、应用连接与幻灯片生成能力",
+      "summary": "Meta Newsroom 披露，Meta AI 正在基于 Muse Spark 1.1 推出可执行任务的智能体能力，包括制定计划、连接邮箱和日历、生成幻灯片、做每日简报和在任务执行中接受实时修正。相关功能先在 Meta AI app 与 meta.ai 的部分市场推出，后续将扩展到 WhatsApp 等更多入口。事件对应模型与算法层、应用层和终端生态层，体现消费级助手从问答走向跨应用执行。",
+      "sourceUrl": "https://about.fb.com/news/2026/07/meta-ai-muse-spark-doesnt-just-think-it-acts/",
+      "publishedAt": "2026-07-26",
+      "layerIds": [2, 4, 5],
+      "industries": ["大模型", "消费级 AI 助手", "多模态应用"],
+      "beneficiaries": {
+        "industries": ["社交平台 AI", "个人助理应用", "端侧与多入口 AI 体验"],
+        "companies": ["Meta", "WhatsApp", "Facebook Marketplace"],
+        "stocks": [
+          {
+            "code": "usMETA",
+            "name": "Meta Platforms",
+            "reason": "Meta AI 扩展到计划执行和应用连接后，可能提升其社交与消费入口的 AI 使用频次和广告/电商场景数据闭环"
+          }
+        ]
+      }
+    },
+    {
+      "id": "salesforce-va-missionforce-aela-2026-07",
+      "title": "Salesforce 获美国退伍军人事务部最高 16 亿美元 Agentic Enterprise 合同",
+      "summary": "Salesforce 7 月 24 日宣布，美国退伍军人事务部通过其分销网络授予公司一项三年期、最高 16 亿美元的 Agentic Enterprise License Agreement。VA 将使用 Missionforce、Agentforce Public Sector、Agentforce Health、Slack、MuleSoft、Data 360 和 Tableau 等能力，连接退伍军人服务流程、数据与 24/7 AI 支持。该事件属于应用与解决方案层，也涉及平台层，说明公共部门开始把 AI Agent 纳入大型数字化采购。",
+      "sourceUrl": "https://www.salesforce.com/news/press-releases/2026/07/24/missionforce-transforms-veteran-care/",
+      "publishedAt": "2026-07-24",
+      "layerIds": [3, 4],
+      "industries": ["政务数字化", "CRM", "公共部门 AI", "Agentic Enterprise"],
+      "beneficiaries": {
+        "industries": ["企业 SaaS", "政府云", "AI 客服与流程自动化"],
+        "companies": ["Salesforce", "MuleSoft", "Tableau", "Slack"],
+        "stocks": [
+          {
+            "code": "usCRM",
+            "name": "Salesforce",
+            "reason": "大型公共部门合同验证 Agentforce 与 Missionforce 在受监管场景中的落地路径，可能支撑其企业 AI 应用收入"
+          }
+        ]
+      }
+    }
+  ]
+}
