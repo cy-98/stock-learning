@@ -1,0 +1,82 @@
+{
+  "date": "2026-07-28",
+  "items": [
+    {
+      "id": "nvidia-openai-ohio-ai-backstop-2026-07",
+      "title": "Nvidia 与 OpenAI 商谈最高 2500 亿美元俄亥俄 AI 数据中心融资支持",
+      "summary": "CNBC 7 月 27 日报道称，OpenAI 正与 Nvidia 商谈最高 2500 亿美元融资 backstop，用于支持其租赁俄亥俄州 Pike County 一个规划 10GW 的 AI 数据中心园区。该安排仍处于谈判阶段，担保覆盖租赁与建设债务，不包括另行讨论的芯片采购。事件对应算力层与模型层，显示前沿模型公司正在把算力供给、数据中心融资和芯片供应绑定得更紧。",
+      "sourceUrl": "https://www.cnbc.com/2026/07/27/nvidia-and-openai-in-talks-for-up-to-250-billion-dollar-ai-backstop.html",
+      "publishedAt": "2026-07-27",
+      "layerIds": [1, 2, 3],
+      "industries": ["AI 算力", "数据中心融资", "GPU"],
+      "beneficiaries": {
+        "industries": ["AI 数据中心", "GPU 服务器", "先进制程与封装", "电力与冷却配套"],
+        "companies": ["NVIDIA", "OpenAI", "SoftBank", "SB Energy"],
+        "stocks": [
+          {
+            "code": "usNVDA",
+            "name": "英伟达",
+            "reason": "若融资担保落地，将强化 OpenAI 长周期算力建设对 Nvidia 系统的需求能见度"
+          },
+          {
+            "code": "usTSM",
+            "name": "台积电",
+            "reason": "大规模 AI 芯片交付仍依赖先进制程与先进封装产能"
+          }
+        ]
+      }
+    },
+    {
+      "id": "celeris-diffusion-llm-api-2026-07",
+      "title": "Celeris 发布扩散式语言模型 Celeris-1，主打实时低延迟推理",
+      "summary": "Celeris 7 月 27 日发布旗舰语言模型 Celeris-1，称其采用扩散式语言生成架构，而非传统自回归逐 token 生成。公司表示 Celeris-1 已通过 OpenAI 兼容 API 提供，面向实时语音、工具编排、分类与数据抽取等低延迟场景。该新闻对应模型与算法层，也会影响实时 Agent 与语音交互应用的技术选型。",
+      "sourceUrl": "https://www.prnewswire.com/news-releases/celeris-unveils-celeris-1-unlocking-real-time-ai-through-diffusion-based-language-generation-302835273.html",
+      "publishedAt": "2026-07-27",
+      "layerIds": [2, 3],
+      "industries": ["大模型", "低延迟推理", "语音 AI"],
+      "beneficiaries": {
+        "industries": ["实时语音助手", "Agent 工具调用", "LLM API 平台"],
+        "companies": ["Celeris", "Lightspeed Venture Partners"]
+      }
+    },
+    {
+      "id": "collectiviq-ai-spend-controls-2026-07",
+      "title": "CollectivIQ 推出企业 AI 分层定价与支出控制功能",
+      "summary": "CollectivIQ 7 月 27 日宣布新增模型分层、公司级和个人级支出上限、使用洞察与自动模式等企业控制能力。该平台把 ChatGPT、Gemini、Claude、Grok 等模型统一到多模型共识型商业智能工作流中，并通过访问分层与成本分析帮助企业管理 AI 使用。事件对应平台与工具层，反映企业 AI 采购正在从单点工具转向治理、成本和 ROI 可观测。",
+      "sourceUrl": "https://www.prnewswire.com/news-releases/collectiviq-announces-unique-tiered-pricing-controls-to-help-companies-rein-in-ai-costs-and-strengthen-oversight-302835274.html",
+      "publishedAt": "2026-07-27",
+      "layerIds": [3],
+      "industries": ["企业 AI 平台", "AI FinOps", "商业智能"],
+      "beneficiaries": {
+        "industries": ["AI 成本治理", "多模型路由", "企业 BI"],
+        "companies": ["CollectivIQ", "Buyers Edge Platform"]
+      }
+    },
+    {
+      "id": "nielsen-ad-intel-ai-2026-07",
+      "title": "Nielsen 发布 Ad Intel AI，将广告监测数据升级为实时决策引擎",
+      "summary": "Nielsen 7 月 27 日推出 Ad Intel AI，称其把分散广告数据转化为实时、可执行的媒体情报，覆盖竞品策略、广告支出、创意与市场机会。该产品基于 Nielsen 的跨媒体监测、行为面板和 Gracenote 元数据，并可通过 MCP 接入客户自建 Agent 或平台。事件对应应用与解决方案层，体现营销与媒体数据产品从报表工具向行业 AI 决策系统演进。",
+      "sourceUrl": "https://www.prnewswire.com/news-releases/nielsen-launches-ad-intel-ai-the-only-product-of-its-kind-that-transforms-fragmented-ad-data-into-actionable-intelligence-302834319.html",
+      "publishedAt": "2026-07-27",
+      "layerIds": [3, 4],
+      "industries": ["广告科技", "媒体智能", "垂直 AI 应用"],
+      "beneficiaries": {
+        "industries": ["营销数据平台", "广告监测", "MCP 生态"],
+        "companies": ["Nielsen", "Gracenote"]
+      }
+    },
+    {
+      "id": "unanimous-ai-air-force-hypercom-2026-07",
+      "title": "Unanimous AI 获美国空军 AFWERX 合同，测试 Hypercom AI 指挥通信",
+      "summary": "Unanimous AI 7 月 27 日宣布获得 AFWERX Phase I 合同，将其 Hypercom AI 超通信技术用于实时指挥与控制场景，并与 Carnegie Mellon University 合作量化大型分布式团队的通信收益。该系统使用语音 AI 代理并行汇总、聚类和优先级排序多名成员的状态信息，目标是缓解紧急任务中的顺序汇报瓶颈。事件对应应用层，也延伸到国防、应急、机场运营和网络安全事件室等高可靠场景。",
+      "sourceUrl": "https://www.prnewswire.com/news-releases/unanimous-ai-wins-air-force-contract-to-bring-hyper-communication-technology-to-real-time-command-and-control-302835249.html",
+      "publishedAt": "2026-07-27",
+      "layerIds": [4],
+      "industries": ["国防 AI", "企业协作", "语音智能体"],
+      "beneficiaries": {
+        "industries": ["任务指挥系统", "企业协作软件", "应急响应平台"],
+        "companies": ["Unanimous AI", "AFWERX", "Carnegie Mellon University"]
+      }
+    }
+  ]
+}
