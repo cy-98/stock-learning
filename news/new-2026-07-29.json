@@ -1,0 +1,110 @@
+{
+  "date": "2026-07-29",
+  "items": [
+    {
+      "id": "meta-blackrock-el-paso-ai-dc-2026-07",
+      "title": "Meta 与 BlackRock 设立合资架构推进 El Paso 1GW AI 数据中心",
+      "summary": "Meta 与 BlackRock 宣布成立合资项目，开发并持有位于得州 El Paso、正在建设中的数据中心园区。该园区规划 1GW 算力容量，预计 2028 年开始上线，Meta 将作为初始唯一租户并通过租赁方式获得长期使用弹性。事件对应算力与基础设施层，说明 AI 数据中心资本开支正更多引入基础设施资金与债务融资工具。",
+      "sourceUrl": "https://about.fb.com/news/2026/07/meta-announces-new-venture-with-blackrock-to-develop-data-center-in-el-paso/",
+      "publishedAt": "2026-07-28",
+      "layerIds": [1],
+      "industries": ["AI 算力", "数据中心", "基础设施融资"],
+      "beneficiaries": {
+        "industries": ["数据中心建设", "AI 服务器", "电力与冷却基础设施", "光互连"],
+        "companies": ["Meta", "BlackRock", "NVIDIA"],
+        "stocks": [
+          {
+            "code": "usMETA",
+            "name": "Meta Platforms",
+            "reason": "通过长期租赁锁定 AI 算力容量，支撑模型训练、推理和核心业务 AI 化"
+          },
+          {
+            "code": "usNVDA",
+            "name": "英伟达",
+            "reason": "大型 AI 数据中心扩建逻辑上增加 GPU、网络与 AI 服务器生态需求敏感度"
+          }
+        ]
+      }
+    },
+    {
+      "id": "snowflake-cortex-ai-gateway-2026-07",
+      "title": "Snowflake 推出 Cortex AI Gateway，聚焦企业 Agent 治理与成本控制",
+      "summary": "Snowflake 发布 Cortex AI Gateway 及多项 AI 安全能力，用于集中治理企业内部和第三方 AI agents 对模型、工具、MCP server 与业务系统的访问。该网关强调统一记录 agent 行为、管理权限与 token 成本，并引入 1Password、Okta、SailPoint 等安全生态集成。事件对应平台与工具层，反映企业 AI 从试点转向生产时对 agent 可观测性、身份与费用控制的需求上升。",
+      "sourceUrl": "https://www.snowflake.com/en/news/press-releases/snowflake-advances-the-trusted-agentic-enterprise-era-with-unified-monitoring-and-cost-management/",
+      "publishedAt": "2026-07-28",
+      "layerIds": [3],
+      "industries": ["AI 安全", "MCP", "企业数据云", "Agent 治理"],
+      "beneficiaries": {
+        "industries": ["数据云平台", "身份与访问管理", "企业 AI 治理"],
+        "companies": ["Snowflake", "1Password", "Okta", "SailPoint"],
+        "stocks": [
+          {
+            "code": "usSNOW",
+            "name": "Snowflake",
+            "reason": "Cortex AI Gateway 强化其在企业数据云中承载 agent 访问控制和成本治理的角色"
+          }
+        ]
+      }
+    },
+    {
+      "id": "aws-agentcore-gateway-mcp-2026-07",
+      "title": "AWS AgentCore Gateway 支持 MCP 2026-07-28 规范",
+      "summary": "AWS 博客说明，Model Context Protocol 发布 2026-07-28 规范后，Amazon Bedrock AgentCore Gateway 可通过 UpdateGateway 增加对新版协议的支持。新版 MCP 引入无状态协议、标准 HTTP 路由与追踪能力、TTL 缓存提示以及更贴近 OAuth 2.0 和 OpenID Connect 的授权实践。事件对应平台与工具层，显示 agent 工具调用基础协议正在向企业级横向扩展、治理与可观测性演进。",
+      "sourceUrl": "https://aws.amazon.com/blogs/machine-learning/how-agentcore-gateway-supports-the-mcp-2026-07-28-spec/",
+      "publishedAt": "2026-07-28",
+      "layerIds": [3],
+      "industries": ["云计算", "MCP", "Agent 平台", "LLMOps"],
+      "beneficiaries": {
+        "industries": ["云 AI 平台", "Agent 开发框架", "企业集成中间件"],
+        "companies": ["Amazon Web Services", "Anthropic", "OpenAI"],
+        "stocks": [
+          {
+            "code": "usAMZN",
+            "name": "亚马逊",
+            "reason": "Bedrock AgentCore Gateway 对新版 MCP 的支持有助于 AWS 承接企业级 agent 部署与工具集成需求"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cognizant-emea-ai-unit-2026-07",
+      "title": "Cognizant 设立 EMEA AI Unit，帮助企业把 agentic AI 从试点推向规模化",
+      "summary": "Cognizant 宣布成立 EMEA AI Unit，面向欧洲、中东和非洲企业提供咨询、工程与交付能力，推动 agentic AI 从实验走向生产部署。该部门包含 Frontier Deployed Engineering 服务模型，覆盖战略治理、用例落地和多 agent 工作流改造，并已服务零售和制药客户场景。事件对应应用与解决方案层，体现 AI 服务商围绕行业流程和区域合规构建落地能力。",
+      "sourceUrl": "https://news.cognizant.com/2026-07-28-Cognizant-launches-EMEA-AI-Unit-to-help-enterprises-scale-agentic-AI-adoption",
+      "publishedAt": "2026-07-28",
+      "layerIds": [4],
+      "industries": ["企业 AI 服务", "行业解决方案", "Agentic AI"],
+      "beneficiaries": {
+        "industries": ["IT 服务", "零售 AI", "制药研发 AI", "企业流程自动化"],
+        "companies": ["Cognizant", "Anthropic"],
+        "stocks": [
+          {
+            "code": "usCTSH",
+            "name": "Cognizant",
+            "reason": "通过区域化 AI Unit 与交付模型承接企业从 PoC 到生产化的 agentic AI 服务需求"
+          }
+        ]
+      }
+    },
+    {
+      "id": "brainchip-akd1500-m2-edge-ai-2026-07",
+      "title": "BrainChip AKD1500 端侧 AI 加速器推出 M.2 形态",
+      "summary": "BrainChip 宣布基于 Akida 神经形态处理器的 AKD1500 模块已提供紧凑 M.2 2230 形态，面向工业与商用设计的低功耗、免风扇端侧 AI。公司称该模块可在不重做电源和散热设计的情况下，为既有设备增加本地 AI 推理能力。事件对应终端与生态层，关注端侧 AI 在工业 IoT、机器人和便携设备中的低功耗硬件落地。",
+      "sourceUrl": "https://brainchip.com/brainchip-akd1500-now-available-in-compact-m-2-form-factor-enabling-fanless-edge-ai-in-industrial-and-commercial-designs/",
+      "publishedAt": "2026-07-28",
+      "layerIds": [5],
+      "industries": ["端侧 AI", "工业 IoT", "机器人", "低功耗芯片"],
+      "beneficiaries": {
+        "industries": ["边缘 AI 模块", "工业设备升级", "智能传感器", "机器人控制"],
+        "companies": ["BrainChip", "Akida 生态合作伙伴"],
+        "stocks": [
+          {
+            "code": "usBCHPY",
+            "name": "BrainChip ADR",
+            "reason": "AKD1500 M.2 模块为其神经形态端侧 AI 芯片提供更易集成的商用硬件形态"
+          }
+        ]
+      }
+    }
+  ]
+}
