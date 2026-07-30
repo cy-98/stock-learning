@@ -1,0 +1,95 @@
+{
+  "date": "2026-07-30",
+  "items": [
+    {
+      "id": "sk-hynix-hbm4-q2-record-2026-07",
+      "title": "SK hynix 二季度创纪录，HBM4 已开始量产出货",
+      "summary": "SK hynix 公布 2026 年二季度业绩，称高性能 AI 服务器产品带动收入、营业利润和净利润均创季度新高。公司表示 HBM4 已在二季度开始量产出货，下半年将继续爬坡，HBM4E 样品也已在上半年完成交付。该事件对应算力与基础设施层，说明 HBM 供给能力仍是 AI 加速器交付的重要约束。",
+      "sourceUrl": "https://news.skhynix.com/en/q2-2026-business-results/",
+      "publishedAt": "2026-07-29",
+      "layerIds": [1],
+      "industries": ["HBM", "AI 服务器内存", "半导体"],
+      "beneficiaries": {
+        "industries": ["高带宽内存", "先进封装", "AI 加速器供应链"],
+        "companies": ["SK hynix", "NVIDIA", "Micron"],
+        "stocks": [
+          {
+            "code": "usMU",
+            "name": "美光",
+            "reason": "HBM 与 AI 服务器 DRAM 需求持续偏强，同类高端存储产品的供需紧张度可能提升"
+          },
+          {
+            "code": "usNVDA",
+            "name": "英伟达",
+            "reason": "HBM4 产能爬坡有助于高端 GPU 与 AI 系统的供应链可见度"
+          }
+        ]
+      }
+    },
+    {
+      "id": "gemini-agent-platform-ga-2026-07",
+      "title": "Google Cloud 扩大 Gemini Enterprise Agent Platform 可用能力",
+      "summary": "Google Cloud 宣布 Gemini Enterprise Agent Platform 的多项能力面向更广泛用户开放，包括 Agent Runtime、Agent Memory Bank、Agent Identity、Agent Gateway、Agent Registry、评测和可观测性能力。公告强调企业在扩展长周期 Agent 时需要身份、访问控制、审计和防护来管理工具调用与数据泄露风险。该事件对应平台与工具层，并延伸到企业应用层的 Agent 规模化部署。",
+      "sourceUrl": "https://cloud.google.com/blog/products/ai-machine-learning/whats-new-in-gemini-enterprise-agent-platform",
+      "publishedAt": "2026-07-29",
+      "layerIds": [3, 4],
+      "industries": ["云计算", "Agent 平台", "AI 安全"],
+      "beneficiaries": {
+        "industries": ["企业 AI 平台", "身份与访问管理", "Agent 治理"],
+        "companies": ["Google Cloud", "Broadcom", "Palo Alto Networks", "Ping Identity"],
+        "stocks": [
+          {
+            "code": "usGOOGL",
+            "name": "Alphabet",
+            "reason": "Gemini Enterprise Agent Platform 扩充治理、身份和运行时能力，有助于提升 Google Cloud 企业 AI 平台黏性"
+          },
+          {
+            "code": "usAVGO",
+            "name": "Broadcom",
+            "reason": "公告列举 Broadcom 使用 Agent Gateway 治理 Agent，企业级 Agent 普及可能增加其软件平台与 AI 基础设施协同场景"
+          }
+        ]
+      }
+    },
+    {
+      "id": "aws-continuum-context-agents-2026-07",
+      "title": "AWS Summit New York 发布 Continuum、Context 等 Agent 新能力",
+      "summary": "AWS 在 Summit New York 发布一组面向企业 Agent 的新能力，包括用于代码漏洞生命周期管理的 AWS Continuum、为 Agent 构建组织知识图谱的 AWS Context、Amazon Quick 自主 Agent、Kiro 移动端、AWS DevOps Agent 发布管理，以及 Bedrock AgentCore 的知识库、Web Search、策略集成和优化更新。公告显示云厂商竞争正从单点模型 API 转向 Agent 的安全、上下文、评测和生产运行平台。该事件主要对应平台与工具层，并影响办公与开发应用层。",
+      "sourceUrl": "https://www.aboutamazon.com/news/aws/aws-summit-nyc-2026-ai-agents",
+      "publishedAt": "2026-07-29",
+      "layerIds": [3, 4],
+      "industries": ["云计算", "Agent 开发平台", "AI 安全", "企业软件"],
+      "beneficiaries": {
+        "industries": ["云 AI 平台", "代码安全", "企业知识图谱", "软件开发工具"],
+        "companies": ["AWS", "Southwest Airlines", "Nasdaq", "Visa", "Experian"],
+        "stocks": [
+          {
+            "code": "usAMZN",
+            "name": "亚马逊",
+            "reason": "AWS 将安全、上下文和 AgentCore 运行能力打包，有助于承接企业生产级 Agent 工作负载"
+          }
+        ]
+      }
+    },
+    {
+      "id": "corpay-agent-card-2026-07",
+      "title": "Corpay 推出 Agent Card，把虚拟卡控制嵌入 Agent 支付流程",
+      "summary": "Corpay 发布 Agent Card，允许 AI Agent 在授权范围内为 B2B 交易生成受控虚拟卡，覆盖采购、差旅、广告投放和供应商付款等场景。公司称该能力支持用户指令型 Agent 与机器到机器支付流程，并结合身份认证、支出意图授权和开放 AI 连接标准。该事件对应应用与解决方案层，反映 Agent 正从信息处理走向受控执行与支付基础设施。",
+      "sourceUrl": "https://www.corpay.com/corporate-newsroom/20326/corpay-introduces-agent-card-capability-to-power-secure-agentic-commerce",
+      "publishedAt": "2026-07-28",
+      "layerIds": [4],
+      "industries": ["企业支付", "Agentic Commerce", "金融科技"],
+      "beneficiaries": {
+        "industries": ["虚拟卡支付", "B2B 采购自动化", "企业费用管理"],
+        "companies": ["Corpay", "Business Wire"],
+        "stocks": [
+          {
+            "code": "usCPAY",
+            "name": "Corpay",
+            "reason": "Agent Card 将既有虚拟卡控制能力延伸到 AI Agent 交易流程，可能增强企业支付平台差异化"
+          }
+        ]
+      }
+    }
+  ]
+}
