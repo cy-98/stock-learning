@@ -1,0 +1,83 @@
+{
+  "date": "2026-08-01",
+  "items": [
+    {
+      "id": "microsoft-copilot-work-transformed-2026-07",
+      "title": "Microsoft 称 365 Copilot 付费席位突破 3000 万，企业 AI 从助手转向工作流 Agent",
+      "summary": "Microsoft 365 博客披露，Microsoft 365 Copilot 付费席位已超过 3000 万，季度净新增席位环比翻倍以上。公司将下一阶段企业 AI 定义为由 Copilot Cowork、Scout、Work IQ 等 Agent 承接多步骤任务和后台协作，而不只是回答问题。该事件对应平台层与应用层，反映办公 Copilot 商业化指标开始转向工作流改造和 Agent 活跃度。",
+      "sourceUrl": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/07/30/the-next-measure-of-ai-momentum-is-work-transformed/",
+      "publishedAt": "2026-07-30",
+      "layerIds": [3, 4],
+      "industries": ["办公 Copilot", "企业 Agent", "生产力软件"],
+      "beneficiaries": {
+        "industries": ["企业协作软件", "低代码与工作流自动化", "Agent 治理"],
+        "companies": ["Microsoft"],
+        "stocks": [
+          {
+            "code": "usMSFT",
+            "name": "微软",
+            "reason": "Microsoft 365 Copilot 席位与 Agent 工作流使用深化，可能提升 Microsoft 365 与 Copilot 生态粘性"
+          }
+        ]
+      }
+    },
+    {
+      "id": "oracle-google-gemini-fusion-agents-2026-07",
+      "title": "Oracle 与 Google Cloud 扩大合作，将 Gemini 模型接入 Fusion 与 NetSuite 企业应用",
+      "summary": "Oracle 与 Google Cloud 宣布扩大合作，计划把 Gemini 3.1 Flash-Lite、Gemini 3.5 Flash 等模型引入 Oracle Fusion Applications、NetSuite 和 Oracle AI Agent Studio。客户可在 Fusion 原生 Agent 和业务流程自动化中选择 Gemini 模型，并通过受治理的审批、事务和工作流执行任务。该事件对应平台层与应用层，显示云模型正深入 ERP、HCM、SCM、CX 等核心企业应用。",
+      "sourceUrl": "https://www.prnewswire.com/news-releases/oracle-to-make-gemini-models-available-to-thousands-of-enterprise-applications-customers-302838995.html",
+      "publishedAt": "2026-07-30",
+      "layerIds": [3, 4],
+      "industries": ["云计算", "企业应用", "AI Agent Studio"],
+      "beneficiaries": {
+        "industries": ["ERP 与企业 SaaS", "模型 API", "云 AI 平台"],
+        "companies": ["Oracle", "Google Cloud"],
+        "stocks": [
+          {
+            "code": "usORCL",
+            "name": "甲骨文",
+            "reason": "Gemini 接入 Fusion 与 NetSuite 可增强 Oracle 企业应用的多模型 Agent 能力"
+          },
+          {
+            "code": "usGOOGL",
+            "name": "Alphabet",
+            "reason": "Gemini 模型通过 Oracle 应用触达更多企业工作流，扩大 Google Cloud 模型分发渠道"
+          }
+        ]
+      }
+    },
+    {
+      "id": "armor-sovereign-ai-governed-platform-2026-07",
+      "title": "Armor 发布 Sovereign AI，面向监管行业提供统一 AI 治理控制层",
+      "summary": "Armor 在 Black Hat 前发布 Sovereign AI，定位为面向监管行业的全公司 AI 工作平台。产品强调所有人员、Agent 和模型请求均经过 Governed Control Plane，集中处理策略、密钥、支出、审计、模型路由和人类审批。该事件对应平台层，说明企业 AI 落地的竞争焦点从模型能力延伸到合规、成本控制和 Agent 操作审计。",
+      "sourceUrl": "https://www.prnewswire.com/apac/news-releases/armor-launches-sovereign-ai-a-whole-company-ai-work-platform-for-regulated-industries-302839536.html",
+      "publishedAt": "2026-07-31",
+      "layerIds": [3],
+      "industries": ["AI 安全", "AI 治理", "监管科技"],
+      "beneficiaries": {
+        "industries": ["企业 AI 控制塔", "数据安全", "合规审计"],
+        "companies": ["Armor", "Sovereign AI"]
+      }
+    },
+    {
+      "id": "plutus-servicenow-insurance-agents-2026-07",
+      "title": "Plutus 推出原生运行于 ServiceNow 的寿险与年金 Agentic Platform",
+      "summary": "Plutus 发布面向寿险与年金运营的 Agentic Platform，首批包含六个按交易处理、交叉控制和存量保单修复组织的 Agentic Assist 方案。平台运行于 ServiceNow 生态内，并由 Plutus Atlas 保险语义层提供保单、参与人、产品和财务义务上下文。该事件对应应用层与平台层，体现垂直行业 AI 从通用助手进入保险运营工作流。",
+      "sourceUrl": "https://www.prnewswire.com/news-releases/plutus-launches-agentic-platform-for-life-and-annuity-operations-bringing-purpose-built-ai-to-the-workflows-that-define-service-quality-for-life-and-annuity-carriers-302839578.html",
+      "publishedAt": "2026-07-30",
+      "layerIds": [3, 4],
+      "industries": ["保险科技", "垂直 SaaS", "ServiceNow 生态"],
+      "beneficiaries": {
+        "industries": ["保险运营自动化", "垂直 Agent", "企业工作流平台"],
+        "companies": ["Plutus", "ServiceNow"],
+        "stocks": [
+          {
+            "code": "usNOW",
+            "name": "ServiceNow",
+            "reason": "Plutus 平台原生运行于 ServiceNow 生态，可能带动保险行业客户对 ServiceNow 工作流与 Agent 能力的使用"
+          }
+        ]
+      }
+    }
+  ]
+}
