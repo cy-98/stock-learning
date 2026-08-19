@@ -1,0 +1,112 @@
+{
+  "date": "2026-08-19",
+  "items": [
+    {
+      "id": "cerebras-cs4-inference-system-2026-08",
+      "title": "Cerebras 发布 CS-4 推理系统，主打机架级高速 token 生成",
+      "summary": "Cerebras 于 8 月 18 日发布第四代 CS-4 系统，称其基于三颗 WSE-3 Turbo 处理器和新的 Nexus 机架级架构，面向前沿模型推理和超大规模部署。公司表示该系统支持解耦式推理，可与 AMD Helios、AWS Trainium 等 prefill 平台配合，并计划本季度开始首批出货。该事件对应算力与基础设施层，反映 AI 推理基础设施从单芯片竞争走向计算、供电、I/O 和机架部署的一体化竞争。",
+      "sourceUrl": "https://www.cerebras.ai/blog/introducing-cerebras-cs-4",
+      "publishedAt": "2026-08-18",
+      "layerIds": [1],
+      "industries": ["AI 算力", "AI 加速器", "推理基础设施"],
+      "beneficiaries": {
+        "industries": ["AI 推理加速器", "液冷机架", "异构算力平台"],
+        "companies": ["Cerebras Systems", "AMD", "Amazon Web Services"],
+        "stocks": [
+          {
+            "code": "usAMD",
+            "name": "AMD",
+            "reason": "CS-4 支持与 AMD Helios 等 prefill 平台组成异构推理架构，显示 GPU/ASIC 混合部署需求可能提升。"
+          },
+          {
+            "code": "usAMZN",
+            "name": "Amazon",
+            "reason": "AWS Trainium 被列为可配合 CS-4 的 prefill 平台，云端自研芯片生态对大模型推理成本较敏感。"
+          }
+        ]
+      }
+    },
+    {
+      "id": "etched-jane-street-first-rack-2026-08",
+      "title": "Etched 完成首个 Jane Street 客户交付并获 7 亿美元新融资",
+      "summary": "Etched 8 月 18 日宣布完成由 Jane Street 领投的 7 亿美元融资，估值达到 210 亿美元，并称已将首个推理机架交付给 Jane Street。新闻稿称该公司正建设面向前沿推理集群的硬件，并已经让客户在真实工作负载中部署首批机架。该事件对应算力与基础设施层，体现 transformer 专用或推理专用 ASIC 对通用 GPU 路线的补充竞争。",
+      "sourceUrl": "https://www.financialcontent.com/article/gnwcq-2026-8-18-etched-raises-700m-at-a-21b-valuation-and-completes-first-customer-delivery-to-jane-street",
+      "publishedAt": "2026-08-18",
+      "layerIds": [1],
+      "industries": ["AI 芯片", "推理集群", "半导体融资"],
+      "beneficiaries": {
+        "industries": ["定制 ASIC", "AI 推理云", "先进封装与存储配套"],
+        "companies": ["Etched", "Jane Street", "SK hynix"],
+        "stocks": []
+      }
+    },
+    {
+      "id": "lg-nvidia-robotics-data-factory-2026-08",
+      "title": "LG 与 NVIDIA 加速机器人合作，首尔 Data Factory 用于 Physical AI 数据飞轮",
+      "summary": "LG Electronics 8 月 18 日在官方 newsroom 表示，公司与 NVIDIA 高层在首尔 Yangjae R&D Campus 的 Data Factory 讨论机器人合作，并计划把制造、物流和家电场景数据与 NVIDIA Omniverse、Cosmos、Isaac 等机器人技术栈结合。LG 称该设施年底前将容纳数百台机器人，直接采集与合成增强的训练数据预计达到 10 万小时。该事件对应终端与生态层，也与算力基础设施层相关，因为 Physical AI 落地依赖机器人数据、仿真和加速计算栈协同。",
+      "sourceUrl": "https://www.lg.com/global/newsroom/news/corporate/lg-electronics-accelerates-robotics-collaboration-with-nvidia/",
+      "publishedAt": "2026-08-18",
+      "layerIds": [5, 1],
+      "industries": ["具身智能", "机器人", "Physical AI"],
+      "beneficiaries": {
+        "industries": ["机器人训练数据", "仿真平台", "机器人零部件"],
+        "companies": ["LG Electronics", "NVIDIA", "LG CNS", "LG Innotek"],
+        "stocks": [
+          {
+            "code": "usNVDA",
+            "name": "NVIDIA",
+            "reason": "LG Data Factory 将使用 NVIDIA Omniverse、Cosmos 和 Isaac 技术栈，Physical AI 数据与仿真需求对其生态具有敏感性。"
+          }
+        ]
+      }
+    },
+    {
+      "id": "foxglove-agentic-physical-ai-data-2026-08",
+      "title": "Foxglove 推出 Physical AI 的 agentic 数据平台与语义搜索能力",
+      "summary": "Foxglove 8 月 18 日发布面向 Physical AI 的 agentic 数据平台更新，新增 Agent Sidebar、Foxglove MCP、Comparison Mode 和 Remote Access 等能力。公司称 Semantic Search 可用自然语言检索大规模机器人多模态数据，并由包括 NVIDIA Cosmos 视频文本嵌入模型在内的模型提供支持。该事件对应平台与工具层和终端与生态层，关注机器人数据采集、调试、检索和训练集构建从人工流程转向 agentic 工作流。",
+      "sourceUrl": "https://foxglove.dev/blog/introducing-the-agentic-data-platform-for-physical-ai",
+      "publishedAt": "2026-08-18",
+      "layerIds": [3, 5],
+      "industries": ["机器人数据平台", "MLOps", "Physical AI"],
+      "beneficiaries": {
+        "industries": ["机器人数据治理", "多模态检索", "MCP 工具生态"],
+        "companies": ["Foxglove", "NVIDIA"],
+        "stocks": [
+          {
+            "code": "usNVDA",
+            "name": "NVIDIA",
+            "reason": "Foxglove 语义搜索提到使用 NVIDIA Cosmos 等 Physical AI 模型，机器人数据平台扩张可能带动其物理世界模型生态。"
+          }
+        ]
+      }
+    },
+    {
+      "id": "testmu-agent-assurance-2026-08",
+      "title": "TestMu AI 发布 Agent Assurance，用运行证据验证 AI Agents",
+      "summary": "TestMu AI 8 月 18 日发布 Agent Assurance，覆盖面向用户的 conversational agents 和会调用工具、写文件、访问 API 的 autonomous agents。该产品从代码库生成端到端 agent 测试场景，并用文件变更、产物和工具调用等观察证据给出 pass、fail 与 unable to verify 结果。该事件对应平台与工具层，显示企业 agent 从试点进入生产前，对测试、可观测性和安全验证的需求正在上升。",
+      "sourceUrl": "https://www.newswire.ca/news-releases/testmu-ai-launches-agent-assurance-to-verify-ai-agents-before-they-ship-822122542.html",
+      "publishedAt": "2026-08-18",
+      "layerIds": [3],
+      "industries": ["AI 安全", "软件测试", "AgentOps"],
+      "beneficiaries": {
+        "industries": ["Agent 测试平台", "CI/CD 质量工程", "AI 安全评测"],
+        "companies": ["TestMu AI", "LambdaTest"],
+        "stocks": []
+      }
+    },
+    {
+      "id": "converge-ai-shared-context-platform-2026-08",
+      "title": "Converge AI 将知识工作、软件构建与创意产品接入共享上下文平台",
+      "summary": "Converge AI 8 月 18 日宣布把 Converge Work、Enter Pro、Framia Pro、Combos Fun 等专用 AI 产品连接为一个面向业务团队的平台，并以共享上下文层承载知识、项目和决策。公司称团队可以在同一环境中构建自定义 agents、生成文档和演示、开发内部工具并推进创意制作。该事件对应应用与解决方案层，也涉及平台与工具层，反映企业 AI 应用正从点状工具转向跨部门工作流编排。",
+      "sourceUrl": "https://www.prnewswire.com/news-releases/converge-ai-connects-its-specialized-ai-products-into-one-platform-for-business-teams-302854232.html",
+      "publishedAt": "2026-08-18",
+      "layerIds": [4, 3],
+      "industries": ["企业 AI 应用", "协同办公", "AI 工作流"],
+      "beneficiaries": {
+        "industries": ["垂直 SaaS", "AI 原生办公", "低代码应用开发"],
+        "companies": ["Converge AI"],
+        "stocks": []
+      }
+    }
+  ]
+}
