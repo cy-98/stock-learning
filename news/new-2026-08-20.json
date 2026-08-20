@@ -1,0 +1,111 @@
+{
+  "date": "2026-08-20",
+  "items": [
+    {
+      "id": "nvidia-openai-ports-pike-ai-campus-2026-08",
+      "title": "NVIDIA 为 OpenAI 俄亥俄 8GW AI 园区提供信用支持",
+      "summary": "NVIDIA 8 月 17 日宣布与 SB Energy 合作，在俄亥俄 PORTS-Pike Technology Campus 锁定土地、电力与机房壳体容量，OpenAI 将作为客户使用该站点。项目初始设计为 4.25 IT-GW，OpenAI 目标容量为 8 IT-GW，并采用 NVIDIA DSX AI factory 平台，覆盖 GPU、CPU 与网络全栈。事件处于长期数据中心建设与融资安排阶段，反映算力层资本开支从芯片采购延伸到电力、园区和租赁信用支持。",
+      "sourceUrl": "https://nvidianews.nvidia.com/news/nvidia-guarantees-sb-energy-s-ports-pike-technology-campus-in-ohio-to-exclusively-host-nvidia-ai-compute",
+      "publishedAt": "2026-08-17",
+      "layerIds": [1, 3],
+      "industries": ["AI 数据中心", "GPU 算力", "云基础设施", "电力与机房"],
+      "beneficiaries": {
+        "industries": ["AI 算力租赁", "数据中心建设", "高速互连", "电力基础设施"],
+        "companies": ["NVIDIA", "OpenAI", "SB Energy", "SoftBank"],
+        "stocks": [
+          {
+            "code": "usNVDA",
+            "name": "英伟达",
+            "reason": "NVIDIA 将作为该园区独家 AI compute 基础设施提供方，算力平台需求与长期租赁安排绑定"
+          }
+        ]
+      }
+    },
+    {
+      "id": "sk-hynix-hybrid-memory-kv-cache-2026-08",
+      "title": "SK hynix 展示面向 AI Agent KV cache 的混合内存方案",
+      "summary": "Seoul Economic Daily 8 月 19 日报道，SK hynix 展示了将 DRAM、NAND SSD 与 CXL 结合的 hybrid memory 方案，用于缓解 AI Agent 长对话和复杂任务带来的 KV cache 成本压力。报道称，该方案仅把即时需要的数据预取到 DRAM，其余保存在 NAND 中，在相同 DRAM 预算下可提升 AI 服务器数据处理容量。事件仍处于技术展示与商业化准备阶段，主要对应算力层的内存层级重构。",
+      "sourceUrl": "https://en.sedaily.com/finance/2026/08/19/sk-hynix-cuts-dram-use-to-one-16th-with-nand-linked-memory",
+      "publishedAt": "2026-08-19",
+      "layerIds": [1, 2],
+      "industries": ["AI 内存", "CXL", "NAND", "KV cache"],
+      "beneficiaries": {
+        "industries": ["高带宽内存", "企业级 SSD", "CXL 内存扩展", "AI 服务器"],
+        "companies": ["SK hynix", "NVIDIA", "Google", "Microsoft"],
+        "stocks": [
+          {
+            "code": "usNVDA",
+            "name": "英伟达",
+            "reason": "混合内存若与后续 GPU 平台适配，可降低长上下文 Agent 推理的内存成本压力"
+          }
+        ]
+      }
+    },
+    {
+      "id": "harness-ai-vulnerability-agents-2026-08",
+      "title": "Harness 推出覆盖漏洞扫描、分诊和修复的 AI 安全 Agent",
+      "summary": "Harness 8 月 19 日宣布 AI SAST、LLM Scan Orchestration、Triage Agent、Remediation Agent、Zero-Day Agent 与 virtual patching 等能力，目标是在软件交付流水线内完成漏洞发现、优先级排序、修复验证和防护。公司称这些能力已作为 Harness 平台的一部分可用，定位于应对 AI 攻击者缩短利用窗口后的机器速度防御。该新闻对应平台与工具层，体现 AI 安全从检测工具走向端到端 Agent 工作流。",
+      "sourceUrl": "https://www.prnewswire.com/news-releases/harness-launches-ai-agents-for-machine-speed-vulnerability-response-302855262.html",
+      "publishedAt": "2026-08-19",
+      "layerIds": [3],
+      "industries": ["AI 安全", "DevSecOps", "软件交付平台"],
+      "beneficiaries": {
+        "industries": ["应用安全测试", "云原生安全", "AI 代码治理"],
+        "companies": ["Harness", "Traceable", "Google Cloud", "Kong"]
+      }
+    },
+    {
+      "id": "dnb-snowflake-cortex-agents-2026-08",
+      "title": "Dun & Bradstreet 将 Snowflake Cortex Agents 嵌入数据市场列表",
+      "summary": "Dun & Bradstreet 8 月 19 日宣布，在 Snowflake Marketplace 的数据列表中部署 Cortex Agents，让客户可用自然语言探索 D&B Commercial Graph 等商业身份与公司数据。该能力面向销售、营销和市场机会评估等流程，强调把可信商业数据直接转化为可交互的 AI 产品体验。事件对应平台层与应用层，凸显企业数据供应商正在把数据资产与 Agent 工作流打包销售。",
+      "sourceUrl": "https://www.prnewswire.com/news-releases/dun--bradstreet-powers-the-agentic-shift-by-deploying-snowflake-cortex-agents-on-its-marketplace-data-listings-302854687.html",
+      "publishedAt": "2026-08-19",
+      "layerIds": [3, 4],
+      "industries": ["数据平台", "企业软件", "销售智能", "Agentic AI"],
+      "beneficiaries": {
+        "industries": ["数据市场", "CRM 数据服务", "云数据仓库", "企业知识图谱"],
+        "companies": ["Dun & Bradstreet", "Snowflake"],
+        "stocks": [
+          {
+            "code": "usSNOW",
+            "name": "Snowflake",
+            "reason": "Cortex Agents 成为数据供应商在 Snowflake Marketplace 上产品化企业数据的入口"
+          }
+        ]
+      }
+    },
+    {
+      "id": "oracle-health-clinical-ai-agent-2026-08",
+      "title": "Oracle Health 扩展临床 AI Agent 到编码、听写和病历审阅",
+      "summary": "Oracle Health 8 月 19 日宣布，Clinical AI Agent 在美国新增门诊专业费用编码、临床文档听写和病历审阅能力。新功能会分析就诊对话、建议收费代码、汇总电子病历上下文，并要求临床人员复核确认后提交。该事件对应应用与解决方案层，说明医疗 AI 正从文书生成拓展到收入周期和临床工作流协同。",
+      "sourceUrl": "https://www.prnewswire.com/news-releases/oracle-health-expands-clinical-ai-agent-with-automated-coding-dictation-and-chart-review-302854383.html",
+      "publishedAt": "2026-08-19",
+      "layerIds": [4],
+      "industries": ["医疗 AI", "临床文档", "收入周期管理", "行业 SaaS"],
+      "beneficiaries": {
+        "industries": ["电子病历", "医疗收入周期", "临床工作流自动化"],
+        "companies": ["Oracle Health", "Oracle"],
+        "stocks": [
+          {
+            "code": "usORCL",
+            "name": "Oracle",
+            "reason": "Oracle Health 将 AI Agent 嵌入临床和收入周期流程，增强其医疗行业应用套件黏性"
+          }
+        ]
+      }
+    },
+    {
+      "id": "unitree-shanghai-humanoid-ipo-2026-08",
+      "title": "宇树科技上海上市首日大涨，成为中国人形机器人风向标",
+      "summary": "BBC 8 月 19 日报道，宇树科技在上海科创板上市首日收涨逾 460%，成为中国大陆首家上市的人形机器人公司。报道称，宇树已销售传感器、机械臂、四足和人形机器人，并在 2025 年实现盈利；其 G1 人形机器人和低价四足机器人强化了中国机器人供应链的市场关注。事件对应终端与生态层，反映 AI 从模型和云端走向机器人硬件终端后的资本市场定价试验。",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/c0qv4w9492zo",
+      "publishedAt": "2026-08-19",
+      "layerIds": [5],
+      "industries": ["人形机器人", "具身智能", "智能制造", "机器人供应链"],
+      "beneficiaries": {
+        "industries": ["机器人整机", "执行器", "传感器", "机器人代工与零部件"],
+        "companies": ["宇树科技", "特斯拉", "亚马逊", "Boston Dynamics", "优必选"]
+      }
+    }
+  ]
+}
