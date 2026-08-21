@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-28",
+  "updated": "2026-08-21",
   "source": "docs/data/layers.json",
   "layers": {
     "1": {
@@ -28,6 +28,11 @@
           "date": "2026-05",
           "title": "电力板块题材波动",
           "body": "大唐发电等标的短期暴涨，案例提示：逻辑可对、价格需估值纪律。"
+        },
+        {
+          "date": "2026-08-19",
+          "title": "Nvidia H200 小批量进入中国",
+          "body": "Reuters 援引 FT 称，字节跳动、腾讯等近日获准接收小批量 H200；大陆部署仍受审批与国产替代政策约束。"
         }
       ],
       "trends": [
@@ -74,6 +79,11 @@
           "date": "2026",
           "title": "开源生态扩张",
           "body": "企业私有化部署需求带动一体机与国产算力适配。"
+        },
+        {
+          "date": "2026-08-20",
+          "title": "Claude Agent SDK 支撑法律智能体",
+          "body": "Thomson Reuters 发布新版 CoCounsel Legal，称其基于 Anthropic Claude Agent SDK，可规划并执行多步骤法律工作流。"
         }
       ],
       "trends": [
@@ -115,6 +125,11 @@
           "date": "2026",
           "title": "数据合规升级",
           "body": "企业内网部署与私有化模型需求增加。"
+        },
+        {
+          "date": "2026-08-20",
+          "title": "CoCounsel 扩展 MCP 与 AWS 连接",
+          "body": "Thomson Reuters 同步推出面向 Claude 的 CoCounsel Legal MCP，并称将通过 MCP 连接 Amazon Quick 等 AWS 服务。"
         }
       ],
       "trends": [
@@ -151,6 +166,11 @@
           "date": "2026",
           "title": "垂直 Agent 融资活跃",
           "body": "法律、财务、客服等场景出现专业化智能体产品。"
+        },
+        {
+          "date": "2026-08-20",
+          "title": "CoCounsel Legal 在美国正式可用",
+          "body": "新版 CoCounsel Legal 在美国 GA，整合 Westlaw、Practical Law、Brief Builder 与 Workspaces，强调可追溯引用支持法律场景落地。"
         }
       ],
       "trends": [
@@ -197,6 +217,11 @@
           "date": "持续",
           "title": "投资方法论沉淀",
           "body": "本仓库 Section 1/2：框架 + 澜起、电力案例复盘。"
+        },
+        {
+          "date": "2026-08-20",
+          "title": "Unitree 称机器人仍待 ChatGPT 时刻",
+          "body": "Reuters 报道，Unitree CEO 在北京机器人会议称具身智能正接近拐点，但现实部署瓶颈仍在世界模型与机器人决策能力。"
         }
       ],
       "trends": [
