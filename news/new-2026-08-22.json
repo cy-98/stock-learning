@@ -1,0 +1,104 @@
+{
+  "date": "2026-08-22",
+  "items": [
+    {
+      "id": "thomson-reuters-cocounsel-legal-agentic-2026-08",
+      "title": "Thomson Reuters 推出新一代 CoCounsel Legal，法律 AI 进入 agentic 工作流",
+      "summary": "Thomson Reuters 8 月 20 日宣布新一代 CoCounsel Legal 正式可用，把法律研究、草拟、验证和事项工作区整合到一个 agentic AI 体验中，并新增 Westlaw Brief Builder。公告称该产品基于 Anthropic Claude Agent SDK，可跨复杂法律流程进行规划、推理和执行，输出仍需引用可追溯的法律权威来源。事件主要对应应用与解决方案层，也体现专业内容数据与 Agent 平台能力向法律工作流嵌入。",
+      "sourceUrl": "https://www.prnewswire.com/news-releases/thomson-reuters-launches-next-generation-of-cocounsel-legal-the-ai-ecosystem-built-for-legal-professionals-302855801.html",
+      "publishedAt": "2026-08-20",
+      "layerIds": [4, 3],
+      "industries": ["法律科技", "行业 Agent", "专业数据平台", "企业 SaaS"],
+      "beneficiaries": {
+        "industries": ["法律 AI 工作流", "专业内容数据库", "垂直 SaaS Agent", "企业知识检索"],
+        "companies": ["Thomson Reuters", "Anthropic", "AWS", "Reveal"],
+        "stocks": [
+          {
+            "code": "usTRI",
+            "name": "Thomson Reuters",
+            "reason": "CoCounsel Legal 将其 Westlaw、Practical Law 等专业内容嵌入 agentic 工作流，可能提升法律科技订阅与专业数据平台黏性"
+          }
+        ]
+      }
+    },
+    {
+      "id": "zephyr-ai-platform-multi-agent-workspace-2026-08",
+      "title": "Zephyr 发布 The AI Platform，主打多人协作的 Multi-Agent 工作台",
+      "summary": "Zephyr 8 月 20 日宣布 The AI Platform 在五个月 early access 后正式可用，定位为团队与 AI specialists 在共享频道协作的桌面应用。平台包含可复用 Agent、provider-agnostic Model Router 和 Mini-App Builder，可路由 OpenRouter、OpenAI、Anthropic Claude、Google Gemini、AWS Bedrock 及本地端点。事件主要对应平台与工具层，并延伸到企业协作和工作流应用层。",
+      "sourceUrl": "https://www.prnewswire.com/news-releases/zephyr-launches-the-ai-platform-a-multi-agent-workspace-where-teams-work-alongside-ai-specialists-302855949.html",
+      "publishedAt": "2026-08-20",
+      "layerIds": [3, 4],
+      "industries": ["Agent 平台", "企业协作", "MLOps", "开发者工具"],
+      "beneficiaries": {
+        "industries": ["多 Agent 编排", "企业协作工作台", "模型路由", "AI 应用市场"],
+        "companies": ["Zephyr", "OpenAI", "Anthropic", "Google Cloud", "AWS Bedrock"],
+        "stocks": []
+      }
+    },
+    {
+      "id": "sk-hynix-us-japan-memory-fab-review-2026-08",
+      "title": "SK hynix 评估美日新建存储厂，AI HBM 供应链继续外溢",
+      "summary": "Seoul Economic Daily 8 月 21 日报道称，SK hynix 正评估在日本和美国建设新的存储生产基地，以扩大先进存储产能并加强与 Big Tech、材料设备生态的合作。报道同时提到公司计划 8 月 27 日为印第安纳州 West Lafayette HBM 后道封装厂举行奠基，目标 2028 年二季度投产。该事件对应算力与基础设施层，反映 HBM、先进封装与本地化供给仍是 AI 数据中心扩张的关键约束。",
+      "sourceUrl": "https://en.sedaily.com/finance/2026/08/21/sk-hynix-weighs-new-chip-plants-in-us-and-japan",
+      "publishedAt": "2026-08-21",
+      "layerIds": [1],
+      "industries": ["HBM", "半导体制造", "先进封装", "AI 数据中心"],
+      "beneficiaries": {
+        "industries": ["高带宽内存", "存储先进封装", "半导体材料设备", "AI 加速器供应链"],
+        "companies": ["SK hynix", "Kioxia", "NVIDIA", "美国与日本半导体设备材料供应商"],
+        "stocks": [
+          {
+            "code": "usNVDA",
+            "name": "NVIDIA",
+            "reason": "AI 加速器出货依赖 HBM 与先进封装供给，SK hynix 扩产评估若落地可能改善高端内存配套的长期可得性"
+          }
+        ]
+      }
+    },
+    {
+      "id": "candescent-google-cloud-gemini-banking-2026-08",
+      "title": "Candescent 与 Google Cloud 扩大合作，把 Gemini Enterprise 引入银行平台",
+      "summary": "Candescent 8 月 19 日宣布扩大与 Google Cloud 的合作，其云原生 Intelligent Banking Platform 将使用 Gemini 模型和 Gemini Enterprise Agent Platform，为 1300 多家银行和信用社客户提供智能化体验。公司称首批 Gemini-enabled 能力预计 2026 年下半年面向部分客户开放，覆盖客户体验、银行员工工作流、自然语言洞察和银行专属 Agent。事件对应平台与工具层及金融行业应用层，重点在受监管场景中把 Agent 从试点推进到生产。",
+      "sourceUrl": "https://www.accessnewswire.com/newsroom/en/computers-technology-and-internet/candescent-partners-with-google-cloud-to-power-its-intelligent-ba-1209097",
+      "publishedAt": "2026-08-19",
+      "layerIds": [3, 4],
+      "industries": ["金融科技", "云计算", "银行 SaaS", "Agent 平台"],
+      "beneficiaries": {
+        "industries": ["金融 AI 平台", "银行客户体验", "云原生核心系统", "受监管 Agent 治理"],
+        "companies": ["Candescent", "Google Cloud", "区域银行与信用社"],
+        "stocks": [
+          {
+            "code": "usGOOGL",
+            "name": "Alphabet",
+            "reason": "Gemini Enterprise Agent Platform 进入银行工作流，有助于 Google Cloud 在金融行业 AI 平台采购中的渗透"
+          }
+        ]
+      }
+    },
+    {
+      "id": "china-humanoid-robot-wrc-shipments-2026-08",
+      "title": "WRC 报告称中国上半年人形机器人出货超 4 万台，应用从演示转向场景部署",
+      "summary": "Global Times 8 月 20 日报道，2026 世界机器人大会发布的行业报告称，中国上半年人形机器人出货量超过 4 万台、全球份额约 97%，行业正从小批量试验转向常态化部署。展会上多家公司展示了电力巡检、消防、伤员转运、储罐检测等任务型机器人，报告还强调环境感知、规划决策、运动控制和全链制造能力的进展。事件对应终端与生态层，关注具身智能从主题热度走向供应链与真实场景验证。",
+      "sourceUrl": "https://www.globaltimes.cn/page/202608/1368662.shtml",
+      "publishedAt": "2026-08-20",
+      "layerIds": [5],
+      "industries": ["人形机器人", "具身智能", "工业巡检", "稀土永磁"],
+      "beneficiaries": {
+        "industries": ["机器人执行器", "传感器与控制器", "永磁材料", "工业场景集成"],
+        "companies": ["X-Humanoid", "Robot++", "State Grid", "国内机器人零部件供应链"],
+        "stocks": [
+          {
+            "code": "sz000970",
+            "name": "中科三环",
+            "reason": "若人形机器人和工业机器人出货扩大，高性能钕铁硼磁材需求在逻辑上对永磁材料供应链更敏感"
+          },
+          {
+            "code": "sh600111",
+            "name": "北方稀土",
+            "reason": "稀土原料和磁材上游供给是机器人执行器扩产的重要基础环节，受终端放量预期影响较大"
+          }
+        ]
+      }
+    }
+  ]
+}
