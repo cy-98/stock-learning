@@ -1,0 +1,130 @@
+{
+  "date": "2026-08-23",
+  "items": [
+    {
+      "id": "vectris-waveform-gpu-compute-yield-2026-08",
+      "title": "Vectris 称 Waveform 可提升既有 GPU 推理产出，AI 算力效率成为新控制点",
+      "summary": "Vectris Labs 宣布其 Waveform 控制平面在第三方 NVIDIA H100、H200、B200 基础设施上的 Mistral 推理测试中，录得 30% 至 73% 的吞吐提升，并称无需重训模型、修改权重或改动 GPU kernel。公司同时披露该结果尚未在客户生产环境独立复现，产品计划 2026 年 10 月面向少量设计伙伴开放。该事件对应算力与平台工具交叉环节，体现 AI 推理扩张后，存量 GPU 利用率、电力效率和调度控制成为基础设施经济性变量。",
+      "sourceUrl": "https://www.prnewswire.com/news-releases/vectris-discovers-recoverable-ai-compute-capacity-inside-deployed-gpus-demonstrating-up-to-73-more-productive-capacity-302855697.html",
+      "publishedAt": "2026-08-20",
+      "layerIds": [1, 3],
+      "industries": ["AI 推理基础设施", "GPU 云", "数据中心能效"],
+      "beneficiaries": {
+        "industries": ["推理调度控制平面", "GPU 云运营", "数据中心能效优化"],
+        "companies": ["Vectris Labs", "NVIDIA", "AMD", "Intel", "RunPod"],
+        "stocks": [
+          {
+            "code": "usNVDA",
+            "name": "NVIDIA",
+            "reason": "Waveform 在 H100、H200、B200 等 NVIDIA GPU 上测试，推理效率工具链扩展会强化 GPU 基础设施生态价值。"
+          },
+          {
+            "code": "usAMD",
+            "name": "AMD",
+            "reason": "公司称 Waveform 已在 AMD 硅平台测试，跨架构推理优化需求可能提升非 NVIDIA 加速器生态关注度。"
+          }
+        ]
+      }
+    },
+    {
+      "id": "accrete-marine-corps-argus-cognitive-agent-2026-08",
+      "title": "美国海军陆战队授予 Accrete Argus 认知优势 Agent 单一来源合同",
+      "summary": "Accrete 宣布获得美国海军陆战队单一来源合同，将授权其 Argus for Cognitive Advantage Expert AI Agents 用于叙事情报、受众模拟、视频分析和可审计的自然语言查询。该平台把开放网络、社交媒体、广播媒体和外语内容等信息环境转化为可追踪分析结果，延续其在美国国防机构中的部署路径。事件处于政府采购与落地扩展阶段，对应平台与行业应用层，反映国防场景对可审计 Agent 与知识引擎的需求。",
+      "sourceUrl": "https://www.prnewswire.com/news-releases/us-marine-corps-awards-accrete-sole-source-contract-for-argus-for-cognitive-advantage-302857547.html",
+      "publishedAt": "2026-08-21",
+      "layerIds": [3, 4],
+      "industries": ["国防科技", "AI Agent", "知识引擎"],
+      "beneficiaries": {
+        "industries": ["政府 AI 决策平台", "国防情报软件", "可审计 Agent 治理"],
+        "companies": ["Accrete", "Palantir"],
+        "stocks": [
+          {
+            "code": "usPLTR",
+            "name": "Palantir",
+            "reason": "同属政府与国防 AI 决策软件赛道，军事场景采购验证对数据融合和任务型 Agent 平台具有参照意义。"
+          }
+        ]
+      }
+    },
+    {
+      "id": "transformativemed-redrover-clinical-agent-workflow-2026-08",
+      "title": "TransformativeMed 与 Red Rover Health 合作把 Agentic AI 接入 Oracle Health EHR",
+      "summary": "TransformativeMed 与 Red Rover Health 宣布合作，计划把 TransformativeMed 的 Agentic Clinical Operating System 与 Red Rover Health 的互操作基础设施和 MCP 结合，原生接入 Oracle Health EHR。首个联合项目聚焦住院患者出院规划，并将在 2026 年 9 月 Oracle Health Summit 展示。该事件属于医疗临床工作流从试点走向可展示方案的阶段，对应平台工具层与垂直应用层。",
+      "sourceUrl": "https://www.prnewswire.com/news-releases/transformativemed-partners-with-red-rover-health-to-bring-agentic-ai-across-clinical-workflows-302857306.html",
+      "publishedAt": "2026-08-21",
+      "layerIds": [3, 4],
+      "industries": ["医疗 IT", "临床工作流", "MCP"],
+      "beneficiaries": {
+        "industries": ["医疗 EHR 生态", "临床 Agent 工作流", "医疗互操作平台"],
+        "companies": ["TransformativeMed", "Red Rover Health", "Oracle Health"],
+        "stocks": [
+          {
+            "code": "usORCL",
+            "name": "Oracle",
+            "reason": "方案围绕 Oracle Health EHR 工作流构建，第三方 Agent 接入有助于增强其医疗平台生态粘性。"
+          }
+        ]
+      }
+    },
+    {
+      "id": "gitlab-19-3-duo-agent-flow-creator-2026-08",
+      "title": "GitLab 19.3 发布 Flow Creator，把 Duo Agent Platform 扩展到软件交付流程自动化",
+      "summary": "GitLab 19.3 发布说明显示，新版加入 Flow Creator foundational agent，用户可通过自然语言为 GitLab Duo Agent Platform 生成可运行的 flow YAML，并用于注册、调试和解释流程概念。该版本还增加 Duo 解决合并冲突、处理代码评审讨论、Duo CLI 插件与 MCP 工具等 Agentic Core 功能。事件对应平台与工具层，说明 DevSecOps 平台正从代码助手扩展到软件交付流程编排与治理。",
+      "sourceUrl": "https://docs.gitlab.com/releases/19/gitlab-19-3-released/",
+      "publishedAt": "2026-08-20",
+      "layerIds": [3],
+      "industries": ["DevSecOps", "AI 编程", "Agent 平台"],
+      "beneficiaries": {
+        "industries": ["软件交付平台", "AI 编程助手", "MCP 工具生态"],
+        "companies": ["GitLab"],
+        "stocks": [
+          {
+            "code": "usGTLB",
+            "name": "GitLab",
+            "reason": "Duo Agent Platform 功能扩展直接增强 GitLab 在企业软件交付自动化中的产品深度。"
+          }
+        ]
+      }
+    },
+    {
+      "id": "serval-catalyst-it-automation-agent-2026-08",
+      "title": "Serval Catalyst 正式可用，用 Agent 自动生成 IT 服务管理自动化",
+      "summary": "Serval 宣布 Catalyst 已正式可用，并默认面向所有组织启用。Catalyst 可根据工单历史、自然语言指令或现有 SOP 构建工作流、技能、表单、访问管理和后台 Agent，生成内容会先以草稿形式供管理员审查后发布。该事件处于企业服务管理产品规模化阶段，对应平台与应用层，体现 ITSM 从响应式工单系统向主动发现和自动化修复演进。",
+      "sourceUrl": "https://www.serval.com/serval-news/catalyst-general-availability",
+      "publishedAt": "2026-08-20",
+      "layerIds": [3, 4],
+      "industries": ["IT 服务管理", "企业自动化", "AI Agent"],
+      "beneficiaries": {
+        "industries": ["ITSM 平台", "企业流程自动化", "后台运维 Agent"],
+        "companies": ["Serval", "ServiceNow"],
+        "stocks": [
+          {
+            "code": "usNOW",
+            "name": "ServiceNow",
+            "reason": "Serval 的产品方向验证 IT 服务管理平台对 Agent 化流程构建和主动运维能力的需求。"
+          }
+        ]
+      }
+    },
+    {
+      "id": "viewx-spatial-ai-display-kickstarter-2026-08",
+      "title": "ViewX 发布两款裸眼 3D Spatial AI 显示器，内置 AI SoC 处理 2D 转 3D",
+      "summary": "ViewX 宣布 ViewX Liber 15.6 英寸与 ViewX Immer 27 英寸两款裸眼 3D Spatial AI 显示器将于 2026 年 8 月 25 日登陆 Kickstarter。产品主打显示端 3D 处理、180 FPS 眼动追踪、内置 AI SoC 进行 2D 转 3D，并与 Tencent Games 合作优化游戏体验。该事件仍处众筹上市前阶段，对应终端与生态层，展示端侧 AI 与空间显示硬件在游戏、专业可视化和教育培训等场景的结合。",
+      "sourceUrl": "https://www.prnewswire.com/news-releases/viewx-launches-liber-and-immer-glasses-free-ai-3d-displays-on-kickstarter-302857181.html",
+      "publishedAt": "2026-08-21",
+      "layerIds": [5],
+      "industries": ["空间计算", "端侧 AI", "显示硬件"],
+      "beneficiaries": {
+        "industries": ["AI 显示终端", "游戏内容生态", "端侧 NPU/SoC"],
+        "companies": ["ViewX", "Tencent Games"],
+        "stocks": [
+          {
+            "code": "hk0700",
+            "name": "腾讯控股",
+            "reason": "ViewX 披露其 3D 软件生态与 Tencent Games 合作，游戏内容适配和空间显示体验扩展与腾讯游戏生态相关。"
+          }
+        ]
+      }
+    }
+  ]
+}
