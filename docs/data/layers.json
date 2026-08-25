@@ -2,7 +2,7 @@
   "meta": {
     "title": "AI 五层模型",
     "subtitle": "从算力底座到场景落地 · 行业 · 趋势 · 事件 · Section 1 投资分析",
-    "updated": "2026-05-28"
+    "updated": "2026-08-25"
   },
   "layers": [
     {
@@ -111,6 +111,11 @@
           "date": "2026-05",
           "title": "电力板块题材波动",
           "body": "大唐发电等标的短期暴涨，案例提示：逻辑可对、价格需估值纪律。"
+        },
+        {
+          "date": "2026-08-23",
+          "title": "HBM 成本推高 AI 服务器报价",
+          "body": "Tom's Hardware 援引 Bloomberg 称，英伟达已通知部分大客户，Grace Blackwell/Vera Rubin AI 服务器 2027 年起报价或上调逾 15%，主因是 HBM 与服务器 DRAM 成本上涨。"
         }
       ]
     },
@@ -205,6 +210,11 @@
           "date": "2026",
           "title": "开源生态扩张",
           "body": "企业私有化部署需求带动一体机与国产算力适配。"
+        },
+        {
+          "date": "2026-08-24",
+          "title": "Thomson Reuters 推出自有法律大模型",
+          "body": "Thomson Reuters 宣布以开源基础模型叠加自有专业内容训练 Thomson，用于 CoCounsel 法律文档审查，强调降低推理成本与数据主权。"
         }
       ]
     },
@@ -289,6 +299,11 @@
           "date": "2026",
           "title": "数据合规升级",
           "body": "企业内网部署与私有化模型需求增加。"
+        },
+        {
+          "date": "2026-08-24",
+          "title": "Google Cloud 与 Verizon 扩大企业 AI 合作",
+          "body": "Google Cloud 宣布与 Verizon 建立战略合作，围绕 Gemini Enterprise、Agentic Data Cloud 和自定义业务智能体推进数据统一与企业 Agent 编排。"
         }
       ]
     },
@@ -378,6 +393,11 @@
           "date": "2026",
           "title": "垂直 Agent 融资活跃",
           "body": "法律、财务、客服等场景出现专业化智能体产品。"
+        },
+        {
+          "date": "2026-08-24",
+          "title": "Coupa 扩展采购财务 AI Agents",
+          "body": "Coupa 发布 250 余项 AI 更新，Navi agents 覆盖采购、付款、发票和费用管理，并通过 MCP 接入 Microsoft Copilot 等外部智能体。"
         }
       ]
     },
@@ -482,6 +502,11 @@
           "date": "持续",
           "title": "投资方法论沉淀",
           "body": "本仓库 Section 1/2：框架 + 澜起、电力案例复盘。"
+        },
+        {
+          "date": "2026-08-24",
+          "title": "小鹏机器人业务获 9 亿美元融资",
+          "body": "小鹏称旗下 Dogotix 融资 9 亿美元、投后估值 63 亿美元，用于推进 IRON 人形机器人量产与具身智能商业化。"
         }
       ]
     }
