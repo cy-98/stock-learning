@@ -1,0 +1,101 @@
+{
+  "date": "2026-08-25",
+  "items": [
+    {
+      "id": "sk-hynix-hbm4-hot-chips-2026-08",
+      "title": "SK hynix 称 12 层 HBM4 已量产，16 层产品进入客户认证",
+      "summary": "SK hynix 在 Hot Chips 2026 期间披露，12 层 HBM4 已处于量产阶段，16 层 HBM4 已进入客户认证，并把混合键合列为未来堆叠到 20 层以上的关键工艺。该进展对应算力与基础设施层的 HBM、先进封装和 AI 加速器内存瓶颈，说明供应链讨论已从路线图转向良率、封装和热管理验证。",
+      "sourceUrl": "https://biz.heraldcorp.com/article/10849578",
+      "publishedAt": "2026-08-24",
+      "layerIds": [1],
+      "industries": ["HBM", "先进封装", "AI 算力"],
+      "beneficiaries": {
+        "industries": ["高带宽内存", "先进封装材料", "AI 加速器供应链"],
+        "companies": ["SK hynix", "Samsung Electronics", "Micron", "NVIDIA"],
+        "stocks": [
+          {
+            "code": "usMU",
+            "name": "美光",
+            "reason": "作为 HBM 主要供应商之一，AI 内存带宽与认证节奏变化会影响同类产品竞争格局"
+          },
+          {
+            "code": "sh688008",
+            "name": "澜起科技",
+            "reason": "AI 服务器内存带宽升级强化内存接口和服务器互连芯片的产业关注度"
+          }
+        ]
+      }
+    },
+    {
+      "id": "okta-agent-sso-ga-2026-08",
+      "title": "Okta Agent SSO 正式可用，把 AI Agent 纳入企业身份治理",
+      "summary": "Okta 宣布 Agent SSO 正式可用，将 Cross App Access 标准接入其身份产品，使企业可以把 AI Agent 作为一等身份登记、分配策略并使用短期令牌连接应用。该事件主要落在平台与工具层的 AI 安全、身份治理和 MCP 访问控制环节，反映企业 Agent 从试点进入可审计、可控访问的生产阶段。",
+      "sourceUrl": "https://www.okta.com/newsroom/press-releases/okta-brings-first-class-identity-to-ai-agents-with-agent-sso/",
+      "publishedAt": "2026-08-24",
+      "layerIds": [3],
+      "industries": ["AI 安全", "身份管理", "企业 Agent"],
+      "beneficiaries": {
+        "industries": ["身份与访问管理", "Agent 治理", "企业安全软件"],
+        "companies": ["Okta", "Anthropic", "Datadog", "Notion", "Slack"],
+        "stocks": [
+          {
+            "code": "usOKTA",
+            "name": "Okta",
+            "reason": "Agent SSO 扩展其身份平台到 AI Agent 访问控制场景，可能提升企业安全软件需求敏感度"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ibi-webfocus-agentic-ai-assistant-2026-08",
+      "title": "ibi 在 WebFOCUS 中推出 Agentic AI Assistant，BI 从看板走向自动执行",
+      "summary": "Cloud Software Group 旗下 ibi 在年度客户峰会上推出嵌入 WebFOCUS 9.3.8 的 Agentic AI Assistant，可用自然语言生成可视化报告、执行根因分析并给出操作建议。该新闻对应平台与工具层的数据分析平台，以及应用层的企业运营智能体，重点在于把 BI 从静态报表推进到可审计的业务流程自动化。",
+      "sourceUrl": "https://apnews.com/press-release/business-wire/press-release-ab135179ce304928a8d6ad938dfc67a8",
+      "publishedAt": "2026-08-24",
+      "layerIds": [3, 4],
+      "industries": ["企业软件", "数据分析", "Agentic BI"],
+      "beneficiaries": {
+        "industries": ["商业智能平台", "数据治理", "企业流程自动化"],
+        "companies": ["ibi", "Cloud Software Group", "OpenAI", "Google", "Anthropic"]
+      }
+    },
+    {
+      "id": "caddi-backoffice-agent-builder-2026-08",
+      "title": "Caddi 发布面向专业服务后台的 Agent 构建与治理工具",
+      "summary": "Caddi 发布可发现重复流程、在 Loop Studio 中跟随专家示范训练、并统一治理后台 Agent 的产品，目标客户包括财富管理、法律和保险等后台流程复杂的行业。该事件对应应用与解决方案层的垂直 Agent 落地，也触及平台层的流程治理和审计能力，显示专业服务场景正在从单点自动化转向可复盘的 Agent 工厂。",
+      "sourceUrl": "https://www.prnewswire.com/news-releases/caddi-launches-an-ai-agent-that-builds-and-governs-a-firms-back-office-agents-302857872.html",
+      "publishedAt": "2026-08-24",
+      "layerIds": [4, 3],
+      "industries": ["垂直 SaaS", "专业服务", "流程自动化"],
+      "beneficiaries": {
+        "industries": ["法律科技", "财富管理运营科技", "保险后台自动化"],
+        "companies": ["Caddi", "Ubiquity Ventures", "AI2 Incubator"]
+      }
+    },
+    {
+      "id": "xpeng-robotics-funding-physical-ai-2026-08",
+      "title": "小鹏机器人业务融资超 9 亿美元，加速 Physical AI 与人形机器人量产",
+      "summary": "小鹏宣布机器人业务签署股份购买协议，融资超过 9 亿美元，投后估值超过 63 亿美元，资金将用于软硬件研发、Physical AI 模型迭代、数据生成和端到端量产设施。该事件对应终端与生态层的具身智能和智能汽车供应链外溢，阶段上从概念展示进一步走向资本化、量产准备与 2027 年商业交付。",
+      "sourceUrl": "https://www.prnewswire.com/news-releases/xpeng-robotics-business-raises-over-us900-million-at-a-post-money-valuation-of-over-us6-3-billion-accelerating-physical-ai-deployment-302858203.html",
+      "publishedAt": "2026-08-24",
+      "layerIds": [5],
+      "industries": ["具身智能", "人形机器人", "智能汽车供应链"],
+      "beneficiaries": {
+        "industries": ["机器人执行器", "车规级制造", "端侧 AI 芯片"],
+        "companies": ["XPENG", "IDG Capital", "Gaorong Ventures", "Tencent", "Alibaba"],
+        "stocks": [
+          {
+            "code": "usXPEV",
+            "name": "小鹏汽车",
+            "reason": "机器人业务仍并表且复用其智能汽车研发、芯片和制造能力，融资有助于 Physical AI 量产投入"
+          },
+          {
+            "code": "sz000970",
+            "name": "中科三环",
+            "reason": "人形机器人关节与电机放量若推进，稀土永磁材料链在逻辑上对需求变化敏感"
+          }
+        ]
+      }
+    }
+  ]
+}
