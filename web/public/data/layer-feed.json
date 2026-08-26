@@ -1,9 +1,14 @@
 {
-  "updated": "2026-05-28",
+  "updated": "2026-08-26",
   "source": "docs/data/layers.json",
   "layers": {
     "1": {
       "events": [
+        {
+          "date": "2026-08-25",
+          "title": "NVIDIA 发布 Vera Rubin 推理与网络升级",
+          "body": "NVIDIA 在 Hot Chips 2026 宣布 Groq 3 LPX 进入量产，并推出 Spectrum-X Multiplane 等网络方案，强化 agentic AI 推理与大规模 AI 工厂互联。"
+        },
         {
           "date": "2026-01",
           "title": "全球半导体销售额创新高",
@@ -61,6 +66,11 @@
     "2": {
       "events": [
         {
+          "date": "2026-08-24",
+          "title": "DeepMind 提出 Recirculation 推理技术",
+          "body": "Google DeepMind 与得州大学奥斯汀团队在 arXiv 发布 Recirculation 方法，尝试在不重新训练模型的情况下改善 Transformer 生成与推理表现。"
+        },
+        {
           "date": "2025-2026",
           "title": "推理时代叙事确立",
           "body": "产业讨论焦点从「训练算力」转向「推理成本与规模」。"
@@ -107,6 +117,11 @@
     "3": {
       "events": [
         {
+          "date": "2026-08-24",
+          "title": "AWS 支持 ARD 智能体发现规范",
+          "body": "AWS 介绍 Agentic Resource Discovery 如何与 Agent Registry 配合，面向跨云、本地与 SaaS 环境发现 agents、MCP servers、tools 与 skills。"
+        },
+        {
           "date": "2026",
           "title": "Agent 开发平台竞争",
           "body": "各云厂推出 Agent 构建、评测与托管服务。"
@@ -143,6 +158,11 @@
     "4": {
       "events": [
         {
+          "date": "2026-08-25",
+          "title": "Google Cloud 推出金融服务版 Gemini Enterprise",
+          "body": "Google Cloud 发布面向资本市场和企业银行的 agentic AI 方案，包含 Financial Research agent、50 多项专业 skills 与合规数据连接器。"
+        },
+        {
           "date": "2026",
           "title": "Copilot 全面嵌入",
           "body": "主流办公软件完成 AI 功能迭代与商业化定价。"
@@ -178,6 +198,11 @@
     },
     "5": {
       "events": [
+        {
+          "date": "2026-08-25",
+          "title": "小鹏机器人完成 9 亿美元融资",
+          "body": "小鹏机器人业务完成逾 9 亿美元融资，资金用于 IRON 人形机器人量产和 Physical AI 研发，计划 2026 年底量产、2027 年商业部署。"
+        },
         {
           "date": "2024-2026",
           "title": "《稀土管理条例》体系落地",
