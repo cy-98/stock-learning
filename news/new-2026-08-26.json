@@ -1,0 +1,84 @@
+{
+  "date": "2026-08-26",
+  "items": [
+    {
+      "id": "nvidia-groq3-lpx-production-2026-08",
+      "title": "NVIDIA Groq 3 LPX 进入量产，面向低延迟 Agentic AI 推理",
+      "summary": "NVIDIA 在 Hot Chips 期间宣布 Groq 3 LPX 交互式 AI 推理加速器进入量产，作为 Vera Rubin 平台的扩展，主打长上下文 Agent 场景中的超高速 token 生成。公告称 Nebius 将率先把该平台接入 Nebius Token Factory，后续 Groq 也计划成为早期采用方。该事件对应算力与基础设施层，并延伸到云端推理平台工具层，说明 AI 工厂竞争正在从训练吞吐扩展到低延迟、多步骤 Agent 推理体验。",
+      "sourceUrl": "https://nvidianews.nvidia.com/news/nvidia-groq-3-lpx-now-in-full-production-with-world-class-speed-for-agentic-ai",
+      "publishedAt": "2026-08-24",
+      "layerIds": [1, 3],
+      "industries": ["AI 推理芯片", "AI 云", "Agentic AI", "数据中心"],
+      "beneficiaries": {
+        "industries": ["低延迟推理加速器", "AI 云服务", "数据中心网络与服务器"],
+        "companies": ["NVIDIA", "Nebius", "Groq"],
+        "stocks": [
+          {
+            "code": "usNVDA",
+            "name": "NVIDIA",
+            "reason": "Groq 3 LPX 属于 Vera Rubin 平台扩展，强化其在 Agentic AI 推理算力和 AI 工厂全栈方案中的供给位置"
+          },
+          {
+            "code": "usNBIS",
+            "name": "Nebius",
+            "reason": "Nebius 被列为首个采用该推理平台的 AI 云厂商，产品差异化与低延迟推理需求相关"
+          }
+        ]
+      }
+    },
+    {
+      "id": "google-gemini-enterprise-industry-agents-2026-08",
+      "title": "Google Cloud 推出金融与法律行业 Gemini Enterprise Agent 方案",
+      "summary": "Google Cloud 发布 Gemini Enterprise for Financial Services，并同步将 Legal 作为首批行业化 Gemini Enterprise 方案之一，面向资本市场、企业银行和法律工作流提供专用 Agent、技能、MCP 连接器与治理控制平面。金融版已处于预览阶段，公告提到 Deutsche Bank、CME Group 等参与设计或采用，法律版则面向合同审查、监管扫描和隐私请求等流程。该事件对应平台与工具层及金融、法律垂直应用层，显示通用企业 Agent 平台正打包成受监管行业方案。",
+      "sourceUrl": "https://www.prnewswire.com/news-releases/google-cloud-launches-gemini-enterprise-for-financial-services-302859186.html",
+      "publishedAt": "2026-08-25",
+      "layerIds": [3, 4],
+      "industries": ["云计算", "金融科技", "法律科技", "企业 Agent"],
+      "beneficiaries": {
+        "industries": ["受监管行业 AI 平台", "MCP 数据连接器", "金融与法律垂直 SaaS"],
+        "companies": ["Google Cloud", "Deutsche Bank", "CME Group", "Cleary", "Freshfields"],
+        "stocks": [
+          {
+            "code": "usGOOGL",
+            "name": "Alphabet",
+            "reason": "Gemini Enterprise 被打包为金融和法律行业方案，有助于 Google Cloud 在受监管企业 AI 平台采购中的渗透"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cypris-copilot-rd-agents-2026-08",
+      "title": "Cypris 将 R&D 情报 Agent 接入 Microsoft Copilot",
+      "summary": "Cypris 宣布推出 Cypris Q for Microsoft Copilot，使企业研发与创新团队可在 Microsoft Copilot 内调用 Cypris Agents，执行专利先案检索、技术 scouting、竞争情报、化学与监管研究等流程。该集成基于 agent-to-agent 架构和 MCP 基础设施，连接 Cypris 覆盖专利、科学文献、化合物、监管来源和企业活动的 6 亿多个数据点。该事件对应应用与解决方案层，同时涉及平台层的 MCP 与 Copilot 生态集成，体现垂直专业数据正在嵌入通用办公 Agent。",
+      "sourceUrl": "https://www.prnewswire.com/news-releases/cypris-brings-rd-intelligence-directly-into-microsoft-copilot-302859445.html",
+      "publishedAt": "2026-08-25",
+      "layerIds": [4, 3],
+      "industries": ["企业研发", "知识产权", "办公 Copilot", "MCP"],
+      "beneficiaries": {
+        "industries": ["R&D 情报平台", "知识产权科技", "企业办公 Agent", "专业数据服务"],
+        "companies": ["Cypris", "Microsoft"],
+        "stocks": [
+          {
+            "code": "usMSFT",
+            "name": "Microsoft",
+            "reason": "第三方专业 Agent 直接接入 Copilot，有助于增强 Microsoft 365 在企业研发工作流中的生态粘性"
+          }
+        ]
+      }
+    },
+    {
+      "id": "antare-physical-security-agent-platform-2026-08",
+      "title": "Antare 推出面向随身与固定摄像头的 AI 物理安防平台",
+      "summary": "英国公司 Antare 发布 agentic security platform，可自动审查随身和固定摄像头视频，转写、索引并评分事件，并由不同 AI Agent 监测袭击、可疑行为、安全风险、医疗事件或武器等信号。其随身摄像头订阅服务已面向美国、英国和欧盟客户可用，固定摄像头 Cloud Gateway 仍处于即将推出阶段。该事件对应应用与解决方案层及终端与生态层，展示视觉 AI 从单点告警走向安防硬件、云平台和运营流程的闭环。",
+      "sourceUrl": "https://www.prnewswire.com/news-releases/antare-launches-ai-physical-security-platform-transforming-unwatched-camera-footage-into-intelligence-302859242.html",
+      "publishedAt": "2026-08-25",
+      "layerIds": [4, 5],
+      "industries": ["AI 安防", "计算机视觉", "智能硬件", "视频分析"],
+      "beneficiaries": {
+        "industries": ["视频智能分析", "安防硬件", "边云协同监控平台"],
+        "companies": ["Antare"],
+        "stocks": []
+      }
+    }
+  ]
+}
