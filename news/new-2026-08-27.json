@@ -1,0 +1,105 @@
+{
+  "date": "2026-08-27",
+  "items": [
+    {
+      "id": "aws-nvidia-2m-gpu-ai-infra-2026-08",
+      "title": "AWS 与 NVIDIA 计划 2027–2028 年再部署 200 万块 GPU",
+      "summary": "AWS 与 NVIDIA 宣布扩大 16 年合作，计划在 2027–2028 年于 AWS 全球基础设施中新增部署 200 万块 NVIDIA GPU，并把合作范围延伸到 Vera CPU、Spectrum 网络、Nemotron 开源模型、数据处理和机器人。公告称新增容量将服务 agentic AI、科学发现、企业自动化和 physical AI 等工作负载，并包含面向美国政府的安全 AI 工厂计划。该事件主要对应算力与基础设施层，同时触及平台工具和终端生态，反映 AI 工厂建设从单一芯片供给转向云、网络、CPU/GPU、模型和机器人平台的全栈绑定。",
+      "sourceUrl": "https://nvidianews.nvidia.com/news/aws-and-nvidia-to-deliver-2-million-additional-gpus-and-next-generation-infrastructure-for-agentic-and-physical-ai",
+      "publishedAt": "2026-08-26",
+      "layerIds": [1, 3, 5],
+      "industries": ["AI 算力", "云计算", "数据中心网络", "Physical AI"],
+      "beneficiaries": {
+        "industries": ["GPU 云服务", "AI 服务器与网络", "高带宽内存", "机器人仿真与仓储自动化"],
+        "companies": ["Amazon Web Services", "NVIDIA", "Amazon Robotics"],
+        "stocks": [
+          {
+            "code": "usNVDA",
+            "name": "NVIDIA",
+            "reason": "新增 GPU、Vera CPU、网络与软件栈合作强化其在 AI 工厂全栈基础设施中的供给位置"
+          },
+          {
+            "code": "usAMZN",
+            "name": "Amazon",
+            "reason": "AWS 扩充 NVIDIA 加速计算供给并结合 Trainium，有助于提升其面向大模型、Agent 和 Physical AI 工作负载的云平台吸引力"
+          },
+          {
+            "code": "usMU",
+            "name": "美光",
+            "reason": "公告提到 NVHBM 与高带宽内存协作方向，AI 集群扩容在逻辑上会提高高端存储供应链需求敏感度"
+          }
+        ]
+      }
+    },
+    {
+      "id": "salesforce-anthropic-claudeforce-2026-08",
+      "title": "Salesforce 与 Anthropic 推出 Claudeforce，把 CRM 工作流接入 Claude",
+      "summary": "Salesforce 与 Anthropic 扩大合作并发布 Claudeforce，首个产品 Salesforce in Claude 是带有 37 个预置销售技能的插件，允许销售人员在 Claude 中查询、更新并处理 Salesforce 的实时客户与管线数据。报道称该产品面向部分试点客户开放，计划 2026 年 9 月进入开放 beta，并强调权限和业务规则仍由 Salesforce 侧治理。该事件覆盖模型与算法、平台工具和应用层，说明基础模型厂商与 SaaS 系统正在通过 MCP、权限继承和技能化工作流形成新的企业软件入口。",
+      "sourceUrl": "https://www.cnbc.com/2026/08/26/salesforce-anthropic-partnership-claudeforce.html",
+      "publishedAt": "2026-08-26",
+      "layerIds": [2, 3, 4],
+      "industries": ["企业软件", "CRM", "AI Agent", "MCP"],
+      "beneficiaries": {
+        "industries": ["Agentic CRM", "企业数据连接器", "销售自动化", "AI 安全与权限治理"],
+        "companies": ["Salesforce", "Anthropic", "Slack"],
+        "stocks": [
+          {
+            "code": "usCRM",
+            "name": "Salesforce",
+            "reason": "Claudeforce 将 Salesforce 数据、工作流和治理暴露给 Claude，有助于其在 AI 原生企业软件入口中保持系统记录价值"
+          },
+          {
+            "code": "usMSFT",
+            "name": "Microsoft",
+            "reason": "CRM 与协作软件的 Agent 化会影响企业办公和销售自动化平台竞争格局，微软 Copilot 生态在逻辑上同属对比标的"
+          }
+        ]
+      }
+    },
+    {
+      "id": "waystar-altitudeai-revenue-cycle-agents-2026-08",
+      "title": "Waystar 推出 AltitudeAI Agent，推进医疗收入周期自动化",
+      "summary": "Waystar 发布新的 AltitudeAI agentic 能力，面向医疗收入周期管理提供自主索赔重提交、自然语言绩效分析、临床文档建议和患者财务引导。公司称这些能力建立在其支付平台、付款方连接和覆盖大量交易的数据基础之上，并将在年度客户会议上展示。该事件对应应用与解决方案层，并涉及平台层的行业数据与工作流编排，体现医疗支付软件从洞察工具转向可执行的行业 Agent。",
+      "sourceUrl": "https://www.prnewswire.com/news-releases/waystar-launches-new-agentic-solutions-transforming-ai-into-action-across-the-revenue-cycle-302860733.html",
+      "publishedAt": "2026-08-26",
+      "layerIds": [4, 3],
+      "industries": ["医疗 IT", "收入周期管理", "AI Agent", "企业软件"],
+      "beneficiaries": {
+        "industries": ["医疗支付软件", "临床文档自动化", "患者金融体验", "垂直 SaaS"],
+        "companies": ["Waystar", "Google Cloud"],
+        "stocks": [
+          {
+            "code": "usWAY",
+            "name": "Waystar",
+            "reason": "AltitudeAI Agent 直接嵌入其收入周期管理平台，可能提升医疗支付软件客户对自动化工作流的需求敏感度"
+          },
+          {
+            "code": "usGOOGL",
+            "name": "Alphabet",
+            "reason": "Waystar 过往与 Google Cloud 在医疗收入周期 AI 上合作，行业 Agent 落地会带动云与数据平台在医疗场景中的使用需求"
+          }
+        ]
+      }
+    },
+    {
+      "id": "handshakes-due-diligence-agent-2026-08",
+      "title": "Handshakes 发布企业尽调 AI Agent，面向东南亚合规调查流程",
+      "summary": "新加坡企业情报与监管数据公司 Handshakes 发布测试版 Handshakes Agent，可自动执行尽职调查、风险筛查、供应商入驻和利益冲突检查。公告称该 Agent 基于公司登记、资本市场、制裁与 PEP 名单、法院诉讼记录以及自有 RED 数据库，并使用 LLM 与 MCP 连接器处理复杂的跨境股权和关系网络。该事件对应应用层的金融合规落地和平台层的数据连接/治理能力，说明行业专有数据正在成为 Agent 可执行流程的核心输入。",
+      "sourceUrl": "https://www.prnewswire.com/apac/news-releases/handshakes-launches-ai-agent-to-transform-corporate-due-diligence-and-investigation-302859460.html",
+      "publishedAt": "2026-08-26",
+      "layerIds": [4, 3],
+      "industries": ["金融科技", "合规科技", "企业情报", "MCP"],
+      "beneficiaries": {
+        "industries": ["尽调与 KYC 数据服务", "金融犯罪风险筛查", "企业知识图谱", "合规自动化"],
+        "companies": ["Handshakes"],
+        "stocks": [
+          {
+            "code": "usPLTR",
+            "name": "Palantir",
+            "reason": "Handshakes 的监管数据与关系图谱 Agent 验证了合规调查中对结构化数据融合和可审计决策软件的需求"
+          }
+        ]
+      }
+    }
+  ]
+}
