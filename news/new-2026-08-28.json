@@ -1,0 +1,140 @@
+{
+  "date": "2026-08-28",
+  "items": [
+    {
+      "id": "sk-hynix-indiana-hbm-packaging-2026-08",
+      "title": "SK hynix 在印第安纳开建美国首个 HBM 先进封装基地",
+      "summary": "SK hynix 8 月 27 日宣布在美国印第安纳州西拉法叶举行 AI 内存先进封装工厂奠基仪式，总投资预计超过 40 亿美元。该基地计划 2028 年 10 月开放洁净室，并在 2029 年下半年启动下一代 HBM 量产，韩国生产的晶圆将在美国完成先进封装和测试。事件对应算力与基础设施层，反映 HBM 供应链正在从单纯扩产转向本地化封装、客户协同和地缘安全。",
+      "sourceUrl": "https://www.prnewswire.com/news-releases/sk-hynix-holds-groundbreaking-ceremony-for-hbm-production-base-in-indiana-beginning-a-new-future-for-us-korea-ai-302862032.html",
+      "publishedAt": "2026-08-27",
+      "layerIds": [1],
+      "industries": ["HBM", "先进封装", "AI 内存", "半导体供应链"],
+      "beneficiaries": {
+        "industries": ["HBM 先进封装", "半导体材料设备", "AI 服务器内存"],
+        "companies": ["SK hynix", "Purdue University", "Micron Technology"],
+        "stocks": [
+          {
+            "code": "usMU",
+            "name": "美光科技",
+            "reason": "同属 HBM 与 AI 内存扩产链，行业资本开支和本地化封装投入提升其产业链关注度"
+          }
+        ]
+      }
+    },
+    {
+      "id": "lam-research-oregon-ai-chip-lab-2026-08",
+      "title": "Lam Research 开建俄勒冈新实验室，推进 AI 芯片工艺研发",
+      "summary": "Lam Research 8 月 26 日宣布在俄勒冈州 Tualatin 园区开建 12 万平方英尺新研发实验室，这是其未来五年超过 30 亿美元全球实验室网络扩张计划的首个里程碑。新设施预计把当地洁净室实验空间扩大 50% 以上，支持沉积、刻蚀、材料科学和硬件验证等先进制程环节。事件对应算力层，说明 AI 芯片迭代压力正向半导体设备和工艺协同平台传导。",
+      "sourceUrl": "https://www.prnewswire.com/news-releases/lam-research-breaks-ground-on-new-oregon-lab-to-accelerate-ai-era-semiconductor-research--development-locally-globally-302860979.html",
+      "publishedAt": "2026-08-26",
+      "layerIds": [1],
+      "industries": ["半导体设备", "AI 芯片", "先进制程", "研发实验室"],
+      "beneficiaries": {
+        "industries": ["晶圆制造设备", "先进制程研发", "AI 芯片工艺验证"],
+        "companies": ["Lam Research", "Intel", "Micron Technology"],
+        "stocks": [
+          {
+            "code": "usLRCX",
+            "name": "Lam Research",
+            "reason": "新实验室扩充沉积和刻蚀工艺验证能力，可能增强其服务 AI 芯片客户的研发协同能力"
+          },
+          {
+            "code": "usINTC",
+            "name": "英特尔",
+            "reason": "Intel Foundry 参与奠基活动，先进工艺客户协同有助于其代工生态建设"
+          }
+        ]
+      }
+    },
+    {
+      "id": "nvidia-jetson-orin-nano2-edge-ai-2026-08",
+      "title": "NVIDIA 发布 Jetson Orin Nano 2，面向入门级机器人与边缘 AI",
+      "summary": "NVIDIA 8 月 25 日发布 Jetson Orin Nano 2 机器人计算机，面向机器人、配送与巡检无人机、视觉 AI 系统等边缘场景。官方称该模块具备 78 TOPS AI 算力、8GB 内存和 8 核 Arm CPU，在同等外形下推理性能为上一代的 2 倍，并在 15W 模式下以更低功耗达到相同性能。事件横跨算力层与终端生态层，显示小模型和视觉语言模型正在推动物理 AI 终端的低功耗部署。",
+      "sourceUrl": "https://nvidianews.nvidia.com/news/nvidia-announces-jetson-orin-nano-2-robotics-computer-to-redefine-entry-level-edge-ai",
+      "publishedAt": "2026-08-25",
+      "layerIds": [1, 5],
+      "industries": ["边缘 AI", "机器人", "无人机", "视觉 AI"],
+      "beneficiaries": {
+        "industries": ["机器人控制器", "边缘推理芯片", "智能终端供应链"],
+        "companies": ["NVIDIA", "Cognex", "Doosan Bobcat", "Matic", "Wing"],
+        "stocks": [
+          {
+            "code": "usNVDA",
+            "name": "英伟达",
+            "reason": "Jetson 产品线把数据中心 AI 软件栈延伸到机器人与边缘推理硬件"
+          },
+          {
+            "code": "usGOOGL",
+            "name": "Alphabet",
+            "reason": "旗下 Wing 计划评估 Jetson Orin Nano 2，边缘 AI 模块升级可能提升无人机感知与推理能力"
+          }
+        ]
+      }
+    },
+    {
+      "id": "harness-agent-ready-code-repo-2026-08",
+      "title": "Harness 推出 Agent-Ready 代码仓库与 AI Code Review",
+      "summary": "Harness 8 月 27 日发布 Agent-Ready Harness Code Repository 和 AI Code Review，面向采用 AI 编码 Agent 的软件团队。新能力把源码仓库、代码评审、MCP/CLI 访问、RBAC 与 OPA 策略纳入同一交付链路，以应对 Agent 生成大量提交和拉取请求后的治理压力。事件对应平台与工具层，说明 AI 编码从生成代码环节扩展到代码托管、评审和发布治理基础设施。",
+      "sourceUrl": "https://www.prnewswire.com/news-releases/harness-launches-code-repository-with-ai-code-review-for-agent-ready-development-302861964.html",
+      "publishedAt": "2026-08-27",
+      "layerIds": [3],
+      "industries": ["DevOps", "AI 编码", "代码托管", "软件交付平台"],
+      "beneficiaries": {
+        "industries": ["AI 软件交付", "代码审查自动化", "MLOps/DevOps 平台"],
+        "companies": ["Harness"],
+        "stocks": [
+          {
+            "code": "usMSFT",
+            "name": "微软",
+            "reason": "AI 编码规模化将提升企业对代码托管、权限和交付治理平台的整体需求，GitHub 所在生态对该趋势敏感"
+          }
+        ]
+      }
+    },
+    {
+      "id": "sandboxaq-switch-agent-chat-2026-08",
+      "title": "SandboxAQ 开源 Switch，让 AI Agent 进入团队聊天协作",
+      "summary": "SandboxAQ 8 月 26 日宣布开源 Switch，用于把不同框架构建的 AI Agent 接入 Slack、Microsoft Teams、Discord 等团队协作渠道。Switch 通过 MCP、API 和适配器把人和 Agent 放入共享工作房间，保留任务上下文、历史记录和规则，减少跨工具交接。事件对应平台与工具层及应用层，体现企业 Agent 落地正从单点工具转向协作工作流编排。",
+      "sourceUrl": "https://www.prnewswire.com/news-releases/sandboxaq-open-sources-switch-bring-any-ai-agent-into-any-team-chat-302860604.html",
+      "publishedAt": "2026-08-26",
+      "layerIds": [3, 4],
+      "industries": ["Agent 编排", "企业协作", "MCP", "开源工具"],
+      "beneficiaries": {
+        "industries": ["企业协作软件", "Agent 开发框架", "工作流自动化"],
+        "companies": ["SandboxAQ", "Microsoft", "Salesforce", "Discord"],
+        "stocks": [
+          {
+            "code": "usMSFT",
+            "name": "微软",
+            "reason": "Teams 是 Switch 支持的主要协作入口之一，企业 Agent 协作需求与其办公生态相关"
+          },
+          {
+            "code": "usCRM",
+            "name": "Salesforce",
+            "reason": "Slack 作为支持渠道之一，可能受益于 Agent 进入企业协作场景带来的工作流粘性"
+          }
+        ]
+      }
+    },
+    {
+      "id": "dnb-perplexity-commercial-graph-mcp-2026-08",
+      "title": "Dun & Bradstreet 将商业图谱接入 Perplexity Computer",
+      "summary": "Dun & Bradstreet 8 月 26 日宣布与 Perplexity 合作，通过 MCP Server 把 D&B Commercial Graph 和风险分析连接器接入 Perplexity Computer。该商业图谱覆盖超过 6.5 亿个全球商业实体，并面向 KYC/KYB、风险、金融、采购和销售流程提供可审计的企业身份与关系数据。事件对应平台层与行业应用层，说明高质量企业数据正在成为 Agent 工作流规模化的关键输入。",
+      "sourceUrl": "https://www.prnewswire.com/news-releases/dun--bradstreet-brings-the-db-commercial-graph-to-perplexity-powering-research-risk-and-growth-workflows-302860350.html",
+      "publishedAt": "2026-08-26",
+      "layerIds": [3, 4],
+      "industries": ["企业数据", "MCP", "风险管理", "金融科技"],
+      "beneficiaries": {
+        "industries": ["企业知识图谱", "KYC/KYB 自动化", "金融风控 Agent"],
+        "companies": ["Dun & Bradstreet", "Perplexity"],
+        "stocks": [
+          {
+            "code": "usPLTR",
+            "name": "Palantir",
+            "reason": "企业可审计数据与 Agent 工作流结合，逻辑上提升市场对数据平台和治理型 AI 应用的关注"
+          }
+        ]
+      }
+    }
+  ]
+}
