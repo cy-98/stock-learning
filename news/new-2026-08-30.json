@@ -1,0 +1,90 @@
+{
+  "date": "2026-08-30",
+  "items": [
+    {
+      "id": "huawei-codearts-agent-apac-ga-2026-08",
+      "title": "华为云 CodeArts Agent 在亚太进入商业可用，AI 编程从补全走向多 Agent 协作",
+      "summary": "华为云 8 月 28 日宣布 CodeArts Agent 在亚太市场正式商用，Basic 与 Professional 版本面向国际用户从公测转为 GA。该工具结合大代码模型、IDE 能力和自主开发工作流，提供代码生成、软件工程问答、自动单元测试以及覆盖需求、架构、编码、测试和代码审查的 Agent Team。事件对应平台与工具层，说明云厂商正把 AI 开发工具从单点辅助扩展为可治理的软件交付平台。",
+      "sourceUrl": "https://www.prnewswire.com/apac/news-releases/huawei-cloud-codearts-agent-now-available-across-asia-pacific-bringing-agentic-ai-to-software-development-302862642.html",
+      "publishedAt": "2026-08-28",
+      "layerIds": [3],
+      "industries": ["云计算", "AI 编程", "企业软件平台"],
+      "beneficiaries": {
+        "industries": ["AI 开发工具", "企业软件平台", "云服务"],
+        "companies": ["Huawei Cloud", "华为", "企业软件平台厂商"],
+        "stocks": [
+          {
+            "code": "sh600588",
+            "name": "用友网络",
+            "reason": "企业软件平台若引入可治理的开发与业务 Agent，国内 ERP 与平台软件厂商在产品形态上逻辑敏感"
+          }
+        ]
+      }
+    },
+    {
+      "id": "accuknox-agentz-governed-agents-2026-08",
+      "title": "AccuKnox 推出 AgentZ，把 Agent 执行环境、权限和审计纳入统一治理",
+      "summary": "AccuKnox 8 月 27 日发布 AgentZ，定位为帮助企业构建、运行和治理 AI Agent 的平台。AgentZ 将 Agent、工作流、工具、权限、沙箱、凭证注入和审计日志放在同一控制面，并支持 SaaS、本地和隔离网络部署以及自带大模型。事件对应平台与工具层，核心变化是企业从试点 Agent 转向生产环境时，对隔离、追踪、权限和成本控制提出更强要求。",
+      "sourceUrl": "https://markets.businessinsider.com/news/currencies/accuknox-launches-agentz-to-help-enterprises-build-run-and-govern-ai-agents-at-scale-1034824793",
+      "publishedAt": "2026-08-27",
+      "layerIds": [3],
+      "industries": ["AI 安全", "Agent 治理", "MLOps"],
+      "beneficiaries": {
+        "industries": ["云安全", "AI 治理平台", "企业软件基础设施"],
+        "companies": ["AccuKnox", "云安全厂商", "MLOps 平台厂商"],
+        "stocks": [
+          {
+            "code": "sh300454",
+            "name": "深信服",
+            "reason": "企业 Agent 生产化会放大沙箱隔离、访问控制和审计需求，国内安全与云基础设施厂商逻辑上敏感"
+          }
+        ]
+      }
+    },
+    {
+      "id": "socure-fravity-riskos-agents-2026-08",
+      "title": "Socure 获增长投资并收购 Fravity，将风控调查 Agent 接入 RiskOS",
+      "summary": "Socure 8 月 27 日宣布获得由 Summit Partners 领投的战略增长投资，公司估值达到 52 亿美元，同时收购 Agentic Operations 平台 Fravity。Fravity 的能力将作为 RiskOS_Agents 接入 Socure 的身份、欺诈和合规决策平台，面向欺诈、风险和合规运营中的调查、证据整理和案件处理。事件对应应用与解决方案层，并与平台层交叉，显示金融风控 AI 正从评分模型延伸到可执行的运营工作流。",
+      "sourceUrl": "https://www.businesswire.com/news/home/20260827232637/en/Socure-Announces-Strategic-Growth-Investment-at-%245.2B-Valuation-and-Acquires-Agentic-Operations-Platform-Fravity",
+      "publishedAt": "2026-08-27",
+      "layerIds": [4, 3],
+      "industries": ["金融科技", "身份验证", "合规自动化"],
+      "beneficiaries": {
+        "industries": ["金融风控软件", "身份验证", "合规运营自动化"],
+        "companies": ["Socure", "Fravity", "金融科技平台厂商"],
+        "stocks": [
+          {
+            "code": "sh600570",
+            "name": "恒生电子",
+            "reason": "金融机构核心系统与合规流程入口对风控、反欺诈和运营自动化需求具备映射关系"
+          }
+        ]
+      }
+    },
+    {
+      "id": "perceptron-isaac05-open-robotics-model-2026-08",
+      "title": "Perceptron AI 发布 Isaac 0.5 开放权重具身模型，机器人训练数据效率成为焦点",
+      "summary": "Perceptron AI 8 月 28 日发布 Isaac 0.5，这是一个 360 亿参数开放权重具身基础模型，统一视频理解、具身推理和机器人控制。公开资料称该模型使用一百万小时通用视频、十万小时机器人经验和三万亿多模态 token 训练，可用于工业自动化、物流、仓储和安防等场景的视觉理解、任务进度判断和动作生成。事件对应模型与算法层、终端与生态层，反映具身智能竞争正从硬件演示进入模型、数据和部署工具链验证阶段。",
+      "sourceUrl": "https://www.businesswire.com/news/home/20260828535061/en/Perceptron-AI-Launches-Isaac-0.5-a-Frontier-Open-Weight-Robotics-Model",
+      "publishedAt": "2026-08-28",
+      "layerIds": [2, 5],
+      "industries": ["具身智能", "机器人", "开源模型"],
+      "beneficiaries": {
+        "industries": ["机器人软件", "工业自动化", "机器人执行器与传感器"],
+        "companies": ["Perceptron AI", "Hugging Face", "工业机器人厂商"],
+        "stocks": [
+          {
+            "code": "sh300748",
+            "name": "金力永磁",
+            "reason": "若开放具身模型降低机器人应用开发门槛，机器人执行器与高性能磁材链条可能受益于后续需求验证"
+          },
+          {
+            "code": "sh688017",
+            "name": "绿的谐波",
+            "reason": "具身模型走向工业部署会提高机器人关节与减速器等核心执行部件的景气敏感度"
+          }
+        ]
+      }
+    }
+  ]
+}
