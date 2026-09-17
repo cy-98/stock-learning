@@ -1,0 +1,125 @@
+{
+  "date": "2026-09-17",
+  "items": [
+    {
+      "id": "astera-leo-memory-controller-2026-09",
+      "title": "Astera Labs 扩展 Leo 内存控制器，面向 Agentic AI 推理的 KV Cache 瓶颈",
+      "summary": "Astera Labs 9 月 15 日发布 Leo X-Series 与 Leo 2 E/P-Series 三类内存连接方案，覆盖 GPU 侧 fabric-attached memory、CPU 侧 CXL 3.2 扩展以及池化共享内存。公司称 Leo X-Series 可服务长上下文、KV Cache 密集型 Agentic AI 推理，并在内部测试中改善首 token 延迟与吞吐。该事件对应算力与基础设施层，反映 AI 推理从单纯 GPU 数量扩张转向内存层级、CXL 与机架级资源利用率优化。",
+      "sourceUrl": "https://www.asteralabs.com/news/astera-labs-bolsters-leo-smart-memory-controller-family-for-agentic-ai-and-general-purpose-cloud-workloads/",
+      "publishedAt": "2026-09-15",
+      "layerIds": [1],
+      "industries": ["AI 算力", "内存互连", "CXL", "推理基础设施"],
+      "beneficiaries": {
+        "industries": ["内存控制器", "AI 服务器互连", "CXL 生态"],
+        "companies": ["Astera Labs", "AMD", "Arm", "Intel", "Samsung Electronics"],
+        "stocks": [
+          {
+            "code": "usALAB",
+            "name": "Astera Labs",
+            "reason": "Leo 系列扩展到 GPU 侧与机架级内存池化，直接对应 AI 推理基础设施的内存瓶颈需求"
+          },
+          {
+            "code": "usAMD",
+            "name": "AMD",
+            "reason": "公告中 AMD 表示与 Astera Labs 围绕 CXL 协作，EPYC 平台可受益于更灵活的内存扩展生态"
+          }
+        ]
+      }
+    },
+    {
+      "id": "aws-salesforce-agent-stack-2026-09",
+      "title": "AWS 与 Salesforce 扩大合作，把 CRM 数据、Bedrock 模型选择和智能体接入日常工具",
+      "summary": "AWS 与 Salesforce 9 月 15 日宣布扩大合作，新增 Amazon Quick 直接访问 Salesforce 业务上下文、AWS Frontier Agents 进入 Slack、Agentforce 接入 Amazon Bedrock 模型选择，以及 Data 360 与 AWS 数据服务的 Zero Copy 扩展。公告还提到 Agentforce Voice 与 Amazon Connect Customer 将通过 Agent2Agent 支持实时双向语音互通。该事件对应平台与工具层，也延伸到企业应用层，重点在于让智能体在既有 CRM、协作与云数据治理体系内落地。",
+      "sourceUrl": "https://press.aboutamazon.com/aws/2026/9/aws-and-salesforce-put-crm-data-ai-agents-and-model-choice-into-the-tools-teams-use-every-day",
+      "publishedAt": "2026-09-15",
+      "layerIds": [3, 4],
+      "industries": ["云计算", "企业软件", "AI 智能体", "数据治理"],
+      "beneficiaries": {
+        "industries": ["企业 AI 平台", "CRM", "云数据互通", "协作软件"],
+        "companies": ["Amazon Web Services", "Salesforce", "Slack", "Informatica"],
+        "stocks": [
+          {
+            "code": "usAMZN",
+            "name": "Amazon",
+            "reason": "Bedrock、Amazon Quick 与 Connect 被嵌入 Salesforce 场景，提升 AWS 在企业智能体工作流中的入口价值"
+          },
+          {
+            "code": "usCRM",
+            "name": "Salesforce",
+            "reason": "Agentforce 获得 Bedrock 模型选择、AWS 数据源与 Slack 协作入口，强化其企业应用智能体平台属性"
+          }
+        ]
+      }
+    },
+    {
+      "id": "openai-sponsored-agents-ads-2026-09",
+      "title": "OpenAI 测试 ChatGPT Sponsored Agents，并扩展广告创建与分析工具",
+      "summary": "路透社 9 月 16 日报道，OpenAI 推出面向广告主的 AI 工具，并开始测试让用户在点击 ChatGPT 广告后与企业赞助智能体对话的 Sponsored Agents。报道称这些智能体会被清晰标注，并与 ChatGPT 的独立回复和用户原始对话分开；ChatGPT Ads Manager 插件则支持用自然语言创建、更新和分析广告活动。该事件对应平台与应用层，显示大模型入口正从问答工具延伸到营销工作流和电商/CRM 集成。",
+      "sourceUrl": "https://www.reuters.com/business/media-telecom/openai-tests-advertiser-sponsored-agents-expands-ai-tools-chatgpt-ads-2026-09-16/",
+      "publishedAt": "2026-09-16",
+      "layerIds": [3, 4],
+      "industries": ["生成式 AI", "数字广告", "CRM", "电商 SaaS"],
+      "beneficiaries": {
+        "industries": ["AI 广告平台", "营销自动化", "电商工具"],
+        "companies": ["OpenAI", "HubSpot", "Shopify"],
+        "stocks": [
+          {
+            "code": "usHUBS",
+            "name": "HubSpot",
+            "reason": "报道称 HubSpot 是 OpenAI 的首个 CRM 合作伙伴，可把 ChatGPT Ads 接入客户管理与线索跟进流程"
+          },
+          {
+            "code": "usSHOP",
+            "name": "Shopify",
+            "reason": "Shopify 作为首个电商合作伙伴接入 ChatGPT Ads，商家可基于商品目录创建和跟踪广告活动"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ubtech-humanoid-factory-2026-09",
+      "title": "优必选柳州人形机器人智能工厂投产，年产能目标 1 万台",
+      "summary": "Seoul Economic Daily 9 月 16 日报道，优必选位于广西柳州的人形机器人智能制造工厂已开始运营，规划年产能超过 1 万台，主要生产 Walker S 与 Cruzr 系列。报道描述该工厂使用人形机器人、AGV、无人叉车、协作机器人和自动化检测流程，形成“机器人造机器人”的生产模式。该事件对应终端与生态层，也与模型/数据层相关，体现具身智能从样机展示进入规模化制造与真实场景数据闭环阶段。",
+      "sourceUrl": "https://en.sedaily.com/international/2026/09/16/chinas-ubtech-opens-plant-making-a-humanoid-robot-every-10",
+      "publishedAt": "2026-09-16",
+      "layerIds": [5, 2],
+      "industries": ["人形机器人", "智能制造", "具身智能", "机器人训练数据"],
+      "beneficiaries": {
+        "industries": ["机器人整机", "机器人零部件", "自动化产线", "具身智能数据"],
+        "companies": ["UBTECH Robotics", "Siemens Digital Industries Software", "Beijing Innovation Center for Humanoid Robotics"],
+        "stocks": [
+          {
+            "code": "hk9880",
+            "name": "优必选",
+            "reason": "新工厂扩大 Walker S 与 Cruzr 系列产能，强化其在人形机器人量产和工业应用场景中的供给能力"
+          },
+          {
+            "code": "sz000970",
+            "name": "中科三环",
+            "reason": "人形机器人量产若带动高性能电机需求，稀土永磁材料环节对终端放量逻辑更敏感"
+          }
+        ]
+      }
+    },
+    {
+      "id": "greaves-rare-earth-free-motor-2026-09",
+      "title": "Greaves Electric Mobility 宣布稀土无关 EV 电机架构专利，指向电驱供应链去风险",
+      "summary": "ETAuto 9 月 16 日报道，Greaves Electric Mobility 称已开发并申请专利的稀土无关电动车电机架构，在扭矩、功率和效率上可与传统稀土电机相当，并具备更高热稳定性。公司将该技术定位为降低关键矿产供应链依赖、提升本土电动出行生态韧性的方案。该事件对应终端与生态层，对稀土永磁主线不是简单利好，而是提示下游 OEM 正在通过材料替代和电机设计降低稀土暴露。",
+      "sourceUrl": "https://auto.economictimes.indiatimes.com/news/auto-technology/greaves-electric-mobility-patents-rare-earth-free-motor-architecture/134286258",
+      "publishedAt": "2026-09-16",
+      "layerIds": [5],
+      "industries": ["电动车", "电驱系统", "稀土替代", "供应链安全"],
+      "beneficiaries": {
+        "industries": ["稀土替代电机设计", "本土电驱研发", "电动车供应链去风险"],
+        "companies": ["Greaves Electric Mobility", "Greaves Cotton", "Chara Technologies"],
+        "stocks": [
+          {
+            "code": "sz300748",
+            "name": "金力永磁",
+            "reason": "该事件体现下游正评估稀土替代路线，永磁材料龙头的长期需求与替代风险需同时跟踪"
+          }
+        ]
+      }
+    }
+  ]
+}
