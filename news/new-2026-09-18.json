@@ -1,0 +1,120 @@
+{
+  "date": "2026-09-18",
+  "items": [
+    {
+      "id": "sk-hynix-hbf-pim-salt-kv-2026-09",
+      "title": "SK hynix 展示 HBF、PIM 与 SALT-KV，瞄准 Agentic AI 推理内存瓶颈",
+      "summary": "SK hynix 在 AI Infra Summit 2026 展示下一代 AI 内存组合，包括介于 HBM 与 SSD 之间的 HBF、高效减少数据搬移的 PIM/AiMX，以及面向大模型 KV Cache 分层管理的 SALT-KV。公司称，长上下文与低延迟 Agent 服务让传统 GPU-HBM 架构难以覆盖所有推理场景。该事件对应算力与基础设施层，重点反映 AI 推理从单纯算力扩张转向内存、存储与软件协同优化。",
+      "sourceUrl": "https://news.skhynix.com/en/ai-infra-summit-2026/",
+      "publishedAt": "2026-09-17",
+      "layerIds": [1],
+      "industries": ["HBM", "AI 存储", "推理算力", "KV Cache"],
+      "beneficiaries": {
+        "industries": ["高带宽内存", "企业级 SSD", "AI 服务器内存子系统"],
+        "companies": ["SK hynix", "Micron", "NVIDIA"],
+        "stocks": [
+          {
+            "code": "usMU",
+            "name": "美光科技",
+            "reason": "AI 推理内存层级扩展会提升市场对 HBM、DRAM 与企业级 SSD 组合方案的关注"
+          },
+          {
+            "code": "usNVDA",
+            "name": "英伟达",
+            "reason": "GPU 推理集群需要更高效的 KV Cache 与内存层级来释放算力利用率"
+          }
+        ]
+      }
+    },
+    {
+      "id": "huawei-oceanstor-m900-kv-cache-2026-09",
+      "title": "华为发布 OceanStor M900 Context Memory Storage，主攻超长上下文推理 KV Cache",
+      "summary": "华为在 HUAWEI CONNECT 2026 发布 OceanStor M900 Context Memory Storage，面向超大规模 AI 推理数据中心提供共享上下文记忆空间。公告称，该方案通过 UnifiedBus 与原生 KV 语义，把 SuperPoD 的 KV Cache 从片上内存、DRAM 扩展到 SSD 分层存储，用于缓解超长上下文和多轮推理的容量与成本瓶颈。该事件对应算力层与平台工具层，体现推理基础设施从计算中心向算、网、存协同演进。",
+      "sourceUrl": "https://www.prnewswire.com/news-releases/huawei-introduces-oceanstor-m900-context-memory-storage-to-accelerate-ai-inference-in-hyperscale-data-centers-302882127.html",
+      "publishedAt": "2026-09-17",
+      "layerIds": [1, 3],
+      "industries": ["AI 数据中心", "存储系统", "推理基础设施"],
+      "beneficiaries": {
+        "industries": ["企业级 SSD", "数据中心网络", "AI 存储软件"],
+        "companies": ["Huawei", "NAND Flash 供应商", "AI 数据中心集成商"],
+        "stocks": [
+          {
+            "code": "usMU",
+            "name": "美光科技",
+            "reason": "上下文记忆存储把推理扩展到多层存储介质，逻辑上增加对高性能 NAND 与内存方案的需求敏感度"
+          }
+        ]
+      }
+    },
+    {
+      "id": "aws-agentic-grid-planning-2026-09",
+      "title": "AWS 推出 Agentic Grid Planning，用 AI Agent 加速电网并网研究",
+      "summary": "AWS 发布 Agentic Grid Planning on AWS，向合格公用事业公司和电网运营商提供 AWS 托管的 AI Agent，用于协调并网研究中的数据准备、仿真执行和工作流记录。AWS 称 Duke Energy 工程师已参与协作，相关 Agent 会调用现有物理仿真软件、网格模型、脚本和工程标准，最终工程判断仍由人员负责。该事件对应平台工具层与应用解决方案层，说明 Agent 技术正在进入能源与电力规划等高专业门槛工作流。",
+      "sourceUrl": "https://press.aboutamazon.com/aws/2026/9/aws-launches-agentic-grid-planning-program-to-accelerate-interconnection-studies",
+      "publishedAt": "2026-09-17",
+      "layerIds": [3, 4],
+      "industries": ["云计算", "能源 AI", "AI Agent", "电网规划"],
+      "beneficiaries": {
+        "industries": ["云 AI 平台", "电力工程软件", "能源行业数字化"],
+        "companies": ["AWS", "Duke Energy"],
+        "stocks": [
+          {
+            "code": "usAMZN",
+            "name": "亚马逊",
+            "reason": "AWS 将托管 Agent 与专业服务嵌入能源行业工作流，可能提升云平台在垂直行业 AI 项目中的渗透"
+          },
+          {
+            "code": "usDUK",
+            "name": "Duke Energy",
+            "reason": "作为协作公用事业公司，电网规划自动化有助于提高并网研究和负荷规划流程效率"
+          }
+        ]
+      }
+    },
+    {
+      "id": "openai-astra-law-2026-09",
+      "title": "OpenAI 推出法律行业平台 Astra for Law，法律 AI 竞争继续升温",
+      "summary": "路透社报道称，OpenAI 发布面向法律行业的 Astra for Law，结合 GPT-6 Astra、美国判例法规索引和法律分析写作指令，帮助律所和法律软件商开展研究、起草建议并构建应用。报道提到 Harvey、Legora 以及 Relativity、Clio、Intapp、Thomson Reuters 等法律科技与内容提供商会进入相关生态，首批律所通过专项计划获得访问。该事件对应模型层与应用层，反映基础模型公司正把能力封装到高价值垂直行业工作流。",
+      "sourceUrl": "https://www.reuters.com/legal/litigation/openai-launches-legal-focused-ai-platform-escalating-race-law-firm-users-2026-09-17/",
+      "publishedAt": "2026-09-17",
+      "layerIds": [2, 4],
+      "industries": ["大模型", "法律科技", "垂直 AI 应用"],
+      "beneficiaries": {
+        "industries": ["法律 AI 平台", "专业数据服务", "企业知识库"],
+        "companies": ["OpenAI", "Harvey", "Legora", "Thomson Reuters", "Relativity", "Clio", "Intapp"],
+        "stocks": [
+          {
+            "code": "usMSFT",
+            "name": "微软",
+            "reason": "OpenAI 法律垂直产品扩张可能带动其模型生态和企业云服务需求"
+          },
+          {
+            "code": "usTRI",
+            "name": "Thomson Reuters",
+            "reason": "法律内容与专业工作流提供商在法律 AI 平台竞争中具备数据和集成入口"
+          }
+        ]
+      }
+    },
+    {
+      "id": "d-robotics-series-c-physical-ai-2026-09",
+      "title": "D-Robotics 完成 4 亿美元 C 轮融资，扩展机器人芯片与软件平台",
+      "summary": "D-Robotics 宣布完成 4 亿美元 C 轮融资，资金将用于增强 Sunrise 芯片组合，并建设覆盖机器人开发链的软件平台。公司称 Sunrise S600 已被 20 多家具身智能客户采用，应用范围覆盖人形机器人、工业轮式机器人、消费电子制造、具身基础模型和全模态感知等方向。该事件对应终端生态层与算力层，显示 Physical AI 正从整机展示走向开发平台、芯片和供应链生态竞争。",
+      "sourceUrl": "https://www.prnewswire.com/news-releases/d-robotics-completes-400-million-in-series-c-funding-driving-the-robotics-industry-into-a-boom-in-product-categories-302881297.html",
+      "publishedAt": "2026-09-17",
+      "layerIds": [5, 1],
+      "industries": ["具身智能", "机器人芯片", "Physical AI", "人形机器人"],
+      "beneficiaries": {
+        "industries": ["机器人开发平台", "边缘 AI 芯片", "机器人整机与零部件"],
+        "companies": ["D-Robotics", "UBTECH", "FOURIER", "Astribot", "Booster Robotics"],
+        "stocks": [
+          {
+            "code": "hk9880",
+            "name": "优必选",
+            "reason": "公告披露 UBTECH 已采用 Sunrise S600，机器人算力平台扩张可能支持其具身智能产品迭代"
+          }
+        ]
+      }
+    }
+  ]
+}
