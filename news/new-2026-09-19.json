@@ -1,0 +1,135 @@
+{
+  "date": "2026-09-19",
+  "items": [
+    {
+      "id": "coreweave-vera-rubin-multirack-2026-09",
+      "title": "CoreWeave 上线多机架 NVIDIA Vera Rubin NVL72 集群，强化 Agentic AI 云算力",
+      "summary": "CoreWeave 9 月 16 日宣布在其云平台上线多机架 NVIDIA Vera Rubin NVL72 集群，将数百颗 Rubin GPU 作为一个扩展集群运行。公司同时推出 AI Object Storage 的跨区域写入加速和 Archive 层，以降低多步智能体训练、推理和强化学习任务中的数据等待。该事件对应算力层与平台层，体现 GPU、网络、存储和云调度协同成为下一代 AI 云服务竞争重点。",
+      "sourceUrl": "https://wf.coreweave.com/news/coreweave-brings-up-multi-rack-nvidia-vera-rubin-nvl72-cluster",
+      "publishedAt": "2026-09-16",
+      "layerIds": [1, 3],
+      "industries": ["AI 云计算", "GPU 集群", "AI 存储"],
+      "beneficiaries": {
+        "industries": ["AI 云服务", "高速互连", "AI 原生存储"],
+        "companies": ["CoreWeave", "NVIDIA", "Cohere"],
+        "stocks": [
+          {
+            "code": "usCRWV",
+            "name": "CoreWeave",
+            "reason": "多机架 Rubin 集群提升其面向大模型与智能体客户的高端算力供给能力"
+          },
+          {
+            "code": "usNVDA",
+            "name": "英伟达",
+            "reason": "Vera Rubin NVL72 在云端扩展验证有助于其下一代 AI 基础设施生态落地"
+          }
+        ]
+      }
+    },
+    {
+      "id": "huawei-agentic-cloud-agentarts-2026-09",
+      "title": "华为云发布 Agentic Cloud 进展，AgentArts 已服务 100 多家企业",
+      "summary": "华为云 9 月 18 日在 HUAWEI CONNECT 2026 上宣布最新 AI Cluster Service、Agentic MaaS 与企业级智能体平台 AgentArts 的进展。公告称 AgentArts 与开源版 openJiuwen 已开放 5000 多个通用 MCP 资产和 1000 多个行业 MCP 资产，并服务 100 多家企业。事件对应算力层、平台层和应用层，重点在国产算力底座、智能体开发治理与行业 AI 落地的组合推进。",
+      "sourceUrl": "https://www.huawei.com/en/news/2026/9/hc-agentic-infra-industry-ai",
+      "publishedAt": "2026-09-18",
+      "layerIds": [1, 3, 4],
+      "industries": ["云计算", "企业智能体", "MCP"],
+      "beneficiaries": {
+        "industries": ["国产 AI 云", "企业智能体平台", "办公与行业应用"],
+        "companies": ["Huawei Cloud", "Kingsoft Office", "Chinasoft International", "iSoftStone"],
+        "stocks": [
+          {
+            "code": "sh688111",
+            "name": "金山办公",
+            "reason": "公告提到金山办公基于华为云智能体平台构建办公垂直智能体，应用层生态协同更受关注"
+          }
+        ]
+      }
+    },
+    {
+      "id": "wso2-agent-manager-ga-2026-09",
+      "title": "WSO2 Agent Manager 正式可用，企业智能体治理转向独立控制平面",
+      "summary": "InfoQ 9 月 18 日报道，WSO2 Agent Manager 已正式可用，定位为跨模型、跨框架和跨部署环境的开源智能体治理平台。GA 版本强调智能体身份、MCP 交互治理、Kubernetes 原生沙箱运行时、OpenTelemetry 追踪和持续评估。该事件对应平台与工具层，说明企业 AI Agent 从试验进入生产后，身份、权限、审计和运行隔离正在成为基础设施需求。",
+      "sourceUrl": "https://www.infoq.com/news/2026/09/ws02-agent-manager/",
+      "publishedAt": "2026-09-18",
+      "layerIds": [3],
+      "industries": ["AI 安全", "Agent 治理", "MLOps"],
+      "beneficiaries": {
+        "industries": ["智能体控制平面", "身份与访问管理", "可观测性"],
+        "companies": ["WSO2", "Amazon Web Services", "Microsoft Azure"],
+        "stocks": [
+          {
+            "code": "usMSFT",
+            "name": "微软",
+            "reason": "企业智能体治理需求提升，云平台与身份安全生态对类似控制平面能力更敏感"
+          },
+          {
+            "code": "usAMZN",
+            "name": "亚马逊",
+            "reason": "多云与混合部署的 Agent 治理需求增加，利好具备云与企业安全入口的平台厂商"
+          }
+        ]
+      }
+    },
+    {
+      "id": "komodor-agentic-operations-platform-2026-09",
+      "title": "Komodor 推出 Agentic Operations Platform，把 SRE 与成本优化流程智能体化",
+      "summary": "Database Trends and Applications 9 月 18 日报道，Komodor 发布 Agentic Operations Platform，面向 SRE、DevOps 和平台团队提供可直接运行的智能体运维工作流。平台包含 AI SRE、软件运维和成本优化等预置流程，并允许团队导入脚本、runbook 或第三方框架智能体，在统一上下文、记忆、权限和审计下运行。该事件对应平台层，显示 Agent 正从业务前台应用扩展到 IT 运维和云成本治理。",
+      "sourceUrl": "https://www.dbta.com/Editorial/News-Flashes/Komodor-Releases-Agentic-Operations-Platform-176646.aspx",
+      "publishedAt": "2026-09-18",
+      "layerIds": [3, 4],
+      "industries": ["AIOps", "DevOps", "云成本治理"],
+      "beneficiaries": {
+        "industries": ["AI SRE", "可观测性", "云原生运维平台"],
+        "companies": ["Komodor", "Datadog", "ServiceNow"],
+        "stocks": [
+          {
+            "code": "usNOW",
+            "name": "ServiceNow",
+            "reason": "IT 服务管理与运维流程智能体化提升企业工作流平台的 AI 升级敏感度"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ant-international-finai-stack-2026-09",
+      "title": "蚂蚁国际发布全栈 AI 原生金融解决方案，覆盖支付、账户、外汇与资金管理",
+      "summary": "蚂蚁国际 9 月 18 日宣布推出面向全球商家的全栈 AI 原生金融解决方案，覆盖支付、账户、外汇、资金管理和增长运营等近 100 个产品。方案基于 Antom 3-in-1 Transformer 支付基础模型、FalconTST 外汇与流动性预测模型，并引入 Account for Agent、Agentic Mobile Protocol 与 AgentSafePay 等面向智能体交易的信任机制。该事件对应应用层与平台层，体现金融 AI 从助手走向端到端业务流程和合规交易基础设施。",
+      "sourceUrl": "https://en.prnasia.com/releases/apac/ant-international-launches-industry-s-first-full-stack-ai-native-solutions-for-payment-account-fx-treasury-and-growth-operations-for-global-businesses-548466.shtml",
+      "publishedAt": "2026-09-18",
+      "layerIds": [4, 3],
+      "industries": ["金融科技", "支付", "Agentic Commerce"],
+      "beneficiaries": {
+        "industries": ["跨境支付", "金融 AI 应用", "智能体交易安全"],
+        "companies": ["Ant International", "Alipay+", "WorldFirst", "Antom"],
+        "stocks": [
+          {
+            "code": "hk9988",
+            "name": "阿里巴巴-W",
+            "reason": "蚂蚁生态的支付与商家服务 AI 化可能增强阿里系跨境商家服务协同，但影响属于间接映射"
+          }
+        ]
+      }
+    },
+    {
+      "id": "toyota-factory-robotics-plan-2026-09",
+      "title": "Reuters：Toyota 估算 2028 年起工厂自动化或每年投入 1 万亿日元",
+      "summary": "Reuters 9 月 18 日报道，Toyota 向投资者估算，2028 年起推进工厂现代化、自动化与机器人部署可能每年需要 1 万亿日元，并提到集团和主要供应商约需 40 万台机器人。报道称该数字包括现有设备替换、新增安装以及人形和非人形机器人，Toyota 尚未确认投资一定执行或持续年限。事件对应终端与生态层，显示汽车制造环节正把机器人作为应对成本、老化产线和劳动力约束的长期选项。",
+      "sourceUrl": "https://www.reuters.com/business/autos-transportation/toyota-estimates-factory-automation-could-cost-64-billion-per-year-2028-2026-09-18/",
+      "publishedAt": "2026-09-18",
+      "layerIds": [5],
+      "industries": ["工业机器人", "智能制造", "汽车供应链"],
+      "beneficiaries": {
+        "industries": ["工业机器人", "自动化设备", "机器人零部件"],
+        "companies": ["Toyota Motor", "Hyundai Motor", "Boston Dynamics"],
+        "stocks": [
+          {
+            "code": "usTM",
+            "name": "Toyota Motor",
+            "reason": "若工厂自动化投入落地，Toyota 自身制造效率与机器人应用能力将成为市场跟踪重点"
+          }
+        ]
+      }
+    }
+  ]
+}
