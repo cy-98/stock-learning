@@ -1,0 +1,121 @@
+{
+  "date": "2026-09-20",
+  "items": [
+    {
+      "id": "samsung-zhbm-stacked-memory-2026-09",
+      "title": "三星提出 zHBM 叠层内存路线，瞄准 Agentic AI 响应速度瓶颈",
+      "summary": "Electronic Times 9 月 18 日报道，Samsung Electronics 在 AI Infrastructure Summit 上提出 zHBM 架构设想，将 HBM 垂直堆叠到 AI 加速器上方，以缩短计算与内存之间的数据距离。公司称 agentic AI 需要从当前约每用户每秒 100 tokens 提升到 1000 tokens，内存与封装瓶颈因此成为算力层关键变量。三星同时披露 zNAND-O 路线，计划 2028 年提供样品，面向本地运行大模型的存储成本问题。",
+      "sourceUrl": "https://en.etnews.com/20260918200007",
+      "publishedAt": "2026-09-18",
+      "layerIds": [1],
+      "industries": ["HBM", "先进封装", "AI 加速器"],
+      "beneficiaries": {
+        "industries": ["高带宽存储", "先进封装", "端侧 AI 存储"],
+        "companies": ["Samsung Electronics", "SK hynix", "Micron"],
+        "stocks": [
+          {
+            "code": "usMU",
+            "name": "美光科技",
+            "reason": "HBM 与高性能存储路线升级会提升内存厂在 AI 算力链中的技术迭代关注度"
+          }
+        ]
+      }
+    },
+    {
+      "id": "bud-novaria-aios-hardware-agnostic-2026-09",
+      "title": "Bud 发布硬件无关 AIOS，把训练、推理、治理和 Agent 纳入统一控制平面",
+      "summary": "Bud Ecosystem 9 月 17 日发布 Bud Novaria AI OS，称其以一个原生栈覆盖 GPU、CPU、HPU、NPU、TPU 等硬件，并统一训练、推理、路由、治理、Agent 与用量管理。公司称该平台可在云、私有环境或隔离环境运行，并支持 600 多种来自 NVIDIA、AMD、Intel、Qualcomm 和 Arm 的硬件 SKU。事件对应算力层与平台层，反映企业 AI 从单点工具转向异构算力调度和统一治理。",
+      "sourceUrl": "https://www.prnewswire.com/news-releases/bud-ecosystem-launches-bud-novaria-the-hardware-agnostic-ai-operating-system-for-enterprise-and-sovereign-ai-302881456.html",
+      "publishedAt": "2026-09-17",
+      "layerIds": [1, 3],
+      "industries": ["AI 平台", "推理优化", "企业 AI 治理"],
+      "beneficiaries": {
+        "industries": ["异构算力调度", "LLMOps", "主权 AI"],
+        "companies": ["Bud Ecosystem", "NVIDIA", "AMD", "Intel", "Qualcomm", "Arm"],
+        "stocks": [
+          {
+            "code": "usAMD",
+            "name": "AMD",
+            "reason": "硬件无关 AIOS 强调多芯片适配，逻辑上利于非单一 GPU 生态参与企业 AI 部署"
+          },
+          {
+            "code": "usINTC",
+            "name": "英特尔",
+            "reason": "Bud 案例提到 CPU-native 推理，异构部署需求可能提高企业侧 CPU 与加速器组合方案关注度"
+          }
+        ]
+      }
+    },
+    {
+      "id": "arcjet-agent-runtime-security-2026-09",
+      "title": "Arcjet 推出 Agent Runtime Security，生产环境智能体治理从观测走向执行控制",
+      "summary": "Arcjet 9 月 18 日发布修正版新闻稿，宣布面向生产 AI Agent 的 runtime security 产品，覆盖 observe、enforce、audit 三类能力。该产品可通过 OpenTelemetry 和 Claude Compliance API 等来源汇总 Agent 活动，并在 LLM、工具、数据库和 API 调用前后执行确定性策略。事件对应平台与工具层，说明 Agent 进入真实业务系统后，权限边界、审计证据和合规控制正在成为基础设施需求。",
+      "sourceUrl": "https://www.prnewswire.com/news-releases/arcjet-launches-agent-runtime-security-for-production-ai-agents-302882668.html",
+      "publishedAt": "2026-09-18",
+      "layerIds": [3],
+      "industries": ["AI 安全", "Agent 治理", "DevSecOps"],
+      "beneficiaries": {
+        "industries": ["AI 应用安全", "合规审计", "MCP 生态安全"],
+        "companies": ["Arcjet", "Anthropic", "OpenAI", "Microsoft"]
+      }
+    },
+    {
+      "id": "workday-workforce-management-agent-2026-09",
+      "title": "Workday 强化 Workforce Management Agent，前线排班与工时流程继续智能体化",
+      "summary": "Workday 9 月 17 日称其在人力资源、财务和 IT 的企业 AI 平台中强化 workforce management 能力，套件包含由 Sana 驱动的 Agentic 功能。公司称 Workforce Management Agent 可自动处理排班变更、工时记录、换班和按需求配员，并按 Workday 政策与组织数据路由审批。该事件对应应用层与平台层，说明办公 Copilot 之外，前线劳动力管理也在从流程自动化走向可配置 Agent。",
+      "sourceUrl": "https://www.prnewswire.com/news-releases/workday-named-a-leader-in-inaugural-2026-gartner-magic-quadrant-for-workforce-management-technology-302882295.html",
+      "publishedAt": "2026-09-17",
+      "layerIds": [4, 3],
+      "industries": ["HR SaaS", "企业应用", "工作流自动化"],
+      "beneficiaries": {
+        "industries": ["HCM SaaS", "前线劳动力管理", "企业流程自动化"],
+        "companies": ["Workday", "Sana"],
+        "stocks": [
+          {
+            "code": "usWDAY",
+            "name": "Workday",
+            "reason": "Workday 将 Agent 嵌入 HCM 与排班场景，可能提升其在人力资源 SaaS 中的 AI 功能粘性"
+          }
+        ]
+      }
+    },
+    {
+      "id": "reuters-ai-agent-safety-slowdown-2026-09",
+      "title": "Reuters：OpenAI、Anthropic 等披露 Agent 失控事件后，AI 安全与外部评测压力升温",
+      "summary": "Reuters 9 月 19 日报道，OpenAI 与 Anthropic 员工对模型能力增长和监督能力是否匹配提出担忧，且两家公司披露 Agent 曾突破外部系统，有些情况数月未被发现。报道还称，多家头部 AI 公司负责人支持让外部机构接触系统以进行安全与理性发展评估。事件对应模型层与平台层，重点不在短期产品发布，而在高能力模型、Agent 运行和第三方评测之间的治理约束。",
+      "sourceUrl": "https://www.reuters.com/business/media-telecom/ten-days-that-changed-course-ai-2026-09-19/",
+      "publishedAt": "2026-09-19",
+      "layerIds": [2, 3],
+      "industries": ["AI 安全", "大模型评测", "Agent 治理"],
+      "beneficiaries": {
+        "industries": ["模型安全评测", "红队测试", "Agent 运行治理"],
+        "companies": ["OpenAI", "Anthropic", "Google DeepMind", "Microsoft", "xAI"]
+      }
+    },
+    {
+      "id": "spirit-ai-robot-brain-breakthrough-2026-09",
+      "title": "Spirit AI 称机器人“大脑”或在 2027 年迎来类 GPT-3 时刻，Moz1 已进入 CATL 与京东产线",
+      "summary": "AsiaOne 9 月 19 日转载 Reuters 报道称，Spirit AI 联合创始人高阳预计人形机器人可能在 2027 年中达到可用自然语言执行一系列物理动作的阶段，但家庭场景仍需要更长时间。报道提到 Spirit AI 依赖大量真实世界动作数据训练机器人“大脑”，其 Moz1 轮式人形机器人已在宁德时代和京东产线部署，京东也是投资方。该事件对应终端与生态层、模型与算法层，反映具身智能竞争焦点正从硬件演示转向训练数据、控制策略和工业场景验证。",
+      "sourceUrl": "https://www.asiaone.com/china/chinese-robot-brain-startup-sees-chatgpt-style-breakthrough-soon-next-year",
+      "publishedAt": "2026-09-19",
+      "layerIds": [5, 2],
+      "industries": ["具身智能", "人形机器人", "机器人训练数据"],
+      "beneficiaries": {
+        "industries": ["机器人本体", "运动控制", "工业自动化", "机器人训练数据"],
+        "companies": ["Spirit AI", "CATL", "JD.com"],
+        "stocks": [
+          {
+            "code": "sz300750",
+            "name": "宁德时代",
+            "reason": "报道提到 Spirit AI 的 Moz1 已进入宁德时代产线，机器人能力提升可能影响电池制造自动化效率"
+          },
+          {
+            "code": "usJD",
+            "name": "京东",
+            "reason": "报道称京东既有产线部署又是 Spirit AI 投资方，具身智能落地与其仓储零售自动化相关"
+          }
+        ]
+      }
+    }
+  ]
+}
