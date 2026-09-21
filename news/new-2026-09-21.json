@@ -1,0 +1,100 @@
+{
+  "date": "2026-09-21",
+  "items": [
+    {
+      "id": "samsung-hbm4-yield-volume-2026-09",
+      "title": "三星 HBM4 良率升至约 80%，转向高端内存扩产",
+      "summary": "Seoul Economic Daily 报道称，三星 HBM4 良率已从量产早期低于 60% 升至约 80%，公司正把策略从追赶技术转向扩大高价值 HBM 供给。报道还提到三星计划明年把 HBM 月度晶圆投入从约 18 万片提升至约 25 万片，并推进 HBM4E 客户验证。事件对应算力与基础设施层，反映 AI 加速器对高带宽内存的供需约束仍是服务器链条核心变量。",
+      "sourceUrl": "https://en.sedaily.com/finance/2026/09/20/samsung-hits-80-percent-yield-on-hbm4-shifts-focus-to-volume",
+      "publishedAt": "2026-09-20",
+      "layerIds": [1],
+      "industries": ["HBM", "半导体存储", "AI 服务器"],
+      "beneficiaries": {
+        "industries": ["高带宽内存", "先进封装", "AI 加速器供应链"],
+        "companies": ["Samsung Electronics", "SK hynix", "Micron", "NVIDIA"],
+        "stocks": [
+          {
+            "code": "usMU",
+            "name": "美光",
+            "reason": "HBM4 与服务器 DRAM 供给紧张强化高端存储定价逻辑，美光同属 AI 内存核心供应商"
+          },
+          {
+            "code": "usNVDA",
+            "name": "英伟达",
+            "reason": "AI 加速器平台放量依赖稳定 HBM 供给，更多合格产能有助于供应链交付"
+          }
+        ]
+      }
+    },
+    {
+      "id": "microsoft-agent365-uae-governance-2026-09",
+      "title": "微软将 Agent 365 扩展至 UAE 数据中心，强化企业智能体治理",
+      "summary": "微软宣布 Agent 365 将从 10 月起在 UAE 数据中心向客户提供，面向组织内部智能体的发现、治理、身份、数据保护与安全监控。该产品把代理注册表、生命周期管理、访问策略、审计轨迹以及 Entra、Purview、Defender 等安全能力扩展到 AI agents。事件主要对应平台与工具层，也服务办公与行业应用进入规模化部署后的治理需求。",
+      "sourceUrl": "https://news.microsoft.com/source/emea/2026/09/agent-365-availability-in-the-uae/",
+      "publishedAt": "2026-09-20",
+      "layerIds": [3, 4],
+      "industries": ["AI 安全", "企业软件", "Agent 治理"],
+      "beneficiaries": {
+        "industries": ["企业 AI 控制平面", "身份与数据安全", "办公 Copilot"],
+        "companies": ["Microsoft"],
+        "stocks": [
+          {
+            "code": "usMSFT",
+            "name": "微软",
+            "reason": "Agent 365 将智能体治理嵌入 Microsoft 365 与安全栈，增强企业级 Copilot/Agent 平台黏性"
+          }
+        ]
+      }
+    },
+    {
+      "id": "pingan-globalcare-ai-healthcare-2026-09",
+      "title": "平安好医生推出 GlobalCare，用 AI 翻译连接跨境就医服务",
+      "summary": "平安好医生在深圳科创展推出 Ping An GlobalCare，面向在华外籍人士就医中的语言、流程与服务碎片化问题。产品使用 AI 实时双向语音与文本翻译引擎，覆盖 19 种语言，并接入线上线下一体化医疗服务闭环，目前已在深圳开放试用。事件对应应用与解决方案层，体现医疗健康垂直场景从通用问答走向服务导航与线下履约。",
+      "sourceUrl": "https://www.prnewswire.com/news-releases/ping-an-good-doctor-launches--ping-an-globalcare-ai-powered-multilingual-services-break-down-healthcare-barriers-for-expats-in-china-302883947.html",
+      "publishedAt": "2026-09-20",
+      "layerIds": [4],
+      "industries": ["医疗 AI", "跨境医疗", "实时翻译"],
+      "beneficiaries": {
+        "industries": ["互联网医疗", "医疗服务导航", "多语言 AI 应用"],
+        "companies": ["Ping An Healthcare and Technology", "中国平安"],
+        "stocks": [
+          {
+            "code": "hk1833",
+            "name": "平安好医生",
+            "reason": "GlobalCare 将 AI 翻译嵌入医疗服务流程，可能提升跨境用户服务转化与平台使用场景"
+          },
+          {
+            "code": "sh601318",
+            "name": "中国平安",
+            "reason": "平安生态内医疗与保险服务协同，对综合金融科技能力形成应用层验证"
+          }
+        ]
+      }
+    },
+    {
+      "id": "faraday-eai-robot-world-2026-09",
+      "title": "Faraday Future 发布 EAI Robot World 2.0，九款具身 AI 设备开售",
+      "summary": "Faraday Future 在 919 FF EAI Robotics 发布会上推出四类行业生产力解决方案以及九款 EAI 设备配置，覆盖全尺寸人形机器人、教育小型人形机器人和轮足/四足机器人。公司称 EAI Robot World 2.0 由 EAI Brain、开发平台、设备、行业解决方案与数据工厂组成，产品已开放销售和交付。事件对应终端与生态层，反映具身智能企业正尝试以多形态硬件和场景方案推动商业化验证。",
+      "sourceUrl": "https://investors.ff.com/faraday-future-launches-four-industry-productivity-solutions-nine-new-eai-devices-at-its-919-event-building-its-one-brain-multi-form-multi-capability-ff-eai-robot-world-2-0-all-new-futurist-now/",
+      "publishedAt": "2026-09-19",
+      "layerIds": [5],
+      "industries": ["具身智能", "人形机器人", "机器人教育"],
+      "beneficiaries": {
+        "industries": ["机器人整机", "执行器与传感器", "机器人教育与巡检服务"],
+        "companies": ["Faraday Future", "NVIDIA"],
+        "stocks": [
+          {
+            "code": "usFFAI",
+            "name": "Faraday Future",
+            "reason": "新产品线和行业解决方案直接构成其具身 AI 机器人商业化尝试，但交付与资金风险仍需跟踪"
+          },
+          {
+            "code": "sz300748",
+            "name": "金力永磁",
+            "reason": "多形态机器人放量若进入订单验证期，逻辑上会提高高性能永磁材料与执行器链条敏感度"
+          }
+        ]
+      }
+    }
+  ]
+}
