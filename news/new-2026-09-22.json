@@ -1,0 +1,64 @@
+{
+  "date": "2026-09-22",
+  "items": [
+    {
+      "id": "microsoft-india-ai-cloud-region-2026-09",
+      "title": "微软印度新 Hyderabad 云区域上线，定位 Asia 与 Global South AI-ready 枢纽",
+      "summary": "Microsoft 9 月 21 日宣布 India South Central 云区域已在 Hyderabad 上线，并被定位为服务亚洲与 Global South 的战略枢纽。公告称该区域采用三可用区架构，印度各云区域已具备 AI-capable hardware、高效冷却和承载高级 AI 工作负载的平台基础，Adani Group、Bajaj Finserv、HDFC Bank 与 PB Pay 等客户已签约。该事件对应算力与基础设施层、平台与工具层，重点在主权合规、区域云算力和企业 AI 生产化能力。",
+      "sourceUrl": "https://news.microsoft.com/source/asia/2026/09/21/ai-ambition-into-action-microsoft-brings-ai-ready-capabilities-across-its-india-cloud-infrastructure-establishes-india-south-central-region-as-a-strategic-hub-for-asia-and-global-south/",
+      "publishedAt": "2026-09-21",
+      "layerIds": [1, 3],
+      "industries": ["云计算", "AI 基础设施", "数据中心", "主权云"],
+      "beneficiaries": {
+        "industries": ["AI-ready 数据中心", "公有云 AI 平台", "区域数据驻留与合规云服务"],
+        "companies": ["Microsoft", "Adani Group", "Bajaj Finserv", "HDFC Bank", "PB Pay"],
+        "stocks": [
+          {
+            "code": "usMSFT",
+            "name": "微软",
+            "reason": "新区域把 Azure 与 AI 服务能力部署到印度本地，有助于微软承接金融、关键基础设施和主权合规类 AI 工作负载"
+          }
+        ]
+      }
+    },
+    {
+      "id": "bigid-agentiq-data-ai-security-2026-09",
+      "title": "BigID 推出 AgentIQ，把数据与 AI 安全合规流程改造成可执行智能体",
+      "summary": "BigID 9 月 21 日发布 AgentIQ，称客户可通过 BigID、Claude、Copilot、GPT 或 Gemini 等入口，用提示词或智能体界面执行数据安全、隐私与 AI 合规任务。公告列出的能力包括发现敏感数据暴露、调查访问违规、评估风险、撤销访问、隔离数据、执行保留策略并记录每一步操作。该事件主要对应平台与工具层，也延伸到行业应用层，反映 AI 安全与数据治理从可视化监控走向自动化处置。",
+      "sourceUrl": "https://www.prnewswire.com/news-releases/bigid-launches-agentiq-the-agentic-automation-layer-for-data--ai-security-and-compliance-302884730.html",
+      "publishedAt": "2026-09-21",
+      "layerIds": [3, 4],
+      "industries": ["数据安全", "AI 治理", "合规自动化", "企业智能体"],
+      "beneficiaries": {
+        "industries": ["数据安全态势管理", "隐私合规自动化", "企业 MCP 与智能体治理"],
+        "companies": ["BigID", "Microsoft", "Google", "OpenAI", "Anthropic"]
+      }
+    },
+    {
+      "id": "hi3d-agent-3d-creation-2026-09",
+      "title": "Hi3D 发布面向 3D 创作的一体化 AI Agent",
+      "summary": "Hi3D 9 月 21 日宣布推出 Hi3D Agent，将对话式智能、工具调用和其自研 Hi3D V3.0 高保真 3D 模型结合，覆盖从 3D 生成到下游应用的创作流程。公告称 Hi3D V3.0 具备 2048³ voxel-level resolution，并面向游戏、动画、设计可视化、3D 打印等行业降低复杂工具使用门槛。该事件对应模型与算法层、应用与解决方案层，体现多模态生成能力继续向专业内容生产工作流渗透。",
+      "sourceUrl": "https://www.prnewswire.com/news-releases/hi3d-launches-the-worlds-first-all-in-one-ai-agent-for-3d-creation-with-a-creator-rewards-initiative-302884943.html",
+      "publishedAt": "2026-09-21",
+      "layerIds": [2, 4],
+      "industries": ["多模态生成", "AI 3D", "内容创作", "游戏与动画"],
+      "beneficiaries": {
+        "industries": ["AI 3D 资产生成", "游戏与动画制作工具", "3D 打印与工业设计软件"],
+        "companies": ["Hi3D", "Math Magic"]
+      }
+    },
+    {
+      "id": "haus-architect-marketing-agent-2026-09",
+      "title": "Haus 将 Architect 接入 Causal MMM，主打可解释的营销决策 Agent",
+      "summary": "Haus 9 月 21 日宣布其 Architect agentic decision system 已接入 Causal MMM，用于把增量营销测量结果转化为下一步预算、促销和季节性优化建议。公告称 Architect 会为建议提供证据、按置信度度量建议规模，并在执行后评估变化，形成自我改进的决策系统；现有使用 Haus Causal MMM 的客户可获得该功能。该事件对应应用与解决方案层、平台与工具层，显示垂直 SaaS 正把 AI 从报表洞察推进到可执行的业务决策流。",
+      "sourceUrl": "https://www.prnewswire.com/news-releases/haus-architect-turns-causal-mmm-into-an-agentic-marketing-decision-system-302883817.html",
+      "publishedAt": "2026-09-21",
+      "layerIds": [4, 3],
+      "industries": ["营销科技", "垂直 SaaS", "Agentic AI", "数据分析"],
+      "beneficiaries": {
+        "industries": ["营销测量与预算优化", "企业决策智能", "可解释行业 AI 应用"],
+        "companies": ["Haus", "SharkNinja", "Intuit", "Wayfair"]
+      }
+    }
+  ]
+}
