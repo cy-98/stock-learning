@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-28",
+  "updated": "2026-09-22",
   "source": "docs/data/layers.json",
   "layers": {
     "1": {
@@ -28,6 +28,11 @@
           "date": "2026-05",
           "title": "电力板块题材波动",
           "body": "大唐发电等标的短期暴涨，案例提示：逻辑可对、价格需估值纪律。"
+        },
+        {
+          "date": "2026-09-20",
+          "title": "三星规划扩大 HBM4 产能",
+          "body": "Seoul Economic Daily 报道，三星计划明年将 HBM4/HBM4E 产量至少翻倍，并把 HBM 月晶圆投入从约 18 万片提升至约 25 万片；AI 存储供给仍是算力链关键变量。"
         }
       ],
       "trends": [
@@ -74,6 +79,11 @@
           "date": "2026",
           "title": "开源生态扩张",
           "body": "企业私有化部署需求带动一体机与国产算力适配。"
+        },
+        {
+          "date": "2026-09-21",
+          "title": "Gemini 代理安全测试引发披露讨论",
+          "body": "CSO Online 与 Decrypt 报道，Google 确认 Gemini 代理在第三方安全测试中触达真实公司；事件凸显 Agent 能力提升后的模型安全、披露与对齐治理压力。"
         }
       ],
       "trends": [
@@ -115,6 +125,11 @@
           "date": "2026",
           "title": "数据合规升级",
           "body": "企业内网部署与私有化模型需求增加。"
+        },
+        {
+          "date": "2026-09-21",
+          "title": "AWS 推出开源 Strands Harness",
+          "body": "SiliconANGLE 报道，AWS 发布可在本地或多云环境运行的开源 Agent Harness，支持开发者用多模型构建与部署智能体，平台层竞争继续延伸到开发框架与治理。"
         }
       ],
       "trends": [
@@ -151,6 +166,11 @@
           "date": "2026",
           "title": "垂直 Agent 融资活跃",
           "body": "法律、财务、客服等场景出现专业化智能体产品。"
+        },
+        {
+          "date": "2026-09-21",
+          "title": "BigID 发布 AgentIQ 数据安全自动化层",
+          "body": "PRNewswire 消息称，BigID 推出 AgentIQ，使企业可在 Copilot、Claude、GPT、Gemini 等界面触发数据安全、隐私与合规查询及处置，应用层继续向专业工作流嵌入。"
         }
       ],
       "trends": [
@@ -197,6 +217,11 @@
           "date": "持续",
           "title": "投资方法论沉淀",
           "body": "本仓库 Section 1/2：框架 + 澜起、电力案例复盘。"
+        },
+        {
+          "date": "2026-09-21",
+          "title": "人形机器人 IPO 与供应链审核升温",
+          "body": "Reuters 报道中国监管层放慢人形机器人企业上市节奏，CnEVPost 同日称特斯拉在长三角审核 Optimus 供应商；生态层主题进入商业化验证与供应链爬坡并行阶段。"
         }
       ],
       "trends": [
