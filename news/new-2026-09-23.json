@@ -1,0 +1,110 @@
+{
+  "date": "2026-09-23",
+  "items": [
+    {
+      "id": "alibaba-zhenwu-v900-fullstack-ai-2026-09",
+      "title": "阿里发布全栈 AI 路线图，真武 V900 计划 2027 年一季度量产",
+      "summary": "阿里巴巴 9 月 22 日在云栖大会公布从芯片、云基础设施、模型到 Agent 的全栈 AI 路线图。平头哥发布真武 V900 训推一体处理器，称其具备 216GB 显存、1200GB/s 片间带宽，并计划在 2027 年一季度量产；阿里同时披露 Qwen 4 正在训练，后续模型规模规划至 5–10 万亿参数。该事件横跨算力与基础设施层、模型与算法层以及平台与工具层，核心看点是自研芯片、云算力和 Agent Native Cloud 的一体化推进。",
+      "sourceUrl": "https://www.alibabacloud.com/en/press-room/alibaba-unveils-roadmap-on-full-stack-ai-strategy?_p_lc=1",
+      "publishedAt": "2026-09-22",
+      "layerIds": [1, 2, 3],
+      "industries": ["AI 芯片", "云计算", "大模型", "Agent 平台"],
+      "beneficiaries": {
+        "industries": ["国产 AI 加速器", "AI 云基础设施", "大模型训练与推理平台", "企业 Agent 部署与安全"],
+        "companies": ["Alibaba Cloud", "T-Head", "Qwen"],
+        "stocks": [
+          {
+            "code": "hk9988",
+            "name": "阿里巴巴-W",
+            "reason": "阿里将自研芯片、Qwen 模型和 Agent Native Cloud 打包为全栈路线图，可能增强其云业务承接 AI 工作负载的能力"
+          },
+          {
+            "code": "usBABA",
+            "name": "Alibaba",
+            "reason": "同一全栈 AI 路线图对应阿里美股 ADR，逻辑上与 AI 云收入和自研算力供给弹性相关"
+          }
+        ]
+      }
+    },
+    {
+      "id": "guc-2nm-hbm4e-ip-2026-09",
+      "title": "创意电子发布 2nm 16Gbps HBM4E IP，已被客户 AI ASIC 采用",
+      "summary": "创意电子（GUC）9 月 22 日宣布，其 HBM4E PHY 与 Controller IP 已完成 design-ready，并已被客户 AI ASIC 采用。该 IP 基于台积电 N2P 制程，已在 CoWoS-L 先进封装上 tape out，目标是在所有签核条件下达到 16Gbps 数据传输速率。事件主要对应算力与基础设施层，反映下一代 AI ASIC 对 HBM4E、先进封装和 3D SoIC 互连 IP 的需求继续前移。",
+      "sourceUrl": "https://www.guc-asic.com/en/news/all/PR_20260922",
+      "publishedAt": "2026-09-22",
+      "layerIds": [1],
+      "industries": ["HBM", "先进封装", "AI ASIC", "半导体 IP"],
+      "beneficiaries": {
+        "industries": ["HBM4E 接口 IP", "CoWoS 先进封装", "AI ASIC 设计服务", "3D SoIC 互连"],
+        "companies": ["Global Unichip", "TSMC", "proteanTecs"],
+        "stocks": [
+          {
+            "code": "usTSM",
+            "name": "台积电",
+            "reason": "GUC 的 HBM4E IP 基于台积电 N2P 与 CoWoS-L 技术，可能提升先进制程和先进封装生态对 AI ASIC 客户的吸引力"
+          }
+        ]
+      }
+    },
+    {
+      "id": "teradata-tera-agentic-coworker-2026-09",
+      "title": "Teradata 推出 Tera Context Engine 与 Tera Harness，面向企业数据 Agent",
+      "summary": "Teradata 9 月 22 日宣布把 Tera 升级为面向企业数据工作的 agentic coworker，并新增 Tera Context Engine、Tera Harness 和 Agent Skills。公告称 Context Engine 提供跨数据环境的治理型业务上下文，Harness 负责把技能、工具、数据和模型路由到多步骤执行流程，三项能力计划在 2026 年四季度可用。该事件主要对应平台与工具层，也延伸到数据分析、数据工程和数据库运维等应用场景。",
+      "sourceUrl": "https://www.teradata.com/press-releases/2026/tera-an-agentic-coworker",
+      "publishedAt": "2026-09-22",
+      "layerIds": [3, 4],
+      "industries": ["企业数据平台", "Agent 编排", "数据治理", "MLOps"],
+      "beneficiaries": {
+        "industries": ["企业数据治理", "Agent Harness", "数据工程自动化", "AI FinOps"],
+        "companies": ["Teradata"],
+        "stocks": [
+          {
+            "code": "usTDC",
+            "name": "Teradata",
+            "reason": "Tera 把治理上下文、执行 Harness 和数据技能封装到企业数据平台中，可能增强 Teradata 在生产级企业 AI 工作负载中的平台黏性"
+          }
+        ]
+      }
+    },
+    {
+      "id": "scale-google-cloud-agent-reference-2026-09",
+      "title": "Scale 与 Google Cloud 发布企业 AI Agent 参考架构",
+      "summary": "Scale AI 9 月 22 日在 Google Cloud Doha Summit 期间发布与 Google Cloud 的联合参考架构，用于在 Google Cloud 上运行 Scale GenAI Portfolio 并集成 Gemini Enterprise。该架构将 Agent 构建、评估、编排、部署、人审与追踪能力接入 GKE、GPU/TPU、身份治理、审计和数据保护等云服务，并通过 A2A、MCP 与 Agent Registry 支持互操作。事件对应平台与工具层，重点在企业把 Agent 从试点推进到可治理生产部署。",
+      "sourceUrl": "https://scale.com/blog/deploying-enterprise-ai-agents-with-scale-and-google-cloud",
+      "publishedAt": "2026-09-22",
+      "layerIds": [3],
+      "industries": ["云计算", "Agent 平台", "企业 AI 治理", "模型评估"],
+      "beneficiaries": {
+        "industries": ["企业 Agent 部署", "Agent 评估与人审", "云原生 AI 基础设施", "MCP 与 A2A 互操作"],
+        "companies": ["Scale AI", "Google Cloud"],
+        "stocks": [
+          {
+            "code": "usGOOGL",
+            "name": "Alphabet",
+            "reason": "参考架构把 Scale 的 Agent 工具链部署到 Google Cloud 与 Gemini Enterprise 中，可能提升 Google Cloud 对企业 Agent 工作负载的承接能力"
+          }
+        ]
+      }
+    },
+    {
+      "id": "okta-ai-agents-governance-2026-09",
+      "title": "Okta 扩展 AI Agent 身份治理，覆盖发现、连接和 Kill Switch",
+      "summary": "Okta 9 月 22 日发布多项 Okta for AI Agents 能力，目标是提升企业对 AI Agent 生命周期的可见性、运行时安全和持续治理。新能力包括端点侧 Shadow AI Agent Discovery、Agent-to-Agent Connections、Configuration Designer、Resource Access Certifications，以及计划扩展到 Agent Gateway 的 Kill Switch。该事件主要对应平台与工具层中的 AI 安全与身份治理，反映企业 Agent 落地后对权限、审计和可逆处置能力的需求上升。",
+      "sourceUrl": "https://www.okta.com/newsroom/press-releases/ai-innovations-oktane-2026/",
+      "publishedAt": "2026-09-22",
+      "layerIds": [3],
+      "industries": ["AI 安全", "身份与访问管理", "Agent 治理", "企业软件"],
+      "beneficiaries": {
+        "industries": ["Agent 身份治理", "运行时访问控制", "企业 IAM", "AI 安全审计"],
+        "companies": ["Okta"],
+        "stocks": [
+          {
+            "code": "usOKTA",
+            "name": "Okta",
+            "reason": "Okta 将身份、连接治理和 Kill Switch 扩展到 AI Agent，可能提升其 IAM 平台在企业 Agent 安全预算中的相关性"
+          }
+        ]
+      }
+    }
+  ]
+}
