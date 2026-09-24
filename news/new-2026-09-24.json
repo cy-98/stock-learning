@@ -1,0 +1,83 @@
+{
+  "date": "2026-09-24",
+  "items": [
+    {
+      "id": "synopsys-tsmc-agentic-eda-2026-09",
+      "title": "Synopsys 与台积电扩展 AI 芯片设计协作，覆盖 A14、CoWoS 与 CPO",
+      "summary": "Synopsys 宣布与台积电扩展面向下一代 AI、HPC 与先进半导体系统的合作，内容包括 TSMC A14 认证 EDA 流程、面向模拟/数字/多 Die 设计的 agentic AI 工作流、CoWoS 多 Die 供电协同设计以及 COUPE 光电共封装支持。事件主要落在算力与基础设施层，也体现 AI 工具进入芯片设计流程，阶段为生态合作与 IP/流程使能。",
+      "sourceUrl": "https://news.synopsys.com/2026-09-23-Synopsys-and-TSMC-Partner-to-Accelerate-AI-Systems-Innovation-with-Agentic-AI-and-Advanced-Design",
+      "publishedAt": "2026-09-23",
+      "layerIds": [1, 3],
+      "industries": ["EDA", "先进制程", "先进封装", "AI 芯片"],
+      "beneficiaries": {
+        "industries": ["EDA 软件", "晶圆代工", "先进封装", "高速互连 IP"],
+        "companies": ["Synopsys", "TSMC"],
+        "stocks": [
+          {
+            "code": "usSNPS",
+            "name": "Synopsys",
+            "reason": "其 EDA、3DIC 与 IP 组合嵌入台积电先进节点生态，可能受益于 AI/HPC 芯片设计复杂度提升"
+          },
+          {
+            "code": "usTSM",
+            "name": "台积电",
+            "reason": "A14、N2P、CoWoS 与 CPO 生态完善有助于承接高端 AI ASIC 与数据中心芯片需求"
+          }
+        ]
+      }
+    },
+    {
+      "id": "collibra-maestro-guardian-agents-2026-09",
+      "title": "Collibra 发布 Maestro、Live Map 与 Guardian Agents，主攻企业 AI 治理",
+      "summary": "Collibra 发布 Maestro、Live Map 以及带 Agent Contracts 的 Guardian Agents，目标是降低企业在 AI Agent 扩展中面对的幻觉、上下文失真与运行时治理成本。Maestro 让治理团队用无代码方式构建带权限与可信知识源的 Agent，Live Map 为 Agent 提供企业文档关系图，Guardian Agents 则把机器可读规则延伸到运行时监督。该事件对应平台与工具层，反映数据治理从静态合规走向 Agent 编排与持续控制。",
+      "sourceUrl": "https://www.prnewswire.com/news-releases/collibra-launches-new-capabilities-to-reduce-the-hallucination-tax-on-enterprise-ai-302886404.html",
+      "publishedAt": "2026-09-23",
+      "layerIds": [3, 4],
+      "industries": ["数据治理", "AI 安全", "企业软件", "Agent 平台"],
+      "beneficiaries": {
+        "industries": ["AI 治理平台", "数据目录", "企业知识图谱", "AI 安全"],
+        "companies": ["Collibra", "Deasy Labs", "Artificial Intelligence Underwriting Company"]
+      }
+    },
+    {
+      "id": "cisco-agenticops-netops-research-2026-09",
+      "title": "Cisco 与 Omdia 调研显示企业 NetOps 正从 AIOps 转向 AgenticOps",
+      "summary": "Cisco 发布 Omdia 独立调研，覆盖 1000 名 IT 与网络运维负责人，显示 51% 的受访企业已让 agentic AI 在生产中执行动作，84% 预计 12 个月内进入 AI 主导的运营模式。报告同时指出，企业扩展自主网络运维的前提是可解释性、统一可视化、护栏与审计能力。事件对应平台与工具层，并与 AI 工作负载带来的网络流量、运维复杂度上升直接相关。",
+      "sourceUrl": "https://newsroom.cisco.com/c/r/newsroom/en/us/a/y2026/m09/cisco-ai-research-agenticops-scaling-quickly-in-the-enterprise.html",
+      "publishedAt": "2026-09-23",
+      "layerIds": [3, 4],
+      "industries": ["网络运维", "AIOps", "Agentic AI", "可观测性"],
+      "beneficiaries": {
+        "industries": ["网络设备", "IT 运维平台", "可观测性", "AI 安全治理"],
+        "companies": ["Cisco", "Omdia", "Splunk"],
+        "stocks": [
+          {
+            "code": "usCSCO",
+            "name": "Cisco",
+            "reason": "AgenticOps 与统一网络可视化需求提升，逻辑上利好其网络、可观测性与安全产品组合"
+          }
+        ]
+      }
+    },
+    {
+      "id": "bird-agentic-harness-financing-2026-09",
+      "title": "Bird.com 完成 4.5 亿美元融资并推出面向 AI Agent 的通信 Harness",
+      "summary": "Bird.com 宣布完成由 J.P. Morgan 等机构安排的 4.5 亿美元债务融资，并推出 revamped Agentic Harness，让 AI Agent 可通过合规通信基础设施直接发送消息、拨打电话、管理邮件及使用 eSIM。公司称该平台连接多个主流 AI 模型，目标是把 Agent 的推理与计划转化为可执行的真实世界通信动作。事件主要对应平台与工具层和应用层，体现 Agent 经济对通信 API 与合规执行层的需求。",
+      "sourceUrl": "https://www.prnewswire.com/news-releases/birdcom-secures-450m-financing-as-it-launches-communications-infrastructure-for-ai-agents-302887867.html",
+      "publishedAt": "2026-09-23",
+      "layerIds": [3, 4],
+      "industries": ["通信 API", "Agent 工具调用", "企业自动化", "客户触达"],
+      "beneficiaries": {
+        "industries": ["CPaaS", "企业通信", "Agent 执行工具", "合规自动化"],
+        "companies": ["Bird.com", "J.P. Morgan", "Capital One", "Citi"],
+        "stocks": [
+          {
+            "code": "usTWLO",
+            "name": "Twilio",
+            "reason": "Agent 直接调用通信渠道的趋势可能提升市场对 CPaaS 平台 Agent 化能力的关注"
+          }
+        ]
+      }
+    }
+  ]
+}
