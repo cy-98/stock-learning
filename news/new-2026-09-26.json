@@ -1,0 +1,87 @@
+{
+  "date": "2026-09-26",
+  "items": [
+    {
+      "id": "microsoft-copilot-autopilot-2026-09",
+      "title": "Microsoft 发布新版 Copilot，加入 Home、Code 与 Autopilot",
+      "summary": "Microsoft 9 月 25 日宣布重新设计 Copilot，新增 Home、Code 与 Autopilot 三项能力，并把 Office 文档编辑、低代码/自然语言建应用和长时运行 Agent 纳入同一入口。Autopilot 是此前 Scout 的演进版本，定位为带有身份、记忆、计算机和工作区的云端数字队友，可在 Teams、Outlook、频道和文档中按组织权限持续跟进项目。该事件覆盖平台与工具层及办公应用层，显示企业 Copilot 正从问答与生成走向可治理的委托式工作执行。",
+      "sourceUrl": "https://blogs.microsoft.com/blog/2026/09/25/introducing-the-new-copilot-with-home-code-and-autopilot/",
+      "publishedAt": "2026-09-25",
+      "layerIds": [3, 4],
+      "industries": ["办公 AI", "企业 Agent", "低代码", "AI FinOps"],
+      "beneficiaries": {
+        "industries": ["企业办公软件", "Agent 托管运行时", "低代码应用构建", "AI 成本治理"],
+        "companies": ["Microsoft", "GitHub"],
+        "stocks": [
+          {
+            "code": "usMSFT",
+            "name": "Microsoft",
+            "reason": "新版 Copilot 把 Office、Code、Managed Runtime 与 Autopilot 打包到 Microsoft 365 体系内，可能增强其企业 AI 应用和平台黏性"
+          }
+        ]
+      }
+    },
+    {
+      "id": "google-api-gateway-mcp-tools-2026-09",
+      "title": "Google Cloud API Gateway 公测 MCP 工具暴露能力",
+      "summary": "Google Developers Blog 9 月 24 日宣布，Google Cloud API Gateway 在 Public Preview 中可作为远程 MCP server，把现有 OpenAPI 3.x REST 接口转换成 Agent 可发现和调用的 MCP tools。公告称开发者可通过 OpenAPI 扩展标注工具说明，继续复用既有认证、配额和日志策略，并让 MCP 与 REST 请求共享同一策略路径。该事件对应平台与工具层，降低企业把内部 API 纳入 Agent 工作流时的额外网关和治理成本。",
+      "sourceUrl": "https://developers.googleblog.com/en/turn-your-rest-apis-into-mcp-tools-with-google-cloud-api-gateway/",
+      "publishedAt": "2026-09-24",
+      "layerIds": [3],
+      "industries": ["云计算", "MCP", "API 管理", "Agent 工具调用"],
+      "beneficiaries": {
+        "industries": ["企业 API 网关", "Agent 工具治理", "云原生集成", "MCP 生态"],
+        "companies": ["Google Cloud", "Apigee"],
+        "stocks": [
+          {
+            "code": "usGOOGL",
+            "name": "Alphabet",
+            "reason": "API Gateway 增加 MCP 暴露能力后，Google Cloud 可把既有 API 管理资产延伸到企业 Agent 工具调用场景"
+          }
+        ]
+      }
+    },
+    {
+      "id": "n8n-agents-workflows-2026-09",
+      "title": "n8n 推出 Agents，让自动化工作流可作为 Agent 工具使用",
+      "summary": "n8n 9 月 25 日发布 n8n Agents，用户可用自然语言描述 Agent 目标，配置模型、渠道、工具、技能、知识和记忆后运行。新能力允许 Agent 调用既有 n8n workflows，也允许 workflow 中通过 Message an Agent 节点调用已发布 Agent，并提供版本、会话日志和敏感工具审批等控制。该事件对应平台与工具层，体现自动化平台正把确定性流程和开放式 Agent 编排融合。",
+      "sourceUrl": "https://blog.n8n.io/introducing-n8n-agents/",
+      "publishedAt": "2026-09-25",
+      "layerIds": [3],
+      "industries": ["自动化平台", "Agent 编排", "MCP", "企业集成"],
+      "beneficiaries": {
+        "industries": ["工作流自动化", "Agent 编排工具", "低代码集成平台", "企业运营自动化"],
+        "companies": ["n8n"],
+        "stocks": []
+      }
+    },
+    {
+      "id": "langsmith-engine-managed-agents-2026-09",
+      "title": "LangChain 更新 LangSmith，强化 Agent 运行时、评测与微调闭环",
+      "summary": "LangChain 9 月 25 日发布 LangSmith Engine v2、Managed Deep Agents v0.8、Trajectories、LangSmith Fine-Tuning 与 Custom Apps 等更新。Engine v2 增加红队测试、问题检测和自动修复验证；Managed Deep Agents 加入用户级记忆、身份范围认证、新渠道和内置 Web search；Trajectories 与 Fine-Tuning 则把 Agent 会话转化为更易评审和训练的数据。该事件对应平台与工具层，重点在生产级 Agent 的观测、评测、运行时安全和迭代效率。",
+      "sourceUrl": "https://www.langchain.com/blog/langsmith-engine-agents-fine-tuning-trajectories",
+      "publishedAt": "2026-09-25",
+      "layerIds": [3],
+      "industries": ["LLMOps", "Agent 评测", "AI 可观测性", "模型微调"],
+      "beneficiaries": {
+        "industries": ["Agent 开发平台", "LLMOps", "AI 评测与可观测性", "企业模型后训练"],
+        "companies": ["LangChain", "Baseten", "Fireworks"],
+        "stocks": []
+      }
+    },
+    {
+      "id": "jobber-mcp-service-pros-2026-09",
+      "title": "Jobber 通过 MCP 将服务业运营数据接入 ChatGPT 与 Claude",
+      "summary": "Jobber 9 月 25 日宣布推出 ChatGPT Plugin 和 Claude Connector，使家庭与商业服务企业可通过 MCP 把 Jobber 账户中的客户、物业、工单、报价、发票和访问数据带入 AI 助手。公告称用户可用 ChatGPT 或 Claude 查询业务情况、更新客户和请求记录，并识别已批准未排期或已完工未开票等漏收收入。该事件对应应用与解决方案层，并反映垂直 SaaS 正把系统记录通过 MCP 暴露给通用 AI 助手。",
+      "sourceUrl": "https://www.prnewswire.com/news-releases/jobber-launches-mcp-bringing-home-and-commercial-service-data-and-workflows-directly-into-chatgpt-and-claude-302890385.html",
+      "publishedAt": "2026-09-25",
+      "layerIds": [4, 3],
+      "industries": ["垂直 SaaS", "MCP", "服务业软件", "AI 助手"],
+      "beneficiaries": {
+        "industries": ["服务业运营 SaaS", "垂直应用 Agent", "AI 助手连接器", "中小企业自动化"],
+        "companies": ["Jobber", "OpenAI", "Anthropic"],
+        "stocks": []
+      }
+    }
+  ]
+}
