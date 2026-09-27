@@ -1,0 +1,84 @@
+{
+  "date": "2026-09-27",
+  "items": [
+    {
+      "id": "amazon-greenwood-robotics-manufacturing-2026-09",
+      "title": "Amazon 将在印第安纳投建机器人网络先进制造设施",
+      "summary": "Amazon 9 月 24 日宣布，计划在印第安纳州 Greenwood 投资超过 1 亿美元建设 58.5 万平方英尺先进制造设施，预计 2028 年投产并服务其北美履约与机器人网络。公告称该设施将整合先进制造、机器人焊接、自动粉末涂装和装配，并由 AWS 与 AI 驱动的智能制造系统支持。该事件对应终端与生态层，显示大型平台公司继续把物流机器人与智能制造能力内化。",
+      "sourceUrl": "https://press.aboutamazon.com/job-creation-and-investment/2026/9/amazon-to-create-300-high-paying-jobs-at-new-advanced-manufacturing-facility-in-greenwood-indiana",
+      "publishedAt": "2026-09-24",
+      "layerIds": [5],
+      "industries": ["机器人", "智能制造", "物流自动化"],
+      "beneficiaries": {
+        "industries": ["仓储机器人", "智能制造系统", "工业自动化设备"],
+        "companies": ["Amazon"],
+        "stocks": [
+          {
+            "code": "usAMZN",
+            "name": "Amazon",
+            "reason": "新设施服务其履约与机器人网络，逻辑上强化自有物流自动化和 AI 制造能力。"
+          }
+        ]
+      }
+    },
+    {
+      "id": "veeva-study-builder-agent-2026-09",
+      "title": "Veeva 发布临床研究 Study Builder Agent",
+      "summary": "Veeva Systems 9 月 24 日宣布推出 Study Builder Agent，用 AI 从研究方案直接配置 Veeva EDC 与 Veeva DQS，覆盖表单、访视、编辑检查规则、CQL 列表与测试数据生成。公司称该 Agent 复用客户既有标准并遵循 CDISC USDM，计划于 2026 年 12 月进入早期采用阶段。该条对应应用与解决方案层，体现生命科学垂直 SaaS 将 Agent 嵌入受监管工作流。",
+      "sourceUrl": "https://www.prnewswire.com/news-releases/new-veeva-study-builder-agent-to-configure-clinical-studies-in-as-little-as-one-day-302888436.html",
+      "publishedAt": "2026-09-24",
+      "layerIds": [4],
+      "industries": ["生命科学 SaaS", "临床试验", "AI Agent"],
+      "beneficiaries": {
+        "industries": ["临床数据管理", "医药研发软件", "垂直行业 AI"],
+        "companies": ["Veeva Systems"],
+        "stocks": [
+          {
+            "code": "usVEEV",
+            "name": "Veeva Systems",
+            "reason": "Study Builder Agent 嵌入其临床数据产品，可能提升生命科学客户的标准化配置效率。"
+          }
+        ]
+      }
+    },
+    {
+      "id": "public-prediction-market-agents-2026-09",
+      "title": "Public 推出面向预测市场的交易 AI Agents",
+      "summary": "Public 9 月 24 日宣布上线 Prediction Markets 与对应 AI Agents，用户可直接交易事件，也可让 Agent 根据预测市场概率变化触发提醒或交易动作。公告称该服务与 CFTC 监管的预测市场交易所 Kalshi 合作，覆盖宏观、企业事件、科技与政治等主题。该条对应应用层中的金融 AI 落地，重点在事件数据如何进入投顾与经纪工作流。",
+      "sourceUrl": "https://www.prnewswire.com/news-releases/public-launches-ai-agents-for-prediction-markets-302888505.html",
+      "publishedAt": "2026-09-24",
+      "layerIds": [4],
+      "industries": ["金融科技", "预测市场", "智能投顾"],
+      "beneficiaries": {
+        "industries": ["线上券商", "事件驱动数据服务", "合规预测市场"],
+        "companies": ["Public", "Kalshi"]
+      }
+    },
+    {
+      "id": "freshbooks-anthropic-mcp-connector-2026-09",
+      "title": "FreshBooks 接入 Anthropic MCP Connector 支持小企业财务工作流",
+      "summary": "FreshBooks 9 月 25 日宣布接入 Anthropic 的 MCP Connector，小企业主可在 Claude 连接 FreshBooks 账户，用于查询财务信息和处理行政任务。公司强调该集成让用户控制数据访问权限，避免把报表下载后粘贴到通用聊天机器人。该条横跨平台与应用层，说明 MCP 连接器正进入中小企业 SaaS 的真实业务数据场景。",
+      "sourceUrl": "https://www.freshbooks.com/press/releases/freshbooks-anthropicmcpconnector",
+      "publishedAt": "2026-09-25",
+      "layerIds": [3, 4],
+      "industries": ["MCP", "财务 SaaS", "中小企业软件"],
+      "beneficiaries": {
+        "industries": ["SaaS 连接器", "AI 财务助理", "企业数据集成"],
+        "companies": ["FreshBooks", "Anthropic"]
+      }
+    },
+    {
+      "id": "salmon-execution-verification-ai-agents-2026-09",
+      "title": "Archipelo 推出 Salmon 执行验证基础设施",
+      "summary": "Archipelo 9 月 25 日宣布 Salmon Execution Verification Infrastructure，用加密协议记录 AI Agents 与自动化系统的执行历史和状态血缘。公告称 Salmon 将执行捕获为带签名事件，为安全、治理、调查、检测响应与问责系统提供机器可读证据。该条对应平台与工具层，关注 Agent 获得工具、凭证和生产系统权限后所需的可验证控制面。",
+      "sourceUrl": "https://www.globenewswire.com/news-release/2026/09/25/3369087/0/en/salmon-introduces-execution-verification-infrastructure-evi-for-securing-ai-agents-and-autonomous-systems.html",
+      "publishedAt": "2026-09-25",
+      "layerIds": [3],
+      "industries": ["AI 安全", "Agent 治理", "可验证执行"],
+      "beneficiaries": {
+        "industries": ["AI 安全平台", "Agent 可观测性", "企业治理工具"],
+        "companies": ["Archipelo", "Salmon"]
+      }
+    }
+  ]
+}
