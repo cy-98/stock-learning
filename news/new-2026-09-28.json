@@ -1,0 +1,107 @@
+{
+  "date": "2026-09-28",
+  "items": [
+    {
+      "id": "nscale-nvidia-ai-cloud-financing-2026-09",
+      "title": "Nscale 获 33.6 亿美元可转债融资，NVIDIA 承诺参与 10 亿美元",
+      "summary": "Nscale 9 月 25 日宣布完成 33.6 亿美元 IPO 前可转债融资，其中首期 23.6 亿美元已完成，NVIDIA 还承诺在 11 月中旬投入 10 亿美元。公司称资金将用于扩张垂直整合的 AI 云平台，覆盖低成本电力、液冷数据中心与大规模 GPU 集群。该事件对应算力与基础设施层，也反映 AI 云服务商围绕电力、机房和加速卡供给做一体化扩张。",
+      "sourceUrl": "https://www.nscale.com/press-releases/pre-ipo-convertible-financing",
+      "publishedAt": "2026-09-25",
+      "layerIds": [1, 3],
+      "industries": ["AI 数据中心", "GPU 云", "液冷", "电力基础设施"],
+      "beneficiaries": {
+        "industries": ["AI 云基础设施", "液冷数据中心", "GPU 集群建设", "数据中心电力配套"],
+        "companies": ["Nscale", "NVIDIA", "Third Point", "Apollo", "Citadel"],
+        "stocks": [
+          {
+            "code": "usNVDA",
+            "name": "NVIDIA",
+            "reason": "NVIDIA 参与 Nscale 融资并为其 AI 云扩张提供加速计算生态，可能受益于 GPU 集群和 AI 工厂建设需求"
+          }
+        ]
+      }
+    },
+    {
+      "id": "kt-agentic-on-enterprise-platform-2026-09",
+      "title": "KT 推出 Agentic On，把企业 AI Agent 接入既有数据与业务系统",
+      "summary": "Seoul Economic Daily 9 月 27 日报道，KT 正在推出 Agentic On，帮助企业在保留既有数据、业务系统和模型的前提下创建并运行 AI agents。该平台支持连接内部文档与数据、管理 AI 模型和 agents，并让多个 agents 分工完成文档审阅、审批请求、数据录入等流程。事件主要对应平台与工具层，并延伸到企业工作流应用层，重点在权限、个人信息保护和防误答等治理能力。",
+      "sourceUrl": "https://en.sedaily.com/technology/2026/09/27/kt-unveils-agentic-on-platform-linking-ai-agents-to-company",
+      "publishedAt": "2026-09-27",
+      "layerIds": [3, 4],
+      "industries": ["企业 Agent", "工作流自动化", "AI 治理", "韩国云与通信"],
+      "beneficiaries": {
+        "industries": ["企业 Agent 平台", "系统集成", "数据权限治理", "低代码自动化"],
+        "companies": ["KT"],
+        "stocks": []
+      }
+    },
+    {
+      "id": "fuse-gehealthcare-irt-signal-astro-2026-09",
+      "title": "Fuse Oncology 将展示 GE HealthCare iRT 与 S!GNAL 的放疗工作流衔接",
+      "summary": "Fuse Oncology 9 月 27 日宣布将在 ASTRO 2026 展示与 GE HealthCare Intelligent Radiation Therapy 软件相关的潜在工作流体验。该方案设想从 iRT 的患者工作流直接启动 Fuse 的 S!GNAL 费用捕获解决方案，在保留患者上下文的同时减少放疗工作流、计费与临床记录之间的手工交接。事件对应应用与解决方案层，说明 AI 支持的医疗工作流正在向专科运营和收入周期管理延伸。",
+      "sourceUrl": "https://www.prnewswire.com/news-releases/fuse-oncology-to-showcase-sgnal-workflow-experience-at-astro-2026-302890548.html",
+      "publishedAt": "2026-09-27",
+      "layerIds": [4],
+      "industries": ["医疗 AI", "放射肿瘤", "医疗 SaaS", "收入周期管理"],
+      "beneficiaries": {
+        "industries": ["专科医疗工作流", "AI 辅助放疗软件", "医疗收入周期自动化"],
+        "companies": ["Fuse Oncology", "GE HealthCare"],
+        "stocks": [
+          {
+            "code": "usGEHC",
+            "name": "GE HealthCare",
+            "reason": "iRT 被用于展示与专科运营工具的工作流衔接，可能增强其 AI 支持放疗软件在医院场景中的生态黏性"
+          }
+        ]
+      }
+    },
+    {
+      "id": "gen-ai-data-checker-agent-trust-2026-09",
+      "title": "Gen Digital 扩展 Agent Trust Hub，推出 AI Data Checker",
+      "summary": "Gen Digital 9 月 25 日宣布在 Agent Trust Hub 中推出 AI Data Checker 测试版，并称近三分之一桌面用户已在使用 AI apps 和 agents。该工具帮助用户查看 AI 服务可能收集哪些数据、是否用于模型训练、保留多久以及可用隐私控制，补足 agents 访问个人信息后的可见性问题。事件对应平台与工具层的 AI 安全治理，也连接到终端与消费者 AI 生态。",
+      "sourceUrl": "https://www.prnewswire.com/news-releases/ai-apps-and-agents-are-taking-off-gen-can-help-people-understand-what-happens-to-their-data-302890485.html",
+      "publishedAt": "2026-09-25",
+      "layerIds": [3, 5],
+      "industries": ["AI 安全", "隐私保护", "消费者 Agent", "终端安全"],
+      "beneficiaries": {
+        "industries": ["Agent 安全", "隐私合规工具", "消费级安全软件", "AI 数据治理"],
+        "companies": ["Gen Digital", "Norton", "Avast", "LifeLock"],
+        "stocks": [
+          {
+            "code": "usGEN",
+            "name": "Gen Digital",
+            "reason": "Gen 通过 Agent Trust Hub 与 AI Data Checker 扩展消费者 AI 安全与隐私工具，可能受益于 agent 使用普及后的信任基础设施需求"
+          }
+        ]
+      }
+    },
+    {
+      "id": "edb-data-layer-energy-agent-governance-2026-09",
+      "title": "EDB 在联合国全球契约峰会强调从数据层治理 AI Agent 与能耗",
+      "summary": "EnterpriseDB 9 月 25 日在 UN Global Compact Leaders Summit 期间表示，AI agents 扩张使能源效率和数据治理成为基础设施设计要求，而不是后置合规项。公司披露的 2026 年 9 月调研显示，69% 受访者在数据和 AI 平台决策中比一年前更重视能源，并介绍了在数据层治理 agents 与减少计算消耗的 Responsible AI 工作。该事件对应平台与工具层，也与算力基础设施的能耗约束相关。",
+      "sourceUrl": "https://www.prnewswire.com/news-releases/at-un-global-compact-leaders-summit-edb-reinforces-governance-at-the-data-layer-as-energy-becomes-a-defining-constraint-in-the-agentic-ai-era-302889908.html",
+      "publishedAt": "2026-09-25",
+      "layerIds": [3, 1],
+      "industries": ["数据库", "AI 治理", "能耗管理", "主权数据"],
+      "beneficiaries": {
+        "industries": ["Postgres 生态", "数据层治理", "AI 基础设施能效优化", "主权 AI 平台"],
+        "companies": ["EnterpriseDB", "PostgreSQL"],
+        "stocks": []
+      }
+    },
+    {
+      "id": "omneky-taste-bench-creative-model-eval-2026-09",
+      "title": "Omneky 发布 TASTE BENCH，用于评估 AI 广告创意质量",
+      "summary": "Omneky 9 月 25 日推出 TASTE BENCH，用同一批创意 brief 与品牌资产比较八个图像模型生成广告的品牌匹配、排版、语言、素材忠实度和可投放性。公司称本轮覆盖 59 个广告 brief、4 个品牌和 5 种语言，共生成 469 个广告，并由来自 OpenAI、Anthropic 和 Google 的 AI judges 盲评。该事件主要对应应用与解决方案层，反映营销 SaaS 正把模型评测、自动投放和 agent 工作流合并到创意生产链路。",
+      "sourceUrl": "https://www.prnewswire.com/news-releases/omneky-introduces-taste-bench-for-evaluating-ai-creative-quality-302890239.html",
+      "publishedAt": "2026-09-25",
+      "layerIds": [4, 2],
+      "industries": ["AI 营销", "广告技术", "多模态评测", "创意自动化"],
+      "beneficiaries": {
+        "industries": ["AI 广告生成", "多模态模型评测", "营销自动化 SaaS", "品牌内容生产"],
+        "companies": ["Omneky", "OpenAI", "Anthropic", "Google"],
+        "stocks": []
+      }
+    }
+  ]
+}
