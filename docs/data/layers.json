@@ -2,7 +2,7 @@
   "meta": {
     "title": "AI 五层模型",
     "subtitle": "从算力底座到场景落地 · 行业 · 趋势 · 事件 · Section 1 投资分析",
-    "updated": "2026-05-28"
+    "updated": "2026-09-28"
   },
   "layers": [
     {
@@ -289,6 +289,11 @@
           "date": "2026",
           "title": "数据合规升级",
           "body": "企业内网部署与私有化模型需求增加。"
+        },
+        {
+          "date": "2026-09-25",
+          "title": "Copilot Managed Runtime 进入预览",
+          "body": "Microsoft 公布 Copilot Managed Runtime，用于在 Microsoft 365 租户边界内托管由 Copilot Code、Cowork 与 Copilot Studio 构建的应用，并继承企业治理与安全策略。"
         }
       ]
     },
@@ -378,6 +383,11 @@
           "date": "2026",
           "title": "垂直 Agent 融资活跃",
           "body": "法律、财务、客服等场景出现专业化智能体产品。"
+        },
+        {
+          "date": "2026-09-25",
+          "title": "Microsoft Copilot 推出 Code 与 Autopilot",
+          "body": "Reuters 报道 Microsoft 为 Copilot 增加自然语言生成应用的 Code 工具和常驻 Autopilot Agent，并把 Word、Excel、PowerPoint 嵌入同一工作入口。"
         }
       ]
     },
