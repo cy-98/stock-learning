@@ -1,0 +1,125 @@
+{
+  "date": "2026-10-18",
+  "items": [
+    {
+      "id": "sk-hynix-memory-centric-rack-2026-10",
+      "title": "SK hynix 在 OCP 展示面向 AI Agent 的 CXL 内存中心机架",
+      "summary": "SK hynix 在 OCP Global Summit 2026 展示 MARS 内存中心 AI 机架、CMM-DDR5、CMM-Ax 等下一代服务器内存方案，重点解决 Agentic AI 多轮任务中的 KV cache 与数据搬移瓶颈。公司称其 256GB CXL 3.2 模块带宽较上一代翻倍至 80GB/s，能效提升约 30%，并与 NAVER Cloud、AMD、Marvell 等伙伴演示了 pooled memory、hybrid memory 和长上下文推理加速。该事件属于算力与基础设施层，反映 HBM 之外的 CXL、eSSD、HBF 等内存层级正在成为 AI 数据中心扩容的关键变量。",
+      "sourceUrl": "https://news.skhynix.com/en/ocp-global-summit-2026/",
+      "publishedAt": "2026-10-16",
+      "layerIds": [1],
+      "industries": ["AI 算力", "存储", "CXL", "数据中心"],
+      "beneficiaries": {
+        "industries": ["高带宽内存", "CXL 内存扩展", "AI 服务器", "数据中心 eSSD"],
+        "companies": ["SK hynix", "NAVER Cloud", "AMD", "Marvell", "NVIDIA"],
+        "stocks": [
+          {
+            "code": "usMU",
+            "name": "美光科技",
+            "reason": "同处 HBM 与数据中心内存升级链条，CXL/高带宽内存需求扩张会提高行业景气敏感度"
+          },
+          {
+            "code": "usMRVL",
+            "name": "Marvell Technology",
+            "reason": "参与 SK hynix CXL pooled memory 演示，数据中心互连与控制芯片需求与内存池化方案相关"
+          }
+        ]
+      }
+    },
+    {
+      "id": "google-cloud-reflection-beam-serving-2026-10",
+      "title": "Google Cloud 为 Reflection Beam 提供 Day-0 优化部署方案",
+      "summary": "Google Cloud 宣布在 Reflection 发布 open-weight Beam 模型当日提供部署支持，将 Beam 与 AI Hypercomputer、NVIDIA AI Infrastructure、llm-d/vLLM 和 NVIDIA Dynamo/SGLang 等服务栈结合。官方称在 A4X Max 与 G4 实例上，通过 KV-cache-aware routing、prefill/decode 拆分、speculative decoding 与分层 KV cache，服务 Agentic coding 工作负载可获得最高 5 倍吞吐和 8 倍延迟改善。该事件横跨模型层、平台层与算力层，说明大模型竞争正从模型参数延伸到推理系统工程。",
+      "sourceUrl": "https://cloud.google.com/blog/topics/ai-infrastructure/day-0-support-with-5x-perf-for-reflection-beam-on-google-cloud",
+      "publishedAt": "2026-10-16",
+      "layerIds": [1, 2, 3],
+      "industries": ["大模型", "云计算", "推理优化", "Agent"],
+      "beneficiaries": {
+        "industries": ["AI 云服务", "GPU 推理集群", "开源模型部署", "LLMOps"],
+        "companies": ["Google Cloud", "Reflection", "NVIDIA"],
+        "stocks": [
+          {
+            "code": "usGOOGL",
+            "name": "Alphabet",
+            "reason": "Google Cloud 将模型部署、GKE 与 AI Hypercomputer 打包为生产级推理方案，可能提升企业 AI 工作负载黏性"
+          },
+          {
+            "code": "usNVDA",
+            "name": "英伟达",
+            "reason": "优化方案直接使用 NVIDIA AI Infrastructure、GB300 NVL72 与 Dynamo，推理集群需求与其硬件和软件栈相关"
+          }
+        ]
+      }
+    },
+    {
+      "id": "microsoft-copilot-studio-persistent-agents-2026-10",
+      "title": "Microsoft Copilot Studio 推出组织级持久在线 Agent 能力",
+      "summary": "Microsoft 在 Copilot Studio 中发布 agent accounts、business process memory 与 GitHub Copilot harness triggers，使企业可构建拥有独立身份、可被 Teams/Outlook/Office @提及、并能按外部信号或周期触发的持久业务流程 Agent。Agent 使用自有凭证和授权范围执行工作，业务流程记忆则让跨周期任务保留上下文并逐步改进。该事件对应平台与应用层，表明办公 Copilot 正从个人助手走向可治理的组织流程自动化。",
+      "sourceUrl": "https://www.microsoft.com/en-us/copilot/blog/copilot-studio/delegate-shared-business-processes-to-agents-that-are-more-persistent-and-proactive-with-microsoft-copilot-studio/",
+      "publishedAt": "2026-10-15",
+      "layerIds": [3, 4],
+      "industries": ["办公 AI", "企业软件", "Agent 平台", "工作流自动化"],
+      "beneficiaries": {
+        "industries": ["企业协作软件", "低代码平台", "业务流程自动化"],
+        "companies": ["Microsoft", "GitHub", "Ooredoo Qatar"],
+        "stocks": [
+          {
+            "code": "usMSFT",
+            "name": "微软",
+            "reason": "Copilot Studio 将 Agent 身份、记忆和触发器嵌入 Microsoft 365 与 GitHub 生态，强化平台型应用变现路径"
+          }
+        ]
+      }
+    },
+    {
+      "id": "servicenow-ai-passport-governance-2026-10",
+      "title": "ServiceNow 发布 AI Passport，用运行时凭证约束企业 Agent 权限",
+      "summary": "ServiceNow 发布 AI Passport 与扩展 AI 治理能力，目标是在多 Agent 工作流中实时验证第一方和第三方 Agent 的授权范围。公司称 AI Passport 是一种可加密签名的运行时凭证，结合 CMDB、GRC、工作流审批和 Super Intelligence Control Tower，在 Agent 越权时可触发限制、重定向或 kill switch；NVIDIA 是设计与发布伙伴。该事件属于平台与工具层，凸显 Agent 大规模落地后，身份、权限、成本和合规治理成为企业 AI 基础设施的一部分。",
+      "sourceUrl": "https://newsroom.servicenow.com/press-releases/details/2026/ServiceNow-advances-its-operational-harness-for-enterprise-AI-with-AI-Passport-and-expanded-governance-capabilities/default.aspx",
+      "publishedAt": "2026-10-15",
+      "layerIds": [3],
+      "industries": ["AI 安全", "企业软件", "身份治理", "MCP"],
+      "beneficiaries": {
+        "industries": ["AI 治理平台", "身份与访问管理", "企业 ITSM/ITAM"],
+        "companies": ["ServiceNow", "NVIDIA", "LTM Limited"],
+        "stocks": [
+          {
+            "code": "usNOW",
+            "name": "ServiceNow",
+            "reason": "AI Passport 与 Control Tower 将 Agent 治理、成本管理和工作流管控纳入同一平台，可能增强企业 AI 平台粘性"
+          },
+          {
+            "code": "usNVDA",
+            "name": "英伟达",
+            "reason": "NVIDIA Open Agent Safety Platform 被列为生产级 enforcement 伙伴，软件安全栈有机会随企业 Agent 部署扩散"
+          }
+        ]
+      }
+    },
+    {
+      "id": "phancy-modelsphere-open-source-deployment-2026-10",
+      "title": "Phancy 与 RiseUnion 开源 ModelSphere，面向异构芯片部署大模型",
+      "summary": "Phancy Group 与 RiseUnion 发布 ModelSphere，定位为一站式生产级 AI 部署平台，覆盖算力资源管理、模型部署和运行时优化，并以 Apache 2.0 协议开源。公告称平台集成 EngineX 推理引擎，支持 Huawei Ascend、Iluvatar CoreX、Moore Threads、Hygon DCU 等异构 AI 加速器，并通过 AutoTune、PD 分离、三级 KV 缓存和负载调度提升推理服务效率。该事件对应平台层，也与国产/异构算力生态相关。",
+      "sourceUrl": "https://www.media-outreach.com/news/china/2026/10/16/494454/phancy-and-riseunion-launch-modelsphere-an-open-source-one-stop-production-grade-ai-deployment-platform/",
+      "publishedAt": "2026-10-16",
+      "layerIds": [1, 3],
+      "industries": ["MLOps", "模型部署", "异构算力", "开源平台"],
+      "beneficiaries": {
+        "industries": ["国产 AI 芯片适配", "推理平台", "企业私有化部署"],
+        "companies": ["Phancy Group", "RiseUnion", "Huawei Ascend", "Moore Threads", "Hygon"],
+        "stocks": [
+          {
+            "code": "hk6682",
+            "name": "Phancy Group",
+            "reason": "ModelSphere 将公司异构算力管理和模型部署能力开源，可能扩大其 AI 云服务平台生态影响"
+          },
+          {
+            "code": "sh688041",
+            "name": "海光信息",
+            "reason": "公告提到支持 Hygon DCU，异构推理平台发展会提升国产加速器软件适配的重要性"
+          }
+        ]
+      }
+    }
+  ]
+}
