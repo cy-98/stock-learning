@@ -1,0 +1,99 @@
+{
+  "date": "2026-10-19",
+  "items": [
+    {
+      "id": "nvidia-rtx-spark-pcs-2026-10",
+      "title": "NVIDIA RTX Spark 笔记本全球上市，端侧 AI PC 进入 Blackwell 平台周期",
+      "summary": "NVIDIA 10 月 16 日宣布 RTX Spark 笔记本从 ASUS、Dell、HP、Lenovo、Microsoft 和 MSI 等厂商开始上市。该系列把 Blackwell RTX GPU、Grace CPU、CUDA 与最高 128GB 统一内存放入 Windows PC，官方称可提供最高 1 petaflop FP4 AI 性能，用于本地运行大模型、创作软件和个人 AI agents。事件对应算力层与终端生态层，显示 AI 能力继续从云端数据中心下沉到高端 PC 终端。",
+      "sourceUrl": "https://nvidianews.nvidia.com/news/nvidia-rtx-spark-pcs-available-today-a-new-beginning-for-windows-pcs",
+      "publishedAt": "2026-10-16",
+      "layerIds": [1, 5],
+      "industries": ["AI PC", "端侧 AI", "GPU"],
+      "beneficiaries": {
+        "industries": ["端侧算力", "高端 PC", "AI 开发者工具链"],
+        "companies": ["NVIDIA", "Microsoft", "ASUS", "Dell", "HP", "Lenovo", "MSI"],
+        "stocks": [
+          {
+            "code": "usNVDA",
+            "name": "英伟达",
+            "reason": "RTX Spark 将其 Blackwell、CUDA 与本地 AI agent 软件栈延伸到高端 PC 终端"
+          },
+          {
+            "code": "usMSFT",
+            "name": "微软",
+            "reason": "Windows 被定位为本地与云端混合 AI 的运行平台，可能受益于高端 AI PC 换机需求"
+          }
+        ]
+      }
+    },
+    {
+      "id": "fpt-ai-eos-token-factory-2026-10",
+      "title": "FPT 发布 AI EOS、GPU Kubernetes 与 Token Factory，补齐企业 AI 落地栈",
+      "summary": "FPT 在 10 月 17 日 FPT TRANSFORM 2026 上发布 FPT AI EOS、FPT Kubernetes Engine with GPU 和 FPT Token Factory 三项方案。AI EOS 面向企业业务流程编排数字员工，Token Factory 统一接入多模型，GPU Kubernetes Engine 则承担训练、微调和部署基础设施。事件对应平台层与应用层，重点在于把模型调用、算力管理和业务审批流程打包为可部署的企业 AI 系统。",
+      "sourceUrl": "https://fpt.com/en/news/article-2",
+      "publishedAt": "2026-10-17",
+      "layerIds": [3, 4],
+      "industries": ["企业 AI 平台", "MLOps", "AI Agent"],
+      "beneficiaries": {
+        "industries": ["企业软件平台", "云原生 AI 基础设施", "业务流程自动化"],
+        "companies": ["FPT Corporation", "FPT Smart Cloud"],
+        "stocks": []
+      }
+    },
+    {
+      "id": "samsung-tsmc-nvhbm-base-die-2026-10",
+      "title": "韩媒称三星将借助台积电 3nm 产能生产 NVIDIA 定制 HBM base die",
+      "summary": "Seoul Economic Daily 10 月 18 日报道称，NVIDIA 正与三星和台积电共同开发其定制高带宽内存 NVHBM 的 base die，并要求使用台积电 3nm 逻辑工艺以承载从 GPU 转移来的控制器等功能。报道还称，三星在 HBM core die 产能之外，需要借助台积电先进逻辑产能缓解 custom HBM base die 供应瓶颈。该消息对应算力层，反映 HBM 不仅受 DRAM 堆叠约束，也开始受先进逻辑与先进封装产能共同影响。",
+      "sourceUrl": "https://en.sedaily.com/finance/2026/10/18/samsung-to-tap-tsmc-3-nanometer-lines-for-nvidia-custom-hbm",
+      "publishedAt": "2026-10-18",
+      "layerIds": [1],
+      "industries": ["HBM", "先进制程", "AI 芯片"],
+      "beneficiaries": {
+        "industries": ["高带宽内存", "先进晶圆代工", "AI 加速器供应链"],
+        "companies": ["NVIDIA", "Samsung Electronics", "TSMC", "SK hynix", "Micron"],
+        "stocks": [
+          {
+            "code": "usNVDA",
+            "name": "英伟达",
+            "reason": "定制 NVHBM 设计若按报道推进，可能提升其 AI 加速器内存带宽和能效"
+          },
+          {
+            "code": "usTSM",
+            "name": "台积电",
+            "reason": "报道指 NVHBM base die 需要台积电 3nm 逻辑工艺，凸显先进制程稀缺性"
+          },
+          {
+            "code": "usMU",
+            "name": "美光科技",
+            "reason": "HBM 供需紧张与定制化趋势对主要存储供应商的高端产品线形成逻辑敏感"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ff-eai-nova-robotics-2026-10",
+      "title": "FF EAI 发布 Nova 与 Nova Mini，低价具身智能教育硬件扩充开发者生态",
+      "summary": "FF EAI Robotics Ecosystem 10 月 18 日披露，FFR 与 Faraday Future 机器人业务共同推出 FF Nova 与 Nova Mini 两款 EAI Devices，并上线 Physical AI Spark Program Curriculum 与 Nova Reinforcement Learning Developer Program。公司称 Nova 定位为低于 2500 美元的入门级 EAI humanoid robot，Nova Mini 面向 Physical AI 基础教育，同时开放开发者社区报名。事件对应终端与生态层，关注点在于具身智能硬件、课程和强化学习开发工具是否能扩大机器人开发者生态。",
+      "sourceUrl": "https://www.prnewswire.com/news-releases/ff-eai-robotics-ecosystem-inc-ffr-highlights-faraday-future-founder-and-global-ceo-yt-jias-weekly-investor-update-three-new-product-offerings-launched-more-details-on-ffrs-acquisition-of-ffais-robotics-business-and-indepen-302912061.html",
+      "publishedAt": "2026-10-18",
+      "layerIds": [5],
+      "industries": ["具身智能", "教育机器人", "机器人开发者平台"],
+      "beneficiaries": {
+        "industries": ["人形机器人教育硬件", "Physical AI 开发工具", "机器人数据与训练平台"],
+        "companies": ["FF EAI Robotics Ecosystem", "Faraday Future"],
+        "stocks": [
+          {
+            "code": "usFFR",
+            "name": "FF EAI Robotics Ecosystem",
+            "reason": "低价 EAI 设备与课程体系若获得开发者采用，可能增强其具身智能生态入口"
+          },
+          {
+            "code": "usFFAI",
+            "name": "Faraday Future Intelligent Electric",
+            "reason": "FFAI 仍是相关机器人业务与 FFR 交易中的关键关联方，业务进展对其 Physical AI 叙事敏感"
+          }
+        ]
+      }
+    }
+  ]
+}
