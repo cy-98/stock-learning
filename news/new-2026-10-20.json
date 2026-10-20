@@ -1,0 +1,125 @@
+{
+  "date": "2026-10-20",
+  "items": [
+    {
+      "id": "samsung-tsmc-nvhbm-base-die-2026-10",
+      "title": "三星据报将为 Nvidia 定制 HBM 采用台积电 3nm 基础裸片",
+      "summary": "韩国 Seoul Economic Daily 报道称，三星将使用台积电 3nm 制程为 Nvidia 定制 NVHBM 生产基础裸片，Nvidia 也要求 SK hynix 与 Micron 采用同一方案。该安排仍属供应链报道而非公司联合公告，但若落地，将把 HBM 基础裸片从传统互连层升级为先进逻辑制程环节。事件对应算力与基础设施层，凸显 AI 加速器对 HBM 带宽、功耗与良率的一致性要求。",
+      "sourceUrl": "https://en.sedaily.com/finance/2026/10/18/samsung-to-use-tsmc-for-base-die-in-nvidias-custom-hbm",
+      "publishedAt": "2026-10-18",
+      "layerIds": [1],
+      "industries": ["HBM", "先进制程", "AI 加速器", "晶圆代工"],
+      "beneficiaries": {
+        "industries": ["高带宽存储", "先进逻辑代工", "AI 芯片供应链"],
+        "companies": ["NVIDIA", "TSMC", "Samsung Electronics", "Micron"],
+        "stocks": [
+          {
+            "code": "usNVDA",
+            "name": "英伟达",
+            "reason": "统一 NVHBM 基础裸片工艺有助于降低多供应商验证复杂度，支撑其下一代 AI 加速器带宽路线"
+          },
+          {
+            "code": "usTSM",
+            "name": "台积电",
+            "reason": "若 HBM 基础裸片转向 3nm 先进逻辑制程，台积电可能承接更多 AI 存储相关晶圆需求"
+          },
+          {
+            "code": "usMU",
+            "name": "美光科技",
+            "reason": "作为 Nvidia HBM 供应商之一，制程标准化可能影响其后续定制 HBM 交付与验证节奏"
+          }
+        ]
+      }
+    },
+    {
+      "id": "nvidia-germany-physical-ai-roadmap-2026-10",
+      "title": "Nvidia 与德国政府签署意向，推进工业与 Physical AI 模型",
+      "summary": "Nvidia 披露，德国总理、联邦经济与能源部、联邦研究技术与航天部与 Nvidia 签署联合意向声明，计划推进面向 Physical AI 的前沿 AI 模型，并把工业 AI 更系统地导入德国制造业生态。Nvidia 同时披露拟投资 Agile Robots、Avelios Medical、Mirelo、Reflex Aerospace 等德国初创企业。该事件横跨算力层、应用层与终端生态层，重点在工业 AI、机器人和数字孪生从示范走向产业化。",
+      "sourceUrl": "https://blogs.nvidia.com/blog/germany-wants-to-lead-the-world-in-industrial-ai-how-nvidia-will-help/",
+      "publishedAt": "2026-10-19",
+      "layerIds": [1, 4, 5],
+      "industries": ["工业 AI", "Physical AI", "机器人", "数字孪生"],
+      "beneficiaries": {
+        "industries": ["工业自动化", "机器人本体与零部件", "AI 工厂基础设施"],
+        "companies": ["NVIDIA", "Siemens", "Agile Robots", "Avelios Medical"],
+        "stocks": [
+          {
+            "code": "usNVDA",
+            "name": "英伟达",
+            "reason": "工业 AI 与机器人训练/仿真场景延展了 GPU、Omniverse 与 Physical AI 软件栈的需求边界"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cognizant-google-gemini-frontier-group-2026-10",
+      "title": "Cognizant 与 Google Cloud 扩大联盟，设立 Gemini Frontier Capability Group",
+      "summary": "Cognizant 与 Google Cloud 宣布扩大合作，设立 Gemini Frontier Capability Group，并投入超过 18,000 名 Cognizant 工程师推动企业 Agentic AI 落地。双方称已有 55,000 多名员工完成 Build with Gemini 培训，新团队将优先覆盖遗留系统现代化、开发者体验、自主业务流程和网络防御。事件对应平台与工具层、应用与解决方案层，显示大型集成商正把生成式 AI 从试点推向生产级交付。",
+      "sourceUrl": "https://www.googlecloudpresscorner.com/2026-10-19-Cognizant-and-Google-Cloud-Expand-Alliance-to-Accelerate-Agentic-Enterprise-Transformation",
+      "publishedAt": "2026-10-19",
+      "layerIds": [3, 4],
+      "industries": ["云计算", "Agentic AI", "企业软件", "系统集成"],
+      "beneficiaries": {
+        "industries": ["企业 AI 平台", "IT 服务", "AI 安全与治理"],
+        "companies": ["Google Cloud", "Cognizant"],
+        "stocks": [
+          {
+            "code": "usGOOGL",
+            "name": "Alphabet",
+            "reason": "Gemini 平台通过大型服务商扩大企业交付渠道，可能带动云端模型、治理与 Agent 编排需求"
+          },
+          {
+            "code": "usCTSH",
+            "name": "Cognizant",
+            "reason": "专门的 Gemini 工程团队使其 IT 服务收入对企业 AI 生产化项目更敏感"
+          }
+        ]
+      }
+    },
+    {
+      "id": "huntington-google-1866-studio-2026-10",
+      "title": "Huntington Bank 基于 Google Cloud 推出小企业 AI 操作系统 The 1866 Studio",
+      "summary": "Huntington Bank 宣布推出 The 1866 Studio，这是基于 Google Cloud Gemini 平台构建的小企业 AI 操作系统，面向创业者和小企业主提供业务启动、营销生成、贷款准备度评估等 Agentic 工作流。该产品从 10 月 19 日开始开放早期访问，且不只面向 Huntington 客户。事件对应平台与工具层、应用与解决方案层，体现金融机构把 AI 助手嵌入中小企业经营流程的落地路径。",
+      "sourceUrl": "https://www.googlecloudpresscorner.com/2026-10-19-Huntington-Bank-Introduces-The-1866-Studio,-an-AI-Powered-Small-Business-Operating-System-Built-with-Google-Cloud",
+      "publishedAt": "2026-10-19",
+      "layerIds": [3, 4],
+      "industries": ["金融科技", "小企业 SaaS", "云端 AI", "Agent 工作流"],
+      "beneficiaries": {
+        "industries": ["金融 AI 应用", "企业经营软件", "云 AI 服务"],
+        "companies": ["Huntington Bank", "Google Cloud"],
+        "stocks": [
+          {
+            "code": "usGOOGL",
+            "name": "Alphabet",
+            "reason": "银行端小企业操作系统采用 Gemini 平台，验证 Google Cloud 在行业 Agent 工作流中的商业化场景"
+          },
+          {
+            "code": "usHBAN",
+            "name": "Huntington Bancshares",
+            "reason": "AI 工具可能增强其小企业客户获客和服务深度，但效果仍需后续使用数据验证"
+          }
+        ]
+      }
+    },
+    {
+      "id": "skyfall-sky001-engineering-world-model-2026-10",
+      "title": "Skyfall AI 发布工程世界模型 SKY-001，面向 CAD/BIM 设计流程",
+      "summary": "Skyfall AI 发布研究预览版 SKY-001，称其为面向复杂实体产品设计的分层组合视觉世界模型，可从文本或 2D 草图规划 CAD/BIM 建模轨迹。公司表示该模型通过空间规划与递归 3D 推理，把生成式 AI 从表面几何扩展到可执行的工程设计树。事件对应模型与算法层、应用与解决方案层，代表 AI 在工程、建筑和制造设计软件中的垂直化探索。",
+      "sourceUrl": "https://www.webwire.com/ViewPressRel.asp?aId=363053",
+      "publishedAt": "2026-10-19",
+      "layerIds": [2, 4],
+      "industries": ["世界模型", "CAD", "BIM", "工程软件"],
+      "beneficiaries": {
+        "industries": ["工业设计软件", "建筑科技", "工程自动化"],
+        "companies": ["Skyfall AI", "Autodesk"],
+        "stocks": [
+          {
+            "code": "usADSK",
+            "name": "Autodesk",
+            "reason": "CAD/BIM 工作流若被 AI 世界模型加速，可能提升工程设计软件生态对 AI 插件和平台能力的需求"
+          }
+        ]
+      }
+    }
+  ]
+}
