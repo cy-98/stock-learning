@@ -2,7 +2,7 @@
   "meta": {
     "title": "AI 五层模型",
     "subtitle": "从算力底座到场景落地 · 行业 · 趋势 · 事件 · Section 1 投资分析",
-    "updated": "2026-05-28"
+    "updated": "2026-10-20"
   },
   "layers": [
     {
@@ -111,6 +111,16 @@
           "date": "2026-05",
           "title": "电力板块题材波动",
           "body": "大唐发电等标的短期暴涨，案例提示：逻辑可对、价格需估值纪律。"
+        },
+        {
+          "date": "2026-10-18",
+          "title": "AI 数据中心融资受利率检验",
+          "body": "Reuters 报道，利率上行与 AI 相关股票回调使数据中心融资和上市计划承压，投资人更关注长期合约、杠杆与执行风险。"
+        },
+        {
+          "date": "2026-10-19",
+          "title": "英国 AI 数据中心遭遇电力接入延迟",
+          "body": "Reuters 称微软因英国 Loughton 项目电网接入延至 2030 年代而退出 Nscale 单站点协议，凸显算力扩张受电力约束。"
         }
       ]
     },
@@ -205,6 +215,11 @@
           "date": "2026",
           "title": "开源生态扩张",
           "body": "企业私有化部署需求带动一体机与国产算力适配。"
+        },
+        {
+          "date": "2026-10-19",
+          "title": "Meta 发布端侧 Agent 模型 Muse Glimmer",
+          "body": "Meta AI Research 发布 Muse Glimmer 30B，定位为可在消费级硬件本地运行的开源端侧 Agent 模型，覆盖多步规划与工具使用。"
         }
       ]
     },
@@ -289,6 +304,16 @@
           "date": "2026",
           "title": "数据合规升级",
           "body": "企业内网部署与私有化模型需求增加。"
+        },
+        {
+          "date": "2026-10-19",
+          "title": "AWS 推出 Lambda Web Functions",
+          "body": "AWS 周报披露 Lambda Web Functions，可将标准 HTTP 应用部署到 Lambda，并支持区域复制、灰度流量与按 CPU 时间计费。"
+        },
+        {
+          "date": "2026-10-19",
+          "title": "Trainium 适配 PyTorch 工作流",
+          "body": "Amazon 介绍 TorchNeuron，使既有 PyTorch 应用可通过少量配置运行在 AWS Trainium 芯片上，降低企业 AI 训练与推理迁移成本。"
         }
       ]
     },
@@ -378,6 +403,16 @@
           "date": "2026",
           "title": "垂直 Agent 融资活跃",
           "body": "法律、财务、客服等场景出现专业化智能体产品。"
+        },
+        {
+          "date": "2026-10-19",
+          "title": "Huntington 推出小企业 AI 操作系统",
+          "body": "Huntington Bank 与 Google Cloud 发布 1866 Studio，将 Gemini 平台用于小企业经营、融资准备和增长规划等 Agent 工作流。"
+        },
+        {
+          "date": "2026-10-18",
+          "title": "制造业 AI 工作台连接报价排产质检",
+          "body": "BlueOcean AI 展示工业订单履约工作台，把工艺规划、生产排程和视觉质检 Agent 连接到同一制造图纸数据流。"
         }
       ]
     },
@@ -482,6 +517,16 @@
           "date": "持续",
           "title": "投资方法论沉淀",
           "body": "本仓库 Section 1/2：框架 + 澜起、电力案例复盘。"
+        },
+        {
+          "date": "2026-10-18",
+          "title": "Hyundai 推进 physical AI 制造路线图",
+          "body": "Korea Times 报道，Hyundai 在研发中心推进 AI 工厂、物流机器人和自动化检测，并计划 2032 年后在未来工厂引入人形机器人。"
+        },
+        {
+          "date": "2026-10-18",
+          "title": "韩国启动稀土磁材 K-Moonshot 计划",
+          "body": "韩国科技部门启动稀土产学研协作，目标在 2027 年起推进少稀土磁材、回收技术与 AI 辅助材料研发。"
         }
       ]
     }
