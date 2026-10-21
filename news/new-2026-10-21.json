@@ -1,0 +1,118 @@
+{
+  "date": "2026-10-21",
+  "items": [
+    {
+      "id": "soar-ohio-ai-compute-campus-2026-10",
+      "title": "SOAR AI 称俄亥俄 AI 算力园区按计划推进首批 AMD GPU 上线",
+      "summary": "SOAR AI 发布建设进展称，其位于俄亥俄 Chillicothe 的 AI compute campus 正在安装数据大厅变压器与冷却设备，计划在 2026 年 12 月 31 日让首批 4096 块 AMD Instinct MI355X GPU 投入服务。该设施由旧造纸厂改造，采用机架级直液冷，并称现有可用电力为 154MW、长期路线图为 480MW。事件对应算力与基础设施层，体现 AI 数据中心供电、冷却与 GPU 交付节奏仍是产业链约束。",
+      "sourceUrl": "https://ir.soarai.com/news-events/press-releases/detail/166/soar-ais-ohio-ai-compute-campus-on-track-for-december-31-in-service-date-with-contracted-revenue-expected-to-begin-january-2027",
+      "publishedAt": "2026-10-20",
+      "layerIds": [1],
+      "industries": ["AI 算力", "数据中心", "液冷", "GPU"],
+      "beneficiaries": {
+        "industries": ["AI 数据中心建设", "液冷基础设施", "GPU 服务器"],
+        "companies": ["SOAR AI", "AMD"],
+        "stocks": [
+          {
+            "code": "usSOAR",
+            "name": "SOAR AI",
+            "reason": "项目若按期交付，将直接增加其 AI 基础设施服务能力与客户交付基础"
+          },
+          {
+            "code": "usAMD",
+            "name": "AMD",
+            "reason": "该园区首批部署使用 AMD Instinct MI355X，后续计划采用 MI455X/Helios 平台，对 AMD 数据中心 GPU 生态形成案例支撑"
+          }
+        ]
+      }
+    },
+    {
+      "id": "amd-intel-pytorch-x86-onednn-2026-10",
+      "title": "AMD 与 Intel 合作把 x86 CPU 的 PyTorch 优化统一到 oneDNN",
+      "summary": "AMD 与 Intel 宣布将各自的 x86 CPU PyTorch 优化工作合并到 oneDNN，并把 oneDNN 作为 PyTorch 内 x86 加速的默认开源库路径。AMD 将把 ZenDNN 优化整合进 oneDNN，同时双方还将围绕 AI Compute Extensions 推进矩阵乘法等 AI 工作负载指令支持。事件对应模型与平台层，核心影响在于降低 x86 CPU 上部署与优化 AI 应用的碎片化成本。",
+      "sourceUrl": "https://newsroom.amd.com/news/amd-intel-collaborate-simplify-ai-development-on-x86-cpus-pytorch/",
+      "publishedAt": "2026-10-20",
+      "layerIds": [2, 3],
+      "industries": ["AI 开发框架", "CPU 推理", "开源生态"],
+      "beneficiaries": {
+        "industries": ["AI 软件栈", "企业推理部署", "开源深度学习框架"],
+        "companies": ["AMD", "Intel", "PyTorch", "Red Hat"],
+        "stocks": [
+          {
+            "code": "usAMD",
+            "name": "AMD",
+            "reason": "ZenDNN 优化进入 oneDNN 后，有助于提升 AMD x86 CPU 在 PyTorch AI 工作负载中的开发可用性"
+          },
+          {
+            "code": "usINTC",
+            "name": "Intel",
+            "reason": "Intel 可通过 oneDNN 与未来 ACE 指令集强化 x86 CPU 在企业 AI 推理与编排中的软件生态地位"
+          }
+        ]
+      }
+    },
+    {
+      "id": "couchbase-ai-data-plane-agent-memory-2026-10",
+      "title": "Couchbase 扩展 AI Data Plane，推出托管 Agent Memory 与 MCP 服务",
+      "summary": "Couchbase 宣布扩展 AI Data Plane，新增 Amazon Bedrock 语义缓存、托管 Agent Memory、AWS 上托管 MCP server，以及 Operational Insights 中的向量搜索能力。公司称这些能力面向生产级 AI Agent 的高并发数据访问、长期记忆和统一治理需求，目标是减少碎片化数据服务。事件对应平台与工具层，反映企业 Agent 从试点走向生产时，数据库、向量检索、记忆层和治理能力正在融合。",
+      "sourceUrl": "https://www.couchbase.com/press-releases/couchbase-ai-data-plane-cuts-the-cost-of-running-production-ai-agents-at-enterprise-scale/",
+      "publishedAt": "2026-10-20",
+      "layerIds": [3],
+      "industries": ["数据库", "向量搜索", "MCP", "Agent Memory"],
+      "beneficiaries": {
+        "industries": ["AI 数据平台", "企业 Agent 基础设施", "云数据库"],
+        "companies": ["Couchbase", "Amazon Web Services", "Mavenir"],
+        "stocks": [
+          {
+            "code": "usBASE",
+            "name": "Couchbase",
+            "reason": "Agent Memory、MCP 与向量搜索能力直接强化其作为企业 AI 数据平面的产品定位"
+          },
+          {
+            "code": "usAMZN",
+            "name": "亚马逊",
+            "reason": "新能力围绕 Amazon Bedrock 和 AWS 托管服务展开，可能提升 AWS 生态中企业 Agent 数据层需求"
+          }
+        ]
+      }
+    },
+    {
+      "id": "google-gemini-government-services-2026-10",
+      "title": "Google Public Sector 发布 Gemini for government services 预览版",
+      "summary": "Google Public Sector 推出 Gemini for government services，面向美国联邦、州和地方政府提供带行业技能、数据连接器、第三方 Agent 生态和治理控制面的代理式解决方案。该产品处于预览阶段，Google 称已被密苏里州和美国卫生与公众服务部等部分机构使用。事件对应平台与应用层，体现大模型能力正被打包进政府采购、政策解读、FOIA 文档处理和公共服务流程。",
+      "sourceUrl": "https://www.googlecloudpresscorner.com/2026-10-20-Google-Public-Sector-Launches-Gemini-for-Government-Services",
+      "publishedAt": "2026-10-20",
+      "layerIds": [3, 4],
+      "industries": ["政务 AI", "云计算", "行业 Agent"],
+      "beneficiaries": {
+        "industries": ["公共部门云服务", "政府数字化", "系统集成"],
+        "companies": ["Google Cloud", "Accenture Federal Services", "Deloitte", "ServiceNow", "Salesforce"],
+        "stocks": [
+          {
+            "code": "usGOOGL",
+            "name": "Alphabet",
+            "reason": "Gemini for government services 将 Gemini、Google Cloud 基础设施和数据治理能力打包进入公共部门场景"
+          },
+          {
+            "code": "usACN",
+            "name": "埃森哲",
+            "reason": "Google 公布的伙伴生态包括 Accenture Federal Services，系统集成商可能参与政府 Agent 落地项目"
+          }
+        ]
+      }
+    },
+    {
+      "id": "grafana-agentic-operations-observability-2026-10",
+      "title": "Grafana Labs 发布 Agentic Operations 更新，强化 AI Agent 可观测性",
+      "summary": "Grafana Labs 在 ObservabilityCON 2026 发布多项 Grafana Cloud 更新，包括 Agent Observability with OpenTelemetry support 与 Assistant Watchers 正式可用，以及 Grafana Managed Sandboxes 和 Grafana Pages 预览。新能力覆盖两条线索：用 Agent 辅助系统运维，以及监控企业自己运行的 LLM Agent 成本、行为和可靠性。事件对应平台与工具层，显示可观测性厂商正在把 AI Agent 纳入标准运维栈。",
+      "sourceUrl": "https://www.businesswire.com/news/home/20261020082945/en/Grafana-Labs-Charts-the-Path-to-Agentic-Operations-with-Watchers-Pages-and-Agent-Observability-at-ObservabilityCON-2026",
+      "publishedAt": "2026-10-20",
+      "layerIds": [3],
+      "industries": ["可观测性", "DevOps", "AI Agent 治理"],
+      "beneficiaries": {
+        "industries": ["云原生可观测性", "AIOps", "OpenTelemetry 生态"],
+        "companies": ["Grafana Labs", "SailPoint", "OpenTelemetry"]
+      }
+    }
+  ]
+}
