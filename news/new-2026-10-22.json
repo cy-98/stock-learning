@@ -1,0 +1,135 @@
+{
+  "date": "2026-10-22",
+  "items": [
+    {
+      "id": "google-cloud-vera-rubin-a5x-2026-10",
+      "title": "Google Cloud 与 NVIDIA 宣布 Vera Rubin A5X 实例进入 GA 计划",
+      "summary": "NVIDIA 10 月 21 日称，Google Cloud 基于 NVIDIA Vera Rubin NVL72 的 A5X 实例计划下月进入一般可用，并扩展至欧洲。A5X 将 Vera Rubin、ConnectX-9、Google Virgo Network 与第四代液冷技术组合，用于大规模强化学习、Agent 推理和训练工作负载。该事件主要对应算力与基础设施层，也反映云平台正在把下一代 AI 工厂能力产品化。",
+      "sourceUrl": "https://blogs.nvidia.com/blog/google-cloud-vera-rubin-infrastructure/",
+      "publishedAt": "2026-10-21",
+      "layerIds": [1, 3],
+      "industries": ["AI 算力", "云计算", "液冷数据中心", "强化学习"],
+      "beneficiaries": {
+        "industries": ["GPU 云基础设施", "高速互连", "数据中心液冷", "AI Hypercomputer"],
+        "companies": ["NVIDIA", "Google Cloud", "Ineffable Intelligence", "WPP"],
+        "stocks": [
+          {
+            "code": "usNVDA",
+            "name": "英伟达",
+            "reason": "Vera Rubin NVL72 进入云实例 GA 计划，可能扩大下一代 GPU、网络与 AI 工厂平台需求"
+          },
+          {
+            "code": "usGOOGL",
+            "name": "Alphabet",
+            "reason": "Google Cloud 通过 A5X 将 Vera Rubin 算力纳入 AI Hypercomputer，增强面向 Agent 与强化学习客户的云平台供给"
+          }
+        ]
+      }
+    },
+    {
+      "id": "nvidia-agent-knowledge-foundation-2026-10",
+      "title": "NVIDIA 扩展 Agent Toolkit，用 Agent Knowledge Foundation 连接企业数据",
+      "summary": "NVIDIA 10 月 21 日宣布扩展开源 Agent Toolkit，新增 Agent Knowledge Foundation、Auto-Ontology、Nemotron Retriever、Kumo 结构化模型、OpenShell 与 NemoClaw 蓝图等组件。公司称这些工具可让企业 Agent 在不迁移数据、不重建工作流和不改变治理控制的前提下理解公司数据、检索上下文并做预测。事件对应模型与算法层、平台与工具层，重点在企业 Agent 的数据语义层与安全运行边界。",
+      "sourceUrl": "https://blogs.nvidia.com/blog/enterprise-platforms-agent-toolkit/",
+      "publishedAt": "2026-10-21",
+      "layerIds": [2, 3],
+      "industries": ["Agent 平台", "企业数据", "RAG", "知识图谱"],
+      "beneficiaries": {
+        "industries": ["企业数据平台", "向量检索", "知识图谱", "Agent 编排与治理"],
+        "companies": ["NVIDIA", "Palantir", "Databricks", "Snowflake", "ServiceNow"],
+        "stocks": [
+          {
+            "code": "usNVDA",
+            "name": "英伟达",
+            "reason": "Agent Knowledge Foundation 扩展其模型、CUDA-X 与安全运行时软件栈，提升企业 Agent 平台黏性"
+          },
+          {
+            "code": "usPLTR",
+            "name": "Palantir",
+            "reason": "NVIDIA 披露其供应链组织通过 Palantir Foundry、Ontology 与 AIP 使用该基础能力，平台生态曝光度提升"
+          },
+          {
+            "code": "usSNOW",
+            "name": "Snowflake",
+            "reason": "Snowflake Notebook 将支持 Kumo Engine 和 Kumo Relational，可能增强其企业数据到 Agent 的预测能力"
+          }
+        ]
+      }
+    },
+    {
+      "id": "servicenow-arc-openshell-governance-2026-10",
+      "title": "ServiceNow Arc 正式可用，并接入 NVIDIA OpenShell 做 Agent 运行时治理",
+      "summary": "ServiceNow 10 月 21 日宣布 Arc 个人长时运行 AI Agent 正式可用，可处理 ServiceNow 工作流、邮件、Teams 和常见生产力工具中的任务。Arc 由 ServiceNow Super Intelligence Control Tower 治理，并由 NVIDIA OpenShell 在运行时执行策略；AI Passport 后续还将与 OpenShell、NVIDIA Sentry 和 BlueField DPU 集成。事件对应平台与工具层、应用与解决方案层，体现企业应用 Agent 从功能发布走向权限、审计和硬件执行边界建设。",
+      "sourceUrl": "https://newsroom.servicenow.com/press-releases/details/2026/ServiceNow-delivers-industry-first-personal-enterprise-agent-and-policy-enforcement-with-NVIDIA-extending-AI-governance-across-software-and-silicon/",
+      "publishedAt": "2026-10-21",
+      "layerIds": [3, 4],
+      "industries": ["企业 SaaS", "Agent 治理", "工作流自动化", "AI 安全"],
+      "beneficiaries": {
+        "industries": ["企业工作流 Agent", "AI 权限治理", "DPU 安全执行", "办公自动化"],
+        "companies": ["ServiceNow", "NVIDIA"],
+        "stocks": [
+          {
+            "code": "usNOW",
+            "name": "ServiceNow",
+            "reason": "Arc 已纳入 EmployeeWorks SKU，可能提升 ServiceNow 平台在企业 Agent 工作流中的控制塔地位"
+          },
+          {
+            "code": "usNVDA",
+            "name": "英伟达",
+            "reason": "OpenShell、Sentry 与 BlueField 被用于 Agent 策略执行，强化其从芯片到安全运行时的软件硬件栈叙事"
+          }
+        ]
+      }
+    },
+    {
+      "id": "hpe-ai-factory-nvidia-mcp-2026-10",
+      "title": "HPE 扩展 AI Factory with NVIDIA，加入 MCP 服务与安全 Agent 基础设施",
+      "summary": "HPE 10 月 21 日发布 HPE AI Factory with NVIDIA 更新，称 HPE Private Cloud AI 将提供生产级 API、受治理的 MCP 服务、身份控制和审计日志，帮助应用和自主 Agent 安全访问推理、模型和知识服务。公告还包括 NVIDIA Vera CPU Rack by HPE、OpenShell Reference Architecture 支持、DSX POD 模块化 AI 工厂以及 H200 与 RTX PRO 6000 Blackwell 混合集群能力。事件主要对应算力与基础设施层、平台与工具层，关注私有云和主权环境中的 Agent 生产化。",
+      "sourceUrl": "https://www.hpe.com/us/en/newsroom/press-release/2026/10/hpe-teams-with-nvidia-to-advance-secure-agentic-ai-across-enterprises-and-industrial-environments.html",
+      "publishedAt": "2026-10-21",
+      "layerIds": [1, 3],
+      "industries": ["私有云 AI", "AI Factory", "MCP", "主权算力"],
+      "beneficiaries": {
+        "industries": ["企业私有云", "AI 工厂集成", "Agent 安全治理", "液冷与模块化数据中心"],
+        "companies": ["HPE", "NVIDIA", "Schneider Electric"],
+        "stocks": [
+          {
+            "code": "usHPE",
+            "name": "HPE",
+            "reason": "HPE Private Cloud AI 增加 API、MCP 与异构 GPU 调度能力，可能提升企业私有 AI 工厂方案竞争力"
+          },
+          {
+            "code": "usNVDA",
+            "name": "英伟达",
+            "reason": "HPE 新方案绑定 Vera CPU、Vera Rubin、BlueField 和 OpenShell，扩大 NVIDIA AI 工厂参考架构的硬件与软件落地面"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ibm-redhat-llmd-1-open-inference-2026-10",
+      "title": "IBM 与 Red Hat 等贡献的 llm-d 1.0 发布，面向生产级分布式推理",
+      "summary": "IBM 新闻稿显示，llm-d 项目贡献者 10 月 20 日发布 llm-d 1.0，这是面向大模型分布式推理的开源生产版本，项目由 Red Hat、IBM、Google Cloud、CoreWeave 和 NVIDIA 于 2025 年创建并由 CNCF 治理。1.0 版本包含多租户 QoS、零停机运维、v1 配置 API、会话感知路由和 Agent-aware serving 等能力，用于支持上下文密集型 Agent 工作负载。事件对应模型与算法层、平台与工具层，说明推理成本、缓存路由和多租户调度成为 Agent 规模化部署的基础设施问题。",
+      "sourceUrl": "https://newsroom.ibm.com/2026-10-20-llm-d-1-0-advances-open,-cost-efficient-ai-inference-for-production-scale",
+      "publishedAt": "2026-10-20",
+      "layerIds": [2, 3],
+      "industries": ["AI 推理", "云原生", "开源基础设施", "Agent 工作负载"],
+      "beneficiaries": {
+        "industries": ["分布式推理", "Kubernetes AI 基础设施", "模型服务优化", "GPU 利用率提升"],
+        "companies": ["IBM", "Red Hat", "Google Cloud", "CoreWeave", "NVIDIA"],
+        "stocks": [
+          {
+            "code": "usIBM",
+            "name": "IBM",
+            "reason": "IBM 与 Red Hat 是 llm-d 创建方和核心贡献者，开源推理栈成熟有助于其混合云 AI 平台叙事"
+          },
+          {
+            "code": "usNVDA",
+            "name": "英伟达",
+            "reason": "llm-d 1.0 将面向 NVIDIA Vera Rubin 适配，可能提升复杂 Agent 推理对 NVIDIA 加速基础设施的软件支持"
+          }
+        ]
+      }
+    }
+  ]
+}
