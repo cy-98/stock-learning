@@ -1,0 +1,115 @@
+{
+  "date": "2026-10-23",
+  "items": [
+    {
+      "id": "nvidia-ai-infra-supply-chain-capacity-2026-10",
+      "title": "NVIDIA 公布 AI 基础设施供应链扩产计划，覆盖载板、封装、测试与 CPO",
+      "summary": "NVIDIA 在 GTC Berlin 宣布与 Amkor、IBIDEN、KYEC、Samsung Electro-Mechanics、SPIL、Unimicron 等供应链伙伴扩大产能，以支撑 AI 工厂平台放量。公告称载板产能计划三年内提升 2.5 倍，Amkor 先进封装产能到 2028 年底目标提升超过 300%，SPIL 的 CPO 光引擎产能到 2027 年中目标提升 15 倍。事件对应算力与基础设施层，显示 AI 芯片供给约束正从 GPU 本体延伸到载板、先进封装、测试与光互连环节。",
+      "sourceUrl": "https://nvidianews.nvidia.com/news/nvidia-and-supply-chain-partners-expand-capacity-to-accelerate-ai-infrastructure-buildout",
+      "publishedAt": "2026-10-21",
+      "layerIds": [1],
+      "industries": ["AI 算力", "先进封装", "半导体供应链", "CPO"],
+      "beneficiaries": {
+        "industries": ["高端封装载板", "先进封装测试", "光引擎与 CPO"],
+        "companies": ["NVIDIA", "Amkor Technology", "IBIDEN", "SPIL", "Unimicron"],
+        "stocks": [
+          {
+            "code": "usNVDA",
+            "name": "英伟达",
+            "reason": "供应链伙伴扩产有助于缓解 AI 工厂平台交付瓶颈，逻辑上支撑其加速计算生态放量"
+          },
+          {
+            "code": "usAMKR",
+            "name": "Amkor Technology",
+            "reason": "公告明确提到其计划扩大先进封装产能，直接对应 AI 芯片后段封装需求"
+          }
+        ]
+      }
+    },
+    {
+      "id": "kddi-broadcom-cpo-ai-datacenter-2026-10",
+      "title": "KDDI 与 Broadcom 开始 CPO 联合验证，瞄准 AI 数据中心低功耗互连",
+      "summary": "KDDI 宣布与 Broadcom 在网络基础设施技术上展开合作，并从 10 月 22 日起验证面向 AI 数据中心 GPU 间网络的 Co-Packaged Optics (CPO)。验证环境将引入搭载 Broadcom Tomahawk 6 以太网交换芯片与 Davisson 光引擎的 CPO 交换机，并评估功耗、丢包、拥塞控制和有效吞吐等指标。该事项对应算力层的光互连与网络芯片环节，反映大规模训练和推理对低功耗高带宽连接的需求上升。",
+      "sourceUrl": "https://newsroom.kddi.com/english/news/detail/kddi_nr-1208_4775.html",
+      "publishedAt": "2026-10-22",
+      "layerIds": [1],
+      "industries": ["CPO", "以太网交换芯片", "AI 数据中心", "光互连"],
+      "beneficiaries": {
+        "industries": ["高速交换芯片", "光模块", "数据中心网络"],
+        "companies": ["KDDI", "Broadcom", "中际旭创", "新易盛"],
+        "stocks": [
+          {
+            "code": "usAVGO",
+            "name": "博通",
+            "reason": "Tomahawk 6 与 Davisson 光引擎进入运营商 AI 数据中心验证，体现其 CPO 与以太网交换芯片方案的产业牵引力"
+          },
+          {
+            "code": "sz300308",
+            "name": "中际旭创",
+            "reason": "AI 数据中心光互连升级提升高速光模块与相关器件的需求敏感度"
+          }
+        ]
+      }
+    },
+    {
+      "id": "google-agent-compute-engine-governance-2026-10",
+      "title": "Google Cloud 推出 Agent Compute Engine，强调 Agent 沙箱与治理基础设施",
+      "summary": "Google Cloud 在 AGNTCon + MCPCon 发布 Agent Compute Engine，称其为面向自治 Agent 的专用计算服务，计划在未来数月进入预览。该服务使用 microVM、硬件隔离、短期凭证和 Agent Gateway 等能力，支持 Agent 会话快速启动、暂停、恢复和审计；同时 Google 还扩展 Gemini for business 的跨运行时 Agent 治理。事件对应平台与工具层，说明企业级 Agent 落地正在从模型能力竞争转向安全执行环境、身份、观测和成本治理。",
+      "sourceUrl": "https://cloud.google.com/blog/topics/ai-infrastructure/introducing-agent-compute-engine-and-expanded-agent-governance",
+      "publishedAt": "2026-10-22",
+      "layerIds": [3],
+      "industries": ["云计算", "Agent 基础设施", "AI 安全", "MLOps"],
+      "beneficiaries": {
+        "industries": ["云原生安全", "Agent 运行时", "企业 AI 治理"],
+        "companies": ["Google Cloud", "Nous Research"],
+        "stocks": [
+          {
+            "code": "usGOOGL",
+            "name": "Alphabet",
+            "reason": "Agent Compute Engine 与 Gemini 治理能力增强了 Google Cloud 在企业 Agent 基础设施中的平台粘性"
+          }
+        ]
+      }
+    },
+    {
+      "id": "oracle-ai-agent-studio-industries-2026-10",
+      "title": "Oracle 发布行业应用版 AI Agent Studio，面向垂直流程构建与治理 Agent",
+      "summary": "Oracle 宣布 Oracle AI Agent Studio for Industry Applications，这是面向行业业务流程的低代码/无代码 Agent 构建、测试、编排、部署与管理环境。平台强调预置行业 Agent、跨应用编排、MCP 支持、模型选择、调试观测和企业安全控制，覆盖工程建筑、零售、金融、餐饮、政府、公用事业、通信和酒店等场景。该事项横跨平台层与应用层，显示大型企业软件厂商正把 Agent 从通用助手嵌入到行业工作流和既有应用数据中。",
+      "sourceUrl": "https://www.oracle.com/news/announcement/oracle-ai-agent-studio-for-industry-applications-helps-accelerate-business-outcomes-2026-10-21/",
+      "publishedAt": "2026-10-21",
+      "layerIds": [3, 4],
+      "industries": ["企业软件", "垂直 SaaS", "Agent 工作流", "MCP"],
+      "beneficiaries": {
+        "industries": ["行业应用软件", "低代码开发平台", "企业流程自动化"],
+        "companies": ["Oracle", "KPMG", "PwC"],
+        "stocks": [
+          {
+            "code": "usORCL",
+            "name": "甲骨文",
+            "reason": "行业 Agent Studio 强化 Oracle 在云应用、OCI 与垂直行业流程之间的产品闭环"
+          }
+        ]
+      }
+    },
+    {
+      "id": "nvidia-hyperion-europe-mobility-2026-10",
+      "title": "NVIDIA Hyperion 获欧洲出行伙伴展示与采用，扩展 Robotaxi 和自动驾驶生态",
+      "summary": "NVIDIA 在 GTC Berlin 宣布，Bolt with Lucid、Mercedes-Benz、Volkswagen Commercial Vehicles、Einride 等欧洲出行与车企伙伴展示基于 NVIDIA Hyperion 的 L3/L4 和 Robotaxi 用例，Volvo Cars 也采用 Hyperion 与 Alpamayo Stack。公告还推出 Halos SAFE 安全评估框架、Alpamayo 2 Edge、Alpamayo Agentic Factory 与 Cosmos 3 Nano 变体，用于自动驾驶开发、仿真和验证。该事项对应终端与生态层，也连接算力平台，体现 Physical AI 在智能汽车和 Robotaxi 场景的产业化推进。",
+      "sourceUrl": "https://nvidianews.nvidia.com/news/european-mobility-leaders-build-safe-vehicles-and-robotaxi-fleets-on-nvidia-hyperion",
+      "publishedAt": "2026-10-21",
+      "layerIds": [1, 5],
+      "industries": ["智能汽车", "Robotaxi", "Physical AI", "自动驾驶芯片"],
+      "beneficiaries": {
+        "industries": ["车端 AI 计算平台", "自动驾驶仿真验证", "Robotaxi 运营生态"],
+        "companies": ["NVIDIA", "Bolt", "Lucid", "Mercedes-Benz", "Volvo Cars", "Volkswagen Commercial Vehicles"],
+        "stocks": [
+          {
+            "code": "usNVDA",
+            "name": "英伟达",
+            "reason": "Hyperion、Halos 与 Cosmos 工具链扩大到更多欧洲车企和出行伙伴，提升其车端 AI 平台生态影响力"
+          }
+        ]
+      }
+    }
+  ]
+}
