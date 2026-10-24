@@ -1,0 +1,105 @@
+{
+  "date": "2026-10-24",
+  "items": [
+    {
+      "id": "google-cloud-claude-managed-deployment-2026-10",
+      "title": "Google Cloud 推出 Anthropic 托管 Claude 部署选项，强化模型选择与企业治理",
+      "summary": "Google Cloud 宣布 Claude Models on Google Cloud 的 Anthropic 托管部署选项正式可用，客户可在 Google Cloud 账单、IAM 与审计日志体系下获得 Claude 平台功能，包括 Claude Managed Agents、skills 与代码执行。Google 托管版本仍面向更严格的数据驻留、CMEK 与合规场景。事件对应模型层与平台层，说明云厂商正在把前沿模型供给、Agent 工具链和企业治理打包为可选部署架构。",
+      "sourceUrl": "https://cloud.google.com/blog/products/ai-machine-learning/expanding-claude-availability-on-google-cloud",
+      "publishedAt": "2026-10-23",
+      "layerIds": [2, 3],
+      "industries": ["大模型", "云计算", "Agent 平台", "AI 治理"],
+      "beneficiaries": {
+        "industries": ["企业模型平台", "云端 AI 服务", "Agent 开发工具"],
+        "companies": ["Google Cloud", "Anthropic"],
+        "stocks": [
+          {
+            "code": "usGOOGL",
+            "name": "Alphabet",
+            "reason": "Google Cloud 通过多模型托管与治理能力增强企业 AI 平台黏性，云 AI 工作负载逻辑上敏感"
+          }
+        ]
+      }
+    },
+    {
+      "id": "hkex-ai-semiconductor-indices-2026-10",
+      "title": "港交所推出人工智能与半导体指数，并授权南方基金开发内地 ETF",
+      "summary": "港交所宣布推出 HKEX Artificial Intelligence Index 与 HKEX Semiconductor Index，前者覆盖 40 家港股 AI 价值链公司，范围横跨芯片设计、数据中心、AI 基础设施、模型、软件与物理应用。港交所同时与南方基金签署授权协议，拟在中国内地推出跟踪人工智能指数的 ETF 产品。事件对应五层 AI 产业链的资本市场映射，反映交易所和资管机构正把 AI 主题产品化。",
+      "sourceUrl": "https://www.hkex.com.hk/News/News-Release/2026/261023news?sc_lang=en",
+      "publishedAt": "2026-10-23",
+      "layerIds": [1, 2, 3, 4, 5],
+      "industries": ["AI 指数", "半导体", "ETF", "资本市场"],
+      "beneficiaries": {
+        "industries": ["指数编制", "主题 ETF", "港股科技生态"],
+        "companies": ["HKEX", "Southern Asset Management"],
+        "stocks": [
+          {
+            "code": "hk0388",
+            "name": "香港交易所",
+            "reason": "AI 与半导体指数扩展港交所产品生态，可能带动相关指数授权和衍生产品需求"
+          }
+        ]
+      }
+    },
+    {
+      "id": "microsoft-tk-elevator-ai-agents-2026-10",
+      "title": "TK Elevator 基于 Microsoft Azure 为现场服务技师部署数据与 AI Agent",
+      "summary": "Microsoft 披露 TK Elevator 正在使用 Microsoft Foundry、Azure OpenAI in Foundry Models、Azure IoT 与 Azure Databricks，为电梯和扶梯服务技师提供现场简报、资料检索和语音复盘 Agent。该系统利用过去十年的联网设备、服务信息与技术文档，帮助技师更快找到设备、工具和故障背景，并把现场经验回流给全球团队。事件对应平台层与应用层，展示工业服务场景从 IoT 数据平台向垂直 Agent 工作流演进。",
+      "sourceUrl": "https://news.microsoft.com/source/emea/features/data-and-ai-agents-give-a-lift-to-tk-elevator-service-technicians/",
+      "publishedAt": "2026-10-22",
+      "layerIds": [3, 4],
+      "industries": ["工业服务", "IoT", "Agent 应用", "云计算"],
+      "beneficiaries": {
+        "industries": ["工业 AI 应用", "云端数据平台", "现场服务软件"],
+        "companies": ["Microsoft", "TK Elevator"],
+        "stocks": [
+          {
+            "code": "usMSFT",
+            "name": "微软",
+            "reason": "Azure、Foundry 和 OpenAI 模型嵌入工业现场工作流，有利于云与企业 AI 平台的行业落地叙事"
+          }
+        ]
+      }
+    },
+    {
+      "id": "amazon-quick-enterprise-agentic-ai-2026-10",
+      "title": "AWS 与 PwC 展示 Amazon Quick 企业级 Agentic AI 落地路径",
+      "summary": "Amazon 发布 Amazon Quick 的企业落地案例，称该低代码 agentic 平台把 AI、Agent、研究、分析、自动化与工作流整合为单一 AWS 方案，并加入 human-in-the-loop。PwC 作为早期企业采用者和全球系统集成伙伴，已在金融服务 CIO 投资评估和大型科技公司 B2B 销售流程中部署相关工作流。事件对应平台层与应用层，显示云厂商正在通过 GSI 生态把 Agent 从试点推进到跨部门流程改造。",
+      "sourceUrl": "https://press.aboutamazon.com/aws/2026/10/scaling-agentic-ai-across-the-enterprise-with-amazon-quick",
+      "publishedAt": "2026-10-21",
+      "layerIds": [3, 4],
+      "industries": ["云计算", "Agentic AI", "企业自动化", "系统集成"],
+      "beneficiaries": {
+        "industries": ["低代码自动化", "企业 AI 咨询", "云平台服务"],
+        "companies": ["Amazon Web Services", "PwC"],
+        "stocks": [
+          {
+            "code": "usAMZN",
+            "name": "亚马逊",
+            "reason": "Amazon Quick 扩展 AWS 企业 AI 平台组合，可能提升客户在云端部署 Agent 工作流的黏性"
+          }
+        ]
+      }
+    },
+    {
+      "id": "nvidia-cosmos-world-model-tools-2026-10",
+      "title": "NVIDIA 扩展 Cosmos 工具链，面向机器人与自动驾驶世界模型训练评测部署",
+      "summary": "NVIDIA 在 GTC Berlin 期间宣布扩展 Cosmos 平台，加入新的训练工具、仿真检查点与 Cosmos Data Factory 蓝图，帮助开发者构建、适配、评测和部署物理 AI 世界模型。新蓝图覆盖自动驾驶数据生成、图像属性增强、事件视频生成、缺陷图像生成和视频数据增强，Porsche、ANYbotics、Ultralytics 等案例已用于数据飞轮、工业巡检和视觉检测。事件对应模型层与终端生态层，体现机器人和自动驾驶对合成数据、仿真评测和 GPU 推理工具链的需求上升。",
+      "sourceUrl": "https://blogs.nvidia.com/blog/cosmos-open-train-evaluate-deploy-world-models/",
+      "publishedAt": "2026-10-21",
+      "layerIds": [2, 5],
+      "industries": ["世界模型", "机器人", "自动驾驶", "合成数据"],
+      "beneficiaries": {
+        "industries": ["物理 AI 开发工具", "机器人仿真", "自动驾驶数据平台", "GPU 云服务"],
+        "companies": ["NVIDIA", "Porsche", "ANYbotics", "Ultralytics"],
+        "stocks": [
+          {
+            "code": "usNVDA",
+            "name": "英伟达",
+            "reason": "Cosmos 把物理 AI 模型、数据工厂与 NIM 推理工具链绑定到 NVIDIA GPU 生态，逻辑上受益于机器人与自动驾驶开发需求"
+          }
+        ]
+      }
+    }
+  ]
+}
