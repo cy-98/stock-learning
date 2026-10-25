@@ -1,0 +1,118 @@
+{
+  "date": "2026-10-25",
+  "items": [
+    {
+      "id": "ibm-intel-sovereign-ai-runtime-2026-10",
+      "title": "IBM 与 Intel 将 Sovereign Core 结合 TDX，强化敏感 AI 运行时控制",
+      "summary": "IBM 10 月 23 日发布与 Intel 的合作说明，将 IBM Sovereign Core 的客户自主管控、合规证据与 Intel Xeon 6 处理器的 TDX 机密计算能力结合。该方案面向金融、政府等敏感 AI 工作负载，强调模型与 Agent 运行时的硬件隔离、远程证明和持续治理。事件对应平台与工具层，也涉及算力安全底座，说明企业 AI 从模型能力竞争延伸到可验证运行环境。",
+      "sourceUrl": "https://www.ibm.com/new/announcements/protecting-ai-at-runtime-with-ibm-and-intel",
+      "publishedAt": "2026-10-23",
+      "layerIds": [1, 3],
+      "industries": ["AI 安全", "机密计算", "企业 AI 平台"],
+      "beneficiaries": {
+        "industries": ["机密计算基础设施", "主权云", "AI 治理软件"],
+        "companies": ["IBM", "Intel"],
+        "stocks": [
+          {
+            "code": "usIBM",
+            "name": "IBM",
+            "reason": "Sovereign Core 承担受监管企业 AI 的控制平面与合规证据层，可能受益于主权 AI 项目落地"
+          },
+          {
+            "code": "usINTC",
+            "name": "英特尔",
+            "reason": "Intel TDX 被用于敏感 AI 工作负载执行期隔离，增强 Xeon 平台在企业 AI 安全场景中的相关性"
+          }
+        ]
+      }
+    },
+    {
+      "id": "solo-agentshield-open-source-agent-security-2026-10",
+      "title": "Solo.io 推出开源 agentshield，防护不受控 AI Agent 访问企业基础设施",
+      "summary": "Solo.io 10 月 23 日宣布开源 agentshield，定位为围绕数据、API 与服务的防护层，用于应对外部或失控 AI Agent 以机器速度进行试探、横向移动和权限滥用。项目提供基础设施插件、攻击路径图、动态规则、可执行发现和人工或 Agent 修复流程。事件对应平台与工具层，反映 Agent 规模化之后，安全与可观测将成为企业 AI 基础设施的刚需。",
+      "sourceUrl": "https://www.solo.io/press-releases/introducing-agentshield",
+      "publishedAt": "2026-10-23",
+      "layerIds": [3],
+      "industries": ["AI 安全", "云原生", "Agent 基础设施"],
+      "beneficiaries": {
+        "industries": ["Agent 安全", "零信任网络", "云原生安全"],
+        "companies": ["Solo.io", "Agentic AI Foundation", "CNCF"],
+        "stocks": []
+      }
+    },
+    {
+      "id": "zoom-onyx-enterprise-knowledge-search-2026-10",
+      "title": "Zoom 收购 Onyx，将开源企业知识搜索并入 Zoom AI Services",
+      "summary": "Zoom 10 月 23 日宣布收购开源企业搜索与知识管理平台 Onyx，用于让企业客户把文档、wiki、工单、客户记录等上下文提供给人类用户和 AI Agent。Zoom 称 Onyx 可连接 50 多类企业应用，并支持自托管和数据主权要求，收购后 Onyx 将保持独立、开源、模型无关和应用无关。事件对应平台层与应用层，突出 RAG/知识检索在 Agent 行动前的上下文底座价值。",
+      "sourceUrl": "https://news.zoom.com/zoom-acquires-onyx-adding-open-source-enterprise-knowledge-search-to-zoom-ai-services/",
+      "publishedAt": "2026-10-23",
+      "layerIds": [3, 4],
+      "industries": ["企业搜索", "RAG", "协作软件"],
+      "beneficiaries": {
+        "industries": ["企业知识管理", "协作软件", "AI 客服与会议工作流"],
+        "companies": ["Zoom", "Onyx"],
+        "stocks": [
+          {
+            "code": "usZM",
+            "name": "Zoom",
+            "reason": "Onyx 为 Zoom AI Services 补足企业上下文检索能力，有助于其从会议协作延伸到 Agent 驱动的工作流"
+          }
+        ]
+      }
+    },
+    {
+      "id": "wolters-kluwer-cch-axcess-agentic-tax-2026-10",
+      "title": "Wolters Kluwer 在 CCH Axcess 推出 Agentic Tax Preparation",
+      "summary": "Wolters Kluwer Tax & Accounting 10 月 23 日宣布在 CCH Axcess Tax 中推出 agentic tax return preparation，用 Expert AI Agent 准备和计算美国个人 Form 1040 报税表，并在专业人员复核前标记例外事项。该能力覆盖资料识别、文档分类、税务数据提取、映射计算、诊断复核和工作底稿生成。事件对应应用与解决方案层，体现垂直 SaaS 将 Agent 嵌入行业流程，而不是只提供通用聊天入口。",
+      "sourceUrl": "https://www.wolterskluwer.com/en/news/wolters-kluwer-launches-agentic-tax-preparation-in-cch-axcess",
+      "publishedAt": "2026-10-23",
+      "layerIds": [4],
+      "industries": ["垂直 SaaS", "税务软件", "Agent 应用"],
+      "beneficiaries": {
+        "industries": ["税务与会计软件", "专业服务自动化", "企业知识工作 AI"],
+        "companies": ["Wolters Kluwer", "CCH Axcess"],
+        "stocks": []
+      }
+    },
+    {
+      "id": "agility-digit5-nvidia-igx-thor-2026-10",
+      "title": "Agility Robotics 扩大 NVIDIA 合作，Digit 5 将采用 IGX Thor 作为机载计算",
+      "summary": "Agility Robotics 10 月 22 日宣布下一代人形机器人 Digit 5 将统一采用 NVIDIA IGX Thor 模块作为机载计算架构，并继续把 NVIDIA Halos 安全能力纳入其安全系统。公司称早期访问预计在 2027 年上半年开始，随后 6 至 9 个月逐步面向制造、仓储和配送运营商扩大可用性。事件同时对应算力层和终端生态层，显示机器人商业化进入端侧 AI 计算与安全认证协同阶段。",
+      "sourceUrl": "https://www.globenewswire.com/news-release/2026/10/22/3386184/0/en/agility-robotics-expands-nvidia-collaboration-as-it-prepares-digit-5-for-commercial-scale.html",
+      "publishedAt": "2026-10-22",
+      "layerIds": [1, 5],
+      "industries": ["人形机器人", "边缘 AI 计算", "工业自动化"],
+      "beneficiaries": {
+        "industries": ["机器人机载计算", "机器人安全系统", "仓储自动化"],
+        "companies": ["Agility Robotics", "NVIDIA"],
+        "stocks": [
+          {
+            "code": "usNVDA",
+            "name": "英伟达",
+            "reason": "Digit 5 标准化采用 IGX Thor，强化 NVIDIA 在人形机器人端侧计算与安全平台中的生态位置"
+          }
+        ]
+      }
+    },
+    {
+      "id": "google-knowledge-catalog-agent-context-2026-10",
+      "title": "Google Cloud 为 Knowledge Catalog 推出自学习上下文增强，服务企业 AI Agent",
+      "summary": "Google Cloud 10 月 22 日宣布在 Knowledge Catalog 中推出 self-learning context enrichment 预览版和重新设计的 Knowledge Studio。该能力会分析 Agent 与用户交互，发现缺失或过时的业务上下文，并从 playbook、代码仓库和企业文档中提取可治理的定义、关系和指令，供 Agent 在权限边界内检索使用。事件对应平台与工具层，说明企业 Agent 的竞争重点从模型本身延伸到上下文工程、元数据治理和成本效率。",
+      "sourceUrl": "https://cloud.google.com/blog/products/data-analytics/knowledge-catalog-self-learning-context-enrichment-for-ai-agents",
+      "publishedAt": "2026-10-22",
+      "layerIds": [3],
+      "industries": ["数据治理", "RAG", "企业 AI Agent"],
+      "beneficiaries": {
+        "industries": ["云数据平台", "元数据管理", "企业 Agent 编排"],
+        "companies": ["Google Cloud"],
+        "stocks": [
+          {
+            "code": "usGOOGL",
+            "name": "Alphabet",
+            "reason": "Knowledge Catalog 强化 Gemini 与 Google Cloud 数据治理闭环，可能提升企业 Agent 平台粘性"
+          }
+        ]
+      }
+    }
+  ]
+}
